@@ -1,0 +1,94 @@
+.lc-message-header {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    align-items: center;
+    text-align: center;
+    height: 26px;
+}
+.lc-message-header a {
+    text-decoration: none;
+}
+
+.lc-replies-disabled {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lc-messages-title {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    padding: 6px 0 8px;
+    margin: 0;
+    font-weight: 600;
+}
+.lc-messages-title.lc-view-message-title {
+    padding: 10px 0 12px;
+}
+
+.lc-no-messages {
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.lc-message {
+    display: grid;
+    grid-template-columns: 126px 1fr;
+    margin-top: 2px;
+}
+.lc-message.lc-row-a {
+    background-color: #0b0b0b;
+}
+.lc-message.lc-row-b {
+    background-color: #101010;
+}
+.lc-message.lc-row-mod {
+    background-color: #051305;
+}
+.lc-message .lc-details {
+    text-align: center;
+    padding: 10px 8px;
+}
+.lc-message .lc-content {
+    padding: 10px 8px;
+}
+.lc-message .lc-content .lc-message-date {
+    text-align: right;
+    margin-bottom: 13px;
+}
+.lc-message .lc-content .lc-message-text {
+    word-wrap: break-word;
+    width: 350px;
+    white-space: pre-line;
+}
+
+.lc-reply-form textarea {
+    display: block;
+    height: 200px;
+    min-height: 100px;
+    width: 80%;
+    margin: 6px auto 16px;
+    max-width: 400px;
+    min-width: 200px;
+}
+.lc-reply-form div {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.lc-delete-form {
+    text-align: center;
+}
+.lc-delete-form div {
+    padding-top: 6px;
+}
+
+.lc-message-error {
+    text-align: center;
+    color: white;
+    background-color: #8c0000;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 13px;
+}
