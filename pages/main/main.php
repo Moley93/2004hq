@@ -33,7 +33,7 @@
             <br />
             Skill Guides coming soon for every skill!
             <br />
-            <a href="?p=skilllist" class="c">Coming Soon</a>
+            <a href="?p=skilllist" class="c">Click here</a>
         </td>
     </tr>
  </tbody>
