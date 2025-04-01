@@ -1,21 +1,21 @@
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="75" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="70" bgcolor="#382418">
+                                                    <td width="65" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="75" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="70" bgcolor="#382418">
+                                                    <td width="65" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="75" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="70" bgcolor="#382418">
+                                                    <td width="65" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
                                                 </tr>
@@ -446,7 +446,7 @@
                                                             <br><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/shark.gif"></center>
                                                     </td>
                                                     <td>
-                                                        <center>Cooking 80
+                                                        <center>Cooking 75
                                                             <br>Heals 20
                                                             <br><a href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
@@ -483,16 +483,16 @@
                                                                                                     <table bgcolor="black" cellpadding="6" border="0">
                                                                                                         <tr>
                                                                                                             <td rowspan="11" valign="top"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_left.gif"></td>
-                                                                                                            <td width="80" bgcolor="#382418">
+                                                                                                            <td width="75" bgcolor="#382418">
                                                                                                                 <center><b>Drink</b></center>
                                                                                                             </td>
-                                                                                                            <td width="70" bgcolor="#382418">
+                                                                                                            <td width="65" bgcolor="#382418">
                                                                                                                 <center><b>Image</b></center>
                                                                                                             </td>
-                                                                                                            <td width="70" bgcolor="#382418">
+                                                                                                            <td width="65" bgcolor="#382418">
                                                                                                                 <center><b>Level</b></center>
                                                                                                             </td>
-                                                                                                            <td width="80" bgcolor="#382418">
+                                                                                                            <td width="75" bgcolor="#382418">
                                                                                                                 <center><b>Main Ingredient</b></center>
                                                                                                             </td>
                                                                                                             <td rowspan="11" valign="bottom"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_right1.gif"></td>
