@@ -482,7 +482,6 @@
                                             <p>
                                                                                                     <table bgcolor="black" cellpadding="6" border="0">
                                                                                                         <tr>
-                                                                                                            <td rowspan="11" valign="top"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_left.gi"></td>
                                                                                                             <td width="75" bgcolor="#382418">
                                                                                                                 <center><b>Drink</b></center>
                                                                                                             </td>
@@ -495,7 +494,6 @@
                                                                                                             <td width="75" bgcolor="#382418">
                                                                                                                 <center><b>Main Ingredient</b></center>
                                                                                                             </td>
-                                                                                                            <td rowspan="11" valign="bottom"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_right1.gi"></td>
                                                                                                         </tr>
                                                                                                         <tr>
                                                                                                             <td>
