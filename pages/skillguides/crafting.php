@@ -6,10 +6,10 @@
 <table bgcolor="black" cellpadding="6" border="0">
 
 <tr>
-<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="70" bgcolor="#382418"><center><b>Level</b></center></td>
-<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="70" bgcolor="#382418"><center><b>Level</b></center></td>
+<td width="85" bgcolor="#382418"><center><b>Item</b></center></td>
+<td width="65" bgcolor="#382418"><center><b>Level</b></center></td>
+<td width="85" bgcolor="#382418"><center><b>Item</b></center></td>
+<td width="65" bgcolor="#382418"><center><b>Level</b></center></td>
 </tr>
 
 <tr>
