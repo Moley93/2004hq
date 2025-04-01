@@ -113,7 +113,7 @@ if (empty($_GET['quest'])) {
         include('template/header.php');
         include('template/body.php');
         include 'pages/questguides/free/'.$currQuest.'.php';
-    } else if (file_exists('pages/questguides/members/'.htmlspecialchars($_GET['quest']).'.php')) {
+    } else if (file_exists('pages/questguides/members/'.$currQuest.'.php')) {
         $meta_data['title'] = 'Quest Guides > '.array_search($currQuest,$questlist_members);
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:url'] = '?p=questlist&quest='.$currQuest;
