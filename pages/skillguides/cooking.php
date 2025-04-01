@@ -1,21 +1,21 @@
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="70" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="6" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="70" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="60" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="70" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
-                                                    <td width="65" bgcolor="#382418">
+                                                    <td width="60" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
                                                 </tr>
