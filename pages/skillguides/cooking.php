@@ -491,7 +491,7 @@
                                                                                                             <td width="65" bgcolor="#382418">
                                                                                                                 <center><b>Level</b></center>
                                                                                                             </td>
-                                                                                                            <td width="65" bgcolor="#382418">
+                                                                                                            <td width="100" bgcolor="#382418">
                                                                                                                 <center><b>Main Ingredient</b></center>
                                                                                                             </td>
                                                                                                         </tr>
