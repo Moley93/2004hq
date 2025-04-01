@@ -1,4 +1,12 @@
         <center><b>Cooking</b></center>
+        <p>
+            <p>There are a variety of different foods you can cook in RuneScape. Food is useful because eating it will heal lost hit points. As you practice your cooking, your character will get better. You will burn food less often, and you will be able
+                to make better food which heals you more.
+                <p>To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our
+                    <a
+                    href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/skills/firemaking.ws" class="c">Firemaking section</a>.
+                        <p>A guide to the different foods you can cook is shown below. In addition to the foods listed there are also some low-level foods and drinks which can be bought directly from the shops and pubs in RuneScape. A similar table can be
+                            opened in the game by clicking the cooking skill icon in the stats menu.
                             <br>
                             <p>
                                 <center><b>Cooking Items </b></center>
@@ -9,19 +17,19 @@
                                         <center>
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="90" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="90" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="80" bgcolor="#382418">
+                                                    <td width="90" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
@@ -88,7 +96,7 @@
                                                     <td>
                                                         <center>Cooking 1
                                                             <br>Heals 3
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Karambwan
@@ -97,7 +105,7 @@
                                                     <td>
                                                         <center>Cooking 1
                                                             <br>Heals 18
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Ugthanki kebabs
@@ -106,7 +114,7 @@
                                                     <td>
                                                         <center>Cooking 1
                                                             <br>Heals 19
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -125,7 +133,7 @@
                                                     <td>
                                                         <center>Cooking 7
                                                             <br>Heals 4
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Spicy sauce
@@ -134,7 +142,7 @@
                                                     <td>
                                                         <center>Cooking 9
                                                             <br>Heals 2
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -145,7 +153,7 @@
                                                     <td>
                                                         <center>Cooking 10
                                                             <br>Heals 6
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Redberry pie
@@ -162,7 +170,7 @@
                                                     <td>
                                                         <center>Cooking 11
                                                             <br>Heals 5
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -173,7 +181,7 @@
                                                     <td>
                                                         <center>Cooking 12
                                                             <br>Heals 5-7
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Scrambled egg
@@ -182,7 +190,7 @@
                                                     <td>
                                                         <center>Cooking 13
                                                             <br>Heals 5
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Trout
@@ -201,7 +209,7 @@
                                                     <td>
                                                         <center>Cooking 16
                                                             <br>Heals 7-10
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Lean Snail
@@ -210,7 +218,7 @@
                                                     <td>
                                                         <center>Cooking 17
                                                             <br>Heals 6-8
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Cod
@@ -219,7 +227,7 @@
                                                     <td>
                                                         <center>Cooking 18
                                                             <br>Heals 7
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -246,7 +254,7 @@
                                                     <td>
                                                         <center>Cooking 20
                                                             <br>Heals 3
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -256,7 +264,7 @@
                                                     </td>
                                                     <td>
                                                         <center>Cooking 21
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Fat Snail
@@ -265,7 +273,7 @@
                                                     <td>
                                                         <center>Cooking 22
                                                             <br>Heals 7-9
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Egg and tomato
@@ -274,7 +282,7 @@
                                                     <td>
                                                         <center>Cooking 23
                                                             <br>Heals 8
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -301,7 +309,7 @@
                                                     <td>
                                                         <center>Cooking 28
                                                             <br>Heals 6-10
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -312,7 +320,7 @@
                                                     <td>
                                                         <center>Cooking 28
                                                             <br>Heals 2-10
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Tuna
@@ -339,7 +347,7 @@
                                                     <td>
                                                         <center>Cooking 30
                                                             <br>Heals 10
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Pizza
@@ -365,7 +373,7 @@
                                                     </td>
                                                     <td>
                                                         <center>Cooking 38
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Potato with
@@ -375,7 +383,7 @@
                                                     <td>
                                                         <center>Cooking 39
                                                             <br>Heals 14
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Lobster
@@ -402,7 +410,7 @@
                                                     <td>
                                                         <center>Cooking 41
                                                             <br>Heals 14
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Fried onions
@@ -411,7 +419,7 @@
                                                     <td>
                                                         <center>Cooking 42
                                                             <br>Heals 5
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -422,7 +430,7 @@
                                                     <td>
                                                         <center>Cooking 43
                                                             <br>Heals 13
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Swordfish
@@ -449,7 +457,7 @@
                                                     <td>
                                                         <center>Cooking 46
                                                             <br>Heals 5
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Potato with Cheese
@@ -458,7 +466,7 @@
                                                     <td>
                                                         <center>Cooking 47
                                                             <br>Heals 16
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Cheese
@@ -466,7 +474,7 @@
                                                     </td>
                                                     <td>
                                                         <center>Cooking 48
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -485,7 +493,7 @@
                                                     <td>
                                                         <center>Cooking 51
                                                             <br>Heals 16
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Anchovy
@@ -505,7 +513,7 @@
                                                     <td>
                                                         <center>Cooking 57
                                                             <br>Heals 11
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Pitta
@@ -514,7 +522,7 @@
                                                     </td>
                                                     <td>
                                                         <center>Cooking 58
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Curry
@@ -523,7 +531,7 @@
                                                     <td>
                                                         <center>Cooking 60
                                                             <br>Heals 19
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -534,7 +542,7 @@
                                                     <td>
                                                         <center>Cooking 64
                                                             <br>Heals 20
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Pineapple
@@ -544,7 +552,7 @@
                                                     <td>
                                                         <center>Cooking 65
                                                             <br>Heals 22
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Tuna and corn
@@ -553,7 +561,7 @@
                                                     <td>
                                                         <center>Cooking 67
                                                             <br>Heals 13
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -564,7 +572,7 @@
                                                     <td>
                                                         <center>Cooking 68
                                                             <br>Heals 22
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Shark
@@ -573,7 +581,7 @@
                                                     <td>
                                                         <center>Cooking 80
                                                             <br>Heals 20
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td valign="top">
                                                         <center>Seaturtle
@@ -582,7 +590,7 @@
                                                     <td>
                                                         <center>Cooking 82
                                                             <br>Heals 21
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -595,7 +603,7 @@
                                                     <td>
                                                         <center>Cooking 91
                                                             <br>Heals 22
-                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
+                                                            <br><a href="https://web.archive.org/web/20060207061441/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members only</a></center>
                                                     </td>
                                                     <td>&nbsp;</td>
                                                     <td>&nbsp;</td>
