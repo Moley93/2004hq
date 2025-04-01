@@ -2,10 +2,10 @@
 
 <table bgcolor="black" cellpadding="3" border="0">
 <tr>
-<td width="85" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="65" bgcolor="#382418"><center><b>Level</b></center></td>
-<td width="85" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="65" bgcolor="#382418"><center><b>Level</b></center></td>
+<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
+<td width="90" bgcolor="#382418"><center><b>Level</b></center></td>
+<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
+<td width="90" bgcolor="#382418"><center><b>Level</b></center></td>
 </tr>
 
 <tr>
