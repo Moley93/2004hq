@@ -29,7 +29,7 @@
             <center>
 <img src="img\blank.gif" height="7" width="1"><br>
 
-<a href="index.php">Main Menu</a> - <a href="https://2004.lostcity.rs/worldmap">World Map</a> - <a href="https://2004.lostcity.rs/hiscores">Hiscores</a> - <a href="https://lostcity.markets">Market Place</a> - <a href="?p=changelog">Change Log</a> 
+<a href="?">Main Menu</a> - <a href="https://2004.lostcity.rs/worldmap">World Map</a> - <a href="https://2004.lostcity.rs/hiscores">Hiscores</a> - <a href="https://lostcity.markets">Market Place</a> - <a href="?p=changelog">Change Log</a> 
 
 <table bgcolor="black" cellpadding="0" cellspacing="0">
    <tbody><tr valign="top">

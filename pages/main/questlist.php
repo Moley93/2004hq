@@ -1,4 +1,9 @@
-<?php 
+<?php
+$meta_data['title'] = 'Quest Guides';
+$meta_data['og:title'] = $meta_data['title'];
+$meta_data['og:url'] = '?p=questlist';
+$meta_data['og:image'] = 'img/questicon.webp';
+
 $questlist_free = array(
     "Black Knight's Fortress" => "blackknightsfortress",
     "Cook's Assistant" => "cooksassistant",
@@ -58,6 +63,8 @@ ksort($questlist_free);
 ksort($questlist_members);
 
 if (empty($_GET['quest'])) {
+    include('template/header.php');
+    include('template/body.php');
     echo '<table width="350">
     <tbody><tr>
             <td width="300" height="31" align="middle" bordercolor="#FFFFFF">
@@ -97,12 +104,25 @@ if (empty($_GET['quest'])) {
     }
     echo '</tbody></table>';
 } else {
-    if (file_exists('pages/questguides/free/'.htmlspecialchars($_GET['quest']).'.php')) {
-        include 'pages/questguides/free/'.htmlspecialchars($_GET['quest']).'.php';
+    $currQuest = htmlspecialchars($_GET['quest']);
+    if (file_exists('pages/questguides/free/'.$currQuest.'.php')) {
+        $meta_data['title'] = 'Quest Guides > '.array_search($currQuest,$questlist_free);
+        $meta_data['og:title'] = $meta_data['title'];
+        $meta_data['og:url'] = '?p=questlist&quest='.$currQuest;
+        $meta_data['og:image'] = 'img/questicon.webp';//TODO: Customize per skill
+        include('template/header.php');
+        include('template/body.php');
+        include 'pages/questguides/free/'.$currQuest.'.php';
     } else if (file_exists('pages/questguides/members/'.htmlspecialchars($_GET['quest']).'.php')) {
-        include 'pages/questguides/members/'.htmlspecialchars($_GET['quest']).'.php';
+        $meta_data['title'] = 'Quest Guides > '.array_search($currQuest,$questlist_members);
+        $meta_data['og:title'] = $meta_data['title'];
+        $meta_data['og:url'] = '?p=questlist&quest='.$currQuest;
+        $meta_data['og:image'] = 'img/questicon.webp';//TODO: Customize per skill
+        include('template/header.php');
+        include('template/body.php');
+        include 'pages/questguides/members/'.$currQuest.'.php';
     } else {
-        echo 'Quest not found.';
+        header("Location: ?p=404");
     }
 }
 ?>

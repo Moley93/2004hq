@@ -1,3 +1,11 @@
+<?php
+$meta_data['title'] = 'Changelog';
+$meta_data['og:title'] = $meta_data['title'];
+$meta_data['og:url'] = '?p=changelog';
+$meta_data['og:image'] = 'img\sword.png';
+include('template/header.php');
+include('template/body.php');
+?>
 <u><b>Change Log</b></u><br>
 <br>
 26/03/2025 - Website Launch<br>
@@ -39,7 +47,8 @@
 31/03/2025 - Meta Data for Link Previews Added<br>
 31/03/2025 - Moved Quests to own page<br>
 31/03/2025 - Created new homepage<br>
-31/03/2025 - Website rebuilt with php by Collin<br />
+31/03/2025 - Website rebuilt with php by Collin<br>
+01/04/2025 - Cooking Skill Guide added<br>
 <br>
 <u><b>To Do</b></u><br>
 <br>
