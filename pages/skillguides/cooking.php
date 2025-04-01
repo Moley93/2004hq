@@ -1,22 +1,16 @@
-Use food on a stove!
-
-        <center><b>Cooking</b></center>
-        <p>
-            <p>There are a variety of different foods you can cook in RuneScape. Food is useful because eating it will heal lost hit points. As you practice your cooking, your character will get better. You will burn food less often, and you will be able
+        Cooking
+        
+            There are a variety of different foods you can cook in RuneScape. Food is useful because eating it will heal lost hit points. As you practice your cooking, your character will get better. You will burn food less often, and you will be able
                 to make better food which heals you more.
-                <p>To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our
-                    <a
-                    href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/skills/firemaking.ws" class="c">Firemaking section</a>.
-                        <p>A guide to the different foods you can cook is shown below. In addition to the foods listed there are also some low-level foods and drinks which can be bought directly from the shops and pubs in RuneScape. A similar table can be
+                To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our
+                    Firemaking section.
+                        A guide to the different foods you can cook is shown below. In addition to the foods listed there are also some low-level foods and drinks which can be bought directly from the shops and pubs in RuneScape. A similar table can be
                             opened in the game by clicking the cooking skill icon in the stats menu.
-                            <br>
-                            <p>
-                                <center><b>Cooking Items </b></center>
-                                <p>
-                                    <p>A list of the different foods you can cook in Runescape are shown below with the cooking level needed (cooking) and the amount it heals your hit points (healing).
-                                        <br>
-                                        <br>
-                                        <center>
+                            
+                            
+                                Cooking Items 
+                                
+                                    A list of the different foods you can cook in Runescape are shown below with the cooking level needed (cooking) and the amount it heals your hit points (healing).                                        <center>
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
                                                     <td width="90" bgcolor="#382418">
