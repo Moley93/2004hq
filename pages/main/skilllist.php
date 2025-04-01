@@ -6,21 +6,21 @@ $skilllist_free = array(
 //    "Ranged" => "ranged",
 //    "Prayer" => "prayer",
     "Magic" => "magic",
-    "Runecrafting" => "runecrafting",
+//    "Runecrafting" => "runecrafting",
 //    "Hitpoints" => "hitpoints",
     "Crafting" => "crafting",
-    "Mining" => "mining",
-    "Smithing" => "smithing",
-    "Fishing" => "fishing",
+//   "Mining" => "mining",
+//    "Smithing" => "smithing",
+//    "Fishing" => "fishing",
     "Cooking" => "cooking",
-    "Firemaking" => "firemaking",
-    "Woodcutting" => "woodcutting"
+//    "Firemaking" => "firemaking",
+//    "Woodcutting" => "woodcutting"
 );
 $skilllist_members = array(
-    "Agility" => "agility",
-    "Herblore" => "herblore",
-    "Thieving" => "thieving",
-    "Fletching" => "fletching",
+//    "Agility" => "agility",
+//    "Herblore" => "herblore",
+//    "Thieving" => "thieving",
+//    "Fletching" => "fletching",
 );
 ksort($skilllist_free);
 ksort($skilllist_members);
