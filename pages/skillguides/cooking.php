@@ -1,7 +1,7 @@
         <center><b>Cooking</b></center>
                                 <center><b>Cooking Items </b></center>
-                                <p>
-                                    <p>A list of the different foods you can cook in Runescape are shown below with the cooking level needed (cooking) and the amount it heals your hit points (healing).
+                                <br>
+                                    <br>A list of the different foods you can cook in Runescape are shown below with the cooking level needed (cooking) and the amount it heals your hit points (healing).
                                         <br>
                                         <br>
                                         <center>
@@ -486,23 +486,23 @@
                                                 <td></td>
                                                 </tr>
                                             </table>
-                                            <p>
+                                            <br>
                                                 <center><b>The Cooking Guild</b></center>
-                                                <p>
-                                                    <p align="justify">If you are level 32 or above in your cooking skill and are wearing a chefs hat then you can enter the Cooking Guild which is just North-west of Varrock.
-                                                        <p align="justify"> The cooking guild contains a number of items useful for cooks, including a flour mill, a water supply, and stoves to cook on as well as useful ingredients such as apples and chocolate.
-                                                            <p>
+                                                <br>
+                                                    <br>If you are level 32 or above in your cooking skill and are wearing a chefs hat then you can enter the Cooking Guild which is just North-west of Varrock.
+                                                        <br> The cooking guild contains a number of items useful for cooks, including a flour mill, a water supply, and stoves to cook on as well as useful ingredients such as apples and chocolate.
+                                                            <br>
                                                                 <center><b>Other foods</b></center>
-                                                                <p>
-                                                                    <p align="justify">There are a number of other foods available to <a href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members</a>                                                                        obtainable from the various races that inhabit RuneScape.
-                                                                        <p align="justify"> Visitors to the Tree Gnome Stronghold will be able to taste and create a wide variety of different foods at the Gnome Restaurant by using the recipe book available there, and there
+                                                                <br>
+                                                                    <br>There are a number of other foods available to <a href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members</a>                                                                        obtainable from the various races that inhabit RuneScape.
+                                                                        <br> Visitors to the Tree Gnome Stronghold will be able to taste and create a wide variety of different foods at the Gnome Restaurant by using the recipe book available there, and there
                                                                             are further local delicacys to be discovered in many different regions of RuneScape.
-                                                                            <p>
-                                                                                <p>
-                                                                                    <p>
+                                                                            <br>
+                                                                                <br>
+                                                                                    <br>
                                                                                         <center><b>Brewing (Members only)</b></center>
-                                                                                        <p align="justify"> A wide range of ales (including cider) can be brewed in the breweries of Keldagrim and Port Phasmatys. This is the list of ales that can be made:
-                                                                                            <p>
+                                                                                        <br> A wide range of ales (including cider) can be brewed in the breweries of Keldagrim and Port Phasmatys. This is the list of ales that can be made:
+                                                                                            <br>
                                                                                                 <center>
                                                                                                     <table bgcolor="black" cellpadding="6" border="0">
                                                                                                         <tr>
@@ -663,11 +663,11 @@
                                                                                                         </tr>
                                                                                                     </table>
                                                                                                 </center>
-                                                                                                <p>
-                                                                                                    <p align="justify">When the yeast has been added the mixture will begin to ferment, which may take anything up to a whole day, so be prepared to just leave it and do something
+                                                                                                <br>
+                                                                                                    <br>When the yeast has been added the mixture will begin to ferment, which may take anything up to a whole day, so be prepared to just leave it and do something
                                                                                                         else in the meantime. Eventually the ale or cider will be ready for drinking – turn the valve and the barrel will fill up with your chosen tipple.
                                                                                                         You can then fill up to 8 beer-glasses from the barrel, or alternatively, scoop the flesh out of a Calquat fruit with a knife and you have a keg that
-                                                                                                        can hold 4 pints' worth by itself! </p>
+                                                                                                        can hold 4 pints' worth by itself! <br>
                                                                                                     <center>
                                                                                                         <table style="color: black" cellpadding="0" cellspacing="0">
                                                                                                             <tr>
@@ -677,7 +677,7 @@
                                                                                                                         <table style="color: black">
                                                                                                                             <tr>
                                                                                                                                 <td>
-                                                                                                                                    <p>
+                                                                                                                                    <br>
                                                                                                                                         <ol>
                                                                                                                                             <li>Add 2 buckets of water to an empty vat.</li>
                                                                                                                                             <li>Add 2 handfuls of barley malt
@@ -694,7 +694,7 @@
                                                                                                                 <td background="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_recipemedium.gif" width="356"
                                                                                                                 height="240">
                                                                                                                     <center><b>How to brew cider</b>
-                                                                                                                        <p>
+                                                                                                                        <br>
                                                                                                                             <table style="color: black">
                                                                                                                                 <tr>
                                                                                                                                     <td>
@@ -713,10 +713,10 @@
                                                                                                             </tr>
                                                                                                             <tr>
                                                                                                                 <td height="50" colspan="2" style="color: white">
-                                                                                                                    <p>
-                                                                                                                        <p>
+                                                                                                                    <br>
+                                                                                                                        <br>
                                                                                                                             <center><b>How To Cook</b></center>
-                                                                                                                            <p>
+                                                                                                                            <br>
                                                                                                                 </td>
                                                                                                             </tr>
                                                                                                             <tr>
@@ -729,7 +729,7 @@
                                                                                                                                     <table style="color: black" border="0">
                                                                                                                                         <tr>
                                                                                                                                             <td>
-                                                                                                                                                <p><b>Bread</b></p>
+                                                                                                                                                <br><b>Bread</b><br>
                                                                                                                                             </td>
                                                                                                                                             <td><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/bread2.gif"></td>
                                                                                                                                         </tr>
@@ -737,7 +737,7 @@
                                                                                                                                     <table style="color: black" width="305">
                                                                                                                                         <tr>
                                                                                                                                             <td>
-                                                                                                                                                <p>
+                                                                                                                                                <br>
                                                                                                                                                     <ol>
                                                                                                                                                         <li>Pick some grain, and take it to the windmill to make flour.</li>
                                                                                                                                                         <li>You will need to use a pot to pick up the flour you have made.</li>
@@ -761,7 +761,7 @@
                                                                                                                                     <table style="color: black" border="0">
                                                                                                                                         <tr>
                                                                                                                                             <td>
-                                                                                                                                                <p><b>Pies</b></p>
+                                                                                                                                                <br><b>Pies</b><br>
                                                                                                                                             </td>
                                                                                                                                             <td><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_mpie.gif"></td>
                                                                                                                                         </tr>
@@ -769,7 +769,7 @@
                                                                                                                                     <table style="color: black" width="305">
                                                                                                                                         <tr>
                                                                                                                                             <td>
-                                                                                                                                                <p>
+                                                                                                                                                <br>
                                                                                                                                                     <ol>
                                                                                                                                                         <li>Mix flour and water to make some pastry dough.</li>
                                                                                                                                                         <li>Place the dough in an empty pie dish.</li>
@@ -798,7 +798,7 @@
                                                                                                                                     <table style="color: black">
                                                                                                                                         <tr>
                                                                                                                                             <td colspan="2" width="305">
-                                                                                                                                                <p>
+                                                                                                                                                <br>
                                                                                                                                                     <ol>
                                                                                                                                                         <li>Mix flour, eggs, milk together in a cake tin.</li>
                                                                                                                                                         <li>Cook the cake by using it with a stove.</li>
@@ -826,7 +826,7 @@
                                                                                                                                     <table style="color: black">
                                                                                                                                         <tr>
                                                                                                                                             <td colspan="2" width="305">
-                                                                                                                                                <p>
+                                                                                                                                                <br>
                                                                                                                                                     <ol>
                                                                                                                                                         <li>Obtain a bowl, and fill it with water from a sink or fountain.</li>
                                                                                                                                                         <li>Pick a potato and place it in the bowl.</li>
@@ -886,7 +886,7 @@
                                                                                                                                     <table style="color: black" border="0" width="305">
                                                                                                                                         <tr>
                                                                                                                                             <td colspan="2">
-                                                                                                                                                <p>
+                                                                                                                                                <br>
                                                                                                                                                     <ol>
                                                                                                                                                         <li>Make some uncooked stew(see stew description).</li>
                                                                                                                                                         <li>Before cooking the stew add some spices.</li>
@@ -914,7 +914,7 @@
                                                                                                                                             <table style="color: black" border="0" width="305">
                                                                                                                                                 <tr>
                                                                                                                                                     <td colspan="2">
-                                                                                                                                                        <p>
+                                                                                                                                                        <br>
                                                                                                                                                             <ol>
                                                                                                                                                                 <li>Fill a jug with water.</li>
                                                                                                                                                                 <li>Use grapes with the jug of water.</li>
@@ -943,7 +943,7 @@
                                                                                                                                                     <table style="color: black" border="0" width="305">
                                                                                                                                                         <tr>
                                                                                                                                                             <td colspan="2">
-                                                                                                                                                                <p>
+                                                                                                                                                                <br>
                                                                                                                                                                     <ol>
                                                                                                                                                                         <li>Mix flour and water to make a pizza base.</li>
                                                                                                                                                                         <li>Buy a tomato and add it to the pizza.</li>
@@ -973,7 +973,7 @@
                                                                                                                                                             <table style="color: black" border="0" width="305">
                                                                                                                                                                 <tr>
                                                                                                                                                                     <td colspan="2">
-                                                                                                                                                                        <p>
+                                                                                                                                                                        <br>
                                                                                                                                                                             <ol>
                                                                                                                                                                                 <li>Cook some raw Ugthanki meat.</li>
                                                                                                                                                                                 <li>Obtain a bowl, a knife, an onion and a tomato.</li>
@@ -1000,7 +1000,7 @@
                                                                                                                                                                     <table style="color: black" border="0">
                                                                                                                                                                         <tr>
                                                                                                                                                                             <td>
-                                                                                                                                                                                <p><b>Fish</b></p>
+                                                                                                                                                                                <br><b>Fish</b><br>
                                                                                                                                                                             </td>
                                                                                                                                                                             <td><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_swordfish.gif"></td>
                                                                                                                                                                         </tr>
@@ -1008,7 +1008,7 @@
                                                                                                                                                                     <table style="color: black" border="0" width="305">
                                                                                                                                                                         <tr>
                                                                                                                                                                             <td colspan="2">
-                                                                                                                                                                                <p>
+                                                                                                                                                                                <br>
                                                                                                                                                                                     <ul>
                                                                                                                                                                                         <li>To cook fish you need to use your choice of fish with a fire or stove
                                                                                                                                                                                             to cook it. (To find out how to catch fish please see our <a href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/skills/fishing.ws"
