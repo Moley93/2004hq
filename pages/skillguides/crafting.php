@@ -1,10 +1,6 @@
 <center><b>Crafting</b></center><p>
 
-<table border="0"><tr><td>
-
-<center>
-<table bgcolor="black" cellpadding="6" border="0">
-
+<table bgcolor="black" cellpadding="3" border="0">
 <tr>
 <td width="85" bgcolor="#382418"><center><b>Item</b></center></td>
 <td width="65" bgcolor="#382418"><center><b>Level</b></center></td>
