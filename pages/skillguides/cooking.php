@@ -1,16 +1,3 @@
-        Cooking
-        
-            There are a variety of different foods you can cook in RuneScape. Food is useful because eating it will heal lost hit points. As you practice your cooking, your character will get better. You will burn food less often, and you will be able
-                to make better food which heals you more.
-                To cook food you will need to use one of the many stoves which are scattered around the map. Alternatively if there aren't any stoves nearby you can build a campfire and use that. For more information on building fires please see our
-                    Firemaking section.
-                        A guide to the different foods you can cook is shown below. In addition to the foods listed there are also some low-level foods and drinks which can be bought directly from the shops and pubs in RuneScape. A similar table can be
-                            opened in the game by clicking the cooking skill icon in the stats menu.
-                            
-                            
-                                Cooking Items 
-                                
-                                    A list of the different foods you can cook in Runescape are shown below with the cooking level needed (cooking) and the amount it heals your hit points (healing).                                        <center>
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
                                                     <td width="90" bgcolor="#382418">
@@ -493,23 +480,6 @@
                                                 </tr>
                                             </table>
                                             <p>
-                                                <center><b>The Cooking Guild</b></center>
-                                                <p>
-                                                    <p align="justify">If you are level 32 or above in your cooking skill and are wearing a chefs hat then you can enter the Cooking Guild which is just North-west of Varrock.
-                                                        <p align="justify"> The cooking guild contains a number of items useful for cooks, including a flour mill, a water supply, and stoves to cook on as well as useful ingredients such as apples and chocolate.
-                                                            <p>
-                                                                <center><b>Other foods</b></center>
-                                                                <p>
-                                                                    <p align="justify">There are a number of other foods available to <a href="https://web.archive.org/web/20051126172240/http://www.runescape.com/lang/en/aff/runescape/members/members.ws" class="c">Members</a>                                                                        obtainable from the various races that inhabit RuneScape.
-                                                                        <p align="justify"> Visitors to the Tree Gnome Stronghold will be able to taste and create a wide variety of different foods at the Gnome Restaurant by using the recipe book available there, and there
-                                                                            are further local delicacys to be discovered in many different regions of RuneScape.
-                                                                            <p>
-                                                                                <p>
-                                                                                    <p>
-                                                                                        <center><b>Brewing (Members only)</b></center>
-                                                                                        <p align="justify"> A wide range of ales (including cider) can be brewed in the breweries of Keldagrim and Port Phasmatys. This is the list of ales that can be made:
-                                                                                            <p>
-                                                                                                <center>
                                                                                                     <table bgcolor="black" cellpadding="6" border="0">
                                                                                                         <tr>
                                                                                                             <td rowspan="11" valign="top"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_left.gif"></td>
@@ -670,10 +640,6 @@
                                                                                                     </table>
                                                                                                 </center>
                                                                                                 <p>
-                                                                                                    <p align="justify">When the yeast has been added the mixture will begin to ferment, which may take anything up to a whole day, so be prepared to just leave it and do something
-                                                                                                        else in the meantime. Eventually the ale or cider will be ready for drinking – turn the valve and the barrel will fill up with your chosen tipple.
-                                                                                                        You can then fill up to 8 beer-glasses from the barrel, or alternatively, scoop the flesh out of a Calquat fruit with a knife and you have a keg that
-                                                                                                        can hold 4 pints' worth by itself! </p>
                                                                                                     <center>
                                                                                                         <table style="color: black" cellpadding="0" cellspacing="0">
                                                                                                             <tr>
