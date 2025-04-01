@@ -1,9 +1,9 @@
 <center><b>Crafting</b></center><p>
 
 <table border="0"><tr><td>
-<p>
+<p><center>
 The crafting skill can be used to make different things out of all sort of materials. Gems, gold bars, silver bars, leather and clay are all used in crafting. A similar table to the one below can be opened in the game by clicking the crafting skill icon in the stats menu.
-<p>
+</center><p>
 
 
 <center>
