@@ -1,18 +1,18 @@
                                             <table bgcolor="black" cellpadding="3" border="0">
                                                 <tr>
-                                                    <td width="90" bgcolor="#382418">
+                                                    <td width="80" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="90" bgcolor="#382418">
+                                                    <td width="80" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
                                                         <center><b>Level</b></center>
                                                     </td>
-                                                    <td width="90" bgcolor="#382418">
+                                                    <td width="80" bgcolor="#382418">
                                                         <center><b>Food</b></center>
                                                     </td>
                                                     <td width="70" bgcolor="#382418">
@@ -483,7 +483,7 @@
                                                                                                     <table bgcolor="black" cellpadding="6" border="0">
                                                                                                         <tr>
                                                                                                             <td rowspan="11" valign="top"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_left.gif"></td>
-                                                                                                            <td width="90" bgcolor="#382418">
+                                                                                                            <td width="80" bgcolor="#382418">
                                                                                                                 <center><b>Drink</b></center>
                                                                                                             </td>
                                                                                                             <td width="70" bgcolor="#382418">
@@ -492,7 +492,7 @@
                                                                                                             <td width="70" bgcolor="#382418">
                                                                                                                 <center><b>Level</b></center>
                                                                                                             </td>
-                                                                                                            <td width="90" bgcolor="#382418">
+                                                                                                            <td width="80" bgcolor="#382418">
                                                                                                                 <center><b>Main Ingredient</b></center>
                                                                                                             </td>
                                                                                                             <td rowspan="11" valign="bottom"><img src="https://web.archive.org/web/20051126172240im_/http://www.runescape.com/img/rs2/manual/cooking/cooking_right1.gif"></td>
