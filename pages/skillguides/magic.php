@@ -1,9 +1,5 @@
 <center><b>Magic</b></center><p>
 
-
-<center>
-<table bgcolor="black" cellpadding="6" border="0">
-
 <center><b>Rune Types</b></center>
                                             <br>
                                             <br>
@@ -62,6 +58,9 @@
                                                     <td>Blood rune - Required for high level wave spells.</td>
                                                 </tr>
                                             </table>
+
+<center>
+<table bgcolor="black" cellpadding="6" border="0">
 
 <tr>
 <td width="80" bgcolor="#382418"><center><b>Item name</b></center></td>
