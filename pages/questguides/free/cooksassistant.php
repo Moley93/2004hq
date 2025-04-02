@@ -24,6 +24,7 @@ Egg: You can find some eggs in a farm which is located in northeast of the Lumbr
 
 Milk: There should be a house near the chickens in the farm. Enter the house and get a bucket. Exit the farm and go to the east of this farm. You will find some cows there. Use the bucket on a cow and you will get a bucket of milk.<br>
 <br>
+<img src="https://web.archive.org/web/20071107225502im_/http://runehq.com/image/quests/f2p/cooks_assistant/lumbridgemap.png" height="400" width="400"><br>
 
 
 3. After you get all the ingredients, return to the cook and he will reward you<br>
@@ -31,3 +32,5 @@ Milk: There should be a house near the chickens in the farm. Enter the house and
 This quest guide was written on RuneHQ by henry-x. Thanks to DNKevin and Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 21, 2004, at 04:19:36 PM by Weezy and CJH and was last updated on Mon, Aug 02, 2004, at 07:38:58 AM.<br>
+<br>
+<img src="https://web.archive.org/web/20071107225502im_/http://runehq.com/image/quests/f2p/cooks_assistant/caquestcomplete.gif" height="200" width="360"><br>
