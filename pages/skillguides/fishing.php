@@ -95,7 +95,7 @@ You can find below the guides to each of the different types of fishing you can 
 </tr>
 
 <tr>
-<td valign="top"><center>Manta Ray<br><img src="https://oldschool.runescape.wiki/images/Raw_manta_ray.png?e3d63" width="48" height="32"></center></td>
+<td valign="top"><center>Manta Ray<br><img src="https://oldschool.runescape.wiki/images/Raw_manta_ray.png?e3d63" width="32" height="32"></center></td>
 <td><center>Level 81<br>Type: Trawler Mini Game<br><a href="https://web.archive.org/web/20050204055533/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
 </tr>
 <td valign="top"></td>
