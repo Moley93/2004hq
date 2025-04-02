@@ -3,7 +3,6 @@
 <center><b>Rune Types</b></center>
                                             <br>
                                             <br>
-                                            <br>
                                             <table>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
@@ -58,6 +57,8 @@
                                                     <td>Blood rune - Required for high level wave spells.</td>
                                                 </tr>
                                             </table>
+                                            <br>
+                                            <br>
 
 <center>
 <table bgcolor="black" cellpadding="6" border="0">
