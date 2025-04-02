@@ -13,7 +13,7 @@
                                 class="c">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.
                                 <p>
                                     <center>
-                                        <table width="350">
+                                        <table width="300">
                                             <tr>
                                                 <td>
                                                     <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells2.gif"></center>
@@ -27,7 +27,7 @@
                                             <br>
                                             <br>
                                             <br>
-                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="350" cellpadding="3" cellspacing="3">
+                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="300" cellpadding="3" cellspacing="3">
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
                                                     <td>Earth rune - One of the 4 elemental runes. Can be replaced by a staff of earth.</td>
@@ -124,7 +124,7 @@
                                                                                     <td width="75" bgcolor="#382418">
                                                                                         <center><b>Level to enchant</b></center>
                                                                                     </td>
-                                                                                    <td width="90" bgcolor="#382418">
+                                                                                    <td width="85" bgcolor="#382418">
                                                                                         <center><b>Effect when equipped</b></center>
                                                                                     </td>
                                                                                     <td width="75" bgcolor="#382418">
@@ -339,23 +339,6 @@
                                                                                     <td>
                                                                                         <center>Boosts attack, strength, magic, ranged and defence when worn. Can also be charged in the Heroes Guild to allow teleporting and to increase the chances of getting a
                                                                                             gem when mining.</center>
-                                                                                    </td>
-                                                                                    <td align="top">
-                                                                                        <center>Permanent -
-                                                                                            <br> works whenever it is equipped</center>
-                                                                                    </td>
-                                                                                </tr>
-                                                                                <tr align="top">
-                                                                                    <td align="top">
-                                                                                        <center>Ring of Stone
-                                                                                            <br><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_stonering.gif"></center>
-                                                                                    </td>
-                                                                                    <td align="top">
-                                                                                        <center>Level 87
-                                                                                            <br><a href="https://web.archive.org/web/20051124054610/http://www.runescape.com/lang/en/aff/runescape/members/members.ws"></center>
-                                                                                    </td>
-                                                                                    <td>
-                                                                                        <center>When equipped the player will morph into a rock.</center>
                                                                                     </td>
                                                                                     <td align="top">
                                                                                         <center>Permanent -
