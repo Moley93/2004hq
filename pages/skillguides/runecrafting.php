@@ -69,42 +69,42 @@ The following table shows what levels are required to runecraft various runes. A
 
 
 <tr>
-<td><center>Air rune<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/airrune.gif"></center></td>
+<td><center>Air rune<br><img src="https://oldschool.runescape.wiki/images/Air_rune.png?248b4"></center></td>
 <td><center>Level 1</center></td>
-<td><center>Mind runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/mindrune.gif"></center></td>
+<td><center>Mind runes<br><img src="https://oldschool.runescape.wiki/images/Mind_rune.png?92ebd"></center></td>
 <td><center>Level 2</center></td>
 </tr>
 
 
 <tr>
-<td><center>Water rune<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/waterrune.gif"></center></td>
+<td><center>Water rune<br><img src="https://oldschool.runescape.wiki/images/Water_rune.png?75a26"></center></td>
 <td><center>Level 5</center></td>
-<td><center>Earth rune<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/earthrune.gif"></center></td>
+<td><center>Earth rune<br><img src="https://oldschool.runescape.wiki/images/Earth_rune.png?0b998"></center></td>
 <td><center>Level 9</center></td>
 </tr>
 
 
 <tr>
-<td><center>Fire rune<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/firerune.gif"></center></td>
+<td><center>Fire rune<br><img src="https://oldschool.runescape.wiki/images/Fire_rune.png?3859a"></center></td>
 <td><center>Level 14</center></td>
-<td><center>Body runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/bodyrune.gif"></center></td>
+<td><center>Body runes<br><img src="https://oldschool.runescape.wiki/images/Body_rune.png?acf91"></center></td>
 <td><center>Level 20</center></td>
 </tr>
 
 
 <tr>
-<td valign="top"><center>Cosmic runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/cosmicrune.gif"></center></td>
-<td><center>Level 27<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html" class="c">Members only</a></center></td>
-<td valign="top"><center>Chaos runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/chaosrune.gif"></center></td>
-<td><center>Level 35<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html" class="c">Members only</a></center></td>
+<td valign="top"><center>Cosmic runes<br><img src="https://oldschool.runescape.wiki/images/Cosmic_rune.png?1f2bc"></center></td>
+<td><center>Level 27<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
+<td valign="top"><center>Chaos runes<br><img src="https://oldschool.runescape.wiki/images/Chaos_rune.png?3fbd5"></center></td>
+<td><center>Level 35<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
 </tr>
 
 
 <tr>
-<td valign="top"><center>Nature runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/naturerune.gif"></center></td>
-<td><center>Level 44<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html" class="c">Members only</a></center></td>
-<td valign="top"><center>Law runes<br><img src="https://web.archive.org/web/20050205024441im_/http://www.runescape.com/img/rs2/manual/magic/lawrune.gif"></center></td>
-<td><center>Level 54<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html" class="c">Members only</a></center></td>
+<td valign="top"><center>Nature runes<br><img src="https://oldschool.runescape.wiki/images/Nature_rune.png?ed6d0"></center></td>
+<td><center>Level 44<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
+<td valign="top"><center>Law runes<br><img src="https://oldschool.runescape.wiki/images/Law_rune.png?6592f"></center></td>
+<td><center>Level 54<br><a href="https://web.archive.org/web/20050205024441/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
 </tr>
 
 
