@@ -101,10 +101,9 @@
                                                                                 will see a 'splash' effect on your opponent showing the failure of the spell. The higher level spells are more likely to fail, but as your magic ability improves you will
                                                                                 cast spells successfully more of the time.</li>
                                                         </td>
-                                                        <td>
-                                                            <img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_staffs2.gif"></td>
                                                     </tr>
                                                 </table>
+                                                <img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_staffs2.gif">
                                                 <p>
                                                     <center><b>The Magic Guild</b></center>
                                                     <p> Members who have a magic level of 66 or greater may enter the Magic Guild, which is located in Yanille.
