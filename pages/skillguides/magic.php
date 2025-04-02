@@ -102,7 +102,7 @@
                                                                                 cast spells successfully more of the time.</li>
                                                         </td>
                                                         <td>
-                                                            <p align="justify"><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_staffs2.gif"></td>
+                                                            <img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_staffs2.gif"></td>
                                                     </tr>
                                                 </table>
                                                 <p>
