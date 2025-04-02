@@ -16,9 +16,6 @@
                                         <table width="380">
                                             <tr>
                                                 <td>
-                                                    <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells1.gif"></center>
-                                                </td>
-                                                <td>
                                                     <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells2.gif"></center>
                                                 </td>
                                             </tr>
