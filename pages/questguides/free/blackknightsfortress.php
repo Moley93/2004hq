@@ -27,7 +27,7 @@ Instructions:<br>
 <br>
 7. Go back and talk to Sir Amik Varze. He will reward you.<br>
 <br>
-<img src="https://web.archive.org/web/20080730005344im_/http://www.runehq.com/image/quests/f2p/black_knight/qc.gif" height="200" width="200"><br>
+<img src="https://web.archive.org/web/20080730005344im_/http://www.runehq.com/image/quests/f2p/black_knight/qc.gif" height="200" width="360"><br>
 <br>
 <br>This quest guide was written on RuneHQ by Henry-x. Thanks to DNKevin, Weezy patgil2003, MarilynManson, Nitr021, Ozzy, and pokemama for corrections.<br>
 <br>This quest guide was entered into the database on Sat, Feb 07, 2004, at 10:08:20 PM by Chownuggs and CJH and was last updated on Sat, Feb 05, 2005, at 06:17:02 AM by nitro21.<br>
