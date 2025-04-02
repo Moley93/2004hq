@@ -13,7 +13,7 @@
                                 class="c">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.
                                 <p>
                                     <center>
-                                        <table width="400">
+                                        <table width="380">
                                             <tr>
                                                 <td>
                                                     <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells1.gif"></center>
