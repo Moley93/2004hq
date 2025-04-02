@@ -22,7 +22,7 @@ $skilllist_free = array(
 //    "Woodcutting" => "woodcutting"
 );
 $skilllist_members = array(
-//    "Agility" => "agility",
+    "Agility" => "agility",
 //    "Herblore" => "herblore",
 //    "Thieving" => "thieving",
 //    "Fletching" => "fletching",
