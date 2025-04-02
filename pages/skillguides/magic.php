@@ -4,7 +4,7 @@
                                             <br>
                                             <br>
                                             <br>
-                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="300" cellpadding="3" cellspacing="3">
+                                            <table>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
                                                     <td>Earth rune - One of the 4 elemental runes. Can be replaced by a staff of earth.</td>
