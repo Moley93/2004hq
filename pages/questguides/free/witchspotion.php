@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Witch's Potion</b><br>
 <br>
 
@@ -31,3 +33,4 @@ This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy and Corruptus
 <br>
 This quest guide was entered into the database on Sat, Feb 07, 2004, at 12:00:31 PM by Chownuggs and was last updated on Thu, Apr 22, 2004, at 02:44:28 PM.
 <br>
+HTML; } ?>

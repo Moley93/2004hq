@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Demon Slayer</b><br>
 <br>
 Description:Wizards of the dark arts have freed the ancient demon Delrith. Find out how to imprison him again before its too late and he destroys Varrock<br>
@@ -46,3 +48,4 @@ Instructions:<br>
 This quest guide was written on RuneHQ by Gnat88. Thanks to Keystone, Nitr021, Pirate Bob49, and pokemama for corrections.<br>
 <br> 
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:46:46 PM by Weezy and CJH and was last updated on Sat, Feb 05, 2005, at 06:24:30 AM by nitro21.<br>
+HTML; } ?>

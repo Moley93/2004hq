@@ -1,3 +1,7 @@
+<?php
+function getPageTitle() { return 'Cooking'; }
+function getPageMetaIcon() { return 'img/skillicons/cooking.webp'; }
+function getPageContent() { return <<<HTML
 <center><b>Cooking</b></center><p>
                                             
                                             <table bgcolor="black" cellpadding="3" border="0">
@@ -640,3 +644,4 @@
                                                                                                     </table>
                                                                                                 </center>
                                                                                                 <p>
+HTML; } ?>

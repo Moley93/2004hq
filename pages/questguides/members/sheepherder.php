@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Sheep Herder</b><br>
 <br>
 Description:4 plauge infected sheep have gotten loose and its up to you to recapture them and rid ardougne of them.<br>
@@ -35,3 +37,4 @@ If you have survived this rapid mouse-clicking experience, return to the council
 This quest guide was written by Gnat88. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 05:31:59 PM by Monkeychris and CJH and was last updated on Sat, Oct 09, 2004, at 12:03:40 AM.<br>
+HTML; } ?>

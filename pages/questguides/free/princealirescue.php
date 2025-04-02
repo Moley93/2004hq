@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Prince Ali Rescue</b><br>
 <br>
 Description:Prince Ali of Al Kharid has been kidnapped by the scheming Lady Keli. You are hired to stage a rescue mission<br>
@@ -61,3 +63,4 @@ Tie up lady keli, use your key on the door and talk to the prince he will take t
 This quest guide was written on RuneHQ by xxteargodxx<br>
 <br>
 This quest guide was entered into the database on Thu, Mar 04, 2004,  at 12:28:14 AM by <b>Weezy</b> and was last updated on <b>Wed, Mar 31, 2004,  at 05:15:03 PM</b>.<br/> 
+HTML; } ?>

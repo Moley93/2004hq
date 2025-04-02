@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Hazeel Cult</b><br>
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
@@ -74,3 +76,4 @@ Reward: 1 Quest Point, 2k gp, a real cool amulet if you side with Clivet, and 1k
 This quest guide was written on RuneHQ by Firkløver,G I Jew,MarilynManson,Mr. Stormy. Thanks to Fudge, joesmo for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Apr 27, 2004, at 05:18:50 PM by DRAVAN and was last updated on Thu, Jul 08, 2004, at 06:27:39 PM.<br>
+HTML; } ?>

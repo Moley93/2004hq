@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Monks Friend</b><br>
 <br>
 Description:Brother Omad's friend's child has had their blanket stolen. Find it and then help Omad get drinks from Brother Cedric in time to get ready for a party<br>
@@ -33,3 +35,4 @@ Talk to him and he'll give you the runes and then you party. Unfourtanetly you c
 This quest guide was written on RuneHQ by Gnat88. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:10:53 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:20:06 PM.<br>
+HTML; } ?>
