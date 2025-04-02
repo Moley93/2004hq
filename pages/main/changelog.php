@@ -47,8 +47,15 @@ include('template/body.php');
 31/03/2025 - Meta Data for Link Previews Added<br>
 31/03/2025 - Moved Quests to own page<br>
 31/03/2025 - Created new homepage<br>
-31/03/2025 - Website rebuilt with php by Collin<br>
+31/03/2025 - Website rebuilt with php - Collin<br>
 01/04/2025 - Cooking Skill Guide added<br>
+02/04/2025 - Agility Skill Guide added<br>
+02/04/2025 - Crafting Skill Guide added<br>
+02/04/2025 - Fletching Skill Guide added<br>
+02/04/2025 - Herblore Skill Guide added<br>
+02/04/2025 - Magic Skill Guide added<br>
+02/04/2025 - Thieving Skill Guide added<br>
+02/04/2025 - Link Preview Changes - Collin<br>
 <br>
 <u><b>To Do</b></u><br>
 <br>
