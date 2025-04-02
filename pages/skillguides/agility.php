@@ -1,9 +1,4 @@
 <center><b>Agility guide</b> - (<a href="/web/20040606063634/http://www.runescape.com/aff/runescape/members/members.html" class="c"><i>members skill</i></a>)</center>
-<p>
-
-<i>Agility is only available to RuneScape <a href="/web/20040606063634/http://www.runescape.com/aff/runescape/members/members.html" class="c">members</a>.
-Please <a href="/web/20040606063634/http://www.runescape.com/aff/runescape/members/members.html" class="c">subscribe</a> to get this feature.</i>
-<p>
 
 <table><tr><td>
 Agility is a skill that can be used to get over, up and through various obstacles, 
@@ -14,7 +9,6 @@ swing on a rope over a hole, or use some handholds to climb up a wall.
 <p>
 Just click on the obstacle you wish to get past, and if you have the appropriate agility skill level you will attempt it.
 </td><td>
-<img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250">
 </td></tr></table>
 You will never fail some obstacles once you reach the appropriate agility level.
 On other obstacles it is possible to fall off, which will cause you to lose hitpoints.
@@ -31,8 +25,8 @@ At level 35 you can also enter the obstacle course at the barbarian outpost.
 <br><br>
 There is also a high level obstacle course at the very north of the wilderness.
 </td><td>
+</td></tr></table>
+<br>
+</td></tr></table>
+<br>
 <img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250">
-</td></tr></table>
-<br>
-</td></tr></table>
-<br>
