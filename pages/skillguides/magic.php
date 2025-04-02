@@ -7,19 +7,19 @@
                                             <table>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
-                                                    <td>Earth rune - One of the 4 elemental runes. Can be replaced by a staff of earth.</td>
+                                                    <td>Earth rune - Can be replaced by a staff of earth.</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/air_rune.gif"></td>
-                                                    <td>Air rune - One of the 4 elemental runes. Can be replaced by a staff of air.</td>
+                                                    <td>Air rune - Can be replaced by a staff of air.</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/water_rune.gif"></td>
-                                                    <td>Water rune - One of the 4 elemental runes. Can be replaced by a staff of water.</td>
+                                                    <td>Water rune - Can be replaced by a staff of water.</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/fire_rune.gif"></td>
-                                                    <td>Fire rune - One of the 4 elemental runes. Can be replaced by a staff of fire.</td>
+                                                    <td>Fire rune - Can be replaced by a staff of fire.</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/body_rune.gif"></td>
@@ -51,11 +51,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/soul_rune.gif"></td>
-                                                    <td>Soul rune - Required for high level curse spells. (<a href="https://web.archive.org/web/20051124054610/http://www.runescape.com/lang/en/aff/runescape/members/members.ws">)</td>
+                                                    <td>Soul rune - Required for high level curse spells.</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/blood_rune.gif"></td>
-                                                    <td>Blood rune - Required for high level wave spells. (<a href="https://web.archive.org/web/20051124054610/http://www.runescape.com/lang/en/aff/runescape/members/members.ws">)</td>
+                                                    <td>Blood rune - Required for high level wave spells.</td>
                                                 </tr>
                                             </table>
                                             <p>
