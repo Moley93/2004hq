@@ -13,7 +13,7 @@
                                 class="c">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.
                                 <p>
                                     <center>
-                                        <table width="380">
+                                        <table width="350">
                                             <tr>
                                                 <td>
                                                     <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells2.gif"></center>
@@ -27,7 +27,7 @@
                                             <br>
                                             <br>
                                             <br>
-                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="400" cellpadding="3" cellspacing="3">
+                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="350" cellpadding="3" cellspacing="3">
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
                                                     <td>Earth rune - One of the 4 elemental runes. Can be replaced by a staff of earth.</td>
@@ -125,7 +125,7 @@
                                                                                     <td width="75" bgcolor="#382418">
                                                                                         <center><b>Level to enchant</b></center>
                                                                                     </td>
-                                                                                    <td bgcolor="#382418">
+                                                                                    <td width="90" bgcolor="#382418">
                                                                                         <center><b>Effect when equipped</b></center>
                                                                                     </td>
                                                                                     <td width="75" bgcolor="#382418">
