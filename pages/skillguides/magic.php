@@ -1,27 +1,5 @@
 
             <center><b>Magic</b></center>
-            <p>
-                <center><b>Using magic spells</b></center>
-                <p>Pointing at the spell book item brings up the magic menu. From here you can select spells to cast.
-                    <p>This will bring up a screen of all spells available to you within the game. If the picture of a spell is darkened, it means that you do not yet have a high enough level to cast it or you do not have the runes in your inventory to do
-                        so. If a spell is lit up on this screen, then it means that you are a high enough level to cast it and you have enough runes in your inventory.
-                        <p>To cast the spell just click on the spell picture, and then click on your desired target in the main game window. Some spells can only be cast on hostile monsters, other spells can only be cast on yourself or inventory items, so
-                            experiment to see what targets are valid for each spell.
-                            <p>For more information on a spell move your mouse cursor over the spell. A description of the spell and a list of which are runes are required is shown at the bottom of the window. Each required rune has 2 numbers shown below
-                                a picture of it. The 1st number indicates how many of that rune you have, and the 2nd number indicates how many you require. The numbers will be drawn in red for runes which you do not have a sufficient number of to cast
-                                the spell. Runes can be obtained in a number of ways. Mages can make their own runes using the runecrafting skill (see the <a href="https://web.archive.org/web/20051124054610/http://www.runescape.com/lang/en/aff/runescape/skills/runecraft.ws"
-                                class="c">runecrafting</a> guide). Other ways to get runes include buying them in magic shops in towns such as Varrock and Port Sarim or by killing monsters.
-                                <p>
-                                    <center>
-                                        <table width="300">
-                                            <tr>
-                                                <td>
-                                                    <center><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_spells2.gif"></center>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </center>
-                                    <p>
                                         <center><b>Rune Types</b></center>
                                         <p> To cast spells in the game you need the correct runes. Each of the runes has a different power, and is used for a different category of spell. Information about each of the runes is shown below:
                                             <br>
@@ -85,25 +63,6 @@
                                                 <table>
                                                     <tr>
                                                         <td valign="top">
-                                                            <center><b>Staffs</b></center>
-                                                            <p> If you want to cast many spells against opponents without clicking repeatedly, then you should use a staff. Staffs have a "recast" option as one of their combat styles.
-                                                                <br>If you wield a staff and select the combat style menu (the crossed sword icon on the player interface) you will see a book in the bottom left corner.
-                                                                <br>Clicking on that will allow you to chose any of the elemental spells you are able to cast and tie them to your staff. If you then select the "attack with" combat style on your staff you will
-                                                                automatically fight by casting that spell when you enter combat.
-                                                                <p>
-                                                                    <center><b>Notes about Magic</b></center>
-                                                                    <p>
-                                                                        <li>Heavy armour is very conductive of magic. Mages will often find themselves more effective against a hand to hand fighter in full armour than other enemies. You will notice enemies
-                                                                            in full metal armour will be hit hard by spells, but also wearing heavy metal armour will affect your ability to cast spells successfully. The recommended equipment for Mages
-                                                                            is light robes, to allow magical power to flow from you freely.</li>
-                                                                        <p>
-                                                                            <li>Sometimes spells will fail to work. If a spell fails, you will still gain the experience from casting the spell, and you will still use the runes required to cast it, but you
-                                                                                will see a 'splash' effect on your opponent showing the failure of the spell. The higher level spells are more likely to fail, but as your magic ability improves you will
-                                                                                cast spells successfully more of the time.</li>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_staffs2.gif">
                                                 <p>
                                                     <center><b>The Magic Guild</b></center>
                                                     <p> Members who have a magic level of 66 or greater may enter the Magic Guild, which is located in Yanille.
