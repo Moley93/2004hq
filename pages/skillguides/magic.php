@@ -1,7 +1,6 @@
 
             <center><b>Magic</b></center>
                                         <center><b>Rune Types</b></center>
-                                        <p> To cast spells in the game you need the correct runes. Each of the runes has a different power, and is used for a different category of spell. Information about each of the runes is shown below:
                                             <br>
                                             <br>
                                             <br>
@@ -63,17 +62,6 @@
                                                 <table>
                                                     <tr>
                                                         <td valign="top">
-                                                <p>
-                                                    <center><b>The Magic Guild</b></center>
-                                                    <p> Members who have a magic level of 66 or greater may enter the Magic Guild, which is located in Yanille.
-                                                        <br> Inside the Magic Guild you will find a useful magic shop which sells a variety of runes and staffs for mages, including the extremely rare soul runes. There is also a small training area filled
-                                                        with zombies, as well as magical portals to various other parts of the RuneScape world all accessible from within this guild.
-                                                        <p>
-                                                            <center><b>Enchanting Jewellery</b></center>
-                                                            <p> Players of the correct magic level will be able to enchant various items of jewellery that can be bought from shops or other players, or make them using the <a href="https://web.archive.org/web/20051124054610/http://www.runescape.com/lang/en/aff/runescape/skills/crafting.ws"
-                                                                class="c">crafting</a> skill.
-                                                                <p> Below is a table showing at what level you can enchant each item of jewellery, and what the effects of enchanting them are.
-                                                                    <p>
                                                                         <center>
                                                                             <table bgcolor="black" cellpadding="6" border="0">
                                                                                 <tr>
