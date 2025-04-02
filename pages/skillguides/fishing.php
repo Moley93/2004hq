@@ -29,7 +29,7 @@ You can find below the guides to each of the different types of fishing you can 
 <tr>
 <td><center>Shrimp<br><img src="https://web.archive.org/web/20050204055533im_/http://www.runescape.com/img/rs2/manual/fishing/shrimp.gif" width="48" height="32"></center></td>
 <td><center>Level 1<br>Type: Net Fishing</center></td>
-<td><center>Sardine<br><img src="https://www.itemdb.biz/images/icons/327.png"></center></td>
+<td><center>Sardine<br><img src="https://oldschool.runescape.wiki/images/Raw_sardine.png?97482"></center></td>
 <td><center>Level 5<br>Type: Sea bait fishing</center></td>
 </tr>
 
