@@ -1,3 +1,11 @@
+<?php
+$meta_data['title'] = 'Changelog';
+$meta_data['og:title'] = $meta_data['title'];
+$meta_data['og:url'] = '?p=changelog';
+$meta_data['og:image'] = 'img\sword.png';
+include('template/header.php');
+include('template/body.php');
+?>
 <u><b>Change Log</b></u><br>
 <br>
 26/03/2025 - Website Launch<br>

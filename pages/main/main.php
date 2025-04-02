@@ -1,3 +1,7 @@
+<?php
+include('template/header.php');
+include('template/body.php');
+?>
 <table>
 <tbody>
     <tr valign="top">
@@ -31,7 +35,7 @@
             </div>
             <br />
             <br />
-            Skill Guides coming soon for every skill!
+            2004 Skill Guides from RuneScape's Library of Varrock!
             <br />
             <a href="?p=skilllist" class="c">Click here</a>
         </td>
