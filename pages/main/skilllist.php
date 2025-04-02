@@ -25,7 +25,7 @@ $skilllist_members = array(
     "Agility" => "agility",
     "Herblore" => "herblore",
 //    "Thieving" => "thieving",
-//    "Fletching" => "fletching",
+    "Fletching" => "fletching",
 );
 ksort($skilllist_free);
 ksort($skilllist_members);
