@@ -21,7 +21,7 @@ Players with low-levels of ability might want to use the obstacle course in the 
 <br><br>
 At level 35 you can also enter the obstacle course at the barbarian outpost.
 <br><br>
-There is also a high level obstacle course at the very north of the wilderness.
-
+There is also a high level obstacle course at the very north of the wilderness.<br>
+<br>
 <img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250"><br>
 <br>
