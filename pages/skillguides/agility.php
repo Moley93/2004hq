@@ -1,4 +1,3 @@
-<table width="500" bgcolor="black" cellpadding="4" border="0"><tr><td class="e">
 <center><b>Agility guide</b> - (<a href="/web/20040606063634/http://www.runescape.com/aff/runescape/members/members.html" class="c"><i>members skill</i></a>)</center>
 <p>
 
