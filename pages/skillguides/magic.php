@@ -30,7 +30,7 @@
                                             <br>
                                             <br>
                                             <br>
-                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="450" cellpadding="3" cellspacing="3">
+                                            <table background="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/magic_background.jpg" syle="background-repeat: no-repeat" width="400" cellpadding="3" cellspacing="3">
                                                 <tr>
                                                     <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
                                                     <td>Earth rune - One of the 4 elemental runes. Can be replaced by a staff of earth.</td>
@@ -122,16 +122,16 @@
                                                                         <center>
                                                                             <table bgcolor="black" cellpadding="6" border="0">
                                                                                 <tr>
-                                                                                    <td width="80" bgcolor="#382418">
+                                                                                    <td width="75" bgcolor="#382418">
                                                                                         <center><b>Item name</b></center>
                                                                                     </td>
-                                                                                    <td width="80" bgcolor="#382418">
+                                                                                    <td width="75" bgcolor="#382418">
                                                                                         <center><b>Level to enchant</b></center>
                                                                                     </td>
                                                                                     <td bgcolor="#382418">
                                                                                         <center><b>Effect when equipped</b></center>
                                                                                     </td>
-                                                                                    <td width="80" bgcolor="#382418">
+                                                                                    <td width="75" bgcolor="#382418">
                                                                                         <center><b>Number of uses</b></center>
                                                                                     </td>
                                                                                 </tr>
