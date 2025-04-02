@@ -59,6 +59,8 @@ include('template/body.php');
 02/04/2025 - Fishing Skill Guide added<br>
 02/04/2025 - Range Skill Guide added<br>
 02/04/2025 - Runecrafting Skill Guide added<br>
+02/04/2025 - Updated Black Knight's Fortress<br>
+02/04/2025 - Updated Cook's Assistant<br>
 <br>
 <u><b>To Do</b></u><br>
 <br>
