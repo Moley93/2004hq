@@ -58,6 +58,7 @@ include('template/body.php');
 02/04/2025 - Link Preview Changes - Collin<br>
 02/04/2025 - Fishing Skill Guide added<br>
 02/04/2025 - Range Skill Guide added<br>
+02/04/2025 - Runecrafting Skill Guide added<br>
 <br>
 <u><b>To Do</b></u><br>
 <br>
