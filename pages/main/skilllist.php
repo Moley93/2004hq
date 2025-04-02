@@ -77,10 +77,10 @@ if (empty($_GET['skill'])) {
 } else {
     $currSkill = htmlspecialchars($_GET['skill']);
     if (file_exists('pages/skillguides/'.$currSkill.'.php')) {
-        if (!is_null(array_search($currSkill, $questlist_free))) {
+        if (array_search($currSkill, $skilllist_free)) {
             $meta_data['title'] = 'Skill Guides > '.array_search($currSkill,$skilllist_free);
-        } else if (!is_null(array_search($currSkill, $questlist_members))) {
-            $meta_data['title'] = 'Skill Guides > '.array_search($currSkill, $questlist_members);
+        } else if (array_search($currSkill, $skilllist_members)) {
+            $meta_data['title'] = 'Skill Guides > '.array_search($currSkill, $skilllist_members);
         }
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:url'] = '?p=skilllist&skill='.$currSkill;
