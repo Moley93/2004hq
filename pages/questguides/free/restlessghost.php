@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Restless Ghost</b><br>
 <br>
 Description: The Lumbridge father Aerick wants you to rid his graveyard of a ghost.<br>
@@ -28,3 +30,4 @@ Go back to the tomb and use the skull with the ghost's coffin. The ghost will va
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger and Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 04:46:45 PM by Monkeychris and was last updated on Wed, Mar 31, 2004, at 05:00:31 PM.<br>
+HTML; } ?>

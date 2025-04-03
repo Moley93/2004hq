@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Big Chompy Bird Hunting</b><br>
 <br>
 Description: Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.<br>
@@ -91,3 +93,4 @@ To check your number of kills and a rank, right click on a bow and choose "Check
 This quest guide was written on RuneHQ by MuH-K0o0o, Manana447 and pictures by Xjoe and MrStormy, table by Freakybat,Eric2203. Thanks to Freakybat, trekkie, stormer, henry-x,DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, May 18, 2004, at 01:37:33 PM by MrStormy and was last updated on Thu, Jun 03, 2004, at 09:06:25 PM.<br>
+HTML; } ?>

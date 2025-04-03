@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Temple of Ikov</b><br>
 <br>
 Description: A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest you are presented with a choice on how to complete the quest.<br>
@@ -102,3 +104,4 @@ Talk to him and give him the staff, you will be rewarded.<br>
 This quest guide was written by Pirate,mage017. Thanks to Your Homey 1 for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 25, 2004, at 06:17:58 PM by Freakybat and CJH and was last updated on Mon, Aug 02, 2004, at 08:42:56 AM.<br>
+HTML; } ?>

@@ -25,7 +25,7 @@ $skilllist_members = array(
     "Agility" => "agility",
     "Herblore" => "herblore",
     "Thieving" => "thieving",
-    "Fletching" => "fletching",
+    "Fletching" => "fletching"
 );
 ksort($skilllist_free);
 ksort($skilllist_members);
@@ -77,17 +77,14 @@ if (empty($_GET['skill'])) {
 } else {
     $currSkill = htmlspecialchars($_GET['skill']);
     if (file_exists('pages/skillguides/'.$currSkill.'.php')) {
-        if (array_search($currSkill, $skilllist_free)) {
-            $meta_data['title'] = 'Skill Guides > '.array_search($currSkill,$skilllist_free);
-        } else if (array_search($currSkill, $skilllist_members)) {
-            $meta_data['title'] = 'Skill Guides > '.array_search($currSkill, $skilllist_members);
-        }
+        include 'pages/skillguides/'.$currSkill.'.php';
+        $meta_data['title'] = 'Skill Guides > '.getPageTitle();
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:url'] = '?p=skilllist&skill='.$currSkill;
-        $meta_data['og:image'] = 'img/stats.webp';//TODO: Customize per skill
+        $meta_data['og:image'] = getPageMetaIcon();//TODO: Customize per skill
         include('template/header.php');
         include('template/body.php');
-        include 'pages/skillguides/'.$currSkill.'.php';
+        echo getPageContent();
     } else {
         header("Location: ?p=404");
     }

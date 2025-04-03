@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Scorpion Catcher</b><br>
 <br>
 Description: Thormac has lost his rare lesser kharid scorpions after leaving their cage door open. These scorpions have hidden in areas that are rather difficult to get into. You will have to overcome various challenges (and drink a lot) and get all the scorpions back. If you manage to help him Thormac will improve your battle staffs.<br>
@@ -61,3 +63,4 @@ Third Scorpion<br>
 This quest guide was written by 70347, Firklover, irish_buddha. Thanks to Funkymetal for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, May 02, 2004, at 02:08:30 PM by Cav103 and CJH and was last updated on Mon, Aug 02, 2004, at 08:36:41 AM.<br>
+HTML; } ?>

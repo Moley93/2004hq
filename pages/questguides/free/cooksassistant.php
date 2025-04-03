@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Cook's Assistant</b><br>
 <br>
 Description:The Duke of Lumbridge will have a birthday but the cook has forgotten to buy the ingredients for the cake<br>
@@ -34,3 +36,4 @@ This quest guide was written on RuneHQ by henry-x. Thanks to DNKevin and Weezy f
 This quest guide was entered into the database on Sat, Feb 21, 2004, at 04:19:36 PM by Weezy and CJH and was last updated on Mon, Aug 02, 2004, at 07:38:58 AM.<br>
 <br>
 <img src="https://web.archive.org/web/20071107225502im_/http://runehq.com/image/quests/f2p/cooks_assistant/caquestcomplete.gif" height="200" width="360"><br>
+HTML; } ?>

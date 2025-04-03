@@ -1,3 +1,7 @@
+<?php
+function getPageTitle() { return 'Magic'; }
+function getPageMetaIcon() { return 'img/skillicons/magic.webp'; }
+function getPageContent() { return <<<HTML
 <center><b>Magic</b></center><p>
 
 <center><b>Rune Types</b></center>
@@ -171,3 +175,4 @@ Works whenever it is equipped</center></td>
 </tr>
 </table>
 </center>
+HTML; } ?>

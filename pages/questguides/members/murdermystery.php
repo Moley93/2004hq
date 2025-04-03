@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Murder Mystery</b><br>
 <br>
 Description: Lord Sinclair was found murdered in his mansion. There are a lot of guards there that are working on the case, but they're confused about the crime. You must help these guards find out the culprit who murdered Lord Sinclair.<br>
@@ -53,3 +55,4 @@ Instructions:<br>
 This quest guide was written by supercoolyo. Thanks to Dravan, Dracon, Matty98 for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, May 09, 2004, at 11:26:19 AM by Cav103 and was last updated on Thu, May 27, 2004, at 07:47:44 AM.<br>
+HTML; } ?>
