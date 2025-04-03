@@ -17,9 +17,7 @@
         <td align="bottom">
             <center>
 
-<img src="img\2004hq.png" width="312" height="100">
-
-
+<a href="https://2004hq.com"><img src="img\2004hq.png" width="312" height="100"></a>
 <br>
 <table bgcolor="black" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="img\fm_top.gif"></td></tr></tbody></table>
 <table width="500" cellpadding="0" cellspacing="0" border="0" background="img\fm_middle.gif">
