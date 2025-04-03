@@ -17,7 +17,7 @@ Instructions:<br>
 <br>
 Talk to the squire about his mishap, he'll direct you to Reldo at the Varrock Castle Library. Reldo will give you the location of the last Incamdo Dwarf in Runescape. (If you accidently say you need a quest, you will start the Shield of Arrav quest, and until you find the book on one of the bookshelves, you will not be able to ask about the quest you really want to work on)<br>
 <br>
-Head southwest of Port Sarim to the cliff that Thurgo lives below. Give him your pie and he'll get talkative. He needs a picture so head back the castle. Go up to the east side of the 3rd floor. Search the cupboard in his bedroom while Sir Vyvin is not in the room.<br>
+Head southwest of Port Sarim to the cliff that Thurgo lives below. Give him your pie and he'll get talkative. He needs a picture so head back the castle. Speak to the squire in the courtyard, then Go up to the east side of the 3rd floor. Search the cupboard in his bedroom while Sir Vyvin is not in the room.<br>
 <br>
 Go back to Thurgo, get the iron bars and armor etc. if you want to save yourself a later trip. Talk to Thurgo and he'll say you need blurite ore. Go into the cave above his house. Head deep until you come to the ice room, run past the ice warriors and giants to the back wall, mine some blurite quickly and get out of there.<br>
 <br>
