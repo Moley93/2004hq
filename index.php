@@ -1,11 +1,6 @@
 <?php
-$meta_data = array(
-    'title' => 'Homepage',
-    'og:title' => 'Homepage',
-    'og:description' => 'A RuneHQ inspired website made for Lost City 2004.',
-    'og:url' => '',
-    'og:image' => 'img/sword.png'
-);
+include('config.php');
+
 if (!empty($_GET['p'])) {
     switch (htmlspecialchars($_GET['p'])) {
         case 'questlist':

@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Tribal Totem</b><br>
 <br>
 Description: Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange looking totem from Karamja. The Rantuki tribe are not happy about the recent disappearance of their totem.<br>
@@ -40,3 +42,4 @@ Return to Kangai and he will reward you.<br>
 This quest guide was written by Henry-X,Matty98. Thanks to Weezy and patgil2003, Mage101,DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Fri, Feb 06, 2004, at 08:56:39 PM by Chownuggs and CJH and was last updated on Mon, Aug 02, 2004, at 08:51:07 AM.<br>
+HTML; } ?>

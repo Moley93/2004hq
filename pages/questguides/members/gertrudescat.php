@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Gertrudes Cat</b><br>
 <br>
 Description:Gertrude's cat is missing and she is frantic about finding it. Track down the cat and return it.<br>
@@ -31,3 +33,4 @@ To make kittens grow into cats you can use balls of wool with them, have them ch
 This quest guide was written by Gnat88. Thanks to henry-x for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:20:27 PM by Monkeychris and was last updated on Wed, Mar 31, 2004, at 04:58:57 PM.<br>
+HTML; } ?>

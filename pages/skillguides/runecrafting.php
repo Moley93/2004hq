@@ -1,8 +1,8 @@
+<?php
+function getPageTitle() { return 'Runecrafting'; }
+function getPageMetaIcon() { return 'img/skillicons/runecrafting.webp'; }
+function getPageContent() { return <<<HTML
 <center><b>Runecrafting</b></center><p>
-
-
-
-
 
 <p>
 Runecrafting is used to make different sorts of Runes, for use in magic.
@@ -114,3 +114,4 @@ The following table shows what levels are required to runecraft various runes. A
 </tr>
 </table>
 </center>
+HTML; } ?>

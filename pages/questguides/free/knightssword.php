@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - The Knight's Sword</b><br>
 
 <br>
@@ -24,3 +26,4 @@ Take the 2 iron bars and blurite to Thurgo and he'll make the sword. Take it bac
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger, noob hunters, Weezy, IglooGuy, and stormer for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:03:08 PM by Monkeychris and was last updated on Tue, Apr 20, 2004, at 11:17:05 PM.<br>
+HTML; } ?>

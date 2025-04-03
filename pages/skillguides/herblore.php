@@ -1,3 +1,7 @@
+<?php
+function getPageTitle() { return 'Herblore'; }
+function getPageMetaIcon() { return 'img/skillicons/herblore.webp'; }
+function getPageContent() { return <<<HTML
 <center><b>Herblore guide</b></center>
 
 <p>
@@ -141,3 +145,4 @@ To grind them use the pestle and mortar bought from the herblore shop.
 
 he weapon poison can only be used only on certain weapons such as arrows and daggers.  Players can be poisoned by other player's poisoned weapons or by a poisonous npc.<p>
 A player will slowly take damage from the poison until it either wears off or they drink an anti-poison potion. The potion also grants a small immunity so that the drinker cannot be poisoned for a short while.
+HTML; } ?>

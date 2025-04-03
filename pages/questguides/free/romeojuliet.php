@@ -1,3 +1,5 @@
+<?php
+function getPageContent() { return <<<HTML
 <b>2004HQ - Romeo & Juliet</b><br>
 <br>
 Description:Romeo & Juliet long to be with each other but Juliet's father doesn't like this idea. Find a way to get them together and live happily ever after.<br>
@@ -33,3 +35,4 @@ You will get your reward after talking to Romeo, who cares about a bad ending as
 This quest guide was written on RuneHQ by Gnat88. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:58:20 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:15:59 PM.<br>
+HTML; } ?>

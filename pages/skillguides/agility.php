@@ -1,3 +1,7 @@
+<?php
+function getPageTitle() { return 'Agility'; }
+function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
+function getPageContent() { return <<<HTML
 <center><b>Agility guide</b></center>
 
 Agility is a skill that can be used to get over, up and through various obstacles, 
@@ -25,3 +29,4 @@ There is also a high level obstacle course at the very north of the wilderness.<
 <br>
 <img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250"><br>
 <br>
+HTML; } ?>
