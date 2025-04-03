@@ -15,7 +15,7 @@ Reward: 1 quest point, 275 magic experience.<br>
 <br>
 Instructions:<br>
 <br>
-Talk to the Witch Hetty and she will tell you about getting the ingredient for the cauldron.You will need four items:An onion,a burnt beat,an Eye of Newt and a rat tail.<br>
+Talk to the Witch Hetty and she will tell you about getting the ingredient for the cauldron.You will need four items:An onion,a burnt meat,an Eye of Newt and a rat tail.<br>
 <br>
 
 Onion can be found in northwest of Rimmington.When you found the place,pick one.<br>
