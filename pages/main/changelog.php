@@ -61,6 +61,8 @@ include('template/body.php');
 02/04/2025 - Runecrafting Skill Guide added<br>
 02/04/2025 - Updated Black Knight's Fortress<br>
 02/04/2025 - Updated Cook's Assistant<br>
+04/04/2025 - Homepage added calculator and drop tables coming soon<br>
+04/04/2025 - Smithing Skill Added<br>
 <br>
 <u><b>To Do</b></u><br>
 <br>
