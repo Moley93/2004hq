@@ -437,3 +437,4 @@ However at the levels given you will only be able to forge the most basic items 
 <p>
 The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
 </td></tr><table>
+    HTML; } ?>
