@@ -45,7 +45,7 @@ include('template/body.php');
     <tr valign="top">
         <td width="100" align="center">
             <a href="?p=questlist">
-                <img src="img\kbdicon.webp" border="0">
+                <img src="img\skeleton.webp" border="0">
             </a>
         </td>
         <td width="120">
