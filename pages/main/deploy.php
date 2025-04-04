@@ -74,7 +74,28 @@ function deploy() {
             file_put_contents($commitFile, $latestCommit);
             echo "Deployment successful!\n";
         } else {
-            echo "Failed to extract update.\n";
+
+            echo "Zip failed with code: " . $zip->status . "\n";
+            switch ($zip->status) {
+                case ZipArchive::ER_INCONS:
+                    echo "ZIP inconsistent.";
+                    break;
+                case ZipArchive::ER_NOENT:
+                    echo "No such file.";
+                    break;
+                case ZipArchive::ER_OPEN:
+                    echo "Can't open file.";
+                    break;
+                case ZipArchive::ER_READ:
+                    echo "Read error.";
+                    break;
+                case ZipArchive::ER_SEEK:
+                    echo "Seek error.";
+                    break;
+                default:
+                    echo "Unknown error.";
+                    break;
+            }
         }
     } else {
         echo "Already up to date.\n";
