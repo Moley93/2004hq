@@ -1,4 +1,8 @@
-<center><b>Smithing</b></center><p>
+<?php
+function getPageTitle() { return 'Smithing'; }
+function getPageMetaIcon() { return 'img/skillicons/smithing.webp'; }
+function getPageContent() { return <<<HTML
+    <center><b>Smithing</b></center><p>
 
 The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
 
