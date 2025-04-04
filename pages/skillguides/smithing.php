@@ -1,6 +1,6 @@
 <?php
 function getPageTitle() { return 'Smithing'; }
-function getPageMetaIcon() { return 'img/skillicons/smithing.webp'; }
+function getPageMetaIcon() { return 'img\skillicons\smithing.webp'; }
 function getPageContent() { return <<<HTML
     <center><b>Smithing</b></center><p>
 
