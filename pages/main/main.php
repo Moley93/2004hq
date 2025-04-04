@@ -63,7 +63,7 @@ include('template/body.php');
         
         <td width="100" align="center">
             <a href="?p=skilllist">
-                <img src="img\sword.png" border="0">
+                <img src="img\swordicon.webp" border="0">
             </a>
         </td>
         
