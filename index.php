@@ -15,6 +15,9 @@ if (!empty($_GET['p'])) {
         case 'droptables':
             include('pages/main/droptables.php');
             break;
+        case 'cluetables':
+            include('pages/main/cluetables.php');
+            break;
         default:
         case '404':
             include('pages/main/404.php');

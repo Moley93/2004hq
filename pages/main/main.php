@@ -40,8 +40,6 @@ include('template/body.php');
             <a href="?p=skilllist" class="c">Click here</a>
         </td>
     </tr>
- </tbody>
- <tbody>
     <tr valign="top">
         <td width="100" align="center">
             <a href="?p=droptables">
@@ -62,7 +60,25 @@ include('template/body.php');
         <td width="10"></td>
         
         <td width="100" align="center">
-            <a href="">
+            <a href="?">
+                <img src="img\clueicon.png" border="0" />
+            </a>
+        </td>
+        
+        <td width="120">
+            <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
+                <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;" />
+            </div>
+            <br />
+            <br />
+            2004 Clue Scroll Tables
+            <br />
+            <a href="?" class="c">Coming Soon</a>
+        </td>
+    </tr>
+    <tr valign="top">
+    <td width="100" align="center">
+            <a href="?">
                 <img src="img\swordicon.webp" border="0" />
             </a>
         </td>
@@ -74,6 +90,25 @@ include('template/body.php');
             <br />
             <br />
             2004 Combat & Skill Calculators
+            <br />
+            <a href="?" class="c">Coming Soon</a>
+        </td>
+
+        <td width="10"></td>
+        
+        <td width="100" align="center">
+            <a href="?">
+                <img src="img\wip.png" border="0" />
+            </a>
+        </td>
+        
+        <td width="120">
+            <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
+                <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;" />
+            </div>
+            <br />
+            <br />
+            TBD
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>

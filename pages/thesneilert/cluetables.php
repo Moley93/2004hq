@@ -1,6 +1,6 @@
 <?php
-function getPageTitle() { return 'Drop Tables'; }
-function getPageMetaIcon() { return 'img/skeleton.webp'; }
+function getPageTitle() { return 'Clue Tables'; }
+function getPageMetaIcon() { return 'img/clueicon.png'; }
 function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
 function getPageContent() { return <<<HTML
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -11,7 +11,7 @@ function getPageContent() { return <<<HTML
                         <tr>
                             <td class="e">
                                 <center>
-                                    <b>Drop Tables</b>
+                                    <b>Clue Tables</b>
                                 </center>
                             </td>
                         </tr>
@@ -19,54 +19,30 @@ function getPageContent() { return <<<HTML
                     <!-- Loading Spinner -->
                     <br>
                     <div id="loader" class="loader hidden"></div>
-                    <div id="loadingText" class="loading-text hidden">Loading drop tables...
+                    <div id="loadingText" class="loading-text hidden">Loading clue tables...
                         <br>Please hold tight, good things take time!
                     </div>
-                    <!-- Membership and Rarity Toggles Side by Side -->
-                    <table>
-                        <tr>
-                            <td>
-                                <table width=215 height=70 cellpadding=4>
-                                    <tr>
-                                        <td class=b bgcolor=#474747>
-                                            <div class="stone-box">
-                                                <b>Sort by</b><br>
-                                                <select id="sortToggle"
-                                                    onchange="toggleSort()">
-                                                    <option value="asc">Most Common First</option>
-                                                    <option value="desc">Most Rare First</option>
-                                                    <option value="name-asc">Name (A-Z)</option>
-                                                    <option value="name-desc">Name (Z-A)</option>
-                                                </select>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>&nbsp;&nbsp;&nbsp;</td>
-                            <td>
-                                <table width=215 height=70 cellpadding=4>
-                                    <tr>
-                                        <td class=b bgcolor=#474747>
-                                            <div class="stone-box">
-                                                <b>Membership</b><br>
-                                                <select id="membershipToggle"
-                                                    onchange="toggleMembership()">
-                                                    <option value="all">All</option>
-                                                    <option value="f2p">Free-to-Play</option>
-                                                    <option value="p2p">Members</option>
-                                                </select>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
                     <br>
                     <!-- Search Bar and Dropdown in Stone Boxes -->
                     <table>
                         <tr>
+                            <td>
+                                <table width=215 height=70 cellpadding=4>
+                                    <tr>
+                                        <td class=b bgcolor=#474747>
+                                            <div class="stone-box">
+                                                <b>Select a Clue Tier</b><br>
+                                                <select id="clueDropdown"
+                                                    onchange="loadDropTable()" disabled>
+                                                    <option value="">Select...</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td>&nbsp;&nbsp;&nbsp;</td>
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
@@ -77,22 +53,6 @@ function getPageContent() { return <<<HTML
                                                     placeholder="Search..." oninput="searchItems()"
                                                     autocomplete="off" disabled>
                                                 <div id="searchResults" class="search-results"></div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>&nbsp;&nbsp;&nbsp;</td>
-                            <td>
-                                <table width=215 height=70 cellpadding=4>
-                                    <tr>
-                                        <td class=b bgcolor=#474747>
-                                            <div class="stone-box">
-                                                <b>Select a monster</b><br>
-                                                <select id="monsterDropdown"
-                                                    onchange="loadDropTable()" disabled>
-                                                    <option value="">Select...</option>
-                                                </select>
                                             </div>
                                         </td>
                                     </tr>
@@ -138,7 +98,7 @@ function getPageContent() { return <<<HTML
         </label>
         <span class="toggle-label">Save Settings</span>
         <span style="margin: 0 5px;">|</span>
-        <a href="https://x.com/thesneilert" class="whitelink">Drop Tables made by Eilert</a>
+        <a href="https://x.com/thesneilert" class="whitelink">Clue Tables made by Eilert</a>
         <br>
         <br>
     </div>
