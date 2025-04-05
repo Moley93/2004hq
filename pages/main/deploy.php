@@ -10,7 +10,6 @@ function deploy() {
     $branch = "2004hq";
     $localPath = $_SERVER['DOCUMENT_ROOT'].'/pages/2004calc';
 
-
     // Files you want to fetch (relative to the repo root)
     $filesToDownload = [
         "index.html",
@@ -40,6 +39,7 @@ function deploy() {
         }
     }
 }
+
 function fetchFromGitHub($url) {
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
