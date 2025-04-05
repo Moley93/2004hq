@@ -63,6 +63,7 @@ include('template/body.php');
 02/04/2025 - Updated Cook's Assistant<br>
 04/04/2025 - Homepage added calculator and drop tables coming soon<br>
 04/04/2025 - Smithing Skill Added<br>
+04/05/2025 - Added Neilert's drop tables!<br />
 <br>
 <u><b>To Do</b></u><br>
 <br>
