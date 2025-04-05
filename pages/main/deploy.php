@@ -23,29 +23,39 @@ function deploy() {
     foreach ($filesToDownload as $file) {
         $rawUrl = "https://raw.githubusercontent.com/$repoOwner/$repoName/$branch/$file";
         $savePath = "$localPath/$file";
-
-        // Make sure the folder exists
-        $folder = dirname($savePath);
-        if (!is_dir($folder)) {
-            mkdir($folder, 0755, true);
-        }
-
-        $content = fetchFromGitHub($rawUrl);
-        if ($content === false) {
+    
+        // Fetch remote content
+        $remoteContent = fetchFromGitHub($rawUrl);
+        if ($remoteContent === false) {
             echo "❌ Failed to download $file\n";
+            continue;
+        }
+    
+        // Check for changes
+        $localContent = file_exists($savePath) ? file_get_contents($savePath) : null;
+    
+        if ($localContent !== $remoteContent) {
+            // Ensure folder exists
+            $folder = dirname($savePath);
+            if (!is_dir($folder)) {
+                mkdir($folder, 0755, true);
+            }
+    
+            // Write the new file
+            file_put_contents($savePath, $remoteContent);
+            echo "🔄 Updated: $file\n";
         } else {
-            file_put_contents($savePath, $content);
-            echo "✅ Downloaded $file\n";
+            echo "✅ No changes: $file\n";
         }
     }
 }
-
+    
 function fetchFromGitHub($url) {
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
-    curl_setopt($ch, CURLOPT_USERAGENT, "PHP File Downloader");
+    curl_setopt($ch, CURLOPT_USERAGENT, "PHP File Sync Script");
     $response = curl_exec($ch);
     $error = curl_error($ch);
     curl_close($ch);
