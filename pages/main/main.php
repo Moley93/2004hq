@@ -44,7 +44,7 @@ include('template/body.php');
  <tbody>
     <tr valign="top">
         <td width="100" align="center">
-            <a href="">
+            <a href="?p=droptables">
                 <img src="img\skeleton.webp" border="0">
             </a>
         </td>
@@ -54,9 +54,9 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Drop Tables
+            Drop Tables from Eilert!
             <br />
-            <a href="?" class="c">Coming Soon</a>
+            <a href="?p=droptables" class="c">Click here</a>
         </td>
 
         <td width="10"></td>

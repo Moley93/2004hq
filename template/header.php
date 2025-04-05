@@ -42,4 +42,5 @@
               .rsquill8 { font-family: RSQuill8; }
         </style>
         <link rel="stylesheet" href="css\messages.css" />
+        <?php if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); } ?>
     </head>

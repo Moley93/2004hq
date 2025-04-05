@@ -1,15 +1,15 @@
 <?php
 function getPageTitle() { return 'Drop Tables'; }
 function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
+function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
 function getPageContent() { return <<<HTML
-<div style="LEFT: 0px; TOP: 0px; WIDTH: 600px; POSITION: relative;">
-    <table width="600" cellpadding="0" cellspacing="0" border="0">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
             <td valign="bottom">
                 <center>
                     <br>
                     <br>
-                    <table width="250" bgcolor="black" cellpadding="4">
+                    <table width="250" cellpadding="4">
                         <tr>
                             <td class="e">
                                 <center>
@@ -28,7 +28,7 @@ function getPageContent() { return <<<HTML
                     <table>
                         <tr>
                             <td>
-                                <table width=215 height=70 bgcolor=black cellpadding=4>
+                                <table width=215 height=70 cellpadding=4>
                                     <tr>
                                         <td class=b bgcolor=#474747>
                                             <div class="stone-box">
@@ -47,7 +47,7 @@ function getPageContent() { return <<<HTML
                             </td>
                             <td>&nbsp;&nbsp;&nbsp;</td>
                             <td>
-                                <table width=215 height=70 bgcolor=black cellpadding=4>
+                                <table width=215 height=70 cellpadding=4>
                                     <tr>
                                         <td class=b bgcolor=#474747>
                                             <div class="stone-box">
@@ -70,7 +70,7 @@ function getPageContent() { return <<<HTML
                     <table>
                         <tr>
                             <td>
-                                <table width=215 height=70 bgcolor=black cellpadding=4>
+                                <table width=215 height=70 cellpadding=4>
                                     <tr>
                                         <td class=b bgcolor=#474747>
                                             <div class="stone-box">
@@ -86,7 +86,7 @@ function getPageContent() { return <<<HTML
                             </td>
                             <td>&nbsp;&nbsp;&nbsp;</td>
                             <td>
-                                <table width=215 height=70 bgcolor=black cellpadding=4>
+                                <table width=215 height=70 cellpadding=4>
                                     <tr>
                                         <td class=b bgcolor=#474747>
                                             <div class="stone-box">
@@ -104,7 +104,7 @@ function getPageContent() { return <<<HTML
                     </table>
                     <br>
                     <!-- Drop Table -->
-                    <table width="500" bgcolor="black" cellpadding="2">
+                    <table width="100%" cellpadding="2">
                         <tr>
                             <td class="e">
                                 <table width="100%" cellspacing="4" cellpadding="8" id="dropTable">
@@ -140,9 +140,8 @@ function getPageContent() { return <<<HTML
         </label>
         <span class="toggle-label">Save Settings</span>
         <span style="margin: 0 5px;">|</span>
-        <a href="https://x.com/thesneilert" class="whitelink">Made by Eilert</a>
+        <a href="https://x.com/thesneilert" class="whitelink">Drop Tables made by Eilert</a>
         <br>
         <br>
     </div>
-</div>
 HTML; } ?>

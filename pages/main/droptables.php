@@ -9,7 +9,6 @@ include('template/header.php');
 include('template/body.php');
 
 echo getPageContent();
-echo '<script src="pages/thesneilert/javascript.js" type="text/javascript"></script>';
-
+echo '<script src="pages/thesneilert/droptables.js" type="text/javascript"></script>';
 
 ?>
