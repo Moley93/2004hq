@@ -4,118 +4,52 @@ $meta_data['og:title'] = $meta_data['title'];
 $meta_data['og:url'] = '?p=deploy';
 include('template/header.php');
 include('template/body.php');
-
 function deploy() {
     $repoOwner = "thesneilert";
     $repoName = "2004scape";
-    $branch = "main";
+    $branch = "2004hq";
     $localPath = $_SERVER['DOCUMENT_ROOT'].'/pages/2004calc';
 
-    $preserveFiles = ['.env', 'uploads'];
 
-    $apiUrl = "https://api.github.com/repos/$repoOwner/$repoName/commits/$branch";
-
-    $commitFile = "$localPath/.latest_commit";
-
-    $options = [
-        "http" => [
-            "header" => "User-Agent: PHP Deployment Script\r\n"
-        ]
+    // Files you want to fetch (relative to the repo root)
+    $filesToDownload = [
+        "index.html",
+        "style.css",
+        "javascript.js"
     ];
-    $context = stream_context_create($options);
-    $response = file_get_contents($apiUrl, false, $context);
-    $data = json_decode($response, true);
 
-    if (!$data || !isset($data['sha'])) {
-        die("Failed to fetch latest commit.\n");
-    }
+    // Directory to save them into (relative to this script)
+    $localPath = __DIR__.'/'.$repoOwner;
 
-    $latestCommit = $data['sha'];
+    foreach ($filesToDownload as $file) {
+        $rawUrl = "https://raw.githubusercontent.com/$repoOwner/$repoName/$branch/$file";
+        $savePath = "$localPath/$file";
 
-    $storedCommit = file_exists($commitFile) ? trim(file_get_contents($commitFile)) : "";
-
-    if ($latestCommit !== $storedCommit) {
-        echo "New update found! Deploying...\n";
-
-        $zipUrl = "https://github.com/$repoOwner/$repoName/archive/refs/heads/$branch.zip";
-        $zipFile = "$localPath/repo.zip";
-        file_put_contents($zipFile, file_get_contents($zipUrl));
-
-        $zip = new ZipArchive;
-        if ($zip->open($zipFile) === TRUE) {
-            $tempPath = "$localPath/temp";
-            if (!is_dir($tempPath)) mkdir($tempPath, 0755, true);
-
-            $zip->extractTo($tempPath);
-            $zip->close();
-            unlink($zipFile);
-
-            $newPath = "$tempPath/$repoName-$branch";
-            foreach (scandir($newPath) as $file) {
-                if ($file === "." || $file === "..") continue;
-
-                $src = "$newPath/$file";
-                $dest = "$localPath/$file";
-
-                if (in_array($file, $preserveFiles)) continue;
-
-                if (is_dir($dest)) {
-                    deleteDirectory($dest);
-                } elseif (file_exists($dest)) {
-                    unlink($dest);
-                }
-
-                rename($src, $dest);
-            }
-
-            deleteDirectory($newPath);
-            rmdir($tempPath);
-
-            file_put_contents($commitFile, $latestCommit);
-            echo "Deployment successful!\n";
-        } else {
-
-            echo "Zip failed with code: " . $zip->status . "\n";
-            switch ($zip->status) {
-                case ZipArchive::ER_INCONS:
-                    echo "ZIP inconsistent.";
-                    break;
-                case ZipArchive::ER_NOENT:
-                    echo "No such file.";
-                    break;
-                case ZipArchive::ER_OPEN:
-                    echo "Can't open file.";
-                    break;
-                case ZipArchive::ER_READ:
-                    echo "Read error.";
-                    break;
-                case ZipArchive::ER_SEEK:
-                    echo "Seek error.";
-                    break;
-                default:
-                    echo "Unknown error.";
-                    break;
-            }
+        // Make sure the folder exists
+        $folder = dirname($savePath);
+        if (!is_dir($folder)) {
+            mkdir($folder, 0755, true);
         }
-    } else {
-        echo "Already up to date.\n";
+
+        $content = fetchFromGitHub($rawUrl);
+        if ($content === false) {
+            echo "❌ Failed to download $file\n";
+        } else {
+            file_put_contents($savePath, $content);
+            echo "✅ Downloaded $file\n";
+        }
     }
 }
-
-function deleteDirectory($dir) {
-    if (!is_dir($dir)) return;
-
-    foreach (scandir($dir) as $item) {
-        if ($item === '.' || $item === '..') continue;
-
-        $path = "$dir/$item";
-        if (is_dir($path)) {
-            deleteDirectory($path);
-        } else {
-            unlink($path);
-        }
-    }
-    rmdir($dir);
+function fetchFromGitHub($url) {
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, "PHP File Downloader");
+    $response = curl_exec($ch);
+    $error = curl_error($ch);
+    curl_close($ch);
+    return $error ? false : $response;
 }
 
 ?>
