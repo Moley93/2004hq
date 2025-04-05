@@ -50,6 +50,8 @@
          <td width="7"></td>
      </tr>
  </tbody></table>
+ <table cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><img src="img\fm_bottom.gif"></td></tr></tbody></table>
+ <br />
  <table bgcolor="black" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="img\fm_top.gif"></td></tr></tbody></table>
  <table width="500" cellpadding="0" cellspacing="0" border="0" background="img\fm_middle.gif">
   <tr>
