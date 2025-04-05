@@ -4,9 +4,12 @@ $meta_data['og:title'] = $meta_data['title'];
 $meta_data['og:url'] = '?p=droptables';
 $meta_data['og:image'] = 'img/stats.webp';
 
+include('pages/thesneilert/droptables.php');
 include('template/header.php');
 include('template/body.php');
 
-include('pages/main/thesneilert/index.html');
+echo getPageContent();
+echo '<script src="pages/thesneilert/javascript.js" type="text/javascript"></script>';
+
 
 ?>

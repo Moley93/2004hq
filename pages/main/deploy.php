@@ -8,7 +8,6 @@ function deploy() {
     $repoOwner = "thesneilert";
     $repoName = "2004scape";
     $branch = "2004hq";
-    $localPath = $_SERVER['DOCUMENT_ROOT'].'/pages/2004calc';
 
     // Files you want to fetch (relative to the repo root)
     $filesToDownload = [
@@ -17,17 +16,15 @@ function deploy() {
         "javascript.js"
     ];
 
-    // Directory to save them into (relative to this script)
-    $localPath = __DIR__.'/'.$repoOwner;
 
     foreach ($filesToDownload as $file) {
         $rawUrl = "https://raw.githubusercontent.com/$repoOwner/$repoName/$branch/$file";
-        $savePath = "$localPath/$file";
+        $savePath = "$repoOwner/$file";
     
         // Fetch remote content
         $remoteContent = fetchFromGitHub($rawUrl);
         if ($remoteContent === false) {
-            echo "❌ Failed to download $file\n";
+            echo "❌ Failed to download $file <br />";
             continue;
         }
     
@@ -43,9 +40,9 @@ function deploy() {
     
             // Write the new file
             file_put_contents($savePath, $remoteContent);
-            echo "🔄 Updated: $file\n";
+            echo "🔄 Updated: $file <br />";
         } else {
-            echo "✅ No changes: $file\n";
+            echo "✅ No changes: $file <br />";
         }
     }
 }
