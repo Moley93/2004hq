@@ -12,14 +12,6 @@ if (!empty($_GET['p'])) {
         case 'changelog':
             include('pages/main/changelog.php');
             break;
-        case 'deploy':
-            if (!empty($_GET['h'])) { 
-                include('pages/main/deploy.php');
-                deploy();
-            } else {
-                include('pages/main/404.php');
-            }
-            break;
         case 'droptables':
             include('pages/main/droptables.php');
             break;
