@@ -29,7 +29,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                    <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Select a Clue Tier</b><br>
                                                 <select id="clueDropdown"
@@ -46,7 +46,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                    <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Search for an item</b><br>
                                                 <input type="text" id="searchInput"
@@ -86,20 +86,4 @@ function getPageContent() { return <<<HTML
             </td>
         </tr>
     </table>
-    <!-- Footer with edge images -->
-    <div style="text-align:center; font-family:Arial,Helvetica,sans-serif; font-size:11px;">
-        <br>
-        <a href="#" class="whitelink" onclick="showHowToUse(); return false;">How to
-            Use</a>
-        <span style="margin: 0 5px;">|</span>
-        <label class="switch">
-            <input type="checkbox" id="saveSettingsToggle" checked>
-            <span class="slider round"></span>
-        </label>
-        <span class="toggle-label">Save Settings</span>
-        <span style="margin: 0 5px;">|</span>
-        <a href="https://x.com/thesneilert" class="whitelink">Clue Tables made by Eilert</a>
-        <br>
-        <br>
-    </div>
 HTML; } ?>

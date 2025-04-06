@@ -1,4 +1,3 @@
-// Base URL for raw GitHub content 
 const baseUrl = "https://raw.githubusercontent.com/2004Scape/Server/main/data/src/scripts/minigames/game_trail/scripts/";
 
 // List of F2P .rs2 files
@@ -18,64 +17,14 @@ const itemCategories = {
         "cert_trout": { name: "Trout (noted)", image: "https://lostcity.markets/img/items/trout.webp" },
         "cert_swordfish": { name: "Swordfish (noted)", image: "https://lostcity.markets/img/items/swordfish.webp" },
         "cert_lobster": { name: "Lobster (noted)", image: "https://lostcity.markets/img/items/lobster.webp" },
-        "cert_shark": { name: "Salmon (noted)", image: "https://lostcity.markets/img/items/shark.webp" }
+        "cert_shark": { name: "Shark (noted)", image: "https://lostcity.markets/img/items/shark.webp" }
     }
 };
 
 // Flatten the categories into a single customItems object
-this.customItems = Object.values(itemCategories).reduce((acc, category) => {
+const customItems = Object.values(itemCategories).reduce((acc, category) => {
     return { ...acc, ...category };
 }, {});
-
-// Rare Drop Table data with specific icon mappings
-const rareDropTable = {
-    "~randomherb": [
-        { item: "Unidentified Guam Leaf", quantity: 1, rate: "32/128", icon: "unidentified_guam_leaf.webp" },
-        { item: "Unidentified Marrentill", quantity: 1, rate: "24/128", icon: "unidentified_marrentill.webp" },
-        { item: "Unidentified Tarromin", quantity: 1, rate: "18/128", icon: "unidentified_tarromin.webp" },
-        { item: "Unidentified Harralander", quantity: 1, rate: "14/128", icon: "unidentified_harralander.webp" },
-        { item: "Unidentified Ranarr Weed", quantity: 1, rate: "11/128", icon: "unidentified_ranarr_weed.webp" },
-        { item: "Unidentified Irit Leaf", quantity: 1, rate: "8/128", icon: "unidentified_irit_leaf.webp" },
-        { item: "Unidentified Avantoe", quantity: 1, rate: "6/128", icon: "unidentified_avantoe.webp" },
-        { item: "Unidentified Kwuarm", quantity: 1, rate: "5/128", icon: "unidentified_kwuarm.webp" },
-        { item: "Unidentified Cadantine", quantity: 1, rate: "4/128", icon: "unidentified_cadantine.webp" },
-        { item: "Unidentified Lantadyme", quantity: 1, rate: "3/128", icon: "unidentified_lantadyme.webp" },
-        { item: "Unidentified Dwarf Weed", quantity: 1, rate: "3/128", icon: "unidentified_dwarf_weed.webp" }
-    ],
-    "~randomjewel": [
-        { item: "Uncut Sapphire", quantity: 1, rate: "32/128", icon: "uncut_sapphire.webp" },
-        { item: "Uncut Emerald", quantity: 1, rate: "16/128", icon: "uncut_emerald.webp" },
-        { item: "Uncut Ruby", quantity: 1, rate: "8/128", icon: "uncut_ruby.webp" },
-        { item: "Uncut Diamond", quantity: 1, rate: "2/128", icon: "uncut_diamond.webp" },
-        { item: "Rune Javelin", quantity: 5, rate: "1/128", members: true, icon: "rune_javelin.webp" },
-        { item: "Loop Half of Key", quantity: 1, rate: "1/128", members: true, icon: "https://oldschool.runescape.wiki/images/Loop_half_of_key.png?01ae1" },
-        { item: "Tooth Half of Key", quantity: 1, rate: "1/128", members: true, icon: "https://oldschool.runescape.wiki/images/Tooth_half_of_key.png?01ae1" },
-        { item: "Mega Rare Table", quantity: 1, rate: "1/128", members: true, icon: "https://oldschool.runescape.wiki/images/Mega-rare_drop_table.png?21a00" },
-        { item: "Chaos Talisman", quantity: 1, rate: "3/128", members: true, icon: "chaos_talisman.webp" },
-        { item: "Nature Talisman", quantity: 1, rate: "3/128", members: true, icon: "nature_talisman.webp" }
-    ],
-    "~ultrarare_getitem": [
-        { item: "Nature Rune", quantity: 67, rate: "3/128", icon: "naturerune.webp" },
-        { item: "Adamant Javelin", quantity: 20, rate: "2/128", members: true, icon: "adamant_javelin.webp" },
-        { item: "Death Rune", quantity: 45, rate: "2/128", icon: "deathrune.webp" },
-        { item: "Law Rune", quantity: 45, rate: "2/128", icon: "lawrune.webp" },
-        { item: "Rune Arrow", quantity: 42, rate: "2/128", members: true, icon: "rune_arrow.webp" },
-        { item: "Steel Arrow", quantity: 150, rate: "2/128", icon: "steel_arrow.webp" },
-        { item: "Rune 2h Sword", quantity: 1, rate: "3/128", icon: "rune_2h_sword.webp" },
-        { item: "Rune Battleaxe", quantity: 1, rate: "3/128", icon: "rune_battleaxe.webp" },
-        { item: "Rune Square Shield", quantity: 1, rate: "2/128", icon: "rune_sq_shield.webp" },
-        { item: "Dragon Med Helm", quantity: 1, rate: "1/128", members: true, icon: "dragon_med_helm.webp" },
-        { item: "Rune Kiteshield", quantity: 1, rate: "1/128", icon: "rune_kiteshield.webp" },
-        { item: "Coins", quantity: 3000, rate: "20/128", icon: "coins_10000.png" },
-        { item: "Loop Half of Key", quantity: 1, rate: "20/128", members: true, icon: "https://oldschool.runescape.wiki/images/Loop_half_of_key.png?01ae1" },
-        { item: "Tooth Half of Key", quantity: 1, rate: "20/128", members: true, icon: "https://oldschool.runescape.wiki/images/Tooth_half_of_key.png?01ae1" },
-        { item: "Runite Bar", quantity: 1, rate: "5/128", members: true, icon: "runite_bar.webp" },
-        { item: "Dragonstone", quantity: 1, rate: "2/128", members: true, icon: "dragonstone.webp" },
-        { item: "Silver Ore", quantity: 100, rate: "2/128", icon: "silver_ore.webp" },
-        { item: "Random Jewel", quantity: 1, rate: "20/128", icon: "dragonstone.webp" },
-        { item: "Mega Rare Table", quantity: 1, rate: "15/128", members: true, icon: "https://oldschool.runescape.wiki/images/Mega-rare_drop_table.png?21a00" }
-    ],
-};
 
 // Cache for storing parsed drop tables
 const dropTablesCache = {};
@@ -98,14 +47,13 @@ function enableUI() {
     document.getElementById("clueDropdown").disabled = false;
 }
 
-
 // Function to fetch and parse a single .rs2 file
-async function fetchDropTable(fileName) {
+async function fetchClueTable(fileName) {
     if (dropTablesCache[fileName]) {
         return dropTablesCache[fileName];
     }
 
-    const url = `${baseUrl}/${fileName}`;
+    const url = `${baseUrl}${fileName}`;
     try {
         const response = await fetch(url);
         const text = await response.text();
@@ -211,13 +159,6 @@ function parseQuantity(expr) {
     }
 }
 
-
-function calculateRate(probability) {
-    const rate = 128 / probability;
-    const roundedRate = Math.round(rate);
-    return `1/${roundedRate}`;
-}
-
 function formatItemName(item) {
     // Check if this is a custom item first
     if (customItems[item.toLowerCase()]) {
@@ -235,12 +176,6 @@ function formatItemName(item) {
     return formattedItem;
 }
 
-function formatMonsterName(monster) {
-    return monster
-        .replace(/_/g, " ")
-        .replace(/\b\w/g, char => char.toUpperCase());
-}
-
 function formatClueName(filePath) {
     const match = filePath.match(/trail_clue_(\w+)_reward/);
     if (match) {
@@ -254,155 +189,6 @@ function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-// Function to convert fraction to 1/x format with rounded denominator
-function convertToOneOverX(numerator, denominator) {
-    const roundedDenominator = Math.round(denominator/numerator);
-    return `1/${roundedDenominator}`;
-}
-
-// Function to show rare drop table details
-function showRareDropTableDetails(itemKey) {
-    const details = rareDropTable[itemKey];
-    if (!details) return;
-
-    // Get current sort option
-    const sortOption = document.getElementById("sortToggle").value;
-
-    // Combine duplicate items and sum their rates
-    const combinedDetails = details.reduce((acc, drop) => {
-        const existingItem = acc.find(item => item.item === drop.item);
-        if (existingItem) {
-            // Parse existing and new rates
-            const [existingNum, existingDenom] = existingItem.rate.split('/').map(Number);
-            const [newNum, newDenom] = drop.rate.split('/').map(Number);
-
-            // If denominators are the same, just add numerators
-            if (existingDenom === newDenom) {
-                existingItem.rate = convertToOneOverX(existingNum + newNum, existingDenom);
-            } else {
-                // Convert to same denominator (128) and add
-                const totalRate = (existingNum / existingDenom) + (newNum / newDenom);
-                existingItem.rate = convertToOneOverX(Math.round(totalRate * 128), 128);
-            }
-        } else {
-            // Convert the rate for new items to 1/x format
-            const [num, denom] = drop.rate.split('/').map(Number);
-            acc.push({ 
-                ...drop,
-                rate: convertToOneOverX(num, denom)
-            });
-        }
-        return acc;
-    }, []);
-
-    // Sort the combined details based on the current sort option
-    combinedDetails.sort((a, b) => {
-        if (sortOption === "name-asc") {
-            return a.item.localeCompare(b.item);
-        } else if (sortOption === "name-desc") {
-            return b.item.localeCompare(a.item);
-        } else {
-            // Helper function to get the rate as a number for comparison
-            const getRateValue = (rate) => {
-                if (rate === "1/1" || rate.includes("infinity") || rate.includes("Infinity")) {
-                    return 1; // Highest possible rate for guaranteed drops
-                }
-                if (rate.includes('-')) {
-                    // For range rates like "1-3/128", take the higher number
-                    const [range, denom] = rate.split('/');
-                    const [min, max] = range.split('-').map(Number);
-                    return max / Number(denom);
-                } else {
-                    // For single rates like "1/128"
-                    const [num, denom] = rate.split('/').map(Number);
-                    return num / denom;
-                }
-            };
-
-            const rateA = getRateValue(a.rate);
-            const rateB = getRateValue(b.rate);
-            // Most Common First (asc) shows highest rates first
-            // Most Rare First (desc) shows lowest rates first
-            return sortOption === "asc" ? rateB - rateA : rateA - rateB;
-        }
-    });
-
-    const modal = document.createElement("div");
-    modal.className = "modal";
-    modal.innerHTML = `
-        <div class="modal-content">
-            <div class="modal-header">
-                <table width="500" bgcolor="black" cellpadding="4">
-                    <tr>
-                        <td class="e">
-                            <center>
-                                <b>${customItems[itemKey].name} Details</b>
-                            </center>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="modal-body">
-                <table width="500" bgcolor="black" cellpadding="2">
-                    <tr>
-                        <td class="e">
-                            <table width="100%" cellspacing="4" cellpadding="8" class="rare-drop-table">
-                                <thead>
-                                    <tr>
-                                        <th>Image</th>
-                                        <th>Item</th>
-                                        <th>Quantity</th>
-                                        <th>Rate</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    ${combinedDetails.map(drop => {
-        const imageUrl = drop.icon.startsWith('http')
-            ? drop.icon
-            : `https://lostcity.markets/img/items/${drop.icon}`;
-        return `
-                                            <tr>
-                                                <td>
-                                                    <img src="${imageUrl}" alt="${drop.item}" width="32" height="32" onerror="this.src='https://oldschool.runescape.wiki/images/Coins_10000.png?7fa38&20200722174651'">
-                                                </td>
-                                                <td>${drop.item}${drop.members ? ' <span style="color: #FFB83F">(Members)</span>' : ''}</td>
-                                                <td>${drop.quantity}</td>
-                                                <td>${drop.rate.includes("Infinity") ? drop.rate.replace("Infinity", "~") : drop.rate}</td>
-                                            </tr>
-                                        `;
-    }).join('')}
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <span class="close">&times;</span>
-        </div>
-    `;
-
-    // Position the modal near the top of the page with some headroom
-    const modalContent = modal.querySelector('.modal-content');
-    modalContent.style.position = 'fixed';
-    modalContent.style.top = '50px';  // Add some headroom from the top
-    modalContent.style.left = '50%';
-    modalContent.style.transform = 'translateX(-50%)';  // Center horizontally
-
-    document.body.appendChild(modal);
-
-    const closeBtn = modal.querySelector(".close");
-    closeBtn.onclick = () => {
-        document.body.removeChild(modal);
-    };
-
-    window.onclick = (event) => {
-        if (event.target === modal) {
-            document.body.removeChild(modal);
-        }
-    };
-}
-
-
 async function loadDropTable() {
     const dropdown = document.getElementById("clueDropdown");
     const selectedFile = dropdown.value;
@@ -411,7 +197,7 @@ async function loadDropTable() {
     tableBody.innerHTML = "";
 
     if (selectedFile) {
-        const drops = await fetchDropTable(selectedFile);
+        const drops = await fetchClueTable(selectedFile);
         const aggregatedDrops = [];
         const itemMap = new Map();
 
@@ -438,7 +224,6 @@ async function loadDropTable() {
                         quantities: [],
                         rates: []
                     });
-                    
                 }
                 const runeEntry = itemMap.get(lowerCaseItem);
                 runeEntry.quantities.push(quantity);
@@ -509,40 +294,7 @@ async function loadDropTable() {
         });
 
         aggregatedDrops.sort((a, b) => {
-            const sortOption = "name-asc";
-            
-            // Sort by name (A-Z)
-            if (sortOption === "name-asc") {
-                return a.item.localeCompare(b.item);
-            }
-            
-            // Sort by name (Z-A)
-            if (sortOption === "name-desc") {
-                return b.item.localeCompare(a.item);
-            }
-            
-            // Helper function to get the rate as a number for comparison
-            const getRateValue = (rate) => {
-                if (rate === "1/1" || rate.includes("infinity") || rate.includes("Infinity")) {
-                    return 1; // Highest possible rate for guaranteed drops
-                }
-                if (rate.includes('-')) {
-                    // For range rates like "1-3/128", take the higher number
-                    const [range, denom] = rate.split('/');
-                    const [min, max] = range.split('-').map(Number);
-                    return max / Number(denom);
-                } else {
-                    // For single rates like "1/128"
-                    const [num, denom] = rate.split('/').map(Number);
-                    return num / denom;
-                }
-            };
-
-            const rateA = getRateValue(a.rate);
-            const rateB = getRateValue(b.rate);
-            // Most Common First (asc) shows highest rates first
-            // Most Rare First (desc) shows lowest rates first
-            return sortOption === "asc" ? rateB - rateA : rateA - rateB;
+            return a.item.localeCompare(b.item);
         });
 
         aggregatedDrops.forEach(drop => {
@@ -555,35 +307,14 @@ async function loadDropTable() {
             let imageUrl;
             const lowerCaseItem = drop.item.toLowerCase();
 
-            // Helper function to get image URL from custom item
-            const getImageUrl = (item) => {
-                if (!item) return null;
-                return item.image.startsWith('http')
-                    ? item.image
-                    : `https://lostcity.markets/img/items/${item.image}`;
-            };
-
             // Try to find the item in customItems with exact match first
             let customItem = customItems[lowerCaseItem];
 
-            // If no exact match, try to find a partial match, but be more precise
+            // If no exact match, try to find a partial match
             if (!customItem) {
                 for (const [key, value] of Object.entries(customItems)) {
                     const lowerKey = key.toLowerCase();
-                    // Only match if the key is a complete word within the item name
-                    const keyWords = lowerKey.split('_');
-                    const itemWords = lowerCaseItem.split('_');
-                    if (keyWords.every(word => itemWords.includes(word))) {
-                        customItem = value;
-                        break;
-                    }
-                }
-            }
-
-            // If still no match, try to match against the custom item names
-            if (!customItem) {
-                for (const [key, value] of Object.entries(customItems)) {
-                    if (value.name.toLowerCase() === lowerCaseItem) {
+                    if (lowerCaseItem.includes(lowerKey)) {
                         customItem = value;
                         break;
                     }
@@ -591,13 +322,13 @@ async function loadDropTable() {
             }
 
             if (customItem) {
-                imageUrl = getImageUrl(customItem);
-                console.log(`Found custom item: ${drop.item} -> ${imageUrl}`);
+                imageUrl = customItem.image.startsWith('http') 
+                    ? customItem.image 
+                    : `https://lostcity.markets/img/items/${customItem.image}`;
             } else {
                 // Default case - try to construct from item name
                 const imageName = `${lowerCaseItem.replace(/ /g, "_")}.webp`;
                 imageUrl = `https://lostcity.markets/img/items/${imageName}`;
-                console.log(`No custom item found for: ${drop.item}, using default: ${imageUrl}`);
             }
 
             const imageElement = document.createElement("img");
@@ -606,73 +337,18 @@ async function loadDropTable() {
             imageElement.width = 32;
             imageElement.height = 32;
             imageElement.onerror = function () {
-                // Try multiple fallback images in sequence
-                const fallbacks = [
-                    getImageUrl(customItems.coins),
-                    'https://oldschool.runescape.wiki/images/Coins_10000.png?7fa38&20200722174651',
-                    'https://lostcity.markets/img/items/coins.webp'
-                ];
-                let currentFallback = 0;
-
-                const tryNextFallback = () => {
-                    if (currentFallback < fallbacks.length) {
-                        this.src = fallbacks[currentFallback++];
-                    }
-                };
-
-                this.onerror = tryNextFallback;
-                tryNextFallback();
+                this.src = 'https://oldschool.runescape.wiki/images/Coins_10000.png';
             };
             imageCell.appendChild(imageElement);
 
             const itemCell = document.createElement("td");
             itemCell.textContent = formattedItemName;
 
-            // Add click handler for rare drop table items
-            if (drop.item.toLowerCase().includes("rare drop table") ||
-                drop.item.toLowerCase().includes("mega rare table") ||
-                drop.item.toLowerCase().includes("random jewel") ||
-                drop.item.toLowerCase().includes("random herb")) {
-                itemCell.className = "clickable-item";
-                itemCell.onclick = () => {
-                    const itemKey = Object.keys(customItems).find(key =>
-                        customItems[key].name.toLowerCase() === drop.item.toLowerCase()
-                    );
-                    if (itemKey) {
-                        showRareDropTableDetails(itemKey);
-                    }
-                };
-            }
-
             const quantityCell = document.createElement("td");
             quantityCell.textContent = drop.quantity;
 
             const rateCell = document.createElement("td");
-            // Add function to simplify fractions
-            const simplifyFraction = (numerator, denominator) => {
-                if (denominator === "Infinity" || denominator === "infinity") {
-                    return "1/1";
-                }
-                const gcd = (a, b) => b ? gcd(b, a % b) : a;
-                const divisor = gcd(numerator, denominator);
-                return `${numerator/divisor}/${denominator/divisor}`;
-            };
-
-            // Handle rate display with simplification
-            if (drop.rate.includes('-')) {
-                // For range rates, simplify each part
-                const [range, denom] = drop.rate.split('/');
-                const [min, max] = range.split('-').map(Number);
-                const simplifiedMin = simplifyFraction(min, Number(denom));
-                const simplifiedMax = simplifyFraction(max, Number(denom));
-                rateCell.textContent = `${simplifiedMin}-${simplifiedMax}`;
-            } else if (drop.rate.includes('infinity') || drop.rate.includes('Infinity')) {
-                rateCell.textContent = "1/1";
-            } else {
-                // For single rates
-                const [num, denom] = drop.rate.split('/').map(Number);
-                rateCell.textContent = simplifyFraction(num, denom);
-            }
+            rateCell.textContent = drop.rate;
 
             row.appendChild(imageCell);
             row.appendChild(itemCell);
@@ -682,14 +358,13 @@ async function loadDropTable() {
             tableBody.appendChild(row);
         });
 
+        // Highlight search results if there's an active search
         const searchInput = document.getElementById("searchInput").value.toLowerCase();
         if (searchInput) {
             const rows = tableBody.querySelectorAll("tr");
             rows.forEach(row => {
                 const itemName = row.querySelector("td:nth-child(2)").textContent.toLowerCase();
-                if (itemName.includes(searchInput)) {
-                    row.classList.add("highlight");
-                }
+                row.classList.toggle("highlight", itemName.includes(searchInput));
             });
         }
     }
@@ -704,19 +379,159 @@ function populateDropdown() {
     defaultOption.textContent = "Select...";
     dropdown.appendChild(defaultOption);
 
-    // Create array of options with their formatted names
-    const options = activeDropFiles.map(file => ({
-        value: file,
-        text: formatClueName(file)
-    }));
-
-    // Add the sorted options to the dropdown
-    options.forEach(option => {
-        const optionElement = document.createElement("option");
-        optionElement.value = option.value;
-        optionElement.textContent = option.text;
-        dropdown.appendChild(optionElement);
+    activeDropFiles.forEach(file => {
+        const option = document.createElement("option");
+        option.value = file;
+        option.textContent = formatClueName(file);
+        dropdown.appendChild(option);
     });
+}
+
+// Improved search functionality
+async function searchItems() {
+    const searchInput = document.getElementById("searchInput").value.toLowerCase();
+    const searchResults = document.getElementById("searchResults");
+    searchResults.innerHTML = "";
+
+    if (searchInput.length === 0) {
+        searchResults.style.display = "none";
+        return;
+    }
+
+    const results = [];
+
+    // Search through all clue files
+    for (const file of activeDropFiles) {
+        const drops = await fetchClueTable(file);
+        const matchingDrops = drops.filter(drop => {
+            const searchableName = drop.item.toLowerCase()
+                .replace(/\([^)]*\)/g, '') // Remove parentheses content
+                .replace(/[^a-z0-9\s]/g, '') // Remove special characters
+                .trim();
+            
+            const searchTerms = searchInput.split(/\s+/);
+            return searchTerms.every(term => 
+                searchableName.includes(term) ||
+                term.includes(searchableName)
+            );
+        });
+
+        if (matchingDrops.length > 0) {
+            results.push(...matchingDrops.map(item => ({
+                ...item,
+                file: file
+            })));
+        }
+    }
+
+    // Display results
+    if (results.length > 0) {
+        searchResults.style.display = "block";
+        
+        // Sort items alphabetically
+        results.sort((a, b) => a.item.localeCompare(b.item));
+
+        // Display each matching item
+        results.forEach(item => {
+            const resultItem = document.createElement("div");
+            resultItem.className = "search-result-item";
+            
+            // Create container for image + text
+            const contentContainer = document.createElement("div");
+            contentContainer.className = "search-result-content";
+            
+            // Create image element
+            const imgElement = document.createElement("img");
+            imgElement.className = "search-item-img";
+            imgElement.src = getItemImage(item.item);
+            imgElement.alt = item.item;
+            imgElement.width = 24;
+            imgElement.height = 24;
+            imgElement.onerror = function() {
+                this.src = 'https://oldschool.runescape.wiki/images/Coins_10000.png';
+            };
+            
+            // Create item name display
+            const nameElement = document.createElement("div");
+            nameElement.className = "search-item-name";
+            nameElement.textContent = formatItemName(item.item);
+            
+            // Append elements to container
+            contentContainer.appendChild(imgElement);
+            contentContainer.appendChild(nameElement);
+            
+            // Append container to result item
+            resultItem.appendChild(contentContainer);
+            
+            resultItem.onclick = () => {
+                document.getElementById("clueDropdown").value = item.file;
+                loadDropTable();
+                searchResults.style.display = "none";
+                
+                // Highlight the matching rows in the table
+                setTimeout(() => {
+                    const tableBody = document.querySelector("#dropTable tbody");
+                    if (tableBody) {
+                        const rows = tableBody.querySelectorAll("tr");
+                        rows.forEach(row => {
+                            const rowItem = row.querySelector("td:nth-child(2)").textContent.toLowerCase();
+                            row.classList.toggle("highlight", rowItem.includes(searchInput));
+                            if (rowItem.includes(searchInput)) {
+                                row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            }
+                        });
+                    }
+                }, 100);
+            };
+            
+            searchResults.appendChild(resultItem);
+        });
+    } else {
+        searchResults.style.display = "block";
+        const noResults = document.createElement("div");
+        noResults.className = "search-result-item";
+        noResults.textContent = "No results found.";
+        searchResults.appendChild(noResults);
+    }
+}
+
+function getItemImage(itemName) {
+    const lowerCaseItem = itemName.toLowerCase();
+    let customItem = customItems[lowerCaseItem];
+    
+    if (!customItem) {
+        // Try to find partial match in custom items
+        for (const [key, value] of Object.entries(customItems)) {
+            if (lowerCaseItem.includes(key.toLowerCase())) {
+                customItem = value;
+                break;
+            }
+        }
+    }
+    
+    if (customItem) {
+        return customItem.image.startsWith('http') 
+            ? customItem.image 
+            : `https://lostcity.markets/img/items/${customItem.image}`;
+    }
+    
+    // Default image URL
+    return `https://lostcity.markets/img/items/${lowerCaseItem.replace(/ /g, "_")}.webp`;
+}
+
+// Helper function to highlight matching text in search results
+function highlightMatches(text, search) {
+    const searchTerms = search.toLowerCase().split(/\s+/);
+    let result = text;
+    
+    searchTerms.forEach(term => {
+        if (term.length > 2) { // Only highlight terms with 3+ characters
+            const regex = new RegExp(`(${term})`, 'gi');
+            result = result.replace(regex, '<span class="search-highlight">$1</span>');
+        }
+    });
+    
+    return result;
 }
 
 // Add debounce function
@@ -732,250 +547,56 @@ function debounce(func, wait) {
     };
 }
 
-async function searchItems() {
-const searchInput = document.getElementById("searchInput").value.toLowerCase().trim();
-const searchResults = document.getElementById("searchResults");
-searchResults.innerHTML = "";
-
-if (searchInput.length < 2) {
-searchResults.style.display = "none";
-return;
-}
-
-try {
-const results = [];
-const normalizedSearchInput = searchInput.replace(/[\s_]+/g, "").toLowerCase();
-
-// Search through ALL files (both F2P and P2P) regardless of current view
-const allFiles = [...f2pDropFiles, ...p2pDropFiles];
-
-// Remove the limit to search through all files
-for (const file of allFiles) {
-    const drops = await fetchDropTable(file);
-    const uniqueMatchingItems = new Set();
-    
-    drops.forEach(drop => {
-        const normalizedItemName = drop.item.replace(/[\s_]+/g, "").toLowerCase();
-        if (normalizedItemName.includes(normalizedSearchInput)) {
-            uniqueMatchingItems.add(drop.item);
-        }
-    });
-
-    if (uniqueMatchingItems.size > 0) {
-        const isP2P = p2pDropFiles.includes(file);
-        results.push({
-            monster: formatMonsterName(file.replace(".rs2", "")),
-            file: file,
-            matchCount: uniqueMatchingItems.size,
-            isP2P: isP2P
-        });
-    }
-}
-
-// Sort results by number of matches
-results.sort((a, b) => b.matchCount - a.matchCount);
-
-if (results.length > 0) {
-    searchResults.style.display = "block";
-    results.forEach(result => {
-        const resultItem = document.createElement("div");
-        resultItem.className = "search-result-item";
-        
-        // Highlight P2P results differently
-        const membershipClass = result.isP2P ? "p2p-result" : "f2p-result";
-        resultItem.innerHTML = `
-            <div class="monster-name ${membershipClass}">${result.monster}</div>
-            <div class="monster-info">${result.matchCount} matches <span class="${membershipClass}">(${result.isP2P ? 'P2P' : 'F2P'})</span></div>
-        `;
-        
-        resultItem.onclick = () => {
-            // Update the membership toggle to match the selected monster
-            document.getElementById("membershipToggle").value = result.isP2P ? "p2p" : "f2p";
-            // Trigger the membership change
-            toggleMembership();
-            // Select the monster in the dropdown
-            document.getElementById("monsterDropdown").value = result.file;
-            // Load its drop table
-            loadDropTable();
-            // Clear the search results
-            searchResults.style.display = "none";
-        };
-        searchResults.appendChild(resultItem);
-    });
-} else {
-    searchResults.style.display = "block";
-    const noResults = document.createElement("div");
-    noResults.className = "search-result-item";
-    noResults.textContent = "No results found.";
-    searchResults.appendChild(noResults);
-}
-} catch (error) {
-console.error("Error during search:", error);
-searchResults.style.display = "block";
-const errorMessage = document.createElement("div");
-errorMessage.className = "search-result-item";
-errorMessage.textContent = "An error occurred while searching.";
-searchResults.appendChild(errorMessage);
-}
-}
-
-// Add click event handlers for search functionality
+// Event listeners
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById("searchInput");
     const searchResults = document.getElementById("searchResults");
 
-    // Show dropdown when clicking the search input
+    // Show dropdown when clicking the search bar
     searchInput.addEventListener('click', function() {
+        if (this.value.length > 0) {
+            searchResults.style.display = "block";
+            debouncedSearch();
+        }
+    });
+
+    // Show dropdown when typing
+    searchInput.addEventListener('input', function() {
         if (this.value.length >= 2) {
             searchResults.style.display = "block";
+        } else {
+            searchResults.style.display = "none";
         }
     });
 
     // Close dropdown when clicking outside
     document.addEventListener('click', function(event) {
-        const isClickInside = searchInput.contains(event.target) || searchResults.contains(event.target);
-        if (!isClickInside) {
+        if (!searchInput.contains(event.target) && !searchResults.contains(event.target)) {
             searchResults.style.display = "none";
         }
     });
 
-    // Prevent clicks inside the dropdown from closing it
+    // Keep dropdown open when clicking inside
     searchResults.addEventListener('click', function(event) {
         event.stopPropagation();
     });
+
+    // Initialize dropdown change handler
+    document.getElementById("clueDropdown").addEventListener('change', loadDropTable);
 });
 
-// Debounce the search function
+// Initialize the debounced search
 const debouncedSearch = debounce(searchItems, 300);
+document.getElementById("searchInput").addEventListener('input', debouncedSearch);
 
-// Update the search input event listener
-document.getElementById("searchInput").oninput = debouncedSearch;
-
-// Add this new function after the toggleMembership function
-function toggleSort() {
-    const dropdown = document.getElementById("monsterDropdown");
-    // Save the sort preference to local storage only if save settings is enabled
-    if (document.getElementById("saveSettingsToggle").checked) {
-        const sortToggle = document.getElementById("sortToggle");
-        localStorage.setItem('sortPreference', sortToggle.value);
-    }
-    
-    if (dropdown.value) {
-        loadDropTable();
-    }
-}
-
-// Add this new function before window.onload
-function showHowToUse() {
-    const modal = document.createElement("div");
-    modal.className = "modal";
-    modal.innerHTML = `
-        <div class="modal-content">
-            <div class="modal-header">
-                <table width="500" bgcolor="black" cellpadding="4">
-                    <tr>
-                        <td class="e">
-                            <center>
-                                <b>How to Use Drop Tables</b>
-                            </center>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="modal-body">
-                <table width="500" bgcolor="black" cellpadding="2">
-                    <tr>
-                        <td class="e">
-                            <table width="100%" cellspacing="4" cellpadding="8" class="rare-drop-table">
-                                <tbody>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">1. Select a Monster</span><br>
-                                            <span style="color: #cccccc;">Choose a monster from the dropdown menu to view its drop table.</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">2. Search for Items</span><br>
-                                            <span style="color: #cccccc;">Click on a monster in the search results to view its drop table. Items matching your search will be highlighted in green.</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">3. Toggle Membership</span><br>
-                                            <span style="color: #cccccc;">Switch between Free-to-Play and Members monsters using the dropdown.</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">4. Sort by Rarity</span><br>
-                                            <span style="color: #cccccc;">Choose to view drops from most common to most rare, or vice versa.</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">5. Interactive Items</span><br>
-                                            <span style="color: #cccccc;">Click on items like <span style="color: #90c040;">Rare Drop Table</span>, <span style="color: #90c040;">Random Jewel</span>, or <span style="color: #90c040;">Random Herb</span> to see their detailed drop tables.</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="3" style="text-align: left;">
-                                            <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">6. Understanding Rates</span><br>
-                                            <span style="color: #cccccc;">Drop rates are shown as fractions (e.g., <span style="color: #90c040;">"1/128"</span>). Higher numbers mean rarer drops.</span>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <span class="close">&times;</span>
-        </div>
-    `;
-
-    // Position the modal near the top of the page with some headroom
-    const modalContent = modal.querySelector('.modal-content');
-    modalContent.style.position = 'fixed';
-    modalContent.style.top = '50px';  // Add some headroom from the top
-    modalContent.style.left = '50%';
-    modalContent.style.transform = 'translateX(-50%)';  // Center horizontally
-
-    document.body.appendChild(modal);
-
-    const closeBtn = modal.querySelector(".close");
-    closeBtn.onclick = () => {
-        document.body.removeChild(modal);
-    };
-
-    window.onclick = (event) => {
-        if (event.target === modal) {
-            document.body.removeChild(modal);
-        }
-    };
-}
-
-
-// Add event listener for the save settings toggle
-document.getElementById("saveSettingsToggle").addEventListener("change", function() {
-    // Save the toggle state itself
-    localStorage.setItem('saveSettingsEnabled', this.checked);
-    
-    if (!this.checked) {
-        // Clear saved preferences when toggle is turned off
-        localStorage.removeItem('membershipPreference');
-        localStorage.removeItem('sortPreference');
-    }
-});
-
+// Initialize the page
 window.onload = async () => {
     showLoader();
     const allFiles = [...clueFiles];
     for (const file of allFiles) {
-        await fetchDropTable(file);
+        await fetchClueTable(file);
     }
     populateDropdown();
     enableUI();
-
     hideLoader();
 };

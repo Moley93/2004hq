@@ -1,3 +1,28 @@
+/* Clue Tables specific */
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.search-result-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.search-item-img {
+    flex-shrink: 0;
+}
+
+.search-item-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* Styles from index.html */
 select, #searchInput {
     width: 180px;
@@ -47,7 +72,7 @@ select::-ms-expand {
     justify-content: center;
     height: 70px;
     position: relative;
-    background: url('img/stoneback.gif');
+    background: url('img\stoneback.gif');
     padding: 10px;
     text-align: center;
 }
