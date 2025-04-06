@@ -502,6 +502,15 @@ input:checked + .slider:before {
     margin-left: 3px;
 }
 
+.toggle-green {
+    color: #90c040;
+    text-decoration: none;
+}
+
+.toggle-green:hover {
+    text-decoration: underline;
+}
+
 .modal-content table td.e {
     border: none;
 }
@@ -616,7 +625,7 @@ select::-webkit-scrollbar-button:vertical:end,
     background-image: url('data:image/svg+xml;utf8,<svg fill="%2390c040" height="8" viewBox="0 0 24 24" width="8" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
 }
 
-/* Firefox Scrollbar Styles */
+/* Firefox scrollbar styles */
 select, .search-results {
     scrollbar-width: thin;
     scrollbar-color: #90c040 #474747;
@@ -696,4 +705,8 @@ select::-webkit-scrollbar-button:hover,
 select, .search-results {
     scrollbar-width: auto !important;
     scrollbar-color: #90c040 #474747 !important;
+}
+
+#dropTable th {
+    font-size: 13px;
 }

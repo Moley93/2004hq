@@ -129,7 +129,7 @@ function getPageContent() { return <<<HTML
     <!-- Footer with edge images -->
     <div style="text-align:center; font-family:Arial,Helvetica,sans-serif; font-size:11px;">
         <br>
-        <a href="#" class="whitelink" onclick="showHowToUse(); return false;">How to
+        <a href="#" class="toggle-green" onclick="showHowToUse(); return false;">How to
             Use</a>
         <span style="margin: 0 5px;">|</span>
         <label class="switch">
@@ -137,8 +137,6 @@ function getPageContent() { return <<<HTML
             <span class="slider round"></span>
         </label>
         <span class="toggle-label">Save Settings</span>
-        <span style="margin: 0 5px;">|</span>
-        <a href="https://x.com/thesneilert" class="whitelink">Drop Tables made by Eilert</a>
         <br>
         <br>
     </div>
