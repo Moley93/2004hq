@@ -28,7 +28,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Sort by</b><br>
                                                 <select id="sortToggle"
@@ -47,7 +47,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Membership</b><br>
                                                 <select id="membershipToggle"
@@ -70,7 +70,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Search for an item</b><br>
                                                 <input type="text" id="searchInput"
@@ -86,7 +86,7 @@ function getPageContent() { return <<<HTML
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747>
+                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Select a monster</b><br>
                                                 <select id="monsterDropdown"
