@@ -51,6 +51,7 @@ $questlist = array(
     "templeofikov" => array("Temple of Ikov" => true),
     "grandtree" => array("The Grand Tree" => true),
     "holygrail" => array("The Holy Grail" => true),
+    "touristtrap" => array("The Tourist Trap" => true),
     "undergroundpass" => array("The Underground Pass" => true),
     "treegnomevillage" => array("Tree Gnome Village" => true),
     "tribaltotem" => array("Tribal Totem" => true),
