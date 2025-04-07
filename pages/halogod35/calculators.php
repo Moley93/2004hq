@@ -1,58 +1,87 @@
 <?php
-class calculatorType {
-    private String $calcName;
-    public function getCSS() {
-        if ($this->calcName != null) {
-            return ($this->calcName).'.css';
-        }
-        return null;
-    }
-    public function getJS() {
-        if ($this->calcName != null) {
-            return ($this->calcName).'.js';
-        }
-        return null;
-    }
-    public function __construct() {
-        switch (htmlspecialchars($_GET['calc'])) {
-            case 'agility':
-            case 'cooking';
-            case 'crafting';
-            case 'firemaking';
-            case 'fishing';
-            case 'fletching';
-            case 'herblore';
-            case 'mining';
-            case 'prayer';
-            case 'runecrafting';
-            case 'smithing';
-            case 'thieving';
-            case 'woodcutting';
-            case 'combatxp';
-            case 'combatlevel';
-            case 'highalch';
-            case 'maxhit';
-            case 'prayerduration';
-            case 'runenergy';
-            case 'splashing';
-                $this->calcName = htmlspecialchars($_GET['calc']);
-                break;
-            default:
-                $this->calcName = null;
-        }
-    }
-}
-function getExtraHeaderContent() {
-    $r = '';
-    $calculatorType = new calculatorType();
-    if (!($calculatorType->getCSS() == null)) {
-        $r = $r.'<link rel="stylesheet" href="css/halogod35/'.$calculatorType->getCSS().'" />';
-    }
-    if (!($calculatorType->getJS() == null)) {
-        $r = $r.'<link rel="stylesheet" href="css/halogod35/'.$calculatorType->getJS().'" />';
-    }
-    return $r;
-}
-function getPageContent() { return <<<HTML
+class CalculatorType {
+    private ?string $calcName = null; // Allow $calcName to be nullable
 
-HTML; } ?>
+    private const VALID_CALCULATORS = [
+        'agility', 'cooking', 'crafting', 'firemaking', 'fishing', 'fletching',
+        'herblore', 'mining', 'prayer', 'runecrafting', 'smithing', 'thieving',
+        'woodcutting', 'combat_xp', 'combat_level', 'high_alch', 'max_hit',
+        'prayer_duration', 'run_energy', 'splashing'
+    ];
+
+    public function getCSS(): ?string {
+        return $this->calcName ? $this->calcName . '.css' : null;
+    }
+
+    public function getJS(): ?string {
+        return $this->calcName ? $this->calcName . '.js' : null;
+    }
+
+    public function getName(): ?string {
+        return $this->calcName;
+    }
+
+    public function __construct() {
+        $calc = htmlspecialchars($_GET['calc'] ?? '');
+        if (in_array($calc, self::VALID_CALCULATORS, true)) {
+            $this->calcName = $calc;
+        }
+    }
+}
+
+function getExtraHeaderContent(): string {
+    $calculatorType = new CalculatorType();
+    $content = '';
+
+    if ($css = $calculatorType->getCSS()) {
+        $content .= '<link rel="stylesheet" href="css/halogod35/' . $css . '" />';
+    }
+
+    if ($js = $calculatorType->getJS()) {
+        $content .= '<script src="js/halogod35/' . $js . '"></script>';
+    }
+
+    return $content;
+}
+
+function getPageContent(): string {
+    $calculatorType = new CalculatorType();
+    if ($calculatorType->getName() === null) {
+        return generateCalculatorLinks();
+    }
+
+    return 'Calc page for '.$calculatorType->getName();
+}
+
+function generateCalculatorLinks(): string {
+    $skillCalculators = [
+        'agility', 'cooking', 'crafting', 'firemaking', 'fishing', 'fletching',
+        'herblore', 'mining', 'prayer', 'runecrafting', 'smithing', 'thieving', 'woodcutting'
+    ];
+
+    $miscCalculators = [
+        'combat_xp', 'combat_level', 'high_alch', 'max_hit', 'prayer_duration', 'run_energy', 'splashing'
+    ];
+
+    $generateLinks = function (array $calculators) {
+        $rows = '';
+        foreach ($calculators as $calc) {
+            $linkText = ucwords(str_replace('_', ' ', $calc)); // Capitalizes the words and replaces underscores with spaces
+            $rows .= '<tr><td class="e"><a href="?p=calculators&calc='.$calc.'">'.$linkText.' Calculator</a></td></tr>';
+        }
+        return $rows;
+    };
+
+    $skillRows = $generateLinks($skillCalculators);
+    $miscRows = $generateLinks($miscCalculators);
+
+    return <<<HTML
+<table width="100%" cellpadding="8" cellspacing="8" class="calculators">
+    <tr><td><center><table width="250" cellpadding="4"><tbody><tr><td class="e"><center><b>Skill Calculators</b></center></td></tr></tbody></table></center></td></tr>
+    <tbody>$skillRows</tbody>
+    <tr><td><center><table width="250" cellpadding="4"><tbody><tr><td class="e"><center><b>Misc Calculators</b></center></td></tr></tbody></table></center></td></tr>
+    <tbody>$miscRows</tbody>
+</table>
+HTML;
+}
+?>
