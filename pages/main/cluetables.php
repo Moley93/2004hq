@@ -9,7 +9,6 @@ include('template/header.php');
 include('template/body.php');
 
 echo getPageContent();
-echo '<script type="text/javascript" src="js/spriteloader.js"></script>';
 echo '<script src="pages/thesneilert/cluetables.js" type="text/javascript"></script>';
 
 ?>

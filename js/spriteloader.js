@@ -42,39 +42,44 @@ Promise.all([
   function renderSpriteToCanvas(debugname, canvas) {
     let id;
   
-    // 🔹 Special case for coins variants
+    // Handle coins variant override
     if (coinVariants.hasOwnProperty(debugname)) {
       id = coinVariants[debugname];
     }
-    // 🔹 Exempt overrides
+    // Exempt items override
     else if (exemptItems.hasOwnProperty(debugname)) {
       id = exemptItems[debugname];
     }
-    // 🔹 cert_ logic
+    // Handle certs
     else if (debugname.startsWith("cert_")) {
       const baseName = debugname.replace(/^cert_/, "");
       const baseItem = itemData.find(i => i.debugname === baseName);
       id = baseItem ? baseItem.id + 1 : 2677;
     }
-    // 🔹 Default JSON lookup
+    // Normal lookup
     else {
       const item = itemData.find(i => i.debugname === debugname);
-      id = item ? item.id : 2677; // fallback to missing sprite
+      id = item ? item.id : 2677;
     }
   
+    // Sprite position
     const col = id % spritesPerRow;
     const row = Math.floor(id / spritesPerRow);
-    const ctx = canvas.getContext("2d");
   
-    canvas.width = spriteSize;
-    canvas.height = spriteSize;
-    ctx.clearRect(0, 0, spriteSize, spriteSize);
+    // Determine output size
+    const size = parseInt(canvas.dataset.size) || spriteSize; // default 32 if not set
+  
+    const ctx = canvas.getContext("2d");
+    canvas.width = size;
+    canvas.height = size;
+  
+    ctx.clearRect(0, 0, size, size);
     ctx.drawImage(
       spritesheet,
-      col * spriteSize, row * spriteSize,
+      col * spriteSize, row * spriteSize, // Source x, y (always 32x32)
       spriteSize, spriteSize,
       0, 0,
-      spriteSize, spriteSize
+      size, size                          // Scale to desired size
     );
   }
   window.renderAllSprites = function() {

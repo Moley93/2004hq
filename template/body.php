@@ -82,11 +82,12 @@
                   </tr>
                 </tbody>
               </table>
-              <table width="500" cellpadding="0" cellspacing="0" border="0" background="img\fm_middle.gif">
-                <tr>
-                  <td width=7></td>
-                  <td valign="bottom" style="background-color: #000">
-                    <center>
-                  <td valign="bottom" style="background-color: #000">
-                    <center>
-                      <br>
+              <div class="main-content">
+                <table width="500" cellpadding="0" cellspacing="0" border="0" background="img\fm_middle.gif">
+                  <tr>
+                    <td width=7></td>
+                    <td valign="bottom" style="background-color: #000">
+                      <center>
+                    <td valign="bottom" style="background-color: #000">
+                      <center>
+                        <br>
