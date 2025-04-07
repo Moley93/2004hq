@@ -52,5 +52,6 @@ if(substr($meta_data['og:image'], 0, 4) == "http") {
               .rsquill8 { font-family: RSQuill8; }
         </style>
         <link rel="stylesheet" href="css\messages.css" />
+        <script type="text/javascript" src="js/spriteloader.js"></script>
         <?php if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); } ?>
     </head>
