@@ -21,7 +21,8 @@ if(substr($meta_data['og:image'], 0, 4) == "http") {
         <title>2004HQ > <?php echo $meta_data['title']; ?></title>
         <link rel="icon" type="image/x-icon" href="img/sword.png" />
         <style>
-            body, p, td  { font-family:'RSPlain12',sans-serif; font-size:18px; }
+            body, p, td { font-family:Arial,Helvetica,sans-serif; font-size:13px; }
+            .main-content  { font-family:'RSPlain12',sans-serif; font-size:18px; }
             .b {border-style: outset; border-width:3pt; border-color:#373737}
             .b2 {border-style: outset; border-width:3pt; border-color:#570700}
             .e {border:2px solid #382418}
