@@ -7,7 +7,7 @@ include('template/body.php');
     <tr valign="top">
         <td width="100" align="center">
             <a href="?p=questlist">
-                <img src="img\questicon.webp" border="0">
+                <img src="img\questicon.png" border="0">
             </a>
         </td>
         <td width="120">
@@ -25,7 +25,7 @@ include('template/body.php');
         
         <td width="100" align="center">
             <a href="?p=skilllist">
-                <img src="img\stats.webp" border="0" />
+                <img src="img\stats.png" border="0" />
             </a>
         </td>
         
@@ -43,7 +43,7 @@ include('template/body.php');
     <tr valign="top">
         <td width="100" align="center">
             <a href="?p=droptables">
-                <img src="img\skeleton.webp" border="0">
+                <img src="img\skeleton.png" border="0">
             </a>
         </td>
         <td width="120">
@@ -79,7 +79,7 @@ include('template/body.php');
     <tr valign="top">
     <td width="100" align="center">
             <a href="?">
-                <img src="img\swordicon.webp" border="0" />
+                <img src="img\swordicon.png" border="0" />
             </a>
         </td>
         
@@ -98,7 +98,7 @@ include('template/body.php');
         
         <td width="100" align="center">
             <a href="?">
-                <img src="img\wip.png" border="0" />
+                <img src="img\WIP.png" border="0" />
             </a>
         </td>
         
