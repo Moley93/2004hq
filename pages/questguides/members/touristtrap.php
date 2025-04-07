@@ -67,7 +67,7 @@ Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Add
 <br>
 19. Once outside go north to Irena and talk to her.<br>
 <br>
-<img src="img\questimages\ttrap1.png" height="200" width="350"><br>
+<img src="img\questimages\ttrap1.gif" height="200" width="350"><br>
 <br>
 This quest guide was written by imthecoolest, and haxhi4life. Thanks to DRAVAN for corrections.<br>
 
