@@ -16,7 +16,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Quest Guides from RuneHQ
+            Quest Guides
             <br />
             <a href="?p=questlist" class="c">Click here</a>
         </td>
@@ -35,7 +35,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Skill Guides from RuneScape's Manual!
+            Skill Guides
             <br />
             <a href="?p=skilllist" class="c">Click here</a>
         </td>
@@ -52,7 +52,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            Drop Tables from Eilert!
+            Monster Drops
             <br />
             <a href="?p=droptables" class="c">Click here</a>
         </td>
@@ -70,7 +70,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Calculators from Halogod35!
+            Calculators
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
@@ -87,7 +87,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Treasure Trails Rewards
+            Clue Rewards
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
@@ -106,7 +106,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            2004 Clue Scroll Guides
+            Treasure Trails
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
