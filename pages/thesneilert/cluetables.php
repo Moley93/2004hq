@@ -1,6 +1,4 @@
 <?php
-function getPageTitle() { return 'Clue Tables'; }
-function getPageMetaIcon() { return 'img/clueicon.png'; }
 function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
 function getPageContent() { return <<<HTML
     <table width="100%" cellpadding="0" cellspacing="0" border="0">

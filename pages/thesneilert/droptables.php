@@ -1,6 +1,4 @@
 <?php
-function getPageTitle() { return 'Drop Tables'; }
-function getPageMetaIcon() { return 'img/skeleton.webp'; }
 function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
 function getPageContent() { return <<<HTML
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
