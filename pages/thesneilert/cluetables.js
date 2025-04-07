@@ -1,3 +1,4 @@
+window.renderSpriteToCanvas = renderSpriteToCanvas;
 const baseUrl = "https://raw.githubusercontent.com/2004Scape/Server/main/data/src/scripts/minigames/game_trail/scripts/";
 
 // List of F2P .rs2 files
@@ -12,12 +13,7 @@ let activeDropFiles = [...clueFiles];
 // Define item categories for better organization
 const itemCategories = {
     SPECIAL_ITEMS: {
-        "coins": { name: "Coins", image: "https://oldschool.runescape.wiki/images/Coins_10000.png?7fa38&20200722174651" },
-        "cert_salmon": { name: "Salmon (noted)", image: "https://lostcity.markets/img/items/salmon.webp" },
-        "cert_trout": { name: "Trout (noted)", image: "https://lostcity.markets/img/items/trout.webp" },
-        "cert_swordfish": { name: "Swordfish (noted)", image: "https://lostcity.markets/img/items/swordfish.webp" },
-        "cert_lobster": { name: "Lobster (noted)", image: "https://lostcity.markets/img/items/lobster.webp" },
-        "cert_shark": { name: "Shark (noted)", image: "https://lostcity.markets/img/items/shark.webp" }
+
     }
 };
 
@@ -324,22 +320,23 @@ async function loadDropTable() {
             if (customItem) {
                 imageUrl = customItem.image.startsWith('http') 
                     ? customItem.image 
-                    : `https://lostcity.markets/img/items/${customItem.image}`;
+                    : `${customItem.image}`;
             } else {
                 // Default case - try to construct from item name
-                const imageName = `${lowerCaseItem.replace(/ /g, "_")}.webp`;
-                imageUrl = `https://lostcity.markets/img/items/${imageName}`;
-            }
 
-            const imageElement = document.createElement("img");
-            imageElement.src = imageUrl;
-            imageElement.alt = formattedItemName;
-            imageElement.width = 32;
-            imageElement.height = 32;
-            imageElement.onerror = function () {
-                this.src = 'https://oldschool.runescape.wiki/images/Coins_10000.png';
+            }
+            const imageName = `${lowerCaseItem.replace(/ /g, "_")}.webp`;
+            imageUrl = `${imageName}`;
+            const canvasElement = document.createElement("canvas")
+            canvasElement.setAttribute("data-itemname", drop.item.toLowerCase());
+            canvasElement.alt = formattedItemName;
+            canvasElement.width = 32;
+            canvasElement.height = 32;
+            canvasElement.dataset
+            canvasElement.onerror = function () {
+                this.src = 'unknown';
             };
-            imageCell.appendChild(imageElement);
+            imageCell.appendChild(canvasElement);
 
             const itemCell = document.createElement("td");
             itemCell.textContent = formattedItemName;
@@ -368,6 +365,7 @@ async function loadDropTable() {
             });
         }
     }
+    window.renderAllSprites();
 }
 
 function populateDropdown() {
