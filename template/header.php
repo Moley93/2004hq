@@ -32,8 +32,11 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
                 font-size: 24px;
             }
             .calculators {
-                text-align: center;
-                align-items: center;
+                a { color: white; text-decoration: none; display: block; }
+                body { text-align: center; background-color: black; color: white; font-family: Arial, sans-serif; }
+                table { margin: 20px auto; border-collapse: collapse; align-items: }
+                th, td { border: 1px solid gold; padding: 8px; vertical-align: top; text-align: center; }
+                th { background-color: #222; color: gold; }
             }
         }
         body,

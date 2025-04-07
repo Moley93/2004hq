@@ -1,27 +1,48 @@
 <?php
-class CalculatorType {
+class CalculatorType
+{
     private ?string $calcName = null; // Allow $calcName to be nullable
 
     private const VALID_CALCULATORS = [
-        'agility', 'cooking', 'crafting', 'firemaking', 'fishing', 'fletching',
-        'herblore', 'mining', 'prayer', 'runecrafting', 'smithing', 'thieving',
-        'woodcutting', 'combat_xp', 'combat_level', 'high_alch', 'max_hit',
-        'prayer_duration', 'run_energy', 'splashing'
+        'agility',
+        'cooking',
+        'crafting',
+        'firemaking',
+        'fishing',
+        'fletching',
+        'herblore',
+        'mining',
+        'prayer',
+        'runecrafting',
+        'smithing',
+        'thieving',
+        'woodcutting',
+        'combat_xp',
+        'combat_level',
+        'high_alch',
+        'max_hit',
+        'prayer_duration',
+        'run_energy',
+        'splashing'
     ];
 
-    public function getCSS(): ?string {
+    public function getCSS(): ?string
+    {
         return $this->calcName ? $this->calcName . '.css' : null;
     }
 
-    public function getJS(): ?string {
+    public function getJS(): ?string
+    {
         return $this->calcName ? $this->calcName . '.js' : null;
     }
 
-    public function getName(): ?string {
+    public function getName(): ?string
+    {
         return $this->calcName;
     }
 
-    public function __construct() {
+    public function __construct()
+    {
         $calc = htmlspecialchars($_GET['calc'] ?? '');
         if (in_array($calc, self::VALID_CALCULATORS, true)) {
             $this->calcName = $calc;
@@ -29,7 +50,8 @@ class CalculatorType {
     }
 }
 
-function getExtraHeaderContent(): string {
+function getExtraHeaderContent(): string
+{
     $calculatorType = new CalculatorType();
     $content = '';
 
@@ -44,30 +66,49 @@ function getExtraHeaderContent(): string {
     return $content;
 }
 
-function getPageContent(): string {
+function getPageContent(): string
+{
     $calculatorType = new CalculatorType();
     if ($calculatorType->getName() === null) {
         return generateCalculatorLinks();
     }
 
-    return 'Calc page for '.$calculatorType->getName();
+    return 'Calc page for ' . $calculatorType->getName();
 }
 
-function generateCalculatorLinks(): string {
+function generateCalculatorLinks(): string
+{
     $skillCalculators = [
-        'agility', 'cooking', 'crafting', 'firemaking', 'fishing', 'fletching',
-        'herblore', 'mining', 'prayer', 'runecrafting', 'smithing', 'thieving', 'woodcutting'
+        'agility',
+        'cooking',
+        'crafting',
+        'firemaking',
+        'fishing',
+        'fletching',
+        'herblore',
+        'mining',
+        'prayer',
+        'runecrafting',
+        'smithing',
+        'thieving',
+        'woodcutting'
     ];
 
     $miscCalculators = [
-        'combat_xp', 'combat_level', 'high_alch', 'max_hit', 'prayer_duration', 'run_energy', 'splashing'
+        'combat_xp',
+        'combat_level',
+        'high_alch',
+        'max_hit',
+        'prayer_duration',
+        'run_energy',
+        'splashing'
     ];
 
     $generateLinks = function (array $calculators) {
         $rows = '';
         foreach ($calculators as $calc) {
             $linkText = ucwords(str_replace('_', ' ', $calc)); // Capitalizes the words and replaces underscores with spaces
-            $rows .= '<tr><td class="e"><a href="?p=calculators&calc='.$calc.'">'.$linkText.' Calculator</a></td></tr>';
+            $rows .= '<tr><td><a href="?p=calculators&calc=' . $calc . '">' . $linkText . ' Calculator</a></td></tr>';
         }
         return $rows;
     };
@@ -77,9 +118,17 @@ function generateCalculatorLinks(): string {
 
     return <<<HTML
 <table width="100%" cellpadding="8" cellspacing="8" class="calculators">
-    <tr><td><center><table width="250" cellpadding="4"><tbody><tr><td class="e"><center><b>Skill Calculators</b></center></td></tr></tbody></table></center></td></tr>
+<thead>
+            <tr>
+                <th>Skill Calculators</th>
+            </tr>
+        </thead>
     <tbody>$skillRows</tbody>
-    <tr><td><center><table width="250" cellpadding="4"><tbody><tr><td class="e"><center><b>Misc Calculators</b></center></td></tr></tbody></table></center></td></tr>
+    <thead>
+            <tr>
+                <th>Misc Calculators</th>
+            </tr>
+        </thead>
     <tbody>$miscRows</tbody>
 </table>
 HTML;
