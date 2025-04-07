@@ -19,8 +19,9 @@
                                             <td align="bottom"><img src="img\edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
                                             <td align="bottom">
                                                 <div align="center" style="font-size:16px;height:40px;" >
-                                                    Site by Moley, Eilert,  Halogod, and Collin - Join our <a href="https://discord.gg/jdFmMvz33j">Discord<br />
+                                                    Site by Moley, Eilert,  Halogod, and Collin<br />
                                                     Fan project - Not affiliated with Lost City.<br />
+                                                    Join our <a href="https://discord.gg/jdFmMvz33j">Discord<br />
                                                 </div>
                                                 <img src="img\edge_c.jpg" width="400" height="42" hspace="0" vspace="0">
                                             </td>
