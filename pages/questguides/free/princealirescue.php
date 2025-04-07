@@ -46,7 +46,7 @@ Head over to Draynor Village, find Leela you'll tell her you are there to help h
 Find Aggie the witch, she can make you the skin paste and yellow dye.<br>
 <br>
 
-Talk to need, bring him 4 balls of yarn and he can make a rope and with 3 balls of wool he can make you a wig for the disguise.<br>
+Talk to ned, bring him 4 balls of yarn and he can make a rope and with 3 balls of wool he can make you a wig for the disguise.<br>
 <br>
 
 Talk to Lady Keli, tell her you've heard of her, shes famous in all of runescape. Then ask her what her latest plan is, then tell her she must have been very skillful. Then ask her if shes sure they wont let the prisnor out. Make sure you have the soft clay here and ask her if you can see the key..then ask her if you can touch it for a moment then you'll make an imprint of the key in the clay.<br>
