@@ -87,7 +87,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            Clue Rewards
+            Treasure Trails
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
@@ -106,7 +106,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            Treasure Trails
+            Clue Rewards
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
