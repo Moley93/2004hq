@@ -61,17 +61,16 @@ include('template/body.php');
         
         <td width="100" align="center">
             <a href="?">
-                <img src="img\clueicon.png" border="0" />
+                <img src="img\swordicon.png" border="0" />
             </a>
         </td>
-        
         <td width="120">
             <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;" />
             </div>
             <br />
             <br />
-            2004 Clue Scroll Tables
+            2004 Calculators from Halogod35!
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
@@ -79,17 +78,16 @@ include('template/body.php');
     <tr valign="top">
     <td width="100" align="center">
             <a href="?">
-                <img src="img\swordicon.png" border="0" />
+            <img src="img\clueicon.png" border="0" />
             </a>
         </td>
-        
         <td width="120">
             <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;" />
             </div>
             <br />
             <br />
-            2004 Combat & Skill Calculators
+            2004 Treasure Trails Rewards
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
@@ -98,7 +96,7 @@ include('template/body.php');
         
         <td width="100" align="center">
             <a href="?">
-                <img src="img\wip.png" border="0" />
+                <img src="img\casket1.png" border="0" />
             </a>
         </td>
         
@@ -108,7 +106,7 @@ include('template/body.php');
             </div>
             <br />
             <br />
-            TBD
+            2004 Clue Scroll Guides
             <br />
             <a href="?" class="c">Coming Soon</a>
         </td>
