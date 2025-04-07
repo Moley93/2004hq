@@ -201,10 +201,3 @@ filterInput.addEventListener("input", filterTable);
 // Initialize display
 updateTable();
 </script>
-
-
-<u><b>To Do</b></u><br />
-<ul style="display:block;list-style-type:disc;margin-top:1em;margin-bottom:1em;margin-left:0;margin-right:0;padding-left:40px;text-align:left;">
-<li>Skill Guides for each Skill</li>
-<li>Brush up on Quest Guides</li>
-</ul>
