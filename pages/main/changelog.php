@@ -66,6 +66,8 @@ include('template/body.php');
     </tr>
   </thead>
   <tbody>
+    <tr><td>07/04/2025</td><td>Added Tourist Trap to Quests</td></tr>
+    <tr><td>07/04/2025</td><td>Added Neilert's Icons!</td></tr>
     <tr><td>04/04/2025</td><td>Added Neilert's drop tables!</td></tr>
     <tr><td>04/04/2025</td><td>Smithing Skill Added</td></tr>
     <tr><td>04/04/2025</td><td>Homepage added calculator and drop tables coming soon</td></tr>
