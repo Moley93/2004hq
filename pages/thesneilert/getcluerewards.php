@@ -45,7 +45,7 @@ foreach ($files as $difficulty => $url) {
         $avgRolls = $avgRolls / $range;
     }
 
-    if (preg_match('/if\(\s*random\((\d+)\)\s*=+\s*0\)/', $data, $rareMatch)) {
+    if (preg_match('/if\(\s*random\((\d+)\)\s*[=]{1,2}\s*0\)/', $data, $rareMatch)) {
         $rareRollChance = 1 / (int)$rareMatch[1];
         $normalRollChance = 1 - $rareRollChance;
     }
@@ -58,18 +58,18 @@ foreach ($files as $difficulty => $url) {
         $rarePoolSize = (int)$rMatch[1];
     }
 
-    // Match blocks
-    preg_match_all('/\[proc,trail_clue_' . $difficulty . '_(normal|rare)\](.*?)\[proc,/s', $data . '[proc,', $procBlocks, PREG_SET_ORDER);
+    // Match blocks (allow final proc block by appending a dummy block)
+    preg_match_all('/\[proc,trail_clue_' . $difficulty . '_(normal|rare)\](.*?)(?=\[proc,|\Z)/s', $data . "\n[proc,", $procBlocks, PREG_SET_ORDER);
 
     foreach ($procBlocks as $block) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\((?:reward|reward2), ([a-zA-Z0-9_]+), calc?\(([^)]+)\)\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(?:calc\()?([^)\n]+)\)?\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
-            $quantity = $match[2];
+            $quantity = trim($match[2]);
 
             if (preg_match('/(\d+)\s*\+\s*random\((\d+)\)/', $quantity, $qMatch)) {
                 $min = (int)$qMatch[1];
