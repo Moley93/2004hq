@@ -29,7 +29,7 @@ function getPageContent() {
     if (empty($_GET['skill'])) {
         $meta_data['title'] = 'Skill Guides';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:url'] = '?p=skilllist';
+        $meta_data['og:url'] = '?p=skillguides';
         $meta_data['og:image'] = 'img/stats.webp';
 
         /*echo '<table width="350">
