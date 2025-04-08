@@ -55,14 +55,6 @@ You can find below the guides to each of the different types of fishing you can 
 
 
 <tr>
-<td valign="top"><center>Pike<br><canvas data-itemname="raw_pike"></canvas></center></td>
-<td><center>Level 25<br>Type: River bait fishing</center></td>
-<td><center>Slimey Eel<br><canvas data-itemname="slimey_eel"></canvas></center></td>
-<td><center>Level 28<br>Type: River bait fishing<br></center></td>
-</tr>
-
-
-<tr>
 <td><center>Salmon<br><canvas data-itemname="raw_salmon"></canvas></center></td>
 <td><center>Level 30<br>Type: Fly Fishing</center></td>
 <td><center>Tuna<br><canvas data-itemname="raw_tuna"></canvas></td>
