@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Goblin Diplomacy</b><br>
 <br>
 Description: There's a disturbance in the goblin village. Help the goblins solve their dispute so the world doesn't have to worry about rioting goblins.<br>
@@ -43,4 +43,4 @@ Talk to General Bentnoze a few times to hand over all 3 pieces of armor. You wil
 This quest guide was written on RuneHQ by Runegirlie, and deathtoyouall. Thanks to Sharqua, Darkest Ange, Nightsdeath, DRAVAN, zus, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 11, 2004, at 05:30:14 AM by Keystone and was last updated on Tue, May 18, 2004, at 02:45:25 PM.<br>
-HTML; } ?>
+HTML; }

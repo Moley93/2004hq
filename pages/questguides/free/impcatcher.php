@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Imp Catcher</b><br>
 <br>
 Description:Wizard Mizgog has lost his beads because Wizard Grayzag has summoned many imps and stole all his beads. Can you help Wizard Mizgog?<br>
@@ -24,4 +24,4 @@ This quest guide was written on RuneHQ by henry-x. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:25:33 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:13:34 PM.
 <br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - The Tourist Trap</b><br>
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
@@ -72,4 +72,4 @@ Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Add
 This quest guide was written by imthecoolest, and haxhi4life. Thanks to DRAVAN for corrections.<br>
 
 This quest guide was entered into the database on Wed, Jun 09, 2004, at 12:46:01 PM by DRAVAN and CJH and was last updated on Wed, Dec 01, 2004, at 11:20:10 PM by DRAVAN.<br>
-HTML; } ?>
+HTML; }

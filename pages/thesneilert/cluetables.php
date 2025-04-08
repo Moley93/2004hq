@@ -1,6 +1,13 @@
 <?php
 function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
-function getPageContent() { return <<<HTML
+function getPageContent() {
+    global $meta_data;
+    $meta_data['title'] = 'Clue Tables';
+    $meta_data['og:title'] = $meta_data['title'];
+    $meta_data['og:url'] = '?p=cluetables';
+    $meta_data['og:image'] = 'img/clueicon.png';
+    
+    return <<<HTML
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
             <td valign="bottom">
@@ -84,4 +91,5 @@ function getPageContent() { return <<<HTML
             </td>
         </tr>
     </table>
+    <script src="pages/thesneilert/cluetables.js" type="text/javascript"></script>
 HTML; } ?>

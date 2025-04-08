@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Fishing'; }
 function getPageMetaIcon() { return 'img/skillicons/fishing.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Fishing</b></center><p>
 
 <p>
@@ -84,4 +84,4 @@ You can find below the guides to each of the different types of fishing you can 
 
 </tr>
 </table>
-HTML; } ?>
+HTML; }

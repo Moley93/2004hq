@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Plague City</b><br>
 <br>
 Description: A shadow of disease has overcast Ardounge. Edmond's daughter Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.<br>
@@ -67,4 +67,4 @@ Go back to the dungeon and talk to Edmond, he will say thank you and reward you.
 This quest guide was written by Henry-X. Thanks to Weezy, Mighty Red ,Biogenecis, MrStormy, Rune Dragon018, Stormer, storm007 for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 09, 2004, at 02:25:21 PM by Chownuggs and CJH and was last updated on Mon, Aug 02, 2004, at 08:33:22 AM.<br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Underground Pass</b><br>
 <br>
 Starting Location: East Ardougne Speak to: King Lathas<br>
@@ -121,4 +121,4 @@ NOTE- when looking for the dove, remember to look in both parts there are two pa
 This quest guide was written by Swaty, quackmann. Thanks to Stormer, jimfromtx, ImaGasLT, jfta0007, u gone lol, einsteinman, Master242424, martori for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Apr 19, 2004, at 08:03:18 PM by DRAVAN and CJH and was last updated on Sat, Aug 07, 2004, at 11:06:43 PM.<br>
-HTML; } ?>
+HTML; }

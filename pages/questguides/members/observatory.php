@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Observatory Quest</b><br>
 <br>
 Description:Help a professor fix his telescope, this proves more difficult than it sounds because it involves yet another maze. See what the stars have in hold for you as well.<br>
@@ -35,4 +35,4 @@ Once you find your way out, get some wine from the assistant for fun, and visit 
 This quest guide was written by Gnat88 and pj. Thanks to DRAVAN and Nickseemann for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:14:37 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:32:41 AM.<br>
-HTML; } ?>
+HTML; }

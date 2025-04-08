@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Ernest The Chicken</b><br>
 <br>
 Description: Veronica is very worried. Her fiancee went into the big spooky manor house to ask for directions. An hour later and he's still not out yet<br>
@@ -43,4 +43,4 @@ This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy for correctio
 <br>
 This quest guide was entered into the database on Thu, Feb 19, 2004, at 02:33:04 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:09:01 PM.<br>
 <br>
-HTML; } ?>
+HTML; }

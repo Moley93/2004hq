@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Shilo Village</b><br>
 <br>
 Description: Rashiliyia, Queen of the Undead, has returned and brought a plague of Undead upon the village. See if you can slove the problem. .<br>
@@ -84,4 +84,4 @@ Now to finish off the quest go to the tomb which you went at a point to get the 
 This quest guide was written by henry-x, |[Dracon]|, Swaty. Thanks to DRAVAN, Koppen, L3tHaL_LeAdA_ for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Mar 10, 2004, at 10:09:44 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:41:24 AM.<br>
-HTML; } ?>
+HTML; }

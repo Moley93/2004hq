@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Clock Tower</b><br>
 <br>
 Description: Help brother Kojo to fix his clock tower by finding the missing cogs.<br>
@@ -87,4 +87,4 @@ Now that all of the cogs have been placed talk to Brother Kojo to receive your r
 This quest guide was written on RuneHQ by Firkløver . Thanks to patgil2003, Dravan, and wacp for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 25, 2004, at 12:58:11 PM by stormer and CJH and was last updated on Fri, Nov 19, 2004, at 09:34:39 PM by MrStormy.<br>
-HTML; } ?>
+HTML; }

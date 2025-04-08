@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Thieving'; }
 function getPageMetaIcon() { return 'img/skillicons/thieving.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Thieving guide</b></center>
 <p>
 <p></center>
@@ -120,4 +120,4 @@ Certain characters will try to stop you stealing from market stalls, so wait unt
 
 </td></tr></table>
 <br>
-HTML; } ?>
+HTML; }

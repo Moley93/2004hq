@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Fletching'; }
 function getPageMetaIcon() { return 'img/skillicons/fletching.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Fletching guide</b></center>
 <br>
 <center><b>Making Bows</b></center><p>
@@ -59,4 +59,4 @@ The table below lists the different types of bow you can make.
 <td><center>Shortbow: Level 50<br>Longbow: Level 50</center></td>
 </tr>
 </table>
-HTML; } ?>
+HTML; }

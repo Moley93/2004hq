@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Sheep Shearer</b><br>
 <br>
 Description: Farmer Fred's sheep are getting mighty woolly. He will pay you to shear them.<br>
@@ -28,4 +28,4 @@ Return to Fred with your 20 balls of wool and give them to him. He will thank yo
 This quest guide was written on RuneHQ by Stormer. Thanks to Weezy and tj for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 16, 2004, at 03:26:27 PM by Chownuggs and was last updated on Fri, Apr 23, 2004, at 12:35:12 PM.<br>
-HTML; } ?>
+HTML; }

@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Mining'; }
 function getPageMetaIcon() { return 'img/skillicons/mining.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Mining Guide</b><br><br></center>
 <br>
 <br>
@@ -86,4 +86,4 @@ As your mining level gets higher it will become slowly easier. Once someone has 
 </tr>
 </table>
 </center>
-HTML; } ?>
+HTML; }

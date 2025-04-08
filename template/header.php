@@ -1,5 +1,6 @@
 <?php
-$ogurl = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER["REQUEST_URI"]) . '/' . $meta_data['og:url'];
+$baseUrl = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/') . '/';
+$ogurl = $baseUrl . ltrim($meta_data['og:url'], '/');
 
 if (substr($meta_data['og:image'], 0, 4) == "http") {
     $ogimage = $meta_data['og:image'];

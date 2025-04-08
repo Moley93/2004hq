@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - The Shield of Arrav</b><br>
 <br>
 Description: long ago the shield of arrav was a great artifact, it was broken in two and the king has placed a 600 gold reward for its return.<br>
@@ -64,4 +64,4 @@ Congrats!!! you are 600 gold richer and have gained a quest point.<br>
 This quest guide was written on RuneHQ by halojunkie. <br>
 <br>
 This quest guide was entered into the database on Tue, Apr 13, 2004, at 05:38:26 PM by DRAVAN and was last updated on Tue, May 18, 2004, at 02:48:43 PM.<br>
-HTML; } ?>
+HTML; }

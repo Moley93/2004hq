@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Druidic Ritual</b><br>
 <br>
 Description:Help the druids cleanse their former altar of the evil from the dark wizards. If you are successful you will be rewarded with the knowledge of herblore.<br>
@@ -29,4 +29,4 @@ Kaqemeex will give you your reward and then explain some about herblore. He also
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:06:05 PM by Wiz-Master and was last updated on Wed, Mar 31, 2004, at 04:58:22 PM.<br>
-HTML; } ?>
+HTML; }

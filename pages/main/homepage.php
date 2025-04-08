@@ -1,7 +1,5 @@
 <?php
-include('template/header.php');
-include('template/body.php');
-?>
+function getPageContent() { return <<<HTML
 <table>
 <tbody>
     <tr valign="top">
@@ -24,7 +22,7 @@ include('template/body.php');
         <td width="10"></td>
         
         <td width="100" align="center">
-            <a href="?p=skilllist">
+            <a href="?p=skillguides">
                 <img src="img\stats.png" border="0" />
             </a>
         </td>
@@ -37,7 +35,7 @@ include('template/body.php');
             <br />
             Skill Guides
             <br />
-            <a href="?p=skilllist" class="c">Click here</a>
+            <a href="?p=skillguides" class="c">Click here</a>
         </td>
     </tr>
     <tr valign="top">
@@ -113,4 +111,4 @@ include('template/body.php');
     </tr>
  </tbody>
  </table>
-
+HTML; }

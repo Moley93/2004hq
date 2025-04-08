@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Dwarf Cannon</b><br>
 <br>
 Description:Run errands for the dwarf commander to repair his base and build his defenses<br>
@@ -38,4 +38,4 @@ Teleport to camelot or in the vicinity if you have the runes. For you pures out 
 This quest guide was written on RuneHQ by Gnat88. Thanks to DNKevin and Neo 9001 for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:05:02 PM by Weezy and was last updated on Thu, Apr 15, 2004, at 11:24:33 AM.<br>
-HTML; } ?>
+HTML; }

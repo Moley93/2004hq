@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Prayer'; }
 function getPageMetaIcon() { return 'img/skillicons/prayer.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Prayer</b><br><br></center>
 <br>
 As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To
@@ -30,4 +30,4 @@ total prayer-points. You do this by burying bones from monsters you kill. Take t
 click on them in your inventory to bury them. You need to bury quite a lot of bones to advance a level, but
 luckily they are quite easy to come by.<br>
 <br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Watchtower</b><br>
 <br>
 Items/Skills Needed To Start:: mining 40+, agility 30+, thieving 15+, magic 14+, herblaw 14+, good combat level is an advantage, but you’ll need to kill a level. 20gp+ (be sure to bring more if you you’re not so good in agility!), 1 gold bar, 1 lit candle, 1 death rune, pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, guam leaf, water filled vial, pestle and mortar. (Food, armour, weapon and anti drag breath shield is very useful!). This is a lot of items, but make sure to have room for around 7 or 8 extra items.<br>
@@ -57,4 +57,4 @@ Reward: 4 quest points, 5000gp, 12k magic exp, level 58 watchtower teleport.<br>
 This quest guide was written by payman,irish_buddha. Thanks to goatluver500, L3tHaL LeAdA, Grand Gaia for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, May 18, 2004, at 04:26:49 PM by DRAVAN and CJH and was last updated on Mon, Aug 02, 2004, at 08:52:16 AM.<br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Elemental Workshop</b><br>
 <br>
 Description: Hundreds of years ago a mineral was found that had the ability to change the property of magic.<br>
@@ -84,4 +84,4 @@ Note: You can make more Elemental shields after you've finished the quest.<br>
 This quest guide was written by pj. Thanks to IglooGuy, Hagge, Angelinblack, Shinraz, villike, Nitr021, wackyax16, jdude720, my_mulisha, Xjezusx1, beaverboy40, jakesterwars, cafetero, and Im4eversmart for corrections.<br>
 <br>
 This quest guide was entered into the RuneHQ.com database on Wed, Jun 02, 2004, at 06:22:07 PM by Cav103 and CJH and was last updated on Mon, Oct 02, 2006, at 02:40:17 PM by Im4eversmart.<br>
-HTML; } ?>
+HTML; }

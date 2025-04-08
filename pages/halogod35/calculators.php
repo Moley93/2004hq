@@ -1,6 +1,6 @@
 <?php
-class CalculatorType
-{
+
+class CalculatorType {
     private ?string $calcName = null; // Allow $calcName to be nullable
 
     private const VALID_CALCULATORS = [
@@ -26,23 +26,13 @@ class CalculatorType
         'splashing'
     ];
 
-    public function getCSS(): ?string
-    {
-        return $this->calcName ? $this->calcName . '.css' : null;
-    }
+    public function getCSS(): ?string { return $this->calcName ? $this->calcName . '.css' : null; }
 
-    public function getJS(): ?string
-    {
-        return $this->calcName ? $this->calcName . '.js' : null;
-    }
+    public function getJS(): ?string { return $this->calcName ? $this->calcName . '.js' : null; }
 
-    public function getName(): ?string
-    {
-        return $this->calcName;
-    }
+    public function getName(): ?string { return $this->calcName; }
 
-    public function __construct()
-    {
+    public function __construct() {
         $calc = htmlspecialchars($_GET['calc'] ?? '');
         if (in_array($calc, self::VALID_CALCULATORS, true)) {
             $this->calcName = $calc;
@@ -50,8 +40,7 @@ class CalculatorType
     }
 }
 
-function getExtraHeaderContent(): string
-{
+function getExtraHeaderContent(): string {
     $calculatorType = new CalculatorType();
     $content = '';
 
@@ -66,8 +55,12 @@ function getExtraHeaderContent(): string
     return $content;
 }
 
-function getPageContent(): string
-{
+function getPageContent(): string {
+    global $meta_data;
+    $meta_data['title'] = 'Calculators';
+    $meta_data['og:title'] = $meta_data['title'];
+    $meta_data['og:url'] = '?p=calculators';
+    $meta_data['og:image'] = 'img/clueicon.png';
     $calculatorType = new CalculatorType();
     if ($calculatorType->getName() === null) {
         return generateCalculatorLinks();
@@ -76,8 +69,7 @@ function getPageContent(): string
     return 'Calc page for ' . $calculatorType->getName();
 }
 
-function generateCalculatorLinks(): string
-{
+function generateCalculatorLinks(): string {
     $skillCalculators = [
         'agility',
         'cooking',
@@ -133,4 +125,3 @@ function generateCalculatorLinks(): string
 </table>
 HTML;
 }
-?>

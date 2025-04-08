@@ -1,11 +1,14 @@
 <?php
-$meta_data['title'] = 'Changelog';
-$meta_data['og:title'] = $meta_data['title'];
-$meta_data['og:url'] = '?p=changelog';
-$meta_data['og:image'] = 'img\sword.png';
-include('template/header.php');
-include('template/body.php');
-?>
+
+function getPageContent() {
+    global $meta_data;
+
+    $meta_data['title'] = 'Changelog';
+    $meta_data['og:title'] = $meta_data['title'];
+    $meta_data['og:url'] = '?p=changelog';
+    $meta_data['og:image'] = 'img/sword.png';
+
+    return <<<HTML
 <u><b>Change Log</b></u>
 <br />
 <div id="log-table-container">
@@ -66,6 +69,8 @@ include('template/body.php');
     </tr>
   </thead>
   <tbody>
+    <tr><td>08/04/2025</td><td>Cleaned up PHP a bit</td></tr>
+    <tr><td>07/04/2025</td><td>Added spritesheet parsing for item images</td></tr>
     <tr><td>08/04/2025</td><td>Added Mining Skill Guide</td></tr>
     <tr><td>08/04/2025</td><td>Added Prayer Skill Guide</td></tr>
     <tr><td>07/04/2025</td><td>Added Tourist Trap to Quests</td></tr>
@@ -142,7 +147,9 @@ const filterInput = document.getElementById("filter-input");
 const pagination = document.getElementById("pagination");
 
 function parseDate(str) {
-  const [day, month, year] = str.split('/');
+  const parts = str.split('/');
+  if (parts.length !== 3) return new Date('Invalid');
+  const [day, month, year] = parts;
   return new Date(`${year}-${month}-${day}`);
 }
 
@@ -203,3 +210,4 @@ filterInput.addEventListener("input", filterTable);
 // Initialize display
 updateTable();
 </script>
+HTML; }

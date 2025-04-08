@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Crafting'; }
 function getPageMetaIcon() { return 'img/skillicons/crafting.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Crafting</b></center><p>
 
 <table bgcolor="black" cellpadding="3" border="0">
@@ -282,4 +282,4 @@ function getPageContent() { return <<<HTML
 </table>
 </center>
 <br>
-HTML; } ?>
+HTML; }

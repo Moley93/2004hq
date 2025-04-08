@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Waterfall Quest</b><br>
 <br>
 Description: Investigate the death of the elven leaders of old. To find mysterious treasures in the fall.<br>
@@ -40,4 +40,4 @@ The grave is the grey circle place with a walk way to the circle.<br>
 This quest guide was written by thehellkeeper,zone_ant. Thanks to Thunderdog, External,DRAVAN, and Koppen for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Apr 07, 2004, at 06:53:10 PM by DRAVAN and CJH and was last updated on Mon, Aug 02, 2004, at 08:52:56 AM.<br>
-HTML; } ?>
+HTML; }

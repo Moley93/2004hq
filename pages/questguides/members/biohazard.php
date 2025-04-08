@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Biohazard</b><br>
 <br>
 Description: Second part of an ongoing adventure. Help Elena discover the truth about the infamous Ardougne plague. Smuggle test samples across Ardougne to Elena's old mentor.<br>
@@ -49,4 +49,4 @@ The King is in the second floor of the palace in Ardougne and the palace is loca
 This quest guide was written on RuneHQ by henry-x. Thanks to Weezy, Shaw, stormer, bowman_1990, Eric2203, bmx 768, Halfling_hopperston for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 09, 2004, at 05:46:58 PM by Sand Scape and was last updated on Sun, May 23, 2004, at 07:27:03 PM.<br>
-HTML; } ?>
+HTML; }

@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Smithing'; }
 function getPageMetaIcon() { return 'img\skillicons\smithing.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
     <center><b>Smithing</b></center><p>
 
 The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
@@ -437,4 +437,4 @@ However at the levels given you will only be able to forge the most basic items 
 <p>
 The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
 </td></tr><table>
-HTML; } ?>
+HTML; }

@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Runecrafting'; }
 function getPageMetaIcon() { return 'img/skillicons/runecrafting.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Runecrafting</b></center><p>
 
 <p>
@@ -114,4 +114,4 @@ The following table shows what levels are required to runecraft various runes. A
 </tr>
 </table>
 </center>
-HTML; } ?>
+HTML; }

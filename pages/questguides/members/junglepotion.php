@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Jungle Potion</b><br>
 <br>
 Description:Tai Bwo Wannai medicine man Trifitus needs 5 special herbs so he can make a communion potion with the gods. He hires you of course.<br>
@@ -35,4 +35,4 @@ Once back, Trifitus will thank and reward you and train you in herblore. (Congra
 This quest guide was written on RuneHQ by Gnat88. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:16:05 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:19:02 PM.<br>
-HTML; } ?>
+HTML; }

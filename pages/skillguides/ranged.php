@@ -1,7 +1,7 @@
 <?php
 function getPageTitle() { return 'Ranged'; }
 function getPageMetaIcon() { return 'img/skillicons/ranged.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Ranging Guide</b><br><br></center>
 
 <p>
@@ -231,4 +231,4 @@ Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village
 
 </table>
 </center>
-HTML; } ?>
+HTML; }

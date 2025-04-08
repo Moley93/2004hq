@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Vampire Slayer</b><br>
 <br>
 
@@ -30,4 +30,4 @@ Once he's dead you have finished the quest (Congratuations)<br>
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy, stormer for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:37:37 PM by Monkeychris and was last updated on Sun, Apr 11, 2004, at 02:25:25 PM.<br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Tree Gnome Village</b><br>
 <br>
 Description:Help the Gnome Kingdom retrieve orbs of protection from the evil Khazard and his trooops to save the day and the gnomes<br>
@@ -49,4 +49,4 @@ Once he is dead (Congratulations) you'll get the orbs. Return once again to Elko
 This quest guide was written by Gnat88. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:20:57 PM by Weezy and CJH and was last updated on Sat, Oct 09, 2004, at 12:09:17 AM.<br>
-HTML; } ?>
+HTML; }

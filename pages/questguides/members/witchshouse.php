@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Witch's House</b><br>
 <br>
 Description: A boy has kicked his ball into an old witch's house. He wants you to go get it for him.<br>
@@ -39,4 +39,4 @@ After defeating the experiement (Congratulations) grab the ball and open the doo
 This quest guide was written by Gnat88. Thanks to Weezy, Deano, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 04:32:32 PM by Monkeychris and CJH and was last updated on Sat, Oct 09, 2004, at 12:12:15 AM.<br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,4 @@
 <?php
-$debugMode = false;
 
 
 // Default Meta Data Array
@@ -11,6 +10,8 @@ $meta_data = array(
     'og:image' => 'img/sword.png'
 );
 
+$stopload = false;
+$debugMode = false;
 
 if ($debugMode) { error_reporting(0); }
 else { error_reporting(E_ALL); }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - The Grand Tree</b><br>
 <br>
 Description: The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.<br>
@@ -200,4 +200,4 @@ Daconia: Daconia<br>
 This quest guide was written by pj. Thanks to Swaty, Koppen, Your Homey 1, Pirate Bob49, faital03 for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, May 08, 2004, at 02:19:43 PM by Freakybat, CJH, Headshot and was last updated on Thu, Aug 19, 2004, at 03:28:30 AM.<br>
-HTML; } ?>
+HTML; }

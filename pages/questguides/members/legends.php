@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Legends Quest</b><br>
 <br>
 Description: Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.<br>
@@ -156,4 +156,4 @@ Bring that Totem Pole back to Erkle at his Guild office and give it to him along
 This quest guide was written by j1j2j3, trekkie. Thanks to avster and blue komoto for pictures; monkeymatt for converting maps; pokemama for edits, information on enchanted vials, and maps; Kidd, Dravan, Freakybat, Mage101, DNKevin, pj, stormer, Nitr021 and dogs major for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Apr 10, 2004, at 07:23:28 PM by Kidd and CJH and was last updated on Sat, Mar 19, 2005, at 01:58:58 PM by dravan.<br>
-HTML; } ?>
+HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Fight Arena</b><br>
 <br>
 If anything is incorrect/missing or you have new information to submit please post it on the RuneHQ Updates/plans/submissions forum<br>
@@ -34,4 +34,4 @@ If you leave before you've to killed the General to get food or something, when 
 This quest guide was written on RuneHQ by Gnat88. Thanks to rs: blakmagic123, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Mar 03, 2004, at 02:52:53 PM by Fudge and was last updated on Mon, Apr 19, 2004, at 11:46:13 AM.<br>
-HTML; } ?>
+HTML; }

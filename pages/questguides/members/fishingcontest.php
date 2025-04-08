@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Fishing Contest</b><br>
 <br>
 Description: The mountain Dwarves home would be an ideal way to get across White Wolf mountain safely. However the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition<br>
@@ -37,4 +37,4 @@ Return to the dwarf and he will reward you.<br>
 This quest guide was written on by Henry-x. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Feb 15, 2004, at 11:36:56 AM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:18:30 PM.<br>
-HTML; } ?>
+HTML; }

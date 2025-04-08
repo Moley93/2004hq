@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - The Holy Grail</b><br>
 <br>
 Description: King Arthur is sending out his knights on a quest for the famous Holy Grail. If you are a Knight of the Round Table, go to King Arthur for further orders.<br>
@@ -55,4 +55,4 @@ Go back to Camelot and talk to King Arthur to receive your reward.<br>
 This quest guide was written by Elyria1. Thanks to stormer and faital03 for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Jun 01, 2004, at 04:44:52 PM by Pirate Bob49 and CJH and was last updated on Mon, Aug 02, 2004, at 08:45:25 AM.<br>
-HTML; } ?>
+HTML; }

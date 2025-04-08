@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - Pirates Treasure</b><br>
 
 <br>
@@ -47,4 +47,4 @@ Now it's time to dig the treasure. Go into the park and find a staue. West of it
 This quest guide was written on RuneHQ by Henry-x. Thanks to Evadek and Weezy for corrections.<br>
 
 This quest guide was entered into the database on Sat, Feb 07, 2004, at 09:10:19 PM by Chownuggs and was last updated on Wed, Mar 31, 2004, at 05:14:06 PM.<br>
-HTML; } ?>
+HTML; }

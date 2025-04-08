@@ -1,6 +1,16 @@
 <?php
 function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
-function getPageContent() { return <<<HTML
+function getPageContent() { 
+    global $meta_data;
+    $meta_data['title'] = 'Drop Tables';
+    $meta_data['og:title'] = $meta_data['title'];
+    $meta_data['og:url'] = '?p=droptables';
+    $meta_data['og:image'] = 'img/skeleton.webp';
+    
+
+
+    ob_start();
+    echo <<<HTML
     <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
             <td valign="bottom">
@@ -138,4 +148,7 @@ function getPageContent() { return <<<HTML
         <br>
         <br>
     </div>
-HTML; } ?>
+    <script src="pages/thesneilert/droptables.js" type="text/javascript"></script>'
+HTML;
+    return ob_get_clean();
+}

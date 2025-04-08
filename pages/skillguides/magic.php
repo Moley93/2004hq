@@ -1,68 +1,68 @@
 <?php
 function getPageTitle() { return 'Magic'; }
 function getPageMetaIcon() { return 'img/skillicons/magic.webp'; }
-function getPageContent() { return <<<HTML
+function getSkillContent() { return <<<HTML
 <center><b>Magic</b></center><p>
 
 <center><b>Rune Types</b></center>
-                                            <br>
-                                            <br>
-                                            <table>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
-                                                    <td>Earth rune - Can be replaced by a staff of earth.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/air_rune.gif"></td>
-                                                    <td>Air rune - Can be replaced by a staff of air.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/water_rune.gif"></td>
-                                                    <td>Water rune - Can be replaced by a staff of water.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/fire_rune.gif"></td>
-                                                    <td>Fire rune - Can be replaced by a staff of fire.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/body_rune.gif"></td>
-                                                    <td>Body rune - Required for curse spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/mind_rune.gif"></td>
-                                                    <td>Mind rune - Required for strike spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/cosmic_rune.gif"></td>
-                                                    <td>Cosmic rune - Required for jewellery enchant spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/chaos_rune.gif"></td>
-                                                    <td>Chaos rune - Required for bolt spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/nature_rune.gif"></td>
-                                                    <td>Nature rune - Required for object conversion spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/death_rune.gif"></td>
-                                                    <td>Death rune - Required for blast spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/law_rune.gif"></td>
-                                                    <td>Law rune - Required for teleport spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/soul_rune.gif"></td>
-                                                    <td>Soul rune - Required for high level curse spells.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/blood_rune.gif"></td>
-                                                    <td>Blood rune - Required for high level wave spells.</td>
-                                                </tr>
-                                            </table>
-                                            <br>
-                                            <br>
+<br>
+<br>
+<table>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/earth_rune.gif"></td>
+    <td>Earth rune - Can be replaced by a staff of earth.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/air_rune.gif"></td>
+    <td>Air rune - Can be replaced by a staff of air.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/water_rune.gif"></td>
+    <td>Water rune - Can be replaced by a staff of water.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/fire_rune.gif"></td>
+    <td>Fire rune - Can be replaced by a staff of fire.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/body_rune.gif"></td>
+    <td>Body rune - Required for curse spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/mind_rune.gif"></td>
+    <td>Mind rune - Required for strike spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/cosmic_rune.gif"></td>
+    <td>Cosmic rune - Required for jewellery enchant spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/chaos_rune.gif"></td>
+    <td>Chaos rune - Required for bolt spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/nature_rune.gif"></td>
+    <td>Nature rune - Required for object conversion spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/death_rune.gif"></td>
+    <td>Death rune - Required for blast spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/law_rune.gif"></td>
+    <td>Law rune - Required for teleport spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/soul_rune.gif"></td>
+    <td>Soul rune - Required for high level curse spells.</td>
+</tr>
+<tr>
+    <td><img src="https://web.archive.org/web/20051124054610im_/http://www.runescape.com/img/rs2/manual/magic/blood_rune.gif"></td>
+    <td>Blood rune - Required for high level wave spells.</td>
+</tr>
+</table>
+<br>
+<br>
 
 <center>
 <table bgcolor="black" cellpadding="6" border="0">
@@ -175,4 +175,4 @@ Works whenever it is equipped</center></td>
 </tr>
 </table>
 </center>
-HTML; } ?>
+HTML; }
