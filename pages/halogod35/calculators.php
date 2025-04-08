@@ -109,13 +109,22 @@ function generateCalculatorLinks(): string {
     $miscRows = $generateLinks($miscCalculators);
 
     return <<<HTML
+
 <table width="100%" cellpadding="8" cellspacing="8" class="calculators">
 <thead>
             <tr>
                 <th>Skill Calculators</th>
             </tr>
         </thead>
-    <tbody>$skillRows</tbody>
+    <tbody>
+        <tr>
+            <td>
+            Select the skill below to get to the calculator for that skill.<br />
+                <canvas data-skills="skillTree"></canvas>
+                <script src="js/skillGrid.js"></script>
+            </td>
+        </tr>
+    </tbody>
     <thead>
             <tr>
                 <th>Misc Calculators</th>

@@ -23,7 +23,6 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png" />
     <style>
-        
         .main-content {
             p, div, span, td, a {
                 font-family: 'RSPlain12', sans-serif;
