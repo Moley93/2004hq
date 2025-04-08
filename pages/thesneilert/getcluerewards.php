@@ -17,6 +17,9 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS clue_rewards (
     hash CHAR(40)
 )");
 
+// Clear all rewards before reloading
+$pdo->exec("DELETE FROM clue_rewards");
+
 foreach ($files as $difficulty => $url) {
     $data = file_get_contents($url);
     if (!$data) continue;
@@ -65,13 +68,11 @@ foreach ($files as $difficulty => $url) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all(
-            '/case\s+\d+\s*:\s*inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]*\))|\d+)\);|inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]*\))|\d+)\);/',
-            $procContent, $matches, PREG_SET_ORDER
-        );
+        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]+\([^\)]+\)[^\)]*\))|(?:calc\([^\)]*\))|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
+
         foreach ($matches as $match) {
-            $reward = $match[1] ?: $match[3];
-            $quantityExpr = trim($match[2] ?: $match[4]);
+            $reward = $match[1];
+            $quantityExpr = trim($match[2]);
 
             // Extract numeric values from inside calc(...) or direct number
             if (preg_match('/(\d+)\s*\+\s*random\((\d+)\)/', $quantityExpr, $qMatch)) {
