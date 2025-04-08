@@ -78,7 +78,9 @@ foreach ($files as $difficulty => $url) {
             } elseif (preg_match('/^\d+$/', $quantityExpr)) {
                 $min = $max = (int)$quantityExpr;
             } else {
-                $min = $max = 1;
+                // fallback if quantity can't be parsed
+                $min = 1000;
+                $max = 5000;
             }
 
             if ($type === 'rare') {
