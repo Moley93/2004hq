@@ -84,8 +84,7 @@ As your mining level gets higher it will become slowly easier. Once someone has 
 <td><center><canvas data-itemname="runite_ore"></center></td>
 <td><center>Runite</center></td>
 <td><center>85</center></td>
-</tr>
-</table>
+
 
 </td></tr></table>
 HTML; } ?>
