@@ -1,7 +1,7 @@
-// Updated to fetch clue data from get_rewards.php JSON endpoint instead of .rs2 files
+// Fetch clue data from cluetables.php JSON endpoint instead of raw .rs2 files
 window.renderSpriteToCanvas = renderSpriteToCanvas;
-const clueFiles = ["easy", "medium", "hard"];
-let activeDropFiles = [...clueFiles];
+const clueTiers = ["easy", "medium", "hard"];
+let activeDropFiles = [...clueTiers];
 
 const customItems = {};
 const dropTablesCache = {};
@@ -10,7 +10,7 @@ async function fetchClueTable(difficulty) {
     if (dropTablesCache[difficulty]) return dropTablesCache[difficulty];
 
     try {
-        const response = await fetch(`get_rewards.php?difficulty=${difficulty}`);
+        const response = await fetch(`cluetables.php?difficulty=${difficulty}`);
         const data = await response.json();
         dropTablesCache[difficulty] = data;
         return data;
@@ -24,10 +24,6 @@ function formatItemName(item) {
     return item.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 }
 
-function getItemImage(itemName) {
-    const lower = itemName.toLowerCase();
-    return `https://lostcity.markets/img/items/${lower.replace(/ /g, "_")}.webp`;
-}
 
 async function loadDropTable() {
     const dropdown = document.getElementById("clueDropdown");
@@ -77,8 +73,8 @@ async function loadDropTable() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.getElementById("clueDropdown");
-    dropdown.innerHTML = ""; // Clear any pre-existing options
-    const dropdown = document.getElementById("clueDropdown");
+    dropdown.innerHTML = "";
+
     const defaultOption = document.createElement("option");
     defaultOption.value = "";
     defaultOption.textContent = "Select...";
@@ -91,9 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dropdown.appendChild(option);
     });
 
-        // Enable the dropdown after populating
     dropdown.disabled = false;
-
     dropdown.addEventListener("change", loadDropTable);
 
     const searchInput = document.getElementById("searchInput");
