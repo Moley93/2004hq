@@ -32,7 +32,7 @@ As your mining level gets higher it will become slowly easier. Once someone has 
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="copper_pre"></center></td>
+<td><center><canvas data-itemname="copper_ore"></center></td>
 <td><center>Copper Ore</center></td>
 <td><center>1</center></td>
 </tr>
