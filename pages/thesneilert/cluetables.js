@@ -1,4 +1,4 @@
-// Fetch clue data from cluetables.php JSON endpoint instead of raw .rs2 files
+
 window.renderSpriteToCanvas = renderSpriteToCanvas;
 const clueTiers = ["easy", "medium", "hard"];
 let activeDropFiles = [...clueTiers];
@@ -72,26 +72,30 @@ async function loadDropTable() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.getElementById("clueDropdown");
-    dropdown.innerHTML = "";
+    const searchInput = document.getElementById("searchInput");
+
+
+    dropdown.replaceWith(dropdown.cloneNode(true));
+    searchInput.replaceWith(searchInput.cloneNode(true));
+
+    const newDropdown = document.getElementById("clueDropdown");
+    const newSearchInput = document.getElementById("searchInput");
+
+    newDropdown.innerHTML = "";
     const defaultOption = document.createElement("option");
     defaultOption.value = "";
     defaultOption.textContent = "Select...";
-    dropdown.appendChild(defaultOption);
+    newDropdown.appendChild(defaultOption);
 
     activeDropFiles.forEach(diff => {
         const option = document.createElement("option");
         option.value = diff;
         option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
-        dropdown.appendChild(option);
+        newDropdown.appendChild(option);
     });
 
-    dropdown.disabled = false;
-    dropdown.addEventListener("change", loadDropTable);
-
-    const searchInput = document.getElementById("searchInput");
-    if (searchInput) {
-        searchInput.addEventListener("input", () => {
-            loadDropTable();
-        });
-    }
+    newDropdown.disabled = false;
+    newDropdown.addEventListener("change", loadDropTable);
+    newSearchInput.disabled = false;
+    newSearchInput.addEventListener("input", loadDropTable);
 });
