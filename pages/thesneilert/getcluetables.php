@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require __DIR__ . '/../../db.php';
 
 // Default to 'easy' if not provided
 $difficulty = $_GET['difficulty'] ?? 'easy';

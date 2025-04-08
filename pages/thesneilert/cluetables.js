@@ -10,7 +10,7 @@ async function fetchClueTable(difficulty) {
     if (dropTablesCache[difficulty]) return dropTablesCache[difficulty];
 
     try {
-        const response = await fetch(`cluetables.php?difficulty=${difficulty}`);
+        const response = await fetch(`pages/thesneilert/getcluetables.php?difficulty=${difficulty}`);
         const data = await response.json();
         dropTablesCache[difficulty] = data;
         return data;
