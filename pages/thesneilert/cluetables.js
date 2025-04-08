@@ -77,6 +77,8 @@ async function loadDropTable() {
 
 document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.getElementById("clueDropdown");
+    dropdown.innerHTML = ""; // Clear any pre-existing options
+    const dropdown = document.getElementById("clueDropdown");
     const defaultOption = document.createElement("option");
     defaultOption.value = "";
     defaultOption.textContent = "Select...";
@@ -88,6 +90,9 @@ document.addEventListener("DOMContentLoaded", function () {
         option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
         dropdown.appendChild(option);
     });
+
+        // Enable the dropdown after populating
+    dropdown.disabled = false;
 
     dropdown.addEventListener("change", loadDropTable);
 
