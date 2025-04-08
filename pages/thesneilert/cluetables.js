@@ -24,6 +24,10 @@ function formatItemName(item) {
     return item.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 }
 
+function getItemImage(itemName) {
+    const lower = itemName.toLowerCase();
+    return `https://lostcity.markets/img/items/${lower.replace(/ /g, "_")}.webp`;
+}
 
 async function loadDropTable() {
     const dropdown = document.getElementById("clueDropdown");
@@ -74,7 +78,6 @@ async function loadDropTable() {
 document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.getElementById("clueDropdown");
     dropdown.innerHTML = "";
-
     const defaultOption = document.createElement("option");
     defaultOption.value = "";
     defaultOption.textContent = "Select...";
