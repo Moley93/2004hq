@@ -1,10 +1,11 @@
-
+// Updated cluetables.js to prevent duplicate event listeners using flags
 window.renderSpriteToCanvas = renderSpriteToCanvas;
 const clueTiers = ["easy", "medium", "hard"];
 let activeDropFiles = [...clueTiers];
 
 const customItems = {};
 const dropTablesCache = {};
+let listenersInitialized = false; // Prevent double attachment
 
 async function fetchClueTable(difficulty) {
     if (dropTablesCache[difficulty]) return dropTablesCache[difficulty];
@@ -74,28 +75,27 @@ document.addEventListener("DOMContentLoaded", function () {
     const dropdown = document.getElementById("clueDropdown");
     const searchInput = document.getElementById("searchInput");
 
+    // Only attach listeners once
+    if (!listenersInitialized) {
+        dropdown.innerHTML = "";
+        const defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = "Select...";
+        dropdown.appendChild(defaultOption);
 
-    dropdown.replaceWith(dropdown.cloneNode(true));
-    searchInput.replaceWith(searchInput.cloneNode(true));
+        activeDropFiles.forEach(diff => {
+            const option = document.createElement("option");
+            option.value = diff;
+            option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
+            dropdown.appendChild(option);
+        });
 
-    const newDropdown = document.getElementById("clueDropdown");
-    const newSearchInput = document.getElementById("searchInput");
+        dropdown.disabled = false;
+        searchInput.disabled = false;
 
-    newDropdown.innerHTML = "";
-    const defaultOption = document.createElement("option");
-    defaultOption.value = "";
-    defaultOption.textContent = "Select...";
-    newDropdown.appendChild(defaultOption);
+        dropdown.addEventListener("change", loadDropTable);
+        searchInput.addEventListener("input", loadDropTable);
 
-    activeDropFiles.forEach(diff => {
-        const option = document.createElement("option");
-        option.value = diff;
-        option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
-        newDropdown.appendChild(option);
-    });
-
-    newDropdown.disabled = false;
-    newDropdown.addEventListener("change", loadDropTable);
-    newSearchInput.disabled = false;
-    newSearchInput.addEventListener("input", loadDropTable);
+        listenersInitialized = true;
+    }
 });
