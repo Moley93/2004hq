@@ -8,5 +8,5 @@ function getPageContent() {
 <div class="rsplain12" style="font-size:24px;">Nothing interesting happens.</div><br />
 <br />
 <br />
-(That page was not found!)<br />
+(That page was not found!)<br /> 
 HTML; }
