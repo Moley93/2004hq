@@ -148,7 +148,7 @@ function getPageContent() {
         <br>
         <br>
     </div>
-    <script src="pages/thesneilert/droptables.js" type="text/javascript"></script>'
+    <script src="pages/thesneilert/droptables.js" type="text/javascript"></script>
 HTML;
     return ob_get_clean();
 }
