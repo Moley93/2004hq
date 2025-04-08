@@ -93,7 +93,7 @@ function getPageContent() { return <<<HTML
         <td width="10"></td>
         
         <td width="100" align="center">
-            <a href="?cluetables">
+            <a href="?p=cluetables">
                 <img src="img\casket1.png" border="0" />
             </a>
         </td>
@@ -106,7 +106,7 @@ function getPageContent() { return <<<HTML
             <br />
             Clue Rewards
             <br />
-            <a href="?cluetables" class="c">Click Here</a>
+            <a href="?p=cluetables" class="c">Click Here</a>
         </td>
     </tr>
  </tbody>
