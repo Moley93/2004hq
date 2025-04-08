@@ -65,17 +65,18 @@ foreach ($files as $difficulty => $url) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(?:calc\()?([^)\n]+?)\)?\s*\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(calc\([^;]+\)|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
-            $quantity = trim($match[2]);
+            $quantityExpr = trim($match[2]);
 
-            if (preg_match('/(\d+)\s*\+\s*random\((\d+)\)/', $quantity, $qMatch)) {
+            // Extract numeric values from inside calc(...) or direct number
+            if (preg_match('/(\d+)\s*\+\s*random\((\d+)\)/', $quantityExpr, $qMatch)) {
                 $min = (int)$qMatch[1];
                 $max = $min + (int)$qMatch[2] - 1;
-            } elseif (is_numeric($quantity)) {
-                $min = $max = (int)$quantity;
+            } elseif (preg_match('/^\d+$/', $quantityExpr)) {
+                $min = $max = (int)$quantityExpr;
             } else {
                 $min = $max = 1;
             }
