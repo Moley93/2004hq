@@ -66,6 +66,7 @@ include('template/body.php');
     </tr>
   </thead>
   <tbody>
+    <tr><td>08/04/2025</td><td>Added Mining Skill Guide</td></tr>
     <tr><td>08/04/2025</td><td>Added Prayer Skill Guide</td></tr>
     <tr><td>07/04/2025</td><td>Added Tourist Trap to Quests</td></tr>
     <tr><td>07/04/2025</td><td>Added Eilert's Icons!</td></tr>

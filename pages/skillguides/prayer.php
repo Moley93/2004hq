@@ -1,6 +1,6 @@
 <?php
-function getPageTitle() { return 'Ranged'; }
-function getPageMetaIcon() { return 'img/skillicons/ranged.webp'; }
+function getPageTitle() { return 'Prayer'; }
+function getPageMetaIcon() { return 'img/skillicons/prayer.webp'; }
 function getPageContent() { return <<<HTML
 <center><b>Prayer</b><br><br></center>
 <br>
