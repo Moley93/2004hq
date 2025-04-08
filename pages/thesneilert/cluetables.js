@@ -1,63 +1,100 @@
-// Updated to use JSON API from get_rewards.php
-const difficulties = ['easy', 'medium', 'hard'];
+// Updated to fetch clue data from get_rewards.php JSON endpoint instead of .rs2 files
+window.renderSpriteToCanvas = renderSpriteToCanvas;
+const clueFiles = ["easy", "medium", "hard"];
+let activeDropFiles = [...clueFiles];
 
-function formatItemName(item) {
-  return item
-    .replace(/_/g, ' ')
-    .replace(/\b\w/g, char => char.toUpperCase());
+const customItems = {};
+const dropTablesCache = {};
+
+async function fetchClueTable(difficulty) {
+    if (dropTablesCache[difficulty]) return dropTablesCache[difficulty];
+
+    try {
+        const response = await fetch(`get_rewards.php?difficulty=${difficulty}`);
+        const data = await response.json();
+        dropTablesCache[difficulty] = data;
+        return data;
+    } catch (error) {
+        console.error(`Error fetching ${difficulty} clue data:`, error);
+        return [];
+    }
 }
 
-async function fetchRewards(difficulty) {
-  const response = await fetch(`pages/main/thesneilert/getcluetables.php?difficulty=${difficulty}`);
-  const data = await response.json();
-  return data;
+function formatItemName(item) {
+    return item.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function getItemImage(itemName) {
+    const lower = itemName.toLowerCase();
+    return `https://lostcity.markets/img/items/${lower.replace(/ /g, "_")}.webp`;
 }
 
 async function loadDropTable() {
-  const dropdown = document.getElementById("clueDropdown");
-  const difficulty = dropdown.value;
-  const tableBody = document.querySelector("#dropTable tbody");
-  tableBody.innerHTML = "";
+    const dropdown = document.getElementById("clueDropdown");
+    const difficulty = dropdown.value;
+    const tableBody = document.querySelector("#dropTable tbody");
 
-  if (!difficulty) return;
+    tableBody.innerHTML = "";
+    if (!difficulty) return;
 
-  const rewards = await fetchRewards(difficulty);
+    const rewards = await fetchClueTable(difficulty);
+    const searchTerm = document.getElementById("searchInput").value.toLowerCase();
 
-  rewards.forEach(reward => {
-    const row = document.createElement("tr");
+    rewards.forEach(drop => {
+        const itemName = drop.reward_name.toLowerCase();
+        if (searchTerm && !itemName.includes(searchTerm)) return;
 
-    const itemCell = document.createElement("td");
-    itemCell.textContent = formatItemName(reward.reward_name);
+        const row = document.createElement("tr");
 
-    const quantityCell = document.createElement("td");
-    quantityCell.textContent = reward.quantity_min === reward.quantity_max
-      ? reward.quantity_min
-      : `${reward.quantity_min}-${reward.quantity_max}`;
+        const imageCell = document.createElement("td");
+        const canvasElement = document.createElement("canvas");
+        canvasElement.setAttribute("data-itemname", drop.reward_name.toLowerCase());
+        canvasElement.width = 32;
+        canvasElement.height = 32;
+        imageCell.appendChild(canvasElement);
 
-    const rateCell = document.createElement("td");
-    rateCell.textContent = reward.drop_rate;
+        const itemCell = document.createElement("td");
+        itemCell.textContent = formatItemName(drop.reward_name);
 
-    row.appendChild(itemCell);
-    row.appendChild(quantityCell);
-    row.appendChild(rateCell);
+        const quantityCell = document.createElement("td");
+        quantityCell.textContent = drop.quantity_min === drop.quantity_max
+            ? drop.quantity_min
+            : `${drop.quantity_min}-${drop.quantity_max}`;
 
-    tableBody.appendChild(row);
-  });
+        const rateCell = document.createElement("td");
+        rateCell.textContent = drop.drop_rate;
+
+        row.appendChild(imageCell);
+        row.appendChild(itemCell);
+        row.appendChild(quantityCell);
+        row.appendChild(rateCell);
+
+        tableBody.appendChild(row);
+    });
+
+    window.renderAllSprites();
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const dropdown = document.getElementById("clueDropdown");
-  const defaultOption = document.createElement("option");
-  defaultOption.value = "";
-  defaultOption.textContent = "Select...";
-  dropdown.appendChild(defaultOption);
+document.addEventListener("DOMContentLoaded", function () {
+    const dropdown = document.getElementById("clueDropdown");
+    const defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.textContent = "Select...";
+    dropdown.appendChild(defaultOption);
 
-  difficulties.forEach(diff => {
-    const option = document.createElement("option");
-    option.value = diff;
-    option.textContent = diff.charAt(0).toUpperCase() + diff.slice(1);
-    dropdown.appendChild(option);
-  });
+    activeDropFiles.forEach(diff => {
+        const option = document.createElement("option");
+        option.value = diff;
+        option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
+        dropdown.appendChild(option);
+    });
 
-  dropdown.addEventListener("change", loadDropTable);
+    dropdown.addEventListener("change", loadDropTable);
+
+    const searchInput = document.getElementById("searchInput");
+    if (searchInput) {
+        searchInput.addEventListener("input", () => {
+            loadDropTable();
+        });
+    }
 });
