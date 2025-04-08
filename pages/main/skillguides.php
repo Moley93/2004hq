@@ -1,6 +1,6 @@
 <?php
 global $skill_list_free, $skill_list_members;
-
+/*
 $skill_list_free = array(
     "Ranged" => "ranged",
     "Prayer" => "prayer",
@@ -19,10 +19,10 @@ $skill_list_members = array(
     "Fletching" => "fletching"
 );
 ksort($skill_list_free);
-ksort($skill_list_members);
+ksort($skill_list_members);*/
 
 function getPageContent() {
-    global $meta_data, $skill_list_free, $skill_list_members;
+    //global $meta_data, $skill_list_free, $skill_list_members;
 
     ob_start();
 
@@ -32,7 +32,7 @@ function getPageContent() {
         $meta_data['og:url'] = '?p=skilllist';
         $meta_data['og:image'] = 'img/stats.webp';
 
-        echo '<table width="350">
+        /*echo '<table width="350">
         <tbody><tr>
                 <td width="300" height="31" align="middle" bordercolor="#FFFFFF">
                     <div align="center">
@@ -75,7 +75,10 @@ function getPageContent() {
             echo '</tr>';
         }
 
-        echo '</tbody></table>';
+        echo '</tbody></table>';*/
+        echo 'Select a skill below to get to the guide for that skill.<br><br>
+        <canvas data-skills="skillTree" data-width="220"></canvas>
+        <script src="js/skillgrid.js"></script><br>';
 
     } else {
         $currSkill = htmlspecialchars($_GET['skill']);
