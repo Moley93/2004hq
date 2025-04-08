@@ -14,7 +14,6 @@ Ore is quite hard to get out of rocks - it might take quite a few attempts befor
 As your mining level gets higher it will become slowly easier. Once someone has mined a rock there will be no ore available to get from it for a short while; wait a bit and you will be able to mine ore from it again. <br>
 <br>
 <br>
-</td></tr></table>
 <p>
 <center><b>Mining levels</b></center><br>
 <center>
