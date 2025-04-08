@@ -24,11 +24,6 @@ function formatItemName(item) {
     return item.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 }
 
-function getItemImage(itemName) {
-    const lower = itemName.toLowerCase();
-    return `https://lostcity.markets/img/items/${lower.replace(/ /g, "_")}.webp`;
-}
-
 async function loadDropTable() {
     const dropdown = document.getElementById("clueDropdown");
     const difficulty = dropdown.value;
