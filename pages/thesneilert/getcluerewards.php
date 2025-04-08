@@ -65,7 +65,7 @@ foreach ($files as $difficulty => $url) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(calc\([^;]+\)|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]+\([^\)]+\)[^\)]*\))|(?:calc\([^\)]*\))|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
