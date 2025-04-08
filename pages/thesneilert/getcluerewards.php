@@ -51,10 +51,10 @@ foreach ($files as $difficulty => $url) {
     }
 
     // Get pool sizes
-    if (preg_match('/\[proc,trail_clue_' . $difficulty . '_normal\].*?random\((\d+)\)/s', $data, $nMatch)) {
+    if (preg_match('/\[proc,trail_clue_' . $difficulty . '_normal\][^\[]*?random\((\d+)\)/s', $data, $nMatch)) {
         $normalPoolSize = (int)$nMatch[1];
     }
-    if (preg_match('/\[proc,trail_clue_' . $difficulty . '_rare\].*?random\((\d+)\)/s', $data, $rMatch)) {
+    if (preg_match('/\[proc,trail_clue_' . $difficulty . '_rare\][^\[]*?random\((\d+)\)/s', $data, $rMatch)) {
         $rarePoolSize = (int)$rMatch[1];
     }
 
@@ -65,7 +65,7 @@ foreach ($files as $difficulty => $url) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(?:calc\()?([^)\n]+)\)?\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*(?:calc\()?([^)\n]+?)\)?\s*\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
