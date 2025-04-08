@@ -39,14 +39,6 @@ You can find below the guides to each of the different types of fishing you can 
 
 
 <tr>
-<td><center>Karambwanji<br><canvas data-itemname="raw_karambwanji"></canvas></center></td>
-<td><center>Level 5<br>Type: Net Fishing<br></center></td>
-<td><center>Herring<br><canvas data-itemname="raw_herring"></canvas></center></td>
-<td><center>Level 10<br>Type: Sea bait fishing</center></td>
-</tr>
-
-
-<tr>
 <td><center>Anchovies<br><canvas data-itemname="raw_anchovies"></canvas></center></td>
 <td><center>Level 15<br>Type: Net Fishing</center></td>
 <td valign="top"><center>Mackerel<br><canvas data-itemname="raw_mackerel"></canvas></center></td>
@@ -82,13 +74,6 @@ You can find below the guides to each of the different types of fishing you can 
 <td><center>Level 40<br>Type: Lobster fishing</center></td>
 <td valign="top"><center>Bass<br><canvas data-itemname="raw_bass"></canvas></center></td>
 <td><center>Level 46<br>Type: Big net fishing<br></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Swordfish<br><canvas data-itemname="raw_swordfish"></canvas></center></td>
-<td><center>Level 50<br>Type: Harpoon fishing</center></td>
-<td valign="top"><center>Karambwan<br><canvas data-itemname="raw_karambwan"></canvas></center></td>
-<td><center>Level 65<br>Type: Karambwan Vessel Fishing<br></center></td>
 </tr>
 
 <tr>
