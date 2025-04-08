@@ -121,7 +121,7 @@ function generateCalculatorLinks(): string {
             <td>
             Select the skill below to get to the calculator for that skill.<br />
                 <canvas data-skills="skillTree"></canvas>
-                <script src="js/skillGrid.js"></script>
+                <script src="js/skillgrid.js"></script>
             </td>
         </tr>
     </tbody>
