@@ -24,7 +24,7 @@ if (!empty($_GET['p'])) {
             include 'pages/main/calculators.php';
             break;
         case 'updatetables':
-            include 'pages/thesneilert/getcluerewards.php';
+            include 'pages/thesneilert/updatecluetables.php';
             break;
         default:
         case '404':
