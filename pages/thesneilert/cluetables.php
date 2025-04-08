@@ -37,8 +37,7 @@ function getPageContent() {
                                     <td class=b bgcolor=#474747 background=img\stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Select a Clue Tier</b><br>
-                                                <select id="clueDropdown"
-                                                    onchange="loadDropTable()" disabled>
+                                                <select id="clueDropdown" disabled>
                                                     <option value="">Select...</option>
                                                 </select>
                                             </div>
@@ -91,5 +90,5 @@ function getPageContent() {
             </td>
         </tr>
     </table>
-    <script src="pages/thesneilert/cluetables.js" type="text/javascript"></script>
+    <script src="pages/thesneilert/cluetables.js"></script>
 HTML; } ?>
