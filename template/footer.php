@@ -19,9 +19,9 @@
                                         <tr>
                                             <td align="bottom"><img src="img\edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
                                             <td align="bottom">
-                                                <div align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:11px;"" >
-                                                    Site by Moley, Eilert,  Halogod, and Collin<br />
-                                                    Join our <a href="https://discord.gg/jdFmMvz33j">Discord</a><br />
+                                                <div align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:11px;">
+                                                    Site by Moley, Eilert, Halogod & Collin.<br/>
+                                                    Join our <a href="https://discord.gg/jdFmMvz33j">Discord</a> for feedback and updates.<br />
                                                 </div>
                                                 <img src="img\edge_c.jpg" width="400" height="42" hspace="0" vspace="0">
                                             </td>
