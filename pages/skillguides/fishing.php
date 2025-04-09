@@ -11,10 +11,6 @@ Typically a fishing spot will have a left click option and a right click option.
 These options are net, bait, harpoon, lure and cage. <br>
 Click on the correct option and if you have the correct equipment you will attempt to catch a fish.
 
-<p>
-You can find below the guides to each of the different types of fishing you can do in Runescape. A similar table to the one below can be opened in the game by clicking the fishing skill icon in the stats menu.
-</p>
-
 <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
 <tr>
 <th width="60%" colspan="2"><b>Fish</b></th>
