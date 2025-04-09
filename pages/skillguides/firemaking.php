@@ -6,21 +6,7 @@ function getSkillContent() { return <<<HTML
 <br>
 <center>Firemaking - The Basics<</center><br>
 <center>Introduction</center><br>
-<tr>
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/lanturns_candle_torch/tinderbox.gif" alt="[image]"></td>
-<td></td>
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/misc/plus_icon.gif" alt="[image]"></td>
-<td></td>
-<td><img style="display: inline;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/normal_logs.gif" alt="[image]"></img><br></td>
-</tr>
-<tr>
-<td>Tinderbox</td>
-<td></td>
-<td></td>
-<td></td>
-<td>Logs</img><br></td>
-</tr>
-</table><br><ul style="margin-top: 0px; margin-bottom: 0px; list-style-type: decimal; "><br><li>Left-click on the tinderbox in your inventory so that it is outlined in white.  Then left-click on the logs to use them with the tinderbox.  You will then place the logs on the ground and attempt to light the fire.  <br><li>Alternatively, you can drop the logs on the ground and  left-click on the tinderbox so that it is outlined in white.  Then left-click on the logs to use the tinderbox with the logs.<br></ul><br>Your chances of lighting the fire quickly, will depend on your firemaking level.<br><br>Tinderboxes can be bought from General Stores, occasionally so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="viewarticle.ws?article_id=1727">woodcutting</a> section of the manual.<br><table style="text-align: center;" align="center">
+<br><ul style="margin-top: 0px; margin-bottom: 0px; list-style-type: decimal; "><br><li>Left-click on the tinderbox in your inventory so that it is outlined in white.  Then left-click on the logs to use them with the tinderbox.  You will then place the logs on the ground and attempt to light the fire.  <br><li>Alternatively, you can drop the logs on the ground and  left-click on the tinderbox so that it is outlined in white.  Then left-click on the logs to use the tinderbox with the logs.<br></ul><br>Your chances of lighting the fire quickly, will depend on your firemaking level.<br><br>Tinderboxes can be bought from General Stores, occasionally so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="viewarticle.ws?article_id=1727">woodcutting</a> section of the manual.<br><table style="text-align: center;" align="center">
 <tr>
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_options.gif" alt="[image]"></td>
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_main2.jpg" alt="[image]"></td>
@@ -86,6 +72,6 @@ function getSkillContent() { return <<<HTML
 <td>303.8</td>
 <td>Yes</td>
 </tr>
-</table><br><br><span style="text-align: center; display: block;">Please remember that this is not a members only skill. However, some of the items to light fires may require you to be a member.  Maple logs are only available on a members server however, you can burn them on free member servers.</span><br><br><span style="text-align: center; display: block;"><a href="viewarticle.ws?article_id=2192">Click here to view the Firemaking FAQs</a></span><br><br style="clear: both;">
+</table><br><br><span style="text-align: center; display: block;">Please remember that this is not a members only skill. However, some of the items to light fires may require you to be a member.  Maple logs are only available on a members server however, you can burn them on free member servers.</span><br><br><span style="text-align: center; display: block;"></span><br><br style="clear: both;">
 <div class="spacer">
 HTML; }
