@@ -1,3 +1,79 @@
+function showHowToUse() {
+    const modal = document.createElement("div");
+    modal.className = "modal";
+    modal.innerHTML = `
+<div class="modal-content">
+    <div class="modal-header">
+        <table width="500" bgcolor="black" cellpadding="4">
+            <tr>
+                <td class="e">
+                    <center>
+                        <b>How Clue Drops Work</b>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="modal-body">
+        <table width="500" bgcolor="black" cellpadding="2">
+            <tr>
+                <td class="e">
+                    <table width="100%" cellspacing="4" cellpadding="8" class="rare-drop-table">
+                        <tbody>
+                            <tr>
+                                <td colspan="3" style="text-align: left;">
+                                    <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">1. Choose a Clue Tier</span><br>
+                                    <span style="color: #cccccc;">
+                                        Select the clue tier (Easy, Medium or Hard) to view its reward table.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-align: left;">
+                                    <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">2. Search for Rewards</span><br>
+                                    <span style="color: #cccccc;">
+                                        Search for specific items to see which clue tiers can reward them. Matching items will be highlighted.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-align: left;">
+                                    <span style="color: #90c040; font-size: 1.1em; font-weight: bold;">3. How Drop Rate is Calculated</span><br>
+                                    <span style="color: #cccccc;">
+                                        Rates are calculated per casket opened, not per individual reward roll.
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <span class="close">&times;</span>
+</div>
+
+    `;
+
+    // Position the modal near the top of the page with some headroom
+    const modalContent = modal.querySelector('.modal-content');
+    modalContent.style.position = 'fixed';
+    modalContent.style.top = '50px';  // Add some headroom from the top
+    modalContent.style.left = '50%';
+    modalContent.style.transform = 'translateX(-50%)';  // Center horizontally
+
+    document.body.appendChild(modal);
+
+    const closeBtn = modal.querySelector(".close");
+    closeBtn.onclick = () => {
+        document.body.removeChild(modal);
+    };
+
+    window.onclick = (event) => {
+        if (event.target === modal) {
+            document.body.removeChild(modal);
+        }
+    };
+}
+
 // Updated cluetables.js to prevent duplicate event listeners using flags
 window.renderSpriteToCanvas = renderSpriteToCanvas;
 const clueTiers = ["easy", "medium", "hard"];

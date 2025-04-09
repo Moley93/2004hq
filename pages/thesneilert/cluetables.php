@@ -84,6 +84,21 @@ function getPageContent() {
             </td>
         </tr>
     </table>
+        <!-- Footer with edge images -->
+    <div style="text-align:center; font-family:Arial,Helvetica,sans-serif; font-size:11px;">
+        <br>
+        <a href="#" class="toggle-green" onclick="showHowToUse(); return false;">How to
+            Use</a>
+        <span style="margin: 0 5px;">|</span>
+        <label class="switch">
+            <input type="checkbox" id="saveSettingsToggle" checked>
+            <span class="slider round"></span>
+        </label>
+        <span class="toggle-label">Save Settings</span>
+        <br>
+        <br>
+    </div>
+
     <script src="pages/thesneilert/cluetables.js"></script>
     <script>
     // Enable column sorting
