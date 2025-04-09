@@ -28,7 +28,7 @@ The rune seller will give you some findings to give back to the wizard. Go to th
 
 Congratulations, you have completed the first RS2-introduced quest.<br>
 <br>
-<img src="img\questimages\runemysteries1.png" height="224" width="364"><br>
+<img src="img/questimages/runemysteries1.png" height="224" width="364"><br> 
 <br>
 This quest guide was written on RuneHQ by evadek. Thanks to Monkeychris, Rebelbeta, Sharker998, Archangel Malachi, Neek, Tomk4k, Therichsweede, Poison for corrections.<br>
 <br>
