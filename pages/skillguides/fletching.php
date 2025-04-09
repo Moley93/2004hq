@@ -2,9 +2,9 @@
 function getPageTitle() { return 'Fletching'; }
 function getPageMetaIcon() { return 'img/skillicons/fletching.webp'; }
 function getSkillContent() { return <<<HTML
-<center><b>Fletching guide</b></center>
+<b>Fletching guide</b>
 <br>
-<center><b>Making Bows</b></center><p>
+<b>Making Bows</b><p>
 <p>
 To make bows you first need to acquire some wood. Depending on the type of tree you chop
 down you can get different sorts of logs. Next use a knife with the logs to cut them into
@@ -15,48 +15,108 @@ Rarer types of wood are harder to acquire, but make better bows which shoot more
 The table below lists the different types of bow you can make.
 
 <p>
-<b><center>Different types of bow</b></center><br>
-<table bgcolor="black" cellpadding="6" width="480">
+<b>Different types of bows</b><br>
+<table cellpadding="6" width="480" style="background-color:black;">
 <tr>
-<td bgcolor="#382418" colspan="2"><center>Bow type</center></td>
-<td bgcolor="#382418"><center>Fletching level to make</center></td>
-<td bgcolor="#382418"><center>Ranged level to wield</center></td>
+<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;" colspan="4">Bow type</td>
+<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;">Fletching Level</td>
+<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;">Ranged Level</td>
 </tr>
 <tr>
-<td><center>Bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/bow.gif"></center></td>
-<td><center>Shortbow: Level 5<br>Longbow: Level 10</center></td>
-<td><center>Any</center></td>
+<td style="text-align: center; vertical-align: middle;">Bow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">5</td>
+<td style="text-align: center; vertical-align: middle;">1</td>
 </tr>
 <tr>
-<td><center>Oak bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/oak.gif"></center></td>
-<td><center>Shortbow: Level 20<br>Longbow: Level 25</center></td>
-<td><center>Shortbow: Level 5<br>Longbow: Level 5</center></td>
+<td style="text-align: center; vertical-align: middle;">Long bow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">10</td>
+<td style="text-align: center; vertical-align: middle;">1</td>
 </tr>
 <tr>
-<td><center>Willow bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/willow.gif"></center></td>
-<td><center>Shortbow: Level 35<br>Longbow: Level 40</center></td>
-<td><center>Shortbow: Level 20<br>Longbow: Level 20</center></td>
+<td style="text-align: center; vertical-align: middle;">Oak shortbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_oak_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">20</td>
+<td style="text-align: center; vertical-align: middle;">5</td>
 </tr>
 <tr>
-<td><center>Maple bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/maple.gif"></center></td>
-<td><center>Shortbow: Level 50<br>Longbow: Level 55</center></td>
-<td><center>Shortbow: Level 30<br>Longbow: Level 30</center></td>
+<td style="text-align: center; vertical-align: middle;">Oak longbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_oak_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">25</td>
+<td style="text-align: center; vertical-align: middle;">5</td>
 </tr>
 <tr>
-<td><center>Yew bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/yew.gif"></center></td>
-<td><center>Shortbow: Level 65<br>Longbow: Level 70</center></td>
-<td><center>Shortbow: Level 40<br>Longbow: Level 40</center></td>
+<td style="text-align: center; vertical-align: middle;">Willow shortbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_willow_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">35</td>
+<td style="text-align: center; vertical-align: middle;">20</td>
 </tr>
 <tr>
-<td><center>Magic bow</center></td>
-<td><center><img src="https://web.archive.org/web/20040622202347im_/http://www.runescape.com/img/rs2/manual/fletching/magic.gif"></center></td>
-<td><center>Shortbow: Level 80<br>Longbow: Level 85</center></td>
-<td><center>Shortbow: Level 50<br>Longbow: Level 50</center></td>
+<td style="text-align: center; vertical-align: middle;">Willow longbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_willow_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">40</td>
+<td style="text-align: center; vertical-align: middle;">20</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Maple shortbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_maple_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">50</td>
+<td style="text-align: center; vertical-align: middle;">30</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Maple longbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_maple_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">55</td>
+<td style="text-align: center; vertical-align: middle;">30</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Yew shortbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_yew_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">65</td>
+<td style="text-align: center; vertical-align: middle;">40</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Yew longbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_yew_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">70</td>
+<td style="text-align: center; vertical-align: middle;">40</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Magic shortbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_magic_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_shortbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">80</td>
+<td style="text-align: center; vertical-align: middle;">50</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle;">Magic longbow</td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_logs"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_magic_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_longbow"></canvas></td>
+<td style="text-align: center; vertical-align: middle;">85</td>
+<td style="text-align: center; vertical-align: middle;">50</td>
 </tr>
 </table>
 HTML; }

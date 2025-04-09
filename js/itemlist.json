@@ -6202,6 +6202,20 @@
     "cost": 1
   },
   {
+    "id": 2148,
+    "debugname": "raw_lava_eel",
+    "name": "Raw lava eel",
+    "desc": "A very strange eel.",
+    "cost": 1
+  },
+  {
+    "id": 2149,
+    "debugname": "lava_eel",
+    "name": "Lava eel",
+    "desc": "Strange, it looks cooler now it's been cooked.",
+    "cost": 1
+  },
+  {
     "id": 2150,
     "debugname": "swamp_toad",
     "name": "Swamp toad",

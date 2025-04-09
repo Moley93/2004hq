@@ -41,46 +41,69 @@ Promise.all([
 
   function renderSpriteToCanvas(debugname, canvas) {
     let id;
+    let name = "Unknown Item";
+    let desc = "No description available.";
   
-    // Handle coins variant override
+    // 🔹 Coins variants
     if (coinVariants.hasOwnProperty(debugname)) {
       id = coinVariants[debugname];
+      name = "Coins";
+      desc = `A stack of ${debugname === "coins" ? "coins" : debugname.split("_")[1]} gp.`;
     }
-    // Exempt items override
+  
+    // 🔹 Exempt overrides
     else if (exemptItems.hasOwnProperty(debugname)) {
       id = exemptItems[debugname];
+      name = debugname;
     }
-    // Handle certs
+  
+    // 🔹 Certed items
     else if (debugname.startsWith("cert_")) {
       const baseName = debugname.replace(/^cert_/, "");
       const baseItem = itemData.find(i => i.debugname === baseName);
-      id = baseItem ? baseItem.id + 1 : 2677;
-    }
-    // Normal lookup
-    else {
-      const item = itemData.find(i => i.debugname === debugname);
-      id = item ? item.id : 2677;
+      if (baseItem) {
+        id = baseItem.id + 1;
+        name = `${baseItem.name} (Noted)`;
+        desc = baseItem.desc;
+      } else {
+        id = 2677;
+      }
     }
   
-    // Sprite position
+    // 🔹 Standard item from JSON
+    else {
+      const item = itemData.find(i => i.debugname === debugname);
+      if (item) {
+        id = item.id;
+        name = item.name;
+        desc = item.desc;
+      } else {
+        id = 2677;
+      }
+    }
+  
+    // Sprite math
     const col = id % spritesPerRow;
     const row = Math.floor(id / spritesPerRow);
   
-    // Determine output size
-    const size = parseInt(canvas.dataset.size) || spriteSize; // default 32 if not set
+    // Output size
+    const size = parseInt(canvas.dataset.size) || spriteSize;
   
+    // Draw
     const ctx = canvas.getContext("2d");
     canvas.width = size;
     canvas.height = size;
-  
     ctx.clearRect(0, 0, size, size);
     ctx.drawImage(
       spritesheet,
-      col * spriteSize, row * spriteSize, // Source x, y (always 32x32)
+      col * spriteSize, row * spriteSize,
       spriteSize, spriteSize,
       0, 0,
-      size, size                          // Scale to desired size
+      size, size
     );
+  
+    // Set tooltip
+    canvas.title = `${name} — ${desc}`;
   }
   window.renderAllSprites = function() {
     document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {

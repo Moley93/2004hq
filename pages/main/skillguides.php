@@ -22,6 +22,7 @@ ksort($skill_list_free);
 ksort($skill_list_members);*/
 
 function getPageContent() {
+    global $meta_data;
     //global $meta_data, $skill_list_free, $skill_list_members;
 
     ob_start();
