@@ -66,6 +66,7 @@ function getPageContent() {
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:url'] = '?p=questlist';
         $meta_data['og:image'] = 'img/questicon.webp';
+        echo '<b>Select the Quest you would like to view a Guide for:</b><br><br>';
         echo renderQuestList($questlist);
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
