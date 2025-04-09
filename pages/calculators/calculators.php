@@ -45,11 +45,11 @@ function getExtraHeaderContent(): string {
     $content = '';
 
     if ($css = $calculatorType->getCSS()) {
-        $content .= '<link rel="stylesheet" href="css/halogod35/' . $css . '" />';
+        $content .= '<link rel="stylesheet" href="css/calculators/' . $css . '" />';
     }
 
     if ($js = $calculatorType->getJS()) {
-        $content .= '<script src="js/halogod35/' . $js . '"></script>';
+        $content .= '<script src="js/calculators/' . $js . '"></script>';
     }
 
     return $content;
