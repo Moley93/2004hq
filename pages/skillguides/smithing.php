@@ -87,9 +87,7 @@ The following is a table showing at what level you can forge various items. A si
 </tr>
 
 <tr style="background-color:#1E1E1E;">
-<td><center>Throwing dart tips<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Throwing dart tips<br></td>
 <td><center><img src="https://oldschool.runescape.wiki/images/Bronze_dart_tip.png?fe489"></center></td>
 <td><center>4<br></center></td>
 <td><center>19<br></center></td>
@@ -100,9 +98,7 @@ Members
 </tr>
 
 <tr>
-<td><center>Wire<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Wire<br></td>
 <td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/wire.gif"></center></td>
 <td><center>4</center></td>
 <td><center>-</center></td>
@@ -113,9 +109,7 @@ Members
 </tr>
 
 <tr style="background-color:#1E1E1E;">
-<td><center>Cannonball<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Cannonball<br></td>
 <td><center><img src="https://oldschool.runescape.wiki/images/Cannonball.png?3c432"></center></td>
 <td><center>-</center></td>
 <td><center>-</center></td>
@@ -126,9 +120,7 @@ Members
 </tr>
 
 <tr>
-<td><center>Arrow heads<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Arrow heads<br></td>
 <td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/ahead.gif"></center></td>
 <td><center>5</center></td>
 <td><center>20</center></td>
@@ -171,9 +163,7 @@ Members
 </tr>
 
 <tr>
-<td><center>Studs<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Studs<br></td>
 <td><center><img src="https://oldschool.runescape.wiki/images/Steel_studs.png?659e6"></center></td>
 <td><center>-</center></td>
 <td><center>-</center></td>
@@ -195,9 +185,7 @@ Members
 </tr>
 
 <tr>
-<td><center>Throwing knives<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Throwing knives<br></td>
 <td><center><img src="https://oldschool.runescape.wiki/images/Bronze_knife.png?fe489"></center></td>
 <td><center>7<br></center></td>
 <td><center>22<br></center></td>
@@ -263,9 +251,7 @@ Members
 </tr>
 
 <tr>
-<td><center>Claws<br><a href="https://web.archive.org/web/20050206173625/http://www.runescape.com/aff/runescape/members/members.html" class="c">
-Members
-</a></td>
+<td><center>Claws<br></td>
 <td><center><img src="https://oldschool.runescape.wiki/images/Bronze_claws.png?bd75b"></center></td>
 <td><center>13</center></td>
 <td><center>28</center></td>
