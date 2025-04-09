@@ -120,7 +120,7 @@ Works whenever it is equipped</center></td>
 <tr>
 <td><center>Ring of the Forge<br><img src="https://web.archive.org/web/20050204061537im_/http://www.runescape.com/img/rs2/manual/magic/rubring.gif"></center></td>
 <td><center>Level 49<br><a href="https://web.archive.org/web/20050204061537/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td><center>While <a href="https://web.archive.org/web/20050204061537/http://www.runescape.com/aff/runescape/skills/smithing.html" class="c">smelting</a> Iron ore the player will have a 100% success rate</center></td>
+<td><center>While smelting Iron ore the player will have a 100% success rate</center></td>
 <td><center>Allows 140 iron ores to be smelted in total</center></td>
 </tr>
 
