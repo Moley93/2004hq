@@ -87,7 +87,7 @@ Promise.all([
     const row = Math.floor(id / spritesPerRow);
   
     // Output size
-    const size = parseInt(canvas.dataset.size) || spriteSize;
+    const size = parseInt(canvas.dataset.size) || 36;
   
     // Draw
     const ctx = canvas.getContext("2d");

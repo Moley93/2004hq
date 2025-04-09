@@ -2,7 +2,7 @@
 function getPageTitle() { return 'Mining'; }
 function getPageMetaIcon() { return 'img/skillicons/mining.webp'; }
 function getSkillContent() { return <<<HTML
-<center><b>Mining Guide</b><br><br></center>
+<b>Mining Guide</b><br><br>
 <br>
 <br>
 The mining skill is used to get ores and metals from rocks. The ores can then either be sold or made into different objects using the smithing and crafting skills. To mine, the only object you will need is a pickaxe. These can be bought at the pickaxe shop in the Dwarf Mines. Rocks can be found at the various mining sites in the RuneScape world.<br>
@@ -15,75 +15,73 @@ As your mining level gets higher it will become slowly easier. Once someone has 
 <br>
 <br>
 <p>
-<center><b>Mining levels</b></center><br>
-<center>
-<table bgcolor="black" cellpadding="6" border="0">
+<b>Mining levels</b><br>
 
+<table width="100%" cellpadding="1" cellspacing="0" class="calculators">
 <tr>
-<td bgcolor="#382418"><center><b></b></center></td>
-<td bgcolor="#382418"><center><b>Ore</b></center></td>
-<td bgcolor="#382418"><center><b>Level required</b></center></td>
+<th colspan="2">Ore</td>
+<th>Level required</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="clay"></center></td>
-<td><center>Clay</center></td>
-<td><center>1</center></td>
+<td><canvas data-itemname="clay"></td>
+<td>Clay</td>
+<td>1</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="copper_ore"></center></td>
-<td><center>Copper Ore</center></td>
-<td><center>1</center></td>
+<td><canvas data-itemname="copper_ore"></td>
+<td>Copper Ore</td>
+<td>1</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="tin_ore">tin_ore</center></td>
-<td><center>Tin Ore</center></td>
-<td><center>1</center></td>
+<td><canvas data-itemname="tin_ore">tin_ore</td>
+<td>Tin Ore</td>
+<td>1</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="iron_ore"></center></td>
-<td><center>Iron Ore</center></td>
-<td><center>15</center></td>
+<td><canvas data-itemname="iron_ore"></td>
+<td>Iron Ore</td>
+<td>15</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="silver_ore"></center></td>
-<td><center>Silver</center></td>
-<td><center>20</center></td>
+<td><canvas data-itemname="silver_ore"></td>
+<td>Silver</td>
+<td>20</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="coal"></center></td>
-<td><center>Coal</center></td>
-<td><center>30</center></td>
+<td><canvas data-itemname="coal"></td>
+<td>Coal</td>
+<td>30</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="gold_ore"></center></td>
-<td><center>Gold</center></td>
-<td><center>40</center></td>
+<td><canvas data-itemname="gold_ore"></td>
+<td>Gold</td>
+<td>40</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="mithril_ore"></center></td>
-<td><center>Mithril</center></td>
-<td><center>55</center></td>
+<td><canvas data-itemname="mithril_ore"></td>
+<td>Mithril</td>
+<td>55</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="adamantite_ore"></center></td>
-<td><center>Adamantite</center></td>
-<td><center>70</center></td>
+<td><canvas data-itemname="adamantite_ore"></td>
+<td>Adamantite</td>
+<td>70</td>
 </tr>
 
 <tr>
-<td><center><canvas data-itemname="runite_ore"></center></td>
-<td><center>Runite</center></td>
-<td><center>85</center></td>
+<td><canvas data-itemname="runite_ore"></td>
+<td>Runite</td>
+<td>85</td>
 </tr>
 </table>
-</center>
+
 HTML; }

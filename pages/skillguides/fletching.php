@@ -16,107 +16,107 @@ The table below lists the different types of bow you can make.
 
 <p>
 <b>Different types of bows</b><br>
-<table cellpadding="6" width="480" style="background-color:black;">
+<table width="100%" cellpadding="1" cellspacing="0" class="calculators">
 <tr>
-<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;" colspan="4">Bow type</td>
-<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;">Fletching Level</td>
-<td style="text-align: center; vertical-align: middle;background-color:#382418;text-size:12px;">Ranged Level</td>
+<th colspan="4">Bow type</th>
+<th>Fletching Level</th>
+<th>Ranged Level</th>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Bow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">5</td>
-<td style="text-align: center; vertical-align: middle;">1</td>
+<td>Bow</td>
+<td><canvas data-itemname="logs"></canvas></td>
+<td><canvas data-itemname="unstrung_shortbow"></canvas></td>
+<td><canvas data-itemname="shortbow"></canvas></td>
+<td>5</td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Long bow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">10</td>
-<td style="text-align: center; vertical-align: middle;">1</td>
+<td>Long bow</td>
+<td><canvas data-itemname="logs"></canvas></td>
+<td><canvas data-itemname="unstrung_longbow"></canvas></td>
+<td><canvas data-itemname="longbow"></canvas></td>
+<td>10</td>
+<td>1</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Oak shortbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_oak_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">20</td>
-<td style="text-align: center; vertical-align: middle;">5</td>
+<td>Oak shortbow</td>
+<td><canvas data-itemname="oak_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_oak_shortbow"></canvas></td>
+<td><canvas data-itemname="oak_shortbow"></canvas></td>
+<td>20</td>
+<td>5</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Oak longbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_oak_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="oak_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">25</td>
-<td style="text-align: center; vertical-align: middle;">5</td>
+<td>Oak longbow</td>
+<td><canvas data-itemname="oak_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_oak_longbow"></canvas></td>
+<td><canvas data-itemname="oak_longbow"></canvas></td>
+<td>25</td>
+<td>5</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Willow shortbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_willow_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">35</td>
-<td style="text-align: center; vertical-align: middle;">20</td>
+<td>Willow shortbow</td>
+<td><canvas data-itemname="willow_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_willow_shortbow"></canvas></td>
+<td><canvas data-itemname="willow_shortbow"></canvas></td>
+<td>35</td>
+<td>20</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Willow longbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_willow_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="willow_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">40</td>
-<td style="text-align: center; vertical-align: middle;">20</td>
+<td>Willow longbow</td>
+<td><canvas data-itemname="willow_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_willow_longbow"></canvas></td>
+<td><canvas data-itemname="willow_longbow"></canvas></td>
+<td>40</td>
+<td>20</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Maple shortbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_maple_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">50</td>
-<td style="text-align: center; vertical-align: middle;">30</td>
+<td>Maple shortbow</td>
+<td><canvas data-itemname="maple_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_maple_shortbow"></canvas></td>
+<td><canvas data-itemname="maple_shortbow"></canvas></td>
+<td>50</td>
+<td>30</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Maple longbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_maple_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="maple_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">55</td>
-<td style="text-align: center; vertical-align: middle;">30</td>
+<td>Maple longbow</td>
+<td><canvas data-itemname="maple_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_maple_longbow"></canvas></td>
+<td><canvas data-itemname="maple_longbow"></canvas></td>
+<td>55</td>
+<td>30</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Yew shortbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_yew_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">65</td>
-<td style="text-align: center; vertical-align: middle;">40</td>
+<td>Yew shortbow</td>
+<td><canvas data-itemname="yew_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_yew_shortbow"></canvas></td>
+<td><canvas data-itemname="yew_shortbow"></canvas></td>
+<td>65</td>
+<td>40</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Yew longbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_yew_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="yew_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">70</td>
-<td style="text-align: center; vertical-align: middle;">40</td>
+<td>Yew longbow</td>
+<td><canvas data-itemname="yew_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_yew_longbow"></canvas></td>
+<td><canvas data-itemname="yew_longbow"></canvas></td>
+<td>70</td>
+<td>40</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Magic shortbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_magic_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_shortbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">80</td>
-<td style="text-align: center; vertical-align: middle;">50</td>
+<td>Magic shortbow</td>
+<td><canvas data-itemname="magic_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_magic_shortbow"></canvas></td>
+<td><canvas data-itemname="magic_shortbow"></canvas></td>
+<td>80</td>
+<td>50</td>
 </tr>
 <tr>
-<td style="text-align: center; vertical-align: middle;">Magic longbow</td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_logs"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="unstrung_magic_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;"><canvas data-itemname="magic_longbow"></canvas></td>
-<td style="text-align: center; vertical-align: middle;">85</td>
-<td style="text-align: center; vertical-align: middle;">50</td>
+<td>Magic longbow</td>
+<td><canvas data-itemname="magic_logs"></canvas></td>
+<td><canvas data-itemname="unstrung_magic_longbow"></canvas></td>
+<td><canvas data-itemname="magic_longbow"></canvas></td>
+<td>85</td>
+<td>50</td>
 </tr>
 </table>
 HTML; }
