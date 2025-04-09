@@ -112,7 +112,7 @@ const itemCategories = {
     }
 };
 
-// Flatten the categories into a single customItems object
+// Flatten the categories into a single customItems object 
 this.customItems = Object.values(itemCategories).reduce((acc, category) => {
     return { ...acc, ...category };
 }, {});
