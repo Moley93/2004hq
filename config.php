@@ -11,9 +11,8 @@ $meta_data = array(
 );
 
 $stopload = false;
+$style = $_COOKIE['style'] ?? 'default';
 $debugMode = false;
 
 if ($debugMode) { error_reporting(0); }
 else { error_reporting(E_ALL); }
-
-?>
