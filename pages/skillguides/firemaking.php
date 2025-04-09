@@ -3,10 +3,9 @@ function getPageTitle() { return 'Firemaking'; }
 function getPageMetaIcon() { return 'img/skillicons/firemaking.webp'; }
 function getSkillContent() { return <<<HTML
 <center><b>Firemaking</b></center><p><br>
-<br>
-<center>Firemaking - The Basics<</center><br>
+<center>Firemaking - The Basics</center><br>
 <center>Introduction</center><br>
-<br><ul style="margin-top: 0px; margin-bottom: 0px; list-style-type: decimal; "><br><li>Left-click on the tinderbox in your inventory so that it is outlined in white.  Then left-click on the logs to use them with the tinderbox.  You will then place the logs on the ground and attempt to light the fire.  <br><li>Alternatively, you can drop the logs on the ground and  left-click on the tinderbox so that it is outlined in white.  Then left-click on the logs to use the tinderbox with the logs.<br></ul><br>Your chances of lighting the fire quickly, will depend on your firemaking level.<br><br>Tinderboxes can be bought from General Stores, occasionally so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="viewarticle.ws?article_id=1727">woodcutting</a> section of the manual.<br><table style="text-align: center;" align="center">
+<br><li>Left-click on the tinderbox in your inventory so that it is outlined in white.  Then left-click on the logs to use them with the tinderbox.  You will then place the logs on the ground and attempt to light the fire.  <br><li>Alternatively, you can drop the logs on the ground and  left-click on the tinderbox so that it is outlined in white.  Then left-click on the logs to use the tinderbox with the logs.<br></ul><br>Your chances of lighting the fire quickly, will depend on your firemaking level.<br><br>Tinderboxes can be bought from General Stores, occasionally so can logs if other players have sold them to the stores. However, for a more reliable way to secure logs, please refer to the <a href="viewarticle.ws?article_id=1727">woodcutting</a> section of the manual.<br><table style="text-align: center;" align="center">
 <tr>
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_options.gif" alt="[image]"></td>
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/skills/firemaking/screenshots/firemaking_main2.jpg" alt="[image]"></td>
