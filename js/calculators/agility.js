@@ -1,0 +1,115 @@
+async function fetchAgilityXP() {
+    const username = document.getElementById("username").value.trim();
+    if (!username) return alert("Please enter a username.");
+
+    const apiUrl = `https://2004.lostcity.rs/api/hiscores/player/${encodeURIComponent(username)}`;
+    const corsProxy = "https://api.allorigins.win/raw?url=";
+
+    try {
+        // Fetch data from the API through the CORS proxy
+        const response = await fetch(corsProxy + apiUrl);
+        
+        // Check if the request was successful
+        if (!response.ok) throw new Error("Failed to fetch data.");
+
+        const data = await response.json(); // Convert response to JSON
+
+        // Find the Agility XP data (Type 17 corresponds to Agility)
+        const agilityData = data.find(stat => stat.type === 17);
+
+        if (agilityData) {
+            const agilityXP = Math.floor(agilityData.value / 10); // Convert XP format (stored as XP * 10)
+            document.getElementById("currentXP").value = agilityXP; // Autofill the XP field
+        } else {
+            alert("Agility XP not found."); // Show alert if no data is found
+        }
+    } catch (error) {
+        console.error(error); // Log errors for debugging
+        alert("Error fetching data."); // Alert user of an error
+    }
+}
+
+// Convert level to XP
+function getXPForLevel(level) {
+    let total = 0;
+    for (let i = 1; i < level; i++) {
+      total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
+    }
+    return Math.floor(total / 4);
+}
+
+// Adds commas for thousands
+function formatNumber(num) {
+    return num.toLocaleString(); 
+}
+
+// Calculate how many laps needed
+function calculateLaps() {
+    const currentXP = parseInt(document.getElementById("currentXP").value);
+    const targetLevel = parseInt(document.getElementById("targetLevel").value);
+    const targetXP = getXPForLevel(targetLevel);
+
+    if (targetXP <= currentXP) {
+        alert("Target level must be higher than current XP.");
+        return;
+    }
+
+    const xpNeeded = targetXP - currentXP;
+    const courses = [
+        { name: "Gnome Stronghold", xp: 86.5, level: 1 },
+        { name: "Barbarian Outpost", xp: 139.5, level: 35 },
+        { name: "Wilderness", xp: 601.4, level: 52 }
+    ];
+    const shortcuts = [
+        { name: "A wooden log (Karamja)", xp: 4, level: 1 },
+        { name: "Crumbling wall (Falador)", xp: 0.5, level: 5 },
+        { name: "Climbing rocks (Yanille)", xp: 25, level: 5 },
+        { name: "Ropeswing (Brimhaven)", xp: 3, level: 10 },
+        { name: "Monkeybars (Edgeville Dungeon)", xp: 20, level: 15 },
+        { name: "Log balance (Coal Trucks)", xp: 8.5, level: 20 },
+        { name: "Stepping stones (Karamja)", xp: 3, level: 30 }
+    ];
+
+    // Update progress bar
+    const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
+    const progressBar = document.getElementById("progressBar");
+    progressBar.style.width = `${progressPercentage}%`;
+    progressBar.textContent = `${progressPercentage}%`;
+    const tableBody = document.querySelector("#courseTable tbody");
+
+    // Get both table bodies
+    const courseTableBody = document.querySelector("#courseTable tbody");
+    const shortcutTableBody = document.querySelector("#shortcutTable tbody");
+
+    // Clear previous results
+    courseTableBody.innerHTML = ""; 
+    shortcutTableBody.innerHTML = "";
+
+    // Generate course table
+    for (let course of courses) {
+        let lapCount = Math.ceil(xpNeeded / course.xp);
+        
+        let row = document.createElement("tr");
+        row.innerHTML = `
+            <td>${course.level}</td>
+            <td><img src="${course.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${course.name}"> ${course.name}</td>
+            <td>${course.xp}</td>
+            <td>${formatNumber(lapCount)}</td>
+        `;
+        courseTableBody.appendChild(row);
+    }
+
+    // Generate shortcut table
+    for (let shortcut of shortcuts) {
+        let lapCount = Math.ceil(xpNeeded / shortcut.xp);
+        
+        let row = document.createElement("tr");
+        row.innerHTML = `
+            <td>${shortcut.level}</td>
+            <td><img src="${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${shortcut.name}"> ${shortcut.name}</td>
+            <td>${shortcut.xp}</td>
+            <td>${formatNumber(lapCount)}</td>
+        `;
+        shortcutTableBody.appendChild(row);
+    }
+}

@@ -66,7 +66,7 @@ function getPageContent(): string {
         return generateCalculatorLinks();
     }
 
-    return 'Calc page for ' . $calculatorType->getName();
+    return ucwords($calculatorType->getName()) . ' Calculator';
 }
 
 function generateCalculatorLinks(): string {
