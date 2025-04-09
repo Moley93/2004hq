@@ -1,5 +1,5 @@
 <?php
-function getPageContent() { return <<<HTML
+function getQuestGuide() { return <<<HTML
 <b>2004HQ - The Knight's Sword</b><br>
 
 <br>

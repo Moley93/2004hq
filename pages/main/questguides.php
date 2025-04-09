@@ -151,7 +151,8 @@ function renderQuestList(array $questlist): string {
             <div class="quest-header">FREE QUESTS:</div>
 HTML;
 
-    foreach ($questlist as $questKey => $quest) {
+     // Free Quests
+     foreach ($questlist as $questKey => $quest) {
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
         if (!$isMembers) {
@@ -166,7 +167,8 @@ HTML;
         <div class="quest-header">MEMBERS QUESTS:</div>
 HTML;
 
-    foreach ($questlist as $quest) {
+    // Members Quests
+    foreach ($questlist as $questKey => $quest) {
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
         if ($isMembers) {
