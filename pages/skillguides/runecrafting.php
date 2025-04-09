@@ -6,7 +6,7 @@ function getSkillContent() { return <<<HTML
 
 <p>
 Runecrafting is used to make different sorts of Runes, for use in magic.
-Before you can use runecrafting you will need to complete the <a href="pages\questguides\free\runemysteries.php" class="c">Rune Mysteries</a> quest.
+Before you can use runecrafting you will need to complete the <a href="pages/questguides/free/runemysteries.php" class="c">Rune Mysteries</a> quest.
 
 <p>
 <b>Mining rune essences</b>
