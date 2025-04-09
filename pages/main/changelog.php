@@ -69,8 +69,9 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>08/04/2025</td><td>Added Firemaking Skill Guide</td></tr>
     <tr><td>08/04/2025</td><td>Cleaned up PHP a bit</td></tr>
-    <tr><td>07/04/2025</td><td>Added spritesheet parsing for item images</td></tr>
+    <tr><td>08/04/2025</td><td>Added spritesheet parsing for item images</td></tr>
     <tr><td>08/04/2025</td><td>Added Mining Skill Guide</td></tr>
     <tr><td>08/04/2025</td><td>Added Prayer Skill Guide</td></tr>
     <tr><td>07/04/2025</td><td>Added Tourist Trap to Quests</td></tr>
