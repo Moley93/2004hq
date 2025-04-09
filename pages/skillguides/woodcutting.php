@@ -16,17 +16,17 @@ function getSkillContent() { return <<<HTML
 <tr class="row_b">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/bronze_axe.gif" alt="[image]">Bronze Axe</td>
 <td>1</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Stuck in a tree stump in the chicken pen, south-east of the Lumbridge windmill.<br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Stuck in a tree stump in the chicken pen, south-east of the Lumbridge windmill.<br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the Smithing skill.</ul></td>
 </tr>
 <tr class="row_a">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/iron_axe.gif" alt="[image]">Iron Axe</td>
 <td>1</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the Smithing skill.</ul></td>
 </tr>
 <tr class="row_b">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/steel_axe.gif" alt="[image]">Steel Axe</td>
 <td>6</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Bought from Bob's axe shop in Lumbridge<br><li>You can make one using the Smithing skill.</ul></td>
 </tr>
 <tr class="row_a">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/black_axe.gif" alt="[image]">Black Axe</td>
@@ -36,17 +36,17 @@ function getSkillContent() { return <<<HTML
 <tr class="row_b">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/mithril_axe.gif" alt="[image]">Mithril Axe</td>
 <td>21</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.<br><li>Dropped by the Tree Spirit random event.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>You can make one using the Smithing skill.<br><li>Dropped by the Tree Spirit random event.</ul></td>
 </tr>
 <tr class="row_a">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/adamantite_axe.gif" alt="[image]">Adamant Axe</td>
 <td>31</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Dropped by the Tree Spirit random event.<br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Dropped by the Tree Spirit random event.<br><li>You can make one using the Smithing skill.</ul></td>
 </tr>
 <tr class="row_b">
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102142813im_/http://www.runescape.com/img/kbase/items/axes/rune_axe.gif" alt="[image]">Rune Axe</td>
 <td>41</td>
-<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Dropped by the Tree Spirit random event.<br><li>You can make one using the <a href="viewarticle.ws?article_id=1888">Smithing</a> skill.</ul></td>
+<td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><br><li>Dropped by the Tree Spirit random event.<br><li>You can make one using the Smithing skill.</ul></td>
 </tr>
 </table>
 HTML; }
