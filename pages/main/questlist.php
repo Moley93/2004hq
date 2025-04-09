@@ -66,54 +66,7 @@ function getPageContent() {
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:url'] = '?p=questlist';
         $meta_data['og:image'] = 'img/questicon.webp';
-        echo '<table width="350">
-        <tbody><tr>
-                <td width="300" height="31" align="middle" bordercolor="#FFFFFF">
-                    <div align="center">
-                        <span class="subheader"><u><b>Free Quests</b></u></span>
-                    </div>
-                </td>
-                <td width="300" align="middle" bordercolor="#FFFFFF">
-                    <div align="center">
-                        <span class="subheader"><u><b>Members Quests</b></u></span>
-                    </div>
-                </td>
-            </tr>';
-
-        $freeQuests = [];
-        $memberQuests = [];
-
-        foreach ($questlist as $key => $quest) {
-            foreach ($quest as $name => $isMembers) {
-                if ($isMembers) {
-                    $memberQuests[] = ['key' => $key, 'name' => $name];
-                } else {
-                    $freeQuests[] = ['key' => $key, 'name' => $name];
-                }
-            }
-        }
-
-        $maxLength = max(count($freeQuests), count($memberQuests));
-        for ($i = 0; $i < $maxLength; $i++) {
-            $rowClass = ($i & 1) ? '333333' : '000000';
-            echo "<tr bordercolor=\"#FFFFFF\" bgcolor=\"#$rowClass\" class=\"text\">";
-
-            if (isset($freeQuests[$i])) {
-                echo '<td align="center"><a href="?p=questlist&quest=' . $freeQuests[$i]['key'] . '">' . $freeQuests[$i]['name'] . '</a></td>';
-            } else {
-                echo '<td align="center"></td>';
-            }
-
-            if (isset($memberQuests[$i])) {
-                echo '<td align="center"><a href="?p=questlist&quest=' . $memberQuests[$i]['key'] . '">' . $memberQuests[$i]['name'] . '</a></td>';
-            } else {
-                echo '<td align="center"></td>';
-            }
-
-            echo '</tr>';
-        }
-
-        echo '</tbody></table>';
+        echo renderQuestList($questlist);
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;
@@ -153,4 +106,74 @@ function getPageContent() {
     }
 
     return ob_get_clean();
+}
+
+function renderQuestList(array $questlist): string {
+    $html = <<<HTML
+    <style>
+
+    .quest-container {
+        background-color: #3B322B;
+        background-repeat: repeat;
+        font-family: 'RSPlain12', monospace;
+        font-size: 12px;
+        padding: 10px;
+        display: flex;
+        gap: 40px;
+        width: fit-content;
+    }
+    .quest-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .quest-header {
+        color: #FF981F;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+    }
+    .quest-entry a:hover {
+        color:rgb(255, 0, 0);
+        margin: 2px 0;
+        text-shadow: 2px 2px #000;
+        text-decoration: none;
+    }
+    .quest-entry a {
+        color: #00FF80;
+        margin: 2px 0;
+        text-shadow: 2px 2px #000;
+        text-decoration: none;
+    }
+    </style>
+    <div class="quest-container">
+        <div class="quest-column">
+            <div class="quest-header">FREE QUESTS:</div>
+HTML;
+
+    foreach ($questlist as $questKey => $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        if (!$isMembers) {
+            $url = "?p=questlist&quest=" . urlencode($questKey);
+            $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+        }
+    }
+
+    $html .= <<<HTML
+    </div>
+    <div class="quest-column">
+        <div class="quest-header">MEMBERS QUESTS:</div>
+HTML;
+
+    foreach ($questlist as $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        if ($isMembers) {
+            $url = "?p=questlist&quest=" . urlencode($questKey);
+            $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+        }
+    }
+
+    $html .= '</div></div>';
+    return $html;
 }
