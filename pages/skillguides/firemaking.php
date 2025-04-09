@@ -73,6 +73,6 @@ function getSkillContent() { return <<<HTML
 <td>303.8</td>
 <td>Yes</td>
 </tr>
-</table><br><br><span style="text-align: center; display: block;">Please remember that this is not a members only skill. However, some of the items to light fires may require you to be a member.  Maple logs are only available on a members server however, you can burn them on free member servers.</span><br><br><span style="text-align: center; display: block;"></span><br><br style="clear: both;">
+</table><br><br><span style="text-align: center; display: block;">Please remember that this is not a members only skill. However, some of the items to light fires may require you to be a member.  Maple logs are only available on a members server however, you can burn them on free member servers.</span><br><br><span style="text-align: center; display: block;"></span>
 <div class="spacer">
 HTML; }
