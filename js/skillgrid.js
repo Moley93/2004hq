@@ -22,7 +22,6 @@ window.addEventListener("pageshow", () => {
   const naturalHeight = 331;
   const iconWidth = naturalWidth / cols;
   const iconHeight = naturalHeight / rows;
-
   // Tooltip setup
   const tooltip = document.createElement("div");
   tooltip.style.position = "absolute";
@@ -30,7 +29,8 @@ window.addEventListener("pageshow", () => {
   tooltip.style.color = "#fff";
   tooltip.style.padding = "4px 8px";
   tooltip.style.borderRadius = "6px";
-  tooltip.style.fontSize = "12px";
+  tooltip.style.fontFamily = "RSPlain12";
+  tooltip.style.fontSize = "18px";
   tooltip.style.pointerEvents = "none";
   tooltip.style.transition = "opacity 0.2s";
   tooltip.style.opacity = "0";
@@ -43,6 +43,9 @@ window.addEventListener("pageshow", () => {
     // Rescale canvas
     const targetWidth = parseInt(canvas.dataset.width || naturalWidth);
     const scale = targetWidth / naturalWidth;
+
+    canvas.style.backgroundColor = "#3B322B";
+    canvas.style.backgroundRepeat = "repeat";
 
     canvas.width = targetWidth;
     canvas.height = naturalHeight * scale;

@@ -64,7 +64,7 @@ function getPageContent() {
     if (empty($_GET['quest'])) {
         $meta_data['title'] = 'Quests';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:url'] = '?p=questlist';
+        $meta_data['og:url'] = '?p=questguides';
         $meta_data['og:image'] = 'img/questicon.webp';
         echo '<b>Select the Quest you would like to view a Guide for:</b><br><br>';
         echo renderQuestList($questlist);
@@ -86,7 +86,7 @@ function getPageContent() {
         if ($found) {
             $meta_data['title'] = 'Quests > ' . $questName;
             $meta_data['og:title'] = $meta_data['title'];
-            $meta_data['og:url'] = '?p=questlist&quest=' . $currQuest;
+            $meta_data['og:url'] = '?p=questguides&quest=' . $currQuest;
             $meta_data['og:image'] = 'img/questIcons/' . $currQuest . '.webp';
 
             $fileLocation = 'pages/questguides/' . ($questMembers ? 'members' : 'free') . '/' . $currQuest . '.php';
@@ -155,7 +155,7 @@ HTML;
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
         if (!$isMembers) {
-            $url = "?p=questlist&quest=" . urlencode($questKey);
+            $url = "?p=questguides&quest=" . urlencode($questKey);
             $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
         }
     }
@@ -170,7 +170,7 @@ HTML;
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
         if ($isMembers) {
-            $url = "?p=questlist&quest=" . urlencode($questKey);
+            $url = "?p=questguides&quest=" . urlencode($questKey);
             $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
         }
     }

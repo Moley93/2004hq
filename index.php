@@ -2,8 +2,8 @@
 include 'config.php';
 if (!empty($_GET['p'])) {
     switch (htmlspecialchars($_GET['p'])) {
-        case 'questlist':
-            include 'pages/main/questlist.php';
+        case 'questguides':
+            include 'pages/main/questguides.php';
             break;
         case 'skillguides':
             include 'pages/main/skillguides.php';
