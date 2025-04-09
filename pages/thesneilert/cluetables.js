@@ -55,10 +55,11 @@ function showHowToUse() {
 
     // Position the modal near the top of the page with some headroom
     const modalContent = modal.querySelector('.modal-content');
-    modalContent.style.position = 'fixed';
-    modalContent.style.top = '50px';  // Add some headroom from the top
+    modalContent.style.position = 'absolute';
+    modalContent.style.top = '50%';
     modalContent.style.left = '50%';
-    modalContent.style.transform = 'translateX(-50%)';  // Center horizontally
+    modalContent.style.transform = 'translate(-50%, -50%)';  // Center within parent
+    
 
     document.body.appendChild(modal);
 
