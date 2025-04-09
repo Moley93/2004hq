@@ -132,6 +132,7 @@ A.pink:hover {
 .rsquill8 {
     font-family: RSQuill8;
 }
+
 .lc-message-header {
     display: grid;
     grid-template-columns: 100px 1fr 100px;
@@ -139,6 +140,7 @@ A.pink:hover {
     text-align: center;
     height: 26px;
 }
+
 .lc-message-header a {
     text-decoration: none;
 }
@@ -157,6 +159,7 @@ A.pink:hover {
     margin: 0;
     font-weight: 600;
 }
+
 .lc-messages-title.lc-view-message-title {
     padding: 10px 0 12px;
 }
@@ -171,26 +174,33 @@ A.pink:hover {
     grid-template-columns: 126px 1fr;
     margin-top: 2px;
 }
+
 .lc-message.lc-row-a {
     background-color: #0b0b0b;
 }
+
 .lc-message.lc-row-b {
     background-color: #101010;
 }
+
 .lc-message.lc-row-mod {
     background-color: #051305;
 }
+
 .lc-message .lc-details {
     text-align: center;
     padding: 10px 8px;
 }
+
 .lc-message .lc-content {
     padding: 10px 8px;
 }
+
 .lc-message .lc-content .lc-message-date {
     text-align: right;
     margin-bottom: 13px;
 }
+
 .lc-message .lc-content .lc-message-text {
     word-wrap: break-word;
     width: 350px;
@@ -206,6 +216,7 @@ A.pink:hover {
     max-width: 400px;
     min-width: 200px;
 }
+
 .lc-reply-form div {
     text-align: center;
     margin: 0 auto;
@@ -214,6 +225,7 @@ A.pink:hover {
 .lc-delete-form {
     text-align: center;
 }
+
 .lc-delete-form div {
     padding-top: 6px;
 }
@@ -228,18 +240,52 @@ A.pink:hover {
 }
 
 .main-content {
-    p, div, span, td, a {
+
+    p,
+    div,
+    span,
+    td,
+    a {
         font-family: 'RSPlain12', sans-serif;
         font-size: 18px;
     }
+
     th {
         font-size: 22px;
     }
+
     .calculators {
-        a { color: white; text-decoration: none; display: block; }
-        body { text-align: center; background-color: black; color: white; font-family: Arial, sans-serif; }
-        table { margin: 20px auto; border-collapse: collapse; align-items: center; vertical-align: center;}
-        th, td { border: 1px solid rgb(202, 172, 0); padding: 8px; text-align: center; vertical-align: center;}
-        th { background-color: #222; color: gold; }
+        a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        body {
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            align-items: center;
+            vertical-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid #382418;
+            padding: 8px;
+            text-align: center;
+            vertical-align: center;
+        }
+
+        th {
+            background-color: #222;
+            color: gold;
+        }
     }
 }
