@@ -192,7 +192,7 @@ function renderQuestListOldschool(array $questlist): string {
     foreach ($questlist as $questKey => $quest) {
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
-        $url = "?p=questlist&quest=" . urlencode($questKey);
+        $url = "?p=questguides&quest=" . urlencode($questKey);
 
         if ($isMembers) {
             $membersQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
