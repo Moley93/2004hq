@@ -72,7 +72,7 @@ foreach ($files as $difficulty => $url) {
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\([a-zA-Z0-9_]+,\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]*\))|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\([a-zA-Z0-9_]+,\s*([a-zA-Z0-9_]+),\s*(calc\([^)]*\([^)]*\)[^)]*\)|calc\([^)]*\)|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
@@ -94,7 +94,8 @@ foreach ($files as $difficulty => $url) {
                 $chancePerRoll = $normalRollChance * (1 / $normalPoolSize);
             }
             $chancePerClue = $chancePerRoll * $avgRolls;
-            $dropRate = '1/' . round(1 / $chancePerClue);
+            $computedRate = max(1, round(1 / $chancePerClue));
+            $dropRate = '1/' . $computedRate;
 
             $stmt = $pdo->prepare("INSERT INTO clue_rewards (difficulty, reward_name, quantity_min, quantity_max, drop_rate, hash)
                                    VALUES (?, ?, ?, ?, ?, ?)");
