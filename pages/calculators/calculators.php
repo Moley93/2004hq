@@ -118,7 +118,7 @@ function getPageContent(): string {
                     <tbody></tbody>
                 </table>
             </div>
-            <script src="js/calculators/calculators.js"></script>
+            <script src="js/calculators.js"></script>
             <script src="js/calculators/agility.js"></script>
         </body>
         </html>
@@ -159,6 +159,7 @@ function getPageContent(): string {
                 <h2>Combat Level: <span id="combatLevel" class="gold-text">3</span></h2>
                 <div id="levelUpInfo" class="gold-text"></div>
             </div>
+            <script src="js/calculators.js"></script>
             <script src="js/calculators/combat_level.js"></script>
         </body>
         </html>
