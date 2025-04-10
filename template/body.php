@@ -38,8 +38,7 @@
 
                                   <a href="?">Main Menu</a> - <a href="https://2004.lostcity.rs/worldmap">World Map</a>
                                   - <a href="https://2004.lostcity.rs/hiscores">Hiscores</a> - <a
-                                    href="https://lostcity.markets">Market Place</a> - <a href="?p=changelog">Change
-                                    Log</a>
+                                    href="https://lostcity.markets">Market Place</a> - <a href="https://discord.gg/jdFmMvz33j" target="_blank">Discord</a>
                                   <table bgcolor="black" cellpadding="0" cellspacing="0">
                                     <tbody>
                                       <tr valign="top">
