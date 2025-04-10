@@ -17,11 +17,18 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS clue_rewards (
     hash CHAR(40)
 )");
 
-// Clear all rewards before reloading
 $pdo->exec("DELETE FROM clue_rewards");
 
+$options = [
+    "http" => [
+        "header" => "User-Agent: Mozilla/5.0\r\n"
+    ]
+];
+$context = stream_context_create($options);
+
 foreach ($files as $difficulty => $url) {
-    $data = file_get_contents($url);
+    echo "Fetching $difficulty clue table...<br>";
+    $data = file_get_contents($url, false, $context);
     if (!$data) continue;
 
     $hash = sha1($data);
@@ -29,16 +36,13 @@ foreach ($files as $difficulty => $url) {
     $stmt->execute([$difficulty, $hash]);
     if ($stmt->fetch()) continue;
 
-    $pdo->prepare("DELETE FROM clue_rewards WHERE difficulty = ?")->execute([$difficulty]);
-
     $avgRolls = 1;
     $rareRollChance = 0;
     $normalRollChance = 1;
     $normalPoolSize = 1;
     $rarePoolSize = 1;
 
-    // Parse roll logic
-    if (preg_match('/def_int \$rolls = calc\((\d+) \+ random\((\d+)\)\)/', $data, $rollMatch)) {
+    if (preg_match('/def_int\s+\$rolls\s*=\s*calc\(\s*(\d+)\s*\+\s*random\(\s*(\d+)\s*\)\s*\)/', $data, $rollMatch)) {
         $base = (int)$rollMatch[1];
         $range = (int)$rollMatch[2];
         $avgRolls = 0;
@@ -53,35 +57,33 @@ foreach ($files as $difficulty => $url) {
         $normalRollChance = 1 - $rareRollChance;
     }
 
-    // Get pool sizes
     if (preg_match('/\[proc,trail_clue_' . $difficulty . '_normal\][^\[]*?random\((\d+)\)/s', $data, $nMatch)) {
         $normalPoolSize = (int)$nMatch[1];
     }
+
     if (preg_match('/\[proc,trail_clue_' . $difficulty . '_rare\][^\[]*?random\((\d+)\)/s', $data, $rMatch)) {
         $rarePoolSize = (int)$rMatch[1];
     }
 
-    // Match blocks (allow final proc block by appending a dummy block)
     preg_match_all('/\[proc,trail_clue_' . $difficulty . '_(normal|rare)\](.*?)(?=\[proc,|\Z)/s', $data . "\n[proc,", $procBlocks, PREG_SET_ORDER);
 
     foreach ($procBlocks as $block) {
+        echo "Parsing $type rewards...<br>";
         $type = $block[1];
         $procContent = $block[2];
 
-        preg_match_all('/inv_add\((?:reward|reward2),\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]+\([^\)]+\)[^\)]*\))|(?:calc\([^\)]*\))|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
+        preg_match_all('/inv_add\([a-zA-Z0-9_]+,\s*([a-zA-Z0-9_]+),\s*((?:calc\([^\)]*\))|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
 
         foreach ($matches as $match) {
             $reward = $match[1];
             $quantityExpr = trim($match[2]);
 
-            // Extract numeric values from inside calc(...) or direct number
             if (preg_match('/(\d+)\s*\+\s*random\((\d+)\)/', $quantityExpr, $qMatch)) {
                 $min = (int)$qMatch[1];
                 $max = $min + (int)$qMatch[2] - 1;
             } elseif (preg_match('/^\d+$/', $quantityExpr)) {
                 $min = $max = (int)$quantityExpr;
             } else {
-                // fallback if quantity can't be parsed
                 $min = 1000;
                 $max = 5000;
             }
@@ -97,7 +99,8 @@ foreach ($files as $difficulty => $url) {
             $stmt = $pdo->prepare("INSERT INTO clue_rewards (difficulty, reward_name, quantity_min, quantity_max, drop_rate, hash)
                                    VALUES (?, ?, ?, ?, ?, ?)");
             $stmt->execute([$difficulty, $reward, $min, $max, $dropRate, $hash]);
+            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate<br>";
         }
     }
 }
-echo "Fetch and store complete.\n";
+echo "Fetch and store complete.<br>";
