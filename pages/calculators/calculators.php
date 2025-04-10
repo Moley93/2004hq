@@ -70,22 +70,7 @@ function getPageContent(): string {
 }
 
 function generateCalculatorLinks(): string {
-    $skillCalculators = [
-        'agility',
-        'cooking',
-        'crafting',
-        'firemaking',
-        'fishing',
-        'fletching',
-        'herblore',
-        'mining',
-        'prayer',
-        'runecrafting',
-        'smithing',
-        'thieving',
-        'woodcutting'
-    ];
-
+    global $style;
     $miscCalculators = [
         'combat_xp',
         'combat_level',
@@ -105,7 +90,6 @@ function generateCalculatorLinks(): string {
         return $rows;
     };
 
-    $skillRows = $generateLinks($skillCalculators);
     $miscRows = $generateLinks($miscCalculators);
 
     return <<<HTML
@@ -119,8 +103,8 @@ function generateCalculatorLinks(): string {
     <tbody>
         <tr>
             <td>
-            Select a skill below to get to the calculator for that skill.<br />
-                <canvas data-skills="skillTree" data-width="220"></canvas>
+                Select a skill below to get to the calculator for that skill.<br />
+                <canvas data-skills="skillTree" data-width="220" data-style="$style"></canvas>
                 <script src="js/skillgrid.js"></script>
             </td>
         </tr>

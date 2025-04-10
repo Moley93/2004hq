@@ -57,7 +57,7 @@ $questlist = array(
 ksort($questlist);
 
 function getPageContent() {
-    global $questlist, $meta_data;
+    global $questlist, $meta_data, $style;
 
     ob_start();
 
@@ -67,7 +67,11 @@ function getPageContent() {
         $meta_data['og:url'] = '?p=questguides';
         $meta_data['og:image'] = 'img/questicon.webp';
         echo '<b>Select the Quest you would like to view a Guide for:</b><br><br>';
-        echo renderQuestList($questlist);
+        if ($style === 'oldschool') {
+            echo renderQuestListOldschool($questlist);  // Plain table style
+        } else {
+            echo renderQuestList($questlist);  // RuneScape styled version
+        }
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;
@@ -178,5 +182,38 @@ HTML;
     }
 
     $html .= '</div></div>';
+    return $html;
+}
+function renderQuestListOldschool(array $questlist): string {
+    // Separate the quests
+    $freeQuests = [];
+    $membersQuests = [];
+
+    foreach ($questlist as $questKey => $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        $url = "?p=questlist&quest=" . urlencode($questKey);
+
+        if ($isMembers) {
+            $membersQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+        } else {
+            $freeQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+        }
+    }
+
+    // Determine the max rows needed
+    $maxRows = max(count($freeQuests), count($membersQuests));
+
+    $html = '<table class="calculators">';
+    $html .= '<thead><tr><th>Free Quests</th><th>Members Quests</th></tr></thead><tbody>';
+
+    // Render rows
+    for ($i = 0; $i < $maxRows; $i++) {
+        $free = $freeQuests[$i] ?? '';
+        $members = $membersQuests[$i] ?? '';
+        $html .= '<tr><td>' . $free . '</td><td>' . $members . '</td></tr>';
+    }
+
+    $html .= '</tbody></table>';
     return $html;
 }
