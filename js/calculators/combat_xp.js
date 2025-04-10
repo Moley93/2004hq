@@ -412,30 +412,6 @@ async function fetchXP() {
     }
 }
 
-// Convert XP to level
-function getLevelForXP(xp) {
-    let total = 0;
-    let level = 1;
-
-    while (level < 100) { // Level 99 is the max in RuneScape
-        let nextXP = Math.floor((level + 300 * Math.pow(2, level / 7.0)) / 4);
-        total += nextXP;
-
-        if (total > xp) {
-            return level;
-        }
-        
-        level++;
-    }
-
-    return 99; // Max level
-}
-
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString(); 
-}
-
 function calculateXP() {
     let monsterName = document.getElementById("itemSearch").value.trim().toLowerCase();
     let monsterHP = parseInt(document.getElementById("monsterHP").value) || 0;

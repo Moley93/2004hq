@@ -1,0 +1,21 @@
+.progress-bar {
+    height: 18px;
+    width: 0%;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    transition: width 0.6s ease-in-out;
+}
+
+.progress-container {
+    width: auto;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.gold-text {
+    color: gold;
+    font-weight: bold;
+}
