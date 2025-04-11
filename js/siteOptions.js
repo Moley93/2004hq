@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const closeBtn = document.getElementById('site-options-close');
 
     const currentStyle = container.dataset.style || 'default';
-    const currentUsuk = container.dataset.usuk || 'UK';
+    const currentUsuk = container.dataset.usuk || 'US';
 
     styleSelect.value = currentStyle;
     usukSelect.value = currentUsuk;
