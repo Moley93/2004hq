@@ -68,7 +68,7 @@ function calculateLogs() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${log.level}</td>
-            <td><img src="${log.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${log.name}"> ${log.name}</td>
+            <td><img src="img/calculators/woodcutting/${log.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${log.name}"> ${log.name}</td>
             <td>${log.xp}</td>
             <td>${formatNumber(logCount)}</td>
         `;

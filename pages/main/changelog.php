@@ -71,6 +71,7 @@ Site by Moley, Eilert, Halogod & Collin.<br><br>
     </tr>
   </thead>
   <tbody>
+    <tr><td>11/04/2025</td><td>Added Defence Skill Guide</td></tr>
     <tr><td>09/04/2025</td><td>Added Woodcutting Skill Guide</td></tr>
     <tr><td>09/04/2025</td><td>Added Firemaking Skill Guide</td></tr>
     <tr><td>08/04/2025</td><td>Cleaned up PHP a bit</td></tr>

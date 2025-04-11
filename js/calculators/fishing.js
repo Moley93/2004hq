@@ -78,7 +78,7 @@ function calculateFish() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${fish.level}</td>
-            <td><img src="raw_${fish.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${fish.name}"> ${fish.name}</td>
+            <td><img src="img/calculators/fishing/raw_${fish.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${fish.name}"> ${fish.name}</td>
             <td>${fish.xp}</td>
             <td>${formatNumber(estimatedCatches)}</td>
         `;

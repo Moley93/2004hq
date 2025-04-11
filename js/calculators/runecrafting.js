@@ -70,7 +70,7 @@ function calculateRunes() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${rune.level}</td>
-            <td><img src="${rune.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${rune.name}"> ${rune.name}</td>
+            <td><img src="img/calculators/runecrafting/${rune.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${rune.name}"> ${rune.name}</td>
             <td>${rune.xp}</td>
             <td>${formatNumber(runeCount)}</td>
         `;

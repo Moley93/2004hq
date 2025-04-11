@@ -98,7 +98,7 @@ let mode = 'npcs';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${level}</td>
-                    <td><img src="${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" alt="${source}"> ${source}</td>
+                    <td><img src="img/calculators/thieving/${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" alt="${source}"> ${source}</td>
                     <td>${xp}</td>
                     <td>${formatNumber(count)}</td>
                 `;

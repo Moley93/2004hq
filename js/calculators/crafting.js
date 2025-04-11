@@ -144,7 +144,7 @@ let mode = 'needle_thread';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${levelRequired}</td>
-                    <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                    <td><img src="img/calculators/crafting/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                     <td>${xpPerItem}</td>
                     <td>${formatNumber(itemsNeeded)}</td>
                 `;

@@ -243,7 +243,7 @@ let mode = 'smelting_bars';
                     const row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${data.level}</td>
-                        <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                        <td><img src="img/calculators/smithing/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                         <td>${data.xp}</td>
                         <td>${formatNumber(amountNeeded)}</td>
                     `;
@@ -267,7 +267,7 @@ let mode = 'smelting_bars';
                     const row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${data.level}</td>
-                        <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                        <td><img src="img/calculators/smithing/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                         <td>${data.bars}</td>                        
                         <td>${formatNumber(amountNeeded)}</td>
                     `;

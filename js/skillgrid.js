@@ -141,12 +141,12 @@ function renderOldSchoolTable(canvas) {
   const page = url.searchParams.get("p");
 
   const freeSkills = [
-    "attack", "strength", "defence", "hitpoints", "ranged", "prayer", "magic",
-    "cooking", "firemaking", "woodcutting", "fishing", "mining", "smithing", "crafting"
+    "attack", "cooking", "crafting", "defence", "firemaking", "fishing", "hitpoints",
+    "magic", "mining", "prayer", "ranged", "smithing", "strength", "woodcutting"
   ];
 
   const memberSkills = [
-    "agility", "herblore", "thieving", "fletching", "runecrafting"
+    "agility", "fletching", "herblore", "runecrafting", "thieving"
   ];
 
   const table = document.createElement("table");
@@ -157,7 +157,9 @@ function renderOldSchoolTable(canvas) {
 
   const header = document.createElement("tr");
   const thFree = document.createElement("th");
+  thFree.style.width = "50%";
   const thMember = document.createElement("th");
+  thMember.style.width = "50%";
 
   thFree.textContent = page === "calculators" ? "F2P Skill Calculators" : "F2P Skill Guides";
   thMember.textContent = page === "calculators" ? "Members Skill Calculators" : "Members Skill Guides";

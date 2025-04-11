@@ -77,7 +77,7 @@ function calculateSplashing() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${spell.level}</td>
-            <td><img src="${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
+            <td><img src="img/calculators/splashing/${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
             <td>${spell.xp}</td>
             <td>${formatNumber(spellCount)}</td>
         `;

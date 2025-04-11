@@ -96,7 +96,7 @@ function calculateFood() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${food.level}</td>
-            <td><img src="${food.name.toLowerCase().replace(/\s+/g, '_')}.png" alt="${food.name}"> ${food.name}</td>
+            <td><img src="img/calculators/cooking/${food.name.toLowerCase().replace(/\s+/g, '_')}.png" alt="${food.name}"> ${food.name}</td>
             <td>${food.xp}</td>
             <td>${formatNumber(foodCount)}</td>
         `;
