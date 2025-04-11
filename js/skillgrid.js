@@ -157,7 +157,9 @@ function renderOldSchoolTable(canvas) {
 
   const header = document.createElement("tr");
   const thFree = document.createElement("th");
+  thFree.style.width = "50%";
   const thMember = document.createElement("th");
+  thMember.style.width = "50%";
 
   thFree.textContent = page === "calculators" ? "F2P Skill Calculators" : "F2P Skill Guides";
   thMember.textContent = page === "calculators" ? "Members Skill Calculators" : "Members Skill Guides";
