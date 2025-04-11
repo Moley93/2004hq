@@ -34,10 +34,10 @@ function getSkillContent() { return <<<HTML
 </tr>
 </table><br><br><b>Prayer Enhancing Armour</b><br><table style="text-align: center;" align="center">
 <tr>
-<td style="width: 375px;"><img style="display: inline;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/items/clothing/monktp.gif" alt="[image]"><img style="display: inline;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/armour/melee/initbody.gif" alt="[image]"><img style="display: inline;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/barrows/items/verac_body.gif" alt="[image]"></td>
+<td style="width: 375px;"><img style="display: inline;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/items/clothing/monktp.gif" alt="[image]"><img style="display: inline;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/armour/melee/initbody.gif" alt="[image]"></td>
 </tr>
 <tr>
-<td>There are many items of armour in game that will boost prayer. With the support of the Gods, you can wear these items to ensure your prayer will be maintained for a longer amount of time. Such items include the Priest, Monk, Shade, Druid and Zamorak robe sets, the Initiate armour sets, and Verac the Defiled's armour.</td>
+<td>There are many items of armour in game that will boost prayer. With the support of the Gods, you can wear these items to ensure your prayer will be maintained for a longer amount of time. Such items include the Priest, Monk, Shade, Druid and Zamorak robe sets& the Initiate armour set</td>
 </tr>
 </table><br><br><h4 style="display: inline;">Ranger Armour</h4><br><br><b>Leather</b><br><table style="text-align: center;" align="center">
 <tr>
