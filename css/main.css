@@ -311,34 +311,34 @@ A.pink:hover {
     th {
         font-size: 22px;
     }
+    .sheet-pagination {
+        margin-top: 12px;
+        text-align: center;
+    }
+    
+    .sheet-pagination button {
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        padding: 4px 8px;
+        margin: 0 2px;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: 14px;
+        border-radius: 4px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    
+    .sheet-pagination button:hover:not(:disabled) {
+        background-color: #ddd;
+    }
+    
+    .sheet-pagination button:disabled {
+        background-color: #bbb;
+        color: #fff;
+        cursor: default;
+    }
 
     .calculators {
-        .sheet-pagination {
-            margin-top: 12px;
-            text-align: center;
-        }
-        
-        .sheet-pagination button {
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            padding: 4px 8px;
-            margin: 0 2px;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: 14px;
-            border-radius: 4px;
-            transition: background-color 0.2s, color 0.2s;
-        }
-        
-        .sheet-pagination button:hover:not(:disabled) {
-            background-color: #ddd;
-        }
-        
-        .sheet-pagination button:disabled {
-            background-color: #bbb;
-            color: #fff;
-            cursor: default;
-        }
         a {
             color: white;
             text-decoration: none;
