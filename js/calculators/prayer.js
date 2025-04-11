@@ -67,7 +67,7 @@ function calculateBones() {
 
         let row = document.createElement("tr");
         row.innerHTML = `
-            <td><img src="${bone.toLowerCase().replace(/\s+/g, "_")}.png" alt="${bone}"> ${bone}</td>
+            <td><img src="img/calculators/prayer/${bone.toLowerCase().replace(/\s+/g, "_")}.png" alt="${bone}"> ${bone}</td>
             <td>${bones[bone]}</td>
             <td>${formatNumber(boneCount)}</td>
         `;

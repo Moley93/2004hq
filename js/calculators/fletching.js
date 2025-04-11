@@ -111,7 +111,7 @@ let mode = 'complete';
                     let row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${levelReq}</td>
-                        <td><img src="${arrow.toLowerCase().replace(/\s+/g, '_')}.png" alt="${arrow}"> ${arrow}</td>
+                        <td><img src="img/calculators/fletching/${arrow.toLowerCase().replace(/\s+/g, '_')}.png" alt="${arrow}"> ${arrow}</td>
                         <td>${xpPerAction}</td>
                         <td>${formatNumber(count)}</td>
                     `;
@@ -138,7 +138,7 @@ let mode = 'complete';
                     let row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${levelReq}</td>
-                        <td><img src="${itemName.toLowerCase().replace(/\s+/g, '_')}.png" alt="${itemName}"> ${itemName}</td>
+                        <td><img src="img/calculators/fletching/${itemName.toLowerCase().replace(/\s+/g, '_')}.png" alt="${itemName}"> ${itemName}</td>
                         <td>${xpToUse}</td>
                         <td>${formatNumber(count)}</td>
                     `;

@@ -1003,21 +1003,21 @@ function getPageContent(): string {
         
                 <p class="gold-text">Click on the prayers you want to activate:</p>
                 <div class="prayer-grid">
-                    <img src="thick_skin.png" class="prayer" data-drain="5" data-name="Thick Skin" title="Thick Skin: +5% Defense">
-                    <img src="burst_of_strength.png" class="prayer" data-drain="5" data-name="Burst of Strength" title="Burst of Strength: +5% Strength">
-                    <img src="clarity_of_thought.png" class="prayer" data-drain="5" data-name="Clarity of Thought" title="Clarity of Thought: +5% Attack">
-                    <img src="rock_skin.png" class="prayer" data-drain="10" data-name="Rock Skin" title="Rock Skin: +10% Defense">
-                    <img src="superhuman_strength.png" class="prayer" data-drain="10" data-name="Superhuman Strength" title="Superhuman Strength: +10% Strength">
-                    <img src="improved_reflexes.png" class="prayer" data-drain="10" data-name="Improved Reflexes" title="Improved Reflexes: +10% Attack">
-                    <img src="rapid_restore.png" class="prayer" data-drain="1.6667" data-name="Rapid Restore" title="Rapid Restore: Halves restore time for stats">
-                    <img src="rapid_heal.png" class="prayer" data-drain="3.3333" data-name="Rapid Heal" title="Rapid Heal: Halves HP drain rate">
-                    <img src="protect_item.png" class="prayer" data-drain="3" data-name="Protect Item" title="Protect Item: Keep 1 extra item on death">
-                    <img src="steel_skin.png" class="prayer" data-drain="20" data-name="Steel Skin" title="Steel Skin: +15% Defense">
-                    <img src="ultimate_strength.png" class="prayer" data-drain="20" data-name="Ultimate Strength" title="Ultimate Strength: +15% Strength">
-                    <img src="incredible_reflexes.png" class="prayer" data-drain="20" data-name="Incredible Reflexes" title="Incredible Reflexes: +15% Attack">
-                    <img src="protect_from_magic.png" class="prayer" data-drain="20" data-name="Protect from Magic" title="Protect from Magic: 100% protection from magic attacks">
-                    <img src="protect_from_missiles.png" class="prayer" data-drain="20" data-name="Protect from Missiles" title="Protect from Missiles: 100% protection from ranged attacks">
-                    <img src="protect_from_melee.png" class="prayer" data-drain="20" data-name="Protect from Melee" title="Protect from Melee: 100% protection from melee attacks">
+                    <img src="img/calculators/prayer_duration/thick_skin.png" class="prayer" data-drain="5" data-name="Thick Skin" title="Thick Skin: +5% Defense">
+                    <img src="img/calculators/prayer_duration/burst_of_strength.png" class="prayer" data-drain="5" data-name="Burst of Strength" title="Burst of Strength: +5% Strength">
+                    <img src="img/calculators/prayer_duration/clarity_of_thought.png" class="prayer" data-drain="5" data-name="Clarity of Thought" title="Clarity of Thought: +5% Attack">
+                    <img src="img/calculators/prayer_duration/rock_skin.png" class="prayer" data-drain="10" data-name="Rock Skin" title="Rock Skin: +10% Defense">
+                    <img src="img/calculators/prayer_duration/superhuman_strength.png" class="prayer" data-drain="10" data-name="Superhuman Strength" title="Superhuman Strength: +10% Strength">
+                    <img src="img/calculators/prayer_duration/improved_reflexes.png" class="prayer" data-drain="10" data-name="Improved Reflexes" title="Improved Reflexes: +10% Attack">
+                    <img src="img/calculators/prayer_duration/rapid_restore.png" class="prayer" data-drain="1.6667" data-name="Rapid Restore" title="Rapid Restore: Halves restore time for stats">
+                    <img src="img/calculators/prayer_duration/rapid_heal.png" class="prayer" data-drain="3.3333" data-name="Rapid Heal" title="Rapid Heal: Halves HP drain rate">
+                    <img src="img/calculators/prayer_duration/protect_item.png" class="prayer" data-drain="3" data-name="Protect Item" title="Protect Item: Keep 1 extra item on death">
+                    <img src="img/calculators/prayer_duration/steel_skin.png" class="prayer" data-drain="20" data-name="Steel Skin" title="Steel Skin: +15% Defense">
+                    <img src="img/calculators/prayer_duration/ultimate_strength.png" class="prayer" data-drain="20" data-name="Ultimate Strength" title="Ultimate Strength: +15% Strength">
+                    <img src="img/calculators/prayer_duration/incredible_reflexes.png" class="prayer" data-drain="20" data-name="Incredible Reflexes" title="Incredible Reflexes: +15% Attack">
+                    <img src="img/calculators/prayer_duration/protect_from_magic.png" class="prayer" data-drain="20" data-name="Protect from Magic" title="Protect from Magic: 100% protection from magic attacks">
+                    <img src="img/calculators/prayer_duration/protect_from_missiles.png" class="prayer" data-drain="20" data-name="Protect from Missiles" title="Protect from Missiles: 100% protection from ranged attacks">
+                    <img src="img/calculators/prayer_duration/protect_from_melee.png" class="prayer" data-drain="20" data-name="Protect from Melee" title="Protect from Melee: 100% protection from melee attacks">
                 </div>
         
                 <p class="gold-text">Equipment</p>

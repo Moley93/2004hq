@@ -74,7 +74,7 @@ function calculateOres() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${ore.level}</td>
-            <td><img src="${ore.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${ore.name}"> ${ore.name}</td>
+            <td><img src="img/calculators/mining/${ore.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${ore.name}"> ${ore.name}</td>
             <td>${ore.xp}</td>
             <td>${formatNumber(oreCount)}</td>
         `;

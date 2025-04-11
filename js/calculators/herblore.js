@@ -86,7 +86,7 @@ let mode = 'complete_potions';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${level}</td>
-                    <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                    <td><img src="img/calculators/herblore/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                     <td>${xpGained}</td>
                     <td>${formatNumber(itemsNeeded)}</td>
                 `;
