@@ -151,7 +151,6 @@ function renderOldSchoolTable(canvas) {
 
   const table = document.createElement("table");
   table.className = "calculators";
-  table.style.width = "100%";
   table.style.cellPadding = "1";
   table.style.cellSpacing = "0";
 
