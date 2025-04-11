@@ -29,20 +29,6 @@ async function fetchRunecraftingXP() {
     }
 }
 
-// Convert level to XP
-function getXPForLevel(level) {
-    let total = 0;
-    for (let i = 1; i < level; i++) {
-      total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-    }
-    return Math.floor(total / 4);
-}
-
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString(); 
-}
-
 // Calculate how many ess needed
 function calculateRunes() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
@@ -84,7 +70,7 @@ function calculateRunes() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${rune.level}</td>
-            <td><img src="${rune.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${rune.name}"> ${rune.name}</td>
+            <td><img src="img/calculators/runecrafting/${rune.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${rune.name}"> ${rune.name}</td>
             <td>${rune.xp}</td>
             <td>${formatNumber(runeCount)}</td>
         `;

@@ -30,20 +30,6 @@ let mode = 'npcs';
                 alert("Error fetching data."); // Alert user of an error
             }
         }
-
-        // Convert level to XP
-        function getXPForLevel(level) {
-            let total = 0;
-            for (let i = 1; i < level; i++) {
-              total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-            }
-            return Math.floor(total / 4);
-        }
-        
-        // Adds commas for thousands
-        function formatNumber(num) {
-            return num.toLocaleString();
-        }
         
         function setMode(newMode) {
             mode = newMode;
@@ -112,7 +98,7 @@ let mode = 'npcs';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${level}</td>
-                    <td><img src="${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" alt="${source}"> ${source}</td>
+                    <td><img src="img/calculators/thieving/${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" alt="${source}"> ${source}</td>
                     <td>${xp}</td>
                     <td>${formatNumber(count)}</td>
                 `;

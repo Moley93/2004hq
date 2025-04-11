@@ -86,7 +86,7 @@ const itemCategories = {
         "~trail_hardcluedrop": { name: "Hard Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "~trail_elitecluedrop": { name: "Elite Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "~trail_mastercluedrop": { name: "Master Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
-        "~trail_checkmediumdrop": { name: "Medium Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" }
+        "~trail_checkmediumdrop": { name: "Key (medium clue)", image: "https://oldschool.runescape.wiki/images/Key_%28medium%29.png?538bf" }
     },
     RARE_DROPS: {
         "~randomherb": { name: "Random Herb", image: "guam_leaf.webp" },
@@ -112,7 +112,7 @@ const itemCategories = {
     }
 };
 
-// Flatten the categories into a single customItems object
+// Flatten the categories into a single customItems object 
 this.customItems = Object.values(itemCategories).reduce((acc, category) => {
     return { ...acc, ...category };
 }, {});
@@ -272,7 +272,7 @@ function parseDropTable(text) {
             tertiaryDrops.push({
                 item: customItems[itemKey].name,
                 quantity: "1",
-                rate: "1/128" // Default rate for trail check drops
+                rate: "1/1" // Default rate for trail check drops
             });
         }
     }
@@ -1128,10 +1128,10 @@ function showHowToUse() {
 
     // Position the modal near the top of the page with some headroom
     const modalContent = modal.querySelector('.modal-content');
-    modalContent.style.position = 'fixed';
-    modalContent.style.top = '50px';  // Add some headroom from the top
+    modalContent.style.position = 'absolute';
+    modalContent.style.top = '50%';
     modalContent.style.left = '50%';
-    modalContent.style.transform = 'translateX(-50%)';  // Center horizontally
+    modalContent.style.transform = 'translate(-50%, -50%)';  // Center within parent
 
     document.body.appendChild(modal);
 

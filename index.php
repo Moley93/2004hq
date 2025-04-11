@@ -2,8 +2,8 @@
 include 'config.php';
 if (!empty($_GET['p'])) {
     switch (htmlspecialchars($_GET['p'])) {
-        case 'questlist':
-            include 'pages/main/questlist.php';
+        case 'questguides':
+            include 'pages/main/questguides.php';
             break;
         case 'skillguides':
             include 'pages/main/skillguides.php';
@@ -23,9 +23,9 @@ if (!empty($_GET['p'])) {
         case 'calculators':
             include 'pages/main/calculators.php';
             break;
-        case 'updatetables':
-            include 'pages/thesneilert/updatecluetables.php';
-            break;
+        //case 'updatetables':
+        //    include 'pages/thesneilert/updatecluetables.php';
+        //    break;
         default:
         case '404':
             include 'pages/main/404.php';

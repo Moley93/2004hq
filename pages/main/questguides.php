@@ -57,63 +57,21 @@ $questlist = array(
 ksort($questlist);
 
 function getPageContent() {
-    global $questlist, $meta_data;
+    global $questlist, $meta_data, $style;
 
     ob_start();
 
     if (empty($_GET['quest'])) {
         $meta_data['title'] = 'Quests';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:url'] = '?p=questlist';
+        $meta_data['og:url'] = '?p=questguides';
         $meta_data['og:image'] = 'img/questicon.webp';
-        echo '<table width="350">
-        <tbody><tr>
-                <td width="300" height="31" align="middle" bordercolor="#FFFFFF">
-                    <div align="center">
-                        <span class="subheader"><u><b>Free Quests</b></u></span>
-                    </div>
-                </td>
-                <td width="300" align="middle" bordercolor="#FFFFFF">
-                    <div align="center">
-                        <span class="subheader"><u><b>Members Quests</b></u></span>
-                    </div>
-                </td>
-            </tr>';
-
-        $freeQuests = [];
-        $memberQuests = [];
-
-        foreach ($questlist as $key => $quest) {
-            foreach ($quest as $name => $isMembers) {
-                if ($isMembers) {
-                    $memberQuests[] = ['key' => $key, 'name' => $name];
-                } else {
-                    $freeQuests[] = ['key' => $key, 'name' => $name];
-                }
-            }
+        echo '<b>Select the Quest you would like to view a Guide for:</b><br><br>';
+        if ($style === 'oldschool') {
+            echo renderQuestListOldschool($questlist);  // Plain table style
+        } else {
+            echo renderQuestList($questlist);  // RuneScape styled version
         }
-
-        $maxLength = max(count($freeQuests), count($memberQuests));
-        for ($i = 0; $i < $maxLength; $i++) {
-            $rowClass = ($i & 1) ? '333333' : '000000';
-            echo "<tr bordercolor=\"#FFFFFF\" bgcolor=\"#$rowClass\" class=\"text\">";
-
-            if (isset($freeQuests[$i])) {
-                echo '<td align="center"><a href="?p=questlist&quest=' . $freeQuests[$i]['key'] . '">' . $freeQuests[$i]['name'] . '</a></td>';
-            } else {
-                echo '<td align="center"></td>';
-            }
-
-            if (isset($memberQuests[$i])) {
-                echo '<td align="center"><a href="?p=questlist&quest=' . $memberQuests[$i]['key'] . '">' . $memberQuests[$i]['name'] . '</a></td>';
-            } else {
-                echo '<td align="center"></td>';
-            }
-
-            echo '</tr>';
-        }
-
-        echo '</tbody></table>';
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;
@@ -132,7 +90,7 @@ function getPageContent() {
         if ($found) {
             $meta_data['title'] = 'Quests > ' . $questName;
             $meta_data['og:title'] = $meta_data['title'];
-            $meta_data['og:url'] = '?p=questlist&quest=' . $currQuest;
+            $meta_data['og:url'] = '?p=questguides&quest=' . $currQuest;
             $meta_data['og:image'] = 'img/questIcons/' . $currQuest . '.webp';
 
             $fileLocation = 'pages/questguides/' . ($questMembers ? 'members' : 'free') . '/' . $currQuest . '.php';
@@ -153,4 +111,109 @@ function getPageContent() {
     }
 
     return ob_get_clean();
+}
+
+function renderQuestList(array $questlist): string {
+    $html = <<<HTML
+    <style>
+
+    .quest-container {
+        background-color: #3B322B;
+        background-repeat: repeat;
+        font-family: 'RSPlain12', monospace;
+        font-size: 12px;
+        padding: 10px;
+        display: flex;
+        gap: 40px;
+        width: fit-content;
+    }
+    .quest-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .quest-header {
+        color: #FF981F;
+        margin-bottom: 5px;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+    }
+    .quest-entry a:hover {
+        color:rgb(255, 0, 0);
+        margin: 2px 0;
+        text-shadow: 2px 2px #000;
+        text-decoration: none;
+    }
+    .quest-entry a {
+        color: #00FF80;
+        margin: 2px 0;
+        text-shadow: 2px 2px #000;
+        text-decoration: none;
+    }
+    </style>
+    <div class="quest-container">
+        <div class="quest-column">
+            <div class="quest-header">FREE QUESTS:</div>
+HTML;
+
+     // Free Quests
+     foreach ($questlist as $questKey => $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        if (!$isMembers) {
+            $url = "?p=questguides&quest=" . urlencode($questKey);
+            $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+        }
+    }
+
+    $html .= <<<HTML
+    </div>
+    <div class="quest-column">
+        <div class="quest-header">MEMBERS QUESTS:</div>
+HTML;
+
+    // Members Quests
+    foreach ($questlist as $questKey => $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        if ($isMembers) {
+            $url = "?p=questguides&quest=" . urlencode($questKey);
+            $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+        }
+    }
+
+    $html .= '</div></div>';
+    return $html;
+}
+function renderQuestListOldschool(array $questlist): string {
+    // Separate the quests
+    $freeQuests = [];
+    $membersQuests = [];
+
+    foreach ($questlist as $questKey => $quest) {
+        $questName = array_key_first($quest);
+        $isMembers = $quest[$questName];
+        $url = "?p=questguides&quest=" . urlencode($questKey);
+
+        if ($isMembers) {
+            $membersQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+        } else {
+            $freeQuests[] = '<a href="' . $url . '">' . htmlspecialchars($questName) . '</a>';
+        }
+    }
+
+    // Determine the max rows needed
+    $maxRows = max(count($freeQuests), count($membersQuests));
+
+    $html = '<table class="calculators">';
+    $html .= '<thead><tr><th>Free Quests</th><th>Members Quests</th></tr></thead><tbody>';
+
+    // Render rows
+    for ($i = 0; $i < $maxRows; $i++) {
+        $free = $freeQuests[$i] ?? '';
+        $members = $membersQuests[$i] ?? '';
+        $html .= '<tr><td>' . $free . '</td><td>' . $members . '</td></tr>';
+    }
+
+    $html .= '</tbody></table>';
+    return $html;
 }

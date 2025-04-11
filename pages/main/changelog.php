@@ -9,6 +9,8 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
+
+Site by Moley, Eilert, Halogod & Collin.<br><br>
 <u><b>Change Log</b></u>
 <br />
 <div id="log-table-container">

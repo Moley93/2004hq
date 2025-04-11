@@ -1,0 +1,61 @@
+.gold-text {
+    color: gold;
+    font-weight: bold;
+}
+
+.prayer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    max-width: 125px;
+    margin: auto;
+    gap: 10px;
+}
+
+.prayer {
+    justify-self: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.prayer.active {
+    border: 2px solid gold;
+}
+
+.progress-bar {
+    height: 18px;
+    width: 0%;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    transition: width 0.6s ease-in-out;
+}
+
+.progress-container {
+    width: auto;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+#searchResults {
+    position: absolute;
+    background: black;
+    border: 1px solid gold;
+    width: calc(100% - 12px);
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+}
+
+.search-item {
+    padding: 5px;
+    cursor: pointer;
+    color: gold;
+}
+
+.search-item:hover {
+    background: darkgoldenrod;
+}

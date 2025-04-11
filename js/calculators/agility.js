@@ -29,20 +29,6 @@ async function fetchAgilityXP() {
     }
 }
 
-// Convert level to XP
-function getXPForLevel(level) {
-    let total = 0;
-    for (let i = 1; i < level; i++) {
-      total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-    }
-    return Math.floor(total / 4);
-}
-
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString(); 
-}
-
 // Calculate how many laps needed
 function calculateLaps() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
@@ -92,7 +78,7 @@ function calculateLaps() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${course.level}</td>
-            <td><img src="${course.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${course.name}"> ${course.name}</td>
+            <td><img src="img/calculators/agility/${course.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${course.name}"> ${course.name}</td>
             <td>${course.xp}</td>
             <td>${formatNumber(lapCount)}</td>
         `;
@@ -106,7 +92,7 @@ function calculateLaps() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${shortcut.level}</td>
-            <td><img src="${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${shortcut.name}"> ${shortcut.name}</td>
+            <td><img src="img/calculators/agility/${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${shortcut.name}"> ${shortcut.name}</td>
             <td>${shortcut.xp}</td>
             <td>${formatNumber(lapCount)}</td>
         `;

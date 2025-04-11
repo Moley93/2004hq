@@ -186,20 +186,6 @@ let mode = 'smelting_bars';
             }
         }
 
-        // Convert level to XP
-        function getXPForLevel(level) {
-            let total = 0;
-            for (let i = 1; i < level; i++) {
-                total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-            }
-            return Math.floor(total / 4);
-        }
-
-        // Adds commas for thousands
-        function formatNumber(num) {
-            return num.toLocaleString(); 
-        }
-
         function setMode(selectedMode) {
             mode = selectedMode;
             document.getElementById("metalSelection").style.display = (mode === 'smelting') ? 'none' : 'block';
@@ -257,7 +243,7 @@ let mode = 'smelting_bars';
                     const row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${data.level}</td>
-                        <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                        <td><img src="img/calculators/smithing/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                         <td>${data.xp}</td>
                         <td>${formatNumber(amountNeeded)}</td>
                     `;
@@ -281,7 +267,7 @@ let mode = 'smelting_bars';
                     const row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${data.level}</td>
-                        <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                        <td><img src="img/calculators/smithing/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                         <td>${data.bars}</td>                        
                         <td>${formatNumber(amountNeeded)}</td>
                     `;

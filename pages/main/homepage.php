@@ -4,7 +4,7 @@ function getPageContent() { return <<<HTML
 <tbody>
     <tr valign="top">
         <td width="100" align="center">
-            <a href="?p=questlist">
+            <a href="?p=questguides">
                 <img src="img\questicon.png" border="0">
             </a>
         </td>
@@ -16,7 +16,7 @@ function getPageContent() { return <<<HTML
             <br />
             Quest Guides
             <br />
-            <a href="?p=questlist" class="c">Click here</a>
+            <a href="?p=questguides" class="c">Click here</a>
         </td>
 
         <td width="10"></td>

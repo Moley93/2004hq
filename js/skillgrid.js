@@ -1,10 +1,7 @@
 window.addEventListener("pageshow", () => {
   const canvas = document.querySelector('canvas[data-skills="skillTree"]');
-  if (!canvas) return;
-
-  const ctx = canvas.getContext("2d");
-  const img = new Image();
-  img.src = "img/skillGrid.png";
+  const url = new URL(window.location.href);
+  const page = url.searchParams.get("p");
 
   const skills = [
     "attack", "hitpoints", "mining",
@@ -16,6 +13,21 @@ window.addEventListener("pageshow", () => {
     "runecrafting"
   ];
 
+  const combatSkills = ["attack", "strength", "defence", "magic", "ranged", "hitpoints"];
+
+  if (!canvas) return;
+
+  const style = canvas.dataset.style || "default";
+
+  if (style === "oldschool") {
+    renderOldSchoolTable(canvas);
+    return;
+  }
+
+  const ctx = canvas.getContext("2d");
+  const img = new Image();
+  img.src = "img/skillGrid.png";
+
   const cols = 3;
   const rows = 7;
   const naturalWidth = 285;
@@ -23,14 +35,14 @@ window.addEventListener("pageshow", () => {
   const iconWidth = naturalWidth / cols;
   const iconHeight = naturalHeight / rows;
 
-  // Tooltip setup
   const tooltip = document.createElement("div");
   tooltip.style.position = "absolute";
   tooltip.style.background = "rgba(0, 0, 0, 0.75)";
   tooltip.style.color = "#fff";
   tooltip.style.padding = "4px 8px";
   tooltip.style.borderRadius = "6px";
-  tooltip.style.fontSize = "12px";
+  tooltip.style.fontFamily = "RSPlain12";
+  tooltip.style.fontSize = "18px";
   tooltip.style.pointerEvents = "none";
   tooltip.style.transition = "opacity 0.2s";
   tooltip.style.opacity = "0";
@@ -40,7 +52,6 @@ window.addEventListener("pageshow", () => {
   let animFrame;
 
   img.onload = () => {
-    // Rescale canvas
     const targetWidth = parseInt(canvas.dataset.width || naturalWidth);
     const scale = targetWidth / naturalWidth;
 
@@ -102,15 +113,17 @@ window.addEventListener("pageshow", () => {
     canvas.addEventListener("click", () => {
       if (hoverIndex >= 0 && hoverIndex < skills.length) {
         const skill = skills[hoverIndex];
-        const url = new URL(window.location.href);
-        const page = url.searchParams.get("p");
 
-        if (page === "skillguides") {
+        if (page === "calculators") {
+          if (combatSkills.includes(skill)) {
+            url.searchParams.set("calc", "combat_xp");
+          } else {
+            url.searchParams.set("calc", skill);
+          }
+        } else if (page === "skillguides") {
           url.searchParams.set("skill", skill);
-        } else if (page === "calculators") {
-          url.searchParams.set("calc", skill);
         } else {
-          url.searchParams.set("skill", skill); // default fallback
+          url.searchParams.set("skill", skill);
         }
 
         window.location.href = url.toString();
@@ -122,3 +135,93 @@ window.addEventListener("pageshow", () => {
     cancelAnimationFrame(animFrame);
   });
 });
+
+function renderOldSchoolTable(canvas) {
+  const url = new URL(window.location.href);
+  const page = url.searchParams.get("p");
+
+  const freeSkills = [
+    "attack", "strength", "defence", "hitpoints", "ranged", "prayer", "magic",
+    "cooking", "firemaking", "woodcutting", "fishing", "mining", "smithing", "crafting"
+  ];
+
+  const memberSkills = [
+    "agility", "herblore", "thieving", "fletching", "runecrafting"
+  ];
+
+  const table = document.createElement("table");
+  table.className = "calculators";
+  table.style.width = "100%";
+  table.style.cellPadding = "1";
+  table.style.cellSpacing = "0";
+
+  const header = document.createElement("tr");
+  const thFree = document.createElement("th");
+  const thMember = document.createElement("th");
+
+  thFree.textContent = page === "calculators" ? "F2P Skill Calculators" : "F2P Skill Guides";
+  thMember.textContent = page === "calculators" ? "Members Skill Calculators" : "Members Skill Guides";
+
+  header.appendChild(thFree);
+  header.appendChild(thMember);
+  table.appendChild(header);
+
+  const filteredFreeSkills = page === "calculators" ? freeSkills.filter(skill => !["attack", "strength", "defence", "magic", "ranged", "hitpoints"].includes(skill)) : freeSkills;
+  const filteredMemberSkills = page === "calculators" ? memberSkills.filter(skill => !["attack", "strength", "defence", "magic", "ranged", "hitpoints"].includes(skill)) : memberSkills;
+
+  const maxLength = Math.max(filteredFreeSkills.length, filteredMemberSkills.length);
+  for (let i = 0; i < maxLength; i++) {
+    const row = document.createElement("tr");
+    const left = document.createElement("td");
+    const right = document.createElement("td");
+
+    if (filteredFreeSkills[i]) {
+    left.innerHTML = skillWithIcon(filteredFreeSkills[i]);
+  }
+
+    if (filteredMemberSkills[i]) {
+    right.innerHTML = skillWithIcon(filteredMemberSkills[i]);
+  }
+
+    row.appendChild(left);
+    row.appendChild(right);
+    table.appendChild(row);
+  }
+
+  canvas.replaceWith(table);
+}
+
+function skillWithIcon(skill) {
+  const url = new URL(window.location.href);
+  const page = url.searchParams.get("p");
+
+  const combatSkills = ["attack", "strength", "defence", "magic", "ranged", "hitpoints"];
+
+  if (page === "calculators" && document.querySelector('canvas[data-style="oldschool"]')) {
+    if (combatSkills.includes(skill)) {
+      return ""; // Hide combat skills from calculators table in oldschool style
+    }
+  }
+
+  if (page === "skillguides") {
+    url.searchParams.set("skill", skill);
+  } else if (page === "calculators") {
+    if (combatSkills.includes(skill)) {
+      url.searchParams.set("calc", "combat_xp");
+    } else {
+      url.searchParams.set("calc", skill);
+    }
+  } else {
+    url.searchParams.set("skill", skill);
+  }
+
+  const label = skill.charAt(0).toUpperCase() + skill.slice(1);
+  const iconSrc = `img/skillicons/${skill}.webp`;
+
+  return `
+    <a href="${url.toString()}" style="text-decoration: none; display: flex; align-items: center; gap: 6px;">
+      <img src="${iconSrc}" alt="${label}" width="20" height="20">
+      ${label}
+    </a>
+  `;
+}

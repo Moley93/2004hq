@@ -1159,11 +1159,6 @@ document.addEventListener("click", function(e) {
     }
 });
 
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString(); 
-}
-
 function calculateAlchProfit() {
     const quantity = parseInt(document.getElementById("quantity").value);
     const itemValue = parseInt(document.getElementById("itemValue").value);

@@ -31,20 +31,6 @@ let mode = 'complete_potions';
             }
         }
 
-        // Convert level to XP
-        function getXPForLevel(level) {
-            let total = 0;
-            for (let i = 1; i < level; i++) {
-                total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-            }
-            return Math.floor(total / 4);
-        }
-
-        // Adds commas for thousands
-        function formatNumber(num) {
-            return num.toLocaleString(); 
-        }
-
         function setMode(selectedMode) {
             mode = selectedMode;
             calculateHerblore();
@@ -100,7 +86,7 @@ let mode = 'complete_potions';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${level}</td>
-                    <td><img src="${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                    <td><img src="img/calculators/herblore/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
                     <td>${xpGained}</td>
                     <td>${formatNumber(itemsNeeded)}</td>
                 `;

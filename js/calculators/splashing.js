@@ -29,20 +29,6 @@ async function fetchMagicXP() {
     }
 }
 
-// Convert level to XP
-function getXPForLevel(level) {
-    let total = 0;
-    for (let i = 1; i < level; i++) {
-      total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-    }
-    return Math.floor(total / 4);
-}
-
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString();
-}
-
 // Calculate how many casts needed
 function calculateSplashing() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
@@ -91,7 +77,7 @@ function calculateSplashing() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${spell.level}</td>
-            <td><img src="${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
+            <td><img src="img/calculators/splashing/${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
             <td>${spell.xp}</td>
             <td>${formatNumber(spellCount)}</td>
         `;

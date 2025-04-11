@@ -48,7 +48,7 @@ Promise.all([
     if (coinVariants.hasOwnProperty(debugname)) {
       id = coinVariants[debugname];
       name = "Coins";
-      desc = `A stack of ${debugname === "coins" ? "coins" : debugname.split("_")[1]} gp.`;
+      desc = `Lovely money!`;
     }
   
     // 🔹 Exempt overrides

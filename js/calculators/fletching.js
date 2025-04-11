@@ -30,20 +30,6 @@ let mode = 'complete';
                 alert("Error fetching data."); // Alert user of an error
             }
         }
-
-        // Convert level to XP
-        function getXPForLevel(level) {
-            let total = 0;
-            for (let i = 1; i < level; i++) {
-              total += Math.floor(i + 300 * Math.pow(2, i / 7.0));
-            }
-            return Math.floor(total / 4);
-        }
-        
-        // Adds commas for thousands
-        function formatNumber(num) {
-            return num.toLocaleString();
-        }
         
         function setMode(newMode) {
             mode = newMode;
@@ -125,7 +111,7 @@ let mode = 'complete';
                     let row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${levelReq}</td>
-                        <td><img src="${arrow.toLowerCase().replace(/\s+/g, '_')}.png" alt="${arrow}"> ${arrow}</td>
+                        <td><img src="img/calculators/fletching/${arrow.toLowerCase().replace(/\s+/g, '_')}.png" alt="${arrow}"> ${arrow}</td>
                         <td>${xpPerAction}</td>
                         <td>${formatNumber(count)}</td>
                     `;
@@ -152,7 +138,7 @@ let mode = 'complete';
                     let row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${levelReq}</td>
-                        <td><img src="${itemName.toLowerCase().replace(/\s+/g, '_')}.png" alt="${itemName}"> ${itemName}</td>
+                        <td><img src="img/calculators/fletching/${itemName.toLowerCase().replace(/\s+/g, '_')}.png" alt="${itemName}"> ${itemName}</td>
                         <td>${xpToUse}</td>
                         <td>${formatNumber(count)}</td>
                     `;
