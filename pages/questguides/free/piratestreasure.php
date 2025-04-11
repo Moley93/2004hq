@@ -39,7 +39,7 @@ Search the all crates that are in this house. One of them contains bananas and a
 Talk to Red Beard and he will be pleased and give you a key.He will say that a chest in Varrok contains the treasure.<br>
 <br>
 
-Go to Varrok and and go inside the Blue Moon inn which is behind the general stall.Go up to the second floor and go into the west room. Find a chest then use the key on the chest.You will get a note. Read it and it will tell you about the treasure is in the Falador's park.<br>
+Go to Varrok and and go inside the Blue Moon inn which is behind the general stall.Go up to the <span data-floors="US">second floor</span> and go into the west room. Find a chest then use the key on the chest.You will get a note. Read it and it will tell you about the treasure is in the Falador's park.<br>
 <br>
 
 Now it's time to dig the treasure. Go into the park and find a staue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins,a gold ring and an emerald which is a reward of the quest. The quest is now finished.<br>

@@ -44,7 +44,7 @@ Second Scorpion<br>
 <br>
 <img src="img\questimages\scorp6.jpg" height="200" width="200"><br>
 <br>
-9. Last is the bar in the Grand Tree. Go north to the Gnome Stronghold and up to the second floor of the Grand tree. Now you should be done go back to the Outpost and hand over your card.<br>
+9. Last is the bar in the Grand Tree. Go north to the Gnome Stronghold and up to the <span data-floors="US">second floor</span> of the Grand tree. Now you should be done go back to the Outpost and hand over your card.<br>
 <br>
 <img src="img\questimages\scorp7.bmp" height="200" width="200"><br>
 <br>

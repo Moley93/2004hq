@@ -44,7 +44,7 @@ Now it is time to realize the truth. Talk to Guidor and tell him you are here be
 <br>
 Go back to Elena's house and tell her there is no plague, she will tell you to see the King of Ardougne.<br>
 <br>
-The King is in the second floor of the palace in Ardougne and the palace is located in southwest of Ardougne. Talk to King Lathas and he will tell you about his brother, King Tyras and reward you.<br>
+The King is in the <span data-floors="US">second floor</span> of the palace in Ardougne and the palace is located in southwest of Ardougne. Talk to King Lathas and he will tell you about his brother, King Tyras and reward you.<br>
 <br>
 This quest guide was written on RuneHQ by henry-x. Thanks to Weezy, Shaw, stormer, bowman_1990, Eric2203, bmx 768, Halfling_hopperston for corrections.<br>
 <br>

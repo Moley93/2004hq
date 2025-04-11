@@ -35,7 +35,7 @@ Height=4 X=3 Y=5<br>
 Assuming you entered these in right, go the main building and climb over the wall. It's the northwest building. Be prepared to get rid of a level 48 Khazard commander, one downstairs and one up.<br>
 <br>
 <br>
-Upon their defeat, open the chest on the 2nd floor to get the orb. Return to Elkoy at the maze entrance and he'll lead you back in<br>
+Upon their defeat, open the chest on the <span data-floors="US">2nd floor</span> to get the orb. Return to Elkoy at the maze entrance and he'll lead you back in<br>
 <br>
 <br>
 Speak to Bolren again, he is briefly thankful about your return, but find that his family has been killed and the other 2 orbs taken by Khazard's troops. Elkoy will guide you out, go north past the Khazard camp, then northwest and past level 64 wolves to face the Warlord who holds the orbs.<br>

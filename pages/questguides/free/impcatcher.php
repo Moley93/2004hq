@@ -8,7 +8,7 @@ Description:Wizard Mizgog has lost his beads because Wizard Grayzag has summoned
 <br>
 Items/Skills Needed To Start:None<br>
 <br>
-Starting Location:3rd floor of the Wizard's Tower south of Draynor Village<br>
+Starting Location: <span data-floors="US">3rd floor</span> of the Wizard's Tower south of Draynor Village<br>
 <br>
 Reward:375 Magic experience, 1 Quest Point, and an Amulet of Accuracy (+4 Weapon Aim).<br>
 <br>
