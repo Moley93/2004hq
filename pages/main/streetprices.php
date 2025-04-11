@@ -8,6 +8,7 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/clueicon.png';
 
     return <<<HTML
+    Item Street prices per <a href="https://docs.google.com/spreadsheets/d/1kF10Oh29B3_pFw8Cq7cBRe119eGXcX8QJR22_Cf1qEE/?gid=0" target="_blank">Dead Botting's google spreadsheet</a>:<br><br>
 <div id="sheet-table">Loading...</div>
 
 <script type="module">

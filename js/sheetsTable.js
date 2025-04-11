@@ -49,6 +49,7 @@ export function renderTable(targetId, { cols, rows }, rowsPerPage = 10) {
   function showPage(page) {
     const table = document.createElement('table');
     table.className = 'calculators';
+    table.styleWidth = '100%';
 
     const thead = table.createTHead();
 
