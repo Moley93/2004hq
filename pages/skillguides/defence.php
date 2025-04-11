@@ -2,7 +2,7 @@
 function getPageTitle() { return 'Agility'; }
 function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
 function getSkillContent() { return <<<HTML
-<center><b>Defence</b></center>
+<div style="text-align:center;"><b>Defence</b></div>
 <br>
 <br><br><b>Helmets</b><br><table style="text-align: center;" align="center">
 <tr>
@@ -29,7 +29,6 @@ function getSkillContent() { return <<<HTML
 <tr>
 <td style="width: 375px;"><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/armour/melee/allshields.gif" alt="[image]"></td>
 </tr>
-<tr>
 <tr>
 <td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/armour/melee/dragonbreathshield.gif" alt="[image]"><br>Invaluable in the fight against all fire-breathing dragons, this shield reduces the damage from dragon fire considerably, and is strongly recommended every time you fight dragons.</td>
 </tr>
@@ -68,4 +67,6 @@ function getSkillContent() { return <<<HTML
 <tr>
 <td>Mystic robes, like mage robes, offer no extra defence against ranged or melee combat. However, they give a bigger advantage to casting and defending against magic.</td>
 </tr>
+<br>
+<br>
 HTML; }
