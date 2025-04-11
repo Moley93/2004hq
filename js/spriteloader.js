@@ -21,7 +21,6 @@ const coinVariants = {
   "coins_1000": 1003,
 };
 
-// Load both the JSON and the image before using
 Promise.all([
   fetch('js/itemlist.json').then(res => res.json()),
   new Promise(resolve => spritesheet.onload = resolve)
@@ -29,7 +28,6 @@ Promise.all([
   .then(([json]) => {
     itemData = json;
 
-    // Find all canvas elements with a data-itemname attribute
     document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
       const debugname = canvas.getAttribute("data-itemname");
       renderSpriteToCanvas(debugname, canvas);
