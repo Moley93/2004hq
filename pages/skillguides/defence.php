@@ -1,6 +1,6 @@
 <?php
-function getPageTitle() { return 'Agility'; }
-function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
+function getPageTitle() { return 'Defence'; }
+function getPageMetaIcon() { return 'img/skillicons/defence.webp'; }
 function getSkillContent() { return <<<HTML
 <center><b>Defence</b></center>
 <tr>
