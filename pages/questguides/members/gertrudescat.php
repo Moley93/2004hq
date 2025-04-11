@@ -20,7 +20,7 @@ Talk to Shilop and he'll tell you where he last saw the cat for 100gp (little ki
 <br>
 Head north to the Jolly Boar Inn and then go east to the lumber mill. You can hop the fence on the south side over the broken part.<br>
 <br>
-Go over to the ladder and on the 2nd floor try to pick up the cat. It will cause 3 damage and a message appears saying it might be thirsty. Use milk on it. Repeat the procedure only it's hungry this time. Rub your doogle leaf on a sardine for a seasoned sardine and feed it to cat. Repeat one more time and find out it doesn't want to leave and can hear kitten mews in the distance.<br>
+Go over to the ladder and on the <span data-floors="US">2nd floor</span> try to pick up the cat. It will cause 3 damage and a message appears saying it might be thirsty. Use milk on it. Repeat the procedure only it's hungry this time. Rub your doogle leaf on a sardine for a seasoned sardine and feed it to cat. Repeat one more time and find out it doesn't want to leave and can hear kitten mews in the distance.<br>
 <br>
 Go back down and look in the pinkish crates for cats. You only need 1 kitten to take back up to Fluffs (the cat). Only one of the crates has a cat in it but for some reason several will mew, it might be random but I got mine in the most south eastern box. Use the kitten with Fluffs and they'll run home.<br>
 <br>

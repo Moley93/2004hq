@@ -9,7 +9,7 @@ Description: The black knights are up to no good. You are hired by the white kni
 <br>
 Items/Skills Needed To Start: 12 quest points, Bronze medium helmet, Iron chainmail<br>
 <br>
-Starting Location: Third floor of White Knights' Castle in Falador.<br>
+Starting Location: <span data-floors="US">Third floor</span> of White Knights' Castle in Falador.<br>
 <br>
 Reward: 2500 coins and 3 Quest Points.<br>
 <br>

@@ -31,10 +31,10 @@ Pull E lever. Open the East door. Open the South door. Open South door.
 Open the West door and grab the oil can.<br>
 <br>
 
-Rubber tube:Go back to the ground floor and go to the east room with the spade and grab the spade. Go out, go north,west and south and you will find the pile of compost. Use your spade on it and you will get a key. Go back into the house and open the door with a skleton inside. Don't worry about the skleton. Pick up the rubber tube and go out of this room.<br>
+Rubber tube:Go back to the <span data-floors="US">ground floor</span> and go to the east room with the spade and grab the spade. Go out, go north,west and south and you will find the pile of compost. Use your spade on it and you will get a key. Go back into the house and open the door with a skleton inside. Don't worry about the skleton. Pick up the rubber tube and go out of this room.<br>
 <br>
 
-Pressure gauge: Go to the second floor and go to the room in southeast. Pick up the fish food then go back down. Go to the west room and pick up the poison. Use the poison on the fish food and go out. Go southwest of this Manor and you will find a fountain. Use the poisoned fish food on the fountain and search the fountain. You will get the Pressure gauge.<br>
+Pressure gauge: Go to the <span data-floors="US">second floor</span> and go to the room in southeast. Pick up the fish food then go back down. Go to the west room and pick up the poison. Use the poison on the fish food and go out. Go southwest of this Manor and you will find a fountain. Use the poisoned fish food on the fountain and search the fountain. You will get the Pressure gauge.<br>
 <br>
 
 Go back to Professor Oddenstein and talk to him. He will change Ernest back to a man. Ernest will reward you.<br>

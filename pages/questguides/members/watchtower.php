@@ -12,11 +12,11 @@ Quest start:: watchtower north of yanille (just follow yanilles north wall and y
 <br>
 <img src="img\questimages\watchtower1.jpg" height="350" width="350"><br>
 <br>
-1. Once you see the Watchtower (location #1), look around it for “climbing rocks”. You should find them on the North outside wall of the Watchtower. This is the only way to get in at first. The Guards will attack you if you try to use the ladder. Climb up the rocks and you’ll be inside on the 2nd floor the watchtower. Continue up the ladder to the 3rd and speak to Watchtower Wizard.<br>
+1. Once you see the Watchtower (location #1), look around it for “climbing rocks”. You should find them on the North outside wall of the Watchtower. This is the only way to get in at first. The Guards will attack you if you try to use the ladder. Climb up the rocks and you’ll be inside on the <span data-floors="US">2nd floor</span> the watchtower. Continue up the ladder to the 3rd and speak to Watchtower Wizard.<br>
 <br>
 2. After you have spoke to the Watchtower Wizard, you will need to go outside (down 2 ladders) and search all the bushes around the Watchtower till you find some fingernails, an eye patch, a dagger and some armor. Go back to the wizard and talk to him – this time you can use the ladder. He will send you on your mission to recover the crystals.<br>
 <br>
-3. Now go down to the first floor and take the lit candle that respawns on the table (if you don’t already have a lit candle). Also if you don’t have a bat bone yet, you can get them now. There is a dungeon just East of the Watchtower (location #2). Cut through the webs and go down the stairs. Kill a bat to get bat bones.<br>
+3. Now go down to the <span data-floors="US">first floor</span> and take the lit candle that respawns on the table (if you don’t already have a lit candle). Also if you don’t have a bat bone yet, you can get them now. There is a dungeon just East of the Watchtower (location #2). Cut through the webs and go down the stairs. Kill a bat to get bat bones.<br>
 <br>
 4. First you will need to talk to Og the Ogre. Exit Yanille through the West gate and you come to the ogre settlement (location #3). Speak with him and he will help you – but only after you have helped him. Og will give you a key and ask you to retrieve his gold bar that was stolen by Toban the Ogre.<br>
 <br>

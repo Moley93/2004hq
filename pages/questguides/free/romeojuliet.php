@@ -12,7 +12,7 @@ Starting Location:Juliet's house, which is just west of Varrock on the north sid
 <br>
 Reward:5 quest points<br>
 <br>
-Talk to Juliet on her second floor balcony to learn about the love affair with Romeo and the complications that have set in. She asks you to take a message to Romeo in Varrock square<br>
+Talk to Juliet on her <span data-floors="US">second floor</span> balcony to learn about the love affair with Romeo and the complications that have set in. She asks you to take a message to Romeo in Varrock square<br>
 <br>
 
 Find Romeo and he'll tell you of what is said in the letter. He directs you to Father Lawrence in the chapel to the north east<br>

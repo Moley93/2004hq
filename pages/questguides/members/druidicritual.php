@@ -16,7 +16,7 @@ Instructions:<br>
 <br>
 Talk to Kaqemeex and he'll tell you of what he needs to purify their cursed altar south of Varrock. He says to speak to Sanfew.<br>
 <br>
-Find Sanfew on the 2nd floor of the herblore shop. He says you need the 4 meats to be dipped in to the cauldron of thunder to complete a ritual. Hopefully you already have these meats and can go there right away.<br>
+Find Sanfew on the <span data-floors="US">2nd floor</span> of the herblore shop. He says you need the 4 meats to be dipped in to the cauldron of thunder to complete a ritual. Hopefully you already have these meats and can go there right away.<br>
 <br>
 Head south and a little west to taverly dungeon. Its in a clump of dead trees. You won't need armor but a good weapon to finish off some suits of armor (level 19) quickly will help.<br>
 <br>

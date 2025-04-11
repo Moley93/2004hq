@@ -18,7 +18,7 @@ Red Berries: You can find some near the Varrock mining area.<br>
 <br>
 Two buckets of water: Get an empty bucket (you can buy from shops) and use it on a sink, fountain or well.<br>
 <br>
-Flour: You need a pot and wheat, you can find wheat in a field east from Fred the farmers house. Bring the wheat to the windmill at the top floor use it with the hopper then operate the hopper, once your at the first floor your flour will be in the barrel.<br>
+Flour: You need a pot and wheat, you can find wheat in a field east from Fred the farmers house. Bring the wheat to the windmill at the top floor use it with the hopper then operate the hopper, once you're at the <span data-floors="US">first floor</span> your flour will be in the barrel.<br>
 <br>
 Ashes: Make a fire, once it burns out you get ashes.<br>
 <br>
