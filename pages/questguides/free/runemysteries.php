@@ -8,13 +8,13 @@ Description: Wanna Learn to craft Runes? This is the quest you need to complete 
 <br>
 Items/Skills Needed To Start: Pick Axe to mine Rune Essentials<br>
 <br>
-Starting Location: <span data-floors="US">Second floor</span> of Lumbridge Castle<br>
+Starting Location: <span data-floors="US">2nd floor</span> of Lumbridge Castle<br>
 <br>
 Reward: 1 Quest Point, free Teleport to the rune essence by speaking to either Aubury or Seridor<br>
 <br>
 Instructions:<br>
 <br>
-To start the quest speak to Duke Horacio who is located on the <span data-floors="US">second floor</span> of Lumbridge castle.<br>
+To start the quest speak to Duke Horacio who is located on the <span data-floors="US">2nd floor</span> of Lumbridge castle.<br>
 <br>
 
 He will tell you to give a rare air talisman to the Head Wizard who is located in the Wizard Tower. You will find him in the basement.<br>

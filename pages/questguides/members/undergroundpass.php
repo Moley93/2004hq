@@ -17,7 +17,7 @@ If your thieving is below level 50 you will probably have a harder time with thi
 <br>
 Reward: 5 Quest Points, Agility exp (amount depends on your level), Staff of Iban, 15 Death Runes, 30 Fire Runes, and the ability to use Iban Blast.<br>
 <br>
-1. Start, talk to king Lathas who is the <span data-floors="US">second floor</span> of the paladin tower in Ardourgne, he will tell you about the quest and tells you to talk to one of his scouts.<br>
+1. Start, talk to king Lathas who is the <span data-floors="US">2nd floor</span> of the paladin tower in Ardourgne, he will tell you about the quest and tells you to talk to one of his scouts.<br>
 <br>
 2. Head to west Ardournge and go as west as you can go and you should find Koftik, talk to him and then enter the cave near him.<br>
 <br>

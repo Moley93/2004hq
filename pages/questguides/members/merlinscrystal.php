@@ -24,7 +24,7 @@ Then talk to Sir Lancelot and ask him if he has any ideas to get into Keep Lefay
 Behind the candle shop, west of the bank is a crate, right click on it and choose "hide-in" and you will climb into the crate and be shipped to the Keep Lefaye Stronghold<br>
 <br>
 <br>
-Go up to the <span data-floors="US">third floor</span> and talk to Sir Mordred, he will attack you..when your close to killing him, Morgan Le Fay will appear and tell you to stop, and spare her sons life. Ask her how to untrap Merlin<br>
+Go up to the <span data-floors="US">3rd floor</span> and talk to Sir Mordred, he will attack you..when your close to killing him, Morgan Le Fay will appear and tell you to stop, and spare her sons life. Ask her how to untrap Merlin<br>
 <br>
 <br>
 Talk to the candle maker inside his shop and ask him if he can make you a black candle..he'll tell you that he will make you one if you bring him a bucket full of wax..so grab the insect repellent 1 house north of the bank in catherby then head west to the beehives use the insect repellent on the behinve then right click the hive & choose "take from".<br>

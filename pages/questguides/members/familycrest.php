@@ -70,7 +70,7 @@ VII) Open the cage and mine 2 "perfect" ores. (Note: you may or may not have to 
 <br>
 Third Son 1. For this part you will need a cure poison potion (it's a good idea to bring two, one for the son and one for you), probably some good armor, a good weapon, all of the runes needed to cast all four blast spells, and either a level 59 magic, or a Wizard's Mind Bomb (can be bought in Falador Bar for 2 coins). By the way, a Wizard's Mind Bomb temporarily increases you 3 magic levels, so you can do this part if you have a level 56 magic or higher.<br>
 <br>
-2. Once you have all of those items go to the Jolly Boar Inn. This is located northeast of Varrock. Look on the world map if you can't find it (it is the big bar). Go inside and go to the southern end. On the <span data-floors="US">second floor</span> you will find, in a room, a wizard.<br>
+2. Once you have all of those items go to the Jolly Boar Inn. This is located northeast of Varrock. Look on the world map if you can't find it (it is the big bar). Go inside and go to the southern end. On the <span data-floors="US">2nd floor</span> you will find, in a room, a wizard.<br>
 <br>
 <img src="img\questimages\famcrest11.jpg" height="200" width="200"><br>
 <img src="img\questimages\famcrest12.jpg" height="200" width="200"><br>
