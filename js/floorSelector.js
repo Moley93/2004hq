@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
       return null;
     };
   
-    const usuk = getCookie('usuk') || 'UK';
+    const usuk = getCookie('usuk') || 'US';
     const isUS = usuk === 'US';
   
     const ukToUs = {
