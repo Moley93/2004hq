@@ -4,9 +4,7 @@ function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
 function getSkillContent() { return <<<HTML
 <center><b>Defence</b></center>
 <br>
-<br>
-</tr>
-</table><br><br><b>Helmets</b><br><table style="text-align: center;" align="center">
+<br><br><b>Helmets</b><br><table style="text-align: center;" align="center">
 <tr>
 <td style="width: 450px;"><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20060702162501im_/http://www.runescape.com/img/kbase/armour/melee/allhelms.gif" alt="[image]"></td>
 </tr>
