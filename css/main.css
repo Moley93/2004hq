@@ -238,27 +238,64 @@ A.pink:hover {
     width: 100%;
     margin-bottom: 13px;
 }
-#style-select {
-    background-color: #0f0f0f;  /* Dark RS-style background */
-    color: #ccc;                /* Soft text color */
-    border: 1px solid #555;    /* Subtle border */
-    border-radius: 3px;        /* Slight rounding for modern feel */
-    padding: 2px 6px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
-    appearance: none;          /* Remove native arrow */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="%23ccc" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg"><polygon points="70,100 40,50 100,50"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 4px center;
-    background-size: 10px;
-}
+#site-options-container {
+    * { font-family: 'RSPlain12', sans-serif; }
+    font-size: 16px;
+    #site-options-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 999;
+    }
 
-#style-select:focus {
-    outline: none;
-    border-color: #77cc77;  /* RS-green accent on focus */
-    box-shadow: 0 0 4px #77cc77;
+    #site-options-modal {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    #site-options-content {
+        background: #111;
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 6px;
+        padding: 20px;
+        max-width: 300px;
+        width: 90%;
+        text-align: center;
+    }
+
+    #site-options-content select {
+        font-size: 18px;
+        width: 100%;
+        background: #222;
+        color: white;
+        border: 1px solid #555;
+        padding: 2px;
+    }
+    button.site-footer {
+        font-size: 18px;
+        background: #1a1a1a;
+        color: #ddd;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        padding: 1px 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #site-options-toggle:hover {
+        background: #222;
+        box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+        color: #fff;
+    }
+    #site-options-backdrop[hidden],
+    #site-options-modal[hidden] {
+        display: none;
+    }
 }
 .main-content {
 

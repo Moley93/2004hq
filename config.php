@@ -12,6 +12,7 @@ $meta_data = array(
 
 $stopload = false;
 $style = $_COOKIE['style'] ?? 'default';
+$usuk = $_COOKIE['usuk'] ?? 'US';
 $debugMode = false;
 
 if ($debugMode) { error_reporting(0); }

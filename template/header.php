@@ -23,7 +23,9 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png" />
     <link rel="stylesheet" href="css/main.css" />
-    <script type="text/javascript" src="js/spriteloader.js"></script>
+    <script type="text/javascript" src="js/siteOptions.js"></script>
+    <script type="text/javascript" src="js/spriteLoader.js"></script>
+    <script type="text/javascript" src="js/floorSelector.js"></script>
     <?php if (function_exists('getExtraHeaderContent')) {
         echo getExtraHeaderContent();
     } ?>

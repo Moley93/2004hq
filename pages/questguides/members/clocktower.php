@@ -28,9 +28,9 @@ Use the colored block to see where to go. Go down the pass to a door. Behind the
 <img src="img\questimages\clocktower1.png" height="200" width="200"><br>
 <br>
 <br>
-Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder up to the first floor.<br>
+Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder up to the <span data-floors="US">1st floor</span>.<br>
 <br>
-At the first floor use your black cog on the black pole.<br>
+At the <span data-floors="US">1st floor</span> use your black cog on the black pole.<br>
 <br>
 Red Cog<br>
 <br>
@@ -42,7 +42,7 @@ Go through the door and you get to a room with three ogre's which are level 53 a
 <img src="img\questimages\clocktower2.png" height="200" width="200"><br>
 <br>
 <br>
-Go back to the ladder, go up to the 2nd floor and use red cog on the red pole.<br>
+Go back to the ladder, go up to the <span data-floors="US">2nd floor</span> and use red cog on the red pole.<br>
 <br>
 White Cog<br>
 <br>
@@ -62,7 +62,7 @@ Inside the cage you will see the rats food trough. Use the rat poison on it and 
 <img src="img\questimages\clocktower4.png" height="200" width="200"><br>
 <br>
 <br>
-Pick up the white cog and go up the ladder, and you will appear outside of the clock tower. Go inside and use the white cog on the white pole near the ladder, on the 3rd floor.<br>
+Pick up the white cog and go up the ladder, and you will appear outside of the clock tower. Go inside and use the white cog on the white pole near the ladder, on the <span data-floors="US">3rd floor</span>.<br>
 <br>
 Blue Cog<br>
 <br>
@@ -80,7 +80,7 @@ Go up the ladder in the room and you will appear outside the clock tower. Now go
 <img src="img\questimages\clocktower6.png" height="200" width="200"><br>
 <br>
 <br>
-Go down the ladder and just follow the passage to a wall. Go through the door and pick up the blue cog. Go up the ladder and go inside the clock tower, up the staircase to 2nd floor and use blue cog on blue pole.<br>
+Go down the ladder and just follow the passage to a wall. Go through the door and pick up the blue cog. Go up the ladder and go inside the clock tower, up the staircase to <span data-floors="US">2nd floor</span> and use blue cog on blue pole.<br>
 <br>
 Now that all of the cogs have been placed talk to Brother Kojo to receive your reward.<br>
 <br>
