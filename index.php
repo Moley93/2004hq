@@ -26,6 +26,9 @@ if (!empty($_GET['p'])) {
         //case 'updatetables':
         //    include 'pages/thesneilert/updatecluetables.php';
         //    break;
+        case 'streetprices':
+            include 'pages/streetprices.php';
+            break;
         default:
         case '404':
             include 'pages/main/404.php';
