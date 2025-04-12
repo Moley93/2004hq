@@ -3,31 +3,31 @@ include 'config.php';
 if (!empty($_GET['p'])) {
     switch (htmlspecialchars($_GET['p'])) {
         case 'questguides':
-            include 'pages/main/questguides.php';
+            include 'pages/questguides/questguides.php';
             break;
         case 'skillguides':
-            include 'pages/main/skillguides.php';
+            include 'pages/skillguides/skillguides.php';
+            break;
+        case 'droptables':
+            include 'pages/thesneilert/droptables.php';
+            break;
+        case 'cluetables':
+            include 'pages/thesneilert/cluetables.php';
+            break;
+        case 'clueguides':
+            include 'pages/clueguides/clueguides.php';
+            break;
+        case 'calculators':
+            include 'pages/calculators/calculators.php';
+            break;
+        //case 'updatetables':
+        //    include 'pages/api/updatecluetables.php';
+        //    break;
+        case 'streetprices':
+            include 'pages/streetprices/streetprices.php';
             break;
         case 'changelog':
             include 'pages/main/changelog.php';
-            break;
-        case 'droptables':
-            include 'pages/main/droptables.php';
-            break;
-        case 'cluetables':
-            include 'pages/main/cluetables.php';
-            break;
-        case 'clueguides':
-            include 'pages/main/clueguides.php';
-            break;
-        case 'calculators':
-            include 'pages/main/calculators.php';
-            break;
-        //case 'updatetables':
-        //    include 'pages/thesneilert/updatecluetables.php';
-        //    break;
-        case 'streetprices':
-            include 'pages/main/streetprices.php';
             break;
         default:
         case '404':

@@ -26,7 +26,5 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <script type="text/javascript" src="js/siteOptions.js"></script>
     <script type="text/javascript" src="js/spriteLoader.js"></script>
     <script type="text/javascript" src="js/floorSelector.js"></script>
-    <?php if (function_exists('getExtraHeaderContent')) {
-        echo getExtraHeaderContent();
-    } ?>
+    <?php if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); } ?>
 </head>

@@ -126,10 +126,12 @@ function renderQuestList(array $questlist): string {
         display: flex;
         gap: 40px;
         width: fit-content;
+        margin: auto;
     }
     .quest-column {
         display: flex;
         flex-direction: column;
+        text-align: left;
     }
     .quest-header {
         color: #FF981F;

@@ -13,7 +13,7 @@ function getPageContent() {
         echo '<script src="js/skillgrid.js"></script><br>';
     } else {
         $currSkill = htmlspecialchars($_GET['skill']);
-        $filePath = 'pages/skillguides/' . $currSkill . '.php';
+        $filePath = 'pages/skillguides/skills/' . $currSkill . '.php';
 
         if (file_exists($filePath)) {
             include $filePath;

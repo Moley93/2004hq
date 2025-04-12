@@ -1,6 +1,4 @@
-body,
-p,
-td {
+.main-menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
@@ -121,17 +119,9 @@ A.pink:hover {
     src: url('../assets/RuneScape-Quill-8.otf');
 }
 
-.rsbold12 {
-    font-family: RSBold12;
-}
-
-.rsplain12 {
-    font-family: RSPlain12;
-}
-
-.rsquill8 {
-    font-family: RSQuill8;
-}
+.rsbold12 { font-family: RSBold12; }
+.rsplain12 { font-family: RSPlain12; }
+.rsquill8 { font-family: RSQuill8; }
 
 .lc-message-header {
     display: grid;
@@ -298,17 +288,14 @@ A.pink:hover {
     }
 }
 .main-content {
-
-    p,
-    div,
-    span,
-    td,
-    a {
+    align-items: center;
+    text-align: center;
+    * {
         font-family: 'RSPlain12', sans-serif;
         font-size: 18px;
     }
 
-    th {
+    th, h3 {
         font-size: 22px;
     }
     .sheet-pagination {
