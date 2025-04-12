@@ -12,7 +12,7 @@ function getPageContent() {
 
 Site by Moley, Eilert, Halogod & Collin.<br><br>
 <u><b>Change Log</b></u>
-<br />
+<br><br>
 <div id="log-table-container">
 <style>
     #log-table-container {
