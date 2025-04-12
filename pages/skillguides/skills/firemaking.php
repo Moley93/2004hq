@@ -20,55 +20,59 @@ function getSkillContent() { return <<<HTML
 <td style="width: 100px; border-style: none;"><br style="clear: both;"><b>Members Only?</b><br><br style="clear: both;"></td>
 </tr>
 <tr class="row_b">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/normal_logs.gif" alt="[image]">Normal</td>
+<td><canvas data-itemname="logs"></canvas>Normal</td>
 <td>1</td>
 <td>40</td>
 <td>No</td>
 </tr>
 <tr class="row_a">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/achey_logs.gif" alt="[image]">Achey</td>
+<td><canvas data-itemname="achey_logs"></canvas>Achey</td>
 <td>1</td>
 <td>40</td>
 <td>No</td>
 </tr>
 <tr class="row_b">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/oak_logs.gif" alt="[image]">Oak</td>
+<td><canvas data-itemname="oak_logs"></canvas>Oak</td>
 <td>15</td>
 <td>60</td>
 <td>No</td>
 </tr>
 <tr class="row_a">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/willow_logs.gif" alt="[image]">Willow</td>
+<td><canvas data-itemname="willow_logs"></canvas>Willow</td>
 <td>30</td>
 <td>90</td>
 <td>No</td>
 </tr>
+<!-- disabled till 2005
 <tr class="row_b">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/teak_logs.gif" alt="[image]">Teak</td>
+<td><canvas data-itemname="teak_logs"></canvas>Teak</td>
 <td>35</td>
 <td>105</td>
 <td>Yes</td>
 </tr>
+-->
 <tr class="row_a">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/maple_logs.gif" alt="[image]">Maple</td>
+<td><canvas data-itemname="maple_logs"></canvas>Maple</td>
 <td>45</td>
 <td>135</td>
 <td>No</td>
 </tr>
+<!-- disabled till 2005
 <tr class="row_b">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/mahogany_logs.gif" alt="[image]">Mahogany</td>
+<td><canvas data-itemname="mahogany_logs"></canvas>Mahogany</td>
 <td>50</td>
 <td>157.5</td>
 <td>Yes</td>
 </tr>
+-->
 <tr class="row_a">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/yew_logs.gif" alt="[image]">Yew</td>
+<td><canvas data-itemname="yew_logs"></canvas>Yew</td>
 <td>60</td>
 <td>202.5</td>
 <td>No</td>
 </tr>
 <tr class="row_b">
-<td><img style="display: inline;display: block; margin: 0 auto 0 auto;" src="https://web.archive.org/web/20061102162750im_/http://www.runescape.com/img/kbase/items/logs/magic_logs.gif" alt="[image]">Magic</td>
+<td><canvas data-itemname="magic_logs"></canvas>Magic</td>
 <td>75</td>
 <td>303.8</td>
 <td>Yes</td>

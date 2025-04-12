@@ -41,42 +41,42 @@ Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/bow.gif"></center></td>
+<td><center><canvas data-itemname="shortbow"></canvas><canvas data-itemname="longbow"></canvas></center></td>
 <td><center>Standard</center></td>
 <td><center>Level 1</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/oak.gif"></center></td>
+<td><center><canvas data-itemname="oak_shortbow"></canvas><canvas data-itemname="oak_longbow"></canvas></center></td>
 <td><center>Oak</center></td>
 <td><center>Level 5</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/willow.gif"></center></td>
+<td><center><canvas data-itemname="willow_shortbow"></canvas><canvas data-itemname="willow_longbow"></canvas></center></td>
 <td><center>Willow</center></td>
 <td><center>Level 20<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/maple.gif"></center></td>
+<td><center><canvas data-itemname="maple_shortbow"></canvas><canvas data-itemname="maple_longbow"></canvas></center></td>
 <td><center>Maple</center></td>
 <td><center>Level 30<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/yew.gif"></center></td>
+<td><center><canvas data-itemname="yew_shortbow"></canvas><canvas data-itemname="yew_longbow"></canvas></center></td>
 <td><center>Yew</center></td>
 <td><center>Level 40<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/fletching/magic.gif"></center></td>
+<td><center><canvas data-itemname="magic_shortbow"></canvas><canvas data-itemname="magic_longbow"></canvas></center></td>
 <td><center>Magic</center></td>
 <td><center>Level 50<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
@@ -98,133 +98,133 @@ Experienced rangers (level 40) may enter the Ranging Guild in the Seers' Village
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/plainleather.gif"></center></td>
+<td><center><canvas data-itemname="leather_body"></canvas></center></td>
 <td><center>Plain Leather Items</center></td>
 <td><center>Level 1</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/hardleather.gif"></center></td>
+<td><center><canvas data-itemname="hardleather_body"></canvas></center></td>
 <td><center>Hard Leather Body</center></td>
 <td><center>Level 1<br>(10 Defence)</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Studded_body.png?e2ce1"></center></td>
+<td><center><canvas data-itemname="studded_body"></canvas></center></td>
 <td><center>Studded Leather Body</center></td>
 <td><center>Level 20<br>(20 Defence)</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/crafting/studchap.gif"></center></td>
+<td><center><canvas data-itemname="studded_chaps"></canvas></center></td>
 <td><center>Studded chaps</center></td>
 <td><center>Level 20</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/coif.gif"></center></td>
+<td><center><canvas data-itemname="coif"></canvas></center></td>
 <td><center>Coif</center></td>
 <td><center>Level 20</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/crafting/dragbody.gif"></center></td>
+<td><center><canvas data-itemname="dragonhide_body"></canvas></center></td>
 <td><center>Green Dragonhide body</center></td>
 <td><center>Level 40</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/crafting/dragchaps.gif"></center></td>
+<td><center><canvas data-itemname="dragonhide_chaps"></canvas></center></td>
 <td><center>Green Dragonhide chaps</center></td>
 <td><center>Level 40</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/crafting/dragvambrace.gif"></center></td>
+<td><center><canvas data-itemname="dragonhide_vamb"></canvas></center></td>
 <td><center>Green Dragonhide vambraces</center></td>
 <td><center>Level 40</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/hood.gif"></center></td>
+<td><center><canvas data-itemname="trail_robin_hood_hat"></canvas></center></td>
 <td><center>Robin Hood hat</center></td>
 <td><center>Level 40<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Ranger_boots.png?9a45f"></center></td>
+<td><center><canvas data-itemname="trail_ranger_boots"></canvas></center></td>
 <td><center>Rangers Boots</center></td>
 <td><center>Level 40<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/bldragbody.gif"></center></td>
+<td><center><canvas data-itemname="blue_dragonhide_body"></canvas></center></td>
 <td><center>Blue Dragonhide body</center></td>
 <td><center>Level 50<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Blue_d%27hide_chaps.png?75625"></center></td>
+<td><center><canvas data-itemname="blue_dragonhide_chaps"></canvas></center></td>
 <td><center>Blue Dragonhide chaps</center></td>
 <td><center>Level 50<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/bldragvambrace.gif"></center></td>
+<td><center><canvas data-itemname="blue_dragonhide_vambraces"></canvas></center></td>
 <td><center>Blue Dragonhide vambraces</center></td>
 <td><center>Level 50<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/reddragbody.gif"></center></td>
+<td><center><canvas data-itemname="red_dragonhide_body"></canvas></center></td>
 <td><center>Red Dragonhide body</center></td>
 <td><center>Level 60<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/reddragchaps.gif"></center></td>
+<td><center><canvas data-itemname="red_dragonhide_chaps"></canvas></center></td>
 <td><center>Red Dragonhide chaps</center></td>
 <td><center>Level 60<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/reddragvambrace.gif"></center></td>
+<td><center><canvas data-itemname="red_dragonhide_vambraces"></canvas></center></td>
 <td><center>Red Dragonhide vambraces</center></td>
 <td><center>Level 60<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/blkdragbody.gif"></center></td>
+<td><center><canvas data-itemname="black_dragonhide_body"></canvas></center></td>
 <td><center>Black Dragonhide body</center></td>
 <td><center>Level 70<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/blkdragchaps.gif"></center></td>
+<td><center><canvas data-itemname="black_dragonhide_chaps"></canvas></center></td>
 <td><center>Black Dragonhide chaps</center></td>
 <td><center>Level 70<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
 
 
 <tr>
-<td><center><img src="https://web.archive.org/web/20050204063837im_/http://www.runescape.com/img/rs2/manual/ranging/blkdragvambrace.gif"></center></td>
+<td><center><canvas data-itemname="black_dragonhide_vambraces"></canvas></center></td>
 <td><center>Black Dragonhide vambraces</center></td>
 <td><center>Level 70<br><a href="https://web.archive.org/web/20050204063837/http://www.runescape.com/aff/runescape/members/members.html"</center></td>
 </tr>
