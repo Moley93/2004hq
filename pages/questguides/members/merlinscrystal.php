@@ -4,7 +4,7 @@ function getQuestGuide() { return <<<HTML
 <br>
 Description:Merlin the Wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the Knights of the Round Table<br>
 <br>
-<b>Difficulty Level: <font color="Yellow">Medium</font><font color="Red">Hard</font></b><br>
+<b>Difficulty Level: <font color="Yellow">Medium</font>/<font color="Red">Hard</font></b><br>
 <br>
 Items/Skills Needed To Start:Bat Bones, Black Candle, Tinderbox, Loaf of Bread<br>
 <br>

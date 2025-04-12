@@ -10,7 +10,7 @@ Description: The Servil family has been broken up by the evil General Khazard. R
 <br>
 <b>Difficulty Level: <font color="red">Hard</font></b><br>
 <br>
-Items/Skills needed to start: 5 coins, a good weapon and armor are a MUST. Ability to defeat a level 132 bouncer and level 112 General Khazard.<br>
+Items/Skills Needed To Start: 5 coins, a good weapon and armor are a MUST. Ability to defeat a level 132 bouncer and level 112 General Khazard.<br>
 <br>
 Starting Location: Lady Servil, she's southeast of the gnome battlefield, the northwest edge of the arena camp.<br>
 <br>

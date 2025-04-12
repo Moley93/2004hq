@@ -10,7 +10,7 @@ Items/Skills Needed To Start: Maybe a weapon, 50+ Coins<br>
 <br>
 Starting Location: Port Sarim Pub<br>
 <br>
-Reward: 5 Quest Points, 815 Crafting experience, 1 Gold Bar<br>
+Reward: 5 Quest Points, 815 Crafting XP, 1 Gold Bar<br>
 <br>
 Instructions:<br>
 <br>

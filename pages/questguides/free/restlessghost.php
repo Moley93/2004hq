@@ -6,11 +6,11 @@ Description: Father Aerick of Lumbridge wants you to rid his graveyard of a ghos
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
-Items/Skills Needed to Start: Ability to kill a level 19 skeleton<br>
+Items/Skills Needed To Start: Ability to kill a level 19 skeleton<br>
 <br>
 Starting Location: Lumbridge Chapel<br>
 <br>
-Reward: 1 Quest Point and 1,125 Prayer experience<br>
+Reward: 1 Quest Point, 1,125 Prayer XP<br>
 <br>
 Instructions:<br>
 <br>
