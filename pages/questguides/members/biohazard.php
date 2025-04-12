@@ -36,7 +36,7 @@ The chemist is located just west of Rimmington. After you reach there, talk to t
 <br>
 Now it's time to give the vials to the 3 children. Give Hops the Sulphuric Broline, Chancy the honey and give DeVinci the Ethena. They will say that they will meet you in the dancing donkey inn.<br>
 <br>
-The Dancing Donkey Inn is located in southeast of Varrok. Before you reach there, a guard should search you. That’s why you will need the children to smuggle the vial. Talk to the children in Dancing Monkey Inn to get back the vials.<br>
+The Dancing Donkey Inn is located in southeast of Varrok. Before you reach there, a guard should search you. That's why you will need the children to smuggle the vial. Talk to the children in Dancing Monkey Inn to get back the vials.<br>
 <br>
 The Guidor's house is just southeast of this inn. Talk to his wife, she will say that she need a priest. If you have the priest rubes and gown here, put it on and talk to his wife again. She will allow you to go in. .<br>
 <br>

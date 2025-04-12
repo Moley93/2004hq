@@ -18,21 +18,21 @@ Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Add
 2. After Irena tells you about her daughter Ana, and leaves you to find her yourself. Go South a ways and examine the footsteps. They hint at you to go south (westward just a pinch, too) to the Mining Camp. (MAKE SURE you find the Kharidian Cactus & cut them to keep water in your Waterskin[s].)<br>
 <br>
 <br>
-3. Talk to the Mercenaries around there until you get them to admit that they don’t like the Captain. This will cost you 5gp a bribe. Find out that the Captain doesn’t like to fight his own battles. (IF you get busted they will take you to the desert and take all but ONE Waterskin.)<br>
+3. Talk to the Mercenaries around there until you get them to admit that they don't like the Captain. This will cost you 5gp a bribe. Find out that the Captain doesn't like to fight his own battles. (IF you get busted they will take you to the desert and take all but ONE Waterskin.)<br>
 <br>
 <br>
-4. Now talk to the Captain, get him roused until he tells you he will call his Guards. Pick the option about asking him to fight his own fights. Then he challenges you. Once he’s dead a Metal Key will be added to your inventory. Use this to go inside with NO Armour or Weapons On! (ONCE you’ve killed the Captain you can come here to kill him again and get the key without all the dialogue.)<br>
+4. Now talk to the Captain, get him roused until he tells you he will call his Guards. Pick the option about asking him to fight his own fights. Then he challenges you. Once he's dead a Metal Key will be added to your inventory. Use this to go inside with NO Armour or Weapons On! (ONCE you've killed the Captain you can come here to kill him again and get the key without all the dialogue.)<br>
 <br>
 <br>
-5. Talk to the Male Slave who’s trying to escape. After some conversation trade clothes with him. You will have to speak to him a second time to do so. (IF you get caught inside the camp the Guards & Mercenaries may throw you in jail. A Cell Key can be found upstairs in Captain Siad’s desk.)<br>
+5. Talk to the Male Slave who's trying to escape. After some conversation trade clothes with him. You will have to speak to him a second time to do so. (IF you get caught inside the camp the Guards & Mercenaries may throw you in jail. A Cell Key can be found upstairs in Captain Siad's desk.)<br>
 <br>
 <br>
-6. Now with your slave outfit on go downstairs through the huge door and follow the path to the TWO Mercenaries. Talk to one and ask him to let you trade spots. He will hint at you getting a Pineapple for him first. (MAKE SURE you don’t have armor or weapons on around the Mercenaries.)<br>
+6. Now with your slave outfit on go downstairs through the huge door and follow the path to the TWO Mercenaries. Talk to one and ask him to let you trade spots. He will hint at you getting a Pineapple for him first. (MAKE SURE you don't have armor or weapons on around the Mercenaries.)<br>
 <br>
-7. Leave the camp completely. Go due west until you find the Nomad’s Camp. Talk to Al Shabim until you can ask him for a Pineapple. He will reveal the plan to get Blueprints from Captain Siad. Agree and he will give you a copy of the Chest Key. Now head back to the Mining Camp. (NOTE you can get more supplies from the nomads.)<br>
+7. Leave the camp completely. Go due west until you find the Nomad's Camp. Talk to Al Shabim until you can ask him for a Pineapple. He will reveal the plan to get Blueprints from Captain Siad. Agree and he will give you a copy of the Chest Key. Now head back to the Mining Camp. (NOTE you can get more supplies from the nomads.)<br>
 <br>
 <br>
-8. Inside the Mining Camp go upstairs in the building to Captain Siad’s room. Get the Cell Key by searching his desk. Search the Bookcases till you find that he has books about sailing. Now talk to him.<br>
+8. Inside the Mining Camp go upstairs in the building to Captain Siad's room. Get the Cell Key by searching his desk. Search the Bookcases till you find that he has books about sailing. Now talk to him.<br>
 <br>
 <br>
 9. Start with “Hello”. Try to continue talking to him and then start on sailing. After a while choose the comment on his “Jib”. He will then be distracted enough to unlock the Chest and get the Blueprints.<br>
