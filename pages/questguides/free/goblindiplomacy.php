@@ -12,7 +12,7 @@ Starting Location: Port Sarim Pub<br>
 <br>
 Reward: 5 Quest Points, 815 Crafting XP, 1 Gold Bar<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 To begin the quest, speak with the Bartender at the Rusty Anchor, located in Port Sarim. He tells you that the goblins are about to go to war over the color of their armor.<br>
 <br>

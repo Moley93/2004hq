@@ -12,7 +12,7 @@ Starting Location: Draynor Manor<br>
 <br>
 Reward: 300 Coins and 4 Quest Points<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Veronica outside the Mansion in Draynor. She will tell you about Ernest. He has gone into the house for an hour and hasn't come out yet. Tell her that you will help her to find Ernest.<br>
 <br>

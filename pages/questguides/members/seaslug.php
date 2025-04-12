@@ -12,7 +12,7 @@ Starting Location: South of the legends guild and south east of ardounge .<br>
 <br>
 Reward: quest point, Oyster pearls, 7175 fishing xp<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Caroline, she'll tell you of her plight. She tells you that her friend Holgart can take you to the platform.<br>
 <br>

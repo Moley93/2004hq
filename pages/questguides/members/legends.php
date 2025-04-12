@@ -20,7 +20,7 @@ Starting Location: Talk to Radimus Erkle in Legends Guild.<br>
 <br>
 Reward: 4 Skills of your choice to gain exp, 7650 for each skill choosen...... total = 30600 ., entrance to the Legends Guild and ability to wear Dragon Square Shield. [Also you can buy and wear the Legends cape and purchase Flower seeds.]<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Radimus Erkle in his office at the Legends Guild. You will receive 3 tasks to accomplish: complete a Map of the Kharazi Jungle, make friends with the Natives, and bring a symbol from the Natives back to the Guild. He provides the Radimus Notes.<br>
 <br>

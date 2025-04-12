@@ -13,7 +13,7 @@ Starting Location: <span data-floors="US">3rd floor</span> of White Knights' Cas
 <br>
 Reward: 2500 coins and 3 Quest Points.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 1. Talk to Sir Amik Varze. He will tell you that the Black knights are planning to destroy the White knights. He will ask you to spy on them. Accept his challenge.<br>
 <br>

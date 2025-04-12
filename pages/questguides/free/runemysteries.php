@@ -15,7 +15,7 @@ Starting Location: <span data-floors="US">2nd floor</span> of Lumbridge Castle<b
 <br>
 Reward: 1 Quest Point, free teleport to the Rune Essence Mine by speaking to either Aubury or Sedridor<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 To start the quest, speak to Duke Horacio, who is located on the <span data-floors="US">2nd floor</span> of Lumbridge Castle.<br>
 <br>

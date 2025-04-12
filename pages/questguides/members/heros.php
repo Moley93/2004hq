@@ -12,7 +12,7 @@ Starting Location: North of Taverley, outside the Hero's guild<br>
 <br>
 Reward: 1 quest point, access to the Hero's Guild, ability to buy a Dragon Axe and Mace. Attack +2825, Defence +2625, Strength +3025, Hits +2775, Ranged +1525, Cooking +2725, Woodcutting +1875 Firemaking +2725, Smithing +2225 Mining +2575, Herblore +1825<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Speak to Achetties about joining the guild. Achetties will tell you to get three items. These are Firebird's Feather, Cooked Lava Eel and the Master Thieves Armband. You can get these in any order.<br>
 <br>

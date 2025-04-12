@@ -13,7 +13,7 @@ Starting Location: The pub in Port Sarim<br>
 <br>
 Reward: 2 Quest Points, 450 coins, a Cut Emerald, and a Gold Ring<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Redbeard the pirate. He will tell you about the treasure. Say that you want to get it. He will ask you to bring him some rum.<br>
 <br>

@@ -12,7 +12,7 @@ Starting Location: Camelot Castle<br>
 <br>
 Reward: 2 Quest points, about 5-10k defense experience, and 10750 prayer experience, or possibly more or less depending on your prayer level.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to King Arthur in the Castle in Camelot. He will tell you that he wants you to go on a quest to retrieve the Holy Grail and that for more details you should talk to Merlin.<br>
 <br>

@@ -12,7 +12,7 @@ Starting Location: Lumbridge Chapel<br>
 <br>
 Reward: 1 Quest Point, 1,125 Prayer XP<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Father Aerick and he'll inform you of the situation. He wants you to visit Father Urhney, who is meditating in the swamps (how boring would that be?), and ask him how to get rid of the ghost.<br>
 <br>

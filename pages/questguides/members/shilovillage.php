@@ -12,7 +12,7 @@ Starting Location: Deep in Karamja Jungle. When you see a village covered with w
 <br>
 Reward: 2 quest points, 3915 crafting experience. Ability to get into Shilo Village<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Mosol and he will tell you about Rashiliyia. She has brought a plague of Undead upon the village. Ask him what you can do, he will say that you will need to find Trufitus who is the guy you talk to to start the jungle potion quest. He will also give you a Wambum belt.<br>
 <br>

@@ -12,7 +12,7 @@ Items/Skills Needed To Start: 25 Bones, 1 Coin<br>
 <br>
 Reward: 3 quest points, you can keep Silverlight, which is useful for weakening any kind of demon<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 1. Talk to the Gypsy in her tent and pay her a coin to reveal the future to you. She'll do her thing and tell you that Delrith has been released. She also says that you're the only one who can stop him. She goes on into some history of Delrith, then tells you to see Sir Prysin in Varrock castle. Make sure you ask what the magical incantation is. You don't need to write it down if you're following this guide.<br>
 <br>

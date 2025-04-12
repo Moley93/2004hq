@@ -12,7 +12,7 @@ Starting Location: North of the Paladin Tower, in northwest Ardougne<br>
 <br>
 Reward: 1 quest point, a Magic Scroll, 2425 mining xp, which tells you that you can now cast the Ardougne teleport, providing you have the magic level and the runes.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Edmond. He will tell you about his daughter who has gone to West Ardougne to investigate the plague. He will ask you to talk to his wife.<br>
 <br>

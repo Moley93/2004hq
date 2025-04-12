@@ -12,7 +12,7 @@ Starting Location: The house just west of the sheep, northwest of Lumbridge<br>
 <br>
 Reward: 1 Quest Point, 200 Crafting XP, 60 gold coins<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Fred the Farmer, who is located north of Lumbridge in the little building by all the sheep. Tell him that you are in search of a quest. He'll respond by saying his sheep need to be sheared and will reward you if you bring back 20 balls of wool.<br>
 <br>

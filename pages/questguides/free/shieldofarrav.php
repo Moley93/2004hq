@@ -28,27 +28,27 @@ Blackarm Gang:<br>
 <br>
 6. If you chose Black Arm, then Katrine will tell you to steal some Phoenix crossbows. This is where your friend comes in.<br>
 <br>
-7. Have your friend go to the blue moon inn and kill johnny the beard(level2). Retrieve the scroll and have him go to the phoenix gang. when you talk to the gang leader, located in a small house where it will be marked by a dungeon icon on your map.<br>
+7. Have your friend go to the Blue Moon Inn and kill Johnny the Beard (level 2). Retrieve the scroll and have him go to the Phoenix Gang. Talk to the gang leader, who is located in a small house marked by a dungeon icon on your map.<br>
 <br>
-8. The phoenix gang leader will give you a key to the phoenix gangs weapon store(located right beside the entrance. Have your friend retrieve some crossbows from the armory and give them to you. also before you leave make sure your friend grabs the other part of the shield for you.<br>
+8. The Phoenix Gang leader will give you a key to the gang's weapon store (located right beside the entrance). Have your friend retrieve some crossbows from the armory and give them to you. Also, before you leave, make sure your friend grabs the other part of the shield for you.<br>
 <br>
-9. Now that you have the crossbows your friend part is done, talk to katrine and tell her about the crossbows, then enter the upper area of the gang house and retrieve the shield.<br>
+9. Now that you have the crossbows, your friend's part is done. Talk to Katrine and tell her about the crossbows, then enter the upper area of the gang house and retrieve the shield.<br>
 <br>
-10. Talk to the king and he will tell you to go to the museum to show the curator. the curator will give you 2 scrolls.<br>
+10. Talk to the king, and he will tell you to go to the museum to show the curator. The curator will give you two scrolls.<br>
 <br>
 11. Take the scrolls to the king and claim your reward.<br>
 <br>
 Phoenix Gang:<br>
 <br>
-1. Starting the phoenix gang again talk to baereck he will tell you about the quest, first before leaving and going to the gang go to the blue moon inn and kill johnny the beard(level2)<br>
+5. To start the Phoenix Gang path, talk to Baerek. He will tell you about the quest. Before going to the gang, go to the Blue Moon Inn and kill Johnny the Beard (level 2).<br>
 <br>
-2. After killing johnny, take the scroll he drops and go to the phoenix gangs house. it is marked by a large dungeon icon on your map in the back of varrok by aubury.<br>
+6. After killing Johnny, take the scroll he drops and go to the Phoenix Gang's house. It is marked by a large dungeon icon on your map, in the back of Varrock near Aubury.<br>
 <br>
-3. Go down the ladder and talk to the gang leader, he will talk and talk about vtm corporation, tell him you know who they really are.<br>
+7. Go down the ladder and talk to the gang leader. He will talk at length about the VTM Corporation. Tell him you know who they really are.<br>
 <br>
-4. He says okay and ask him to join. he says you have to kill an agent and bring his intelligence scroll., you already have that.<br>
+8. He will say okay and allow you to ask to join. He'll say you need to kill an agent and bring back his intelligence scroll. You already have that.<br>
 <br>
-5. Give it to the gang leader and hell let you inside. get the shield and make your friend get the other part in the blackarm gang.<br>
+9. Give it to the gang leader, and he'll let you inside. Get the shield, and have your friend get the other part from the Black Arm Gang.<br>
 <br>
 Note: Give your friend one of the reward scrolls for his part in this.<br>
 <br>
@@ -56,5 +56,5 @@ Congrats! You're 600 gold richer and have gained a quest point.<br>
 <br>
 This quest guide was written on RuneHQ by halojunkie.<br>
 <br>
-This quest guide was entered into the database on Tue, Apr 13, 2004, at 05:38:26 PM by DRAVAN and was last updated on Tue, May 18, 2004, at 02:48:43 PM.<br>
+This quest guide was entered into the database on Tue, Apr 13, 2004, at 05:38:26 PM by DRAVAN, and was last updated on Tue, May 18, 2004, at 02:48:43 PM.<br> 
 HTML; }

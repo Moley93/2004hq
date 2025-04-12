@@ -12,7 +12,7 @@ Starting Location: East or west of White Wolf Mountain, talk to the dwarf<br>
 <br>
 Reward: 1 quest point, 3225 fishing experience, access to the underground home of the Mountain Dwarves<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to the Dwarf and say that you want to use the secret way to across the White Wolf Mountain also tell him you want to become his friend,he will ask you to recievea trophy at the Hemenster Fishing Competition.He will also give you a Competition Pass.<br>
 <br>

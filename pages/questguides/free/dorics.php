@@ -12,7 +12,7 @@ Starting Location: Doric's Anvil (north of Falador)<br>
 <br>
 Reward: 1 Quest Point, 1,300 Mining XP, 180 gold coins, permission to use Doric's anvils<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 1. First, talk to Doric, who is located northwest of Falador. He'll tell you that to use his anvils, he needs 6 Clay, 4 Copper ore, and 2 Iron ore.<br>
 <br>

@@ -12,7 +12,7 @@ Starting Location: Just south of ardougne chapel. East of the West/East ardounge
 <br>
 Reward: 4 quest points, 3100gp<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to Councilor Halgrive and he'll inform you of the dire situation. He gives you some poison feed. He also tells you to speak to Doctor Orbon in the chapel just north of him.<br>
 <br>
