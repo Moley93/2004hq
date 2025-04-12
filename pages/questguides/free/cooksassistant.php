@@ -10,7 +10,7 @@ Items/Skills Needed To Start: Egg, Bucket of milk, and Pot of flour<br>
 <br>
 Starting Location: Lumbridge Castle<br>
 <br>
-Reward: 1 Quest Point, 300 Cooking experience, Permission to use the Cook's range<br>
+Reward: 1 Quest Point, 300 Cooking XP, Permission to use the Cook's range<br>
 <br>
 Instructions:<br>
 <br>

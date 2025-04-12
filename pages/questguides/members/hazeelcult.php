@@ -4,7 +4,7 @@ function getQuestGuide() { return <<<HTML
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
-Items needed to start: None<br>
+Items Needed To Start: None<br>
 <br>
 Starting Location: West Ardougne southeast of plague gate<br>
 <br>

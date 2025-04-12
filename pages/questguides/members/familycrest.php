@@ -6,7 +6,7 @@ Description: The Fitzharmon family crest has gone missing, and the family honour
 <br>
 <b>Difficulty Level: <font color="red">Hard</font></b><br>
 <br>
-Items/Skills needed to start: Level 40 mining, level 40 smithing, level 40 crafting, level 59 magic (or if you are 56 you can use a Wizard's Mind Bomb, bought in Falador bar), two cut rubies, all the runes needed to cast all of the "Blast" spells, a cure poison potion, a pickaxe, some good armor, a good weapon, and some food.<br>
+Items/Skills Needed To Start: Level 40 mining, level 40 smithing, level 40 crafting, level 59 magic (or if you are 56 you can use a Wizard's Mind Bomb, bought in Falador bar), two cut rubies, all the runes needed to cast all of the "Blast" spells, a cure poison potion, a pickaxe, some good armor, a good weapon, and some food.<br>
 <br>
 Starting Location: Southeast of the East Varrock bank.<br>
 <br>
@@ -16,15 +16,15 @@ Instructions:<br>
 <br>
 1. Go to the little house southeast of the East bank in Varrock. You should find a man named Dimintheis.<br>
 <br>
-<img src="img\questimages\famcrest1.jpg" height="200" width="200"><br>
-<img src="img\questimages\famcrest2.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest1.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest2.jpg" height="200" width="200"><br>
 <br>
 Talk to him about the family crest. You will need to talk to his sons who have the pieces of the crest. Do them in this order:<br>
 <br>
 First son<br>
 <br>
-<img src="img\questimages\famcrest3.jpg" height="200" width="200"><br>
-<img src="img\questimages\famcrest4.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest3.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest4.jpg" height="200" width="200"><br>
 <br>
 <br>
 1. Talk to Chef, he is located in a house just northeast of the Catherby bank. Talk to him and he'll give you his piece of the crest if you give him the following cooked fish: Note: If you don't have a high enough cooking or fishing level you can just buy the fish.<br>
@@ -41,14 +41,14 @@ Second Son 1. Talk to the Gem Trader in Al Kharid and he will tell you about a m
 <br>
 2. Talk to this Nobleman and he will tell you that if you want his part of the crest you will need to give him a ruby ring and a ruby necklace made from the finest gold. He will tell you that a dwarf named Boot knows where to find the finest gold.<br>
 <br>
-<img src="img\questimages\famcrest5.jpg" height="200" width="200"><br>
-<img src="img\questimages\famcrest6.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest5.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest6.jpg" height="200" width="200"><br>
 <br>
 <br>
 3. Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. Hint: it's north of Falador, down the ladder in a house on the ice mountain.) Boot can be found by going south west, Boot will tell you where the finest gold is found. Bring along a pickaxe, good armor and a good weapon, and probably some food (you will need to beat two level 122 Hellhounds).<br>
 <br>
-<img src="img\questimages\famcrest7.jpg" height="200" width="200"><br>
-<img src="img\questimages\famcrest9.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest7.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest9.jpg" height="200" width="200"><br>
 <br>
 <br>
 4. The finest gold is found in a dungeon east of Ardougne. To make this easy, just go to East Ardougne, and go south east. You will find a ladder surrounded by archways. Go down the ladder. First you will meet some hobgoblins (level 48.). You can't get directly to the finest gold; you have to pull a lot of levers to activate the door. Go to where the door of the Hellhound is. Do the following steps to unlock the door where the gold is:
@@ -62,7 +62,7 @@ V) Go outside of the room and pull the lever on the North wall up<br>
 VI) Go back to the South room and pull that lever down<br>
 VII) Open the cage and mine 2 "perfect" ores. (Note: you may or may not have to kill them. Often times there is already someone killing them for range practice.)<br>
 <br>
-<img src="img\questimages\famcrest10.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest10.jpg" height="200" width="200"><br>
 <br>
 5. Use these gold nuggets on a furnace, and now you will have two gold bars. Get your two rubies, a ring mould, a necklace mould, and your two gold bars made from the finest gold. Use a bar on the furnace and make a ruby ring and a ruby necklace.<br>
 <br>
@@ -72,8 +72,8 @@ Third Son 1. For this part you will need a cure poison potion (it's a good idea 
 <br>
 2. Once you have all of those items go to the Jolly Boar Inn. This is located northeast of Varrock. Look on the world map if you can't find it (it is the big bar). Go inside and go to the southern end. On the <span data-floors="US">2nd floor</span> you will find, in a room, a wizard.<br>
 <br>
-<img src="img\questimages\famcrest11.jpg" height="200" width="200"><br>
-<img src="img\questimages\famcrest12.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest11.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest12.jpg" height="200" width="200"><br>
 <br>
 <br>
 3. He is the third son. Talk to him, but he has been poisoned. Give him your cure poison potion and he will be cured. He will tell you all about the poison spiders, and about Chronozon (121) having his piece of the crest. He will tell you that in order to kill Chronozon you will need to cast all of the blast spells on him.<br>
@@ -86,12 +86,12 @@ Third Son 1. For this part you will need a cure poison potion (it's a good idea 
 <br>
 7. Now you should be in a room with the Earth Obelisk and Chronozon (level 139). If he hasn't already attacked you, attack him. While you are killing him, you must successfully cast all of the Blast spells, just once. If you don't he will regenerate. You can use prayers. Once you have killed him pick up the crest piece and get out! (Possible way of attack - Hide behind the pillar in the back of the cage, kill and poison spiders that have attacked you, cure you poison, and begin casting your spells on Chronozon...He will not attack you this way.)<br>
 <br>
-<img src="img\questimages\famcrest13.jpg" height="200" width="200"><br>
+<img src="img/questimages/famcrest13.jpg" height="200" width="200"><br>
 <br>
 Finishing the Quest: Now that you have all three pieces, put them together and go back and talk to Dimintheis. He will be grateful and will reward you. You can get these enhanced. Look below and remember that you can only get them enhanced once, so make a wise decision.<br>
 <br>
 Enhancing the Gauntlets: Go to any son and talk to him. He will enhance the gauntlets for you if you want.<br>
-<img src="img\questimages\famcrest11.png" height="150" width="450"><br>
+<img src="img/questimages/famcrest11.png" height="150" width="450"><br>
 <br>
 This quest guide was written by Firkløver,gigakiller. Thanks to L3tHaL_LeAdA, Keystone, thehellkeeper, Your Homey 1 and gypped,DRAVAN for corrections.<br>
 <br>

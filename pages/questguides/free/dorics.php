@@ -10,7 +10,7 @@ Items/Skills Needed To Start: Any pickaxe, 15 Mining<br>
 <br>
 Starting Location: Doric's Anvil (north of Falador)<br>
 <br>
-Reward: 1 Quest Point, 1,300 Mining experience, 180 gold coins, permission to use Doric's anvils<br>
+Reward: 1 Quest Point, 1,300 Mining XP, 180 gold coins, permission to use Doric's anvils<br>
 <br>
 Instructions:<br>
 <br>
@@ -22,7 +22,7 @@ Instructions:<br>
 <br>
 4. Once there, go down the trapdoor and head south until you see some iron and copper rocks. Mine 2 Iron ore and 4 Copper ore from them. Then go a little farther south to find some clay rocks, and mine 6 Clay.<br>
 <br>
-5. Now that you have 6 Clay, 4 Copper ore, and 2 Iron ore in your inventory, return to Doric and give him the ores. He'll appreciate it very much and reward you with 1 Quest Point, 180 coins, and 1,300 Mining experience.<br>
+5. Now that you have 6 Clay, 4 Copper ore, and 2 Iron ore in your inventory, return to Doric and give him the ores. He'll appreciate it very much and reward you with 1 Quest Point, 180 coins, and 1,300 Mining XP.<br>
 <br>
 6. Congratulations! You've just completed Doric's Quest and can now use his anvils.<br>
 <br>
