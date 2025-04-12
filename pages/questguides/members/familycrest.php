@@ -8,9 +8,9 @@ Description: The Fitzharmon family crest has gone missing, and the family honour
 <br>
 Items/Skills Needed To Start: Level 40 mining, level 40 smithing, level 40 crafting, level 59 magic (or if you are 56 you can use a Wizard's Mind Bomb, bought in Falador bar), two cut rubies, all the runes needed to cast all of the "Blast" spells, a cure poison potion, a pickaxe, some good armor, a good weapon, and some food.<br>
 <br>
-Starting Location: Southeast of the East Varrock bank.<br>
+Starting Location: Southeast of the East Varrock bank<br>
 <br>
-Reward: 1 quest point, a pair of steel gauntlets. (click here to find out how they can be enhanced)<br>
+Reward: 1 quest point, a pair of Steel Gauntlets<br>
 <br>
 <b>Instructions:</b><br>
 <br>
@@ -45,7 +45,7 @@ Second Son 1. Talk to the Gem Trader in Al Kharid and he will tell you about a m
 <img src="img/questimages/famcrest6.jpg" height="200" width="200"><br>
 <br>
 <br>
-3. Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. Hint: it's north of Falador, down the ladder in a house on the ice mountain.) Boot can be found by going south west, Boot will tell you where the finest gold is found. Bring along a pickaxe, good armor and a good weapon, and probably some food (you will need to beat two level 122 Hellhounds).<br>
+3. Go talk to Boot who is in the Dwarven Mine. See the world map if you can't find Dwarven Mine. (Hint: it's north of Falador, down the ladder in a house on the ice mountain.) Boot can be found by going south west, Boot will tell you where the finest gold is found. Bring along a pickaxe, good armor and a good weapon, and probably some food (you will need to beat two level 122 Hellhounds).<br>
 <br>
 <img src="img/questimages/famcrest7.jpg" height="200" width="200"><br>
 <img src="img/questimages/famcrest9.jpg" height="200" width="200"><br>

@@ -12,11 +12,9 @@ Length: Short<br>
 <br>
 Requirements: 20 Mining, 20 Smithing, and 20 Crafting<br>
 <br>
-Items Needed: A sharp object like a knife, sword, etc. Pickaxe, Leather, Thread, Needle, 4 Coal, and a Hammer.<br>
+Items Needed: A sharp object like a knife, sword, etc. Pickaxe, Leather, Thread, Needle, 4 Coal, and a Hammer<br>
 <br>
-Quest Points Reward: 1<br>
-<br>
-Reward: Element Shield (+6 Magic in Defence bonus), 5000 XP in Crafting, 5000 XP in smithing.<br>
+Reward: 1 Quest Point, Element Shield (+6 Magic Defence bonus), 5,000 Crafting XP, 5,000 Smithing XP<br>
 <br>
 Start Point: Go to Seers' Village.<br>
 <br>
@@ -27,7 +25,6 @@ To Start: Search the bookcase on the east wall in house southwest of the bank in
 Go to the house southwest of the bank in Seers' village.<br>
 <br>
 <img src="img\questimages\elemental1.png" height="200" width="200"><br>
-
 <br>
 Search the bookcase on the east wall.<br>
 <br>

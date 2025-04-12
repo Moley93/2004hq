@@ -141,12 +141,12 @@ function renderOldSchoolTable(canvas) {
   const page = url.searchParams.get("p");
 
   const freeSkills = [
-    "attack", "cooking", "crafting", "defence", "firemaking", "fishing", "hitpoints",
-    "magic", "mining", "prayer", "ranged", "smithing", "strength", "woodcutting"
+    "attack", "cooking", "crafting", "defence", "firemaking", "fishing", "hitpoints", "magic",
+    "mining", "prayer", "ranged", "runecrafting", "smithing", "strength", "woodcutting"
   ];
 
   const memberSkills = [
-    "agility", "fletching", "herblore", "runecrafting", "thieving"
+    "agility", "fletching", "herblore", "thieving"
   ];
 
   const table = document.createElement("table");
