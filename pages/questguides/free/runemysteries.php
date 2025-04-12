@@ -6,6 +6,7 @@ Description: Want to learn how to craft runes? Then this is the quest you need t
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<!-- Items/Skills Needed To Start: Pick Axe to mine Rune Essentials -->
 Items/Skills Needed To Start: Pickaxe to mine Rune Essence<br>
 <br>
 Starting Location: <span data-floors="US">2nd floor</span> of Lumbridge Castle<br>
