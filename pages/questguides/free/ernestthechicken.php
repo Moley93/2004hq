@@ -16,16 +16,18 @@ Instructions:<br>
 <br>
 Talk to Veronica outside the Mansion in Draynor. She will tell you about Ernest. He has gone into the house for an hour and hasn't come out yet. Tell her that you will help her to find Ernest.<br>
 <br>
-Go inside the house and to the top floor where you’ll find Professor Oddenstein. Talk to him and ask about Ernest. He will explain that he accidentally changed Ernest into a chicken and that his machine is broken. To fix it, you must retrieve three items: an oil can, rubber tubing, and a pressure gauge.<br>
+Go inside the house and to the top floor where you'll find Professor Oddenstein. Talk to him and ask about Ernest. He will explain that he accidentally changed Ernest into a chicken and that his machine is broken. To fix it, you must retrieve three items: an oil can, rubber tubing, and a pressure gauge.<br>
 <br>
-Oil Can: Go to the basement, which is a mini maze. Use the following lever sequence:<br>
-Pull A and B lever. Open the NE door.<br>
-Pull D lever. Open the SW door. Open the South door.<br>
-Pull A and B lever again. Open the NW door. Open West door.<br>
-Pull F and E lever. Open the East door. Open the East door.<br>
-Pull C lever. Open the NW door. Open the West door.<br>
-Pull E lever. Open the East door. Open the South door. Open South door.<br>
-Open the West door and grab the oil can.<br>
+Oil Can: Go to the basement, which is a mini maze.<br>
+<img src="img/questimages/ernest1.png"><br>
+Use the following lever sequence:<br>
+Pull levers B then A down. Enter door 1.<br>
+Pull lever D down. Enter doors 2, then 3.<br>
+Pull levers B, then A up. Enter doors 3, 4, and 5.<br>
+Pull levers E, then F down. Enter doors 6 and 7.<br>
+Pull lever C down. Enter doors 7 and 6.<br>
+Pull lever E up. Enter doors 6, 8, and 3.<br>
+Go through door 9 and grab the oil can.<br>
 <br>
 Rubber Tube: Go to the <span data-floors="US">1st floor</span> east room and grab the spade. Head outside, then north, west, and south to find a pile of compost. Use the spade on the compost to get a key. Return inside and unlock the door with the skeleton inside (it won't attack). Grab the rubber tube.<br>
 <br>
