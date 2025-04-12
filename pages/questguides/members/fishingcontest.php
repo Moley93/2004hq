@@ -17,7 +17,7 @@ Instructions:<br>
 Talk to the Dwarf and say that you want to use the secret way to across the White Wolf Mountain also tell him you want to become his friend,he will ask you to recievea trophy at the Hemenster Fishing Competition.He will also give you a Competition Pass.<br>
 <br>
 <br>
-Before getting into the Hemenster,go to north of the Hemenster and you will see the McGrubor’s woods. Go to north of it and you will find a lossing fence,push it and go to the west side.Find a red vine and use the spade on it.You should get a red worm.Get 2-3 and get out of here.<br>
+Before getting into the Hemenster,go to north of the Hemenster and you will see the McGrubor's woods. Go to north of it and you will find a lossing fence,push it and go to the west side.Find a red vine and use the spade on it.You should get a red worm.Get 2-3 and get out of here.<br>
 <br>
 <br>
 back to Hemenster and try to enter the fishing area.A man will say that you will need the Competition Pass,show him and get in.<br>

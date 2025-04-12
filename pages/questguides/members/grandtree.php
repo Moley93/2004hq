@@ -58,8 +58,8 @@ min<br>
 <img src="img\questimages\grandtree4.png" height="300" width="400"><br>
 <br>
 Talk to the foreman; he will ask 3 questions to make sure you've come from Glough.<br>
-1. How is Glough’s wife? (She is no longer with us)<br>
-2. What’s Glough’s favourite food? (Wormhole)<br>
+1. How is Glough's wife? (She is no longer with us)<br>
+2. What's Glough's favourite food? (Wormhole)<br>
 3. What is his new girlfriend called? (Anita)<br>
 (If you get the answers wrong he will attack you and you will have to start again with a new foreman!)<br>
 After this you will receive an a note for Glough about the ship. Take this back to the King.<br>
@@ -72,11 +72,11 @@ You can't return by the glider, as it was broken when you landed. If you try to 
 The King yet again refuses to believe your accusations against Glough.<br>
 Go and talk to Charlie at the top of the tree again.<br>
 <br>
-Charlie suggests that you talk to Glough’s girlfriend, Anita; she might be able to help you. Anita lives near the swamp, northwest of the Grand Tree.<br>
+Charlie suggests that you talk to Glough's girlfriend, Anita; she might be able to help you. Anita lives near the swamp, northwest of the Grand Tree.<br>
 <br>
 Talk to Anita and she will ask you to return a key to Glough. This is the key to the chest that you have been waiting for!<br>
 <br>
-Open the chest in Glough’s house, you will get some notes about his plan to take over Runescape.<br>
+Open the chest in Glough's house, you will get some notes about his plan to take over Runescape.<br>
 <br>
 Take this evidence to the King. Once again, he doesn't believe you but he says that they have searched Glough's house and all they found was four sticks. The King gives you the sticks. They spell T-U-Z-O.<br>
 <br>
@@ -84,7 +84,7 @@ If you check with your translation book you will find that, if rearranged, the s
 <br>
 For the whole list of translations go to the bottom of this guide<br>
 <br>
-Go to Glough’s house and go up to the watchtower (this is why you need level 25 agility to complete quest).<br>
+Go to Glough's house and go up to the watchtower (this is why you need level 25 agility to complete quest).<br>
 <br>
 Here you will find a stone stand. Place the sticks on stand in the following order: (use the sticks with stand)<br>
 't' in the far left position<br>

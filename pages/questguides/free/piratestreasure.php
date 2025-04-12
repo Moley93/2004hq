@@ -23,7 +23,7 @@ Now talk to Luthas in the house northeast of this shop. Talk to him and say that
 <br>
 Go to the banana field west of this house. Pick 10 bananas and go east. You will see a crate. Use some (not all) of the bananas in the crate, then use the rum on the crate. The rum is now inside. Put the remaining bananas in the crate until it's full. After it's full, talk to Luthas, and he will award you 30 coins.<br>
 <br>
-Travel back to Port Sarim and walk west. You will see a man called Wyndin who owns a food shop. If you have the white apron now, wear it. If you don’t, go to the clothes shop in Varrock to buy one.<br>
+Travel back to Port Sarim and walk west. You will see a man called Wyndin who owns a food shop. If you have the white apron now, wear it. If you don't, go to the clothes shop in Varrock to buy one.<br>
 <br>
 Talk to Wyndin and ask him to hire you, if you are wearing the apron, he will hire you.<br>
 <br>

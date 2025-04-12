@@ -10,11 +10,11 @@ Items/Skills Needed To Start: 42 thieving, 40 ranged, a Yew or Magic bow, a cand
 <br>
 Recommendations: Dragon leather ranger armor, prayer restore potions (if you have 37+ prayer and less than 50 ranged), Melee resistant armor (to withstand 15 minutes of attacks from level 61 ice spiders), a trustworthy friend to do the quest with.<br>
 <br>
-Starting Location: In the ‘Flying Horse’ bar west of the Ardougne River.<br>
+Starting Location: In the ‘Flying Horse' bar west of the Ardougne River.<br>
 <br>
 Reward: 1 quest point, 10500 Ranged Exp., 8000 Fletching Exp., the ability to make steel darts, and admittance to the Temple of Ikov (by wearing the Pendant of Lucien).<br>
 <br>
-1. Talk to Lucien, he will be in the Flying Horse Bar, north west of the Paladin’s Tower, on the west side of the river. Lucien will tell you about how he needs the Staff of Armadyl. He gives you a pendant and asks you to get it for him.<br>
+1. Talk to Lucien, he will be in the Flying Horse Bar, north west of the Paladin's Tower, on the west side of the river. Lucien will tell you about how he needs the Staff of Armadyl. He gives you a pendant and asks you to get it for him.<br>
 <br>
 2. Put on the pendant and get ready to go to the dungeon. Get a candle from the Catherby Candle shop, and light it with a tinderbox. The things you should bring on this (1st) trip:<br>
 <br>
@@ -31,7 +31,7 @@ Go down the ladder and head west through the temple and then down the stairs. Go
 <br>
 <img src="img\questimages\ikov2.gif" height="200" width="300"><br>
 <br>
-4. Go north into the room with the skeletons in it, and head to the west side of this room (you will see a broken bridge). Before going over the bridge, MAKE SURE YOUR WEIGHT IS BELOW ZERO!!! If it’s above zero you will fall in the lava, causing you 20 HP of damage. Once across the bridge, go into the room and grab the lever piece on the ground. Leave the temple and go back to the bank.<br>
+4. Go north into the room with the skeletons in it, and head to the west side of this room (you will see a broken bridge). Before going over the bridge, MAKE SURE YOUR WEIGHT IS BELOW ZERO!!! If it's above zero you will fall in the lava, causing you 20 HP of damage. Once across the bridge, go into the room and grab the lever piece on the ground. Leave the temple and go back to the bank.<br>
 <br>
 (note: if you are above 0 KG weight, and you do fall into the lava, you can still grab the lever piece because you will land on the opposite side of the lava bank. Climb up the ladder and you will be in hemenster. You will have to walk back to the temple again if this happens)<br>
 <br>
@@ -61,7 +61,7 @@ In the first area of the temple when you first climb down the ladder, there is a
 - Lots of food<br>
 - Prayer Restore Potions (if you can use Protect from Magic, if you have 50 or higher ranged, then full prayer will be sufficient to kill him and you will not need to recharge until you are finished)<br>
 <br>
-For your armor, I would suggest Dragon Hide, because it gives 30+ magic defense, while rune armor gives around -10. Also, dragon hide armor gives you a ranged attack bonus which is very helpful in killing the Fire Warrior. If you have rune armor, it is better to fight him naked. Rune armor gives you a ranged attack penalty and a mage defense penalty. This guy mages you, he will not attack any other way, and you cannot hide behind a rock while you fight him. Equip everything, go down the ladder, north through the skeleton room, then straight north to a lever with a trap door. DO NOT IMMEDIATELY PULL THE LEVER! Search for traps on the lever and disarm it, then you may pull the lever. If you pull the lever without disarming the traps, then the trap door will open and you will fall on spikes taking up to 20 hp in damage. Then take the west branch until you get to a door. Open the door and go across the room to the next door. Try to open that door and Lesarkus the Fire Warrior will appear and say you may not pass. Then he will start maging you. You may range him with the ice arrows only. (I suggest your bow on Rapid setting, accurate if you have below 50 ranged). If you have magic block put this on so he can’t hurt you, and drink your prayer potions whenever your prayer is low. Once you kill him go back to the bank.<br>
+For your armor, I would suggest Dragon Hide, because it gives 30+ magic defense, while rune armor gives around -10. Also, dragon hide armor gives you a ranged attack bonus which is very helpful in killing the Fire Warrior. If you have rune armor, it is better to fight him naked. Rune armor gives you a ranged attack penalty and a mage defense penalty. This guy mages you, he will not attack any other way, and you cannot hide behind a rock while you fight him. Equip everything, go down the ladder, north through the skeleton room, then straight north to a lever with a trap door. DO NOT IMMEDIATELY PULL THE LEVER! Search for traps on the lever and disarm it, then you may pull the lever. If you pull the lever without disarming the traps, then the trap door will open and you will fall on spikes taking up to 20 hp in damage. Then take the west branch until you get to a door. Open the door and go across the room to the next door. Try to open that door and Lesarkus the Fire Warrior will appear and say you may not pass. Then he will start maging you. You may range him with the ice arrows only. (I suggest your bow on Rapid setting, accurate if you have below 50 ranged). If you have magic block put this on so he can't hurt you, and drink your prayer potions whenever your prayer is low. Once you kill him go back to the bank.<br>
 <br>
 NOTE: If you do not kill him fast enough, he will stop the battle and tell you to come back when you have a better weapon. You can try again by simply trying to open the door again. Perhaps train your ranged skill some more or purchase a ranging pot. If you know a high level herbalist they will probably trade one for Dwarf Weed. This happened to my friend, and for her 2nd attempt, she merely un-equipped her rune armor and then killed him pretty easily.<br>
 <br>
@@ -74,7 +74,7 @@ NOTE: If you do not kill him fast enough, he will stop the battle and tell you t
 - Weapon<br>
 - Some food<br>
 - 20 limpwurt roots<br>
-Go down the ladder, and back to where you killed Lesarkus the Fire Warrior. Go through the door he wouldn’t let you through (you do not have to kill him again). You will see a witch named Winelda, talk to her she will offer to teleport you across the lava for your limpwurt roots.<br>
+Go down the ladder, and back to where you killed Lesarkus the Fire Warrior. Go through the door he wouldn't let you through (you do not have to kill him again). You will see a witch named Winelda, talk to her she will offer to teleport you across the lava for your limpwurt roots.<br>
 <br>
 <img src="img\questimages\ikov7.gif" height="200" width="350"><br>
 <br>
@@ -89,17 +89,17 @@ Pick it up, and return to the room with the guardians in it. The Staff is in the
 Side with the Guardians<br>
 <br>
 Take off your pendant of Lucien. Talk to one of the Guardians of Armadyl. You will tell them that you are working for a man named Lucien. They will be quite disappointed to hear that. They will give you a pendant and tell you to kill him.<br>
-You will find yourself in a room just north of McGrubbor’s Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
+You will find yourself in a room just north of McGrubbor's Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
 <br>
 <img src="img\questimages\ikov10.gif" height="200" width="350"><br>
 <br>
-Wearing your pendant attack him (he’s only level 14). You will be rewarded once you kill him.<br>
+Wearing your pendant attack him (he's only level 14). You will be rewarded once you kill him.<br>
 Side with Lucien<br>
 There is a small room that contains the staff inside of the big room, when you try to take the staff, any of the guardians in the small room will attack you (level 36-40) pick it up once everyone in the small room is dead. Leave the big room and go up the ladder near you.<br>
-You will find yourself in a room just north of McGrubbor’s Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
+You will find yourself in a room just north of McGrubbor's Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
 Talk to him and give him the staff, you will be rewarded.<br>
 <br>
-*The Boots of Lightness actually have -4 weight, so they are good for running because you gain energy much faster. It isn’t a bad idea to grab a few of these on your 1st trip back to the bank<br>
+*The Boots of Lightness actually have -4 weight, so they are good for running because you gain energy much faster. It isn't a bad idea to grab a few of these on your 1st trip back to the bank<br>
 <br>
 This quest guide was written by Pirate,mage017. Thanks to Your Homey 1 for corrections.<br>
 <br>

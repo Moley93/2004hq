@@ -46,9 +46,9 @@ Reward: 1 Quest Point, 2k gp, a real cool amulet if you side with Clivet, and 1k
 <br>
 3. Next turn all the sewer valves but the one closest to the cave going west, right. and turn the one closest to the cave left. The location of each valve is on the bottom of this guide.<br>
 <br>
-4. Enter the cave and take the raft to Alamone. Talk to him and find out the butler is his spy. He should then attack you. If he doesn’t, try again. He is less only level 13, so if you should be able to kill him fairly easily. He will drop the Carnillean armor. Leave the island via the raft and exit the cave. (well if you want to get 1 of ceril's sheild for yourself. When you killed alamone. take the seward ride back out. Then take it back in. drop ur armour that you already have. Wait for alamone to come back then fite him again. He'll drop another one. Yes he could drop as much as he want. While taking it back to ceril put the extra armour you got into the bank, and the armour other armour you take back to him.)<br>
+4. Enter the cave and take the raft to Alamone. Talk to him and find out the butler is his spy. He should then attack you. If he doesn't, try again. He is less only level 13, so if you should be able to kill him fairly easily. He will drop the Carnillean armor. Leave the island via the raft and exit the cave. (well if you want to get 1 of ceril's sheild for yourself. When you killed alamone. take the seward ride back out. Then take it back in. drop ur armour that you already have. Wait for alamone to come back then fite him again. He'll drop another one. Yes he could drop as much as he want. While taking it back to ceril put the extra armour you got into the bank, and the armour other armour you take back to him.)<br>
 <br>
-5. Talk to Ceril and give him the armor. Then, tell him about his butler. Ceril won’t believe you so go to the <span data-floors="US">2nd floor</span> and search the butler’s cupboard for some poison. Return to Ceril and receive your reward. Quest completed.<br>
+5. Talk to Ceril and give him the armor. Then, tell him about his butler. Ceril won't believe you so go to the <span data-floors="US">2nd floor</span> and search the butler's cupboard for some poison. Return to Ceril and receive your reward. Quest completed.<br>
 <br>
 <br>
 <b>Valve Locations</b><br>

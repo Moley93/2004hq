@@ -24,7 +24,7 @@ Take the potion back to Juliet. She'll thank you and remind you to go inform Rom
 <br>
 Walk back to Romeo and tell him that Juliet has the potion and that he needs to revive her from the crypt. Unfortunately, the poor fool misunderstands and thinks she is dead permanently. What a great ending — Juliet dies, and Romeo lives his life in misery.<br>
 <br>
-You’ll get your reward after talking to Romeo. Who cares about a bad ending, as long as you get your reward, right?<br>
+You'll get your reward after talking to Romeo. Who cares about a bad ending, as long as you get your reward, right?<br>
 <br>
 This quest guide was written on RuneHQ by Gnat88.<br>
 <br>
