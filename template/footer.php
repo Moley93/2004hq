@@ -19,7 +19,7 @@
                                         <tr>
                                             <td align="bottom"><img src="img\edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
                                             <td align="bottom">
-                                                <div align="center" style="font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px;">
+                                                <div style="font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px; display:flex; justify-content:center; align-items:center;">
                                                     <div id="site-options-container" data-style="<?= $style ?>" data-usuk="<?= $usuk ?>">
                                                         <button class="site-footer" onclick="location.href='?p=changelog'" type="button">Credits and Changelog</button>
                                                         |
