@@ -12,7 +12,7 @@ Starting Location: South of Witch's house, Taverly<br>
 <br>
 Reward: 4 quest points and 6325 hits xp<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 After talking to the boy, go to the main door and search for a key under one of the pots next to the door.<br>
 <br>

@@ -12,7 +12,7 @@ Starting Location: Southeast of the East Varrock bank.<br>
 <br>
 Reward: 1 quest point, a pair of steel gauntlets. (click here to find out how they can be enhanced)<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 1. Go to the little house southeast of the East bank in Varrock. You should find a man named Dimintheis.<br>
 <br>

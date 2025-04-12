@@ -12,7 +12,7 @@ Starting Location: Grand Tree in the Gnome Stronghold northwest of Ardougne.<br>
 <br>
 Reward: 11200 Agility experience (at level 30 you get 4 levels), 18400 attack experience, 2150 mage experience, and 5 quest points. Ability to use spirit tree teleport from gnome stronghold (assuming tree gnome village quest is complete)" Also, you are able to use the gnome gliders after you complete this quest.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.<br>
 <br>

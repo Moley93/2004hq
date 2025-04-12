@@ -12,7 +12,7 @@ Starting Location: The courtyard of the White Knight's Castle<br>
 <br>
 Reward: 1 Quest Point, 12,725 Smithing XP<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to the squire about his mishap. He'll direct you to Reldo at the Varrock Castle Library. Reldo will give you the location of the last Incamdo Dwarf in RuneScape. (If you accidentally say you need a quest, you will start the Shield of Arrav quest. Until you find the book on one of the bookshelves, you won't be able to ask about the quest you actually want to work on.)<br>
 <br>

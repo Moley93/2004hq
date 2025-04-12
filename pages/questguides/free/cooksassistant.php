@@ -12,7 +12,7 @@ Starting Location: Lumbridge Castle<br>
 <br>
 Reward: 1 Quest Point, 300 Cooking XP, Permission to use the Cook's range<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 1. Talk to the Cook in the Lumbridge Castle. He will ask you to help him get the ingredients for the cake, as he forgot to buy them. Tell him that you will help.<br>
 <br>

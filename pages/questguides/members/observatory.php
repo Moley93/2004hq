@@ -12,7 +12,7 @@ Starting Location: West across the river from the gnome maze, just next to the s
 <br>
 Reward: 3250 crafting xp, a jug of wine, a random reward depending on what constellation you see and a book on astrology (no good use).<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Talk to the professor in the square building north of the observatory. He explains that the pesky goblins next door (Don't you just hate the rude next neighbors?) have broken his telescope and he needs parts to fix it. He suggests talking to his assistant, but if you have the items needed already you don't have to for a minute.<br>
 <br>

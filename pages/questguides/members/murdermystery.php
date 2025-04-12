@@ -12,7 +12,7 @@ Starting Location: Lord Sinclair's Mansion, Talk to the guard to start.<br>
 <br>
 Reward: 2000 coins, 3 quest points, and 1406 crafting experience.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 <img src="img\questimages\mystery1.jpg" height="150" width="150"><br>
 <br>

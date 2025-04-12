@@ -22,7 +22,7 @@ Start Point: Go to Seers' Village.<br>
 <br>
 To Start: Search the bookcase on the east wall in house southwest of the bank in Seers' village.<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Go to the house southwest of the bank in Seers' village.<br>
 <br>

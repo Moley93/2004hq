@@ -12,7 +12,7 @@ Starting Location: Just across road from Juliet's House, just west of Varrock<br
 <br>
 Reward: 1 quest point, chocolate cake, stew, 1525 cooking xp, and a kitten<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 <br>
 Find gertrude and get the info about her problem. She'll tell you to go talk to her boys Wilough and Shilop in varrock square (they are just west of the big fountain)<br>
 <br>

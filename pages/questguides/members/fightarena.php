@@ -16,7 +16,7 @@ Starting Location: Lady Servil, she's southeast of the gnome battlefield, the no
 <br>
 Reward: 1,000 coins, 3375 Theiving xp, and 12,175 Attack xp<br>
 <br>
-Instructions:<br>
+<b>Instructions:</b><br>
 Talk to Lady Servil and agree to help her rescue her family. Head east and go into the most northeastern house, open the chest and take armor, put it on.<br>
 <br>
 Go just south into the prison, the guard will let you in if your wearing the armor. Talk to Jeremy through the cage. He'll tell you the guard has the keys.<br>
