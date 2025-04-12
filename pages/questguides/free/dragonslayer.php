@@ -2,80 +2,59 @@
 function getQuestGuide() { return <<<HTML
 <b>2004HQ - Dragon Slayer</b><br>
 <br>
-Description: Prove yourself a true hero. Kill the mighty dragon Elvarg of Crandor Island and earn the right to buy and wear the powerful rune plate mail body.<br>
+Description: Prove yourself a true hero. Kill the mighty dragon Elvarg of Crandor Island and earn the right to buy and wear the powerful Rune platebody.<br>
 <br>
-
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
-
-Items/Skills Needed To Start: 6 steel bars or 12 nails, three planks, 2000 gp (or an extra 10k for those that can't telegrab), an unfired bowl, a lobster pot, some silk, a wizard mind bomb, and items you think you need to kill Elvarg (the green dragon).<br>
+Items/Skills Needed To Start: 6 Steel bars or 12 Nails, 3 Planks, 2,000 gp (or an extra 10,000 gp if you can't Telekinetic Grab), an Unfired bowl, a Lobster pot, some Silk, a Wizard Mind Bomb, and any items you think you need to defeat Elvarg (the green dragon).<br>
 <br>
-
 <b>Starting Location: Champion's Guild</b><br>
 <br>
-
-Reward: 2 Quest Points, Strength XP (20k), Defence XP (20k), Completing the quest allows you to buy rune plate (84,500gp) AND Green Dragon Leather Body (10,400) from Oziach.<br>
+Reward: 2 Quest Points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.<br>
 <br>
-
-1. Talk to the champion guild's master. Ask him about Rune Plate Mail and he'll tell you about Oziach. His house is near Edgeville.<br>
+1. Talk to the Champion's Guild master. Ask him about the Rune platebody, and he'll tell you about Oziach. His house is near Edgeville.<br>
 <br>
-
-2. Talk to Oziach. Ask him about Rune Plate, where the Dragonfire Shield is, and the map pieces. He should have given you a key to Melzar's Maze.<br>
+2. Talk to Oziach. Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. He should give you a key to Melzar's Maze.<br>
 <br>
-
-3. Go to the Oracle, located above the Dwarven Mines, with your silk, mindbomb, bowl, and lobster pot. She'll tell you about a door in the mines. Go down there. The door is near the east part of the mine. When inside (your silk, mindbomb, bowl, and lobster pot should disappear) check the chest. You'll get a map piece<br>
+3. Go to the Oracle (located above the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Go down into the mine and find the door on the eastern side. Inside, your items will disappear, and you'll find a chest containing a map piece.<br>
 <br>
-
-4. Grab some food if you think you need it. Go to Melzar's Maze (it's south of the crafting guild). Use your maze key on the door. Kill some giant rats until you get a red key. Use it on the NorthWest door. Go up the ladder.<br>
+4. Grab some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door. Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.<br>
 <br>
-
-5. Kill ghosts until you get an orange key. Use it on the door SECOND FROM THE NORTH. A lot of people mess up here.<br>
+5. Kill ghosts until one drops an orange key. Use it on the second door from the north. Many people mess this up—make sure it's the right one.<br>
 <br>
-
-6. Kill skeletons until you get a yellow key. Use it on the southwest door (the MOST southwest door, that is). Go down the ladders until you get to some zombies<br>
+6. Kill skeletons until you get a yellow key. Use it on the most southwestern door. Go down the ladders until you reach zombies.<br>
 <br>
-
-7. Kill zombies until you get a blue key. Use it on the northwest door. Kill Melzar the Mad until you get a key. (magenta colour). Go through the door.<br>
+7. Kill zombies until one drops a blue key. Use it on the northwest door. Kill Melzar the Mad until he drops a magenta key. Use it to proceed.<br>
 <br>
-
-8. Kill the Lesser Demon and he'll drop the final key, which is green (thank you graystar!). Use it on the door. Check the chest and get the second map piece.<br>
+8. Kill the Lesser Demon to get the final (green) key—thanks to graystar for this info! Use it on the door, then check the chest to get another map piece.<br>
 <br>
-
-9. Drop by a bank and take out either A) A bow and arrows B) Some runes to mage Wormbrain to death or C) 10k. If you brought the 10k, you don't need runes for telegrab. If you plan to kill Wormbrain, you need to telegrab the map piece.<br>
+9. Stop by a bank. Choose one of the following: A) A bow and arrows, B) Runes to cast Telekinetic Grab, or C) 10,000 gp. If you brought the 10k, you don't need runes. If you're planning to kill Wormbrain, you'll need to telegrab the map piece.<br>
 <br>
-
-10A. Magers/Archers need to just attack Wormbrain in the Port Sarim jail. When he's dead, use telekentic grab on the map piece he drops. Use the map pieces on each other to form the map.<br>
+10A. Mages/Archers: Go to the Port Sarim jail and attack Wormbrain. When he dies, use Telekinetic Grab on the map piece. Use all map pieces on each other to form the full map.<br>
 <br>
-
-10B. Pures/People unable to telegrab need to talk to wormbrain. Ask him about the map piece. He'll eventually tell you he'll sell it to you for 10k. Talk to him again and pay him. He should give you the map piece. Use the map pieces on each other to form the map.<br>
+10B. If you can't telegrab: Talk to Wormbrain in the Port Sarim jail. Ask about the map piece. He'll eventually offer to sell it for 10k. Pay him, and you'll receive the map piece. Combine all pieces to form the full map.<br>
 <br>
-
-11. Go to Lumbridge and talk to the Duke in Lumbridge Castle. Ask him about a shield to protect you from a dragon. He'll give you the Dragonfire Shield. It's advised that you drop this one, get another one, and pick up the first one you dropped in case you die.<br>
+11. Go to Lumbridge Castle and talk to the Duke. Ask about a shield to protect against dragons. He'll give you the Dragonfire Shield. It's advised to drop it, get another, and pick up the first one—just in case you die later.<br>
 <br>
-
-12. Pick up your 2000 coins, a hammer, three planks, 12 nails, and your map from a bank. Head back to Port Sarim. Go to the dock east (?) of the food store. Talk to the captain. Keep talking until you can offer to buy the ship. He'll tell you the price. Buy it. Now, go on board and go down a deck. Use a plank on the hole near you. Keep using planks until the hole is filled. Talk to your swabbie to go off the ship.<br>
+12. Withdraw 2,000 coins, a hammer, 3 planks, 12 nails, and your map. Go to Port Sarim, then head to the dock east of the food store. Talk to the captain. After some dialogue, he'll offer to sell you the ship. Buy it, board the ship, and go below deck. Use your planks on the hole near you to repair it. Talk to the swabbie to disembark.<br>
 <br>
-
-13. Now, go to Draynor. Talk to Ned and he'll offer to take you to Crandor. You give him your map and he tells you to meet you at the ship. This is the big fight you've been waiting for. Pick up potions, food, armor and weapons (magic, bow/crossbow) AND YOUR DRAGONFIRE SHIELD.<br>
+13. Go to Draynor and talk to Ned. He'll offer to sail you to Crandor. Give him the map, and he'll tell you to meet him at the ship. Now's the time to prepare: bring potions, food, armor, weapons (magic or ranged), and most importantly—your Dragonfire Shield.<br>
 <br>
-
-14. Go to your ship (The Lady Lumbridge). Go down a deck and talk to Ned. Off to Crandor!<br>
+14. Head to your ship (The Lady Lumbridge), go below deck, and talk to Ned. Off to Crandor!<br>
 <br>
-
-15. When you get to Crandor, your ship'll be banged up. Walk off the ship and go up the hill. Follow the path until you reach some King Scorpions. Evade them and walk north until you get to another up point. Go up past here, and dodge the Lesser Demon. Go down the cave opening.<br>
+15. After arriving, the ship will be damaged. Disembark and climb the hill. Follow the path past King Scorpions. Evade them and walk north to another upward path. Go up, dodge the Lesser Demon, then enter the cave.<br>
 <br>
-
-16. Dodge the skeletons down here and walk past the stronger skeletons farther. Go through the door. CAUTION I'd take your potions RIGHT NOW if you have any. If you forgot to bring your Dragonfire Shield, I'd suggest you go get it before even attempting to kill Elvarg.<br>
+16. Inside, dodge the skeletons and walk deeper into the cave. Go through the door. This is a good time to drink any stat-boosting potions. If you forgot your Dragonfire Shield, now's the time to leave and retrieve it.<br>
 <br>
-
-17. This is it. Attack Elvarg (level 86). She hits quite hard for a level 86. When I fought her, she maxed out a 10. Eat when you need to, and make sure you don't die.<br>
+17. Time to face Elvarg (Level 86). She hits hard for her level—when I fought her, she maxed a 10. Eat food as needed and stay focused. Don't let her finish you off.<br>
 <br>
-18. When you beat her, you'll be transported outside. Don't freak out if a skeleton gets you, just walk towards the lessers (south, I believe) and go through the "secret" wall. The command should be "Open". Your character will "memorize" the location for farther use. Once you've done this you can either teleport to Lumbridge, or go sell some stuff at the general store for money to get off Karamja. *yay* You completed The Dragon Slayer! Go buy your rune plate, you champion you!<br>
+18. After defeating Elvarg, you'll be teleported outside. If a skeleton attacks you, don't panic. Head south toward the Lesser Demons and look for a “secret” wall with an “Open” command. Your character will memorize this location for future access. From here, either teleport to Lumbridge or sell items at the general store to afford a trip off Karamja. <br>
 <br>
-
+Congratulations—you've completed Dragon Slayer! Go buy that Rune platebody, you legend.<br>
+<br>
 Here is a picture of the wall:<br>
 <img src="img\questimages\dragonslayer1.png" height="400" width="400"><br>
 <br>
-This quest guide was written on RuneHQ by Catherine,Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, and Ghou Lies for corrections.<br>
+This quest guide was written on RuneHQ by Catherine and Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, and Ghou Lies for corrections.<br>
 This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Tue, Jul 06, 2004, at 08:25:23 AM.
 HTML; }

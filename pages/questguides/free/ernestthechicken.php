@@ -2,7 +2,7 @@
 function getQuestGuide() { return <<<HTML
 <b>2004HQ - Ernest The Chicken</b><br>
 <br>
-Description: Veronica is very worried. Her fiancee went into the big spooky manor house to ask for directions. An hour later and he's still not out yet<br>
+Description: Veronica is very worried. Her fiancé went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br></b>
 <br>
@@ -10,34 +10,28 @@ Items/Skills Needed To Start: None<br>
 <br>
 Starting Location: Draynor Manor<br>
 <br>
-Reward: 300 coins and 4 quest points<br>
+Reward: 300 Coins and 4 Quest Points<br>
 <br>
 Instructions:<br>
 <br>
-Talk to Veronica outside the Mansion in Draynor. She will tell you about Ernest.He has gone into the house for an hour and he hasn't came out yet. Tell her that you will help her to find Ernest.<br>
+Talk to Veronica outside the Mansion in Draynor. She will tell you about Ernest. He has gone into the house for an hour and hasn't come out yet. Tell her that you will help her to find Ernest.<br>
 <br>
-
-Go inside the house. Go to the top of the house and you will find Professor Oddenstein. Talk to him and ask him about Ernest. He will tell you that he has changed Ernest into a chicken. He will also tell you that his machine is broken, if you fix it, Professor Oddenstein may change Ernest back to a man. He will ask you to get him 3 items, a oil can, a rubber tubing and a pressure gauge.<br>
+Go inside the house and to the top floor where you’ll find Professor Oddenstein. Talk to him and ask about Ernest. He will explain that he accidentally changed Ernest into a chicken and that his machine is broken. To fix it, you must retrieve three items: an oil can, rubber tubing, and a pressure gauge.<br>
 <br>
-
-The oil can: Go to the basement of this Manor. You will find that it is a mini maze.<br>
-<br>
-Pull A and B lever. Open the NE door.
-Pull D lever. Open the SW door. Open the South door.
-Pull A and B lever again. Open the NW door. Open West door.
-Pull F and E lever. Open the East door. Open the East door.
-Pull C lever. Open the NW door. Open the West door.
-Pull E lever. Open the East door. Open the South door. Open South door.
+Oil Can: Go to the basement, which is a mini maze. Use the following lever sequence:<br>
+Pull A and B lever. Open the NE door.<br>
+Pull D lever. Open the SW door. Open the South door.<br>
+Pull A and B lever again. Open the NW door. Open West door.<br>
+Pull F and E lever. Open the East door. Open the East door.<br>
+Pull C lever. Open the NW door. Open the West door.<br>
+Pull E lever. Open the East door. Open the South door. Open South door.<br>
 Open the West door and grab the oil can.<br>
 <br>
-
-Rubber tube:Go back to the <span data-floors="US">1st floor</span> and go to the east room with the spade and grab the spade. Go out, go north,west and south and you will find the pile of compost. Use your spade on it and you will get a key. Go back into the house and open the door with a skleton inside. Don't worry about the skleton. Pick up the rubber tube and go out of this room.<br>
+Rubber Tube: Go to the <span data-floors="US">1st floor</span> east room and grab the spade. Head outside, then north, west, and south to find a pile of compost. Use the spade on the compost to get a key. Return inside and unlock the door with the skeleton inside (it won't attack). Grab the rubber tube.<br>
 <br>
-
-Pressure gauge: Go to the <span data-floors="US">2nd floor</span> and go to the room in southeast. Pick up the fish food then go back down. Go to the west room and pick up the poison. Use the poison on the fish food and go out. Go southwest of this Manor and you will find a fountain. Use the poisoned fish food on the fountain and search the fountain. You will get the Pressure gauge.<br>
+Pressure Gauge: On the <span data-floors="US">2nd floor</span>, go to the southeast room and pick up fish food. Go down to the west room and grab poison. Use poison on fish food. Then go southwest outside to the fountain, use the poisoned fish food on it, and search the fountain to get the pressure gauge.<br>
 <br>
-
-Go back to Professor Oddenstein and talk to him. He will change Ernest back to a man. Ernest will reward you.<br>
+Return to Professor Oddenstein with all three items. He will fix the machine and turn Ernest back into a human. Ernest will thank and reward you.<br>
 <br>
 This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy for corrections.<br>
 <br>

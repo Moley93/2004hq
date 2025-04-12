@@ -2,30 +2,29 @@
 function getQuestGuide() { return <<<HTML
 <b>2004HQ - Restless Ghost</b><br>
 <br>
-Description: The Lumbridge father Aerick wants you to rid his graveyard of a ghost.<br>
+Description: Father Aerick of Lumbridge wants you to rid his graveyard of a ghost.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
-Items/Skills Needed To Start: Ability to kill a lvl 19 skeleton<br>
+Items/Skills Needed to Start: Ability to kill a level 19 skeleton<br>
 <br>
-Starting Location: Lumbrige Chapel<br>
+Starting Location: Lumbridge Chapel<br>
 <br>
-Reward: 1 quest point, prayer xp<br>
+Reward: 1 Quest Point and 1,125 Prayer experience<br>
 <br>
 Instructions:<br>
 <br>
-Talk to Aerick and he'll inform you of the situation. He wants you to visit Father Urhney who is meditating in the swamps(How boring would that be?) and ask him about how to get rid of the ghost.<br>
+Talk to Father Aerick and he'll inform you of the situation. He wants you to visit Father Urhney, who is meditating in the swamps (how boring would that be?), and ask him how to get rid of the ghost.<br>
 <br>
-Go north around the castle and then go west until you get to the edge of a fence, then go south of it and proceed east to the southeast corner of the swamp.<br>
+Go north around the castle, then west until you reach the edge of a fence. Head south of it and proceed east to the southeast corner of the swamp.<br>
 <br>
-Talk to Urhney and he'll give you an amulet of ghostspeak and some info on what the ghost might want.<br>
+Talk to Urhney and he'll give you an Amulet of Ghostspeak, along with some info on what the ghost might want.<br>
 <br>
-
-Head back to the church graveyard and talk to the ghost, he'll be surprised that you can understand him. After getting over himself, he'll tell you that a warlock stole his skull from his coffin, and took it to an island. The Wizard's Tower Island.<br>
+Head back to the church graveyard and talk to the ghost. He'll be surprised that you can understand him. After getting over himself, he'll explain that a warlock stole his skull from his coffin and took it to an island — the Wizard's Tower Island.<br>
 <br>
-Head over there and go into the basement. Look for a skull and take it. A skeleton will pop out, kill it or just run and grab the skull and hightail it out of there.<br>
+Head over there and go into the basement. Look for a skull and take it. A skeleton will pop out — kill it, or just grab the skull and hightail it out of there.<br>
 <br>
-Go back to the tomb and use the skull with the ghost's coffin. The ghost will vanish and whisper thank you. Of course a minor thank you isn't going to cut it, so of course the ghost also gives you your reward. Quest completed.<br>
+Go back to the tomb and use the skull on the ghost's coffin. The ghost will vanish and whisper “thank you.” Of course, a minor thank you isn't going to cut it — so naturally, the ghost also gives you your reward. Quest complete.<br>
 <br>
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger and Weezy for corrections.<br>
 <br>

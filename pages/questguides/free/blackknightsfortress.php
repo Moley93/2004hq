@@ -15,17 +15,17 @@ Reward: 2500 coins and 3 Quest Points.<br>
 <br>
 Instructions:<br>
 <br>
-1. Talk to Sir Amik Varze, he will tell you that the Black knights are planning to destroy the White knights. He will ask you to spy on them. Accept his challenge.<br>
+1. Talk to Sir Amik Varze. He will tell you that the Black knights are planning to destroy the White knights. He will ask you to spy on them. Accept his challenge.<br>
 <br>
-2. The next place you need to go is the Monastery. It is located east of Ice Mountain. When you reach there, go north and you will see some Cabbages. Pick one up.<br>
+2. The next place you need to go is the Monastery. It is located east of Ice Mountain. Once there, go north and you will see some Cabbages. Pick one up.<br>
 <br>
 3. Now it's time to start your mission. Go to the Black Knights Fortress which is located on the north side of Ice Mountain. If you have the Bronze medium helmet and the Iron chainmail right now, wear them. After donning them, open the sturdy door in the central part of the fortress, facing the south. Push the wall just behind the door and go up the ladder.<br>
 <br>
-4. After you push the wall, climb the 2 ladders to get to the top floor. Climb down the ladder on your southeast side. Open the door on your east side. Open the other door and climb up the ladder. This room has two cannons and a Black knight. Climb down the ladder on your east side. You will be now in a room with a Zamorak altar. Open the door and a Black knight will attack you. Either kill him or ignore him, then keep going. Climb the ladder on your southwest. Now you will be in a small room<br>
+4. After you push the wall, climb the 2 ladders to get to the top floor. Climb down the ladder on your southeast side. Open the door on your east side. Open the other door and climb up the ladder. This room has two cannons and a Black knight. Climb down the ladder on your east side. You will now be in a room with a Zamorak altar. Open the door and a Black knight will attack you. Either kill him or ignore him, then keep going. Climb the ladder on your southwest. Now you will be in a small room<br>
 <br>
-5. Now we will start spying. Click the option on Listen-at grill. The witch will say that the secret weapon is almost ready. She will need the last ingredient which is a Cabbage that grew in Draynor Manor. She will say that if the goblin fetches the wrong Cabbage, the secret weapon will be destroyed. That's your way to destroy the weapon!<br>
+5. Now we will start spying. Click the 'Listen-at grill' option. The witch will say that the secret weapon is almost ready. She will need the last ingredient which is a Cabbage that grew in Draynor Manor. She will say that if the goblin fetches the wrong Cabbage, the secret weapon will be destroyed. That's how you'll sabotage the weapon!<br>
 <br>
-6. Go back downstairs to the main floor and push the wall. Now it's time to open the door on your east. One of the guards will say that the Black knights are having an important meeting and they will kill everyone who gets in. Say that you are brave and go in. One of the Black knights will attack you. Either kill him or go up the ladder. Walk east and south and push the wall. You will see a hole. Remember the Cabbage you picked? Use that Cabbage on the hole. The Cabbage will fall into the cauldron and destroy the weapon. Now your job is done.<br>
+6. Go back downstairs to the main floor and push the wall. Now it's time to open the door on your east. One of the guards will say that the Black knights are having an important meeting and they will kill everyone who gets in. Say that you are brave and go in. One of the Black knights will attack you. Either kill him or go up the ladder. Walk east and south and push the wall. You will see a hole. Remember the Cabbage you picked earler? Use that Cabbage on the hole. The Cabbage will fall into the cauldron and destroy the weapon. Now your job is done.<br>
 <br>
 7. Go back and talk to Sir Amik Varze. He will reward you.<br>
 <br>
