@@ -1,4 +1,6 @@
 <?php
+$meta_data['title'] = 'Quests > Rune Essentials';
+$meta_data['og:title'] = $meta_data['title'];
 function getQuestGuide() { return <<<HTML
 <b>2004HQ - Rune Mysteries</b><br>
 <br>
