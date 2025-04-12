@@ -288,6 +288,7 @@ A.pink:hover {
     }
 }
 .main-content {
+    max-width: 484px;
     align-items: center;
     text-align: center;
     * {
@@ -295,9 +296,9 @@ A.pink:hover {
         font-size: 18px;
     }
 
-    th, h3 {
-        font-size: 22px;
-    }
+    h1 { font-size: 30px; }
+    h2 { font-size: 28px; }
+    th, h3 { font-size: 20px; }
     .sheet-pagination {
         margin-top: 12px;
         text-align: center;
@@ -349,7 +350,7 @@ A.pink:hover {
         th,
         td {
             border: 1px solid #382418;
-            padding: 8px;
+            padding: 5px;
             text-align: center;
             vertical-align: center;
         }

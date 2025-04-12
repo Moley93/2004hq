@@ -35,12 +35,11 @@
             </table>
             <table cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><img src="img/fm_bottom.gif"></td></tr></tbody></table>
             <br>
-
-            <table style="background-color:black;"cellpadding="0" cellspacing="0"><tbody><tr><td><img src="img/fm_top.gif"></td></tr></tbody></table>
-            <table width="500" cellpadding="0" cellspacing="0" background="img/fm_middle.gif">
+            <table style="background-color:black;" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="img/fm_top.gif"></td></tr></tbody></table>
+            <table width="500px" cellpadding="0" cellspacing="0" background="img/fm_middle.gif">
               <tbody>
                 <tr>
                   <td width=7></td>
                   <td valign="bottom" style="align-items:center;text-align:center;background-color:black;">
-                    <img src="img/blank.gif" height="7" width="1"><br>
+                    <img src="img/blank.gif" height="7" width="1">
                     <div class="main-content">

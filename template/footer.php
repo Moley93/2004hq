@@ -1,4 +1,4 @@
-</div>               
+                    </div>               
                     <img src="img/blank.gif" height="7" width="1">
                   </td>
                   <td width="7"></td>
@@ -6,20 +6,19 @@
               </tbody>
             </table>
             <table cellpadding="0" cellspacing="0"><tbody><tr><td colspan="3"><img src="img/fm_bottom.gif"></td></tr></tbody></table>
-            <br>
-
           </td>
         </tr>
       </tbody>
     </table>
 
-    <table cellpadding="0" cellspacing="0">
+    <table cellpadding="0" cellspacing="0" background="img/background2.jpg">
       <tbody>
         <tr>
-          <td><img src="img\edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
+          <td><img src="img/edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
           <td>
             <div style="text-align:center;font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px;">
               <div id="site-options-container" data-style="<?= $style ?>" data-usuk="<?= $usuk ?>">
+                <br>
                 <button class="site-footer" onclick="location.href='?p=changelog'" type="button">Credits and Changelog</button>
                 |
                 <button class="site-footer" id="site-options-toggle">Site Options</button>

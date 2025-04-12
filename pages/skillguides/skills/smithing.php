@@ -2,425 +2,435 @@
 function getPageTitle() { return 'Smithing'; }
 function getPageMetaIcon() { return 'img\skillicons\smithing.webp'; }
 function getSkillContent() { return <<<HTML
-    <center><b>Smithing</b></center><p>
+    <h1>Smithing</h1>
 
 The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
 
-
-<center>
-<table bgcolor="black" cellpadding="6" border="0">
-
-<tr>
-<td width="90" bgcolor="#382418" colspan="2"><center><b>Item</b></center></td>
-<td bgcolor="#382418"><center><b>Bronze</b></center></td>
-<td bgcolor="#382418"><center><b>Iron</b></center></td>
-<td bgcolor="#382418"><center><b>Steel</b></center></td>
-<td bgcolor="#382418"><center><b>Mithril</b></center></td>
-<td bgcolor="#382418"><center><b>Adamant</b></center></td>
-<td bgcolor="#382418"><center><b>Rune</b></center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Dagger</td>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/dagger.gif"></center></td>
-<td><center>1</center></td>
-<td><center>15</center></td>
-<td><center>30</center></td>
-<td><center>50</center></td>
-<td><center>70</center></td>
-<td><center>85</center></td>
-</tr>
-
-<tr>
-<td><center>Hatchet</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_axe.png?bd75b"></center></td>
-<td><center>1</center></td>
-<td><center>16</center></td>
-<td><center>31</center></td>
-<td><center>51</center></td>
-<td><center>71</center></td>
-<td><center>86</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Mace</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_mace.png?fe489"></center></td>
-<td><center>2</center></td>
-<td><center>17</center></td>
-<td><center>32</center></td>
-<td><center>52</center></td>
-<td><center>72</center></td>
-<td><center>87</center></td>
-</tr>
-
-<tr>
-<td><center>Medium helm</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_med_helm.png?fe489"></center></td>
-<td><center>3</center></td>
-<td><center>18</center></td>
-<td><center>33</center></td>
-<td><center>53</center></td>
-<td><center>73</center></td>
-<td><center>88</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Short sword</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_sword.png?cd939"></center></td>
-<td><center>4</center></td>
-<td><center>19</center></td>
-<td><center>34</center></td>
-<td><center>54</center></td>
-<td><center>74</center></td>
-<td><center>89</center></td>
-</tr>
-
-<tr>
-<td><center>Nails</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_nails.png?cd939"></center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>34<br></center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Throwing dart tips<br></td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_dart_tip.png?fe489"></center></td>
-<td><center>4<br></center></td>
-<td><center>19<br></center></td>
-<td><center>34<br></center></td>
-<td><center>54<br></center></td>
-<td><center>74<br></center></td>
-<td><center>89</center></td>
-</tr>
-
-<tr>
-<td><center>Wire<br></td>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/wire.gif"></center></td>
-<td><center>4</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Cannonball<br></td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Cannonball.png?3c432"></center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>35</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-</tr>
-
-<tr>
-<td><center>Arrow heads<br></td>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/ahead.gif"></center></td>
-<td><center>5</center></td>
-<td><center>20</center></td>
-<td><center>35</center></td>
-<td><center>55</center></td>
-<td><center>75</center></td>
-<td><center>90</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Scimitar</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_scimitar.png?cd939"></center></td>
-<td><center>5</center></td>
-<td><center>20</center></td>
-<td><center>35</center></td>
-<td><center>55</center></td>
-<td><center>75</center></td>
-<td><center>90</center></td>
-</tr>
-
-<tr>
-<td><center>Long sword</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_longsword.png?cd939"></center></td>
-<td><center>6</center></td>
-<td><center>21</center></td>
-<td><center>36</center></td>
-<td><center>56</center></td>
-<td><center>76</center></td>
-<td><center>91</center></td>
-</tr>
-
-<tr>
-<td width="90" bgcolor="#382418" colspan="2"><center><b>Item</b></center></td>
-<td bgcolor="#382418"><center><b>Bronze</b></center></td>
-<td bgcolor="#382418"><center><b>Iron</b></center></td>
-<td bgcolor="#382418"><center><b>Steel</b></center></td>
-<td bgcolor="#382418"><center><b>Mithril</b></center></td>
-<td bgcolor="#382418"><center><b>Adamant</b></center></td>
-<td bgcolor="#382418"><center><b>Rune</b></center></td>
-</tr>
-
-<tr>
-<td><center>Studs<br></td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Steel_studs.png?659e6"></center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>36</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-<td><center>-</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Full helm</td>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/full.gif"></center></td>
-<td><center>7</center></td>
-<td><center>22</center></td>
-<td><center>37</center></td>
-<td><center>57</center></td>
-<td><center>77</center></td>
-<td><center>92</center></td>
-</tr>
-
-<tr>
-<td><center>Throwing knives<br></td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_knife.png?fe489"></center></td>
-<td><center>7<br></center></td>
-<td><center>22<br></center></td>
-<td><center>37<br></center></td>
-<td><center>57<br></center></td>
-<td><center>77</center></td>
-<td><center>92</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Square shield</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_sq_shield.png?c50c3"></center></td>
-<td><center>8</center></td>
-<td><center>23</center></td>
-<td><center>38</center></td>
-<td><center>58</center></td>
-<td><center>78</center></td>
-<td><center>93</center></td>
-</tr>
-
-<tr>
-<td><center>Warhammer</td>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/hammer.gif"></center></td>
-<td><center>9</center></td>
-<td><center>24</center></td>
-<td><center>39</center></td>
-<td><center>59</center></td>
-<td><center>79</center></td>
-<td><center>94</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Battle axe</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_battleaxe.png?bd75b"></center></td>
-<td><center>10</center></td>
-<td><center>25</center></td>
-<td><center>40</center></td>
-<td><center>60</center></td>
-<td><center>80</center></td>
-<td><center>95</center></td>
-</tr>
-
-<tr>
-<td><center>Chainmail body</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_chainbody.png?05d25"></center></td>
-<td><center>11</center></td>
-<td><center>26</center></td>
-<td><center>41</center></td>
-<td><center>61</center></td>
-<td><center>81</center></td>
-<td><center>96</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Kite shield</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_kiteshield.png?fe489"></center></td>
-<td><center>12</center></td>
-<td><center>27</center></td>
-<td><center>42</center></td>
-<td><center>62</center></td>
-<td><center>82</center></td>
-<td><center>97</center></td>
-</tr>
-
-<tr>
-<td><center>Claws<br></td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_claws.png?bd75b"></center></td>
-<td><center>13</center></td>
-<td><center>28</center></td>
-<td><center>43</center></td>
-<td><center>63</center></td>
-<td><center>83</center></td>
-<td><center>98</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Two-handed sword</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_2h_sword.png?fe489"></center></td>
-<td><center>14</center></td>
-<td><center>29</center></td>
-<td><center>44</center></td>
-<td><center>64</center></td>
-<td><center>84</center></td>
-<td><center>99</center></td>
-</tr>
-
-<tr>
-<td><center>Platemail legs</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_platelegs.png?fe489"></center></td>
-<td><center>16</center></td>
-<td><center>31</center></td>
-<td><center>46</center></td>
-<td><center>66</center></td>
-<td><center>86</center></td>
-<td><center>99</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td><center>Platemail skirt</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_plateskirt.png?cd939"></center></td>
-<td><center>16</center></td>
-<td><center>31</center></td>
-<td><center>46</center></td>
-<td><center>66</center></td>
-<td><center>86</center></td>
-<td><center>99</center></td>
-</tr>
-
-<tr>
-<td><center>Platemail body</td>
-<td><center><img src="https://oldschool.runescape.wiki/images/Bronze_platebody.png?fe489"></center></td>
-<td><center>18</center></td>
-<td><center>33</center></td>
-<td><center>48</center></td>
-<td><center>68</center></td>
-<td><center>88</center></td>
-<td><center>99</center></td>
-</tr>
-
-<tr style="background-color:#1E1E1E;">
-<td width="90" bgcolor="#382418" colspan="2"><center><b>Item</b></center></td>
-<td bgcolor="#382418"><center><b>Bronze</b></center></td>
-<td bgcolor="#382418"><center><b>Iron</b></center></td>
-<td bgcolor="#382418"><center><b>Steel</b></center></td>
-<td bgcolor="#382418"><center><b>Mithril</b></center></td>
-<td bgcolor="#382418"><center><b>Adamant</b></center></td>
-<td bgcolor="#382418"><center><b>Rune</b></center></td>
-</tr>
-
-</tr>
+<table class="calculators">
+    <tr>
+        <th rowspan=2>Item</th>
+        <th colspan=6>Level Requirement to Smith</th>
+    </tr>
+    <tr>
+        <th>Bronze</td>
+        <th>Iron</td>
+        <th>Steel</td>
+        <th>Mithril</td>
+        <th>Adamant</td>
+        <th>Rune</td>
+    </tr>
+    <tr>
+        <td>Dagger</td>
+        <td><canvas data-itemname="bronze_dagger" data-size="28px"></canvas><br>1</td>
+        <td><canvas data-itemname="iron_dagger" data-size="28px"></canvas><br>15</td>
+        <td><canvas data-itemname="steel_dagger" data-size="28px"></canvas><br>30</td>
+        <td><canvas data-itemname="mithril_dagger" data-size="28px"></canvas><br>50</td>
+        <td><canvas data-itemname="adamant_dagger" data-size="28px"></canvas><br>70</td>
+        <td><canvas data-itemname="rune_dagger" data-size="28px"></canvas><br>85</td>
+    </tr>
+    <tr>
+        <td>Axe</td>
+        <td><canvas data-itemname="bronze_axe" data-size="28px"></canvas><br>1</td>
+        <td><canvas data-itemname="iron_axe" data-size="28px"></canvas><br>16</td>
+        <td><canvas data-itemname="steel_axe" data-size="28px"></canvas><br>31</td>
+        <td><canvas data-itemname="mithril_axe" data-size="28px"></canvas><br>51</td>
+        <td><canvas data-itemname="adamant_axe" data-size="28px"></canvas><br>71</td>
+        <td><canvas data-itemname="rune_axe" data-size="28px"></canvas><br>86</td>
+    </tr>
+    <tr>
+        <td>Mace</td>
+        <td><canvas data-itemname="bronze_mace" data-size="28px"></canvas><br>2</td>
+        <td><canvas data-itemname="iron_mace" data-size="28px"></canvas><br>17</td>
+        <td><canvas data-itemname="steel_mace" data-size="28px"></canvas><br>32</td>
+        <td><canvas data-itemname="mithril_mace" data-size="28px"></canvas><br>52</td>
+        <td><canvas data-itemname="adamant_mace" data-size="28px"></canvas><br>72</td>
+        <td><canvas data-itemname="rune_mace" data-size="28px"></canvas><br>87</td>
+    </tr>
+    <tr>
+        <td>Medium helm</td>
+        <td><canvas data-itemname="bronze_med_helm" data-size="28px"></canvas><br>3</td>
+        <td><canvas data-itemname="iron_med_helm" data-size="28px"></canvas><br>18</td>
+        <td><canvas data-itemname="steel_med_helm" data-size="28px"></canvas><br>33</td>
+        <td><canvas data-itemname="mithril_med_helm" data-size="28px"></canvas><br>53</td>
+        <td><canvas data-itemname="adamant_med_helm" data-size="28px"></canvas><br>73</td>
+        <td><canvas data-itemname="rune_med_helm" data-size="28px"></canvas><br>88</td>
+    </tr>
+    <tr>
+        <td>Short sword</td>
+        <td><canvas data-itemname="bronze_sword" data-size="28px"></canvas><br>4</td>
+        <td><canvas data-itemname="iron_sword" data-size="28px"></canvas><br>19</td>
+        <td><canvas data-itemname="steel_sword" data-size="28px"></canvas><br>34</td>
+        <td><canvas data-itemname="mithril_sword" data-size="28px"></canvas><br>54</td>
+        <td><canvas data-itemname="adamant_sword" data-size="28px"></canvas><br>74</td>
+        <td><canvas data-itemname="rune_sword" data-size="28px"></canvas><br>89</td>
+    </tr>
+    <tr>
+        <td>Nails</td>
+        <td>-</td>
+        <td>-</td>
+        <td><canvas data-itemname="nails" data-size="28px"></canvas><br>34<br></td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Throwing dart tips</td>
+        <td><canvas data-itemname="bronze_dart_tip" data-size="28px"></canvas><br>4<br></td>
+        <td><canvas data-itemname="iron_dart_tip" data-size="28px"></canvas><br>19<br></td>
+        <td><canvas data-itemname="steel_dart_tip" data-size="28px"></canvas><br>34<br></td>
+        <td><canvas data-itemname="mithril_dart_tip" data-size="28px"></canvas><br>54<br></td>
+        <td><canvas data-itemname="adamant_dart_tip" data-size="28px"></canvas><br>74<br></td>
+        <td><canvas data-itemname="rune_dart_tip" data-size="28px"></canvas><br>89</td>
+    </tr>
+    <tr>
+        <td>Wire</td>
+        <td><canvas data-itemname="bronze_wire" data-size="28px"></canvas><br>4</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Cannonball</td>
+        <td>-</td>
+        <td>-</td>
+        <td><canvas data-itemname="mcannonball" data-size="28px"></canvas><br>35</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Arrow heads</td>
+        <td><canvas data-itemname="bronze_arrowheads" data-size="28px"></canvas><br>5</td>
+        <td><canvas data-itemname="iron_arrowheads" data-size="28px"></canvas><br>20</td>
+        <td><canvas data-itemname="steel_arrowheads" data-size="28px"></canvas><br>35</td>
+        <td><canvas data-itemname="mithril_arrowheads" data-size="28px"></canvas><br>55</td>
+        <td><canvas data-itemname="adamant_arrowheads" data-size="28px"></canvas><br>75</td>
+        <td><canvas data-itemname="rune_arrowheads" data-size="28px"></canvas><br>90</td>
+    </tr>
+    <tr>
+        <td>Scimitar</td>
+        <td><canvas data-itemname="bronze_scimitar" data-size="28px"></canvas><br>5</td>
+        <td><canvas data-itemname="iron_scimitar" data-size="28px"></canvas><br>20</td>
+        <td><canvas data-itemname="steel_scimitar" data-size="28px"></canvas><br>35</td>
+        <td><canvas data-itemname="mithril_scimitar" data-size="28px"></canvas><br>55</td>
+        <td><canvas data-itemname="adamant_scimitar" data-size="28px"></canvas><br>75</td>
+        <td><canvas data-itemname="rune_scimitar" data-size="28px"></canvas><br>90</td>
+    </tr>
+    <tr>
+        <td>Long sword</td>
+        <td><canvas data-itemname="bronze_longsword" data-size="28px"></canvas><br>6</td>
+        <td><canvas data-itemname="iron_longsword" data-size="28px"></canvas><br>21</td>
+        <td><canvas data-itemname="steel_longsword" data-size="28px"></canvas><br>36</td>
+        <td><canvas data-itemname="mithril_longsword" data-size="28px"></canvas><br>56</td>
+        <td><canvas data-itemname="adamant_longsword" data-size="28px"></canvas><br>76</td>
+        <td><canvas data-itemname="rune_longsword" data-size="28px"></canvas><br>91</td>
+    </tr>
+    <tr>
+        <th rowspan=2>Item</th>
+        <th colspan=6>Level Requirement to Smith</th>
+    </tr>
+    <tr>
+        <th>Bronze</td>
+        <th>Iron</td>
+        <th>Steel</td>
+        <th>Mithril</td>
+        <th>Adamant</td>
+        <th>Rune</td>
+    </tr>
+    <tr>
+    <td>Studs</td>
+        <td>-</td>
+        <td>-</td>
+        <td><canvas data-itemname="steel_studs" data-size="28px"></canvas><br>36</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Full helm</td>
+        <td><canvas data-itemname="bronze_full_helm" data-size="28px"></canvas><br>7</td>
+        <td><canvas data-itemname="iron_full_helm" data-size="28px"></canvas><br>22</td>
+        <td><canvas data-itemname="steel_full_helm" data-size="28px"></canvas><br>37</td>
+        <td><canvas data-itemname="mithril_full_helm" data-size="28px"></canvas><br>57</td>
+        <td><canvas data-itemname="adamant_full_helm" data-size="28px"></canvas><br>77</td>
+        <td><canvas data-itemname="rune_full_helm" data-size="28px"></canvas><br>92</td>
+    </tr>
+    <tr>
+    <td>Throwing knives<br></td>
+        <td><canvas data-itemname="bronze_knife" data-size="28px"></canvas><br>7<br></td>
+        <td><canvas data-itemname="iron_knife" data-size="28px"></canvas><br>22<br></td>
+        <td><canvas data-itemname="steel_knife" data-size="28px"></canvas><br>37<br></td>
+        <td><canvas data-itemname="mithril_knife" data-size="28px"></canvas><br>57<br></td>
+        <td><canvas data-itemname="adamant_knife" data-size="28px"></canvas><br>77</td>
+        <td><canvas data-itemname="rune_knife" data-size="28px"></canvas><br>92</td>
+    </tr>
+    <tr>
+        <td>Square shield</td>
+        <td><canvas data-itemname="bronze_sq_shield" data-size="28px"></canvas><br>8</td>
+        <td><canvas data-itemname="iron_sq_shield" data-size="28px"></canvas><br>23</td>
+        <td><canvas data-itemname="steel_sq_shield" data-size="28px"></canvas><br>38</td>
+        <td><canvas data-itemname="mithril_sq_shield" data-size="28px"></canvas><br>58</td>
+        <td><canvas data-itemname="adamant_sq_shield" data-size="28px"></canvas><br>78</td>
+        <td><canvas data-itemname="rune_sq_shield" data-size="28px"></canvas><br>93</td>
+    </tr>
+    <tr>
+        <td>Warhammer</td>
+        <td><canvas data-itemname="bronze_warhammer" data-size="28px"></canvas><br>9</td>
+        <td><canvas data-itemname="iron_warhammer" data-size="28px"></canvas><br>24</td>
+        <td><canvas data-itemname="steel_warhammer" data-size="28px"></canvas><br>39</td>
+        <td><canvas data-itemname="mithril_warhammer" data-size="28px"></canvas><br>59</td>
+        <td><canvas data-itemname="adamant_warhammer" data-size="28px"></canvas><br>79</td>
+        <td><canvas data-itemname="rune_warhammer" data-size="28px"></canvas><br>94</td>
+    </tr>
+    <tr>
+        <td>Battle axe</td>
+        <td><canvas data-itemname="bronze_battleaxe" data-size="28px"></canvas><br>10</td>
+        <td><canvas data-itemname="iron_battleaxe" data-size="28px"></canvas><br>25</td>
+        <td><canvas data-itemname="steel_battleaxe" data-size="28px"></canvas><br>40</td>
+        <td><canvas data-itemname="mithril_battleaxe" data-size="28px"></canvas><br>60</td>
+        <td><canvas data-itemname="adamant_battleaxe" data-size="28px"></canvas><br>80</td>
+        <td><canvas data-itemname="rune_battleaxe" data-size="28px"></canvas><br>95</td>
+    </tr>
+    <tr>
+        <td>Chainmail body</td>
+        <td><canvas data-itemname="bronze_chainbody" data-size="28px"></canvas><br>11</td>
+        <td><canvas data-itemname="iron_chainbody" data-size="28px"></canvas><br>26</td>
+        <td><canvas data-itemname="steel_chainbody" data-size="28px"></canvas><br>41</td>
+        <td><canvas data-itemname="mithril_chainbody" data-size="28px"></canvas><br>61</td>
+        <td><canvas data-itemname="adamant_chainbody" data-size="28px"></canvas><br>81</td>
+        <td><canvas data-itemname="rune_chainbody" data-size="28px"></canvas><br>96</td>
+    </tr>
+    <tr>
+        <td>Kite shield</td>
+        <td><canvas data-itemname="bronze_kiteshield" data-size="28px"></canvas><br>12</td>
+        <td><canvas data-itemname="iron_kiteshield" data-size="28px"></canvas><br>27</td>
+        <td><canvas data-itemname="steel_kiteshield" data-size="28px"></canvas><br>42</td>
+        <td><canvas data-itemname="mithril_kiteshield" data-size="28px"></canvas><br>62</td>
+        <td><canvas data-itemname="adamant_kiteshield" data-size="28px"></canvas><br>82</td>
+        <td><canvas data-itemname="rune_kiteshield" data-size="28px"></canvas><br>97</td>
+    </tr><!--
+    <tr>
+        <td>Claws<br></td>
+        <td><canvas data-itemname="bronze_claws" data-size="28px"></canvas><br>13</td>
+        <td><canvas data-itemname="iron_claws" data-size="28px"></canvas><br>28</td>
+        <td><canvas data-itemname="steel_claws" data-size="28px"></canvas><br>43</td>
+        <td><canvas data-itemname="mithril_claws" data-size="28px"></canvas><br>63</td>
+        <td><canvas data-itemname="adamant_claws" data-size="28px"></canvas><br>83</td>
+        <td><canvas data-itemname="rune_claws" data-size="28px"></canvas><br>98</td>
+    </tr>
+    --><tr>
+        <td>Two-handed sword</td>
+        <td><canvas data-itemname="bronze_2h_sword" data-size="28px"></canvas><br>14</td>
+        <td><canvas data-itemname="iron_2h_sword" data-size="28px"></canvas><br>29</td>
+        <td><canvas data-itemname="steel_2h_sword" data-size="28px"></canvas><br>44</td>
+        <td><canvas data-itemname="mithril_2h_sword" data-size="28px"></canvas><br>64</td>
+        <td><canvas data-itemname="adamant_2h_sword" data-size="28px"></canvas><br>84</td>
+        <td><canvas data-itemname="rune_2h_sword" data-size="28px"></canvas><br>99</td>
+    </tr>
+    <tr>
+        <td>Platemail legs</td>
+        <td><canvas data-itemname="bronze_platelegs" data-size="28px"></canvas><br>16</td>
+        <td><canvas data-itemname="iron_platelegs" data-size="28px"></canvas><br>31</td>
+        <td><canvas data-itemname="steel_platelegs" data-size="28px"></canvas><br>46</td>
+        <td><canvas data-itemname="mithril_platelegs" data-size="28px"></canvas><br>66</td>
+        <td><canvas data-itemname="adamant_platelegs" data-size="28px"></canvas><br>86</td>
+        <td><canvas data-itemname="rune_platelegs" data-size="28px"></canvas><br>99</td>
+    </tr>
+    <tr>
+        <td>Platemail skirt</td>
+        <td><canvas data-itemname="bronze_plateskirt" data-size="28px"></canvas><br>16</td>
+        <td><canvas data-itemname="iron_plateskirt" data-size="28px"></canvas><br>31</td>
+        <td><canvas data-itemname="steel_plateskirt" data-size="28px"></canvas><br>46</td>
+        <td><canvas data-itemname="mithril_plateskirt" data-size="28px"></canvas><br>66</td>
+        <td><canvas data-itemname="adamant_plateskirt" data-size="28px"></canvas><br>86</td>
+        <td><canvas data-itemname="rune_plateskirt" data-size="28px"></canvas><br>99</td>
+    </tr>
+    <tr>
+        <td>Platemail body</td>
+        <td><canvas data-itemname="bronze_platebody" data-size="28px"></canvas><br>18</td>
+        <td><canvas data-itemname="iron_platebody" data-size="28px"></canvas><br>33</td>
+        <td><canvas data-itemname="steel_platebody" data-size="28px"></canvas><br>48</td>
+        <td><canvas data-itemname="mithril_platebody" data-size="28px"></canvas><br>68</td>
+        <td><canvas data-itemname="adamant_platebody" data-size="28px"></canvas><br>88</td>
+        <td><canvas data-itemname="rune_platebody" data-size="28px"></canvas><br>99</td>
+    </tr>
 </table>
-</center>
-<p>
+<br>
+<br>
+<table>
+    <tr>
+        <td valign="top">
+            The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
+            Many players find that making equipment and selling it to shops and other players is a good way to make money.
+            <br><br>
+            Smithing has two stages: smelting and smithing.
+            Smelting converts your ores into bars. This is done at furnaces.
+            To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
+        </td>
+        <td>
+            <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
+        </td>
+    </tr>
+</table>
 
-<table><tr><td valign="top">
-The smithing skill is used to convert ores, obtained by mining, into weapons and armours.
-Many players find that making equipment and selling it to shops and other players is a good way to make money.
-<br><br>
-Smithing has two stages: smelting and forging.
-Smelting converts your ores into bars. This is done at furnaces.
-To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
-</td><td>
-<img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
-</td></tr></table>
-
-<p><center><b>Ores / smithing levels chart</b></center><br>
-
-<p>
+<h2>Ores / Smelting Chart</h2>
 You will need different combinations of ores and different smithing levels to make each bar.
 Some of these requirements are shown below. There are even more bars to make at higher levels.
-<p>
-<center>
-<table bgcolor="black" cellpadding="6" border="0">
-<tr>
-<td bgcolor="#382418"><center></center></td>
-<td bgcolor="#382418"><center><b>Bar</b></center></td>
-<td bgcolor="#382418"><center><b>Ores required</b></center></td>
-<td bgcolor="#382418"><center><b>Level</b></center></td>
-</tr>
+<br>
+<br>
 
-<tr>
-<td><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/bronze.gif"></center></td>
-<td><center>Bronze</center></td>
-<td><center>1 Tin ore, 1 Copper ore</center></td>
-<td><center>1</center></td>
-</tr>
+<table class="calculators">
+    <tr>
+        <th>Bar</th>
+        <th>Ores required per bar</th>
+        <th>Level<br>required</th>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Iron_bar.png?adc7e"></center></td>
-<td><center>Iron</center></td>
-<td><center>1 Iron ore (50% chance of success)</center></td>
-<td><center>15</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="bronze_bar" data-size="28px"></canvas><br>
+        Bronze
+    </td>
+    <td>
+        <canvas data-itemname="tin_ore" data-size="28px"></canvas>
+        <canvas data-itemname="copper_ore" data-size="28px"></canvas><br>
+        1 Tin ore, 1 Copper ore
+    </td>
+    <td>1</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Silver_bar.png?7fb98"></center></td>
-<td><center>Silver</center></td>
-<td><center>1 Silver</center></td>
-<td><center>20</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="iron_bar" data-size="28px"></canvas><br>
+        Iron
+    </td>
+    <td>
+        <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+        1 Iron ore (50% chance of success)
+    </td>
+    <td>15</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Steel_bar.png?3203e"></center></td>
-<td><center>Steel</center></td>
-<td><center>2 Coal, 1 Iron ore</center></td>
-<td><center>30</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="silver_bar" data-size="28px"></canvas><br>
+        Silver
+    </td>
+    <td>
+        <canvas data-itemname="silver_ore" data-size="28px"></canvas><br>
+        1 Silver ore
+    </td>
+    <td>20</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Gold_bar.png?122dd"></center></td>
-<td><center>Gold</center></td>
-<td><center>1 Gold</center></td>
-<td><center>40</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="steel_bar" data-size="28px"></canvas><br>
+        Steel
+    </td>
+    <td>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+        2 Coal, 1 Iron ore
+    </td>
+    <td>30</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Mithril_bar.png?ccf02"></center></td>
-<td><center>Mithril</center></td>
-<td><center>4 Coal, 1 Mithril ore</center></td>
-<td><center>50</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="gold_bar" data-size="28px"></canvas><br>
+        Gold
+    </td>
+    <td>
+        <canvas data-itemname="gold_ore" data-size="28px"></canvas><br>
+        1 Gold ore
+    </td>
+    <td>40</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Adamantite_bar.png?cf6a6"></center></td>
-<td><center>Adamant</center></td>
-<td><center>6 Coal, 1 Adamantite ore</center></td>
-<td><center>70</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="mithril_bar" data-size="28px"></canvas><br>
+        Mithril
+    </td>
+    <td>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="mithril_ore" data-size="28px"></canvas><br>
+        4 Coal, 1 Mithril ore
+    </td>
+    <td>50</td>
+    </tr>
 
-<tr>
-<td><center><img src="https://oldschool.runescape.wiki/images/Runite_bar.png?068bd"></center></td>
-<td><center>Runite</center></td>
-<td><center>8 Coal, 1 Runite ore</center></td>
-<td><center>85</center></td>
-</tr>
+    <tr>
+    <td>
+        <canvas data-itemname="adamantite_bar" data-size="28px"></canvas><br>
+        Adamant</td>
+    <td>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="adamantite_ore" data-size="28px"></canvas><br>
+        6 Coal, 1 Adamantite ore
+    </td>
+    <td>70</td>
+    </tr>
 
+    <tr>
+    <td>
+        <canvas data-itemname="runite_bar" data-size="28px"></canvas><br>
+        Runite
+    </td>
+    <td>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="coal" data-size="28px"></canvas>
+        <canvas data-itemname="runite_ore" data-size="28px"></canvas><br>
+        8 Coal, 1 Runite ore
+    </td>
+    <td>85</td>
+    </tr>
 </table>
+<br>
+<br>
+<h2>Smithing/Forging items</h2>
 
-<center><b>Forging items</b></center><br>
-</center>
-You will need a hammer which can be bought from any general store.
-To convert your bars into armour and weapons you must forge them at an anvil.
-<p>
+You will need a hammer which can be bought from any general store.<br>
+To convert your bars into armour and weapons you must forge them at an anvil.<br>
+
 Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
-<p><center><img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif"></center>
-<p>
-The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
-<p>
-Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.
-<p>
+<img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif">
+<br>
+<br>
+The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.<br>
+<br>
+Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.<br><br>
 
-<table border="0"><tr><td valign="top"><img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23"></td><td valign="top">
-The smithing levels required to forge a metal type are the same as those required to smelt it.
-However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
-<p>
-The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
-</td></tr><table>
+
+<table>
+    <tr>
+        <td valign="top">
+            <img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23">
+        </td>
+        <td valign="top">
+            The smithing levels required to forge a metal type are the same as those required to smelt it.
+            However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
+            <br>
+            The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
+        </td>
+    </tr>
+</table>
 HTML; }
