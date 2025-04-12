@@ -288,6 +288,10 @@ A.pink:hover {
     }
 }
 .main-content {
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    justify-content: center; /* vertical centering */
+    align-items: center;
     max-width: 484px;
     align-items: center;
     text-align: center;
