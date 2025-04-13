@@ -29,9 +29,12 @@ if (!empty($_GET['p'])) {
         case 'changelog':
             include 'pages/main/changelog.php';
             break;
+        case '403':
+            include 'pages/main/error/403.php';
+            break;
         default:
         case '404':
-            include 'pages/main/404.php';
+            include 'pages/main/error/404.php';
             break;
     }
 } else {
