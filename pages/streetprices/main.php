@@ -4,7 +4,6 @@ function getPageContent() {
     global $meta_data;
     $meta_data['title'] = 'Street Prices';
     $meta_data['og:title'] = $meta_data['title'];
-    $meta_data['og:url'] = '?p=streetprices';
     $meta_data['og:image'] = 'img/rune_kite.png';
 
     return <<<HTML

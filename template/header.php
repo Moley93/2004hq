@@ -1,7 +1,7 @@
 <?php
 if (isset($_SERVER['REQUEST_SCHEME'])) {
     $baseUrl = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/') . '/';
-    $ogurl = $baseUrl . ltrim($meta_data['og:url'], '/');
+    $ogurl = $baseUrl . '?'.$_SERVER['QUERY_STRING'];
     if (substr($meta_data['og:image'], 0, 4) == "http") {
         $ogimage = $meta_data['og:image'];
     } else {
@@ -26,6 +26,7 @@ if (isset($_SERVER['REQUEST_SCHEME'])) {
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png" />
     <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/siteOptions.js"></script>
     <script type="text/javascript" src="js/spriteLoader.js"></script>
     <script type="text/javascript" src="js/floorSelector.js"></script>

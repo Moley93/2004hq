@@ -1,8 +1,7 @@
 <?php
-function getPageTitle() { return 'Defence'; }
-function getPageMetaIcon() { return 'img/skillicons/defence.webp'; }
-function getSkillContent() { return <<<HTML
-<div style="text-align:center;"><b>Defence</b></div>
+function getSkillContent($skill) { return <<<HTML
+<h2>$skill Skill Guide</h2>
+
 <br><br><h4 style="display: inline;">Melee Armour:</h4><br><br><b>Helmets</b><br><table style="text-align: center;" align="center">
 <tr>
 <td><canvas data-itemname="bronze_med_helm"></canvas><canvas data-itemname="iron_med_helm"></canvas><canvas data-itemname="steel_med_helm"></canvas><canvas data-itemname="black_med_helm"></canvas><canvas data-itemname="mithril_med_helm"></canvas><canvas data-itemname="adamant_med_helm"></canvas><canvas data-itemname="rune_med_helm"></canvas><canvas data-itemname="dragon_med_helm"></canvas><br><canvas data-itemname="bronze_full_helm"></canvas><canvas data-itemname="iron_full_helm"></canvas><canvas data-itemname="steel_full_helm"></canvas><canvas data-itemname="black_full_helm"></canvas><canvas data-itemname="mithril_full_helm"></canvas><canvas data-itemname="adamant_full_helm"></canvas><canvas data-itemname="rune_full_helm"></canvas></td>

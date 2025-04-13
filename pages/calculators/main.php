@@ -42,7 +42,6 @@ function getPageContent(): string {
     if (empty($_GET['calc'])) {
         $meta_data['title'] = 'Calculators';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:url'] = '?p=calculators';
         $meta_data['og:image'] = 'img/stats.webp';
         return generateCalculatorLinks();
     } else {
@@ -56,7 +55,6 @@ function getPageContent(): string {
             // - getPageMetaIcon()
             $meta_data['title'] = 'Calculators > ' . getPageTitle();
             $meta_data['og:title'] = $meta_data['title'];
-            $meta_data['og:url'] = '?p=calculators&calc=' . $currSkill;
             $meta_data['og:image'] = getPageMetaIcon();
 
             echo getCalcContent();

@@ -1,6 +1,7 @@
 <?php
-function getPageTitle() { return 'Strength'; }
-function getPageMetaIcon() { return 'img/skillicons/strength.webp'; }
-function getSkillContent() { return <<<HTML
-Coming Soon!
+function getSkillContent($skill) { return <<<HTML
+<h2>$skill Skill Guide</h2>
+<p>
+    Coming Soon!
+</p>
 HTML; }

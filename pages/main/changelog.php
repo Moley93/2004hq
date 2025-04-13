@@ -5,7 +5,6 @@ function getPageContent() {
 
     $meta_data['title'] = 'Changelog';
     $meta_data['og:title'] = $meta_data['title'];
-    $meta_data['og:url'] = '?p=changelog';
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML

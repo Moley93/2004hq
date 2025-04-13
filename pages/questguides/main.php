@@ -59,19 +59,16 @@ ksort($questlist);
 
 function getPageContent() {
     global $questlist, $meta_data, $style;
-
     ob_start();
-
     if (empty($_GET['quest'])) {
-        $meta_data['title'] = 'Quests';
+        $meta_data['title'] = 'Quest Guides';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:url'] = '?p=questguides';
         $meta_data['og:image'] = 'img/questicon.webp';
-        echo '<b>Select the Quest you would like to view a Guide for:</b><br><br>';
+        echo '<h3>Select the Quest you would like to view a Guide for:</h3>';
         if ($style === 'oldschool') {
-            echo renderQuestListOldschool($questlist);  // Plain table style
+            echo renderQuestListOldschool($questlist);
         } else {
-            echo renderQuestList($questlist);  // RuneScape styled version
+            echo renderQuestList($questlist);
         }
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
@@ -89,9 +86,8 @@ function getPageContent() {
         }
 
         if ($found) {
-            $meta_data['title'] = 'Quests > ' . $questName;
+            $meta_data['title'] = 'Quest Guides > ' . $questName;
             $meta_data['og:title'] = $meta_data['title'];
-            $meta_data['og:url'] = '?p=questguides&quest=' . $currQuest;
             $meta_data['og:image'] = 'img/questIcons/' . $currQuest . '.webp';
 
             $fileLocation = 'pages/questguides/' . ($questMembers ? 'members' : 'free') . '/' . $currQuest . '.php';

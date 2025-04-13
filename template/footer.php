@@ -10,7 +10,6 @@
         </tr>
       </tbody>
     </table>
-
     <table cellpadding="0" cellspacing="0" background="img/background2.jpg">
       <tbody>
         <tr>
@@ -54,5 +53,9 @@
   </div>
 </td>
 </tr></tbody></table>
+<div id="scrollToTop" style="display:none; cursor:pointer;">
+    <img src="img/scroll_icon.png" width="19" height="67" alt="Scroll to top">
+    <div style="font-size:12px; color:white;">Scroll to Top</div>
+</div>
 </body>
 </html>

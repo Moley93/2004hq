@@ -4,7 +4,6 @@ function getPageContent() {
     global $meta_data;
     $meta_data['title'] = 'Clue Tables';
     $meta_data['og:title'] = $meta_data['title'];
-    $meta_data['og:url'] = '?p=cluetables';
     $meta_data['og:image'] = 'img/clueicon.png';
 
     return <<<HTML
