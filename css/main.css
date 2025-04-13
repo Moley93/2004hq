@@ -295,6 +295,8 @@ A.pink:hover {
     max-width: 484px;
     align-items: center;
     text-align: center;
+    font-family: 'RSPlain12', sans-serif;
+    font-size: 18px;
     * {
         font-family: 'RSPlain12', sans-serif;
         font-size: 18px;
