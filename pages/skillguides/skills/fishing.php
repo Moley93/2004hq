@@ -8,87 +8,74 @@ function getSkillContent($skill) { return <<<HTML
     These options are net, bait, harpoon, lure and cage. <br>
     Click on the correct option and if you have the correct equipment you will attempt to catch a fish.<br>
 
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
+    <table class="calculators">
         <tr>
-            <th width="60%" colspan="2"><b>Fish</b></th>
-            <th width="20%"><b>Level</b></th>
-            <th width="20%"><b>Type</b></th>
+            <th>Fish</th>
+            <th>Level</th>
+            <th>Fishing Spot Type</th>
         </tr>
         <tr>
-            <td>Shrimp</td>
-            <td><canvas data-itemname="raw_shrimps"></canvas></td>
+            <td><canvas data-itemname="raw_shrimps"></canvas><br>Shrimp</td>
             <td>1</td>
             <td>Net Fishing</td>
         </tr>
         <tr>
-            <td>Sardine</td>
-            <td><canvas data-itemname="raw_sardine"></canvas></td>
+            <td><canvas data-itemname="raw_sardine"></canvas><br>Sardine</td>
             <td>5</td>
             <td>Sea bait fishing</td>
         </tr>
         <tr>
-            <td>Anchovies</td>
-            <td><canvas data-itemname="raw_anchovies"></canvas></td>
+            <td><canvas data-itemname="raw_anchovies"></canvas><br>Anchovies</td>
             <td>15</td>
             <td>Net Fishing</td>
         </tr>
         <tr>
-            <td>Mackerel</td>
-            <td><canvas data-itemname="raw_mackerel"></canvas></td>
+            <td><canvas data-itemname="raw_mackerel"></canvas><br>Mackerel</td>
             <td>16</td>
             <td>Big net fishing</td>
         </tr>
         <tr>
-            <td>Trout</td>
-            <td><canvas data-itemname="raw_trout"></canvas></td>
+            <td><canvas data-itemname="raw_trout"></canvas><br>Trout</td>
             <td>20</td>
             <td>Fly Fishing</td>
         </tr>
         <tr>
-            <td>Cod</td>
-            <td><canvas data-itemname="raw_cod"></canvas></td>
+            <td><canvas data-itemname="raw_cod"></canvas><br>Cod</td>
             <td>23</td>
             <td>Big net fishing</td>
         </tr>
         <tr>
-            <td>Salmon</td>
-            <td><canvas data-itemname="raw_salmon"></canvas></td>
+            <td><canvas data-itemname="raw_salmon"></canvas><br>Salmon</td>
             <td>30</td>
             <td>Fly Fishing</td>
         </tr>
         <tr>
-            <td>Tuna</td>
-            <td><canvas data-itemname="raw_tuna"></canvas></td>
+            <td><canvas data-itemname="raw_tuna"></canvas><br>Tuna</td>
             <td>35</td>
             <td>Harpoon fishing</td>
         </tr>
         <tr>
-            <td>Lobster</td>
-            <td><canvas data-itemname="raw_lobster"></canvas></td>
+            <td><canvas data-itemname="raw_lobster"></canvas><br>Lobster</td>
             <td>40</td>
             <td>Lobster fishing</td>
         </tr>
         <tr>
-            <td>Bass</td>
-            <td><canvas data-itemname="raw_bass"></canvas></td>
+            <td><canvas data-itemname="raw_bass"></canvas><br>Bass</td>
             <td>46</td>
             <td>Big net fishing</td>
         </tr>
         <tr>
-            <td>Shark</td>
-            <td><canvas data-itemname="raw_shark"></canvas></td>
+            <td><canvas data-itemname="raw_shark"></canvas><br>Shark</td>
             <td>76</td>
             <td>Harpoon fishing</td>
         </tr>
         <tr>
-            <td>Sea Turtle</td>
-            <td><canvas data-itemname="raw_sea_turtle"></canvas></td>
+            <td><canvas data-itemname="raw_sea_turtle"></canvas><br>Sea Turtle</td>
             <td>79</td>
             <td>Trawler Mini Game</td>
         </tr>
         <tr>
-            <td>Manta Ray</td>
-            <td><canvas data-itemname="raw_manta_ray"></canvas></td>
+            <td><canvas data-itemname="raw_manta_ray"></canvas><br>Manta Ray</td>
             <td>81</td>
             <td>Trawler Mini Game</td>
         </tr>
