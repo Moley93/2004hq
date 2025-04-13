@@ -4494,6 +4494,13 @@
     "cost": 5
   },
   {
+    "id": 1594,
+    "debugname": "unholy_mould",
+    "name": "Unholy mould",
+    "desc": "Used to make unholy symbols.",
+    "cost": 200
+  },
+  {
     "id": 1595,
     "debugname": "amulet_mould",
     "name": "Amulet mould",

@@ -2,233 +2,741 @@
 function getPageTitle() { return 'Crafting'; }
 function getPageMetaIcon() { return 'img/skillicons/crafting.webp'; }
 function getSkillContent() { return <<<HTML
-<center><b>Crafting</b></center><p>
+<h2>Crafting</h2>
 
-<table bgcolor="black" cellpadding="3" border="0">
-<tr>
-<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="90" bgcolor="#382418"><center><b>Level</b></center></td>
-<td width="90" bgcolor="#382418"><center><b>Item</b></center></td>
-<td width="90" bgcolor="#382418"><center><b>Level</b></center></td>
-</tr>
-<tr>
-<td><center>Cut Opal<br><canvas data-itemname="opal"></canvas></center></td>
-<td><center>Level 1<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td><center>Leather gloves<br><canvas data-itemname="leather_gloves"></canvas></center></td>
-<td><center>Level 1</center></td>
-</tr>
-
-<tr>
-<td><center>Pot<br><canvas data-itemname="pot_empty"></canvas></center></td>
-<td><center>Level 1</center></td>
-<td><center>Beer glass<br><canvas data-itemname="beer_glass"></canvas></center></td>
-<td><center>Level 1<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td><center>Gold ring<br><canvas data-itemname="gold_ring"></canvas></center></td>
-<td><center>Level 5</center></td>
-<td valign="top"><center>Gold necklace<br><canvas data-itemname="gold_necklace"></canvas></center></td>
-<td><center>Level 6</center></td>
-</tr>
-
-<tr>
-<td><center>Pie dish<br><canvas data-itemname="piedish"></canvas></center></td>
-<td><center>Level 7</center></td>
-<td><center>Leather boots<br><canvas data-itemname="leather_boots"></canvas></center></td>
-<td><center>Level 7</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Gold amulet<br><canvas data-itemname="gold_amulet"></canvas></center></td>
-<td><center>Level 8</center></td>
-<td><center>Bowl<br><canvas data-itemname="bowl_empty"></canvas></center></td>
-<td><center>Level 8</center></td>
-</tr>
-
-<tr>
-<td><center>Leather cowl<br><canvas data-itemname="leather_cowl"></canvas></center></td>
-<td><center>Level 9</center></td>
-<td><center>Bow strings<br><canvas data-itemname="bow_string"></canvas></center></td>
-<td><center>Level 10<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td><center>Leather vambraces<br><canvas data-itemname="leather_vambraces"></canvas></center></td>
-<td><center>Level 11</center></td>
-<td><center>Cut jade<br><canvas data-itemname="jade"></canvas></center></td>
-<td><center>Level 13<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td><center>Leather armour<br><canvas data-itemname="leather_body"></canvas></center></td>
-<td><center>Level 14</center></td>
-<td><center>Snail Shell<br><canvas data-itemname="snailshell1"></canvas></center></td>
-<td><center>Level 15<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td><center>Holy symbol<br><canvas data-itemname="unblessed_symbol"></canvas></center></td>
-<td><center>Level 16</center></td>
-<td><center>Cut red topaz<br><canvas data-itemname="red_topaz"></canvas></center></td>
-<td><center>Level 16<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td><center>Unholy symbol<br><canvas data-itemname="unpowered_symbol"></canvas></center></td>
-<td><center>Level 17<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td><center>Leather chaps<br><canvas data-itemname="leather_chaps"></canvas></center></td>
-<td><center>Level 18</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Cut sapphire<br><canvas data-itemname="sapphire"></canvas></center></td>
-<td><center>Level 20</center></td>
-<td><center>Sapphire ring<br><canvas data-itemname="sapphire_ring"></canvas></center></td>
-<td><center>Level 20</center></td>
-</tr>
-
-<tr>
-<td><center>Sapphire necklace<br><canvas data-itemname="sapphire_necklace"></canvas></center></td>
-<td><center>Level 22</center></td>
-<td><center>Sapphire amulet<br><canvas data-itemname="sapphire_amulet"></canvas></center></td>
-<td><center>Level 24</center></td>
-</tr>
-
-<tr>
-<td><center>Cut emerald<br><canvas data-itemname="emerald"></canvas></center></td>
-<td><center>Level 27</center></td>
-<td valign="top"><center>Emerald ring<br><canvas data-itemname="emerald_ring"></canvas></center></td>
-<td><center>Level 27</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Hard leather body<br><canvas data-itemname="hardleather_body"></canvas></center></td>
-<td><center>Level 28</center></td>
-<td valign="top"><center>Emerald necklace<br><canvas data-itemname="emerald_necklace"></canvas></center></td>
-<td><center>Level 29</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Emerald amulet<br><canvas data-itemname="emerald_amulet"></canvas></center></td>
-<td><center>Level 31</center></td>
-<td valign="top"><center>Vials<br><canvas data-itemname="vial_empty"></canvas></center></td>
-<td><center>Level 33<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Cut ruby<br><canvas data-itemname="ruby"></canvas></center></td>
-<td><center>Level 34</center></td>
-<td valign="top"><center>Ruby ring<br><canvas data-itemname="ruby_ring"></canvas></center></td>
-<td><center>Level 34</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Leather Coif<br><canvas data-itemname="coif"></canvas></center></td>
-<td><center>Level 38<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Ruby Necklace<br><canvas data-itemname="ruby_necklace"></canvas></center></td>
-<td><center>Level 40</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Studded Body<br><canvas data-itemname="studded_body"></canvas></center></td>
-<td><center>Level 41<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Cut Diamond<br><canvas data-itemname="diamond"></canvas></center></td>
-<td><center>Level 43</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Diamond ring<br><canvas data-itemname="diamond_ring"></canvas></center></td>
-<td><center>Level 43</center></td>
-<td valign="top"><center>Studded chaps<br><canvas data-itemname="studded_chaps"></canvas></center></td>
-<td><center>Level 44<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Staff orb<br><canvas data-itemname="stafforb"></canvas></center></td>
-<td><center>Level 46<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Ruby amulet<br><canvas data-itemname="ruby_amulet"></canvas></center></td>
-<td><center>Level 50</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Water battlestaff<br><canvas data-itemname="water_battlestaff"></canvas></center></td>
-<td><center>Level 54<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Cut dragonstone<br><canvas data-itemname="dragonstone"></canvas></center></td>
-<td><center>Level 55<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Dragonstone ring<br><canvas data-itemname="dragonstone_ring"></canvas></center></td>
-<td><center>Level 55<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Diamond necklace<br><canvas data-itemname="diamond_necklace"></canvas></center></td>
-<td><center>Level 56</center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Green Dragonhide vambraces<br><canvas data-itemname="dragonhide_vamb"></canvas></center></td>
-<td><center>Level 57<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Earth battlestaff<br><canvas data-itemname="earth_battlestaff"></canvas></center></td>
-<td><center>Level 58<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Green Dragonhide chaps<br><canvas data-itemname="dragonhide_chaps"></canvas></center></td>
-<td><center>Level 60<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-<td valign="top"><center>Fire battlestaff<br><canvas data-itemname="fire_battlestaff"></canvas></center></td>
-<td><center>Level 62<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Green Dragonhide body<br><canvas data-itemname="dragonhide_body"></canvas></center></td>
-<td><center>Level 63<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Air battlestaff<br><canvas data-itemname="air_battlestaff"></canvas></center></td>
-<td><center>Level 66<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Blue Dragonhide vambraces<br><canvas data-itemname="blue_dragonhide_vambraces"></canvas></center></td>
-<td><center>Level 66<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Blue Dragonhide chaps<br><canvas data-itemname="blue_dragonhide_chaps"></canvas></center></td>
-<td><center>Level 68<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Diamond amulet<br><canvas data-itemname="diamond_amulet"></canvas></center></td>
-<td><center>Level 70</center></td>
-<td valign="top"><center>Blue Dragonhide body<br><canvas data-itemname="blue_dragonhide_body"></canvas></center></td>
-<td><center>Level 71<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Dragonstone necklace<br><canvas data-itemname="dragonstone_necklace"></canvas></center></td>
-<td><center>Level 72<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Red Dragonhide vambraces<br><canvas data-itemname="red_dragonhide_vambraces"></canvas></center></td>
-<td><center>Level 73<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Red Dragonhide chaps<br><canvas data-itemname="red_dragonhide_chaps"></canvas></center></td>
-<td><center>Level 75<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Red Dragonhide body<br><canvas data-itemname="red_dragonhide_body"></canvas></center></td>
-<td><center>Level 77<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Black Dragonhide vambraces<br><canvas data-itemname="black_dragonhide_vambraces"></canvas></center></td>
-<td><center>Level 79<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Dragonstone amulet<br><canvas data-itemname="dragonstone_amulet"></canvas></center></td>
-<td><center>Level 80<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
-<tr>
-<td valign="top"><center>Black Dragonhide chaps<br><canvas data-itemname="black_dragonhide_chaps"></canvas></center></td>
-<td><center>Level 82<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-<td valign="top"><center>Black Dragonhide body<br><canvas data-itemname="black_dragonhide_body"></canvas></center></td>
-<td><center>Level 84<br><a href="https://web.archive.org/web/20050204054353/http://www.runescape.com/aff/runescape/members/members.html"></a></center></td>
-</tr>
-
+<table class="calculators">
+    <tr>
+        <th>Crafting Level</th>
+        <th>Ingredients</th>
+        <th>Tools</th>
+        <th>Product</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><canvas data-itemname="uncut_opal"></canvas><br><br>Uncut Opal</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="opal"></canvas><br>Opal</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><canvas data-itemname="wool"></canvas><br>Wool</td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px /><br>
+            Spinning Wheel
+        </td>
+        <td><canvas data-itemname="ball_of_wool"></canvas><br>Ball of Wool</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_gloves"></canvas><br>Leather gloves</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>
+            <canvas data-itemname="soft_clay"></canvas><br>Soft clay
+        </td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+            Potter's wheel
+        </td>
+        <td><canvas data-itemname="unfired_pot"></canvas><br>Unfired pot</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><canvas data-itemname="unfired_pot"></canvas><br>Unfired pot</td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+            Pottery Oven
+        </td>
+        <td><canvas data-itemname="pot_empty"></canvas><br>Pot</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><canvas data-itemname="molten_glass"></canvas><br>Molten glass</td>
+        <td><canvas data-itemname="glassblowing_pipe"></canvas><br>Glassblowing pipe</td>
+        <td><canvas data-itemname="beer_glass"></canvas><br>Beer glass</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas><br>
+            Gold bar
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould & Furnace
+        </td>
+        <td><canvas data-itemname="gold_ring"></canvas><br>Gold ring</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas><br>
+            Gold bar
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="gold_necklace"></canvas><br>Gold necklace</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>
+            <canvas data-itemname="soft_clay"></canvas><br>Soft clay
+        </td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+            Potter's wheel
+        </td>
+        <td><canvas data-itemname="unfired_piedish"></canvas><br>Unfired pie dish</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><canvas data-itemname="unfired_piedish"></canvas><br>Unfired pie dish</td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+            Pottery Oven
+        </td>
+        <td><canvas data-itemname="piedish"></canvas><br>Pie dish</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_boots"></canvas><br>Leather boots</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="gold_amulet"></canvas><br>Gold amulet</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>
+            <canvas data-itemname="soft_clay"></canvas><br>Soft clay
+        </td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+            Potter's wheel
+        </td>
+        <td><canvas data-itemname="unfired_bowl"></canvas><br>Unfired bowl</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td><canvas data-itemname="unfired_bowl"></canvas><br>Unfired bowl</td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+            Pottery Oven
+        </td>
+        <td><canvas data-itemname="bowl_empty"></canvas><br>Bowl</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_cowl"></canvas><br>Leather cowl</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><canvas data-itemname="flax"></canvas><br>Flax</td>
+        <td>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px /><br>
+            Spinning Wheel
+        </td>
+        <td><canvas data-itemname="bow_string"></canvas><br>Bow string</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_vambraces"></canvas><br>Leather vambraces</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td><canvas data-itemname="uncut_jade"></canvas><br>Uncut jade</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="jade"></canvas><br>Jade</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_body"></canvas><br>Leather body</td>
+    </tr>
+    <!-- <tr>
+        <td>15</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="snailshell1"></canvas><br>Snail Shell</td>
+    </tr> -->
+    <tr>
+        <td>16</td>
+        <td>
+            <canvas data-itemname="silver_bar"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Silver Bar, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="holy_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Holy mould, Furnace
+        </td>
+        <td><canvas data-itemname="unblessed_symbol"></canvas><br>Holy symbol</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td><canvas data-itemname="uncut_red_topaz"></canvas><br>Uncut red topaz</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="red_topaz"></canvas><br>Red topaz</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>
+            <canvas data-itemname="silver_bar"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Silver Bar, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="unholy_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Unholy mould, Furnace
+        </td>
+        <td><canvas data-itemname="unpowered_symbol"></canvas><br>Unholy symbol</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="leather_chaps"></canvas><br>Leather chaps</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td><canvas data-itemname="uncut_sapphire"></canvas><br>Uncut sapphire</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="sapphire"></canvas><br>Sapphire</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="sapphire"></canvas><br>
+            Gold bar, Sapphire
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould, Furnace
+        </td>
+        <td><canvas data-itemname="sapphire_ring"></canvas><br>Sapphire ring</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="sapphire"></canvas><br>
+            Gold bar, Sapphire
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="sapphire_necklace"></canvas><br>Sapphire necklace</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="sapphire"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Sapphire, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="sapphire_amulet"></canvas><br>Sapphire amulet</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td><canvas data-itemname="uncut_emerald"></canvas><br>Uncut emerald</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="emerald"></canvas><br>Emerald</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="emerald"></canvas><br>
+            Gold bar, Emerald
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould, Furnace
+        </td>
+        <td><canvas data-itemname="emerald_ring"></canvas><br>Emerald ring</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td><canvas data-itemname="hardleather"></canvas><br>Head leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="hardleather_body"></canvas><br>Hard leather body</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="emerald"></canvas><br>
+            Gold bar, Emerald
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="emerald_necklace"></canvas><br>Emerald necklace</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="emerald"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Emerald, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="emerald_amulet"></canvas><br>Emerald amulet</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td><canvas data-itemname="molten_glass"></canvas><br>Molten glass</td>
+        <td><canvas data-itemname="glassblowing_pipe"></canvas><br>Glassblowing pipe</td>
+        <td><canvas data-itemname="vial_empty"></canvas><br>Vial</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td><canvas data-itemname="uncut_ruby"></canvas><br>Uncut ruby</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="ruby"></canvas><br>Ruby</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="ruby"></canvas><br>
+            Gold bar, Ruby
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould, Furnace
+        </td>
+        <td><canvas data-itemname="ruby_ring"></canvas><br>Ruby ring</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td><canvas data-itemname="leather"></canvas><br>Leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="coif"></canvas><br>Leather Coif</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="ruby"></canvas><br>
+            Gold bar, Ruby
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="ruby_necklace"></canvas><br>Ruby Necklace</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>
+            <canvas data-itemname="leather_body"></canvas>
+            <canvas data-itemname="steel_studs"></canvas><br>
+            Leather body, Steel studs
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="studded_body"></canvas><br>Studded Body</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td><canvas data-itemname="uncut_diamond"></canvas><br>Uncut Diamond</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="diamond"></canvas><br>Diamond</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="diamond"></canvas><br>
+            Gold bar, Diamond
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould, Furnace
+        </td>
+        <td><canvas data-itemname="diamond_ring"></canvas><br>Diamond ring</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>
+            <canvas data-itemname="leather_chaps"></canvas>
+            <canvas data-itemname="steel_studs"></canvas><br>
+            Leather chaps, Steel studs
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="studded_chaps"></canvas><br>Studded chaps</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td><canvas data-itemname="molten_glass"></canvas><br>Molten glass</td>
+        <td><canvas data-itemname="glassblowing_pipe"></canvas><br>Glassblowing pipe</td>
+        <td><canvas data-itemname="stafforb"></canvas><br>Staff orb</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="ruby"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Ruby, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="ruby_amulet"></canvas><br>Ruby amulet</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td>
+            <canvas data-itemname="water_orb"></canvas>
+            <canvas data-itemname="battlestaff"></canvas><br>
+            Water orb, Battlestaff
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="water_battlestaff"></canvas><br>Water battlestaff</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td><canvas data-itemname="uncut_dragonstone"></canvas><br>Uncut dragonstone</td>
+        <td><canvas data-itemname="chisel"></canvas><br>Chisel</td>
+        <td><canvas data-itemname="dragonstone"></canvas><br>Dragonstone</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="dragonstone"></canvas><br>
+            Gold bar, Dragonstone
+        </td>
+        <td>
+            <canvas data-itemname="ring_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Ring mould, Furnace
+        </td>
+        <td><canvas data-itemname="dragonstone_ring"></canvas><br>Dragonstone ring</td>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="diamond"></canvas><br>
+            Gold bar, Diamond
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="diamond_necklace"></canvas><br>Diamond necklace</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td><canvas data-itemname="dragon_leather"></canvas><br>Green dragon leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="dragonhide_vamb"></canvas><br>Green Dragonhide vambraces</td>
+    </tr>
+    <tr>
+        <td>58</td>
+        <td>
+            <canvas data-itemname="earth_orb"></canvas>
+            <canvas data-itemname="battlestaff"></canvas><br>
+            Earth orb, Battlestaff
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="earth_battlestaff"></canvas><br>Earth battlestaff</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>
+            <canvas data-itemname="dragon_leather"></canvas>
+            <canvas data-itemname="dragon_leather"></canvas><br>
+            Green dragon leather (x2)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="dragonhide_chaps"></canvas><br>Green Dragonhide chaps</td>
+    </tr>
+    <tr>
+        <td>62</td>
+        <td>
+            <canvas data-itemname="fire_orb"></canvas>
+            <canvas data-itemname="battlestaff"></canvas><br>
+            Fire orb, Battlestaff
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="fire_battlestaff"></canvas><br>Fire battlestaff</td>
+    </tr>
+    <tr>
+        <td>63</td>
+        <td>
+            <canvas data-itemname="dragon_leather"></canvas>
+            <canvas data-itemname="dragon_leather"></canvas>
+            <canvas data-itemname="dragon_leather"></canvas><br>
+            Green dragon leather (x3)</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="dragonhide_body"></canvas><br>Green Dragonhide body</td>
+    </tr>
+    <tr>
+        <td>66</td>
+        <td>
+            <canvas data-itemname="air_orb"></canvas>
+            <canvas data-itemname="battlestaff"></canvas><br>
+            Air orb, Battlestaff
+        </td>
+        <td>-</td>
+        <td><canvas data-itemname="air_battlestaff"></canvas><br>Air battlestaff</td>
+    </tr>
+    <tr>
+        <td>66</td>
+        <td><canvas data-itemname="dragon_leather_blue"></canvas><br>Blue dragon leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="blue_dragonhide_vambraces"></canvas><br>Blue Dragonhide vambraces</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>
+            <canvas data-itemname="dragon_leather_blue"></canvas>
+            <canvas data-itemname="dragon_leather_blue"></canvas><br>
+            Blue dragon leather (x2)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="blue_dragonhide_chaps"></canvas><br>Blue Dragonhide chaps</td>
+    </tr>
+    <tr>
+        <td>70</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="diamond"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Diamond, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="diamond_amulet"></canvas><br>Diamond amulet</td>
+    </tr>
+    <tr>
+        <td>71</td>
+        <td>
+            <canvas data-itemname="dragon_leather_blue"></canvas>
+            <canvas data-itemname="dragon_leather_blue"></canvas>
+            <canvas data-itemname="dragon_leather_blue"></canvas><br>
+            Blue dragon leather (x3)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="blue_dragonhide_body"></canvas><br>Blue Dragonhide body</td>
+    </tr>
+    <tr>
+        <td>72</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="dragonstone"></canvas><br>
+            Gold bar, Dragonstone
+        </td>
+        <td>
+            <canvas data-itemname="necklace_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Necklace mould, Furnace
+        </td>
+        <td><canvas data-itemname="dragonstone_necklace"></canvas><br>Dragonstone necklace</td>
+    </tr>
+    <tr>
+        <td>73</td>
+        <td><canvas data-itemname="dragon_leather_red"></canvas><br>Red dragon leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="red_dragonhide_vambraces"></canvas><br>Red Dragonhide vambraces</td>
+    </tr>
+    <tr>
+        <td>75</td>
+        <td>
+            <canvas data-itemname="dragon_leather_red"></canvas>
+            <canvas data-itemname="dragon_leather_red"></canvas><br>
+            Red dragon leather (x2)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="red_dragonhide_chaps"></canvas><br>Red Dragonhide chaps</td>
+    </tr>
+    <tr>
+        <td>77</td>
+        <td>
+            <canvas data-itemname="dragon_leather_red"></canvas>
+            <canvas data-itemname="dragon_leather_red"></canvas>
+            <canvas data-itemname="dragon_leather_red"></canvas><br>
+            Red dragon leather (x3)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="red_dragonhide_body"></canvas><br>Red Dragonhide body</td>
+    </tr>
+    <tr>
+        <td>79</td>
+        <td><canvas data-itemname="dragon_leather_black"></canvas><br>Black dragon leather</td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="black_dragonhide_vambraces"></canvas><br>Black Dragonhide vambraces</td>
+    </tr>
+    <tr>
+        <td>80</td>
+        <td>
+            <canvas data-itemname="gold_bar"></canvas>
+            <canvas data-itemname="dragonstone"></canvas>
+            <canvas data-itemname="ball_of_wool"></canvas><br>
+            Gold bar, Dragonstone, Ball of Wool
+        </td>
+        <td>
+            <canvas data-itemname="amulet_mould"></canvas>
+            <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+            Amulet mould, Furnace
+        </td>
+        <td><canvas data-itemname="dragonstone_amulet"></canvas><br>Dragonstone amulet</td>
+    </tr>
+    <tr>
+        <td>82</td>
+        <td>
+            <canvas data-itemname="dragon_leather_black"></canvas>
+            <canvas data-itemname="dragon_leather_black"></canvas><br>
+            Black dragon leather (x2)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="black_dragonhide_chaps"></canvas><br>Black Dragonhide chaps</td>
+    </tr>
+    <tr>
+        <td>84</td>
+        <td>
+            <canvas data-itemname="dragon_leather_black"></canvas>
+            <canvas data-itemname="dragon_leather_black"></canvas>
+            <canvas data-itemname="dragon_leather_black"></canvas><br>
+            Black dragon leather (x3)
+        </td>
+        <td>
+            <canvas data-itemname="needle"></canvas>
+            <canvas data-itemname="thread"></canvas><br>
+            Needle & Thread
+        </td>
+        <td><canvas data-itemname="black_dragonhide_body"></canvas><br>Black Dragonhide body</td>
+    </tr>
 </table>
-</center>
-<br>
 HTML; }

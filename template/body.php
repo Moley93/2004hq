@@ -1,6 +1,5 @@
 <body style="background-color:black;"text="white" link="#90c040" alink="#90c040" vlink="#90c040" topmargin="0" leftmargin="0"
 <?php if (function_exists('onBodyLoad')) { echo 'onload="'.onBodyLoad().'"'; } ?>
-?>
 >
 <table width="100%" height="100%" cellpadding="0" cellspacing="0"><tbody><tr>
 <td style="display:flex;justify-content:center;align-items:center;">
