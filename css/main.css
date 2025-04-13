@@ -6,21 +6,25 @@
 .b {
     border-style: outset;
     border-width: 3pt;
-    border-color: #373737
+    border-color: #373737;
 }
 
 .b2 {
     border-style: outset;
     border-width: 3pt;
-    border-color: #570700
+    border-color: #570700;
 }
 
 .e {
-    border: 2px solid #382418
+    text-decoration: none;
+    border: 2px solid #382418;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .c {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .white {

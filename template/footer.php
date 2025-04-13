@@ -18,15 +18,14 @@
           <td>
             <div style="text-align:center;font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px;">
               <div id="site-options-container" data-style="<?= $style ?>" data-usuk="<?= $usuk ?>">
-                <br>
+                <div style="height:7px;"></div>
                 <button class="site-footer" onclick="location.href='?p=changelog'" type="button">Credits and Changelog</button>
-                |
+                -
                 <button class="site-footer" id="site-options-toggle">Site Options</button>
                 <div id="site-options-backdrop" hidden></div>
                 <div id="site-options-modal" hidden>
                   <div id="site-options-content">
                     <h2>2004HQ Website Options</h2>
-
                     <label>Menu Styles:<br>
                       <select id="style-select">
                         <option value="default">Modern (RS Look)</option>
@@ -52,7 +51,6 @@
         </tr>
       </tbody>
     </table>
-
   </div>
 </td>
 </tr></tbody></table>

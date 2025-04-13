@@ -11,7 +11,7 @@ $questlist = array(
     "impcatcher" => array("Imp Catcher" => false),
     "piratestreasure" => array("Pirate's Treasure" => false),
     "princealirescue" => array("Prince Ali Rescue" => false),
-    "restlessghost" => array("Restless Ghost" => false),
+    "restlessghost" => array("The Restless Ghost" => false),
     "romeojuliet" => array("Romeo & Juliet" => false),
     "runemysteries" => array("Rune Mysteries Quest" => false),
     "sheepshearer" => array("Sheep Shearer" => false),
