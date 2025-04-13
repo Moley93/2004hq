@@ -2562,6 +2562,48 @@
     "cost": 400
   },
   {
+    "id": 897,
+    "debugname": "bronze_arrow_5",
+    "name": "Bronze arrow",
+    "desc": "Arrows with Bronze heads.",
+    "cost": 400
+  },
+  {
+    "id": 905,
+    "debugname": "iron_arrow_5",
+    "name": "Iron arrow",
+    "desc": "Arrows with Iron heads.",
+    "cost": 400
+  },
+  {
+    "id": 913,
+    "debugname": "steel_arrow_5",
+    "name": "Steel arrow",
+    "desc": "Arrows with Steel heads.",
+    "cost": 400
+  },
+  {
+    "id": 921,
+    "debugname": "mithril_arrow_5",
+    "name": "Mithril arrow",
+    "desc": "Arrows with Mithril heads.",
+    "cost": 400
+  },
+  {
+    "id": 929,
+    "debugname": "adamant_arrow_5",
+    "name": "Adamant arrow",
+    "desc": "Arrows with Adamant heads.",
+    "cost": 400
+  },
+  {
+    "id": 937,
+    "debugname": "rune_arrow_5",
+    "name": "Rune arrow",
+    "desc": "Arrows with Rune heads.",
+    "cost": 400
+  },
+  {
     "id": 942,
     "debugname": "lit_arrows",
     "name": "Lit arrows",
