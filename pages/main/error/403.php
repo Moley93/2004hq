@@ -1,7 +1,7 @@
 <?php
 $meta_data['title'] = '403';
 $meta_data['og:title'] = $meta_data['title'];
-$meta_data['og:url'] = '?p=403';
+$meta_data['og:url'] = '/index.php?p=403';
 $meta_data['og:image'] = 'img/Confusion_beast.webp';
 function getPageContent() {
     return <<<HTML
