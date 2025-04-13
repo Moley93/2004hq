@@ -2,24 +2,3 @@
 Options -Indexes
 ErrorDocument 404 https://2004hq.com/?p=404
 ErrorDocument 403 https://2004hq.com/?p=403
-
-RewriteEngine On
-RewriteBase /
-
-# Force HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Force trailing slash on non-files / non-directories
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+[^/])$ https://%{HTTP_HOST}/$1/ [R=301,L]
-
-# Clean URL Routing
-RewriteRule ^$ index.php [L,QSA]
-RewriteRule ^([a-z0-9_-]+)/?$ index.php?p=$1 [L,QSA]
-RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)/?$ index.php?p=$1&$1=$2 [L,QSA]
-RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)/([a-z0-9_-]+)/?$ index.php?p=$1&$1=$2&$2=$3 [L,QSA]
-
-# Sitemap
-RewriteRule ^sitemap\.xml$ sitemap.php [L]
