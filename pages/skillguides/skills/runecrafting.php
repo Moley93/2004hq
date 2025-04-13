@@ -38,8 +38,8 @@ function getSkillContent($skill) { return <<<HTML
     <br>
     <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
         <tr>
-            <th>Rune</th>
             <th>Level</th>
+            <th>Rune</th>
             <th>Talisman</th>
             <th>Altar Location</th>
         </tr>
