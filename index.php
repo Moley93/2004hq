@@ -1,4 +1,9 @@
 <?php
+if ($_SERVER['REQUEST_URI'] !== strtolower($_SERVER['REQUEST_URI'])) {
+    $lowercaseURL = strtolower($_SERVER['REQUEST_URI']);
+    header('Location: ' . $lowercaseURL, true, 301);
+    exit;
+}
 include 'config.php';
 
 $p = htmlspecialchars($_GET['p'] ?? '');
