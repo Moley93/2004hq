@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Gertrudes Cat</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description:Gertrude's cat is missing and she is frantic about finding it. Track down the cat and return it.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Witch's House</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: A boy has kicked his ball into an old witch's house. He wants you to go get it for him.<br>
 <br>

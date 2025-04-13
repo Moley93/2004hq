@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Waterfall Quest</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Investigate the death of the elven leaders of old. To find mysterious treasures in the fall.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Shilo Village</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Rashiliyia, Queen of the Undead, has returned and brought a plague of Undead upon the village. See if you can slove the problem. .<br>
 <br>

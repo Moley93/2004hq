@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Sea Slug</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description:Strange occurrences have taken over a fishing platform. Solve the mystery and save a family from the clutches of the slugs.<br>
 <br>

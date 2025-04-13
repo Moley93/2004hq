@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - The Shield of Arrav</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Long ago, the Shield of Arrav was a great artifact. It was broken in two, and the king has placed a 600 gold reward for its return.<br>
 <br>

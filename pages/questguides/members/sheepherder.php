@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Sheep Herder</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description:4 plauge infected sheep have gotten loose and its up to you to recapture them and rid ardougne of them.<br>
 <br>

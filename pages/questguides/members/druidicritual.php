@@ -1,10 +1,10 @@
 <?php
 function getQuestGuide() { return <<<HTML
-<b>2004HQ - Druidic Ritual</b><br>
-<br>
+<h2>2004HQ - Druidic Ritual</h2>
+<p>
 Description: Help the druids cleanse their former altar of the evil from the dark wizards. If you are successful, you will be rewarded with the knowledge of Herblore.<br>
 <br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
+Difficulty Level: <font color="Green">Easy</font><br>
 <br>
 Items/Skills Needed To Start: Recommended you collect the four meats before you start. These are rat, bear, chicken, and beef<br>
 <br>
@@ -12,7 +12,7 @@ Starting Location: Stone circle north of Taverley<br>
 <br>
 Reward: 4 Quest Points, 250 Herblore xp, access to the Herblore skill<br>
 <br>
-<b>Instructions:</b><br>
+Instructions:<br>
 <br>
 Talk to Kaqemeex, and he'll tell you what he needs to purify their cursed altar south of Varrock. He says to speak to Sanfew.<br>
 <br>
@@ -28,5 +28,6 @@ Kaqemeex will give you your reward and then explain some things about Herblore. 
 <br>
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy for corrections.<br>
 <br>
-This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:06:05 PM by Wiz-Master and was last updated on Wed, Mar 31, 2004, at 04:58:22 PM.<br>
+This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:06:05 PM by Wiz-Master and was last updated on Wed, Mar 31, 2004, at 04:58:22 PM.
+</p>
 HTML; }

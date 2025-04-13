@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Vampire Slayer</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Count Draynor is terrorizing the small village of Draynor. The townsfolk want you to kill this vampire.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Watchtower</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Items/Skills Needed To Start:: mining 40+, agility 30+, thieving 15+, magic 14+, herblaw 14+, good combat level is an advantage, but you'll need to kill a level. 20gp+ (be sure to bring more if you you're not so good in agility!), 1 gold bar, 1 lit candle, 1 death rune, pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, guam leaf, water filled vial, pestle and mortar. (Food, armour, weapon and anti drag breath shield is very useful!). This is a lot of items, but make sure to have room for around 7 or 8 extra items.<br>
 <br>

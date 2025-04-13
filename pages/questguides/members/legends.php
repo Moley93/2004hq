@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Legends Quest</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.<br>
 <br>

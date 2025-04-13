@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Fight Arena</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 If anything is incorrect/missing or you have new information to submit please post it on the RuneHQ Updates/plans/submissions forum<br>
 <br>

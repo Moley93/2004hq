@@ -13,10 +13,10 @@ $questlist = array(
     "princealirescue" => array("Prince Ali Rescue" => false),
     "restlessghost" => array("Restless Ghost" => false),
     "romeojuliet" => array("Romeo & Juliet" => false),
-    "runemysteries" => array("Rune Mysteries" => false),
+    "runemysteries" => array("Rune Mysteries Quest" => false),
     "sheepshearer" => array("Sheep Shearer" => false),
     "knightssword" => array("The Knight's Sword" => false),
-    "shieldofarrav" => array("The Shield of Arrav" => false),
+    "shieldofarrav" => array("Shield of Arrav" => false),
     "vampireslayer" => array("Vampire Slayer" => false),
     "witchspotion" => array("Witch's Potion" => false),
     "hazeelcult" => array("Hazeel Cult" => true),
@@ -29,10 +29,11 @@ $questlist = array(
     "familycrest" => array("Family Crest" => true),
     "fightarena" => array("Fight Arena" => true),
     "fishingcontest" => array("Fishing Contest" => true),
-    "gertrudescat" => array("Gertrudes Cat" => true),
+    "gertrudescat" => array("Gertrude's Cat" => true),
     "heros" => array("Hero's Quest" => true),
     "junglepotion" => array("Jungle Potion" => true),
-//    "legends" => array("Legend's Quest" => true), (not released yet)
+    "legends" => array("Legend's Quest" => true),
+    "digsite" => array("Digsite Quest" => true),
     "lostcity" => array("Lost City" => true),
     "merlinscrystal" => array("Merlin's Crystal" => true),
     "monksfriend" => array("Monk's Friend" => true),
@@ -40,19 +41,19 @@ $questlist = array(
     "observatory" => array("Observatory Quest" => true),
     "plaguecity" => array("Plague City" => true),
     "scorpioncatcher" => array("Scorpion Catcher" => true),
-    "seaslug" => array("Sea Slug" => true),
+    "seaslug" => array("Sea Slug Quest" => true),
     "sheepherder" => array("Sheep Herder" => true),
-    "shilovillage" => array("Shilo Village Quest" => true),
+    "shilovillage" => array("Shilo Village" => true),
     "templeofikov" => array("Temple of Ikov" => true),
     "grandtree" => array("The Grand Tree" => true),
-    "holygrail" => array("The Holy Grail" => true),
+    "holygrail" => array("Holy Grail" => true),
     "touristtrap" => array("The Tourist Trap" => true),
-    "undergroundpass" => array("The Underground Pass" => true),
+    "undergroundpass" => array("Underground Pass" => true),
     "treegnomevillage" => array("Tree Gnome Village" => true),
     "tribaltotem" => array("Tribal Totem" => true),
-    "watchtower" => array("Watchtower Quest" => true),
+    "watchtower" => array("Watch Tower" => true),
     "waterfall" => array("Waterfall Quest" => true),
-    "witchshouse" => array("Witch's House" => true)
+    "witchshouse" => array("Witches House" => true)
 );
 ksort($questlist);
 
@@ -101,7 +102,7 @@ function getPageContent() {
                 exit;
             }
             include $fileLocation;
-            echo getQuestGuide();
+            echo getQuestGuide($questName);
 
         } else {
             $stopload = true;

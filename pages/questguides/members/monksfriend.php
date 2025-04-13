@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Monks Friend</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description:Brother Omad's friend's child has had their blanket stolen. Find it and then help Omad get drinks from Brother Cedric in time to get ready for a party<br>
 <br>

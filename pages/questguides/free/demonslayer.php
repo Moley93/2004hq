@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Demon Slayer</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Wizards of the dark arts have freed the ancient demon Delrith. Find out how to imprison him again before it's too late and he destroys Varrock.<br>
 <br>

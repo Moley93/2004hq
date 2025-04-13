@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<h2>2004HQ - Black Knight's Fortress</h2>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 
 <p>
 Description: The black knights are up to no good. You are hired by the white knights to spy on them and uncover their evil scheme.<br>

@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Cook's Assistant</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: The Duke of Lumbridge will have a birthday but the cook has forgotten to buy the ingredients for the cake.<br>
 <br>

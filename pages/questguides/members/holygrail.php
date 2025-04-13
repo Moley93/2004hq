@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - The Holy Grail</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: King Arthur is sending out his knights on a quest for the famous Holy Grail. If you are a Knight of the Round Table, go to King Arthur for further orders.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Sheep Shearer</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Farmer Fred's sheep are getting mighty woolly, and he'll pay you to shear them.<br>
 <br>

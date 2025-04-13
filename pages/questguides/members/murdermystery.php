@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Murder Mystery</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Lord Sinclair was found murdered in his mansion. There are a lot of guards there that are working on the case, but they're confused about the crime. You must help these guards find out the culprit who murdered Lord Sinclair.<br>
 <br>

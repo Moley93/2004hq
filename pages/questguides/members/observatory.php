@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Observatory Quest</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description:Help a professor fix his telescope, this proves more difficult than it sounds because it involves yet another maze. See what the stars have in hold for you as well.<br>
 <br>

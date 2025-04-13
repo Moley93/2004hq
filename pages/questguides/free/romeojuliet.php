@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<b>2004HQ - Romeo & Juliet</b><br>
+function getQuestGuide($questName) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <br>
 Description: Romeo and Juliet long to be together, but Juliet's father doesn't approve. Find a way to reunite them so they can live happily ever after.<br>
 <br>
