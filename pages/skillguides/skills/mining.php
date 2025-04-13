@@ -11,74 +11,89 @@ function getSkillContent($skill) { return <<<HTML
     As your mining level gets higher it will become slowly easier. Once someone has mined a rock there will be no ore available to get from it for a short while; wait a bit and you will be able to mine ore from it again. <br>
     <br>
     <br>
-    <p>
-    <b>Mining levels</b><br>
-
-    <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
-    <tr>
-    <th colspan="2">Ore</td>
-    <th>Level required</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="clay"></td>
-    <td>Clay</td>
-    <td>1</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="copper_ore"></td>
-    <td>Copper Ore</td>
-    <td>1</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="tin_ore">tin_ore</td>
-    <td>Tin Ore</td>
-    <td>1</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="iron_ore"></td>
-    <td>Iron Ore</td>
-    <td>15</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="silver_ore"></td>
-    <td>Silver</td>
-    <td>20</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="coal"></td>
-    <td>Coal</td>
-    <td>30</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="gold_ore"></td>
-    <td>Gold</td>
-    <td>40</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="mithril_ore"></td>
-    <td>Mithril</td>
-    <td>55</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="adamantite_ore"></td>
-    <td>Adamantite</td>
-    <td>70</td>
-    </tr>
-
-    <tr>
-    <td><canvas data-itemname="runite_ore"></td>
-    <td>Runite</td>
-    <td>85</td>
-    </tr>
+    <h3>Mining Ores</h3>
+    <table class="calculators">
+        <tr>
+            <th>Level required</td>
+            <th>Ore</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><canvas data-itemname="clay"></canvas><br>Clay</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><canvas data-itemname="copper_ore"></canvas><br>Copper Ore</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><canvas data-itemname="tin_ore"></canvas><br>Tin Ore</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><canvas data-itemname="iron_ore"></canvas><br>Iron Ore</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><canvas data-itemname="silver_ore"></canvas><br>Silver</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td><canvas data-itemname="coal"></canvas><br>Coal</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td><canvas data-itemname="gold_ore"></canvas><br>Gold Ore</td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td><canvas data-itemname="mithril_ore"></canvas><br>Mithril Ore</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td><canvas data-itemname="adamantite_ore"></canvas><br>Adamantite Ore</td>
+        </tr>
+        <tr>
+            <td>85</td>
+            <td><canvas data-itemname="runite_ore"></canvas><br>Runite Ore</td>
+        </tr>
+    </table>
+    <h3>Pickaxes</h3>
+    * A bug currently exists in-game that you can use any pickaxe at any level!<br>
+    The value noted below is what the requirement is supposed to be.<br>
+    <table class="calculators">
+        <tr>
+            <th>Level required*</td>
+            <th>Pickaxe</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><canvas data-itemname="bronze_pickaxe"></canvas><br>Bronze Pickaxe</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><canvas data-itemname="iron_pickaxe"></canvas><br>Iron Pickaxe</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><canvas data-itemname="steel_pickaxe"></canvas><br>Steel Pickaxe</td>
+        </tr>
+        <!--<tr>
+            <td>11</td>
+            <td><canvas data-itemname="black_pickaxe"></canvas><br>Black Pickaxe</td>
+        </tr>-->
+        <tr>
+            <td>21</td>
+            <td><canvas data-itemname="mithril_pickaxe"></canvas><br>Mithril Pickaxe</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td><canvas data-itemname="adamant_pickaxe"></canvas><br>Adamant Pickaxe</td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td><canvas data-itemname="rune_pickaxe"></canvas><br>Rune Pickaxe</td>
+        </tr>
     </table>
 </p>
 HTML; }
