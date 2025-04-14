@@ -70,6 +70,10 @@ Site by Moley, Eilert, Halogod & Collin.<br><br>
     </tr>
   </thead>
   <tbody>
+    <tr><td>14/04/2025</td><td>Proofread all quest guides for grammar and typos</td></tr>
+    <tr><td>13/04/2025</td><td>Added Item Street Prices (thanks Dead Botting)</td></tr>
+    <tr><td>13/04/2025</td><td>Added Digsite Quest to Quests</td></tr>
+    <tr><td>12/04/2025</td><td>Added Site Options menu with US/UK floor naming toggle</td></tr>
     <tr><td>11/04/2025</td><td>Added Defence Skill Guide</td></tr>
     <tr><td>09/04/2025</td><td>Added Woodcutting Skill Guide</td></tr>
     <tr><td>09/04/2025</td><td>Added Firemaking Skill Guide</td></tr>
