@@ -292,7 +292,6 @@ A.pink:hover {
     }
 }
 .main-content {
-    display: flex;
     flex-direction: column; /* stack children vertically */
     justify-content: center; /* vertical centering */
     align-items: center;
@@ -304,6 +303,11 @@ A.pink:hover {
     * {
         font-family: 'RSPlain12', sans-serif;
         font-size: 18px;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        display: table;
     }
 
     h1 { font-size: 30px; }
@@ -335,7 +339,6 @@ A.pink:hover {
         color: #fff;
         cursor: default;
     }
-
     .calculators {
         a {
             color: white;
@@ -357,8 +360,7 @@ A.pink:hover {
             vertical-align: center;
         }
 
-        th,
-        td {
+        th,td {
             border: 1px solid #382418;
             padding: 5px;
             text-align: center;
@@ -389,4 +391,7 @@ A.pink:hover {
 #scrollToTop img {
     display: block;
     margin: 0 auto;
+}
+[data-floors] {
+    white-space: nowrap;
 }
