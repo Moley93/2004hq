@@ -15,7 +15,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Quest Guides<br>
-                <a href="?p=questguides" class="c">Click here</a>
+                <a href="?p=questguides" class="c">Click Here</a>
             </td>
 
             <td width="10"></td>
@@ -33,7 +33,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Skill Guides<br>
-                <a href="?p=skillguides" class="c">Click here</a>
+                <a href="?p=skillguides" class="c">Click Here</a>
             </td>
         </tr>
         <tr valign="top">
@@ -49,7 +49,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Monster Drop Tables<br>
-                <a href="?p=droptables" class="c">Click here</a>
+                <a href="?p=droptables" class="c">Click Here</a>
             </td>
 
             <td width="10"></td>
@@ -87,7 +87,7 @@ function getPageContent() { return <<<HTML
             <td width="10"></td>
 
             <td width="100">
-                <a href="?">
+                <a href="?p=clueguides">
                 <img src="img/clueicon.png" />
                 </a>
             </td>
@@ -98,7 +98,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Treasure Trail Guides<br>
-                <a href="?" class="c">Coming Soon</a>
+                <a href="?p=clueguides" class="c">Click Here</a>
             </td>
         </tr>
         <tr valign="top">

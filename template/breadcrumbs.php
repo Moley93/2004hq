@@ -6,6 +6,7 @@ $breadcrumbMap = [
     'Drop Tables' => '?p=droptables',
     'Clue Tables' => '?p=clueptables',
     'Street Prices' => '?p=streetprices',
+    'Treasure Trails' => '?p=clueguides',
 ];
 
 function renderBreadcrumbs() {

@@ -372,6 +372,12 @@ A.pink:hover {
             color: gold;
         }
     }
+    ol, ul {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        display: table; /* Optional: keeps it centered horizontally if parent is centered */
+    }
 }
 #scrollToTop {
     position: fixed;
