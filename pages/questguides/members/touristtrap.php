@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
@@ -66,10 +66,8 @@ Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Add
 <br>
 <br>
 19. Once outside go north to Irena and talk to her.<br>
-<br>
-<img src="img/questimages/tourist1.gif" height="260" width="350" /><br>
-<br>
+$questComplete
 This quest guide was written by imthecoolest, and haxhi4life. Thanks to DRAVAN for corrections.<br>
-
+<br>
 This quest guide was entered into the database on Wed, Jun 09, 2004, at 12:46:01 PM by DRAVAN and CJH and was last updated on Wed, Dec 01, 2004, at 11:20:10 PM by DRAVAN.<br>
 HTML; }

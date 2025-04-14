@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description:Strange occurrences have taken over a fishing platform. Solve the mystery and save a family from the clutches of the slugs.<br>
@@ -31,7 +31,7 @@ Use your glass with the damp sticks to get dry sticks, rub them together and you
 Talk to Kennith, then kick the loose panels on the outside of the building he's in. Talk to him again, then rotate the crane. He'll jump on and into the rowboat below.<br>
 <br>
 Go back to Holgart and return to land. Talk to Caroline to claim your reward.<br>
-<br>
+$questComplete
 This quest guide was written by Gnat88,warfangmage,super_dude. Thanks to Weezy,DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:30:16 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:37:38 AM.<br>

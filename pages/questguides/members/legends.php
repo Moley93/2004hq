@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.<br>
@@ -150,9 +150,7 @@ This step is the final battle, so in addition to having your Totem Pole, be prep
 Then, after vanquishing the demon for the final time, use your Totem Pole on the Dark totem pole again.<br>
 <br>
 Bull Roar Gujuo for the last time he will give you a Gold Totem Pole and some words of friendliness.<br>
-<br>
-Bring that Totem Pole back to Erkle at his Guild office and give it to him along with the complete Radimus Map. Now meet him in the Legends Guild lobby and talk to him again; you will be able to choose 4 skills to gain exp. in, and after that you will have completed the Legends Quest!<br>
-<br>
+$questComplete
 This quest guide was written by j1j2j3, trekkie. Thanks to avster and blue komoto for pictures; monkeymatt for converting maps; pokemama for edits, information on enchanted vials, and maps; Kidd, Dravan, Freakybat, Mage101, DNKevin, pj, stormer, Nitr021 and dogs major for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Apr 10, 2004, at 07:23:28 PM by Kidd and CJH and was last updated on Sat, Mar 19, 2005, at 01:58:58 PM by dravan.<br>

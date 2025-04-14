@@ -1,7 +1,6 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
-<br>
 Description: There's a disturbance in the goblin village. Help the goblins solve their dispute so the world doesn't have to worry about rioting goblins.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
@@ -39,7 +38,7 @@ Use the orange dye on one set of goblin armor and the blue dye on another set. Y
 <br>
 QUEST CONCLUSION<br>
 Talk to General Bentnoze a few times to hand over all 3 pieces of armor. You will give him the original goblin armor last, and you will have sorted out their argument.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Runegirlie and deathtoyouall. Thanks to Sharqua, Darkest Ange, Nightsdeath, DRAVAN, zus, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 11, 2004, at 05:30:14 AM by Keystone and was last updated on Tue, May 18, 2004, at 02:45:25 PM.<br>

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Wizards of the dark arts have freed the ancient demon Delrith. Find out how to imprison him again before it's too late and he destroys Varrock.<br>
@@ -24,8 +24,8 @@ Reward: 3 quest points, you can keep Silverlight, which is useful for weakening 
 <br>
 5. Use the bucket of water with the drain, then hurry down into the sewers through the manhole, head north a short distance, and you should find the key in no time.<br>
 <br>
-<img src="img\questimages\demonslayer1.png" height="200" width="200"><br>
-<img src="img\questimages\demonslayer2.png" height="200" width="200"><br>
+<img src="img/questimages/demonslayer1.png" height="200" width="200"><br>
+<img src="img/questimages/demonslayer2.png" height="200" width="200"><br>
 <br>
 6. Get/collect your 25 bones and head to the Wizards' Tower. Talk to the Wizard Traiborn to get your 3rd key after some bumbling about dumb stuff.<br>
 <br>
@@ -35,8 +35,8 @@ Reward: 3 quest points, you can keep Silverlight, which is useful for weakening 
 <br>
 9. Choose "Carlem Aber Camerinthum Purchai Gabindo" to get the demon vanquished. If you choose the wrong one, you must fight Delrith again, and possibly repeat until you get the right one.<br>
 <br>
-10. Once he's gone (Congratuations) you're done and you get the reward.<br>
-<br>
+10. Once he's gone (Congratuations) you're done and you get the reward.
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Keystone, Nitr021, Pirate Bob49, and pokemama for corrections.<br>
 <br> 
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:46:46 PM by Weezy and CJH and was last updated on Sat, Feb 05, 2005, at 06:24:30 AM by nitro21.<br>

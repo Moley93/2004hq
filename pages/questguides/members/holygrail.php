@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: King Arthur is sending out his knights on a quest for the famous Holy Grail. If you are a Knight of the Round Table, go to King Arthur for further orders.<br>
@@ -51,7 +51,7 @@ Return to the Fisher King's Castle. You notice that the countryside is green and
 Go back down the central staircase and make your way to the eastern tower. Climb the staircase and then the ladder. Take the Holy Grail.<br>
 <br>
 Go back to Camelot and talk to King Arthur to receive your reward.<br>
-<br>
+$questComplete
 This quest guide was written by Elyria1. Thanks to stormer and faital03 for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Jun 01, 2004, at 04:44:52 PM by Pirate Bob49 and CJH and was last updated on Mon, Aug 02, 2004, at 08:45:25 AM.<br>

@@ -1,7 +1,6 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
-
 <br>
 Description: Redbeard Frank knows where some secret pirate treasure is hidden. It may require some work to persuade him to tell you where, though.<br>
 <br>
@@ -34,7 +33,8 @@ Talk to Redbeard, and he will be pleased and give you a key. He will say that a 
 Go to Varrock and go inside the Blue Moon Inn which is behind the general stall. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.<br>
 <br>
 Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Henry-x. Thanks to Evadek and Weezy for corrections.<br>
-This quest guide was entered into the database on Sat, Feb 07, 2004, at 09:10:19 PM by Chownuggs and was last updated on Wed, Mar 31, 2004, at 05:14:06 PM.<br>
+<br>
+This quest guide was entered into the database on Sat, Feb 07, 2004, at 09:10:19 PM by Chownuggs and was last updated on Wed, Mar 31, 2004, at 05:14:06 PM.
 HTML; }

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Starting Location: East Ardougne Speak to: King Lathas<br>
@@ -116,8 +116,7 @@ NOTE- when looking for the dove, remember to look in both parts there are two pa
 <br>
 36. You will be flung into an underground area. Talk to the helper again and he'll take you outside.<br>
 <br>
-37. Go back to King lanthas and report that Iban is dead. You can keep the Klank Gauntlets.<br>
-<br>
+$questComplete
 This quest guide was written by Swaty, quackmann. Thanks to Stormer, jimfromtx, ImaGasLT, jfta0007, u gone lol, einsteinman, Master242424, martori for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Apr 19, 2004, at 08:03:18 PM by DRAVAN and CJH and was last updated on Sat, Aug 07, 2004, at 11:06:43 PM.<br>

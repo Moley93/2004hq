@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Lord Sinclair was found murdered in his mansion. There are a lot of guards there that are working on the case, but they're confused about the crime. You must help these guards find out the culprit who murdered Lord Sinclair.<br>
@@ -51,7 +51,7 @@ Reward: 2000 coins, 3 quest points, and 1406 crafting experience.<br>
 12. Get more flour from the pot and use it with the item you found in the culprit's barrel by searching. Once you've put the flour on the culprit's object, you then have to use it with the flypaper, and use the culprit's fingerprints with the unidentified fingerprints, and they will match.<br>
 <br>
 13. Talk to the guard and tell him you have evidence for who did the crime, he'll ask you about all the items and collect the evidence from you. He will say that the culprit will be in house arrest until the trial, and that he thanks you for your help.<br>
-<br>
+$questComplete
 This quest guide was written by supercoolyo. Thanks to Dravan, Dracon, Matty98 for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, May 09, 2004, at 11:26:19 AM by Cav103 and was last updated on Thu, May 27, 2004, at 07:47:44 AM.<br>

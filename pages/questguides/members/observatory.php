@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description:Help a professor fix his telescope, this proves more difficult than it sounds because it involves yet another maze. See what the stars have in hold for you as well.<br>
@@ -31,7 +31,7 @@ Go a little south and you should see 3 dead end passages in a row on the map. Cl
 Look through the telescope to see a constellation, your prize depending on what you see is RANDOM, which is very unfourtanate if you get something like 3 cooked tunas... uh hum, me. See the complete list of rewards below. You will automatically talk to the professor and finish the quest.<br>
 <br>
 Once you find your way out, get some wine from the assistant for fun, and visit the zamorak worship site to the northeast and as a special bonus to those who have completed the quest, you can get an unholy zamorak symbol mould from the Spirit of Scorpious. (Congratulations, I now officially say you are done) Here are the possible rewards: Aries: Attack experience Capricorn: Strength experience Virgo: Defense experience Cancer: Emerald Amulet of Protection Taurus: Super Strength Potion Leo: Hits experience Sagittarius: Maple Longbow Pisces: 3 Cooked Tunas and an uncut sapphire Gemini: Black 2-Handed Sword , uncut sapphire Scorpio: Weapon Poison Aquarius: 25 Water Runes Libra: 3 Law Runes<br>
-<br>
+$questComplete
 This quest guide was written by Gnat88 and pj. Thanks to DRAVAN and Nickseemann for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:14:37 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:32:41 AM.<br>

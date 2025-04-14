@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Hundreds of years ago a mineral was found that had the ability to change the property of magic.<br>
@@ -70,14 +70,9 @@ Go back to the furnace and use your Elemental ore and 4 coal on the furnace.<br>
 <br>
 Then go back to the center and use your Elemental metal on the Workbench. You will need to have the Battered book in your inventory to make the shield or it will tell you that you need instructions.<br>
 <br>
-<img src="img\questimages\elemental12.gif" height="250" width="380"><br>
-<br>
 When you've made the Elemental shield you've completed the quest.<br>
-<br>
-Quest Complete<br>
-<br>
 Note: You can make more Elemental shields after you've finished the quest.<br>
-<br>
+$questComplete
 This quest guide was written by pj. Thanks to IglooGuy, Hagge, Angelinblack, Shinraz, villike, Nitr021, wackyax16, jdude720, my_mulisha, Xjezusx1, beaverboy40, jakesterwars, cafetero, and Im4eversmart for corrections.<br>
 <br>
 This quest guide was entered into the RuneHQ.com database on Wed, Jun 02, 2004, at 06:22:07 PM by Cav103 and CJH and was last updated on Mon, Oct 02, 2006, at 02:40:17 PM by Im4eversmart.<br>

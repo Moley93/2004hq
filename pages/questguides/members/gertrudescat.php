@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description:Gertrude's cat is missing and she is frantic about finding it. Track down the cat and return it.<br>
@@ -29,7 +29,7 @@ Run over to Gertrude's place again and she'll talk for a minute then give you yo
 Kitten Care:<br>
 <br>
 To make kittens grow into cats you can use balls of wool with them, have them chase and kill rats, pet them, feed them sardines and other fish, and give them milk. Be careful not to feed it to much or it will become fat. Once it is grown into a cat, you can take it to Gertrude's cousin in west ardogune, assuming that you have done plauge city and biohazard to get in. He'll give you 25 death runes for the cat.<br>
-<br>
+$questComplete
 This quest guide was written by Gnat88. Thanks to henry-x for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:20:27 PM by Monkeychris and was last updated on Wed, Mar 31, 2004, at 04:58:57 PM.<br>

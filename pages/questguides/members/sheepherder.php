@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description:4 plauge infected sheep have gotten loose and its up to you to recapture them and rid ardougne of them.<br>
@@ -33,7 +33,7 @@ If you are having problems herding the sheep because you can't prod them fast en
 <br>
 If you have not yet croaked all the sheep off yet, do so. Use all their bones with the furnace.<br>
 If you have survived this rapid mouse-clicking experience, return to the councilor and he'll reward you for your heroic efforts.<br>
-<br>
+$questComplete
 This quest guide was written by Gnat88. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 05:31:59 PM by Monkeychris and CJH and was last updated on Sat, Oct 09, 2004, at 12:03:40 AM.<br>

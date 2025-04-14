@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Become one with your darker side. Tap into your hidden depths of magical potential by making a potion with the help of Hetty the Rimmington witch.<br>
@@ -23,7 +23,7 @@ Burnt meat: You will need either burnt rat meat or burnt bear meat. I would sugg
 Rat tail: Just kill one of the rats in this village, and it will drop a rat tail. You must start the quest before killing the rat.<br>
 <br>
 After getting the ingredients, return to Hetty's house and talk to her. She will tell you the cauldron is done and ask you to drink it. Click on the cauldron to drink it, and the quest is finished.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy and Corruptus for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 07, 2004, at 12:00:31 PM by Chownuggs and was last updated on Thu, Apr 22, 2004, at 02:44:28 PM.

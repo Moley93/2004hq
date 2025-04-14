@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Prove yourself a true hero. Kill the mighty dragon Elvarg of Crandor Island and earn the right to buy and wear the powerful Rune platebody.<br>
@@ -50,11 +50,12 @@ Reward: 2 Quest Points, 20,000 Strength XP, 20,000 Defence XP. Completing the qu
 <br>
 18. After defeating Elvarg, you'll be teleported outside. If a skeleton attacks you, don't panic. Head south toward the Lesser Demons and look for a “secret” wall with an “Open” command. Your character will memorize this location for future access. From here, either teleport to Lumbridge or sell items at the general store to afford a trip off Karamja. <br>
 <br>
-Congratulations—you've completed Dragon Slayer! Go buy that Rune platebody, you legend.<br>
-<br>
 Here is a picture of the wall:<br>
-<img src="img\questimages\dragonslayer1.png" height="400" width="400"><br>
+<img src="img/questimages/dragonslayer1.png" height="400" width="400"><br>
 <br>
+Congratulations—you've completed Dragon Slayer! Go buy that Rune platebody, you legend.<br>
+$questComplete
 This quest guide was written on RuneHQ by Catherine and Ghou Lies. Thanks to Weezy, firespyrit, evomasta, stormer, DRAVAN, Axelman, and Ghou Lies for corrections.<br>
+<br>
 This quest guide was entered into the database on Fri, Feb 06, 2004, at 09:11:17 PM by Chownuggs and was last updated on Tue, Jul 06, 2004, at 08:25:23 AM.
 HTML; }

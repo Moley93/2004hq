@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Investigate the death of the elven leaders of old. To find mysterious treasures in the fall.<br>
@@ -36,7 +36,7 @@ The grave is the grey circle place with a walk way to the circle.<br>
 7. When you enter the waterfall there will be shadow spiders, fire giants, and mage skeletons. There are three ways to go (left, straight, or right), you want to go to the right. Search the boxes and crates, one of them will have a key. Exit the right side and go to the left side. There are fire giants in this room but you can run through them to a door in the right corner of the room. Use the key on the door to go through. There will be another door that you have to use the key with, then you should be in the room.<br>
 <br>
 8. This is where you use your runes. There are 6 pillars: Put 1 water on each pillar, then 1 air on each pillar, then 1 earth on each pillar and then use the amulet on the statue. If you did this right the floor will rise. Go up to the trophy, use the urn with the trophy and you have completed the quest! If you are unsuccessful you must put your armour and weapon back in the bank and go back to the grave and get the amulet again.<br>
-<br>
+$questComplete
 This quest guide was written by thehellkeeper,zone_ant. Thanks to Thunderdog, External,DRAVAN, and Koppen for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Apr 07, 2004, at 06:53:10 PM by DRAVAN and CJH and was last updated on Mon, Aug 02, 2004, at 08:52:56 AM.<br>

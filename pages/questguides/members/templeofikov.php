@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest you are presented with a choice on how to complete the quest.<br>
@@ -100,7 +100,7 @@ You will find yourself in a room just north of McGrubbor's Wood. Use your shiny 
 Talk to him and give him the staff, you will be rewarded.<br>
 <br>
 *The Boots of Lightness actually have -4 weight, so they are good for running because you gain energy much faster. It isn't a bad idea to grab a few of these on your 1st trip back to the bank<br>
-<br>
+$questComplete
 This quest guide was written by Pirate,mage017. Thanks to Your Homey 1 for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 25, 2004, at 06:17:58 PM by Freakybat and CJH and was last updated on Mon, Aug 02, 2004, at 08:42:56 AM.<br>

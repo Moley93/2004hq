@@ -1,5 +1,5 @@
 <?php
-function getExtraHeaderContent() { return '<link rel="stylesheet" href="css\droptables.css" />'; }
+function getExtraHeaderContent() { return '<link rel="stylesheet" href="css/droptables.css" />'; }
 function getPageContent() { 
     global $meta_data;
     $meta_data['title'] = 'Drop Tables';
@@ -35,7 +35,7 @@ function getPageContent() {
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
+                                        <td class=b bgcolor=#474747 background=img/stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Sort by</b><br>
                                                 <select id="sortToggle"
@@ -54,7 +54,7 @@ function getPageContent() {
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
+                                        <td class=b bgcolor=#474747 background=img/stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Membership</b><br>
                                                 <select id="membershipToggle"
@@ -77,7 +77,7 @@ function getPageContent() {
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
+                                        <td class=b bgcolor=#474747 background=img/stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Search for an item</b><br>
                                                 <input type="text" id="searchInput"
@@ -93,7 +93,7 @@ function getPageContent() {
                             <td>
                                 <table width=215 height=70 cellpadding=4>
                                     <tr>
-                                        <td class=b bgcolor=#474747 background=img\stoneback.gif>
+                                        <td class=b bgcolor=#474747 background=img/stoneback.gif>
                                             <div class="stone-box">
                                                 <b>Select a monster</b><br>
                                                 <select id="monsterDropdown"

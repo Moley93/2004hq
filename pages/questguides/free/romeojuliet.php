@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Romeo and Juliet long to be together, but Juliet's father doesn't approve. Find a way to reunite them so they can live happily ever after.<br>
@@ -25,7 +25,7 @@ Take the potion back to Juliet. She'll thank you and remind you to go inform Rom
 Walk back to Romeo and tell him that Juliet has the potion and that he needs to revive her from the crypt. Unfortunately, the poor fool misunderstands and thinks she is dead permanently. What a great ending — Juliet dies, and Romeo lives his life in misery.<br>
 <br>
 You'll get your reward after talking to Romeo. Who cares about a bad ending, as long as you get your reward, right?<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:58:20 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:15:59 PM.<br>

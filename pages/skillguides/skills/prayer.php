@@ -20,7 +20,7 @@ function getSkillContent($skill) { return <<<HTML
     To recharge your prayer-points you must find a church in the game, and left click on the altar to recharge.
     You are then ready to use the different prayers again.<br>
     <br>
-    <img src="img\skillicons\prayer1.jpg" height="380" width="450"><br>
+    <img src="img/skillicons/prayer1.jpg" height="380" width="450"><br>
     <br>
     To use the prayers for longer, and to use the higher-level prayers in the game you need to increase your
     total prayer-points. You do this by burying bones from monsters you kill. Take the bones, and then left

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Farmer Fred's sheep are getting mighty woolly, and he'll pay you to shear them.<br>
@@ -21,7 +21,7 @@ Go south until you see a general store and buy some shears. Walk back up to the 
 Once you've got 20 wool, go to Lumbridge Castle and head to the <span data-floors="US">2nd floor</span>, where you'll find a spinning wheel in the middle room. Use all your wool on it, and you should have 20 balls of wool.<br>
 <br>
 Return to Fred with your 20 balls of wool and give them to him. He'll thank you and reward you for your help. You'll receive 1 Quest Point, 60 gold coins, and around 200 Crafting XP.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Stormer. Thanks to Weezy and tj for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 16, 2004, at 03:26:27 PM by Chownuggs and was last updated on Fri, Apr 23, 2004, at 12:35:12 PM.<br>

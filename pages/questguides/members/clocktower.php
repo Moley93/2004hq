@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Help Brother Kojo fix his clock tower by finding the missing cogs.<br>
@@ -83,7 +83,7 @@ Go up the ladder in the room, and you will appear outside the clock tower. Now g
 Go down the ladder and follow the passage to a wall. Go through the door and pick up the blue cog. Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span>, and use the blue cog on the blue pole.<br>
 <br>
 Now that all of the cogs have been placed, talk to Brother Kojo to receive your reward.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Firkløver. Thanks to patgil2003, Dravan, and wacp for corrections.<br>
 <br>
 This quest guide was entered into the database on Sun, Apr 25, 2004, at 12:58:11 PM by stormer and CJH and was last updated on Fri, Nov 19, 2004, at 09:34:39 PM by MrStormy.<br>

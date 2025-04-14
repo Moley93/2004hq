@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Sir Vyvin's squire has just lost Vyvin's one-of-a-kind sword. The squire wants you to find a way to get another one.<br>
@@ -21,7 +21,7 @@ Head southwest of Port Sarim to the cliff below which Thurgo lives. Give him you
 Go back to Thurgo. Bring the iron bars, armor, etc., if you want to save yourself a trip later. Talk to Thurgo and he'll say you need blurite ore. Go into the cave above his house. Head deep into the cave until you reach the ice room. Run past the Ice Warriors and Ice Giants to the back wall, mine some blurite quickly, and get out of there.<br>
 <br>
 Take the 2 iron bars and the blurite to Thurgo, and he'll make the sword. Take it back to the squire for your reward. I had trouble parting with my sword because it looked so cool... lol.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger, noob hunters, Weezy, IglooGuy, and stormer for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:03:08 PM by Monkeychris and was last updated on Tue, Apr 20, 2004, at 11:17:05 PM.<br>

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Rantz the Ogre needs to feed his demanding children, Fycie and Bugs, so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand?<br>
@@ -82,13 +82,7 @@ The potatoes and equa leaves are found at the shore south, then east, of Rantz. 
 When you got the required ingredients, go north of Rantz and south of the cave. There is a special fire, use the Raw Chompy bird on the fire and it will cook the bird with the ingredients.<br>
 <br>
 When you have cooked the bird, go to Rantz and talk to him.<br>
-Congratulations you have completed the quest.<br>
-<br>
-<img src="img\questimages\bigchomp10.gif" height="225" width="364"><br>
-<br>
-The table of ranks. You get higher ranks with the larger amount of killed chompy birds after completing the quest.<br>
-To check your number of kills and rank, right-click on a bow and choose "Check Kills".<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by MuH-K0o0o and Manana447, pictures by Xjoe and MrStormy, and table by Freakybat and Eric2203. Thanks to Freakybat, trekkie, stormer, henry-x, and DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, May 18, 2004, at 01:37:33 PM by MrStormy and was last updated on Thu, Jun 03, 2004, at 09:06:25 PM.<br>

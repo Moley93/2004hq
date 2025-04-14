@@ -1,6 +1,6 @@
 <?php
-function getQuestGuide() { return <<<HTML
-<h2>2004HQ - Druidic Ritual</h2>
+function getQuestGuide($questName, $questComplete) { return <<<HTML
+<h2>2004HQ - $questName</h2>
 <p>
 Description: Help the druids cleanse their former altar of the evil from the dark wizards. If you are successful, you will be rewarded with the knowledge of Herblore.<br>
 <br>
@@ -25,7 +25,7 @@ Go in and head north a little until you come to the prison door and try to open 
 Use all the meats with the cauldron (they should turn blue), and head back to Sanfew at the Herblore shop. He'll be grateful and tell you to visit Kaqemeex for your Herblore skills training.<br>
 <br>
 Kaqemeex will give you your reward and then explain some things about Herblore. He also refers you to the Scribe section of the website for more info.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:06:05 PM by Wiz-Master and was last updated on Wed, Mar 31, 2004, at 04:58:22 PM.

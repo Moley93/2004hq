@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Father Aerick of Lumbridge wants you to rid his graveyard of a ghost.<br>
@@ -25,7 +25,7 @@ Head back to the church graveyard and talk to the ghost. He'll be surprised that
 Head over there and go into the basement. Look for a skull and take it. A skeleton will pop out — kill it, or just grab the skull and hightail it out of there.<br>
 <br>
 Go back to the tomb and use the skull on the ghost's coffin. The ghost will vanish and whisper “thank you.” Of course, a minor thank you isn't going to cut it — so naturally, the ghost also gives you your reward. Quest complete.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Urger and Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 04:46:45 PM by Monkeychris and was last updated on Wed, Mar 31, 2004, at 05:00:31 PM.<br>

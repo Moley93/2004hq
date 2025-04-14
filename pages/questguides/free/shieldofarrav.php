@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Long ago, the Shield of Arrav was a great artifact. It was broken in two, and the king has placed a 600 gold reward for its return.<br>
@@ -53,7 +53,7 @@ Phoenix Gang:<br>
 Note: Give your friend one of the reward scrolls for his part in this.<br>
 <br>
 Congrats! You're 600 gold richer and have gained a quest point.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by halojunkie.<br>
 <br>
 This quest guide was entered into the database on Tue, Apr 13, 2004, at 05:38:26 PM by DRAVAN, and was last updated on Tue, May 18, 2004, at 02:48:43 PM.<br> 

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Doric the dwarf is happy to let you use his anvils, but first he would like you to run an errand for him.<br>
@@ -25,7 +25,7 @@ Reward: 1 Quest Point, 1,300 Mining XP, 180 gold coins, permission to use Doric'
 5. Now that you have 6 Clay, 4 Copper ore, and 2 Iron ore in your inventory, return to Doric and give him the ores. He'll appreciate it very much and reward you with 1 Quest Point, 180 coins, and 1,300 Mining XP.<br>
 <br>
 6. Congratulations! You've just completed Doric's Quest and can now use his anvils.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Stormer and Ghou Lies. Thanks to Nitr021, Weezy, and Pirate Bob49 for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 16, 2004, at 03:38:33 PM by Chownuggs and CJH and was last updated on Sat, Feb 05, 2005, at 06:26:44 AM by nitro21.<br>

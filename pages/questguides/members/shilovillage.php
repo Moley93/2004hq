@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Rashiliyia, Queen of the Undead, has returned and brought a plague of Undead upon the village. See if you can slove the problem. .<br>
@@ -77,10 +77,8 @@ Make sure you wear all your armour, your weapon and beads of the dead and have f
 <br>
 Go back to the room where you have came from. Use your bone key on the Tomb Exit to get out.<br>
 <br>
-<img src="img\questimages\shilo2.png" height="200" width="350"><br>
-<br>
 Now to finish off the quest go to the tomb which you went at a point to get the blue scroll by climbing the rocks and crossing the bridge. Point 11 - 13. Just use the corpse on the dolmen. Well done Quest complete.<br>
-<br>
+$questComplete
 This quest guide was written by henry-x, |[Dracon]|, Swaty. Thanks to DRAVAN, Koppen, L3tHaL_LeAdA_ for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Mar 10, 2004, at 10:09:44 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:41:24 AM.<br>

@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
@@ -49,7 +49,7 @@ Reward: 1 Quest Point, 2k gp, a real cool amulet if you side with Clivet, and 1k
 4. Enter the cave and take the raft to Alamone. Talk to him and find out the butler is his spy. He should then attack you. If he doesn't, try again. He is less only level 13, so if you should be able to kill him fairly easily. He will drop the Carnillean armor. Leave the island via the raft and exit the cave. (well if you want to get 1 of ceril's sheild for yourself. When you killed alamone. take the seward ride back out. Then take it back in. drop ur armour that you already have. Wait for alamone to come back then fite him again. He'll drop another one. Yes he could drop as much as he want. While taking it back to ceril put the extra armour you got into the bank, and the armour other armour you take back to him.)<br>
 <br>
 5. Talk to Ceril and give him the armor. Then, tell him about his butler. Ceril won't believe you so go to the <span data-floors="US">2nd floor</span> and search the butler's cupboard for some poison. Return to Ceril and receive your reward. Quest completed.<br>
-<br>
+$questComplete
 <br>
 <b>Valve Locations</b><br>
 1st Valve: South wall of Carnillean Mansion- turn right<br>
@@ -71,7 +71,6 @@ Reward: 1 Quest Point, 2k gp, a real cool amulet if you side with Clivet, and 1k
 5th Valve: Follow the Zoo fence path south until iron rocks- turn right<br>
 <br>
 <img src="img\questimages\hazeelcult8.png" height="350" width="350"><br>
-<br>
 <br>
 This quest guide was written on RuneHQ by Firkløver,G I Jew,MarilynManson,Mr. Stormy. Thanks to Fudge, joesmo for corrections.<br>
 <br>

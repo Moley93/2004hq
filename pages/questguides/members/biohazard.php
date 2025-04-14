@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Second part of an ongoing adventure. Help Elena discover the truth about the infamous Ardougne plague. Smuggle test samples across Ardougne to Elena's old mentor.<br>
@@ -45,7 +45,7 @@ Now it is time to realize the truth. Talk to Guidor and tell him you're here bec
 Go back to Elena's house and tell her there is no plague. She will tell you to see the King of Ardougne.<br>
 <br>
 The king is on the <span data-floors="US">2nd floor</span> of the palace in Ardougne. The palace is located in the southwest of Ardougne. Talk to King Lathas, and he will tell you about his brother, King Tyras, and reward you.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by henry-x. Thanks to Weezy, Shaw, stormer, bowman_1990, Eric2203, bmx 768, and Halfling_hopperston for corrections.<br>
 <br>
 This quest guide was entered into the database on Mon, Feb 09, 2004, at 05:46:58 PM by Sand Scape and was last updated on Sun, May 23, 2004, at 07:27:03 PM.<br>

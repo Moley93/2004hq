@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Count Draynor is terrorizing the small village of Draynor. The townsfolk want you to kill this vampire.<br>
@@ -25,7 +25,7 @@ Get everything you need and go to Draynor Manor. Head to the stairs that go down
 Attack him until he has a full red bar, and the stake should automatically stab him. If not, make sure you have a hammer and the stake with you. If it still doesn't work, try using garlic on him or manually stabbing him with the stake.<br>
 <br>
 Once he's dead, you have finished the quest. (Congratulations!)<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy and stormer for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:37:37 PM by Monkeychris and was last updated on Sun, Apr 11, 2004, at 02:25:25 PM.<br>

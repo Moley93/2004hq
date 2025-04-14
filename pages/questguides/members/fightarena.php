@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 If anything is incorrect/missing or you have new information to submit please post it on the RuneHQ Updates/plans/submissions forum<br>
@@ -30,7 +30,7 @@ Talk to Hengrad and then soon you'll be taken out to the arena to fight again. F
 Bouncer can follow you anywhere in arena, so use it against him. There's a carcass on the west side of the scaffold, position yourself on one side of it and your opponent on the other, you can shoot at him without getting attacked. Maging works much better than ranging in my opinion.<br>
 <br>
 If you leave before you've to killed the General to get food or something, when you come back if it says you can't go in because it's locked, head to Lady Servil and your done (This happened to me). On the other hand, if you defeat them you talk to one of the Servils, than head to the Lady to claim your reward. (Congratulations)<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Gnat88. Thanks to rs: blakmagic123, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Wed, Mar 03, 2004, at 02:52:53 PM by Fudge and was last updated on Mon, Apr 19, 2004, at 11:46:13 AM.<br>

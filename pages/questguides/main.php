@@ -97,8 +97,12 @@ function getPageContent() {
                 header("Location: ?p=404");
                 exit;
             }
+            $questComplete = '
+                <h2>Congratulations, Quest Complete!</h2><br>
+                <img src="img/questimages/quest_complete/'.$currQuest.'.png" alt="Quest Complete!" width="80%" />
+                <hr width=85% />';
             include $fileLocation;
-            echo getQuestGuide($questName);
+            echo getQuestGuide($questName, $questComplete);
 
         } else {
             $stopload = true;

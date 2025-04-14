@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: The Fitzharmon family crest has gone missing, and the family honour has been lost. Can you find the crest and return it to Dimintheis in Varrock? There are 3 different rewards available, but you can only choose one, so choose carefully!<br>
@@ -92,7 +92,7 @@ Finishing the Quest: Now that you have all three pieces, put them together and g
 <br>
 Enhancing the Gauntlets: Go to any son and talk to him. He will enhance the gauntlets for you if you want.<br>
 <img src="img/questimages/famcrest11.png" height="150" width="450"><br>
-<br>
+$questComplete
 This quest guide was written by Firkløver,gigakiller. Thanks to L3tHaL_LeAdA, Keystone, thehellkeeper, Your Homey 1 and gypped,DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, May 11, 2004, at 08:04:55 PM by Freakybat and CJH and was last updated on Sat, Aug 14, 2004, at 12:17:42 PM.<br>

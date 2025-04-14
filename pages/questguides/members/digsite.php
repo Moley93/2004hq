@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <p><span>Description:</span> Feeling uneducated?
     Desperate for buried treasure? ..."There's gold in them there hills"
@@ -187,6 +187,7 @@ function getQuestGuide($questName) { return <<<HTML
     <li> Take the stone tablet back to the Archeological
       expert to complete the quest and get your reward. </li>
 </ol>
+$questComplete
 <p>
 This quest guide was written by Elyria1. Thanks to FunkyMetal, stormer, kevin rigby, ya sissy jrr for corrections.<br>
 This quest guide was entered into the database on Wed, Jun 09, 2004, at 12:23:34 PM by Pirate Bob49 and was last updated on Mon, Jul 05, 2004, at 10:48:51 PM.

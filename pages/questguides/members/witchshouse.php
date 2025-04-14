@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: A boy has kicked his ball into an old witch's house. He wants you to go get it for him.<br>
@@ -35,7 +35,7 @@ If you leave the shed you will have to start the battle over. So make sure you h
 3rd form: Level 42 bear<br>
 4th and final form: Lvl 53 wolf<br>
 After defeating the experiement (Congratulations) grab the ball and open the door. For the last time sneak in the direction of the house, then exit and give the boy his ball back for your reward.<br>
-<br>
+$questComplete
 This quest guide was written by Gnat88. Thanks to Weezy, Deano, and Keystone for corrections.<br>
 <br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 04:32:32 PM by Monkeychris and CJH and was last updated on Sat, Oct 09, 2004, at 12:12:15 AM.<br>

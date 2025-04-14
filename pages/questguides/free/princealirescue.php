@@ -1,7 +1,6 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
-<br>
 Description: Prince Ali of Al Kharid has been kidnapped by the scheming Lady Keli. You are hired to stage a rescue mission.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
@@ -51,7 +50,7 @@ Go back to Osman in Al Kharid with the key imprint & a bronze bar, he'll tell yo
 Go into the house nearby Lady Keli and talk to the guard and tell him you have a beer. “Fancy one?” You'll then ask him if he wants another and automatically hand them to him, he will drink them and get drunk.<br>
 <br>
 Tie up lady keli, use your key on the door and talk to the prince he will take the disguise and run off..congratz! You're now a friend of Al Kharid and can pass for free.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by xxteargodxx.<br>
 <br>
 This quest guide was entered into the database on Thu, Mar 04, 2004, at 12:28:14 AM by <b>Weezy</b> and was last updated on <b>Wed, Mar 31, 2004, at 05:15:03 PM.</b>.<br/> 

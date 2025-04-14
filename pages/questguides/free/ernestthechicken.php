@@ -1,7 +1,6 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
-<br>
 Description: Veronica is very worried. Her fiancé went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br></b>
@@ -34,7 +33,7 @@ Rubber Tube: Go to the <span data-floors="US">1st floor</span> east room and gra
 Pressure Gauge: On the <span data-floors="US">2nd floor</span>, go to the southeast room and pick up fish food. Go down to the west room and grab poison. Use poison on fish food. Then go southwest outside to the fountain, use the poisoned fish food on it, and search the fountain to get the pressure gauge.<br>
 <br>
 Return to Professor Oddenstein with all three items. He will fix the machine and turn Ernest back into a human. Ernest will thank and reward you.<br>
-<br>
+$questComplete
 This quest guide was written on RuneHQ by Henry-X. Thanks to Weezy for corrections.<br>
 <br>
 This quest guide was entered into the database on Thu, Feb 19, 2004, at 02:33:04 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:09:01 PM.<br>

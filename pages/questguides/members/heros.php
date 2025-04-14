@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Prove you are worthy to enter the Hero's Guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.<br>
@@ -79,7 +79,7 @@ Finishing the Quest<br>
 Go back to the Hero's Guild and talk Achetties and give her the 3 items: Firebird Feather, Cooked Lava Eel and Master Thieves Armband.<br>
 <br>
 Congratulations! You have finished the Hero's Quest, and can now enter the Hero's Guild!<br>
-<br>
+$questComplete
 This quest guide was written by Jarik C-Bol,Elyria1, jtfa0007, hckernshadow. Thanks to DRAVAN for corrections.<br>
 <br>
 This quest guide was entered into the database on Tue, May 11, 2004, at 08:33:53 PM by stormer and CJH and was last updated on Fri, Oct 08, 2004, at 11:57:09 PM.<br>

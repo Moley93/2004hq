@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?<br>
@@ -70,14 +70,7 @@ Once you have killed the Tree spirit, chop the Dramon tree to get a Dramen branc
 Teleport out or head into the room with the Greater demons to use the Magic door that brings you to level 32 of the wilderness just north of the Boneyard.<br>
 <br>
 <img src="img\questimages\lostcity6.png" height="300" width="350"><br>
-<br>
-Congratulations! Quest Complete!<br>
-<br>
-Check out the Lost City (Zanaris) City Guide.<br>
-<br>
-Congratulations!<br>
-<img src="img\questimages\lostcity7.gif" height="350" width="350"><br>
-<br>
+$questComplete
 This quest guide was written by Gnat88, Galalad, and Alfawarlord. Thanks to Jakesterwars, Lilroo503, and Khaaveren for corrections.<br>
 <br>
 This quest guide was entered into the RuneHQ database on Tue, Mar 02, 2004, at 10:24:00 PM by Wiz-Master and CJH and was last updated on Thu, Oct 25, 2007, at 08:26:39 AM by Jakesterwars.<br>

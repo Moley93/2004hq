@@ -1,5 +1,5 @@
 <?php
-function getQuestGuide($questName) { return <<<HTML
+function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
 Description: The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.<br>
@@ -108,93 +108,48 @@ You have a brief conversation with Glough, and then a Black Demon appears and at
 He sends guards to check out your story. Once proved he asks you to help one last time and find the last Daconia Stone. Search all the roots in the area until you find a small blue rock.<br>
 <br>
 Once you find it return to King and he will reward you. You will also be able to use the glider, and there is a mine now open to you under the tree, if you push some roots. To access this mine in the future, enter grand tree and move the tile in the floor.<br>
+$questComplete
 <br>
-<br>
-The Gnome Translation Guide<br>
-<br>
--A-<br>
-<br>
+<h3>The Gnome Translation Guide</h3>
 Arpos: Rocks<br>
 Andos: Gate<br>
 Andra: City<br>
 Ataris: Cow<br>
-<br>
--C-<br>
-<br>
 Cef: Threat<br>
 Cinqo: King<br>
 Cretor: Bucket<br>
-<br>
--E-<br>
-<br>
 Eis: Me<br>
 Es: A<br>
 Et: And<br>
 Eto: Will<br>
-<br>
--G-<br>
-<br>
 Gandius: Jungle<br>
 Gentis: Leaf<br>
 Gutus: Banana<br>
 Gomondo: Branch<br>
-<br>
--H-<br>
-<br>
 Harij:<br>
 Hewo:<br>
-<br>
--I-<br>
-<br>
 Ip: You<br>
 Imindus: Quest<br>
 Irno: Translate<br>
-<br>
--K-<br>
-<br>
 Kar: No<br>
 Kai: Boat<br>
 Ko: Sail<br>
-<br>
--L-<br>
-<br>
 Lemanto: Man<br>
 Lovos: Gave<br>
-<br>
--M-<br>
-<br>
 Meso: Came<br>
 Meriz: Kill<br>
 Mos: Coin<br>
 Mi: I<br>
 Mond: Seal<br>
-<br>
--P-<br>
-<br>
 Prit: With<br>
 Priw: Tree<br>
 Pro: To<br>
-<br>
--Q-<br>
-<br>
 Qui: Guard<br>
 Quir: Guardian<br>
-<br>
--R-<br>
-<br>
 Rentos: Agility<br>
-<br>
--S-<br>
-<br>
 Sind: Big<br>
-<br>
--T-<br>
-<br>
 ta: the<br>
 tuzo: open<br>
-<br>
--Other-<br>
-<br>
 Daconia: Daconia<br>
 <br>
 This quest guide was written by pj. Thanks to Swaty, Koppen, Your Homey 1, Pirate Bob49, faital03 for corrections.<br>
