@@ -875,7 +875,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 <tr> 
     <td>04 degrees 03 minutes south<br>
       03 degrees 11 minutes east<br> </td>
-    <td>In the Ogre city of Gu’Tanoth. You must have completed the Watchtower Quest to have access to this one</td>
+    <td>In the Ogre city of Gu'Tanoth. You must have completed the Watchtower Quest to have access to this one</td>
   </tr>
 <tr>
     <td>04 degrees 05 minutes south<br>

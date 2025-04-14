@@ -2,30 +2,30 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
-Description:Brother Omad's friend's child has had their blanket stolen. Find it and then help Omad get drinks from Brother Cedric in time to get ready for a party<br>
+Description: Brother Omad's friend's child has had their blanket stolen. Find it, then help Omad get drinks from Brother Cedric in time to prepare for a party.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
-Items/Skills Needed To Start:A hatchet or just have someone cut 1 pile of logs for you. Maybe a weapon to kill some theives (level 14 and a 26) You also need a jug.<br>
+Items/Skills Needed To Start: A hatchet (or have someone cut one pile of logs for you), a weapon to kill some thieves (level 14 and 26), a jug<br>
 <br>
-Starting Location:The monastary south of ardougne zoo.<br>
+Starting Location: The monastery south of Ardougne Zoo<br>
 <br>
-Reward:1 quest point, 2000 woodcutting xp and 8 law runes<br>
-
-<h3>Instructions:</h3>
-Talk to Omad and learn of his sleepless nights because of the crying child. Learn that the theives (lvl 14s and a 26) that stole the blanket are hiding in a secret cave.<br>
+Reward: 1 Quest Point, 2,000 Woodcutting XP, 8 Law Runes<br>
 <br>
-Go north west to a ring of stones. (It's just east of the gnome battlefied) A ladder will appear, go down and into the den<br>
+<b>Instructions:</b>
+Talk to Omad and learn of his sleepless nights due to the crying child. He tells you that the thieves (level 14s and a 26) who stole the blanket are hiding in a secret cave.<br>
 <br>
-Take the first turn and go in. Fight the thieves if necessary to the table and get the blanket. Return to Brother Omad<br>
+Go northwest to a ring of stones (just east of the Gnome Battlefield). A ladder will appear—climb down into the den.<br>
 <br>
-Talk to him twice to learn about Brother Cedric not returning with the wine for the child's party. Omad says that Cedric probably got drunk and lost in the forest. (Poor guy)<br>
+Take the first turn inside. Fight the thieves if necessary, then head to the table and retrieve the blanket. Return to Brother Omad.<br>
 <br>
-Go just north to find Cedric, he needs a drink of water so use your jug and return and use it with a sink at one of the khazard guard houses that is south of the monastary. Talk to him again to use the jug on Cedric.<br>
+Talk to him twice to learn that Brother Cedric hasn't returned with the wine for the child's party. Omad assumes Cedric probably got drunk and lost in the forest. (Poor guy.)<br>
 <br>
-He'll ask you to get wood to fix his broken cart, which hopefully you already have. Give him the wood and return to Omad for the last time<br>
+Go just north to find Cedric. He needs a drink of water, so use your jug with a sink in one of the Khazard guardhouses south of the monastery. Then return and use the jug on Cedric.<br>
 <br>
-Talk to him and he'll give you the runes and then you party. Unfourtanetly you can't burst the party ballons, but those monks really know how to get down, party, and boogie like there's no tomorrow<br>
+He'll ask you for wood to fix his broken cart—hopefully you already have it. Give him the wood and return to Omad one last time.<br>
+<br>
+Talk to him and he'll give you the runes. Then, you party. Unfortunately, you can't burst the party balloons, but those monks really know how to get down, party, and boogie like there's no tomorrow.<br>
 $questComplete
 This quest guide was written on RuneHQ by Gnat88. <br>
 <br>
