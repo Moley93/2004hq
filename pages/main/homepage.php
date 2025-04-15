@@ -104,8 +104,7 @@ function getPageContent() { return <<<HTML
         <tr valign="top">
             <td width="100">
                 <a href="?p=streetprices">
-                    <img src="img/rune_kite.png" height="128px" />
-                </a>
+                    <img src="img/rune_kite.png" height="128px"></a>
             </td>
             <td width="120">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
@@ -120,13 +119,17 @@ function getPageContent() { return <<<HTML
             <td width="10"></td>
 
             <td width="100">
-                &nbsp;
+                <a href="?">
+                <img src="img/sextant.png"></a>
             </td>
             <td width="120">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
                     <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
                 </div>
-                &nbsp;
+                <br>
+                <br>
+                Coordinate Locator<br>
+                <a href="?" class="c">Click Here</a>
             </td>
         </tr>
     </tbody>
