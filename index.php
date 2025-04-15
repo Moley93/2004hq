@@ -9,44 +9,23 @@ include 'config.php';
 $p = htmlspecialchars($_GET['p'] ?? '');
 
 switch ($p) {
-    case 'questguides':
-        include 'pages/questguides/main.php';
-        break;
-
     case 'skillguides':
-        include 'pages/skillguides/main.php';
-        break;
-
     case 'droptables':
-        include 'pages/droptables/main.php';
-        break;
-
     case 'cluetables':
-        include 'pages/cluetables/main.php';
-        break;
-
     case 'clueguides':
-        include 'pages/clueguides/main.php';
-        break;
-
     case 'calculators':
-        include 'pages/calculators/main.php';
+    case 'streetprices':
+    case 'questguides':
+        include 'pages/'.$p.'/main.php';
         break;
 
-    case 'streetprices':
-        include 'pages/streetprices/main.php';
+    case '404':
+    case '403':
+        include 'pages/main/error/'.$p.'.php';
         break;
 
     case 'changelog':
         include 'pages/main/changelog.php';
-        break;
-
-    case '403':
-        include 'pages/main/error/403.php';
-        break;
-
-    case '404':
-        include 'pages/main/error/404.php';
         break;
 
     case '': // No ?p= value (homepage)
@@ -54,14 +33,13 @@ switch ($p) {
         break;
 
     default: // All other unknown pages
-        include 'pages/main/error/404.php';
+        header('Location: ?p=404') ;
         break;
 }
 
 
 if (empty($stopload)) {
     $pageHTML = getPageContent();
-
     include 'template/header.php';
     include 'template/body.php';
     echo $pageHTML;
