@@ -1,5 +1,5 @@
 <?php
-function getExtraHeaderContent() { return '<link rel="stylesheet" href="css/droptables.css" />'; }
+function getExtraHeaderContent() { return '<link rel="stylesheet" href="css/droptables.css">'; }
 function getPageContent() { 
     global $meta_data;
     $meta_data['title'] = 'Drop Tables';

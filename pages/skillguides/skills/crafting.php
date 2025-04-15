@@ -19,7 +19,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><canvas data-itemname="wool"></canvas><br>Wool</td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px><br>
                 Spinning Wheel
             </td>
             <td><canvas data-itemname="ball_of_wool"></canvas><br>Ball of Wool</td>
@@ -40,7 +40,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="soft_clay"></canvas><br>Soft clay
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="unfired_pot"></canvas><br>Unfired pot</td>
@@ -49,7 +49,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><canvas data-itemname="unfired_pot"></canvas><br>Unfired pot</td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="pot_empty"></canvas><br>Pot</td>
@@ -68,7 +68,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould & Furnace
             </td>
             <td><canvas data-itemname="gold_ring"></canvas><br>Gold ring</td>
@@ -81,7 +81,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="gold_necklace"></canvas><br>Gold necklace</td>
@@ -92,7 +92,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="soft_clay"></canvas><br>Soft clay
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="unfired_piedish"></canvas><br>Unfired pie dish</td>
@@ -101,7 +101,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>7</td>
             <td><canvas data-itemname="unfired_piedish"></canvas><br>Unfired pie dish</td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="piedish"></canvas><br>Pie dish</td>
@@ -125,7 +125,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="gold_amulet"></canvas><br>Gold amulet</td>
@@ -136,7 +136,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="soft_clay"></canvas><br>Soft clay
             </td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
             <td><canvas data-itemname="unfired_bowl"></canvas><br>Unfired bowl</td>
@@ -145,7 +145,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>8</td>
             <td><canvas data-itemname="unfired_bowl"></canvas><br>Unfired bowl</td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
             </td>
             <td><canvas data-itemname="bowl_empty"></canvas><br>Bowl</td>
@@ -164,7 +164,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>10</td>
             <td><canvas data-itemname="flax"></canvas><br>Flax</td>
             <td>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Spinning_wheel_%28Seers%27_Village%29.png/151px-Spinning_wheel_%28Seers%27_Village%29.png" width=32px><br>
                 Spinning Wheel
             </td>
             <td><canvas data-itemname="bow_string"></canvas><br>Bow string</td>
@@ -209,7 +209,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="holy_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Holy mould, Furnace
             </td>
             <td><canvas data-itemname="unblessed_symbol"></canvas><br>Holy symbol</td>
@@ -229,7 +229,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="unholy_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Unholy mould, Furnace
             </td>
             <td><canvas data-itemname="unpowered_symbol"></canvas><br>Unholy symbol</td>
@@ -259,7 +259,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould, Furnace
             </td>
             <td><canvas data-itemname="sapphire_ring"></canvas><br>Sapphire ring</td>
@@ -273,7 +273,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="sapphire_necklace"></canvas><br>Sapphire necklace</td>
@@ -288,7 +288,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="sapphire_amulet"></canvas><br>Sapphire amulet</td>
@@ -308,7 +308,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould, Furnace
             </td>
             <td><canvas data-itemname="emerald_ring"></canvas><br>Emerald ring</td>
@@ -332,7 +332,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="emerald_necklace"></canvas><br>Emerald necklace</td>
@@ -347,7 +347,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="emerald_amulet"></canvas><br>Emerald amulet</td>
@@ -373,7 +373,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould, Furnace
             </td>
             <td><canvas data-itemname="ruby_ring"></canvas><br>Ruby ring</td>
@@ -397,7 +397,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="ruby_necklace"></canvas><br>Ruby Necklace</td>
@@ -427,7 +427,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould, Furnace
             </td>
             <td><canvas data-itemname="diamond_ring"></canvas><br>Diamond ring</td>
@@ -458,7 +458,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="ruby_amulet"></canvas><br>Ruby amulet</td>
@@ -488,7 +488,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="ring_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Ring mould, Furnace
             </td>
             <td><canvas data-itemname="dragonstone_ring"></canvas><br>Dragonstone ring</td>
@@ -502,7 +502,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="diamond_necklace"></canvas><br>Diamond necklace</td>
@@ -609,7 +609,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="diamond_amulet"></canvas><br>Diamond amulet</td>
@@ -638,7 +638,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="necklace_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Necklace mould, Furnace
             </td>
             <td><canvas data-itemname="dragonstone_necklace"></canvas><br>Dragonstone necklace</td>
@@ -702,7 +702,7 @@ function getSkillContent($skill) { return <<<HTML
             </td>
             <td>
                 <canvas data-itemname="amulet_mould"></canvas>
-                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px /><br>
+                <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" width=32px><br>
                 Amulet mould, Furnace
             </td>
             <td><canvas data-itemname="dragonstone_amulet"></canvas><br>Dragonstone amulet</td>

@@ -5,7 +5,7 @@ function getSkillContent($skill) { return <<<HTML
     Herblore is used to make different sorts of potions and poisons.<br>
     <br>
     Before you can use herblore you will need to complete the <a href="?p=questguides&quest=druidicritual">Druidic Ritual</a> quest.<br>
-    <hr />
+    <hr>
     <h3>Identifying Herbs</h3>
     A lot of the herbs you find in the game will be unidentified.<br>
     <br>
@@ -96,7 +96,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>15</td>
         </tr>
     </table>
-    <hr />
+    <hr>
     <h3>Mixing Potions</h3>
     You will need a vial. These can be bought from shops such as the herblore shop in Taverley or made using glassmaking crafting.<br>
     <br>
@@ -282,7 +282,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>175</td>
         </tr>
     </table>
-    <hr />
+    <hr>
     <h3>Ground Ingredients</h3>
     The unicorn and dragon scale need to be ground before they can be used in the potions.<br>
     <br>
@@ -305,7 +305,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
         </tr>
     </table>
-    <hr />
+    <hr>
     <h3>Weapon poison</h3>
     The weapon poison can only be used only on certain weapons such as arrows and daggers.<br>
     <br>

@@ -15,17 +15,17 @@ if (isset($_SERVER['REQUEST_SCHEME'])) {
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.7, shrink-to-fit=no" />
-    <meta name="color-scheme" content="light only" />
-    <meta property="og:title" content="2004HQ > <?php echo $meta_data['og:title']; ?>" />
-    <meta property="og:description" content="<?php echo $meta_data['og:description']; ?>" />
-    <meta property="og:url" content="<?php echo $ogurl; ?>" />
-    <meta property="og:image" content="<?php echo $ogimage; ?>" />
-    <meta property="og:type" content="article:2004scape" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, shrink-to-fit=no">
+    <meta name="color-scheme" content="light only">
+    <meta property="og:title" content="2004HQ > <?php echo $meta_data['og:title']; ?>">
+    <meta property="og:description" content="<?php echo $meta_data['og:description']; ?>">
+    <meta property="og:url" content="<?php echo $ogurl; ?>">
+    <meta property="og:image" content="<?php echo $ogimage; ?>">
+    <meta property="og:type" content="article:2004scape">
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
-    <link rel="icon" type="image/x-icon" href="img/sword.png" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/sword.png">
+    <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/siteOptions.js"></script>
     <script type="text/javascript" src="js/spriteLoader.js"></script>

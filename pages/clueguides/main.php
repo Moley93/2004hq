@@ -40,7 +40,7 @@ The other items are best to make the trip as smooth as possible:
   <li><a href="#dropper">Clue Droppers</a></li>
   <li><a href="#rewards">Trail Levels and Rewards</a></li>
 </ol>
-<hr />
+<hr>
 This is a guide listing treasure trail solutions, which enemies drop clues, and 
 what rewards you can get.<br>
 <br>
@@ -57,7 +57,7 @@ a lot of people in that area. <br>
 There are a lot of solutions in this guide and you might not even find yours if 
 looking manually. Simply use the "CTRL + F" feature and search for keywords. 
 For example "halt us" or "under cook".
-<hr />
+<hr>
 <h3>WARNING:</h3>
 <br>
 This section obviously contains spoilers on how to solve the clues. Don't look 
@@ -66,7 +66,7 @@ a spade is necessary for the solution. Simply use a spade where the solution
 states.  Note that you are still required to carry your Sextant, Chart and Watch with you or your treasure will not be revealed.
 <p>
 <a name="speak" id="speak"></a><h3>I. Speak To Clues</h3>
-<hr /> </p>
+<hr> </p>
 <table class="calculators">
   <tr> 
     <th>Speak to ...</th>
@@ -207,7 +207,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="anagram" id="anagram"></a><h3>II. Anagram Clues</h3>
-<hr /> </p>
+<hr> </p>
 <table class="calculators">
   <tr> 
     <th>Anagram:</th>
@@ -287,7 +287,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="knowledge" id="knowledge"></a><h3>III. Test Your Knowledge Clues</h3>
-<hr /> </p>
+<hr> </p>
 <table class="calculators">
   <tr> 
     <th>Test your Knowledge Clues:</th>
@@ -323,7 +323,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="clue" id="clue"></a><h3>IV. Normal Treasure Clues</h3>
-<hr /> </p>
+<hr> </p>
 <table class="calculators">
   <tr> 
     <th>Clue / Riddle</th>
@@ -674,74 +674,74 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="map" id="map"></a><h3>V. Map Clues</h3>
-<hr /> </p>
+<hr> </p>
 <table class="calculators">
   <tr>
     <th>Maps</th>
     <th>Location</th>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/clue_black_warriors_fortress_wildy.png" style="width:200px;" alt="clue_black_warriors_fortress_wildy.png" /></td>
+    <td><img src="img/clue_guides/clue_black_warriors_fortress_wildy.png" style="width:200px;" alt="clue_black_warriors_fortress_wildy.png"></td>
     <td>Black warriors fortress in the Wilderness. Search the crate in the southwest corner of the area inside.</td>
   </tr>
  <tr> 
-    <td><img src="img/clue_guides/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg" /></td>
+    <td><img src="img/clue_guides/clue_brother_galahad.jpg" style="width:200px;" alt="clue_brother_galahad.jpg"></td>
     <td>Brother Galahad's house across the river from Coal Trucks.</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/champ_guild.jpg" style="width:200px;" alt="champ_guild.jpg" /></td>
+    <td><img src="img/clue_guides/champ_guild.jpg" style="width:200px;" alt="champ_guild.jpg"></td>
     <td>Champions Guild Map - West of Champions Guild</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/falador_mine.jpg" style="width:200px;" alt="falador_mine.jpg" /></td>
+    <td><img src="img/clue_guides/falador_mine.jpg" style="width:200px;" alt="falador_mine.jpg"></td>
     <td>Falador Useless Rock Area Map - Fenced area East-NorthEast of Falador's North entrance, full of useless rocks.</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/dranor_fishing.jpg" style="width:200px;" alt="dranor_fishing.jpg" /></td>
+    <td><img src="img/clue_guides/dranor_fishing.jpg" style="width:200px;" alt="dranor_fishing.jpg"></td>
     <td>Draynor Fish Spot Map - South from Draynor's Bank</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/clue_goblins_near_observatory.jpg" style="width:200px;" alt="clue_goblins_near_observatory.jpg" /></td>
+    <td><img src="img/clue_guides/clue_goblins_near_observatory.jpg" style="width:200px;" alt="clue_goblins_near_observatory.jpg"></td>
     <td>Search crate in the house with range at goblin area near Observatory</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/clue_necromancer.png" style="width:200px;" alt="clue_necromancer.png" /></td>
+    <td><img src="img/clue_guides/clue_necromancer.png" style="width:200px;" alt="clue_necromancer.png"></td>
     <td>At the Necromancer peninsula south of East Ardougne. 2 squares west of the small tree as indicated on the clue map.</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/varrock_lumber.jpg" style="width:200px;" alt="varrock_lumber.jpg" /></td>
+    <td><img src="img/clue_guides/varrock_lumber.jpg" style="width:200px;" alt="varrock_lumber.jpg"></td>
     <td>Varrock Lumberyard Map - NorthEast from Draynor Bank</td>
   </tr>
   <tr> 
-    <td><img src="img/clue_guides/varrock_mine.jpg" style="width:200px;" alt="Pic missing, but coming soon!" /></td>
+    <td><img src="img/clue_guides/varrock_mine.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
     <td>Varrock Mine Map - Dig at the fence at the Varrock East mining site</td>
   </tr>
 <tr> 
-    <td><img src="img/clue_guides/clue1.jpg" style="width:200px;" alt="clue1.jpg" /></td>
+    <td><img src="img/clue_guides/clue1.jpg" style="width:200px;" alt="clue1.jpg"></td>
     <td>In Yanille, south east corner</td>
 </tr>
   <tr>
-<td><img src="img/clue_guides/clue_Rimmington_chemists.png" style="width:200px;" alt="Chemist's house" /></td>
+<td><img src="img/clue_guides/clue_Rimmington_chemists.png" style="width:200px;" alt="Chemist's house"></td>
     <td>West of the Chemist's house west of Rimmington (South of Falador below the Crafting Guild).</td>
   </tr>
   <tr>
-<td><img src="img/clue_guides/clue_hobgoblin_peninsula.png" style="width:200px;" alt="Hobgoblin peninsula" /></td>
+<td><img src="img/clue_guides/clue_hobgoblin_peninsula.png" style="width:200px;" alt="Hobgoblin peninsula"></td>
     <td>It's on the Hobgoblin peninsula that sticks out west of the Crafting Guild (below the Make over Mage - found directly west after exiting Falador by the south entrance).</td>
   </tr>
   <tr>
-<td><img src="img/clue_guides/clue_McGrubors_wood.png" style="width:200px;" alt="McGrubor's wood" /></td>
+<td><img src="img/clue_guides/clue_McGrubors_wood.png" style="width:200px;" alt="McGrubor's wood"></td>
     <td>Inside McGrubor's wood, which is west of Seer's village.</td>
   </tr>
 <tr>
-<td><img src="img/clue_guides/clue_clock_tower.jpg" style="width:200px;" alt="Pic missing, but coming soon!" /></td>
+<td><img src="img/clue_guides/clue_clock_tower.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
     <td>Search a crate on the west side of the Clock Tower, which is south of Ardougne.</td>
   </tr>
 <tr>
-<td><img src="img/clue_guides/clue_west_ardougne.jpg" style="width:200px;" alt="clue_west_ardougne.jpg" /></td>
+<td><img src="img/clue_guides/clue_west_ardougne.jpg" style="width:200px;" alt="clue_west_ardougne.jpg"></td>
     <td>Northwest corner of West Ardougne</td>
   </tr>
 <tr>
-    <td><img src="img/clue_guides/wiztowermap.gif" style="width:200px;" alt="wiztowermap.gif" /></td>
+    <td><img src="img/clue_guides/wiztowermap.gif" style="width:200px;" alt="wiztowermap.gif"></td>
     <td>Behind the Wizard's Tower</td>
   </tr>
   <tr>
@@ -750,8 +750,8 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
   </tr>
   <tr> 
     <td>
-      <img src="img/clue_guides/unsolved_puzzle.jpg" style="width:200px;" alt="Pic missing, but coming soon!" /></td>
-    <td><img src="img/clue_guides/slidepuzzle.jpg" style="width:200px;" alt="slidepuzzle.jpg" /></td>
+      <img src="img/clue_guides/unsolved_puzzle.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
+    <td><img src="img/clue_guides/slidepuzzle.jpg" style="width:200px;" alt="slidepuzzle.jpg"></td>
   </tr>
 <tr>
     <th>Grand Tree Puzzle Box</th>
@@ -759,8 +759,8 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
   </tr>
   <tr> 
     <td>
-      <img src="img/clue_guides/unsolvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!" />
-    <td><img src="img/clue_guides/solvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!" /></td>
+      <img src="img/clue_guides/unsolvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!">
+    <td><img src="img/clue_guides/solvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
   </tr>
 <tr>
     <th>Troll Puzzle Box</th>
@@ -768,8 +768,8 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
   </tr>
   <tr> 
     <td>
-      <img src="img/clue_guides/unsolvedtroll.jpg" style="width:200px;" />
-    <td><img src="img/clue_guides/trollpuzzlebox.gif" style="width:200px;" alt="trollpuzzlebox.gif" /></td>
+      <img src="img/clue_guides/unsolvedtroll.jpg" style="width:200px;">
+    <td><img src="img/clue_guides/trollpuzzlebox.gif" style="width:200px;" alt="trollpuzzlebox.gif"></td>
   </tr>
 
 </table>
@@ -778,7 +778,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 <br>
   <br>
   <a name="coordinate" id="coordinate"></a><h3>VI. Coordinate Clues</h3>
-  <hr />
+  <hr>
   - In case anyone needs help where to get these items.<br>
   - These are needed for the clues that relate to coordinates. <br>
   - If you want to see the location of coordinates, please visit our on-site <a href="">map with coordinates</a> supplied to RuneHQ by Jonny Monoxide. <br>
@@ -1086,12 +1086,12 @@ clues: A Zamorak wizard will appear. Kill him and then dig again to get a casket
 <br>
 <br>
 <a name="dropper" id="dropper"></a><h3>VII. Clue Droppers</h3>
-<hr />
+<hr>
 For clue droppers you can check our <a href="?p=droptables">Drop Tables page</a>.<br>
 Search for "Clue Scroll".<br>
 <br>
 <a name="rewards" id="rewards"></a><h3>VIII. Trail Levels and Rewards</h3>
-<hr />
+<hr>
 For clue rewards you can check our <a href="?p=cluetables">Clue Tables page</a>.<br>
 Select the clue tier you wish to view drops for.
 <br>

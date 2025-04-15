@@ -22,7 +22,7 @@ function getPageContent() { return <<<HTML
             
             <td width="100">
                 <a href="?p=skillguides">
-                    <img src="img/stats.png" />
+                    <img src="img/stats.png">
                 </a>
             </td>
             
@@ -55,7 +55,7 @@ function getPageContent() { return <<<HTML
             <td width="10"></td>
             
             <td width="100">
-                <a href="?p=cluetables"><img src="img/casket1.png" /></a>
+                <a href="?p=cluetables"><img src="img/casket1.png"></a>
             </td>
             
             <td width="120">
@@ -71,7 +71,7 @@ function getPageContent() { return <<<HTML
         <tr valign="top">
             <td width="100">
                 <a href="?">
-                    <img src="img/swordicon.png" />
+                    <img src="img/swordicon.png">
                 </a>
             </td>
             <td width="120">
@@ -88,7 +88,7 @@ function getPageContent() { return <<<HTML
 
             <td width="100">
                 <a href="?p=clueguides">
-                <img src="img/clueicon.png" />
+                <img src="img/clueicon.png">
                 </a>
             </td>
             <td width="120">
@@ -104,7 +104,7 @@ function getPageContent() { return <<<HTML
         <tr valign="top">
             <td width="100">
                 <a href="?p=streetprices">
-                    <img src="img/coinstack.png" style="width:80px;margin-top:20px;" /></a>
+                    <img src="img/coinstack.png" style="width:80px;margin-top:20px;"></a>
             </td>
             <td width="120">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
@@ -120,7 +120,7 @@ function getPageContent() { return <<<HTML
 
             <td width="100">
                 <a href="?">
-                <img src="img/sextant.png" style="width:90px;margin-top:10px;" /></a>
+                <img src="img/sextant.png" style="width:90px;margin-top:10px;"></a>
             </td>
             <td width="120">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
