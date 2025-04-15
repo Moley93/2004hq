@@ -37,7 +37,6 @@ switch ($p) {
         break;
 }
 
-
 if (empty($stopload)) {
     $pageHTML = getPageContent();
     include 'template/header.php';
