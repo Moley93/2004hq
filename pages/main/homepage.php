@@ -104,7 +104,7 @@ function getPageContent() { return <<<HTML
         <tr valign="top">
             <td width="100">
                 <a href="?p=streetprices">
-                    <img src="img/coinstack.png" height="128px"></a>
+                    <img src="img/coinstack.png"></a>
             </td>
             <td width="120">
                 <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
