@@ -70,6 +70,7 @@ Site by Moley, Eilert, Halogod & Collin.<br><br>
     </tr>
   </thead>
   <tbody>
+    <tr><td>15/04/2025</td><td>Added Halogod's Calculators</td></tr>
     <tr><td>14/04/2025</td><td>Proofread all quest guides for grammar and typos</td></tr>
     <tr><td>13/04/2025</td><td>Added Treasure Trail Guides</td></tr>
     <tr><td>13/04/2025</td><td>Added Quest Complete images to all guides</td></tr>
