@@ -603,8 +603,8 @@
   },
   {
     "id": 199,
-    "debugname": "unidentified_guam_leaf",
-    "name": "Unidentified Herb",
+    "debugname": "unidentified_guam",
+    "name": "Herb",
     "desc": "I need a closer look to identify this.",
     "cost": 1
   },

@@ -40,7 +40,7 @@ The other items are best to make the trip as smooth as possible:
   <li><a href="#dropper">Clue Droppers</a></li>
   <li><a href="#rewards">Trail Levels and Rewards</a></li>
 </ol>
-<hr width="85%" />
+<hr />
 This is a guide listing treasure trail solutions, which enemies drop clues, and 
 what rewards you can get.<br>
 <br>
@@ -57,7 +57,7 @@ a lot of people in that area. <br>
 There are a lot of solutions in this guide and you might not even find yours if 
 looking manually. Simply use the "CTRL + F" feature and search for keywords. 
 For example "halt us" or "under cook".
-<hr width="85%" />
+<hr />
 <h3>WARNING:</h3>
 <br>
 This section obviously contains spoilers on how to solve the clues. Don't look 
@@ -66,7 +66,7 @@ a spade is necessary for the solution. Simply use a spade where the solution
 states.  Note that you are still required to carry your Sextant, Chart and Watch with you or your treasure will not be revealed.
 <p>
 <a name="speak" id="speak"></a><h3>I. Speak To Clues</h3>
-<hr width="85%" /> </p>
+<hr /> </p>
 <table class="calculators">
   <tr> 
     <th>Speak to ...</th>
@@ -207,7 +207,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="anagram" id="anagram"></a><h3>II. Anagram Clues</h3>
-<hr width="85%" /> </p>
+<hr /> </p>
 <table class="calculators">
   <tr> 
     <th>Anagram:</th>
@@ -287,7 +287,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="knowledge" id="knowledge"></a><h3>III. Test Your Knowledge Clues</h3>
-<hr width="85%" /> </p>
+<hr /> </p>
 <table class="calculators">
   <tr> 
     <th>Test your Knowledge Clues:</th>
@@ -323,7 +323,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="clue" id="clue"></a><h3>IV. Normal Treasure Clues</h3>
-<hr width="85%" /> </p>
+<hr /> </p>
 <table class="calculators">
   <tr> 
     <th>Clue / Riddle</th>
@@ -674,7 +674,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 </table>
 <p>
 <a name="map" id="map"></a><h3>V. Map Clues</h3>
-<hr width="85%" /> </p>
+<hr /> </p>
 <table class="calculators">
   <tr>
     <th>Maps</th>
@@ -778,7 +778,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
 <br>
   <br>
   <a name="coordinate" id="coordinate"></a><h3>VI. Coordinate Clues</h3>
-  <hr width="85%" />
+  <hr />
   - In case anyone needs help where to get these items.<br>
   - These are needed for the clues that relate to coordinates. <br>
   - If you want to see the location of coordinates, please visit our on-site <a href="">map with coordinates</a> supplied to RuneHQ by Jonny Monoxide. <br>
@@ -1086,12 +1086,12 @@ clues: A Zamorak wizard will appear. Kill him and then dig again to get a casket
 <br>
 <br>
 <a name="dropper" id="dropper"></a><h3>VII. Clue Droppers</h3>
-<hr width="85%" />
+<hr />
 For clue droppers you can check our <a href="?p=droptables">Drop Tables page</a>.<br>
 Search for "Clue Scroll".<br>
 <br>
 <a name="rewards" id="rewards"></a><h3>VIII. Trail Levels and Rewards</h3>
-<hr width="85%" />
+<hr />
 For clue rewards you can check our <a href="?p=cluetables">Clue Tables page</a>.<br>
 Select the clue tier you wish to view drops for.
 <br>

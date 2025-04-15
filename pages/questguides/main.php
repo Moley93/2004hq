@@ -100,7 +100,7 @@ function getPageContent() {
             $questComplete = '
                 <h2>Congratulations, Quest Complete!</h2><br>
                 <img src="img/questimages/quest_complete/'.$currQuest.'.png" alt="Quest Complete!" width="80%" />
-                <hr width=85% />';
+                <hr />';
             include $fileLocation;
             echo getQuestGuide($questName, $questComplete);
 
