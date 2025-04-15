@@ -129,7 +129,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Coordinate Locator<br>
-                <a href="?" class="c">Click Here</a>
+                <a href="?" class="c">Coming Soon</a>
             </td>
         </tr>
     </tbody>
