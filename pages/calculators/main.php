@@ -37,7 +37,7 @@ class CalculatorType {
 }
 
 function getPageContent(): string {
-    global $meta_data, $style;
+    global $meta_data, $siteOptStyle;
     ob_start();
     if (empty($_GET['calc'])) {
         $meta_data['title'] = 'Calculators';
@@ -67,7 +67,7 @@ function getPageContent(): string {
 }
 
 function generateCalculatorLinks(): string {
-    global $style;
+    global $siteOptStyle;
     $miscCalculators = [
         'combat_xp',
         'combat_level',
@@ -100,7 +100,7 @@ function generateCalculatorLinks(): string {
                 <tr>
                     <td>
                         Select a skill below to get to the calculator for that skill.<br>
-                        <canvas data-skills="skillTree" data-width="220" data-style="$style"></canvas>
+                        <canvas data-skills="skillTree" data-width="220" data-style="$siteOptStyle"></canvas>
                         <script src="js/skillgrid.js"></script>
                     </td>
                 </tr>

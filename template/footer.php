@@ -16,7 +16,7 @@
           <td><img src="img/edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
           <td>
             <div style="text-align:center;font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px;">
-              <div id="site-options-container" data-style="<?= $style ?>" data-usuk="<?= $usuk ?>">
+              <div id="site-options-container" data-style="<?= $siteOptStyle ?>" data-usuk="<?= $siteOptRegion ?>">
                 <div style="height:7px;"></div>
                 <button class="site-footer" onclick="location.href='?p=changelog'" type="button">Credits and Changelog</button>
                 -

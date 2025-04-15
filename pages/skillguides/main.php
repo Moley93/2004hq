@@ -1,14 +1,14 @@
 <?php
 
 function getPageContent() {
-    global $meta_data, $style;
+    global $meta_data, $siteOptStyle;
     ob_start();
     if (empty($_GET['skill'])) {
         $meta_data['title'] = 'Skill Guides';
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:image'] = 'img/stats.webp';
         echo '<h3>Select the Skill you would like to view a guide for:</h3>';
-        echo '<canvas data-skills="skillTree" data-width="220" data-style="'.$style.'"></canvas>';
+        echo '<canvas data-skills="skillTree" data-width="220" data-style="'.$siteOptStyle.'"></canvas>';
         echo '<script src="js/skillgrid.js"></script><br>';
     } else {
         $currSkill = htmlspecialchars($_GET['skill']);

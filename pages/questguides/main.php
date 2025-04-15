@@ -58,14 +58,14 @@ $questlist = array(
 ksort($questlist);
 
 function getPageContent() {
-    global $questlist, $meta_data, $style;
+    global $questlist, $meta_data, $siteOptStyle;
     ob_start();
     if (empty($_GET['quest'])) {
         $meta_data['title'] = 'Quest Guides';
         $meta_data['og:title'] = $meta_data['title'];
         $meta_data['og:image'] = 'img/questicon.webp';
         echo '<h3>Select the Quest you would like to view a Guide for:</h3>';
-        if ($style === 'oldschool') {
+        if ($siteOptStyle === 'oldschool') {
             echo renderQuestListOldschool($questlist);
         } else {
             echo renderQuestList($questlist);
