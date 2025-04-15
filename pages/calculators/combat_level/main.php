@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Combat Level'; }
 function getPageMetaIcon() { return 'img/skillicons/attack.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/combat_level.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Combat Level Calculator</h2>
 <div class="container">
@@ -26,4 +29,5 @@ function getCalcContent() { return <<<HTML
     <h2>Combat Level: <span id="combatLevel" class="gold-text">3</span></h2>
     <div id="levelUpInfo" class="gold-text"></div>
 </div>
+<script type="text/javascript" src="js/calculators/combat_level.js"></script>
 HTML; }

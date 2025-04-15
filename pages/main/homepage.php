@@ -70,7 +70,7 @@ function getPageContent() { return <<<HTML
         </tr>
         <tr valign="top">
             <td width="100">
-                <a href="?">
+                <a href="?p=calculators">
                     <img src="img/swordicon.png">
                 </a>
             </td>
@@ -81,7 +81,7 @@ function getPageContent() { return <<<HTML
                 <br>
                 <br>
                 Calculators<br>
-                <a href="?" class="c">Coming Soon</a>
+                <a href="?p=calculators" class="c">Click Here</a>
             </td>
 
             <td width="10"></td>

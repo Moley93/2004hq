@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Agility'; }
 function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/agility.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateLaps()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Agility Calculator</h2>
@@ -21,7 +24,7 @@ function getCalcContent() { return <<<HTML
         <div class="progress-bar" id="progressBar">0%</div>
     </div>
 
-    <table id="courseTable">
+    <table id="courseTable" class="calculators">
         <thead>
             <tr>
                 <th>Level</th>
@@ -33,7 +36,7 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 
-    <table id="shortcutTable">
+    <table id="shortcutTable" class="calculators">
         <thead>
             <tr>
                 <th>Level</th>
@@ -45,4 +48,5 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
+<script type="text/javascript" src="js/calculators/agility.js"></script>
 HTML; }

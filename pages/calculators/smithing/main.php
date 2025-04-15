@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Smithing'; }
 function getPageMetaIcon() { return 'img/skillicons/smithing.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/smithing.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateSmithing()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Smithing Calculator</h2>
@@ -41,7 +44,7 @@ function getCalcContent() { return <<<HTML
     </div>
     
     <!-- Results Table -->
-    <table id="resultsTable">
+    <table id="resultsTable" class="calculators">
         <thead>
             <tr>
                 <th>Level</th>
@@ -53,4 +56,5 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
+<script type="text/javascript" src="js/calculators/smithing.js"></script>
 HTML; }

@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Fletching'; }
 function getPageMetaIcon() { return 'img/skillicons/fletching.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/fletching.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateFletching()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Fletching Calculator</h2>
@@ -36,7 +39,7 @@ function getCalcContent() { return <<<HTML
     </div>
 
     <!-- Results Table -->
-    <table id="resultsTable">
+    <table id="resultsTable" class="calculators">
         <thead>
             <tr>
                 <th>Level</th>
@@ -48,4 +51,5 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
+<script type="text/javascript" src="js/calculators/fletching.js"></script>
 HTML; }

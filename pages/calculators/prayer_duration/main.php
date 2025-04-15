@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Prayer Duration'; }
 function getPageMetaIcon() { return 'img/skillicons/prayer.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/prayer_duration.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Prayer Duration Calculator</h2>
 <div class="container">
@@ -90,4 +93,5 @@ function getCalcContent() { return <<<HTML
         <p>Total HP restored: <span id="totalHpRestoredText" class="gold-text"></span></p>
     </div>
 </div>
+<script type="text/javascript" src="js/calculators/prayer_duration.js"></script>
 HTML; }

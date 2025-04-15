@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Run Energy'; }
 function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/run_energy.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateRestoreTime()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Run Energy Restore Calculator</h2>
@@ -16,4 +19,5 @@ function getCalcContent() { return <<<HTML
     <h3>~% Energy Restored per Minute: <span id="restoreOneMinute" class="gold-text"></span></h3>
     <br>
 </div>
+<script type="text/javascript" src="js/calculators/run_energy.js"></script>
 HTML; }

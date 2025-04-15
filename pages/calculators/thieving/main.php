@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Thieving'; }
 function getPageMetaIcon() { return 'img/skillicons/thieving.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/thieving.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateThieving()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Thieving Calculator</h2>
@@ -29,7 +32,7 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('chests')">Chests</button>
 
     <!-- Results Table -->
-    <table id="resultsTable">
+    <table id="resultsTable" class="calculators">
         <thead>
             <tr>
                 <th>Level</th>
@@ -41,4 +44,5 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
+<script type="text/javascript" src="js/calculators/thieving.js"></script>
 HTML; }

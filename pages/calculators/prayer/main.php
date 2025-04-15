@@ -1,7 +1,10 @@
 <?php
 function getPageTitle() { return 'Prayer'; }
 function getPageMetaIcon() { return 'img/skillicons/prayer.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/prayer.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'calculateBones()'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Prayer Calculator</h2>
@@ -25,7 +28,7 @@ function getCalcContent() { return <<<HTML
     </div>
 
     <!-- Results Table -->
-    <table id="resultsTable">
+    <table id="resultsTable" class="calculators">
         <thead>
             <tr>
                 <th>Bone Type</th>
@@ -36,4 +39,5 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
+<script type="text/javascript" src="js/calculators/prayer.js"></script>
 HTML; }

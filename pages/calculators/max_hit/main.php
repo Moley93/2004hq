@@ -1,7 +1,11 @@
 <?php
 function getPageTitle() { return 'Max Hit'; }
 function getPageMetaIcon() { return 'img/skillicons/attack.webp'; }
-function getExtraHeaderContent() { return '<script type="text/javascript" src="js/calculators/max_hit.js"></script><script src="js/calculators.js"></script>'; }
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">
+    <script type="text/javascript" src="js/calculators/max_hit.js"></script>
+    <script src="js/calculators.js"></script>';
+}
 function onBodyLoad() { return 'setTimeout(() => { switchCombat("melee"); calculateMaxHit(); }, 10)'; }
 function getCalcContent() { return <<<HTML
 <h2>2004Scape Max Hit Calculator</h2>
