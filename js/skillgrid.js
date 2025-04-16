@@ -167,8 +167,8 @@ function renderOldSchoolTable(canvas) {
   header.appendChild(thMember);
   table.appendChild(header);
 
-  const filteredFreeSkills = page === "calculators" ? freeSkills.filter(skill => !["attack", "strength", "defence", "magic", "ranged", "hitpoints"].includes(skill)) : freeSkills;
-  const filteredMemberSkills = page === "calculators" ? memberSkills.filter(skill => !["attack", "strength", "defence", "magic", "ranged", "hitpoints"].includes(skill)) : memberSkills;
+  const filteredFreeSkills = page === "calculators" ? freeSkills.filter(skill => !["attack", "strength", "defence", "ranged", "hitpoints"].includes(skill)) : freeSkills;
+  const filteredMemberSkills = page === "calculators" ? memberSkills.filter(skill => !["attack", "strength", "defence", "ranged", "hitpoints"].includes(skill)) : memberSkills;
 
   const maxLength = Math.max(filteredFreeSkills.length, filteredMemberSkills.length);
   for (let i = 0; i < maxLength; i++) {
