@@ -41,6 +41,7 @@ Proceed to the top floor of the south east end of the castle and use your excali
 $questComplete
 <br>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/DbYQeLVeVhQ?si=-F8wCstIZF1ZbNHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<br>
 This quest guide was written on RuneHQ by xxteargodxx. Thanks to Weezy and patgil2003 for corrections.<br>
 <br>
 This quest guide was entered into the database on Thu, Mar 04, 2004, at 12:35:10 AM by Weezy and was last updated on Thu, Apr 22, 2004, at 03:28:02 PM.<br>
