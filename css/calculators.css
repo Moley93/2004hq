@@ -3,6 +3,14 @@
     font-weight: bold;
 }
 
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
 .prayer-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
