@@ -318,7 +318,7 @@ states.  Note that you are still required to carry your Sextant, Chart and Watch
   </tr>
   <tr> 
     <td>How many animals in Zoo?</td>
-    <td>36</td>
+    <td>32</td>
   </tr>
 </table>
 <p>
