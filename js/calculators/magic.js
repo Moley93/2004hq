@@ -105,7 +105,7 @@ function calculateSpells() {
     const tableBody = document.querySelector("#resultsTable tbody");
     const tableHead = document.querySelector("#resultsTable thead");
     tableHead.innerHTML = ""; // Clear previous headers
-
+    tableBody.innerHTML = ""; // Clear previous rows
 
     const headerRow1 = document.createElement("tr");
     const bigHeader = document.createElement("th");
