@@ -2,7 +2,7 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
-<b><font color="Yellow">ZombieMusiq Video Guide Below!</font></b>
+<b><font color="Yellow">ZombieMusiq Video Guide Below!</font></b><br>
 <br>
 Description: The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.<br>
 <br>
