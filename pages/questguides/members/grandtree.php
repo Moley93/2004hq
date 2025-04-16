@@ -110,6 +110,8 @@ He sends guards to check out your story. Once proven, he asks you to help one la
 Once you find it return to King and he will reward you. You will also be able to use the glider, and there is now a mine open beneath the tree, accessible by pushing some roots. To access this mine in the future, enter the Grand Tree and move the tile in the floor.<br>
 $questComplete
 <br>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/QceJS4nBTSg?si=x_9tyx5xmV1zx4aj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
 <h3>The Gnome Translation Guide</h3>
 Arpos: Rocks<br>
 Andos: Gate<br>
