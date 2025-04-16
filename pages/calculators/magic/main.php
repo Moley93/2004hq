@@ -1,13 +1,13 @@
 <?php
-function getPageTitle() { return 'Splashing'; }
+function getPageTitle() { return 'Magic'; }
 function getPageMetaIcon() { return 'img/skillicons/magic.webp'; }
 function getExtraHeaderContent() { return
     '<link rel="stylesheet" href="css/calculators.css">
     <script src="js/calculators.js"></script>';
 }
-function onBodyLoad() { return 'calculateSplashing()'; }
+function onBodyLoad() { return 'calculateSpells()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Splashing Calculator</h2>
+<h2>2004Scape Magic Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">
@@ -18,7 +18,7 @@ function getCalcContent() { return <<<HTML
     <label>Desired Level:</label>
     <input type="number" id="targetLevel" min="2" max="99" value="99">
     
-    <button onclick="calculateSplashing()">Calculate</button>
+    <button onclick="calculateSpells()">Calculate</button>
 
     <br>
 
@@ -29,16 +29,9 @@ function getCalcContent() { return <<<HTML
 
     <!-- Results Table -->
     <table id="resultsTable" class="calculators">
-        <thead>
-            <tr>
-                <th>Level</th>
-                <th>Spell Type</th>
-                <th>XP per Cast</th>
-                <th>Casts Needed</th>
-            </tr>
-        </thead>
+        <thead></thead>
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/splashing.js"></script>
+<script type="text/javascript" src="js/calculators/magic.js"></script>
 HTML; }

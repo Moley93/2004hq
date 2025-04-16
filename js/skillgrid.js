@@ -13,7 +13,7 @@ window.addEventListener("pageshow", () => {
     "runecrafting"
   ];
 
-  const combatSkills = ["attack", "strength", "defence", "magic", "ranged", "hitpoints"];
+  const combatSkills = ["attack", "strength", "defence", "ranged", "hitpoints"];
 
   if (!canvas) return;
 
@@ -196,7 +196,7 @@ function skillWithIcon(skill) {
   const url = new URL(window.location.href);
   const page = url.searchParams.get("p");
 
-  const combatSkills = ["attack", "strength", "defence", "magic", "ranged", "hitpoints"];
+  const combatSkills = ["attack", "strength", "defence", "ranged", "hitpoints"];
 
   if (page === "calculators" && document.querySelector('canvas[data-style="oldschool"]')) {
     if (combatSkills.includes(skill)) {
