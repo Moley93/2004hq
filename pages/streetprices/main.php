@@ -7,8 +7,8 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/rune_kite.png';
 
     return <<<HTML
-    Street Prices per <a href="https://docs.google.com/spreadsheets/d/1kF10Oh29B3_pFw8Cq7cBRe119eGXcX8QJR22_Cf1qEE/?gid=0" target="_blank">Dead Botting's google spreadsheet</a>
-    <p style="font-style:italic;">This spreadsheet is designed as a reference for what prices to expect for items in the 2004scape Market.
+    <h2>Street Prices</h2>
+    <p style="font-style:italic;">This guide is designed as a reference for what prices to expect for items in the 2004scape Market.
       None of this data should be considered 100% correct, and will be forever changing.</p>
     <div id="sheet-table">Loading...</div>
 
@@ -17,8 +17,8 @@ function getPageContent() {
 
       await loadItemList();
 
-      const sheetId = '1kF10Oh29B3_pFw8Cq7cBRe119eGXcX8QJR22_Cf1qEE';
-      const gid = '663521073';
+      const sheetId = '1Jarjegu1fxyg5hURF7Nu_Nj8wAoUyS44HHzdwilKvtg';
+      const gid = '2130125074';
 
       fetchSheetData(sheetId, gid).then(data => {
         renderTable('sheet-table', data, 10);
