@@ -2,6 +2,8 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
+<b><font color="Yellow">ZombieMusiq Video Guide Below!</font></b><br>
+<br>
 Description: Merlin the Wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the Knights of the Round Table<br>
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font>/<font color="Red">Hard</font></b><br>
@@ -37,6 +39,9 @@ Head back to Camelot Castle with your lit black candle, and bat bones..to the no
 <br>
 Proceed to the top floor of the south east end of the castle and use your excalibur sword with the crystal and it will shatter to free Merlin, he tells you to speak with King Arthur for your reward<br>
 $questComplete
+<br>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/DbYQeLVeVhQ?si=-F8wCstIZF1ZbNHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<br>
 This quest guide was written on RuneHQ by xxteargodxx. Thanks to Weezy and patgil2003 for corrections.<br>
 <br>
 This quest guide was entered into the database on Thu, Mar 04, 2004, at 12:35:10 AM by Weezy and was last updated on Thu, Apr 22, 2004, at 03:28:02 PM.<br>
