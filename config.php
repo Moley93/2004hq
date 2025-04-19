@@ -15,7 +15,7 @@ $siteOptRegion = $_COOKIE['usuk'] ?? 'US';
 $siteOptGameRevision = $_COOKIE['revision'] ?? '225';
 
 /* Only enable Debug mode locally for PHP Error output */
-$debugMode = true;
+$debugMode = false;
 
 if ($debugMode) { error_reporting(0); }
 else { error_reporting(E_ALL); }
