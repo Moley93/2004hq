@@ -2,9 +2,22 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <br>
-Gnome Agility Course<br>
+<b><font color="Green">Gnomes' Course</font></b><br>
 <br>
-<img src="2004hq\img\skill_guides\agility_gnome.png" width="250" height="250">
+Located in the Gnomes' Stronghold North West of Ardougne, this is where you will have to start to train initially. You will see Gnome trainers around the course encouraging you to go faster and also ready to help you out with any questions.<br>
+<br>
+Move through the course in the order explained below:<br>
+<br>
+Slowly walk across the log to start the course.<br>
+Climb the net to end up in the tree.<br>
+Climb the tree branch to the next level of the tree.<br>
+Balance across the tight rope to get to the other side.<br>
+Climb down this tree branch to get back to the ground.<br>
+Climb over this net, almost at the end now.<br>
+Crawl through these pipes to end up on the other side.<br>
+Congratulations on completing a whole lap! Heres how the xp works for this course.<br>
+<br>
+<img src="img/skill_guides/agility_gnome.png" width="250" height="250">
 
 <table class="calculators">
         <tr>
@@ -58,7 +71,5 @@ Gnome Agility Course<br>
             <td>133.5</td>
         </tr>
     </table>
-
-    <img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250">
 </p>
 HTML; }
