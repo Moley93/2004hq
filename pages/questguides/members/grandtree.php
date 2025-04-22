@@ -15,7 +15,7 @@ Reward: 5 Quest Points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the
 <br>
 <b>Instructions:</b><br>
 <br>
-<input type="checkbox">Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.<br>
+Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.<br>
 <br>
 <img src="img\questimages\grandtree1.png" height="280" width="400"><br>
 <br>
