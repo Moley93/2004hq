@@ -2,7 +2,7 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
-<b><font color="Yellow">ZombieMusiq Video Guide Below!</font></b><br>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
 <br>
 Description: Merlin the Wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the Knights of the Round Table<br>
 <br>

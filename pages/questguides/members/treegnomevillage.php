@@ -2,6 +2,8 @@
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 <br>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
+<br>
 Description:Help the Gnome Kingdom retrieve orbs of protection from the evil Khazard and his trooops to save the day and the gnomes<br>
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
@@ -36,6 +38,9 @@ Run past his guards and attack him. You should have food, which you should run a
 <br>
 Once he is dead (Congratulations) you'll get the orbs. Return once again to Elkoy, then to Bolren. He'll tell you about the Spirit trees and give you your reward.<br>
 $questComplete
+<br>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/ZZ3Mrs8-39Y?si=9nSNFoCb8bd_l5rp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<br>
 This quest guide was written by Gnat88. <br>
 <br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:20:57 PM by Weezy and CJH and was last updated on Sat, Oct 09, 2004, at 12:09:17 AM.<br>
