@@ -73,7 +73,7 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
     </table>
     <br>
     <br>
-<b><font color="Green">Barbarians' Course</font></b><br>
+<b><font color="Orange">Barbarians' Course</font></b><br>
 <br>
 Located right at the top of the World, you will have to go far North from Ardougne and past Baxtorian falls to access the Barbarian Outpost where this course is at. To enter the outpost, you must have completed the Bar Crawl. To then enter the agility course you must squeeze through the Pipe which requires level 35 agility.<br>
 <br>
@@ -135,6 +135,101 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
             <td>35</td>
             <td>Course Total</td>
             <td>222</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+<b><font color="Red">Wilderness Course</font></b><br>
+<br>
+Located deep in the members' area of the wilderness (level 52 and up) you will require level 52 agility to cross the initial ridge to gain access to this area. However sometimes you will still fail and fall into the pit of White Wolves. PKers do often come by to attack, so taking this risk is up to you - but the xp reward per lap is much great (look at the table below).<br>
+<br>
+You are also at risk here from failing obstacles and if you fall into the spike pit, you will have to climb the ladder out of the dungeon of skeletons. Either way, don't forget to bring food with you and any armour and weapons you might wish to defend yourself with.<br>
+<br>
+Move through the course in the order explained below:<br>
+<br>
+Crawl through the pipe to get to the other side.<br>
+Swing over using the Rope Swing (could fall into spikes).<br>
+Traverse the lava by slowly walking over the stepping stones (could fall into the lava).<br>
+Balance over this pit by walking across the log (could fall into spikes).<br>
+Now walk past some skeletons and climb up the rocks to finish.<br>
+Congratulations on completing a whole lap! Heres how the xp works for this course.<br>
+<br>
+<img src="img/skill_guides/agility_wild.png" width="250" height="250"><br>
+<br>
+<table class="calculators">
+        <tr>
+            <th>Level</th>
+            <th>Obstacle</th>
+            <th>EXP</th>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Ridge</td>
+            <td>15.0</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Pipe</td>
+            <td>12.5</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Rope Swing</td>
+            <td>20.0</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Stepping Stones</td>
+            <td>20.0</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Log</td>
+            <td>20.0</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Rocks</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Completed Lap</td>
+            <td>571.5</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Course Total</td>
+            <td>659</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <b><font color="Yellow">Other Obstacles</font></b><br>
+    <table class="calculators">
+        <tr>
+            <th>Level</th>
+            <th>Obstacle</th>
+            <th>EXP</th>
+            <th>Info</th>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Crumbling Wall</td>
+            <td>15.0</td>
+            <td>This shortcut allows you to cross over from Taverly to Falador (but not back). This is located just behind West Falador bank.</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Monkey Bars</td>
+            <td>20</td>
+            <td>This obstacle allows you to access an area of the wilderness area of Edgeville dungeon where you can fight with Earth Warriors.</td>
+        </tr>        
+        <tr>
+            <td>20</td>
+            <td>Log</td>
+            <td>8.5</td>
+            <td>This shortcut allows you to cross over from the Coal Trucks eastwards towards Seers' Village. Very useful.</td>
         </tr>
     </table>
 HTML; }
