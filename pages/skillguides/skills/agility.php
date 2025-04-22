@@ -154,7 +154,7 @@ Balance over this pit by walking across the log (could fall into spikes).<br>
 Now walk past some skeletons and climb up the rocks to finish.<br>
 Congratulations on completing a whole lap! Heres how the xp works for this course.<br>
 <br>
-<img src="img/skill_guides/agility_wild.png" width="250" height="250"><br>
+<img src="img/skill_guides/agility_wild.png" width="250" height="350"><br>
 <br>
 <table class="calculators">
         <tr>
