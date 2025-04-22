@@ -1,28 +1,64 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
-<p>
-    Agility is a skill that can be used to get over, up and through various obstacles, 
-    often as a short cut, or to get into new areas. 
-    <br><br>
-    Typical examples of where you use your agility skill are to squeeze through a pipe,
-    swing on a rope over a hole, or use some handholds to climb up a wall.
-    <br><br>
-    Just click on the obstacle you wish to get past, and if you have the appropriate agility skill level you will attempt it.
-    <br><br>
-    You will never fail some obstacles once you reach the appropriate agility level.
-    On other obstacles it is possible to fall off, which will cause you to lose hitpoints.
-    <br><br>
-    A good way to advance your agility skill is to use the obstacle courses. 
-    By going round the obstacle course in the correct order you can get an agility experience bonus from the course.
-    This is in addition to the normal agility skill experience you get from attempting single obstacles.
-    <br><br>
-    Players with low-levels of ability might want to use the obstacle course in the tree gnome stronghold.
-    <br><br>
-    At level 35 you can also enter the obstacle course at the barbarian outpost.
-    <br><br>
-    There is also a high level obstacle course at the very north of the wilderness.<br>
-    <br><br>
+<br>
+Gnome Agility Course<br>
+<br>
+<img src="2004hq\img\skill_guides\agility_gnome.png" width="250" height="250">
+
+<table class="calculators">
+        <tr>
+            <th>Level</th>
+            <th>Obstacle</th>
+            <th>EXP</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Log</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>First Net</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>First Tree Branch</td>
+            <td>5.0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tight Rope</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Second Tree Branch</td>
+            <td>5.0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Second Net</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pipes</td>
+            <td>7.5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Completed Lap</td>
+            <td>86.0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Course Total</td>
+            <td>133.5</td>
+        </tr>
+    </table>
+
     <img src="https://web.archive.org/web/20040606063634im_/http://www.runescape.com/img/rs2/manual/logbalance.jpg" width="250" height="250">
 </p>
 HTML; }
