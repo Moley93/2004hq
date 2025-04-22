@@ -1,7 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
-<br>
 <b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
 <br>
 Description: The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.<br>
@@ -16,7 +15,7 @@ Reward: 5 Quest Points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the
 <br>
 <b>Instructions:</b><br>
 <br>
-Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.<br>
+<input type="checkbox">Talk to the King at the Grand Tree, which is in the northern area of the Gnome Stronghold; he will give you a translation book and a bark sample.<br>
 <br>
 <img src="img\questimages\grandtree1.png" height="280" width="400"><br>
 <br>
