@@ -65,6 +65,11 @@ function getSkillContent($skill) { return <<<HTML
             <td>Big net fishing</td>
         </tr>
         <tr>
+            <td><canvas data-itemname="raw_swordfish"></canvas><br>Bass</td>
+            <td>50</td>
+            <td>Harpoon fishing</td>
+        </tr>
+        <tr>
             <td><canvas data-itemname="raw_shark"></canvas><br>Shark</td>
             <td>76</td>
             <td>Harpoon fishing</td>
