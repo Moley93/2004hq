@@ -6,7 +6,7 @@ Description: Gertrude's cat is missing, and she is frantic about finding it. Tra
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
-Items/Skills Needed To Start: A Raw Sardine, a Doogle Leaf, Bucket of Milk<br>
+Items/Skills Needed To Start: <input type="checkbox"> A Raw Sardine, <input type="checkbox"> a Doogle Leaf, <input type="checkbox"> Bucket of Milk<br>
 <br>
 Starting Location: Just across the road from Juliet's house, west of Varrock<br>
 <br>
@@ -14,17 +14,17 @@ Reward: 1 Quest Point, Chocolate Cake, Stew, 1,525 Cooking XP, a Kitten<br>
 <br>
 <b>Instructions:</b><br>
 <br>
-Find Gertrude and get the information about her problem. She'll tell you to talk to her boys, Wilough and Shilop, in Varrock Square (they are just west of the big fountain).<br>
+<input type="checkbox"> Find Gertrude and get the information about her problem. She'll tell you to talk to her boys, Wilough and Shilop, in Varrock Square (they are just west of the big fountain).<br>
 <br>
-Talk to Shilop, and he'll tell you where he last saw the cat for 100 gp (little kids have to get their allowance somehow...).<br>
+<input type="checkbox"> Talk to Shilop, and he'll tell you where he last saw the cat for 100 gp (little kids have to get their allowance somehow...).<br>
 <br>
-Head north to the Jolly Boar Inn, then go east to the lumber mill. You can hop the fence on the south side over the broken part.<br>
+<input type="checkbox"> Head north to the Jolly Boar Inn, then go east to the lumber mill. You can hop the fence on the south side over the broken part.<br>
 <br>
-Go over to the ladder and on the <span data-floors="US">2nd floor</span> try to pick up the cat. It will deal 3 damage, and a message will appear saying it might be thirsty. Use milk on it. Repeat the procedure only it's hungry this time. Rub your doogle leaf on a sardine to create a seasoned sardine, and feed it to the cat. Repeat one more time and find out it doesn't want to leave and can hear kitten mews in the distance.<br>
+<input type="checkbox"> Go over to the ladder and on the <span data-floors="US">2nd floor</span> try to pick up the cat. It will deal 3 damage, and a message will appear saying it might be thirsty. Use milk on it. Repeat the procedure only it's hungry this time. Rub your doogle leaf on a sardine to create a seasoned sardine, and feed it to the cat. Repeat one more time and find out it doesn't want to leave and can hear kitten mews in the distance.<br>
 <br>
-Go back down and look in the pinkish crates for cats. You only need 1 kitten to take back up to Fluffs (the cat). Only one of the crates has a cat in it, but for some reason, several will mew. It might be random, but I found mine in the most southeastern box. Use the kitten on Fluffs, and they'll run home.<br>
+<input type="checkbox"> Go back down and look in the pinkish crates for cats. You only need 1 kitten to take back up to Fluffs (the cat). Only one of the crates has a cat in it, but for some reason, several will mew. It might be random, but I found mine in the most southeastern box. Use the kitten on Fluffs, and they'll run home.<br>
 <br>
-Run back to Gertrude's place, and she'll talk for a minute before giving you your reward.<br>
+<input type="checkbox"> Run back to Gertrude's place, and she'll talk for a minute before giving you your reward.<br>
 <br>
 Kitten Care:<br>
 <br>

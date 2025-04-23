@@ -25,12 +25,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     between a free Snack (Chocolate Cake) or a Drink (Fruit Blast Cocktail) </p>
   <p><u>Instructions:</u></p>
   <ol>
-    <li>Talk to the Archeological expert. He tells you
+    <li><input type="checkbox"> Talk to the Archeological expert. He tells you
       to bring anything you find to him. Inquire about exams to Examiner. She
       gives you an unstamped certificate of recommendation.<br>
       <br>
     </li>
-    <li>Go to the Varrock Museum. Use the unstamped
+    <li><input type="checkbox"> Go to the Varrock Museum. Use the unstamped
       certificate of recommendation on the Curator. He will stamp the certificate
       so you can begin the certification exams. Go to clothes shop next to the
       general store and buy boots and gloves if you don't already
@@ -39,17 +39,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       East gate.  You can also thieve a cup of tea.<br>
       <br>
     </li>
-    <li>Go back to the Examiner and give her the stamped
+    <li><input type="checkbox"> Go back to the Examiner and give her the stamped
       certificate of recommendation. Follow the main road north until you come to
       two wooden walkways. Take the northeast one to the top of the hill. Next to
       the large urn are two bushes. Search the one to the east for a rock sample.<br>
       <br>
     </li>
-    <li>Continue following the walkway to the bottom of
+    <li><input type="checkbox"> Continue following the walkway to the bottom of
       the hill. Take the panning tray from inside the large tent.<br>
       <br>
     </li>
-    <li>Go southeast from the tent to the stream and use
+    <li><input type="checkbox"> Go southeast from the tent to the stream and use
       the panning tray on the panning points. A guide will ask you what you are
       doing and then tell you that you cannot pan the stream unless you're invited.
       Ask him how to get invited, he tells you if you do him a favor and get him
@@ -60,12 +60,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       opals if cutting them fails).<br>
       <br>
     </li>
-    <li>Go Northwest of the panning points to the dig
+    <li><input type="checkbox"> Go Northwest of the panning points to the dig
       area and pickpocket the workman until you get a rock sample and 3 ropes
       (unless you brought the ropes with you already) and a specimen brush.<br>
       <br>
     </li>
-    <li>Talk to a student in a green shirt, just north
+    <li><input type="checkbox"> Talk to a student in a green shirt, just north
       of the workman...he will take rock sample 1 and give you the following
       exam answer: the study of earth sciences is the study of the earth, its
       contents and history. A bit north, talk to a male student in an orange shirt.
@@ -77,7 +77,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       used.<br>
       <br>
     </li>
-    <li>Go back to the Examiner and take the exam. She
+    <li><input type="checkbox"> Go back to the Examiner and take the exam. She
       will give you a level one certificate and a trowel for completing the first
       of 3 exams. Do not lose the trowel, because at this time, once you complete
       all 3 exams, you cannot get another one from her, you can however pickpocket
@@ -86,7 +86,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       then take them to him.<br>
       <br>
     </li>
-    <li> Go speak to the students again to get the answers
+    <li><input type="checkbox"> Go speak to the students again to get the answers
       to the second exam. The green shirt student tells you correct rockpick usage:
       always handle with care, strike the rock cleanly on its cleaving point. The
       orange shirt student tells of correct sample transportation: samples taken
@@ -97,7 +97,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       onto it until you get all three and then take them to him.<br>
       <br>
     </li>
-    <li> Go speak to the students again to get the answers
+    <li><input type="checkbox"> Go speak to the students again to get the answers
       to the third exam. The female student will ask for an opal in exchange for her help.
       Specimen brush use: brush carefully and slowly using short strokes. Proper technique
       for handling bones: handle bones carefully, and keep away from other samples.
@@ -109,12 +109,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       reward for graduating. <br>
       <br>
     </li>
-    <li>Go back to the Dig site go to the north east corner
+    <li><input type="checkbox"> Go back to the Dig site go to the north east corner
       of the dig site (past a winch that you will use later) to the level 3 area
       with the buried skeleton. Search the sacks and find the specimen jar.<br>
       <br>
     </li>
-    <li>Go to the north east corner to the level 3 area
+    <li><input type="checkbox"> Go to the north east corner to the level 3 area
       with the buried skeleton and use the trowel on the soil until you find a
       Zamos Talisman. Next use the Talisman on the Archeological expert (by the
       Examiner); he will reward you for your keen eye with a scroll saying you
@@ -122,7 +122,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       got the Talisman from).<br>
       <br>
     </li>
-    <li>Return to the digsite and use the letter with a
+    <li><input type="checkbox"> Return to the digsite and use the letter with a
       workman. He will allow you to enter the shafts. Go to the northwest corner,
       then go south one level (sign reads lvl 2 digs only) to the site with the winch.
       Operate the winch and you'll be told you need something to help the bucket
@@ -130,30 +130,30 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       to the bottom. Take an Arcenia root and climb back to the surface.<br>
       <br>
     </li>
-    <li>Go back to the tents. Search the specimen tray 
+    <li><input type="checkbox"> Go back to the tents. Search the specimen tray 
       outside of the tent where you found the panning tray until you find charcoal.
       Use pestle and mortar on the charcoal to get another ingredient for the bomb.<br>
       <br>
     </li>
-    <li>Go west of the tent where you got the panning
+    <li><input type="checkbox"> Go west of the tent where you got the panning
       tray; you will find 3 barrels.  Use the trowel on them until one of them
       is opened. Use the vial on the open barrel to get an orange unidentified
       liquid. <font color="#FF0000">Do not, I repeat, do not drop
       the vial! You will take from 20 to 36 damage!</font><br>
       <br>
     </li>
-    <li>Take vial and use it on Archeological expert (by the
+    <li><input type="checkbox"> Take vial and use it on Archeological expert (by the
       Examiner) to get it identified as Nitroglycerin.<br>
       <br>
       <br>
     </li>
-    <li>Search the bookshelves in the Examiner's room and
+    <li><input type="checkbox"> Search the bookshelves in the Examiner's room and
       find the Book of Experimental Chemistry. Read this book. It has the ingredients
       to make a bomb you will need later on. Search the cupboard to find the Rock
       pick (Rock pick is not needed to complete the quest).<br>
       <br>
     </li>
-    <li>Go back to the dig site to the northeast winch; the
+    <li><input type="checkbox"> Go back to the dig site to the northeast winch; the
       guy tells you that it's a private winch. Use the scroll on him to be able
       to go down. Operate the winch. Use rope on the winch, then operate it again
       to go down. Talk to the Workmen and say the following things: I have been
@@ -162,29 +162,29 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
       key.<br>
       <br>
     </li>
-    <li> Go to the tent where you got the panning tray.
+    <li><input type="checkbox"> Go to the tent where you got the panning tray.
       Use the key on chest and you'll receive an unidentified white chemical powder.
       Take the unidentified powder to the Archeological expert to get it identified
       as ammonium nitrate. <br>
       <br>
     </li>
-    <li>Go back to the dig site and go back down the north
+    <li><input type="checkbox"> Go back to the dig site and go back down the north
       west winch. Prepare yourself an explosive compound: <br>
       <br>
-      Use the ammonium nitrate on nitroglycerin,<br>
-      Use ground charcoal on the mixture,<br>
-      Finally use the Arcenia root on the mixture.<br>
+      <input type="checkbox"> Use the ammonium nitrate on nitroglycerin,<br>
+      <input type="checkbox"> Use ground charcoal on the mixture,<br>
+      <input type="checkbox"> Finally use the Arcenia root on the mixture.<br>
       <br>
-      You now have an explosive compound.<br>
+      <input type="checkbox"> You now have an explosive compound.<br>
       <br>
     </li>
-    <li>Go to the south fork and use the explosive compound
+    <li><input type="checkbox"> Go to the south fork and use the explosive compound
       on the bricks blocking the way. Then light the brick with your tinderbox.
       Once the path has been cleared, go straight ahead and get the stone tablet
       in the middle of the room.<br>
       <br>
     </li>
-    <li> Take the stone tablet back to the Archeological
+    <li><input type="checkbox"> Take the stone tablet back to the Archeological
       expert to complete the quest and get your reward. </li>
 </ol>
 $questComplete
