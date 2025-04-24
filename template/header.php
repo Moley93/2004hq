@@ -27,8 +27,8 @@ if (isset($_SERVER['REQUEST_SCHEME'])) {
     <link rel="icon" type="image/x-icon" href="img/sword.png">
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/siteOptions.js"></script>
-    <script type="text/javascript" src="js/spriteLoader.js"></script>
-    <script type="text/javascript" src="js/floorSelector.js"></script>
+    <script type="text/javascript" src="js/site_options.js"></script>
+    <script type="text/javascript" src="js/floor_selector.js"></script>
+    <script type="text/javascript" src="js/sprite_loader.js"></script>
     <?php if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); } ?>
 </head>

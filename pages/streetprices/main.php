@@ -13,7 +13,7 @@ function getPageContent() {
     <div id="sheet-table">Loading...</div>
 
     <script type="module">
-      import { loadItemList, fetchSheetData, renderTable } from './js/sheetsTable.js';
+      import { loadItemList, fetchSheetData, renderTable } from './js/sheets_table.js';
 
       await loadItemList();
 
