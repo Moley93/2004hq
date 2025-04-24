@@ -71,20 +71,28 @@ async function loadDropTable() {
     window.renderAllSprites();
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const searchInput = document.getElementById("searchInput");
-
-    if (!listenersInitialized) {
-        searchInput.disabled = false;
-        searchInput.addEventListener("input", loadDropTable);
-
-        const radios = document.querySelectorAll('input[name="clueTier"]');
-        radios.forEach(radio => {
-            radio.addEventListener("change", loadDropTable);
-        });
-
-        listenersInitialized = true;
-
-        loadDropTable();
+async function waitForSpriteLoader() {
+    while (!window.spriteLoaderReady) {
+      await new Promise(resolve => setTimeout(resolve, 50));
     }
+    loadDropTable(); // now it's safe
+  }
+  
+document.addEventListener("DOMContentLoaded", function () {
+const searchInput = document.getElementById("searchInput");
+
+if (!listenersInitialized) {
+    searchInput.disabled = false;
+    searchInput.addEventListener("input", loadDropTable);
+
+    const radios = document.querySelectorAll('input[name="clueTier"]');
+    radios.forEach(radio => {
+    radio.addEventListener("change", loadDropTable);
+    });
+
+    listenersInitialized = true;
+
+    waitForSpriteLoader();
+}
 });
+  

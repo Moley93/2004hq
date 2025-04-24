@@ -29,14 +29,14 @@ Promise.all([
   .then(([json]) => {
     itemData = json;
 
-    // Render sprites
     document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
       const debugname = canvas.getAttribute("data-itemname");
       renderSpriteToCanvas(debugname, canvas);
     });
-
-    // Set item names
+    
     setItemNames();
+
+    window.spriteLoaderReady = true; 
   })
   .catch(err => {
     console.error("Error loading resources:", err);
@@ -115,6 +115,7 @@ function setItemNames() {
   });
 }
 window.setItemNames = setItemNames;
+
 window.renderAllSprites = function() {
   document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
     const debugname = canvas.dataset.itemname;
