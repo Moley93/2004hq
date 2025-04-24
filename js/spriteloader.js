@@ -114,7 +114,7 @@ function setItemNames() {
     el.title = name; // Optional tooltip
   });
 }
-
+window.setItemNames = setItemNames;
 window.renderAllSprites = function() {
   document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
     const debugname = canvas.dataset.itemname;
