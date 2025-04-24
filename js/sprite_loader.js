@@ -42,15 +42,36 @@ Promise.all([
 });
 
 function renderSpriteToCanvas(debugname, canvas) {
-  let id = 2677;
+  let id;
   let name = "Unknown Item";
   let desc = "No description available.";
 
-  const item = itemData.find(i => i.debugname === debugname);
-  if (item) {
-    id = item.id;
-    name = item.name;
-    desc = item.desc;
+  if (coinVariants.hasOwnProperty(debugname)) {
+    id = coinVariants[debugname];
+    name = "Coins";
+    desc = "Lovely money!";
+  } else if (exemptItems.hasOwnProperty(debugname)) {
+    id = exemptItems[debugname];
+    name = debugname;
+  } else if (debugname.startsWith("cert_")) {
+    const baseName = debugname.replace(/^cert_/, "");
+    const baseItem = itemData.find(i => i.debugname === baseName);
+    if (baseItem) {
+      id = baseItem.id + 1;
+      name = `${baseItem.name} (Noted)`;
+      desc = baseItem.desc;
+    } else {
+      id = 2677;
+    }
+  } else {
+    const item = itemData.find(i => i.debugname === debugname);
+    if (item) {
+      id = item.id;
+      name = item.name;
+      desc = item.desc;
+    } else {
+      id = 2677;
+    }
   }
 
   const col = id % spritesPerRow;
@@ -71,24 +92,22 @@ function renderSpriteToCanvas(debugname, canvas) {
 
   canvas.title = `${name} — ${desc}`;
 
-  // ✅ Debug everything about the label
-  console.log("Rendering:", name, "→", canvas);
-  console.log("data-add-item-name:", canvas.getAttribute("data-add-item-name"));
-
+  // Append item name underneath the canvas if requested
   if (canvas.getAttribute("data-add-item-name") === "true") {
-    const label = document.createElement("div");
-    label.className = "item-label";
-    label.textContent = name;
-    label.style.fontSize = "12px";
-    label.style.color = "white";
-    label.style.textAlign = "center";
-    label.style.marginTop = "4px";
+    // Prevent duplicate insertion
+    const next = canvas.nextElementSibling;
+    const alreadyExists = next && next.classList.contains("item-label");
 
-    canvas.parentNode.insertBefore(label, canvas.nextSibling);
+    if (!alreadyExists) {
+      const label = document.createElement("div");
+      label.textContent = name;
+      label.className = "item-label";
+      label.style.fontSize = "12px";
+      label.style.color = "white";
+      label.style.textAlign = "center";
+      label.style.marginTop = "4px";
 
-    console.log("✅ Label appended:", label);
-  } else {
-    console.warn("⛔ Skipped label: attribute not found or false");
+      canvas.parentNode.insertBefore(label, canvas.nextSibling);
+    }
   }
 }
-
