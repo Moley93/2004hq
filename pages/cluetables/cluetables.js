@@ -149,33 +149,5 @@ async function loadDropTable() {
     });
 
     window.renderAllSprites();
+    setItemNames();
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    const dropdown = document.getElementById("clueDropdown");
-    const searchInput = document.getElementById("searchInput");
-
-    // Only attach listeners once
-    if (!listenersInitialized) {
-        dropdown.innerHTML = "";
-        const defaultOption = document.createElement("option");
-        defaultOption.value = "";
-        defaultOption.textContent = "Select...";
-        dropdown.appendChild(defaultOption);
-
-        activeDropFiles.forEach(diff => {
-            const option = document.createElement("option");
-            option.value = diff;
-            option.textContent = `${diff.charAt(0).toUpperCase()}${diff.slice(1)}`;
-            dropdown.appendChild(option);
-        });
-
-        dropdown.disabled = false;
-        searchInput.disabled = false;
-
-        dropdown.addEventListener("change", loadDropTable);
-        searchInput.addEventListener("input", loadDropTable);
-
-        listenersInitialized = true;
-    }
-});
