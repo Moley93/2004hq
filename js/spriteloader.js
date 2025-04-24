@@ -4,6 +4,7 @@ let itemData = [];
 
 const spritesheet = new Image();
 spritesheet.src = 'img/item_spritesheet.png';
+
 const exemptItems = {
   "coins": 1004,
   // Add more overrides here
@@ -28,84 +29,96 @@ Promise.all([
   .then(([json]) => {
     itemData = json;
 
+    // Render sprites
     document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
       const debugname = canvas.getAttribute("data-itemname");
       renderSpriteToCanvas(debugname, canvas);
     });
+
+    // Set item names
+    setItemNames();
   })
   .catch(err => {
     console.error("Error loading resources:", err);
   });
 
-  function renderSpriteToCanvas(debugname, canvas) {
-    let id;
+function renderSpriteToCanvas(debugname, canvas) {
+  let id;
+  let name = "Unknown Item";
+  let desc = "No description available.";
+
+  if (coinVariants.hasOwnProperty(debugname)) {
+    id = coinVariants[debugname];
+    name = "Coins";
+    desc = `Lovely money!`;
+  } else if (exemptItems.hasOwnProperty(debugname)) {
+    id = exemptItems[debugname];
+    name = debugname;
+  } else if (debugname.startsWith("cert_")) {
+    const baseName = debugname.replace(/^cert_/, "");
+    const baseItem = itemData.find(i => i.debugname === baseName);
+    if (baseItem) {
+      id = baseItem.id + 1;
+      name = `${baseItem.name} (Noted)`;
+      desc = baseItem.desc;
+    } else {
+      id = 2677;
+    }
+  } else {
+    const item = itemData.find(i => i.debugname === debugname);
+    if (item) {
+      id = item.id;
+      name = item.name;
+      desc = item.desc;
+    } else {
+      id = 2677;
+    }
+  }
+
+  const col = id % spritesPerRow;
+  const row = Math.floor(id / spritesPerRow);
+  const size = parseInt(canvas.dataset.size) || 36;
+
+  const ctx = canvas.getContext("2d");
+  canvas.width = size;
+  canvas.height = size;
+  ctx.clearRect(0, 0, size, size);
+  ctx.drawImage(
+    spritesheet,
+    col * spriteSize, row * spriteSize,
+    spriteSize, spriteSize,
+    0, 0,
+    size, size
+  );
+
+  canvas.title = `${name} — ${desc}`;
+}
+
+function setItemNames() {
+  document.querySelectorAll("[data-itemname]:not(canvas)").forEach(el => {
+    const debugname = el.getAttribute("data-itemname");
     let name = "Unknown Item";
-    let desc = "No description available.";
-  
-    // 🔹 Coins variants
+
     if (coinVariants.hasOwnProperty(debugname)) {
-      id = coinVariants[debugname];
       name = "Coins";
-      desc = `Lovely money!`;
-    }
-  
-    // 🔹 Exempt overrides
-    else if (exemptItems.hasOwnProperty(debugname)) {
-      id = exemptItems[debugname];
-      name = debugname;
-    }
-  
-    // 🔹 Certed items
-    else if (debugname.startsWith("cert_")) {
+    } else if (debugname.startsWith("cert_")) {
       const baseName = debugname.replace(/^cert_/, "");
       const baseItem = itemData.find(i => i.debugname === baseName);
-      if (baseItem) {
-        id = baseItem.id + 1;
-        name = `${baseItem.name} (Noted)`;
-        desc = baseItem.desc;
-      } else {
-        id = 2677;
-      }
-    }
-  
-    // 🔹 Standard item from JSON
-    else {
+      name = baseItem ? `${baseItem.name} (Noted)` : name;
+    } else {
       const item = itemData.find(i => i.debugname === debugname);
-      if (item) {
-        id = item.id;
-        name = item.name;
-        desc = item.desc;
-      } else {
-        id = 2677;
-      }
+      if (item) name = item.name;
     }
-  
-    // Sprite math
-    const col = id % spritesPerRow;
-    const row = Math.floor(id / spritesPerRow);
-  
-    // Output size
-    const size = parseInt(canvas.dataset.size) || 36;
-  
-    // Draw
-    const ctx = canvas.getContext("2d");
-    canvas.width = size;
-    canvas.height = size;
-    ctx.clearRect(0, 0, size, size);
-    ctx.drawImage(
-      spritesheet,
-      col * spriteSize, row * spriteSize,
-      spriteSize, spriteSize,
-      0, 0,
-      size, size
-    );
-  
-    // Set tooltip
-    canvas.title = `${name} — ${desc}`;
-  }
-  window.renderAllSprites = function() {
-    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-      const debugname = canvas.dataset.itemname;
-      renderSpriteToCanvas(debugname, canvas);
-    });
-  };
+
+    el.textContent = name;
+    el.title = name; // Optional tooltip
+  });
+}
+
+window.renderAllSprites = function() {
+  document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+    const debugname = canvas.dataset.itemname;
+    renderSpriteToCanvas(debugname, canvas);
+  });
+  setItemNames();
+};

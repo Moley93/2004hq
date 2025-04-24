@@ -128,7 +128,9 @@ async function loadDropTable() {
         imageCell.appendChild(canvasElement);
 
         const itemCell = document.createElement("td");
-        itemCell.textContent = formatItemName(drop.reward_name);
+        const itemCellP = document.createElement("p");
+        itemCellP.setAttribute("data-itemname", drop.reward_name.toLowerCase());
+        itemCell.appendChild(itemCellP);
 
         const quantityCell = document.createElement("td");
         quantityCell.textContent = drop.quantity_min === drop.quantity_max
