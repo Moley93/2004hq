@@ -57,7 +57,6 @@ async function loadDropTable() {
         rateCell.textContent = drop.drop_rate;
       
         row.appendChild(imageCell);
-        row.appendChild(itemCell);
         row.appendChild(quantityCell);
         row.appendChild(rateCell);
       
