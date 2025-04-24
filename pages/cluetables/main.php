@@ -50,7 +50,7 @@ function getPageContent() {
 <table width="100%" class="calculators" id="dropTable">
     <thead>
         <tr>
-            <th colspan=2>Item</th>
+            <th>Item</th>
             <th>Quantity</th>
             <th>Rate</th>
         </tr>

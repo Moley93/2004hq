@@ -42,14 +42,11 @@ async function loadDropTable() {
         const imageCell = document.createElement("td");
         const canvasElement = document.createElement("canvas");
         canvasElement.setAttribute("data-itemname", drop.reward_name.toLowerCase());
+        canvasElement.setAttribute("data-add-item-name", "true");
         canvasElement.width = 32;
         canvasElement.height = 32;
         imageCell.appendChild(canvasElement);
 
-        const itemCell = document.createElement("td");
-        const itemCellP = document.createElement("p");
-        itemCellP.setAttribute("data-itemname", drop.reward_name.toLowerCase());
-        itemCell.appendChild(itemCellP);
 
         const quantityCell = document.createElement("td");
         quantityCell.textContent = drop.quantity_min === drop.quantity_max
@@ -71,28 +68,20 @@ async function loadDropTable() {
     window.renderAllSprites();
 }
 
-async function waitForSpriteLoader() {
-    while (!window.spriteLoaderReady) {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-    loadDropTable(); // now it's safe
-  }
-  
 document.addEventListener("DOMContentLoaded", function () {
-const searchInput = document.getElementById("searchInput");
+    const searchInput = document.getElementById("searchInput");
 
-if (!listenersInitialized) {
-    searchInput.disabled = false;
-    searchInput.addEventListener("input", loadDropTable);
+    if (!listenersInitialized) {
+        searchInput.disabled = false;
+        searchInput.addEventListener("input", loadDropTable);
 
-    const radios = document.querySelectorAll('input[name="clueTier"]');
-    radios.forEach(radio => {
-    radio.addEventListener("change", loadDropTable);
-    });
+        const radios = document.querySelectorAll('input[name="clueTier"]');
+        radios.forEach(radio => {
+            radio.addEventListener("change", loadDropTable);
+        });
 
-    listenersInitialized = true;
+        listenersInitialized = true;
 
-    waitForSpriteLoader();
-}
+        loadDropTable();
+    }
 });
-  

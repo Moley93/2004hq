@@ -9,6 +9,7 @@ const exemptItems = {
   "coins": 1004,
   // Add more overrides here
 };
+
 const coinVariants = {
   "coins": 1004,
   "coins_1": 995,
@@ -26,21 +27,19 @@ Promise.all([
   fetch('js/itemlist.json').then(res => res.json()),
   new Promise(resolve => spritesheet.onload = resolve)
 ])
-  .then(([json]) => {
-    itemData = json;
+.then(([json]) => {
+  itemData = json;
 
-    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-      const debugname = canvas.getAttribute("data-itemname");
-      renderSpriteToCanvas(debugname, canvas);
-    });
-    
-    setItemNames();
-
-    window.spriteLoaderReady = true; 
-  })
-  .catch(err => {
-    console.error("Error loading resources:", err);
+  document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+    const debugname = canvas.getAttribute("data-itemname");
+    renderSpriteToCanvas(debugname, canvas);
   });
+
+  window.spriteLoaderReady = true;
+})
+.catch(err => {
+  console.error("Error loading resources:", err);
+});
 
 function renderSpriteToCanvas(debugname, canvas) {
   let id;
@@ -50,7 +49,7 @@ function renderSpriteToCanvas(debugname, canvas) {
   if (coinVariants.hasOwnProperty(debugname)) {
     id = coinVariants[debugname];
     name = "Coins";
-    desc = `Lovely money!`;
+    desc = "Lovely money!";
   } else if (exemptItems.hasOwnProperty(debugname)) {
     id = exemptItems[debugname];
     name = debugname;
@@ -92,34 +91,20 @@ function renderSpriteToCanvas(debugname, canvas) {
   );
 
   canvas.title = `${name} — ${desc}`;
-}
 
-function setItemNames() {
-  document.querySelectorAll("[data-itemname]:not(canvas)").forEach(el => {
-    const debugname = el.getAttribute("data-itemname");
-    let name = "Unknown Item";
-
-    if (coinVariants.hasOwnProperty(debugname)) {
-      name = "Coins";
-    } else if (debugname.startsWith("cert_")) {
-      const baseName = debugname.replace(/^cert_/, "");
-      const baseItem = itemData.find(i => i.debugname === baseName);
-      name = baseItem ? `${baseItem.name} (Noted)` : name;
-    } else {
-      const item = itemData.find(i => i.debugname === debugname);
-      if (item) name = item.name;
+  if (canvas.dataset.addItemName === "true") {
+    // Avoid duplicates if this function is called again
+    if (!canvas.nextSibling || !canvas.nextSibling.classList?.contains("item-label")) {
+      const br = document.createElement("br");
+      const label = document.createElement("span");
+      label.className = "item-label";
+      label.textContent = name;
+      label.style.display = "block";
+      label.style.color = "white";
+      label.style.fontSize = "12px";
+      label.style.textAlign = "center";
+      label.style.marginTop = "2px";
+      canvas.after(br, label);
     }
-
-    el.textContent = name;
-    el.title = name; // Optional tooltip
-  });
+  }
 }
-window.setItemNames = setItemNames;
-
-window.renderAllSprites = function() {
-  document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-    const debugname = canvas.dataset.itemname;
-    renderSpriteToCanvas(debugname, canvas);
-  });
-  setItemNames();
-};
