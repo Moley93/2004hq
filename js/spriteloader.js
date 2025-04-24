@@ -93,7 +93,7 @@ function renderSpriteToCanvas(debugname, canvas) {
   canvas.title = `${name} — ${desc}`;
 
   // Append item name underneath the canvas if requested
-  if (canvas.dataset.addItemName === "true") {
+  if (canvas.getAttribute("data-add-item-name") === "true") {
     // Prevent duplicate insertion
     const next = canvas.nextElementSibling;
     const alreadyExists = next && next.classList.contains("item-label");
