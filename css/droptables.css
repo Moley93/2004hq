@@ -72,7 +72,7 @@ select::-ms-expand {
     justify-content: center;
     height: 70px;
     position: relative;
-    background: url('img/stoneback.gif');
+    background: url('../img/stoneback.gif');
     padding: 10px;
     text-align: center;
 }

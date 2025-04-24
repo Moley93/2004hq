@@ -103,12 +103,13 @@ function formatItemName(item) {
 }
 
 async function loadDropTable() {
-    const dropdown = document.getElementById("clueDropdown");
-    const difficulty = dropdown.value;
+    const selectedRadio = document.querySelector('input[name="clueTier"]:checked');
+    if (!selectedRadio) return;
+
+    const difficulty = selectedRadio.value;
     const tableBody = document.querySelector("#dropTable tbody");
 
     tableBody.innerHTML = "";
-    if (!difficulty) return;
 
     const rewards = await fetchClueTable(difficulty);
     const searchTerm = document.getElementById("searchInput").value.toLowerCase();
