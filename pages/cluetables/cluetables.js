@@ -149,5 +149,4 @@ async function loadDropTable() {
     });
 
     window.renderAllSprites();
-    setItemNames();
 }
