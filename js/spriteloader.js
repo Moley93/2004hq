@@ -92,19 +92,22 @@ function renderSpriteToCanvas(debugname, canvas) {
 
   canvas.title = `${name} — ${desc}`;
 
+  // Append item name underneath the canvas if requested
   if (canvas.dataset.addItemName === "true") {
-    // Avoid duplicates if this function is called again
-    if (!canvas.nextSibling || !canvas.nextSibling.classList?.contains("item-label")) {
-      const br = document.createElement("br");
-      const label = document.createElement("span");
-      label.className = "item-label";
+    // Prevent duplicate insertion
+    const next = canvas.nextElementSibling;
+    const alreadyExists = next && next.classList.contains("item-label");
+
+    if (!alreadyExists) {
+      const label = document.createElement("div");
       label.textContent = name;
-      label.style.display = "block";
-      label.style.color = "white";
+      label.className = "item-label";
       label.style.fontSize = "12px";
+      label.style.color = "white";
       label.style.textAlign = "center";
-      label.style.marginTop = "2px";
-      canvas.after(br, label);
+      label.style.marginTop = "4px";
+
+      canvas.parentNode.insertBefore(label, canvas.nextSibling);
     }
   }
 }
