@@ -62,7 +62,7 @@ function calculateFood() {
         { name: "Tuna", xp: 100, level: 30 },
         { name: "Apple Pie", xp: 130, level: 30 },
         { name: "Plain Pizza", xp: 143, level: 35 },
-        { name: "Jug of Wine", xp: 200, level: 35 },
+        { name: "Jug Wine", xp: 200, level: 35 },
         { name: "Lobster", xp: 120, level: 40 },
         { name: "Cake", xp: 180, level: 40 },
         { name: "Bass", xp: 130, level: 43 },
@@ -96,10 +96,11 @@ function calculateFood() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${food.level}</td>
-            <td><img src="img/calculators/cooking/${food.name.toLowerCase().replace(/\s+/g, '_')}.png" alt="${food.name}"> ${food.name}</td>
+            <td><canvas data-itemname="${food.name.toLowerCase().replace(/\s+/g, '_')}" data-add-item-name="true"></canvas></td>
             <td>${food.xp}</td>
             <td>${formatNumber(foodCount)}</td>
         `;
         tableBody.appendChild(row);
     }
+    renderAllSprites();
 }
