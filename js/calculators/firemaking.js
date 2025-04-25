@@ -43,7 +43,7 @@ function calculateLogs() {
     const xpNeeded = targetXP - currentXP;
     const logs = [
         { name: "Logs", xp: 40, level: 1 },
-        { name: "Achey Tree Logs", xp: 40, level: 1 },
+        { name: "Achey Logs", xp: 40, level: 1 },
         { name: "Oak Logs", xp: 60, level: 15 },
         { name: "Willow Logs", xp: 90, level: 30 },
         { name: "Maple Logs", xp: 135, level: 45 },
@@ -68,10 +68,11 @@ function calculateLogs() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${log.level}</td>
-            <td><img src="img/calculators/firemaking/${log.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${log.name}"> ${log.name}</td>
+            <td><canvas data-itemname="${log.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${log.xp}</td>
             <td>${formatNumber(logCount)}</td>
         `;
         tableBody.appendChild(row);
     }
+    renderAllSprites();
 }
