@@ -78,7 +78,7 @@ function calculateLaps() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${course.level}</td>
-            <td><img src="img/calculators/agility/${course.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${course.name}"> ${course.name}</td>
+            <td><img src="img/calculators/agility/${course.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${course.name}"><br>${course.name}</td>
             <td>${course.xp}</td>
             <td>${formatNumber(lapCount)}</td>
         `;
@@ -92,7 +92,7 @@ function calculateLaps() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${shortcut.level}</td>
-            <td><img src="img/calculators/agility/${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${shortcut.name}"> ${shortcut.name}</td>
+            <td><img src="img/calculators/agility/${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${shortcut.name}"><br>${shortcut.name}</td>
             <td>${shortcut.xp}</td>
             <td>${formatNumber(lapCount)}</td>
         `;
