@@ -95,7 +95,6 @@ function renderSpriteToCanvas(debugname, canvas) {
       const label = document.createElement("div");
       label.textContent = name;
       label.className = "item-label";
-      label.style.fontSize = "12px";
       label.style.color = "white";
       label.style.textAlign = "center";
       label.style.marginTop = "4px";

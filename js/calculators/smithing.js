@@ -241,12 +241,21 @@ function calculateSmithing() {
             const amountNeeded = Math.ceil(xpNeeded / data.xp);
     
             const row = document.createElement("tr");
-            row.innerHTML = `
-                <td>${data.level}</td>
-                <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
-                <td>${data.xp}</td>
-                <td>${formatNumber(amountNeeded)}</td>
-            `;
+            if (item == "Goldsmith Gauntlets") {
+                row.innerHTML = `
+                    <td>${data.level}</td>
+                    <td><canvas data-itemname="gold_bar" data-add-item-name="true"></canvas> (Goldsmith Gauntlets)</td>
+                    <td>${data.xp}</td>
+                    <td>${formatNumber(amountNeeded)}</td>
+                `;
+            } else {
+                row.innerHTML = `
+                    <td>${data.level}</td>
+                    <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
+                    <td>${data.xp}</td>
+                    <td>${formatNumber(amountNeeded)}</td>
+                `;
+            }
             tableBody.appendChild(row);
         }
     } else {
