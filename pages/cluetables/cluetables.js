@@ -74,6 +74,12 @@ async function loadDropTable() {
     // Render sprites and names
     window.renderAllSprites();
 }
+async function waitForSpriteLoader() {
+    while (typeof window.renderAllSprites !== "function") {
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+    loadDropTable();
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
@@ -89,6 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         listenersInitialized = true;
 
-        loadDropTable();
+        waitForSpriteLoader();
     }
 });
