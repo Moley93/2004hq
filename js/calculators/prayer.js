@@ -67,10 +67,11 @@ function calculateBones() {
 
         let row = document.createElement("tr");
         row.innerHTML = `
-            <td><img src="img/calculators/prayer/${bone.toLowerCase().replace(/\s+/g, "_")}.png" alt="${bone}"> ${bone}</td>
+            <td><canvas data-itemname="${bone.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${bones[bone]}</td>
             <td>${formatNumber(boneCount)}</td>
         `;
         tableBody.appendChild(row);
     }
+    renderAllSprites();
 }
