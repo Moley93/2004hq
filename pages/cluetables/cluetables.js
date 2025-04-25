@@ -36,9 +36,9 @@ async function loadDropTable() {
     rewards.forEach(drop => {
         const itemName = drop.reward_name.toLowerCase();
         if (searchTerm && !itemName.includes(searchTerm)) return;
-      
+
         const row = document.createElement("tr");
-      
+
         // --- Image cell with canvas ---
         const imageCell = document.createElement("td");
         const wrapper = document.createElement("div");
@@ -46,36 +46,42 @@ async function loadDropTable() {
         wrapper.style.flexDirection = "column";
         wrapper.style.alignItems = "center";
         wrapper.style.justifyContent = "center";
-        
+
         const canvasElement = document.createElement("canvas");
         canvasElement.setAttribute("data-itemname", itemName);
         canvasElement.setAttribute("data-add-item-name", "true");
         canvasElement.width = 36;
         canvasElement.height = 36;
-        
+
         wrapper.appendChild(canvasElement);
-        imageCell.appendChild(wrapper);        
-      
+        imageCell.appendChild(wrapper);
+
         const quantityCell = document.createElement("td");
         quantityCell.textContent = drop.quantity_min === drop.quantity_max
             ? drop.quantity_min
             : `${drop.quantity_min}-${drop.quantity_max}`;
-      
+
         const rateCell = document.createElement("td");
         rateCell.textContent = drop.drop_rate;
-      
+
         row.appendChild(imageCell);
         row.appendChild(quantityCell);
         row.appendChild(rateCell);
-      
+
         tableBody.appendChild(row);
-      });      
-    // Render sprites and names
-    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-    const debugname = canvas.getAttribute("data-itemname");
-    renderSpriteToCanvas(debugname, canvas);
     });
 
+    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+        const debugname = canvas.getAttribute("data-itemname");
+        renderSpriteToCanvas(debugname, canvas);
+    });
+}
+
+async function waitForSpriteLoaderAndLoad() {
+    while (!window.spriteLoaderReady) {
+        await new Promise(resolve => setTimeout(resolve, 50));
+    }
+    loadDropTable();
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -92,6 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         listenersInitialized = true;
 
-        loadDropTable();
+        waitForSpriteLoaderAndLoad();
     }
 });

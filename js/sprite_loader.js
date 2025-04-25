@@ -29,13 +29,7 @@ Promise.all([
 ])
 .then(([json]) => {
   itemData = json;
-
-  document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-    const debugname = canvas.getAttribute("data-itemname");
-    renderSpriteToCanvas(debugname, canvas);
-  });
-
-  window.spriteLoaderReady = true;
+  window.spriteLoaderReady = true; // signal ready
 })
 .catch(err => {
   console.error("Error loading resources:", err);
@@ -91,16 +85,9 @@ function renderSpriteToCanvas(debugname, canvas) {
   );
 
   canvas.title = `${name} — ${desc}`;
-  window.renderAllSprites = function () {
-    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
-      const debugname = canvas.getAttribute("data-itemname");
-      renderSpriteToCanvas(debugname, canvas);
-    });
-  };
 
-  // Append item name underneath the canvas if requested
+  // Append item name if requested
   if (canvas.getAttribute("data-add-item-name") === "true") {
-    // Prevent duplicate insertion
     const next = canvas.nextElementSibling;
     const alreadyExists = next && next.classList.contains("item-label");
 
@@ -112,8 +99,14 @@ function renderSpriteToCanvas(debugname, canvas) {
       label.style.color = "white";
       label.style.textAlign = "center";
       label.style.marginTop = "4px";
-
       canvas.parentNode.insertBefore(label, canvas.nextSibling);
     }
   }
 }
+
+window.renderAllSprites = function () {
+  document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+    const debugname = canvas.getAttribute("data-itemname");
+    renderSpriteToCanvas(debugname, canvas);
+  });
+};
