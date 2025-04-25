@@ -91,6 +91,12 @@ function renderSpriteToCanvas(debugname, canvas) {
   );
 
   canvas.title = `${name} — ${desc}`;
+  window.renderAllSprites = function () {
+    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+      const debugname = canvas.getAttribute("data-itemname");
+      renderSpriteToCanvas(debugname, canvas);
+    });
+  };
 
   // Append item name underneath the canvas if requested
   if (canvas.getAttribute("data-add-item-name") === "true") {

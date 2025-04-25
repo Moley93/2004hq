@@ -71,7 +71,11 @@ async function loadDropTable() {
         tableBody.appendChild(row);
       });      
     // Render sprites and names
-    window.renderAllSprites();
+    document.querySelectorAll("canvas[data-itemname]").forEach(canvas => {
+    const debugname = canvas.getAttribute("data-itemname");
+    renderSpriteToCanvas(debugname, canvas);
+    });
+
 }
 
 document.addEventListener("DOMContentLoaded", function () {
