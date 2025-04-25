@@ -110,3 +110,11 @@ window.renderAllSprites = function () {
     renderSpriteToCanvas(debugname, canvas);
   });
 };
+document.addEventListener("DOMContentLoaded", async function () {
+  while (!window.spriteLoaderReady) {
+    await new Promise(resolve => setTimeout(resolve, 25));
+  }
+  if (typeof window.renderAllSprites === "function") {
+    window.renderAllSprites();
+  }
+});
