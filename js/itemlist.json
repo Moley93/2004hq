@@ -1932,6 +1932,13 @@
     "cost": 160
   },
   {
+    "id": 668,
+    "debugname": "blurite_ore",
+    "name": "Blurite ore",
+    "desc": "Definitely blue.",
+    "cost": 3
+  },
+  {
     "id": 727,
     "debugname": "hollow_reed",
     "name": "Hollow reed",
