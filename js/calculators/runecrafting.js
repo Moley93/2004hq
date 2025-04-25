@@ -42,15 +42,15 @@ function calculateRunes() {
 
     const xpNeeded = targetXP - currentXP;
     const runes = [
-        { name: "Air Rune", xp: 5, level: 1 },
-        { name: "Mind Rune", xp: 5.5, level: 2 },
-        { name: "Water Rune", xp: 6, level: 5 },
-        { name: "Earth Rune", xp: 6.5, level: 9 },
-        { name: "Fire Rune", xp: 7, level: 14 },
-        { name: "Body Rune", xp: 7.5, level: 20 },
-        { name: "Cosmic Rune", xp: 8, level: 27 },
-        { name: "Chaos Rune", xp: 8.5, level: 35 },
-        { name: "Nature Rune", xp: 9, level: 44 }
+        { name: "AirRune", xp: 5, level: 1 },
+        { name: "MindRune", xp: 5.5, level: 2 },
+        { name: "WaterRune", xp: 6, level: 5 },
+        { name: "EarthRune", xp: 6.5, level: 9 },
+        { name: "FireRune", xp: 7, level: 14 },
+        { name: "BodyRune", xp: 7.5, level: 20 },
+        { name: "CosmicRune", xp: 8, level: 27 },
+        { name: "ChaosRune", xp: 8.5, level: 35 },
+        { name: "NatureRune", xp: 9, level: 44 }
     ];
 
     // Update progress bar
@@ -70,10 +70,12 @@ function calculateRunes() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${rune.level}</td>
-            <td><img src="img/calculators/runecrafting/${rune.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${rune.name}"> ${rune.name}</td>
+            <td><canvas data-itemname="${rune.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${rune.xp}</td>
             <td>${formatNumber(runeCount)}</td>
         `;
         tableBody.appendChild(row);
     }
+
+    renderAllSprites();
 }
