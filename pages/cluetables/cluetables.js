@@ -54,8 +54,7 @@ async function loadDropTable() {
         canvasElement.height = 36;
         
         wrapper.appendChild(canvasElement);
-        imageCell.appendChild(wrapper);
-        
+        imageCell.appendChild(wrapper);        
       
         const quantityCell = document.createElement("td");
         quantityCell.textContent = drop.quantity_min === drop.quantity_max
@@ -74,12 +73,6 @@ async function loadDropTable() {
     // Render sprites and names
     window.renderAllSprites();
 }
-async function waitForSpriteLoader() {
-    while (typeof window.renderAllSprites !== "function") {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-    loadDropTable();
-}
 
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
@@ -95,6 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         listenersInitialized = true;
 
-        waitForSpriteLoader();
+        loadDropTable();
     }
 });
