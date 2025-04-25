@@ -68,8 +68,9 @@ foreach ($files as $difficulty => $url) {
     preg_match_all('/\[proc,trail_clue_' . $difficulty . '_(normal|rare)\](.*?)(?=\[proc,|\Z)/s', $data . "\n[proc,", $procBlocks, PREG_SET_ORDER);
 
     foreach ($procBlocks as $block) {
-        echo "Parsing $type rewards...<br>";
+        
         $type = $block[1];
+        echo "Parsing $type rewards...<br>";
         $procContent = $block[2];
 
         preg_match_all('/inv_add\([a-zA-Z0-9_]+,\s*([a-zA-Z0-9_]+),\s*(calc\([^)]*\([^)]*\)[^)]*\)|calc\([^)]*\)|\d+)\);/', $procContent, $matches, PREG_SET_ORDER);
@@ -100,7 +101,8 @@ foreach ($files as $difficulty => $url) {
             $stmt = $pdo->prepare("INSERT INTO clue_rewards (difficulty, reward_name, quantity_min, quantity_max, drop_rate, hash)
                                    VALUES (?, ?, ?, ?, ?, ?)");
             $stmt->execute([$difficulty, $reward, $min, $max, $dropRate, $hash]);
-            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate<br>";
+
+            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate into $difficulty ($hash)<br>";
         }
     }
 }

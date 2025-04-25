@@ -32,6 +32,10 @@ switch ($p) {
         include 'pages/main/homepage.php';
         break;
 
+    case 'udpatecluetables':
+        include 'pages/api/updatecluetables.php';
+        break;
+
     default: // All other unknown pages
         header('Location: ?p=404') ;
         break;
