@@ -55,28 +55,28 @@ let mode = 'needle_thread';
                     "Leather Vambraces": { xp: 22, level: 11 },
                     "Leather Body": { xp: 25, level: 14 },
                     "Leather Chaps": { xp: 27, level: 18 },
-                    "Hard Leather Body": { xp: 35, level: 28 },
+                    "HardLeather Body": { xp: 35, level: 28 },
                     "Coif": { xp: 37, level: 38 },
                     "Studded Body": { xp: 40, level: 41 },
                     "Studded Chaps": { xp: 42, level: 44 },
-                    "Green D'hide Vambraces": { xp: 62, level: 57 },
-                    "Green D'hide Chaps": { xp: 124, level: 60 },
-                    "Green D'hide Body": { xp: 186, level: 63 },
-                    "Blue D'hide Vambraces": { xp: 70, level: 66 },
-                    "Blue D'hide Chaps": { xp: 140, level: 68 },
-                    "Blue D'hide Body": { xp: 210, level: 71 },
-                    "Red D'hide Vambraces": { xp: 78, level: 73 },
-                    "Red D'hide Chaps": { xp: 156, level: 75 },
-                    "Red D'hide Body": { xp: 234, level: 77 },
-                    "Black D'hide Vambraces": { xp: 86, level: 79 },
-                    "Black D'hide Chaps": { xp: 172, level: 82 },
-                    "Black D'hide Body": { xp: 258, level: 84 }
+                    "Dragonhide Vamb": { xp: 62, level: 57 },//green
+                    "dragonhide Chaps": { xp: 124, level: 60 },//green
+                    "dragonhide body": { xp: 186, level: 63 },//green
+                    "Blue dragonhide Vambraces": { xp: 70, level: 66 },
+                    "Blue dragonhide Chaps": { xp: 140, level: 68 },
+                    "Blue dragonhide Body": { xp: 210, level: 71 },
+                    "Red dragonhide Vambraces": { xp: 78, level: 73 },
+                    "Red dragonhide Chaps": { xp: 156, level: 75 },
+                    "Red dragonhide Body": { xp: 234, level: 77 },
+                    "Black dragonhide Vambraces": { xp: 86, level: 79 },
+                    "Black dragonhide Chaps": { xp: 172, level: 82 },
+                    "Black dragonhide Body": { xp: 258, level: 84 }
                 },
                 "jewellery": {
                     "Opal": { xp: 15, level: 1 },
                     "Gold Ring": { xp: 15, level: 5 },
                     "Gold Necklace": { xp: 20, level: 6 },
-                    "Gold Amulet (u)": { xp: 30, level: 8 },
+                    "unstrung Gold Amulet": { xp: 30, level: 8 },
                     "Gold Amulet": { xp: 34, level: 8 },
                     "Jade": { xp: 20, level: 13 },
                     "Red Topaz": { xp: 25, level: 16 },
@@ -85,39 +85,39 @@ let mode = 'needle_thread';
                     "Sapphire": { xp: 50, level: 20 },
                     "Sapphire Ring": { xp: 40, level: 20 },
                     "Sapphire Necklace": { xp: 55, level: 22 },
-                    "Sapphire Amulet (u)": { xp: 65, level: 24 },
+                    "unstrung Sapphire Amulet": { xp: 65, level: 24 },
                     "Sapphire Amulet": { xp: 69, level: 24 },
                     "Emerald": { xp: 67.5, level: 27 },
                     "Emerald Ring": { xp: 55, level: 27 },
                     "Emerald Necklace": { xp: 60, level: 29 },
-                    "Emerald Amulet (u)": { xp: 70, level: 31 },
+                    "unstrung Emerald Amulet": { xp: 70, level: 31 },
                     "Emerald Amulet": { xp: 74, level: 31 },
                     "Ruby": { xp: 85, level: 34 },
                     "Ruby Ring": { xp: 70, level: 34 },
                     "Ruby Necklace": { xp: 75, level: 40 },
                     "Diamond": { xp: 107.5, level: 43 },
                     "Diamond Ring": { xp: 85, level: 43 },
-                    "Ruby Amulet (u)": { xp: 85, level: 50 },
+                    "unstrung Ruby Amulet": { xp: 85, level: 50 },
                     "Ruby Amulet": { xp: 89, level: 50 },
                     "Dragonstone": { xp: 137.5, level: 55 },
                     "Dragonstone Ring": { xp: 100, level: 55 },
                     "Diamond Necklace": { xp: 90, level: 56 },
-                    "Diamond Amulet (u)": { xp: 100, level: 70 },
+                    "unstrung Diamond Amulet": { xp: 100, level: 70 },
                     "Diamond Amulet": { xp: 104, level: 70 },
                     "Dragonstone Necklace": { xp: 105, level: 72 },
-                    "Dragonstone Amulet (u)": { xp: 150, level: 80 },
+                    "unstrung Dragonstone Amulet": { xp: 150, level: 80 },
                     "Dragonstone Amulet": { xp: 154, level: 80 }
                 },
                 "pottery_glass": {
                     "Unfired Pot": { xp: 6.3, level: 1 },
-                    "Pot": { xp: 12.6, level: 1 },
+                    "Pot empty": { xp: 12.6, level: 1 },
                     "Beer Glass": { xp: 17.5, level: 1 },
-                    "Unfired Pie Dish": { xp: 15, level: 7 },
-                    "Pie Dish": { xp: 25, level: 7 },
+                    "Unfired PieDish": { xp: 15, level: 7 },
+                    "PieDish": { xp: 25, level: 7 },
                     "Unfired Bowl": { xp: 18, level: 8 },
-                    "Bowl": { xp: 33, level: 8 },
-                    "Vial": { xp: 35, level: 33 },
-                    "Unpowered Orb": { xp: 52.5, level: 46 }
+                    "Bowl empty": { xp: 33, level: 8 },
+                    "Vial empty": { xp: 35, level: 33 },
+                    "stafforb": { xp: 52.5, level: 46 }
                 },
                 "spinning": {
                     "Ball of Wool": { xp: 2.5, level: 1 },
@@ -144,10 +144,11 @@ let mode = 'needle_thread';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${levelRequired}</td>
-                    <td><img src="img/calculators/crafting/${item.toLowerCase().replace(/\s+/g, "_")}.png" alt="${item}"> ${item}</td>
+                    <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                     <td>${xpPerItem}</td>
                     <td>${formatNumber(itemsNeeded)}</td>
                 `;
                 tableBody.appendChild(row);
             }
+            renderAllSprites();
         }
