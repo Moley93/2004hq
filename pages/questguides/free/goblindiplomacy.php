@@ -26,9 +26,9 @@ AGGIE THE WITCH<br>
 <input type="checkbox"> Aggie the Witch is located in Draynor Village, just east of Port Sarim. Ask her if she can make red, yellow, and blue dyes for you. She will tell you to collect 3 redberries, 2 onions, and 2 woad leaves.<br>
 <br>
 COLLECT THE DYE INGREDIENTS<br>
-<input type="checkbox"> Walk back to Port Sarim. There is a food store there – purchase the 3 redberries. Redberries also respawn south of Varrock.<br>
+<input type="checkbox"> Walk back to Port Sarim. There is a food store there - purchase the 3 redberries. Redberries also respawn south of Varrock.<br>
 <br>
-<input type="checkbox"> Walk W from the food store. You will come to a path that goes north – follow it until you come to a garden with onions.<br>
+<input type="checkbox"> Walk W from the food store. You will come to a path that goes north - follow it until you come to a garden with onions.<br>
 <br>
 <input type="checkbox"> Continue N on the path into Falador. Enter the park and talk to Wyson the Gardner. You will have to pay him 20gp to get 2 woad leaves from him in a single conversation.<br>
 <br>

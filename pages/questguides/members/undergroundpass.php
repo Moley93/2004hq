@@ -58,7 +58,7 @@ find the block you can stand on in the first row<br>
 <br>
 13. The west path is the same as the north path, just use your plank on the flat rocks pick the orb of light up and return to the well.<br>
 <br>
-14. This is the easiest path, the south west path, search the flat stone under the orb. When you try to pick it up, you’ll be asked whether you want to disarm it. If you fail, you will be damaged by a swinging log. If you succeed return back to the well.<br>
+14. This is the easiest path, the south west path, search the flat stone under the orb. When you try to pick it up, you'll be asked whether you want to disarm it. If you fail, you will be damaged by a swinging log. If you succeed return back to the well.<br>
 <br>
 15. Now either run across the path with the strange markings or search the odd markings and disarm the traps to return to the room with the zombies. Use all the orbs with the furnace and go back across to the room with the well, either by disarming the traps or running through.<br>
 <br>
@@ -68,7 +68,7 @@ find the block you can stand on in the first row<br>
 <br>
 <img src="img\questimages\underground6.jpg" height="350" width="350"><br>
 <br>
-17. Head west and cross the ledge to reach another difficult part. If you are a level 50+ thief then pick lock the gate and then the other gate or, if you're not good at Thieving like me, you’ll need to cross the stone bridges to get to the other end.<br>
+17. Head west and cross the ledge to reach another difficult part. If you are a level 50+ thief then pick lock the gate and then the other gate or, if you're not good at Thieving like me, you'll need to cross the stone bridges to get to the other end.<br>
 <br>
 <img src="img\questimages\underground7.jpg" height="350" width="350"><br>
 <br>
