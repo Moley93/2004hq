@@ -131,7 +131,7 @@ function calculateSpells() {
             <td>${spell.level}</td>
             <td><img src="img/calculators/magic/${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
             <td>${spell.xp}</td>
-            <td>${formatNumber(spellCount)}</td>
+            <td>${spellCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }
@@ -158,7 +158,7 @@ function calculateSpells() {
             <td>${spell.level}</td>
             <td><img src="img/calculators/magic/${spell.name.toLowerCase().replace(/\s+/g, "_")}.png" alt="${spell.name}"> ${spell.name}</td>
             <td>${spell.xp}</td>
-            <td>${formatNumber(spellCount)}</td>
+            <td>${spellCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }

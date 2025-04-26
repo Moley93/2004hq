@@ -69,7 +69,7 @@ function calculateBones() {
         row.innerHTML = `
             <td><canvas data-itemname="${bone.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${bones[bone]}</td>
-            <td>${formatNumber(boneCount)}</td>
+            <td>${boneCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }

@@ -77,14 +77,14 @@ function calculateOres() {
                 <td>${ore.level}</td>
                 <td><canvas data-itemname="uncut_red_topaz"></canvas><div class="item-label" style="color: white; text-align: center; margin-top: 4px;">Gem Rock</div></td>
                 <td>${ore.xp}</td>
-                <td>${formatNumber(oreCount)}</td>
+                <td>${oreCount.toLocaleString()}</td>
             `;
         } else {
             row.innerHTML = `
                 <td>${ore.level}</td>
                 <td><canvas data-itemname="${ore.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                 <td>${ore.xp}</td>
-                <td>${formatNumber(oreCount)}</td>
+                <td>${oreCount.toLocaleString()}</td>
             `;
         }
         tableBody.appendChild(row);

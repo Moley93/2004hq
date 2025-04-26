@@ -246,14 +246,14 @@ function calculateSmithing() {
                     <td>${data.level}</td>
                     <td><canvas data-itemname="gold_bar" data-add-item-name="true"></canvas> (Goldsmith Gauntlets)</td>
                     <td>${data.xp}</td>
-                    <td>${formatNumber(amountNeeded)}</td>
+                    <td>${amountNeeded.toLocaleString()}</td>
                 `;
             } else {
                 row.innerHTML = `
                     <td>${data.level}</td>
                     <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                     <td>${data.xp}</td>
-                    <td>${formatNumber(amountNeeded)}</td>
+                    <td>${amountNeeded.toLocaleString()}</td>
                 `;
             }
             tableBody.appendChild(row);
@@ -278,7 +278,7 @@ function calculateSmithing() {
                 <td>${data.level}</td>
                 <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                 <td>${data.bars}</td>                        
-                <td>${formatNumber(amountNeeded)}</td>
+                <td>${amountNeeded.toLocaleString()}</td>
             `;
             tableBody.appendChild(row);
         }

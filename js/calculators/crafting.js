@@ -146,7 +146,7 @@ let mode = 'needle_thread';
                     <td>${levelRequired}</td>
                     <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                     <td>${xpPerItem}</td>
-                    <td>${formatNumber(itemsNeeded)}</td>
+                    <td>${itemsNeeded.toLocaleString()}</td>
                 `;
                 tableBody.appendChild(row);
             }

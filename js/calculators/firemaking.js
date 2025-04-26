@@ -70,7 +70,7 @@ function calculateLogs() {
             <td>${log.level}</td>
             <td><canvas data-itemname="${log.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${log.xp}</td>
-            <td>${formatNumber(logCount)}</td>
+            <td>${logCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }

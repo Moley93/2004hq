@@ -80,7 +80,7 @@ function calculateLaps() {
             <td>${course.level}</td>
             <td><img src="img/calculators/agility/${course.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${course.name}"><br>${course.name}</td>
             <td>${course.xp}</td>
-            <td>${formatNumber(lapCount)}</td>
+            <td>${lapCount.toLocaleString()}</td>
         `;
         courseTableBody.appendChild(row);
     }
@@ -94,7 +94,7 @@ function calculateLaps() {
             <td>${shortcut.level}</td>
             <td><img src="img/calculators/agility/${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${shortcut.name}"><br>${shortcut.name}</td>
             <td>${shortcut.xp}</td>
-            <td>${formatNumber(lapCount)}</td>
+            <td>${lapCount.toLocaleString()}</td>
         `;
         shortcutTableBody.appendChild(row);
     }

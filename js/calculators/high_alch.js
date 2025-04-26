@@ -1170,10 +1170,10 @@ function calculateAlchProfit() {
     const costOfNatures = natureRunePrice * quantity;
     const totalMagicXP = quantity * 65;
     
-    document.getElementById("totalProfit").textContent = formatNumber(totalAlchProfit) + " gp";
-    document.getElementById("profitFromAlch").textContent = formatNumber(profitFromAlch) + " gp";
-    document.getElementById("costOfNatures").textContent = formatNumber(costOfNatures) + " gp";
-    document.getElementById("totalMagicXP").textContent = formatNumber(totalMagicXP) + " XP";
+    document.getElementById("totalProfit").textContent = totalAlchProfit.toLocaleString() + " gp";
+    document.getElementById("profitFromAlch").textContent = profitFromAlch.toLocaleString() + " gp";
+    document.getElementById("costOfNatures").textContent = costOfNatures.toLocaleString() + " gp";
+    document.getElementById("totalMagicXP").textContent = totalMagicXP.toLocaleString() + " XP";
 }
 
 // Event listener to update High Alch value when Item Value is changed

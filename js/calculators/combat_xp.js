@@ -450,12 +450,12 @@ function calculateXP() {
     }
     
     document.getElementById("newXP").innerHTML = 
-        `Attack XP: ${formatNumber(Math.floor(attackXP))} (Level ${getLevelForXP(attackXP)})<br>
-         Strength XP: ${formatNumber(Math.floor(strengthXP))} (Level ${getLevelForXP(strengthXP)})<br>
-         Defence XP: ${formatNumber(Math.floor(defenceXP))} (Level ${getLevelForXP(defenceXP)})<br>
-         Hitpoints XP: ${formatNumber(Math.floor(hitpointsXP))} (Level ${getLevelForXP(hitpointsXP)})<br>
-         Ranged XP: ${formatNumber(Math.floor(rangedXP))} (Level ${getLevelForXP(rangedXP)})<br>
-         Prayer XP: ${formatNumber(Math.floor(prayerXP))} (Level ${getLevelForXP(prayerXP)})`;
+        `Attack XP: ${Math.floor(attackXP).toLocaleString()} (Level ${getLevelForXP(attackXP)})<br>
+         Strength XP: ${Math.floor(strengthXP).toLocaleString()} (Level ${getLevelForXP(strengthXP)})<br>
+         Defence XP: ${Math.floor(defenceXP).toLocaleString()} (Level ${getLevelForXP(defenceXP)})<br>
+         Hitpoints XP: ${Math.floor(hitpointsXP).toLocaleString()} (Level ${getLevelForXP(hitpointsXP)})<br>
+         Ranged XP: ${Math.floor(rangedXP).toLocaleString()} (Level ${getLevelForXP(rangedXP)})<br>
+         Prayer XP: ${Math.floor(prayerXP).toLocaleString()} (Level ${getLevelForXP(prayerXP)})`;
 }
 
 ["monsterHP", "numMonsters", "attackStyle", "buryBones"].forEach(id => {

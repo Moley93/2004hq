@@ -72,7 +72,7 @@ function calculateRunes() {
             <td>${rune.level}</td>
             <td><canvas data-itemname="${rune.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${rune.xp}</td>
-            <td>${formatNumber(runeCount)}</td>
+            <td>${runeCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }

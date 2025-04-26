@@ -98,7 +98,7 @@ function calculateFood() {
             <td>${food.level}</td>
             <td><canvas data-itemname="${food.name.toLowerCase().replace(/\s+/g, '_')}" data-add-item-name="true"></canvas></td>
             <td>${food.xp}</td>
-            <td>${formatNumber(foodCount)}</td>
+            <td>${foodCount.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }

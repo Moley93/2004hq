@@ -100,7 +100,7 @@ let mode = 'npcs';
                     <td>${level}</td>
                     <td><img src="img/calculators/thieving/${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" height=32px alt="${source}"><br>${source}</td>
                     <td>${xp}</td>
-                    <td>${formatNumber(count)}</td>
+                    <td>${count.toLocaleString()}</td>
                 `;
                 tableBody.appendChild(row);
             }

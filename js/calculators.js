@@ -25,8 +25,3 @@ function getLevelForXP(xp) {
 
     return 99; // Level 99 is the max in RuneScape
 }
-
-// Adds commas for thousands
-function formatNumber(num) {
-    return num.toLocaleString(); 
-}

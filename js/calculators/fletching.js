@@ -113,7 +113,7 @@ function calculateFletching() {
                 <td>${levelReq}</td>
                 <td><canvas data-itemname="${arrow.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                 <td>${xpPerAction}</td>
-                <td>${formatNumber(count)}</td>
+                <td>${count.toLocaleString()}</td>
             `;
             tableBody.appendChild(row);
         }
@@ -140,7 +140,7 @@ function calculateFletching() {
                 <td>${levelReq}</td>
                 <td><canvas data-itemname="${itemName.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
                 <td>${xpToUse}</td>
-                <td>${formatNumber(count)}</td>
+                <td>${count.toLocaleString()}</td>
             `;
             tableBody.appendChild(row);
         }

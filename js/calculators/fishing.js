@@ -80,7 +80,7 @@ function calculateFish() {
             <td>${fish.level}</td>
             <td><canvas data-itemname="raw_${fish.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
             <td>${fish.xp}</td>
-            <td>${formatNumber(estimatedCatches)}</td>
+            <td>${estimatedCatches.toLocaleString()}</td>
         `;
         tableBody.appendChild(row);
     }
