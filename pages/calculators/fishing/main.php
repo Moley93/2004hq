@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateFish()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Fishing Calculator</h2>
+<h2>Fishing Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

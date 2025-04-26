@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateHerblore()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Herblore Calculator</h2>
+<h2>Herblore Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

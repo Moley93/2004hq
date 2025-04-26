@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateRunes()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Runecrafting Calculator</h2>
+<h2>Runecrafting Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

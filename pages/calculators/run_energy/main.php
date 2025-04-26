@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateRestoreTime()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Run Energy Restore Calculator</h2>
+<h2>Run Energy Restore Calculator</h2>
 <div class="container">
     <label>Current Run Energy (%):</label>
     <input type="number" id="currentRunEnergy" min="0" max="100" value="0"><br>

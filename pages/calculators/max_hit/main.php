@@ -8,7 +8,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'setTimeout(() => { switchCombat("melee"); calculateMaxHit(); }, 10)'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Max Hit Calculator</h2>
+<h2>Max Hit Calculator</h2>
 <div>
     <button onclick="switchCombat('melee'); calculateMaxHit()">Melee</button>
     <button onclick="switchCombat('ranged'); calculateMaxHit()">Ranged</button>

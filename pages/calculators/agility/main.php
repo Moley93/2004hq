@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateLaps()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Agility Calculator</h2>
+<h2>Agility Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateLogs()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Woodcutting Calculator</h2>
+<h2>Woodcutting Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

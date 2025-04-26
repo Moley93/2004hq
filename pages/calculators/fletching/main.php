@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateFletching()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Fletching Calculator</h2>
+<h2>Fletching Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

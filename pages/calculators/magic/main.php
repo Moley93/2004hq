@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateSpells()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Magic Calculator</h2>
+<h2>Magic Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

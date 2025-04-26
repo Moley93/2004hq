@@ -6,7 +6,7 @@ function getExtraHeaderContent() { return
     <script src="js/calculators.js"></script>';
 }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape High Alchemy Calculator</h2>
+<h2>High Alchemy Calculator</h2>
 <div class="container">
     <div style="position: relative; display: inline-block;">
         <label>Item Search:</label>

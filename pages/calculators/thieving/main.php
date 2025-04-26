@@ -7,7 +7,7 @@ function getExtraHeaderContent() { return
 }
 function onBodyLoad() { return 'calculateThieving()'; }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Thieving Calculator</h2>
+<h2>Thieving Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">

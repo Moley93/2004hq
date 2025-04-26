@@ -6,7 +6,7 @@ function getExtraHeaderContent() { return
     <script src="js/calculators.js"></script>';
 }
 function getCalcContent() { return <<<HTML
-<h2>2004Scape Combat XP Calculator</h2>
+<h2>Combat XP Calculator</h2>
 <div class="container">
     <label>Username:</label>
     <input type="text" id="username">
