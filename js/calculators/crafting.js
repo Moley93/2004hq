@@ -144,7 +144,7 @@ let mode = 'needle_thread';
                 let row = document.createElement("tr");
                 row.innerHTML = `
                     <td>${levelRequired}</td>
-                    <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
+                    <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
                     <td>${xpPerItem}</td>
                     <td>${itemsNeeded.toLocaleString()}</td>
                 `;

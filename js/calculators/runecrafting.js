@@ -70,7 +70,7 @@ function calculateRunes() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${rune.level}</td>
-            <td><canvas data-itemname="${rune.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
+            <td><canvas data-itemname="${rune.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
             <td>${rune.xp}</td>
             <td>${runeCount.toLocaleString()}</td>
         `;

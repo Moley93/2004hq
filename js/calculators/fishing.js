@@ -78,7 +78,7 @@ function calculateFish() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${fish.level}</td>
-            <td><canvas data-itemname="raw_${fish.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
+            <td><canvas data-itemname="raw_${fish.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
             <td>${fish.xp}</td>
             <td>${estimatedCatches.toLocaleString()}</td>
         `;

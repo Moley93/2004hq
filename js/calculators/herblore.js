@@ -115,7 +115,7 @@ function calculateHerblore() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${level}</td>
-            <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true"></canvas></td>
+            <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
             <td>${xpGained}</td>
             <td>${itemsNeeded.toLocaleString()}</td>
         `;
