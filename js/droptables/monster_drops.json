@@ -1,0 +1,9527 @@
+{
+  "bandit": [
+    {
+      "npc": "bandit",
+      "label": "bandit",
+      "name": "bandit",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_scimitar",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_sq_shield",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            6
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            10
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            53
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "bandit_camp_leaders": [
+    {
+      "npc": "_bandit_camp_leader",
+      "label": "_bandit_camp_leader",
+      "name": "bandit_camp_leaders",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_full_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            12
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            30
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            48
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            70
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            150
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "silver_ore",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cert_swordfish",
+            5
+          ],
+          "chance": "1/11"
+        }
+      ],
+      "clue_scroll": "1/128 medium"
+    }
+  ],
+  "barbarian": [
+    {
+      "npc": "_barbarian",
+      "label": "_barbarian",
+      "name": "barbarian",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_axe",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "plainstaff",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            17
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            27
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bear_fur",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cooked_meat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "flier",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "ring_mould",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "gunthor_the_brave",
+      "label": "gunthor_the_brave",
+      "name": "barbarian",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "bronze_battleaxe",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            10
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            10
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            32
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "cooked_meat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "amulet_mould",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bear_fur",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "flier",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "bear": [
+    {
+      "npc": "_bear",
+      "label": "_bear",
+      "name": "bear",
+      "guaranteed": [
+        "bones",
+        "bear_fur",
+        "raw_bear_meat"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "black_demon": [
+    {
+      "npc": "_black_demon",
+      "label": "_black_demon",
+      "name": "black_demon",
+      "guaranteed": [
+        "ashes"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "black_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "black_axe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_chainbody",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "airrune",
+            50
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "chaosrune",
+            10
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bloodrune",
+            7
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "firerune",
+            37
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            132
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            44
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            220
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            460
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "lobster",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamantite_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "3dose1defense",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "black_dragon": [
+    {
+      "npc": "black_dragon",
+      "label": "black_dragon",
+      "name": "black_dragon",
+      "guaranteed": [
+        "dragon_bones",
+        "dragonhide_black"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "mithril_2h_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "mithril_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "rune_knife",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_platebody",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_javelin",
+            30
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "firerune",
+            50
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "adamant_dart_p",
+            16
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "lawrune",
+            10
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bloodrune",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            75
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            196
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            330
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            690
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamantite_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chocolate_cake",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": "1/128 hard"
+    }
+  ],
+  "black_knight": [
+    {
+      "npc": "black_knight",
+      "label": "black_knight_drops",
+      "name": "black_knight",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_full_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_arrow",
+            3
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            6
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            7
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "pot_flour",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            58
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "bread",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "black_knight_aggre",
+      "label": "black_knight_drops",
+      "name": "black_knight",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_full_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_arrow",
+            3
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            6
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            7
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "pot_flour",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            58
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "bread",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "blue_dragon": [
+    {
+      "npc": "blue_dragon",
+      "label": "blue_dragon",
+      "name": "blue_dragon",
+      "guaranteed": [
+        "dragon_bones",
+        "dragonhide_blue"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_platelegs",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_spear",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_full_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "waterrune",
+            75
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "naturerune",
+            15
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            37
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            44
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            132
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            200
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            11
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            440
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bass",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamantite_ore",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": "1/128 hard"
+    }
+  ],
+  "chaos_druid": [
+    {
+      "npc": "chaos_druid",
+      "label": "chaos_druid",
+      "name": "chaos_druid",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "airrune",
+            36
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            29
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "vial_water",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "snape_grass",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "unholy_symbol_mould",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "chaos_druid_warrior": [
+    {
+      "npc": "chaos_druid_warrior",
+      "label": "chaos_druid_warrior",
+      "name": "chaos_druid_warrior",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "black_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "firerune",
+            12
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "earthrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "airrune",
+            36
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "white_berries",
+            1
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "unicorn_horn_dust",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "snape_grass",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "vial_water",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            29
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "1dose2defense",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "chaos_dwarf": [
+    {
+      "npc": "chaos_dwarf",
+      "label": "chaos_dwarf",
+      "name": "chaos_dwarf",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_full_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_sq_shield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            24
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            37
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "naturerune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "deathrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "waterrune",
+            10
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            92
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            47
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            150
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            350
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "muddy_key",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "mithril_bar",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cheese",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "tomato",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "chicken": [
+    {
+      "npc": "_chicken",
+      "label": "_chicken",
+      "name": "chicken",
+      "guaranteed": [
+        "bones",
+        "raw_chicken"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "feather",
+            15
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "feather",
+            5
+          ],
+          "chance": "1/4"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "cow": [
+    {
+      "npc": "_cow",
+      "label": "_cow",
+      "name": "cow",
+      "guaranteed": [
+        "bones",
+        "raw_beef",
+        "cow_hide"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "dark_warrior": [
+    {
+      "npc": "dark_warrior",
+      "label": "dark_warrior",
+      "name": "dark_warrior",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            8
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            13
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "sardine",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "dark_wizard": [
+    {
+      "npc": "dark_wizard_earth",
+      "label": "dark_wizard_earth",
+      "name": "dark_wizard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "blackwizhat",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "plainstaff",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "black_robe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            36
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "waterrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "chaosrune",
+            4
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "mindrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bodyrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "blackwizhat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            29
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "water_talisman",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "dark_wizard_water",
+      "label": "dark_wizard_water",
+      "name": "dark_wizard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "plainstaff",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "blackwizhat",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "black_robe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            36
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "waterrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "chaosrune",
+            5
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "mindrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bodyrune",
+            18
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "blackwizhat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            29
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "water_talisman",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "drop_table": [],
+  "druid": [
+    {
+      "npc": "druid",
+      "label": "druid",
+      "name": "druid",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "earthrune",
+            27
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "waterrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "vial_empty",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "druidrobetop",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "druidrobebottom",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "3doseantipoison",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "dwarf": [
+    {
+      "npc": "dwarf_1",
+      "label": "dwarf_drop_table",
+      "name": "dwarf",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_pickaxe",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_battleaxe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_battleaxe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "hammer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_bar",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "dwarf_2",
+      "label": "dwarf_drop_table",
+      "name": "dwarf",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_pickaxe",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_battleaxe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_battleaxe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "hammer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_bar",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "dwarf_3",
+      "label": "dwarf_drop_table",
+      "name": "dwarf",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_pickaxe",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_battleaxe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_battleaxe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "hammer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_bar",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "earth_warrior": [
+    {
+      "npc": "earth_warrior",
+      "label": "earth_warrior",
+      "name": "earth_warrior",
+      "guaranteed": [],
+      "roll_table": [
+        {
+          "item": [
+            "steel_spear",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "staff_of_earth",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            12
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "earthrune",
+            60
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/9"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "entrana_firebird": [
+    {
+      "npc": "entrana_firebird",
+      "label": "entrana_firebird",
+      "name": "entrana_firebird",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "farmer": [
+    {
+      "npc": "farmer",
+      "label": "farmer",
+      "name": "farmer",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "fire_giant": [
+    {
+      "npc": "fire_giant",
+      "label": "fire_giant",
+      "name": "fire_giant",
+      "guaranteed": [
+        "big_bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_sq_shield",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "fire_battlestaff",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_scimitar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "firerune",
+            150
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "chaosrune",
+            5
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "rune_arrow",
+            12
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bloodrune",
+            5
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "firerune",
+            37
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            60
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            300
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            50
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lobster",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_bar",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "2dose1strength",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "giant": [
+    {
+      "npc": "giant",
+      "label": "giant",
+      "name": "giant",
+      "guaranteed": [
+        "big_bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_full_helm",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_kiteshield",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_longsword",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            3
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "firerune",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            7
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            10
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            38
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            52
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            88
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "body_talisman",
+            1
+          ],
+          "chance": "1/21"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "giant_rat": [
+    {
+      "npc": "giant_rat1",
+      "label": "rat_droptable",
+      "name": "giant_rat",
+      "guaranteed": [
+        "bones",
+        "raw_rat_meat"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    },
+    {
+      "npc": "giant_rat2",
+      "label": "rat_droptable",
+      "name": "giant_rat",
+      "guaranteed": [
+        "bones",
+        "raw_rat_meat"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "goblin": [
+    {
+      "npc": "goblin_unarmed1",
+      "label": "goblin_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "brass_necklace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "air_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_sq_shield",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bolt",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            7
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "waterrune",
+            6
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/7"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "goblin_armed",
+      "label": "goblin_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "brass_necklace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "air_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_sq_shield",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bolt",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            7
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "waterrune",
+            6
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/7"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "goblin_unarmed2",
+      "label": "goblin_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "brass_necklace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "air_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_sq_shield",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bolt",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            7
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "waterrune",
+            6
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/7"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "goblin_guard",
+      "label": "goblin_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "brass_necklace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "air_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "beer",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_sq_shield",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bolt",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bodyrune",
+            7
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "waterrune",
+            6
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/7"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "goblin_armed_green",
+      "label": "goblin_village_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_scimitar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_javelin",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            1
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "grapes",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "red_cape",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "goblin_armed_red",
+      "label": "goblin_village_drop_table",
+      "name": "goblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_scimitar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_javelin",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            1
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "grapes",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "red_cape",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "greater_demon": [
+    {
+      "npc": "greater_demon",
+      "label": "greater_demon",
+      "name": "greater_demon",
+      "guaranteed": [
+        "ashes"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_2h_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_platelegs",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_full_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "firerune",
+            75
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "chaosrune",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "deathrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            37
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            132
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            44
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            220
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            11
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            460
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "tuna",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "gold_bar",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "thread",
+            10
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 hard"
+    }
+  ],
+  "green_dragon": [
+    {
+      "npc": "green_dragon",
+      "label": "green_dragon",
+      "name": "green_dragon",
+      "guaranteed": [
+        "dragon_bones",
+        "dragonhide_green"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_platelegs",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_spear",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_full_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "waterrune",
+            75
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "naturerune",
+            15
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            37
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            44
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            132
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            200
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            11
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            440
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bass",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamantite_ore",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": "1/128 hard"
+    }
+  ],
+  "grip": [
+    {
+      "npc": "grip",
+      "label": "grip",
+      "name": "grip",
+      "guaranteed": [],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "guard": [
+    {
+      "npc": "_guard",
+      "label": "_guard",
+      "name": "guard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "body_talisman",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "grain",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "airrune",
+            6
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bloodrune",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "body_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            7
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            17
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 medium"
+    }
+  ],
+  "guard_dog": [
+    {
+      "npc": "guard_dog",
+      "label": "guard_dog",
+      "name": "guard_dog",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "hellhound": [
+    {
+      "npc": "hellhound",
+      "label": "hellhound",
+      "name": "hellhound",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": "1/64 hard"
+    }
+  ],
+  "highwayman": [
+    {
+      "npc": "highwayman",
+      "label": "highwayman",
+      "name": "highwayman",
+      "guaranteed": [
+        "bones",
+        "black_cape"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "hobgoblin": [
+    {
+      "npc": "hobgoblin",
+      "label": "hobgoblin",
+      "name": "hobgoblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_dagger",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_spear",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_spear",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_longsword",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "waterrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            7
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bodyrune",
+            6
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            62
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            42
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "hobgoblin_armed",
+      "label": "hobgoblin_armed",
+      "name": "hobgoblin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_dagger",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "steel_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            7
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bodyrune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_javelin",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            62
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            42
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/6"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "ice_giant": [
+    {
+      "npc": "ice_giant",
+      "label": "ice_giant",
+      "name": "ice_giant",
+      "guaranteed": [
+        "big_bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_2h_sword",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "black_kiteshield",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_platelegs",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_sq_shield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "mindrune",
+            24
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            37
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "waterrune",
+            12
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            4
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "deathrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_kiteshield",
+            1
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            117
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            53
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            196
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            22
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            400
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "jug_wine",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "banana",
+            1
+          ],
+          "chance": "1/32"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "ice_warrior": [
+    {
+      "npc": "_ice_warrior",
+      "label": "_ice_warrior",
+      "name": "ice_warrior",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_mace",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "mithril_arrow",
+            3
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "adamant_arrow",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/12"
+        }
+      ],
+      "clue_scroll": "1/128 medium"
+    }
+  ],
+  "imp": [
+    {
+      "npc": "imp",
+      "label": "imp",
+      "name": "imp",
+      "guaranteed": [
+        "ashes"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "black_bead",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "red_bead",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "white_bead",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "yellow_bead",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "bluewizhat",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "egg",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "raw_chicken",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "burnt_bread",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "burnt_meat",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bread_dough",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bread",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cooked_meat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "hammer",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "tinderbox",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "shears",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bucket_empty",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bucket_water",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "jug_empty",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "jug_water",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "pot_empty",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "pot_flour",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "ball_of_wool",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "ashes",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "clay",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "cadavaberries",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "grain",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "flier",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "acne_potion",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "jailer": [
+    {
+      "npc": "jailer",
+      "label": "jailer",
+      "name": "jailer",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "jogre": [
+    {
+      "npc": "jogre",
+      "label": "jogre",
+      "name": "jogre",
+      "guaranteed": [
+        "big_bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "iron_spear",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "naturerune",
+            10
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_javelin",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "pineapple",
+            2
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "knife",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "bones",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "big_bones",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "big_bones",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bones",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "unidentified_snake_weed",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "unidentified_rogues_purse",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/129 medium"
+    }
+  ],
+  "jonny_the_beard": [
+    {
+      "npc": "jonny_the_beard",
+      "label": "jonny_the_beard",
+      "name": "jonny_the_beard",
+      "guaranteed": [
+        "intelligence_report",
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "lesser_demon": [
+    {
+      "npc": "lesser_demon",
+      "label": "ai_queue3_lesser_demon",
+      "name": "lesser_demon",
+      "guaranteed": [
+        "ashes"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "rune_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "mithril_sq_shield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_chainbody",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            450
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "jug_wine",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "jug_wine",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_full_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            200
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "firerune",
+            60
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "steel_scimitar",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            120
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            30
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            40
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "gold_ore",
+            1
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "deathrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "man": [
+    {
+      "npc": "_citizen",
+      "label": "man_drop_table",
+      "name": "man",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "alkharid_warrior",
+      "label": "man_drop_table",
+      "name": "man",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "thief",
+      "label": "man_drop_table",
+      "name": "man",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    },
+    {
+      "npc": "thief_ardougne",
+      "label": "man_drop_table",
+      "name": "man",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "moss_giant": [
+    {
+      "npc": "moss_giant",
+      "label": "moss_giant",
+      "name": "moss_giant",
+      "guaranteed": [
+        "big_bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "black_sq_shield",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "magicstaff",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_sword",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mithril_spear",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_kiteshield",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            18
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            27
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            7
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            15
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            30
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "deathrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bloodrune",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            37
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            119
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            300
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "steel_bar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "spinach_roll",
+            1
+          ],
+          "chance": "1/32"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "mugger": [
+    {
+      "npc": "mugger",
+      "label": "mugger",
+      "name": "mugger",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "rope",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "knife",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "necromancer": [
+    {
+      "npc": "necromancer",
+      "label": "necromancer",
+      "name": "necromancer",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "plainstaff",
+            1
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "zamrobebottom",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "zamrobetop",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "staff_of_fire",
+            1
+          ],
+          "chance": "1/20"
+        },
+        {
+          "item": [
+            "earthrune",
+            36
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "airrune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "waterrune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "earthrune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "firerune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "airrune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "waterrune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "earthrune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "firerune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "naturerune",
+            5
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "chaosrune",
+            4
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "mindrune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "bodyrune",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "mindrune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "bodyrune",
+            18
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/20"
+        },
+        {
+          "item": [
+            "lawrune",
+            3
+          ],
+          "chance": "1/20"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/1"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/1"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "coins",
+            29
+          ],
+          "chance": "1/6"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "oomlie_bird": [
+    {
+      "npc": "oomlie_bird",
+      "label": "oomlie_bird",
+      "name": "oomlie_bird",
+      "guaranteed": [
+        "bones",
+        "raw_oomlie"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "otherwordly_being": [
+    {
+      "npc": "otherworldly_being",
+      "label": "otherworldly_being",
+      "name": "otherwordly_being",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "naturerune",
+            5
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "chaosrune",
+            4
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "ruby_ring",
+            1
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "mithril_mace",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mackerel",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "paladin": [
+    {
+      "npc": "paladin",
+      "label": "paladin",
+      "name": "paladin",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "pirate": [
+    {
+      "npc": "_pirate",
+      "label": "_pirate",
+      "name": "pirate",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "bronze_scimitar",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_platebody",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "airrune",
+            10
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "coins",
+            7
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            55
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "eye_patch",
+            1
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "chefshat",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "rat": [
+    {
+      "npc": "rat",
+      "label": "rat",
+      "name": "rat",
+      "guaranteed": [
+        "rats_tail"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "red_dragon": [
+    {
+      "npc": "red_dragon",
+      "label": "red_dragon",
+      "name": "red_dragon",
+      "guaranteed": [
+        "dragon_bones",
+        "dragonhide_red"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "mithril_2h_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "mithril_axe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_battleaxe",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "rune_dart",
+            8
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_javelin",
+            20
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamant_platebody",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "rune_arrow",
+            4
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "lawrune",
+            4
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "deathrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            196
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            66
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            330
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            690
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "chocolate_cake",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "adamantite_bar",
+            1
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": "1/128 hard"
+    }
+  ],
+  "rogue": [
+    {
+      "npc": "rogue",
+      "label": "rogue",
+      "name": "rogue",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            7
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            9
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomherb",
+            200
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            3
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "earth_talisman",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cabbage",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "salarin_the_twisted": [
+    {
+      "npc": "salarin_the_twisted",
+      "label": "salarin_the_twisted",
+      "name": "salarin_the_twisted",
+      "guaranteed": [],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "shadow_warrior": [
+    {
+      "npc": "shadow_warrior",
+      "label": "shadow_warrior",
+      "name": "shadow_warrior",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "adamant_spear",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_dagger_p",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_knife",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "black_robe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            3
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "airrune",
+            45
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "mithril_bar",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "weapon_poison",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "shared_droptables": [],
+  "skeleton": [
+    {
+      "npc": "skeleton1",
+      "label": "skeleton_unarmed",
+      "name": "skeleton",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_arrow",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            5
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            15
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            33
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            48
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "fire_talisman",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "grain",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "skeleton2",
+      "label": "skeleton_unarmed",
+      "name": "skeleton",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_arrow",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            5
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            15
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            33
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            48
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "fire_talisman",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "grain",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "skeleton3",
+      "label": "skeleton_armed",
+      "name": "skeleton",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_med_helm",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_scimitar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "airrune",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            45
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            65
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_bar",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "skeleton4",
+      "label": "skeleton_armed",
+      "name": "skeleton",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_med_helm",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "iron_sword",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "iron_scimitar",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "airrune",
+            15
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            9
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            45
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            65
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bronze_bar",
+            1
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "thug": [
+    {
+      "npc": "thug",
+      "label": "thug",
+      "name": "thug",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_battleaxe",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "deathrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coal",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/64"
+        }
+      ],
+      "clue_scroll": "1/128 easy"
+    }
+  ],
+  "tribesman": [
+    {
+      "npc": "tribesman",
+      "label": "tribesman",
+      "name": "tribesman",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_spear",
+            1
+          ],
+          "chance": "1/19"
+        },
+        {
+          "item": [
+            "steel_javelin",
+            10
+          ],
+          "chance": "1/46"
+        },
+        {
+          "item": [
+            "poison_bolt",
+            4
+          ],
+          "chance": "1/69"
+        },
+        {
+          "item": [
+            "iron_spear",
+            1
+          ],
+          "chance": "1/69"
+        },
+        {
+          "item": [
+            "steel_arrow_p",
+            5
+          ],
+          "chance": "1/69"
+        },
+        {
+          "item": [
+            "mithril_javelin",
+            10
+          ],
+          "chance": "1/69"
+        },
+        {
+          "item": [
+            "mithril_spear",
+            1
+          ],
+          "chance": "1/138"
+        },
+        {
+          "item": [
+            "unidentified_rogues_purse",
+            1
+          ],
+          "chance": "1/27"
+        },
+        {
+          "item": [
+            "unidentified_snake_weed",
+            1
+          ],
+          "chance": "1/27"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "snape_grass",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "naturerune",
+            3
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            62
+          ],
+          "chance": "1/17"
+        },
+        {
+          "item": [
+            "gold_ore",
+            1
+          ],
+          "chance": "1/27"
+        },
+        {
+          "item": [
+            "2dose2antipoison",
+            1
+          ],
+          "chance": "1/27"
+        },
+        {
+          "item": [
+            "3dose2antipoison",
+            1
+          ],
+          "chance": "1/46"
+        },
+        {
+          "item": [
+            "bread",
+            1
+          ],
+          "chance": "1/138"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/138"
+        },
+        {
+          "item": [
+            "pot_flour",
+            1
+          ],
+          "chance": "1/138"
+        }
+      ],
+      "clue_scroll": "1/138 medium"
+    }
+  ],
+  "ugthanki": [
+    {
+      "npc": "ugthanki",
+      "label": "ugthanki",
+      "name": "ugthanki",
+      "guaranteed": [
+        "bones",
+        "raw_ugthanki_meat"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "unicorn": [
+    {
+      "npc": "_unicorn",
+      "label": "_unicorn",
+      "name": "unicorn",
+      "guaranteed": [
+        "bones",
+        "unicorn_horn"
+      ],
+      "roll_table": [],
+      "clue_scroll": null
+    }
+  ],
+  "white_knight": [
+    {
+      "npc": "white_knight",
+      "label": "white_knight",
+      "name": "white_knight",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_longsword",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "steel_sword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "naturerune",
+            4
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mithril_arrow",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "adamant_arrow",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            5
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            48
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            120
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "iron_bar",
+            2
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "iron_bar",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "half_an_apple_pie",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "pot_flour",
+            1
+          ],
+          "chance": "1/21"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "wizard": [
+    {
+      "npc": "wizard",
+      "label": "wizard",
+      "name": "wizard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "plainstaff",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "wizards_robe",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bluewizhat",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "chaosrune",
+            2
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "airrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "earthrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "firerune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            5
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bodyrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mindrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "waterrune",
+            12
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "lawrune",
+            2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "water_talisman",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            18
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "yanille_soldier_tower_guard": [
+    {
+      "npc": "soldier",
+      "label": "yanille_soldier_tower_guard",
+      "name": "yanille_soldier_tower_guard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_sword",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "steel_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            4
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            8
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "tower_guard",
+      "label": "yanille_soldier_tower_guard",
+      "name": "yanille_soldier_tower_guard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_sword",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "steel_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            4
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            8
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "colonel_radick",
+      "label": "yanille_soldier_tower_guard",
+      "name": "yanille_soldier_tower_guard",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "steel_sword",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "steel_med_helm",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            4
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            2
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "airrune",
+            8
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "earthrune",
+            4
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "firerune",
+            6
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            3
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "bloodrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "naturerune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            8
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            9
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "coins",
+            8
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            6
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            30
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            12
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "mind_talisman",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_ore",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ],
+  "zombie": [
+    {
+      "npc": "zombie1",
+      "label": "unarmed_zombie",
+      "name": "zombie",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            5
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bodyrune",
+            6
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "airrune",
+            13
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            8
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            18
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            13
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/3"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "zombie2",
+      "label": "unarmed_zombie",
+      "name": "zombie",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            5
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
+            "bodyrune",
+            6
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "mindrune",
+            5
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "airrune",
+            13
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "iron_arrow",
+            8
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "steel_arrow",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
+            "coins",
+            4
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "coins",
+            18
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            13
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            5
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "copper_ore",
+            1
+          ],
+          "chance": "1/3"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "zombie3",
+      "label": "armed_zombie",
+      "name": "zombie",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "iron_mace",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "iron_dagger",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "bronze_kiteshield",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "mithril_arrow",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "airrune",
+            3
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "bodyrune",
+            3
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "chaosrune",
+            4
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "cosmicrune",
+            2
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "firerune",
+            7
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "coins",
+            10
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            18
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            26
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
+            "coins",
+            35
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            7
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "tinderbox",
+            1
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "eye_of_newt",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/128"
+        }
+      ],
+      "clue_scroll": null
+    },
+    {
+      "npc": "zombie_entrana",
+      "label": "zombie_entrana",
+      "name": "zombie",
+      "guaranteed": [
+        "bones"
+      ],
+      "roll_table": [
+        {
+          "item": [
+            "bronze_axe",
+            1
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "bronze_med_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_longsword",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "iron_axe",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "airrune",
+            13
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "bronze_arrow",
+            8
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "naturerune",
+            6
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "fishing_bait",
+            5
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            18
+          ],
+          "chance": "1/2"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/42"
+        }
+      ],
+      "clue_scroll": null
+    }
+  ]
+}
