@@ -12,7 +12,7 @@ Items/Skills Needed To Start: 42 Thieving, 40 Ranged, a yew or magic bow, a cand
 <br>
 Recommendations: Dragon leather ranger armor, prayer restore potions (if you have 37+ Prayer and less than 50 Ranged), melee-resistant armor (to withstand 15 minutes of attacks from level 61 ice spiders), a trustworthy friend to do the quest with.<br>
 <br>
-Starting Location: In the ‘Flying Horse' bar west of the Ardougne River.<br>
+Starting Location: In the 'Flying Horse' bar west of the Ardougne River.<br>
 <br>
 Reward: 1 quest point, 10500 Ranged Exp., 8000 Fletching Exp., the ability to make steel darts, and admittance to the Temple of Ikov (by wearing the Pendant of Lucien).<br>
 <br>
@@ -90,14 +90,14 @@ Pick it up, and return to the room with the guardians in it. The Staff is in the
 <br>
 Side with the Guardians<br>
 <br>
-Take off your Pendant of Lucien. Talk to one of the Guardians of Armadyl. You’ll tell them that you're working for a man named Lucien. They’ll be quite disappointed and give you a pendant, telling you to kill him.<br>
+Take off your Pendant of Lucien. Talk to one of the Guardians of Armadyl. You'll tell them that you're working for a man named Lucien. They'll be quite disappointed and give you a pendant, telling you to kill him.<br>
 You will find yourself in a room just north of McGrubbor's Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
 <br>
 <img src="img\questimages\ikov10.gif" height="200" width="350"><br>
 <br>
 Wearing your pendant attack him (he's only level 14). You will be rewarded once you kill him.<br>
 Side with Lucien<br>
-There is a small room within the larger room that contains the staff. When you try to take it, the nearby Guardians (level 36–40) will attack you. Pick it up once all of them are dead. Leave the big room and go up the ladder near you.<br>
+There is a small room within the larger room that contains the staff. When you try to take it, the nearby Guardians (level 36-40) will attack you. Pick it up once all of them are dead. Leave the big room and go up the ladder near you.<br>
 You will find yourself in a room just north of McGrubbor's Wood. Use your shiny key on the door and you should go through. Go to Varrock, and exit via the northeast exit, follow the wall surrounding the castle, west then south, and you will see a house with Lucien in it.<br>
 Talk to him and give him the staff, you will be rewarded.<br>
 <br>

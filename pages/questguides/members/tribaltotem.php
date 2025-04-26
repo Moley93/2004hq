@@ -16,7 +16,7 @@ Reward: 1 Quest Point, 1,250 Thieving XP, 5 cooked swordfish.<br>
 <br>
 Talk to Kangai in the Shrimp and Parrot pub. He will tell you that his totem was stolen by Lord Handelmort.<br>
 <br>
-Go to the house with a garden—the house with the gardener is just west of the Ardougne market, and there are guard dogs inside. Talk to the gardener, and he will tell you about the house’s security. Try to open the door—you’ll find that you can't enter through the front.<br>
+Go to the house with a garden—the house with the gardener is just west of the Ardougne market, and there are guard dogs inside. Talk to the gardener, and he will tell you about the house's security. Try to open the door—you'll find that you can't enter through the front.<br>
 <br>
 Go and talk to Wizard Cromperty, who is in a blue-colored house in the northeast part of Ardougne. Talk to him and ask him to teleport you—you will be teleported to the RPDT depot.<br>
 <br>
@@ -24,7 +24,7 @@ Search a box that is to be delivered to the mansion. You will get a label. Use t
 <br>
 Search the houses in the northwest—one of them contains a guide book. Pick it up and read it.<br>
 <br>
-Return to the house where Wizard Cromperty is. Ask him to teleport you again—this time, you’ll be teleported inside the mansion.<br>
+Return to the house where Wizard Cromperty is. Ask him to teleport you again—this time, you'll be teleported inside the mansion.<br>
 <br>
 Pick the lock on the door. You will need to enter a password. The password is K U R T (not B R A D), and the door will open. Search the trap on the stairs, and go up.<br>
 <br>

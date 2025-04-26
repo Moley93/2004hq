@@ -24,7 +24,7 @@ Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Add
 4. Now talk to the Captain, get him roused until he tells you he will call his Guards. Pick the option about asking him to fight his own fights. Then he challenges you. Once he's dead a Metal Key will be added to your inventory. Use this to go inside with NO armor or weapons equipped! (ONCE you've killed the Captain you can come here to kill him again and get the key without all the dialogue.)<br>
 <br>
 <br>
-5. Talk to the male slave who is trying to escape. After some conversation trade clothes with him. You will have to speak to him a second time to do so. (IF you get caught inside the camp the Guards & Mercenaries may throw you in jail.) The Cell Key can be found upstairs in Captain Siad’s desk.<br>
+5. Talk to the male slave who is trying to escape. After some conversation trade clothes with him. You will have to speak to him a second time to do so. (IF you get caught inside the camp the Guards & Mercenaries may throw you in jail.) The Cell Key can be found upstairs in Captain Siad's desk.<br>
 <br>
 <br>
 6. Now with your slave outfit on go downstairs through the huge door and follow the path to the TWO Mercenaries. Talk to one and ask him to let you trade spots. He will hint at you getting a Pineapple for him first. (MAKE SURE you don't have armor or weapons on around the Mercenaries.)<br>

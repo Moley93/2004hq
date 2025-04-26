@@ -32,7 +32,7 @@ The grave is the grey circle place with a walk way to the circle.<br>
 <br>
 5. Keep the urn and amulet on you and go get your armour and weapon, food, rope, stat restore potion, and the 18 runes (6 water, 6 air, 6 earth) that were mentioned earlier out of the bank. Go back to Almera's house and put on the amulet you got from the grave.<br>
 <br>
-6. Go get on the raft and you will appear on the island again, go to the end of the island, use the rope with the rock again and go across. Use the rope with the dead tree that’s on the edge of the waterfall. This time, you will appear on the waterfall in front of a door (you must have the amulet from the grave to enter). Open the door.<br>
+6. Go get on the raft and you will appear on the island again, go to the end of the island, use the rope with the rock again and go across. Use the rope with the dead tree that's on the edge of the waterfall. This time, you will appear on the waterfall in front of a door (you must have the amulet from the grave to enter). Open the door.<br>
 <br>
 7. When you enter the waterfall, there will be shadow spiders, fire giants, and mage skeletons. There are three ways to go (left, straight, or right), you want to go to the right. Search the boxes and crates, one of them will have a key. Exit the right side and go to the left side. There are fire giants in this room but you can run through them to a door in the right corner of the room. Use the key on the door to go through. There will be another door that you have to use the key with, then you should be in the room.<br>
 <br>
