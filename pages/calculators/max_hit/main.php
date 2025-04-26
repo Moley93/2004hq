@@ -3,10 +3,8 @@ function getPageTitle() { return 'Max Hit'; }
 function getPageMetaIcon() { return 'img/skillicons/attack.webp'; }
 function getExtraHeaderContent() { return
     '<link rel="stylesheet" href="css/calculators.css">
-    <script type="text/javascript" src="js/calculators/max_hit.js"></script>
     <script src="js/calculators.js"></script>';
 }
-function onBodyLoad() { return 'setTimeout(() => { switchCombat("melee"); calculateMaxHit(); }, 10)'; }
 function getCalcContent() { return <<<HTML
 <h2>Max Hit Calculator</h2>
 <div>
@@ -256,4 +254,5 @@ function getCalcContent() { return <<<HTML
     </div>
     <h2>Your Max Hit: <span id="maxHit" class="gold-text"></span></h2>
 </div>
+<script type="text/javascript" src="js/calculators/max_hit.js"></script>
 HTML; }
