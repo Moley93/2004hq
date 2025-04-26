@@ -70,6 +70,8 @@ Site by Moley, Eilert, Halogod & Collin.<br><br>
     </tr>
   </thead>
   <tbody>
+    <tr><td>22/04/2025</td><td>Updated F2P quest guides with checkboxes</td></tr>
+    <tr><td>15/04/2025</td><td>Splashing → Magic Calculator; now includes all Magic</td></tr>
     <tr><td>15/04/2025</td><td>Added Halogod's Calculators</td></tr>
     <tr><td>14/04/2025</td><td>Proofread all quest guides for grammar and typos</td></tr>
     <tr><td>13/04/2025</td><td>Added Treasure Trail Guides</td></tr>
