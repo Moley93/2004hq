@@ -10,7 +10,7 @@ Levels Required: 10 Fletching, 20 Smithing. (High-level Woodcutting helps with t
 <br>
 Items Required: Desert gear (boots, robe, and shirt), Shantay Pass, knife, full or empty waterskin(s), hammer, 2-3 bronze bars, 10-30 feathers, at least 105gp, food, an amulet, a weapon. (Note: The only armor that won't burn you in the desert is a helmet, cape, and shield. However, you MUST unequip the helmet and shield around guards.)<br>
 <br>
-Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Addy mine in the Mining Camp. Irena will give you the choice of free exp in 2 skills - Agility, Thieving, Smithing, or Fletching. The higher your level, the better the experience. Also, you can choose the same skill twice and gain the ability to make darts.<br>
+Rewards: Ana will give you a Wrought Iron Key useful for getting to a Mith & Addy mine in the Mining Camp. Irena will give you the choice of free exp in 2 skills — Agility, Thieving, Smithing, or Fletching. The higher your level, the better the experience. Also, you can choose the same skill twice and gain the ability to make darts.<br>
 <br>
 1. Start by talking to Irena. She is found through the Shantay Pass. You can pay Shantay 5gp to buy a pass first. Then go through and speak with Irena. (Note: Shantay also sells other items you will need for this quest.)<br>
 <br>

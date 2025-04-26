@@ -12,7 +12,7 @@ Requirements: 107 Quest Points and must have completed Hero's Quest, Family Cres
 <br>
 Skills Needed To Start: Level 50 Strength, Level 42 Prayer, Level 56 Magic, Level 50 Agility, Level 45 Herblore, Level 50 Thieving, Level 50 Crafting, Level 52 Mining, Level 50 Smithing, Level 50 Woodcutting.<br>
 <br>
-Items: Charcoals, Lockpick, Pickaxe, 2 Gold Bars (more pairs can help), Hammer, Vial of water, Unpowered orb, Runes to Cast Charge Orb (any); Runes - 1 soul, 1 mind, 1 earth, 2 laws ("SMELL"); Sapphire, Emerald, Ruby, Diamond, Opal, Jade, Red Topaz; Rope<br>
+Items: Charcoals, Lockpick, Pickaxe, 2 Gold Bars (more pairs can help), Hammer, Vial of water, Unpowered orb, Runes to Cast Charge Orb (any); Runes — 1 soul, 1 mind, 1 earth, 2 laws ("SMELL"); Sapphire, Emerald, Ruby, Diamond, Opal, Jade, Red Topaz; Rope<br>
 <br>
 Optional items: Silverlight, prayer pots (highly recommended), potion Super Set, Stat Restore, empty Vials, teleportation runes (fully charged dragon ammy helps to get back to shilo village).<br>
 <br>
@@ -40,7 +40,7 @@ Cut your way into the impressive jungle wall using a Machete and a hatchet. Do n
 <br>
 Random enemies you may encounter include the Jungle Savage (Lvl 90), Jungle Wolf (Lvl 64), and the chicken-like Oomlie Bird (Lvl 46).<br>
 <br>
-Now start mapping the jungle. Map the Western, Eastern and Middle area - a message will show the section in green when an area is complete; if you fail, just try again. Exit the jungle and show the complete Radimus Notes to the Forester. He will be so impressed that he will give you a Bull roarer, if you let him copy your notes.<br>
+Now start mapping the jungle. Map the Western, Eastern and Middle area — a message will show the section in green when an area is complete; if you fail, just try again. Exit the jungle and show the complete Radimus Notes to the Forester. He will be so impressed that he will give you a Bull roarer, if you let him copy your notes.<br>
 <br>
 It is not required, but if you had difficult random enemy encounters it's optional to restock food at Shilo Village now. Ditch any leftover Charcoal and Papyrus, but keep the new Bull roarer for the next step. The map, Machete and hatchet are required for all entries into the forest.<br>
 <br>
@@ -73,7 +73,7 @@ Head back into the cavern and douse the flame; search the desk and find the Sham
 <br>
 Search the northeast bookcase and enter.<br>
 <br>
-Use your Lock pick on the Ancient Gate and go slowly - do not break your Lock pick.<br>
+Use your Lock pick on the Ancient Gate and go slowly — do not break your Lock pick.<br>
 <br>
 Proceed to smash the three boulders (requires pickaxe). If you fail, just try again.<br>
 <br>
@@ -83,7 +83,7 @@ Now go all the way south through the cave of Death Wings, then continue southwes
 <br>
 Further along the west side of this corridor you will discover a Marked Wall. Search it and you will get a riddle hinting what order to insert the runes to unlock the passage. The runes to use are 1 soul rune, 1 mind rune, 1 earth rune, and 2 law runes, which spells "SMELL".<br>
 <br>
-Now pass through the Marked Wall to an area of 7 water pools with stalagmites. Use each gem on a stalagmite to find which one is correct - if it is not, it will say "Nothing interesting happens." There are no failure penalties, just keep trying. When you walk away after a successful placement, the game text says the gem starts to fade; this is normal. [For me the gem placement went in order of value from the diamond at the south pool, clockwise around the pools to the opal at the southeast pool. Just place them until they work.] When each gem is in the right spot, the gems will appear and glow to rebuild the Book of Binding. Grab it and read it - it tells how to defeat the demon.<br>
+Now pass through the Marked Wall to an area of 7 water pools with stalagmites. Use each gem on a stalagmite to find which one is correct — if it is not, it will say "Nothing interesting happens." There are no failure penalties, just keep trying. When you walk away after a successful placement, the game text says the gem starts to fade; this is normal. [For me the gem placement went in order of value from the diamond at the south pool, clockwise around the pools to the opal at the southeast pool. Just place them until they work.] When each gem is in the right spot, the gems will appear and glow to rebuild the Book of Binding. Grab it and read it — it tells how to defeat the demon.<br>
 <br>
 The below paragraphs explain how to enchant vials and make Holy Water. Note that this section is optional because most players fight the demon without doing this, and the few people who have done it were unimpressed with the performance of the Holy Water (it hits no better than a dragon baxe).<br>
 <br>
@@ -114,7 +114,7 @@ Make the Bravery Potion by using Snake Weed on a Vial of water and then using Ar
 <br>
 The next steps require the Bravery potion, Rope, Lockpick, pickaxe, Unpowered orb, and the Charge orb runes, in addition to the minimum Kharazi equipment of hatchet, Machete and map. Wield your best armor and weapon, as you will have to fight several high-level enemies. Holy water vials or Silverlight are optional when fighting the demon, but if you plan to go for the Holy Force spell (Step 29), you can postpone bringing these since you will have time for another bank run after you speak to Ungadulu (though this will cost you a second Casting of Charge Orb). Prayer potions and food are recommended. Expect to take damage from agility obstacles.<br>
 <br>
-Make your way back to the gems spot where you got the Book of Binding. Go to the Ancient Gate on the north wall and cast a Charge Orb spell - it does not matter which one you use. Note that you must re-cast this spell each time you wish to pass this gate, so always remember to pack the necessary runes and an Unpowered orb.<br>
+Make your way back to the gems spot where you got the Book of Binding. Go to the Ancient Gate on the north wall and cast a Charge Orb spell — it does not matter which one you use. Note that you must re-cast this spell each time you wish to pass this gate, so always remember to pack the necessary runes and an Unpowered orb.<br>
 <br>
 Now you will see a winch. Use your rope on it BUT before going down, drink your Bravery potion. Your rope will remain in place for all future uses of this winch; just search to reveal it. If you forgot your rope, you can smash the barrels until you find one, but they may also release damaging explosions and various enemies (bat, hobgoblin, spider, etc.) The Bravery potion is only needed the first time.<br>
 <br>
@@ -143,11 +143,11 @@ At this point you have two options. (1) Go back where the blue hat was and attac
 <br>
 Now push a boulder. It will require a couple of pushes from different angles to move it as far as possible. After you move it, use your bowl on the Holy Water spot. Use your Holy Water on Yommie Tree Seeds to germinate them and fill your bowl with Holy Water again. Now get back to the surface. [If you do not have your blessed bowl with you, you can refill it later on the surface since your movement of the boulder will refresh the Water Pool.]<br>
 <br>
-This step requires your rune hatchet, the Yommie Tree seeds and a Blessed bowl full of Holy Water (in addition to the normal Kharazi equipment). Bull Roar Gujuo and tell him you have germinated the Yommie Tree Seeds and he will tell you that you need to find fertile soil. Search for fertile soil (dark brown spots on the ground) and use a seed on it. A tree will grow - when it becomes a young tree and needs water, use Holy Water on it and the tree will become an adult.<br>
+This step requires your rune hatchet, the Yommie Tree seeds and a Blessed bowl full of Holy Water (in addition to the normal Kharazi equipment). Bull Roar Gujuo and tell him you have germinated the Yommie Tree Seeds and he will tell you that you need to find fertile soil. Search for fertile soil (dark brown spots on the ground) and use a seed on it. A tree will grow — when it becomes a young tree and needs water, use Holy Water on it and the tree will become an adult.<br>
 <br>
 Now do this fast: use your Rune axe (hatchet) on it a few times until you get a Totem Pole; do it fast or the tree will die. Raise your totem pole and pick it up. It is so heavy that you may lose some strength.<br>
 <br>
-This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food. Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Before doing anything, drink your Super Set potions and then use your Totem Pole on the Dark one. The demon will appear and you will again have to fight the 3 warriors from the cave - the levels 106, 100 and 92. **If you went for the Holy Force spell in step 29, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Magic prayer is recommended for this battle.<br>
+This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food. Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Before doing anything, drink your Super Set potions and then use your Totem Pole on the Dark one. The demon will appear and you will again have to fight the 3 warriors from the cave — the levels 106, 100 and 92. **If you went for the Holy Force spell in step 29, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Magic prayer is recommended for this battle.<br>
 <br>
 Then, after vanquishing the demon for the final time, use your Totem Pole on the Dark totem pole again.<br>
 <br>

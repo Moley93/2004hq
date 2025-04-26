@@ -24,7 +24,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     <b>Extra:</b> Show the Curator all Digging Certificates and you can choose
     between a free Snack (Chocolate Cake) or a Drink (Fruit Blast Cocktail) </p>
   <p><u>Instructions:</u></p>
-  <ol>
+  <ul>
     <li><input type="checkbox"> Talk to the Archeological expert. He tells you
       to bring anything you find to him. Inquire about exams to Examiner. She
       gives you an unstamped certificate of recommendation.<br>
@@ -186,7 +186,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
     </li>
     <li><input type="checkbox"> Take the stone tablet back to the Archeological
       expert to complete the quest and get your reward. </li>
-</ol>
+</ul>
 $questComplete
 <p>
 This quest guide was written by Elyria1. Thanks to FunkyMetal, stormer, kevin rigby, ya sissy jrr for corrections.<br>

@@ -54,23 +54,23 @@ Reward: 1 Quest Point, 1,000 Thieving XP, 2,000 coins, a real cool armour if you
 $questComplete
 <br>
 <b>Valve Locations</b><br>
-1st Valve: South wall of Carnillean Mansion- turn right<br>
+1st Valve: South wall of Carnillean Mansion — turn right<br>
 <br>
 <img src="img\questimages\hazeelcult4.jpg" height="350" width="350"><br>
 <br>
-2nd Valve: Directly south of the bridge - turn right<br>
+2nd Valve: Directly south of the bridge — turn right<br>
 <br>
 <img src="img\questimages\hazeelcult5.png" height="350" width="350"><br>
 <br>
-3rd Valve: Directly north of the cave entrance by fence- turn right<br>
+3rd Valve: Directly north of the cave entrance by fence — turn right<br>
 <br>
 <img src="img\questimages\hazeelcult6.png" height="350" width="350"><br>
 <br>
-4th Valve: South of Ardougne Zoo- turn left<br>
+4th Valve: South of Ardougne Zoo — turn left<br>
 <br>
 <img src="img\questimages\hazeelcult7.png" height="350" width="350"><br>
 <br>
-5th Valve: Follow the Zoo fence path south until iron rocks- turn right<br>
+5th Valve: Follow the Zoo fence path south until iron rocks — turn right<br>
 <br>
 <img src="img\questimages\hazeelcult8.png" height="350" width="350"><br>
 <br>
