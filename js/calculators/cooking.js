@@ -96,7 +96,7 @@ function calculateFood() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${food.level}</td>
-            <td><canvas data-itemname="${food.name.toLowerCase().replace(/\s+/g, '_')}" data-add-item-name="true" data-inline="true"></canvas></td>
+            <td><canvas data-itemname="${food.name.toLowerCase().replace(/\s+/g, '_')}" data-show-label="inline"></canvas></td>
             <td>${food.xp}</td>
             <td>${foodCount.toLocaleString()}</td>
         `;

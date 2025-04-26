@@ -82,7 +82,7 @@ function calculateOres() {
         } else {
             row.innerHTML = `
                 <td>${ore.level}</td>
-                <td><canvas data-itemname="${ore.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
+                <td><canvas data-itemname="${ore.name.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
                 <td>${ore.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>
             `;

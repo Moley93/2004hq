@@ -49,7 +49,7 @@ async function loadDropTable() {
 
         const canvasElement = document.createElement("canvas");
         canvasElement.setAttribute("data-itemname", itemName);
-        canvasElement.setAttribute("data-add-item-name", "true");
+        canvasElement.setAttribute("data-show-label", "true");
         canvasElement.width = 36;
         canvasElement.height = 36;
 

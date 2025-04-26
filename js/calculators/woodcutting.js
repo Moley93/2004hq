@@ -68,7 +68,7 @@ function calculateLogs() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${log.level}</td>
-            <td><canvas data-itemname="${log.name.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
+            <td><canvas data-itemname="${log.name.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
             <td>${log.xp}</td>
             <td>${logCount.toLocaleString()}</td>
         `;

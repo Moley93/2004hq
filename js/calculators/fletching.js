@@ -111,7 +111,7 @@ function calculateFletching() {
             let row = document.createElement("tr");
             row.innerHTML = `
                 <td>${levelReq}</td>
-                <td><canvas data-itemname="${arrow.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
+                <td><canvas data-itemname="${arrow.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
                 <td>${xpPerAction}</td>
                 <td>${count.toLocaleString()}</td>
             `;
@@ -138,7 +138,7 @@ function calculateFletching() {
             let row = document.createElement("tr");
             row.innerHTML = `
                 <td>${levelReq}</td>
-                <td><canvas data-itemname="${itemName.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
+                <td><canvas data-itemname="${itemName.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
                 <td>${xpToUse}</td>
                 <td>${count.toLocaleString()}</td>
             `;

@@ -14,13 +14,13 @@ Description: The Fitzharmon family crest has gone missing, and the family honour
     <div data-progress>59 Magic</div><br>
     <div data-progress><canvas data-itemname="ruby"></canvas><br>2 Cut Rubies</div>
     <div data-progress><canvas data-itemname="bronze_pickaxe"></canvas><br>Any Pickaxe</div><br><br>
-    <div data-progress><canvas data-itemname="shrimps" data-add-item-name="true"></canvas></div>
-    <div data-progress><canvas data-itemname="salmon" data-add-item-name="true"></canvas></div>
-    <div data-progress><canvas data-itemname="tuna" data-add-item-name="true"></canvas></div>
-    <div data-progress><canvas data-itemname="bass" data-add-item-name="true"></canvas></div>
-    <div data-progress><canvas data-itemname="swordfish" data-add-item-name="true"></canvas></div><br><br>
-    <div data-progress><canvas data-itemname="ring_mould" data-add-item-name="true"></canvas></div>
-    <div data-progress><canvas data-itemname="necklace_mould" data-add-item-name="true"></canvas></div>
+    <div data-progress><canvas data-itemname="shrimps" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="salmon" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="tuna" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="bass" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="swordfish" data-show-label="true"></canvas></div><br><br>
+    <div data-progress><canvas data-itemname="ring_mould" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="necklace_mould" data-show-label="true"></canvas></div>
     <div data-progress><canvas data-itemname="3doseantipoison"></canvas><br>Antipoison Potion</div><br><br>
     <div data-progress><canvas data-itemname="deathrune"></canvas><br>4 Death Runes</div>
     <div data-progress><canvas data-itemname="airrune"></canvas><br>13 Air Runes</div>

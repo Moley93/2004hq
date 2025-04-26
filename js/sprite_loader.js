@@ -87,12 +87,12 @@ function renderSpriteToCanvas(debugname, canvas) {
   canvas.title = `${name} — ${desc}`;
 
   // Append item name if requested
-  if (canvas.getAttribute("data-add-item-name") === "true") {
+  if ((canvas.getAttribute("data-show-label") === "true") || (canvas.getAttribute("data-show-label") === "inline")) {
     const next = canvas.nextElementSibling;
     const alreadyExists = next && next.classList.contains("item-label");
   
     if (!alreadyExists) {
-      const inline = canvas.getAttribute("data-inline") === "true";
+      const inline = canvas.getAttribute("data-show-label") === "inline";
       const label = document.createElement("div");
       label.textContent = name;
       label.className = "item-label";

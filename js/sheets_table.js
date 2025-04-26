@@ -91,7 +91,7 @@ export function renderTable(targetId, { cols, rows }, rowsPerPage = 10) {
 
       // Item Column (canvas + name)
       const tdItem = tr.insertCell();
-      tdItem.innerHTML = `<canvas data-itemid="${itemInfo.id}" data-itemname="${debugname}" data-add-item-name="true" data-inline="true"></canvas>`
+      tdItem.innerHTML = `<canvas data-itemid="${itemInfo.id}" data-itemname="${debugname}" data-show-label="inline"></canvas>`
 
       // Price Columns
       if (priceMin === priceMax) {

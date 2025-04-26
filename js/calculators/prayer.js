@@ -67,7 +67,7 @@ function calculateBones() {
 
         let row = document.createElement("tr");
         row.innerHTML = `
-            <td><canvas data-itemname="${bone.toLowerCase().replace(/\s+/g, "_")}" data-add-item-name="true" data-inline="true"></canvas></td>
+            <td><canvas data-itemname="${bone.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
             <td>${bones[bone]}</td>
             <td>${boneCount.toLocaleString()}</td>
         `;
