@@ -427,3 +427,7 @@ A.pink:hover {
 [data-floors] {
     white-space: nowrap;
 }
+[data-progress] canvas {
+    vertical-align: middle;
+    margin-left: 4px;
+  }

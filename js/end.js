@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
-    const pageKey = window.location.pathname.replace(/\W+/g, '_');
+    const pageKey = (window.location.pathname + window.location.search).replace(/\W+/g, '_');
   
     document.querySelectorAll('div[data-progress]').forEach((div, index) => {
       if (!div.id) {
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       checkbox.style.marginRight = '8px';
   
       const label = document.createElement('label');
-      label.style.display = 'flex';
+      label.style.display = 'inline-flex';
       label.style.alignItems = 'center';
       label.style.cursor = 'pointer';
       label.htmlFor = checkbox.id;
