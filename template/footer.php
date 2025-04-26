@@ -57,5 +57,6 @@
     <img src="img/scroll_icon.png" width="19" height="67" alt="Scroll to top">
     <div style="font-size:12px; color:white;">Scroll to Top</div>
 </div>
+<script type="text/javascript" src="js/end.js"></script>
 </body>
 </html>

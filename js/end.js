@@ -1,0 +1,64 @@
+/* Start check boxes section */
+document.addEventListener('DOMContentLoaded', () => {
+    const PROGRESS_COOKIE = 'progress_checkboxes';
+  
+    function getCookie(name) {
+      const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      return match ? decodeURIComponent(match[2]) : null;
+    }
+  
+    function setCookie(name, value, days = 365) {
+      const expires = new Date(Date.now() + days * 86400 * 1000).toUTCString();
+      document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/`;
+    }
+  
+    let savedState = {};
+    const cookieData = getCookie(PROGRESS_COOKIE);
+    if (cookieData) {
+      try {
+        savedState = JSON.parse(cookieData);
+      } catch (e) {
+        console.error('Invalid cookie data');
+      }
+    }
+  
+    const pageKey = window.location.pathname.replace(/\W+/g, '_');
+  
+    document.querySelectorAll('div[data-progress]').forEach((div, index) => {
+      if (!div.id) {
+        div.id = `${pageKey}-progress-div-${index}`;
+      }
+  
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.id = `checkbox-${div.id}`;
+      checkbox.style.marginRight = '8px';
+  
+      const label = document.createElement('label');
+      label.style.display = 'flex';
+      label.style.alignItems = 'center';
+      label.style.cursor = 'pointer';
+      label.htmlFor = checkbox.id;
+  
+      if (savedState[div.id]) {
+        checkbox.checked = true;
+        div.style.textDecoration = 'line-through';
+      }
+  
+      div.parentNode.insertBefore(label, div);
+      label.appendChild(checkbox);
+      label.appendChild(div);
+  
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+          div.style.textDecoration = 'line-through';
+          savedState[div.id] = true;
+        } else {
+          div.style.textDecoration = 'none';
+          delete savedState[div.id];
+        }
+        setCookie(PROGRESS_COOKIE, JSON.stringify(savedState));
+      });
+    });
+  });
+  /* End check boxes section */
