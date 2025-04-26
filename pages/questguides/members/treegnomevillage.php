@@ -25,7 +25,7 @@ Reward: A gnome amulet of protection, 11,500 Attack XP, the ability to use the s
 <br>
 <input type="checkbox"> Head south on the outskirts of the camp to find the 3rd tracker. He's a little "off" and gives you a strange riddle to decipher the X-coordinate. Luckily, I'm a master riddler and figured it out.<br>
 <br>
-<input type="checkbox"> "More than me"-Higher than 1, "Less than our feet"-Less than 4, "More than we"-More than 2, and "Khazard's men are beat"-This obviously refers to me as beating the men, NOT, well anyway he means 3 because thats the only number left. Return to the Gnome camp.<br>
+<input type="checkbox"> "More than me" — Higher than 1, "Less than our feet" — Less than 4, "More than we" — More than 2, and "Khazard's men are beat" — This obviously refers to me as beating the men, NOT, well anyway he means 3 because thats the only number left. Return to the Gnome camp.<br>
 <br>
 <input type="checkbox"> Go directly to the ballista and use the coordinates you have learned.<br>
 Height=4 X=3 Y=5<br>
