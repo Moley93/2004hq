@@ -7,6 +7,8 @@ Description: Help the Gnome Kingdom retrieve orbs of protection from the evil Kh
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed to Start: 6 normal logs, the ability to defeat a level 112 Khazard Warlord<br>
 <br>
 Starting Location: King Bolren, next to the huge spirit tree in the middle of the Tree Gnome Maze<br>

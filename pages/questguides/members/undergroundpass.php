@@ -4,16 +4,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 Starting Location: East Ardougne Speak to: King Lathas<br>
 <br>
-<br>
 <b>Difficulty Level: <font color="Orange">Medium/Long</font></b><br>
 <br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Minimum requirements: Level 25 Ranged, must defeat three level 91 demons, must have completed the Biohazard quest, and good Thieving and Agility are an advantage. Level 25 Agility is recommended, though.<br>
 <br>
-<br>
 Items needed: Bow, arrows, spade, rope (maybe two if you want to save a tiny bit of time), armour, weapon, and food (Note: you might want to take a bow and arrows, that you do not mind dropping. After certain points you will not need them again, and inventory space can get pretty low.)<br>
 If your thieving is below level 50 you will probably have a harder time with this quest. You will need as much food that heals the most hit points as you can carry.<br>
-<br>
 <br>
 Reward: 5 Quest Points, Agility exp (amount depends on your level), Staff of Iban, 15 Death Runes, 30 Fire Runes, and the ability to use Iban Blast.<br>
 <br>

@@ -4,7 +4,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 Description: Run errands for the dwarf commander to repair his base and build his defenses.<br>
 <br>
-<b>Difficulty Level: <font color="Yellow">Medium (Lots of walking)</font></b><br>
+<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
+<br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> Some teleports are recommended, <input type="checkbox"> and level 20 Agility is required to cross the log bridge<br>
 <br>

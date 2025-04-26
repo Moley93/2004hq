@@ -4,7 +4,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
-<b>Quest Length: <font color="Red">Long</font></b><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Levels Required: 10 Fletching, 20 Smithing. (High-level Woodcutting helps with the cactus.)<br>
 <br>

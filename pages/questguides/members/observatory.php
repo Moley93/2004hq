@@ -6,6 +6,8 @@ Description: Help a professor fix his telescope. This proves more difficult than
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: A bronze bar, molten glass, 3 planks, 10 Crafting, a cure poison potion (recommended).<br>
 <br>
 Starting Location: West across the river from the gnome maze, just next to the small goblin town.<br>

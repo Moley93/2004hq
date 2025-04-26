@@ -6,6 +6,8 @@ Description: Gertrude's cat is missing, and she is frantic about finding it. Tra
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> A Raw Sardine, <input type="checkbox"> a Doogle Leaf, <input type="checkbox"> Bucket of Milk<br>
 <br>
 Starting Location: Just across the road from Juliet's house, west of Varrock<br>

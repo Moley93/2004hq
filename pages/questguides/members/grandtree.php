@@ -7,6 +7,8 @@ Description: The Grand Tree, which shelters the majority of RuneScape's small gn
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<br>
 Items/Skills Needed To Start: 25 agility, the ability to beat level 172 demon, 30gp for your trip to Ardougne from Brimhaven<br>
 <br>
 Starting Location: Grand Tree in the Gnome Stronghold northwest of Ardougne<br>

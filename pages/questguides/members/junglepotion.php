@@ -6,12 +6,13 @@ Description: Tai Bwo Wannai medicine man Trifitus needs five special herbs so he
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium (Lots of running past enemies)</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: Weapon and armor to run past Jogres (level 48)<br>
 <br>
 Starting Location: Tai Bwo Wannai's circular bamboo house<br>
 <br>
 Reward: 1 quest point, a decent amount of herblore xp<br>
-
 <h3>Instructions:</h3>
 Talk to Trifitus about what he needs. He will tell you to go find an herb called Snake Weed. Head southwest through the village and cross the muddy land bridge. Go slightly west, look for a marshy jungle vine, and search it. Then, identify the herb. Go back to Trifitus<br>
 <br>

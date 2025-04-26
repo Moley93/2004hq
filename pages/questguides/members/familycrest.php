@@ -6,6 +6,8 @@ Description: The Fitzharmon family crest has gone missing, and the family honour
 <br>
 <b>Difficulty Level: <font color="red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 40 Mining, <input type="checkbox"> 40 Smithing, <input type="checkbox"> 40 Crafting, <input type="checkbox"> 59 Magic (or if you are 56 you can use a Wizard's Mind Bomb, bought in Falador bar), <input type="checkbox"> two cut rubies, all the runes needed to cast all of the "Blast" spells, a cure poison potion, <input type="checkbox"> a pickaxe, <input type="checkbox"> some good armor, <input type="checkbox"> a good weapon, <input type="checkbox"> some food<br>
 <br>
 Starting Location: Southeast of the East Varrock bank<br>

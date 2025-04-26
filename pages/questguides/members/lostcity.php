@@ -7,7 +7,6 @@ Description: Legends tell of a magical lost city hidden in the swamps. Many adve
 <b>Difficulty Level: <font color="Orange">Experienced</font></b><br>
 <br>
 <b>Length: <font color="Yellow">Medium</font></b><br>
-
 <br>
 Requirements: Level 31 Crafting<br>
 Level 36 Woodcutting<br>

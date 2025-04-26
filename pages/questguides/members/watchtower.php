@@ -4,12 +4,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 Items/Skills Needed To Start: Mining 40+, Agility 30+, Thieving 15+, Magic 14+, Herblaw 14+. A good combat level is an advantage, as you'll need to kill a monster. 20gp+ (bring more if you're not great at Agility!), 1 gold bar, 1 lit candle, 1 death rune, a pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, a guam leaf, a water-filled vial, pestle and mortar. (Food, armour, a weapon, and an anti-dragon breath shield are very useful!) This is a lot of items, but make sure to have room for around 7 or 8 extra items.<br>
 <br>
-<br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
 <br>
 Quest Start: Watchtower, which is north of Yanille (just follow yanilles north wall and you'll be there)<br>
-<br>
 <br>
 Reward: 4 Quest Points, 5,000gp, 12,000 Magic XP, Watchtower Teleport (requires level 58 Magic).<br>
 <br>
@@ -19,7 +18,7 @@ Reward: 4 Quest Points, 5,000gp, 12,000 Magic XP, Watchtower Teleport (requires 
 <br>
 2. After you have spoken to the Watchtower Wizard, you will need to go outside (down 2 ladders) and search all the bushes around the Watchtower until you find some fingernails, an eye patch, a dagger, and some armor. Go back to the wizard and talk to him – this time you can use the ladder. He will send you on your mission to recover the crystals.<br>
 <br>
-3. Now go down to the <span data-floors="US">first floor</span> and take the lit candle that respawns on the table (if you don't already have a lit candle). Also if you don't have a bat bone yet, you can get them now. There is a dungeon just East of the Watchtower (location #2). Cut through the webs and go down the stairs. Kill a bat to get bat bones.<br>
+3. Now go down to the <span data-floors="US">1st floor</span> and take the lit candle that respawns on the table (if you don't already have a lit candle). Also if you don't have a bat bone yet, you can get them now. There is a dungeon just East of the Watchtower (location #2). Cut through the webs and go down the stairs. Kill a bat to get bat bones.<br>
 <br>
 4. First you will need to talk to Og the Ogre. Exit Yanille through the West gate and you will come to the ogre settlement (location #3). Speak with him and he will help you – but only after you have helped him. Og will give you a key and ask you to retrieve his gold bar that was stolen by Toban the Ogre.<br>
 <br>

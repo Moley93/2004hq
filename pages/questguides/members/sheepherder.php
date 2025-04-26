@@ -6,6 +6,8 @@ Description: Four plague-infected sheep have gotten loose, and it's up to you to
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: 100gp<br>
 <br>
 Starting Location: Just south of the Ardougne chapel, east of the west/east Ardougne river bridge.<br>

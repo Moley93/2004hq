@@ -7,6 +7,8 @@ Description: Merlin the Wizard has carelessly become imprisoned inside a giant c
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font>/<font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start:Bat Bones, Black Candle, Tinderbox, Loaf of Bread<br>
 <br>
 Starting Location:Talk to King Arthur in Camelot Castle<br>
@@ -34,9 +36,9 @@ Head to the jewlery shop in Port Sariam, when you try to open the door a beggar 
 <br>
 Go to Varrock wild, walk straight until you reach lvl 12 wild right click on the altar and click "check altar" it will tell you the inscription which is "Snarthon Candtrick Termanto".<br>
 <br>
-Head back to Camelot Castle with your lit black candle, and bat bones..to the north east side of the castle you will see a pentagram with an orange symbol on the floor, stand on that symbol drop your bat bones on it and a demon will appear you will then have to chant the inscription you've seen on the altar in the wild. Once you've chanted the correct words he'll tell you its done and you can now smash the crystal Merlin is in using the excalibur sword<br>
+Head back to Camelot Castle with your lit black candle and bat bones. To the northeast side of the castle you will see a pentagram with an orange symbol on the floor, stand on that symbol drop your bat bones on it and a demon will appear you will then have to chant the inscription you've seen on the altar in the wild. Once you've chanted the correct words he'll tell you its done and you can now smash the crystal Merlin is in using the excalibur sword<br>
 <br>
-Proceed to the top floor of the south east end of the castle and use your excalibur sword with the crystal and it will shatter to free Merlin, he tells you to speak with King Arthur for your reward<br>
+Proceed to the top floor of the southeast end of the castle and use your excalibur sword with the crystal and it will shatter to free Merlin, he tells you to speak with King Arthur for your reward<br>
 $questComplete
 <br>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/DbYQeLVeVhQ?si=-F8wCstIZF1ZbNHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>

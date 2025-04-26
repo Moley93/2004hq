@@ -6,6 +6,8 @@ Description: Second part of an ongoing adventure. Help Elena discover the truth 
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 12 coins and <input type="checkbox"> Priest Sets (can be bought in the Varrock's Clothes Shop)<br>
 <br>
 Starting Location: Talk with Elena in Ardougne. She now lives just across the street (east) of where her parents live.<br>

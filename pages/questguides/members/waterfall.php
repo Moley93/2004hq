@@ -6,6 +6,7 @@ Description: Investigate the death of the elven leaders of old. To find mysterio
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: Some rope (one if you do it right, but buy a few from Ned in Draynor Village, just in case — 15 coins each), 6 air runes, 6 water runes, 6 earth runes, a good weapon, some good armor, a stat restore potion, lots of food<br>
 <br>

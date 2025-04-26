@@ -6,6 +6,8 @@ Description: The Mountain Dwarves' home would be an ideal way to cross White Wol
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 5-10 coins, <input type="checkbox"> garlic (found in Draynor Village on the second floor of a house), <input type="checkbox"> a spade (found in Draynor Manor in the east room on the main floor), <input type="checkbox"> a regular fishing rod (purchasable at any fishing shop), <input type="checkbox"> 10 Fishing<br>
 <br>
 Starting Location: East or west of White Wolf Mountain, talk to the dwarf<br>

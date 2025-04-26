@@ -6,6 +6,8 @@ Description: Lord Handelmort of Ardougne is a collector of exotic artifacts. A r
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: Level 21 Thieving, coins for traveling to Karamja<br>
 <br>
 Starting Location: Brimhaven<br>

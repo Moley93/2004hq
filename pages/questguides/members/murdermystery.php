@@ -6,6 +6,8 @@ Description: Lord Sinclair was found murdered in his mansion. Several guards are
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: A Pot<br>
 <br>
 Starting Location: Lord Sinclair's Mansion. Talk to the guard to start.<br>

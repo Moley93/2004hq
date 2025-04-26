@@ -6,6 +6,8 @@ Description: Rantz the Ogre needs to feed his demanding children, Fycie and Bugs
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Requirements: 5 Fletching, 30 Cooking, 30 Ranging<br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> Chisel, <input type="checkbox"> weapons/armor to kill a level 64 wolf, <input type="checkbox"> a Hatchet, <input type="checkbox"> a Knife to cut logs with, <input type="checkbox"> about 100 Feathers, <input type="checkbox"> about 4-5 Wolf bones<br>

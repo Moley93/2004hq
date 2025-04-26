@@ -6,6 +6,8 @@ Description: Rashiliyia, Queen of the Undead, has returned and brought a plague 
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<br>
 Items/Skills Needed To Start: Completed Jungle Potion quest, 32 Agility, 20 Crafting, a spade, ability to kill level 86, 65, and 88 monsters in a row, a rope, lit candle, chisel, hammer, bronze bar (all of which can be bought at the village general store), the ability to battle many level 60 undead<br>
 <br>
 Starting Location: Deep in the Karamja Jungle. When you see a village surrounded by walls, head east and you will find a man named Mosol.<br>

@@ -8,7 +8,7 @@ The magicians, fearing the effect this may have on their profession, sealed this
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
-Length: Short<br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Requirements: 20 Mining, 20 Smithing, 20 Crafting<br>
 <br>

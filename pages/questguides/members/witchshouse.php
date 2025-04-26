@@ -6,6 +6,8 @@ Description: A boy has kicked his ball into an old witch's house. He wants you t
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: Cheese (gloves can be obtained in the Varrock clothes store, cheese in Draynor)<br>
 <br>
 Starting Location: South of the witch's house, Taverley<br>

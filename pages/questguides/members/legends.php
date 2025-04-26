@@ -8,6 +8,8 @@ Requirements: 107 Quest Points and must have completed Hero's Quest, Family Cres
 <br>
 <b>Difficulty Level: <font color="Purple">Very Hard</font></b><br>
 <br>
+<b>Length: <font color="Red">Long</font></b><br>
+<br>
 Skills Needed To Start: Level 50 Strength, Level 42 Prayer, Level 56 Magic, Level 50 Agility, Level 45 Herblore, Level 50 Thieving, Level 50 Crafting, Level 52 Mining, Level 50 Smithing, Level 50 Woodcutting.<br>
 <br>
 Items: Charcoals, Lockpick, Pickaxe, 2 Gold Bars (more pairs can help), Hammer, Vial of water, Unpowered orb, Runes to Cast Charge Orb (any); Runes - 1 soul, 1 mind, 1 earth, 2 laws ("SMELL"); Sapphire, Emerald, Ruby, Diamond, Opal, Jade, Red Topaz; Rope<br>

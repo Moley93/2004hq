@@ -4,7 +4,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 Description: Thormac has lost his rare lesser kharid scorpions after leaving their cage door open. These scorpions have hidden in areas that are rather difficult to get into. You will have to overcome various challenges (and drink a lot) and get all the scorpions back. If you manage to help him Thormac will improve your battlestaves.<br>
 <br>
-<b>Difficulty Level: <font color="Orange">Medium/Hard</font></b><br>
+<b>Difficulty Level: <font color="Yellow">Medium</font>/<font color="red">Hard</font></b><br>
+<br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
 <br>
 Requirements: 31 Prayer, be able to go far in to the Taverley Dungeon<br>
 <br>

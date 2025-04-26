@@ -6,6 +6,8 @@ Description: King Arthur is sending out his knights on a quest for the famous Ho
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: You MUST be a Knight of the Round Table (you must have done the Merlin's Crystal quest), some good armor and a weapon, and possibly one or two prayer restore potions if you have level 43 prayer (which is strongly suggested); one or two cure poison potions would help.<br>
 <br>
 Starting Location: Camelot Castle<br>

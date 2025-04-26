@@ -6,6 +6,8 @@ Description: A mysterious stranger called Lucien asks you to go on a mission dee
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: 42 Thieving, 40 Ranged, a yew or magic bow, a candle (can be bought in Catherby), a tinderbox, 20 limpwurt roots, a knife<br>
 <br>
 Recommendations: Dragon leather ranger armor, prayer restore potions (if you have 37+ Prayer and less than 50 Ranged), melee-resistant armor (to withstand 15 minutes of attacks from level 61 ice spiders), a trustworthy friend to do the quest with.<br>

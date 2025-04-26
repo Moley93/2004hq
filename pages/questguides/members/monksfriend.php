@@ -6,6 +6,8 @@ Description: Brother Omad's friend's child has had their blanket stolen. Find it
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: A hatchet (or have someone cut one pile of logs for you), a weapon to kill some thieves (level 14 and 26), a jug<br>
 <br>
 Starting Location: The monastery south of Ardougne Zoo<br>
