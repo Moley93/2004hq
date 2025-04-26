@@ -6,6 +6,8 @@ Description: Farmer Fred's sheep are getting mighty woolly, and he'll pay you to
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Shears (can be bought at a general store for 1 coin)<br>
 <br>
 Starting Location: The house just west of the sheep, northwest of Lumbridge<br>

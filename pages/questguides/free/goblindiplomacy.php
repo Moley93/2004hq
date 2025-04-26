@@ -5,6 +5,8 @@ Description: There's a disturbance in the goblin village. Help the goblins solve
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Maybe a weapon, <input type="checkbox"> 50+ Coins<br>
 <br>
 Starting Location: Port Sarim Pub<br>

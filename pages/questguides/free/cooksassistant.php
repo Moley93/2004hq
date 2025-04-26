@@ -6,6 +6,8 @@ Description: The Duke of Lumbridge will have a birthday but the cook has forgott
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Egg, <input type="checkbox"> Bucket of milk, and <input type="checkbox"> Pot of flour<br>
 <br>
 Starting Location: Lumbridge Castle<br>

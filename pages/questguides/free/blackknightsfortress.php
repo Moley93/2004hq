@@ -6,6 +6,8 @@ Description: The black knights are up to no good. You are hired by the white kni
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 12 quest points, <input type="checkbox"> Bronze medium helmet, <input type="checkbox"> Iron chainmail<br>
 <br>
 Starting Location: <span data-floors="US">3rd floor</span> of White Knights' Castle in Falador.<br>

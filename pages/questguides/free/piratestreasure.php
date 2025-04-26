@@ -6,6 +6,8 @@ Description: Redbeard Frank knows where some secret pirate treasure is hidden. I
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 60 coins, <input type="checkbox"> a White Apron, <input type="checkbox"> a Spade<br>
 <br>
 Starting Location: The pub in Port Sarim<br>

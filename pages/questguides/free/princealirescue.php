@@ -5,6 +5,8 @@ Description: Prince Ali of Al Kharid has been kidnapped by the scheming Lady Kel
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start:<br>
 <br>
 <input type="checkbox"> Rope: You can buy from Ned in Draynor Village.<br>

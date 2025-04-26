@@ -6,6 +6,8 @@ Description: Wizard Mizgog has lost his beads because Wizard Grayzag summoned ma
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: None<br>
 <br>
 Starting Location: <span data-floors="US">3rd floor</span> of the Wizard's Tower south of Draynor Village<br>

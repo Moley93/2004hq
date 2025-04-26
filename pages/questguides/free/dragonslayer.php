@@ -6,6 +6,8 @@ Description: Prove yourself a true hero. Kill the mighty dragon Elvarg of Crando
 <br>
 <b>Difficulty Level: <font color="Red">Hard</font></b><br>
 <br>
+<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 6 Steel bars or 12 Nails, <input type="checkbox"> 3 Planks, <input type="checkbox"> 2,000 gp (or an extra 10,000 gp if you can't Telekinetic Grab), <input type="checkbox"> an Unfired bowl, <input type="checkbox"> a Lobster pot, <input type="checkbox"> some Silk, <input type="checkbox"> a Wizard Mind Bomb, <input type="checkbox"> and any items you think you need to defeat Elvarg (the green dragon).<br>
 <br>
 <b>Starting Location: Champion's Guild</b><br>

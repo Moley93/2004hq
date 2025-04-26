@@ -6,6 +6,8 @@ Description: Become one with your darker side. Tap into your hidden depths of ma
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 300 coins to buy an eye of newt<br>
 <br>
 Starting Location: Rimmington<br>

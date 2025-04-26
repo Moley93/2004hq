@@ -7,6 +7,8 @@ Description: Want to learn how to craft runes? Then this is the quest you need t
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 <!-- Items/Skills Needed To Start: Pick Axe to mine Rune Essentials -->
 Items/Skills Needed To Start: <input type="checkbox"> Pickaxe to mine Rune Essence<br>
 <br>

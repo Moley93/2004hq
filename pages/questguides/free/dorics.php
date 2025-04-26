@@ -6,6 +6,8 @@ Description: Doric the dwarf is happy to let you use his anvils, but first he wo
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Any pickaxe, <input type="checkbox"> 15 Mining<br>
 <br>
 Starting Location: Doric's Anvil (north of Falador)<br>

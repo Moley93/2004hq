@@ -6,6 +6,8 @@ Description: Romeo and Juliet long to be together, but Juliet's father doesn't a
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Cadavaberries (you can get them east of the stone circles, which are south of Varrock)<br>
 <br>
 Starting Location: Juliet's house, just west of Varrock on the north side of the road<br>

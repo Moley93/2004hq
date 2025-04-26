@@ -6,6 +6,8 @@ Description: Wizards of the dark arts have freed the ancient demon Delrith. Find
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 25 Bones, <input type="checkbox"> 1 Coin<br>
 <br>
 <b>Starting Location: The Gypsy in her tent at Varrock Square</b><br>

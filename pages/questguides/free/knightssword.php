@@ -6,6 +6,8 @@ Description: Sir Vyvin's squire has just lost Vyvin's one-of-a-kind sword. The s
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> Pickaxe, <input type="checkbox"> level 10 Mining, <input type="checkbox"> redberry pie (level 10 Cooking to make), <input type="checkbox"> 2 iron bars (level 15 Smithing to make yourself), and some running past Ice Giants and Warriors if you're a lower level.<br>
 <br>
 Starting Location: The courtyard of the White Knight's Castle<br>

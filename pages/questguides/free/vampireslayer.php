@@ -6,6 +6,8 @@ Description: Count Draynor is terrorizing the small village of Draynor. The town
 <br>
 <b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> A hammer, <input type="checkbox"> decent armor and weapon, <input type="checkbox"> a few gp to buy some beers.<br>
 <br>
 Starting Location: Draynor Village<br>

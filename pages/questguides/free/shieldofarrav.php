@@ -6,6 +6,8 @@ Description: Long ago, the Shield of Arrav was a great artifact. It was broken i
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
 <br>
+<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<br>
 Items/Skills Needed To Start: <input type="checkbox"> 20-40 coins, <input type="checkbox"> a friend who has not done the quest<br>
 <br>
 Location: Reldo in the palace library of Varrock.<br>

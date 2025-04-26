@@ -3,7 +3,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>2004HQ - $questName</h2>
 Description: Veronica is very worried. Her fiancé went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.<br>
 <br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br></b>
+<b>Difficulty Level: <font color="Green">Easy</font></b><br>
+<br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: None<br>
 <br>
