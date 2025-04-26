@@ -90,17 +90,35 @@ function renderSpriteToCanvas(debugname, canvas) {
   if (canvas.getAttribute("data-add-item-name") === "true") {
     const next = canvas.nextElementSibling;
     const alreadyExists = next && next.classList.contains("item-label");
-
+  
     if (!alreadyExists) {
+      const inline = canvas.getAttribute("data-inline") === "true";
       const label = document.createElement("div");
       label.textContent = name;
       label.className = "item-label";
       label.style.color = "white";
-      label.style.textAlign = "center";
-      label.style.marginTop = "4px";
-      canvas.parentNode.insertBefore(label, canvas.nextSibling);
+    
+      if (inline) {
+        const wrapper = document.createElement("div");
+        wrapper.style.display = "flex";
+        wrapper.style.alignItems = "center";
+        wrapper.style.gap = "6px";
+        wrapper.style.flexDirection = "row";
+        wrapper.style.justifyContent = "center";
+    
+        const parent = canvas.parentNode;
+        // Insert the wrapper before the canvas
+        parent.insertBefore(wrapper, canvas);
+        // Then move the canvas and label into the wrapper
+        wrapper.appendChild(canvas);
+        wrapper.appendChild(label);
+      } else {
+        label.style.textAlign = "center";
+        label.style.marginTop = "4px";
+        canvas.parentNode.insertBefore(label, canvas.nextSibling);
+      }
     }
-  }
+  }    
 }
 
 window.renderAllSprites = function () {
