@@ -75,7 +75,7 @@ function calculateOres() {
         if (ore.name == "Gem Rock") {
             row.innerHTML = `
                 <td>${ore.level}</td>
-                <td><canvas data-itemname="uncut_red_topaz"></canvas><div class="item-label" style="color: white; text-align: center; margin-top: 4px;">Gem Rock</div></td>
+                <td><div class="item-label" style="color: white; display: flex; align-items: center; justify-content: center; gap: 6px;"><canvas data-itemname="uncut_red_topaz"></canvas> Gem Rock</div></td>
                 <td>${ore.xp}</td>
                 <td>${oreCount.toLocaleString()}</td>
             `;
