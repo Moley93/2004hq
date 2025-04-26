@@ -2,7 +2,7 @@
 $meta_data['title'] = 'Quest Guides > Rune Essentials';
 $meta_data['og:title'] = $meta_data['title'];
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 Description: Want to learn how to craft runes? Then this is the quest you need to complete.<br>
 <br>
 <b>Difficulty Level: <font color="Green">Easy</font></b><br>

@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Starting Location: East Ardougne Speak to: King Lathas<br>
 <br>

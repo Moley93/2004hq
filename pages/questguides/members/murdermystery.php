@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Lord Sinclair was found murdered in his mansion. Several guards are working on the case, but they're confused about the crime. You must help them find the culprit who murdered Lord Sinclair.<br>
 <br>

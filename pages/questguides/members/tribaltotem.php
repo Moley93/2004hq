@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange-looking totem from Karamja. The Rantuki tribe is not happy about the recent disappearance of their totem.<br>
 <br>

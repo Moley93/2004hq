@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <p>
 Description: The black knights are up to no good. You are hired by the white knights to spy on them and uncover their evil scheme.<br>
 <br>

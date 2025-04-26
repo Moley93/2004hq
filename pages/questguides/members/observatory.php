@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Help a professor fix his telescope. This proves more difficult than it sounds, as it involves yet another maze. See what the stars have in store for you as well.<br>
 <br>

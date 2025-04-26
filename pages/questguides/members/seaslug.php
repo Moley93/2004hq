@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Strange occurrences have taken over a fishing platform. Solve the mystery and save a family from the clutches of the slugs.<br>
 <br>

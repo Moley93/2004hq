@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Farmer Fred's sheep are getting mighty woolly, and he'll pay you to shear them.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Wizard Mizgog has lost his beads because Wizard Grayzag summoned many imps and stole them. Can you help Wizard Mizgog?<br>
 <br>

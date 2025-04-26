@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Prove you are worthy to enter the Hero's Guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.<br>
 <br>

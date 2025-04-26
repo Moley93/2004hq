@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Items/Skills Needed To Start: Mining 40+, Agility 30+, Thieving 15+, Magic 14+, Herblaw 14+. A good combat level is an advantage, as you'll need to kill a monster. 20gp+ (bring more if you're not great at Agility!), 1 gold bar, 1 lit candle, 1 death rune, a pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, a guam leaf, a water-filled vial, pestle and mortar. (Food, armour, a weapon, and an anti-dragon breath shield are very useful!) This is a lot of items, but make sure to have room for around 7 or 8 extra items.<br>
 <br>

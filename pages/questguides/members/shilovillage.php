@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Rashiliyia, Queen of the Undead, has returned and brought a plague of undead upon the village. See if you can solve the problem.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Four plague-infected sheep have gotten loose, and it's up to you to recapture them and rid Ardougne of them.<br>
 <br>

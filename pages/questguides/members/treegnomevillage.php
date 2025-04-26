@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
 <br>
 Description: Help the Gnome Kingdom retrieve orbs of protection from the evil Khazard and his troops to save the day, and the gnomes.<br>

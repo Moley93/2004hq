@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <p>
 Description: Help the druids cleanse their former altar of the evil from the dark wizards. If you are successful, you will be rewarded with the knowledge of Herblore.<br>
 <br>

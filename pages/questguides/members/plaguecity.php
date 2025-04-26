@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: A shadow of disease has overcast Ardounge. Edmond's daughter Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.<br>
 <br>

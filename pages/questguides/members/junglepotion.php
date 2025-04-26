@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Tai Bwo Wannai medicine man Trifitus needs five special herbs so he can make a communion potion with the gods. Naturally, he hires you.<br>
 <br>

@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <p><span>Description:</span> Feeling uneducated?
     Desperate for buried treasure? ..."There's gold in them there hills"
     (well stream actually) as well as many other items that can be found at the

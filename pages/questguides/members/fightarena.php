@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: The Servil family has been broken up by the evil General Khazard. Reunite the family and ultimately defeat the General.<br>
 <br>

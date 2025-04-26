@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Sir Vyvin's squire has just lost Vyvin's one-of-a-kind sword. The squire wants you to find a way to get another one.<br>
 <br>

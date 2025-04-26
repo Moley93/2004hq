@@ -1,6 +1,6 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
-<h2>2004HQ - $questName</h2>
+<h2>$questName</h2>
 <br>
 Description: Redbeard Frank knows where some secret pirate treasure is hidden. It may require some work to persuade him to tell you where, though.<br>
 <br>
