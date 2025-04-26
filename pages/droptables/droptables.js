@@ -75,10 +75,14 @@ let activeDropFiles = [...f2pDropFiles];
 
 // Define item categories for better organization
 const itemCategories = {
-    POTIONS: {
-        "3dose1defense": { name: "Defence Potion(3)", image: "3dose1defense.webp" },
-        "2dose1strength": { name: "Strength Potion(2)", image: "2dose1strength.webp" },
-        "1dose2defense": { name: "Defence Potion(1)", image: "1dose2defense.webp" }
+    ARMOR: {
+        "blackwizhat": { name: "Wizards Hat", image: "wizards_hat_black.webp" },
+        "black_robe": { name: "Black Robe", image: "wizards_robe_black.webp" },
+        "bluewizhat": { name: "Wizards Hat", image: "wizards_hat_blue.webp" },
+        "chefshat": { name: "Chef's Hat", image: "chefshat.webp" },
+        "druidrobetop": { name: "Druid's robe", image: "druid_robe_top.webp" },
+        "druidrobebottom": { name: "Druid's robe", image: "druid_robe_bottom.webp" },
+        "eye_patch": { name: "Eye Patch", image: "eyepatch.webp" }
     },
     CLUE_SCROLLS: {
         "~trail_easycluedrop": { name: "Easy Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
@@ -87,6 +91,13 @@ const itemCategories = {
         "~trail_elitecluedrop": { name: "Elite Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "~trail_mastercluedrop": { name: "Master Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "~trail_checkmediumdrop": { name: "Key (medium clue)", image: "https://oldschool.runescape.wiki/images/Key_%28medium%29.png?538bf" }
+    },
+    POTIONS: {
+        "1dose2defense": { name: "Defence Potion(1)", image: "1dose2defense.webp" },
+        "2dose1strength": { name: "Strength Potion(2)", image: "2dose1strength.webp" },
+        "3dose1defense": { name: "Defence Potion(3)", image: "3dose1defense.webp" },
+        "3doseantipoison": { name: "Antipoison(3)", image: "3doseantipoison.webp" },
+        "acne_potion": { name: "Poition", image: "potion.webp" }
     },
     RARE_DROPS: {
         "~randomherb": { name: "Random Herb", image: "guam_leaf.webp" },
@@ -98,6 +109,7 @@ const itemCategories = {
         "coins": { name: "Coins", image: "https://oldschool.runescape.wiki/images/Coins_10000.png?7fa38&20200722174651" },
         "clue_scroll": { name: "Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "fire_feather": { name: "Fire Feather", image: "https://oldschool.runescape.wiki/images/Fire_feather.png?3859a" },
+        "intelligence_report": { name: "Scroll", image: "blackarmgang_scroll.webp" },
         "jail_key": { name: "Jail Key", image: "https://oldschool.runescape.wiki/images/Jail_key.png?c27a4" },
         "rats_tail": { name: "Rats Tail", image: "https://oldschool.runescape.wiki/images/Rat%27s_tail.png?219da" }
     },
@@ -108,7 +120,15 @@ const itemCategories = {
         "medium clue scroll": { name: "Medium Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "hard clue scroll": { name: "Hard Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
         "elite clue scroll": { name: "Elite Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
-        "master clue scroll": { name: "Master Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" }
+        "master clue scroll": { name: "Master Clue Scroll", image: "https://oldschool.runescape.wiki/images/Clue_scroll_v1.png?f270a" },
+        "cadavaberries": { name: "Cadaver Berries", image: "cadaver_berries.webp" },
+        "goblin_armour": { name: "Goblin Mail", image: "goblin_mail.webp" },
+        "jug_water": { name: "Jug of Water", image: "jug_of_water.webp" },
+        "pot_flour": { name: "Pot of Flour", image: "pot_of_flour.webp" },
+        "black_bead": { name: "Black Bead", image: "imp_black_bead.webp" },
+        "red_bead": { name: "Red Bead", image: "imp_red_bead.webp" },
+        "white_bead": { name: "White Bead", image: "imp_white_bead.webp" },
+        "yellow_bead": { name: "Yellow Bead", image: "imp_yellow_bead.webp" }
     }
 };
 
