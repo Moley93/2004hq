@@ -28,13 +28,13 @@ switch ($p) {
         include 'pages/main/changelog.php';
         break;
 
-    case '': // No ?p= value (homepage)
-        include 'pages/main/homepage.php';
-        break;
-
     /*case 'updatecluetables':
         include 'pages/api/updatecluetables.php';
         break;*/
+
+    case '': // No ?p= value (homepage)
+        include 'pages/main/homepage.php';
+        break;
 
     default: // All other unknown pages
         header('Location: ?p=404') ;
