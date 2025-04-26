@@ -91,19 +91,7 @@ export function renderTable(targetId, { cols, rows }, rowsPerPage = 10) {
 
       // Item Column (canvas + name)
       const tdItem = tr.insertCell();
-
-      const canvas = document.createElement('canvas');
-      canvas.width = 32;
-      canvas.height = 32;
-      canvas.setAttribute('data-itemid', itemInfo.id);
-      canvas.setAttribute('data-itemname', debugname);
-      canvas.setAttribute('title', `${itemInfo.name} — ${itemInfo.desc}`);
-      tdItem.appendChild(canvas);
-
-      const span = document.createElement('span');
-      span.textContent = itemInfo.name;
-      span.style.marginLeft = '8px';
-      tdItem.appendChild(span);
+      tdItem.innerHTML = `<canvas data-itemid="${itemInfo.id}" data-itemname="${debugname}" data-add-item-name="true" data-inline="true"></canvas>`
 
       // Price Columns
       if (priceMin === priceMax) {
