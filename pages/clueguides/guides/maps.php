@@ -72,32 +72,55 @@ function getGuideContent($guide) { return <<<HTML
     <td>Behind the Wizard's Tower</td>
   </tr>
   <tr>
-    <th>Castle Puzzle Box</th>
-    <th>Solution</th>
+    <th colspan=2>Castle Puzzle Box Solver</th>
   </tr>
   <tr> 
-    <td>
-      <img src="img/clue_guides/unsolved_puzzle.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
-    <td><img src="img/clue_guides/slidepuzzle.jpg" style="width:200px;" alt="slidepuzzle.jpg"></td>
+    <td colspan=2>
+    <canvas id="puzzleCanvasCastle" width="220" height="220"></canvas><br>
+    <button id="castleSolveButton">Solve</button>
+    <button id="castleNextButton">Next Move</button>
+    <button id="castlePrevButton">Previous Move</button>
+    <button id="castleAutoButton">Auto Play</button><br>
+    <div id="movesCounterCastle">Moves to solve: 0</div>
+    </td>
   </tr>
-<tr>
+  <!--<tr>
     <th>Grand Tree Puzzle Box</th>
     <th>Solution</th>
   </tr>
   <tr> 
     <td>
-      <img src="img/clue_guides/unsolvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!">
-    <td><img src="img/clue_guides/solvedtree.jpg" style="width:200px;" alt="Pic missing, but coming soon!"></td>
+      <canvas id="puzzleCanvasTree" width="220" height="220"></canvas>
+      <button id="treeSolveButton">Solve</button>
+      <div id="movesCounterTree">Moves to solve: 0</div>
+    </td>
+    <td>
+      <img src="img/clue_guides/solvedtree.jpg" style="width:220px;" alt="Pic missing, but coming soon!">
+    </td>
   </tr>
-<tr>
+  <tr>
     <th>Troll Puzzle Box</th>
     <th>Solution</th>
   </tr>
   <tr> 
     <td>
-      <img src="img/clue_guides/unsolvedtroll.jpg" style="width:200px;">
-    <td><img src="img/clue_guides/trollpuzzlebox.gif" style="width:200px;" alt="trollpuzzlebox.gif"></td>
-  </tr>
+      <canvas id="puzzleCanvasTroll" width="220" height="220"></canvas>
+      <button id="trollSolveButton">Solve</button>
+      <div id="movesCounterTroll">Moves to solve: 0</div>
+    </td>
+    <td>
+      <img src="img/clue_guides/trollpuzzlebox.gif" style="width:220px;" alt="trollpuzzlebox.gif">
+    </td>
+  </tr>-->
 </table>
 </p>
+<script src="js/clue_puzzle/puzzle_solver.js"></script>
+<script>
+  const castleBox = new PuzzleBox('puzzleCanvasCastle', 'castleSolveButton', puzzleSetCastle, 
+    'movesCounterCastle', 'castleNextButton', 'castlePrevButton', 'castleAutoButton');
+  //const treeBox = new PuzzleBox('puzzleCanvasTree', 'treeSolveButton', puzzleSetTree, 
+  //  'movesCounterTree', 'trollNextButton', 'trollPrevButton', 'trollAutoButton');
+  //const trollBox = new PuzzleBox('puzzleCanvasTroll', 'trollSolveButton', puzzleSetTroll,
+  //  'movesCounterTroll', 'trollNextButton', 'trollPrevButton', 'trollAutoButton');
+</script>
 HTML; }
