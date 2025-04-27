@@ -5,8 +5,15 @@ let itemData = [];
 const spritesheet = new Image();
 spritesheet.src = 'img/item_spritesheet.png';
 
-const exemptItems = {
-  "coins": 1004,
+// Image override debugnames
+const imageDebugnameOverrides = {
+  coins: "coins_10000",
+  bronze_arrow: "bronze_arrow_5",
+  iron_arrow: "iron_arrow_5",
+  steel_arrow: "steel_arrow_5",
+  mithril_arrow: "mithril_arrow_5",
+  adamant_arrow: "adamant_arrow_5",
+  rune_arrow: "rune_arrow_5",
 };
 
 Promise.all([
@@ -22,36 +29,41 @@ Promise.all([
 });
 
 function renderSpriteToCanvas(debugname, canvas) {
-  let id;
+  let id = 0;
   let name = "Unknown Item";
   let desc = "Please report this bug.";
+  let cost = 0;
 
-  if (exemptItems.hasOwnProperty(debugname)) {
-    id = exemptItems[debugname];
-    name = debugname;
-  } else if (debugname.startsWith("cert_")) {
-    const baseName = debugname.replace(/^cert_/, "");
-    const baseItem = itemData.find(i => i.debugname === baseName);
-    if (baseItem) {
-      id = baseItem.id + 1;
-      name = `${baseItem.name} (Noted)`;
-      desc = baseItem.desc;
-    } else {
-      id = 0;
-    }
-  } else {
-    const item = itemData.find(i => i.debugname === debugname);
-    if (item) {
-      id = item.id;
-      name = item.name;
-      desc = item.desc;
-    } else {
-      id = 0;
+  const isCert = debugname.startsWith("cert_");
+  const baseName = isCert ? debugname.replace(/^cert_/, "") : debugname;
+
+  const item = itemData.find(i => i.debugname === debugname); // cert or normal
+  const baseItem = itemData.find(i => i.debugname === baseName); // always non-cert for name/desc
+
+  if (item) {
+    id = item.id;
+  }
+
+  if (baseItem) {
+    name = isCert ? `${baseItem.name} (Noted)` : baseItem.name;
+    desc = baseItem.desc;
+    cost = baseItem.cost || 0;
+  }
+
+  // Handle image override (looking up a different debugname)
+  let imageItem = item;
+  if (imageDebugnameOverrides.hasOwnProperty(debugname)) {
+    const overrideDebugname = imageDebugnameOverrides[debugname];
+    const overrideItem = itemData.find(i => i.debugname === overrideDebugname);
+    if (overrideItem) {
+      imageItem = overrideItem;
     }
   }
 
-  const col = id % spritesPerRow;
-  const row = Math.floor(id / spritesPerRow);
+  const imageId = imageItem ? imageItem.id : id; // fallback to normal id
+
+  const col = imageId % spritesPerRow;
+  const row = Math.floor(imageId / spritesPerRow);
   const size = parseInt(canvas.dataset.size) || 36;
 
   const ctx = canvas.getContext("2d");
@@ -66,20 +78,27 @@ function renderSpriteToCanvas(debugname, canvas) {
     size, size
   );
 
-  canvas.title = `${name} — ${desc}`;
+  // Tooltip setup
+  let tooltip = `${name} — ${desc}`;
+  if (cost > 0) {
+    const highAlch = Math.floor(cost * 0.6);
+    tooltip += `\nHigh Alch: ${highAlch.toLocaleString()} coins`;
+  }
+
+  canvas.title = tooltip;
 
   // Append item name if requested
   if ((canvas.getAttribute("data-show-label") === "true") || (canvas.getAttribute("data-show-label") === "inline")) {
     const next = canvas.nextElementSibling;
     const alreadyExists = next && next.classList.contains("item-label");
-  
+
     if (!alreadyExists) {
       const inline = canvas.getAttribute("data-show-label") === "inline";
       const label = document.createElement("div");
       label.textContent = name;
       label.className = "item-label";
       label.style.color = "white";
-    
+
       if (inline) {
         const wrapper = document.createElement("div");
         wrapper.style.display = "flex";
@@ -87,11 +106,9 @@ function renderSpriteToCanvas(debugname, canvas) {
         wrapper.style.gap = "6px";
         wrapper.style.flexDirection = "row";
         wrapper.style.justifyContent = "center";
-    
+
         const parent = canvas.parentNode;
-        // Insert the wrapper before the canvas
         parent.insertBefore(wrapper, canvas);
-        // Then move the canvas and label into the wrapper
         wrapper.appendChild(canvas);
         wrapper.appendChild(label);
       } else {
@@ -100,7 +117,7 @@ function renderSpriteToCanvas(debugname, canvas) {
         canvas.parentNode.insertBefore(label, canvas.nextSibling);
       }
     }
-  }    
+  }
 }
 
 window.renderAllSprites = function () {
@@ -109,6 +126,7 @@ window.renderAllSprites = function () {
     renderSpriteToCanvas(debugname, canvas);
   });
 };
+
 document.addEventListener("DOMContentLoaded", async function () {
   while (!window.spriteLoaderReady) {
     await new Promise(resolve => setTimeout(resolve, 25));

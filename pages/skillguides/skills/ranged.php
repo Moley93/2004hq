@@ -42,8 +42,8 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>1</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas><br>
             Bronze & Iron
         </td>
     </tr>
@@ -55,9 +55,9 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>5</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas>
-            <canvas data-itemname="steel_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas>
+            <canvas data-itemname="steel_arrow"></canvas><br>
             Bronze, Iron, & Steel
         </td>
     </tr>
@@ -69,10 +69,10 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>20</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas>
-            <canvas data-itemname="steel_arrow_5"></canvas>
-            <canvas data-itemname="mithril_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas>
+            <canvas data-itemname="steel_arrow"></canvas>
+            <canvas data-itemname="mithril_arrow"></canvas><br>
             All Arrows up to Mithril
         </td>
     </tr>
@@ -84,11 +84,11 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>30</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas>
-            <canvas data-itemname="steel_arrow_5"></canvas>
-            <canvas data-itemname="mithril_arrow_5"></canvas>
-            <canvas data-itemname="adamant_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas>
+            <canvas data-itemname="steel_arrow"></canvas>
+            <canvas data-itemname="mithril_arrow"></canvas>
+            <canvas data-itemname="adamant_arrow"></canvas><br>
             All Arrows up to Adamant
         </td>
     </tr>
@@ -100,12 +100,12 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>40</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas>
-            <canvas data-itemname="steel_arrow_5"></canvas>
-            <canvas data-itemname="mithril_arrow_5"></canvas>
-            <canvas data-itemname="adamant_arrow_5"></canvas>
-            <canvas data-itemname="rune_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas>
+            <canvas data-itemname="steel_arrow"></canvas>
+            <canvas data-itemname="mithril_arrow"></canvas>
+            <canvas data-itemname="adamant_arrow"></canvas>
+            <canvas data-itemname="rune_arrow"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>
@@ -117,12 +117,12 @@ function getSkillContent($skill) { return <<<HTML
         </td>
         <td>50</td>
         <td>
-            <canvas data-itemname="bronze_arrow_5"></canvas>
-            <canvas data-itemname="iron_arrow_5"></canvas>
-            <canvas data-itemname="steel_arrow_5"></canvas>
-            <canvas data-itemname="mithril_arrow_5"></canvas>
-            <canvas data-itemname="adamant_arrow_5"></canvas>
-            <canvas data-itemname="rune_arrow_5"></canvas><br>
+            <canvas data-itemname="bronze_arrow"></canvas>
+            <canvas data-itemname="iron_arrow"></canvas>
+            <canvas data-itemname="steel_arrow"></canvas>
+            <canvas data-itemname="mithril_arrow"></canvas>
+            <canvas data-itemname="adamant_arrow"></canvas>
+            <canvas data-itemname="rune_arrow"></canvas><br>
             All Arrows up to Rune
         </td>
     </tr>

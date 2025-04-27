@@ -66,15 +66,15 @@ function calculateFletching() {
     const arrows = {
         "Arrow Shaft": [5, 1],
         "Headless Arrow": [20, 1],
-        "Bronze Arrow 5": [39.5, 1],
+        "Bronze Arrow": [39.5, 1],
         "Opal Bolt": [31, 11],
-        "Iron Arrow 5": [57.5, 15],
-        "Steel Arrow 5": [95, 30],
+        "Iron Arrow": [57.5, 15],
+        "Steel Arrow": [95, 30],
         "Pearl Bolt": [64, 41],
-        "Mithril Arrow 5": [132.5, 45],
+        "Mithril Arrow": [132.5, 45],
         "Barbed Bolt": [95, 51],
-        "Adamant Arrow 5": [170, 60],
-        "Rune Arrow 5": [207.5, 75]
+        "Adamant Arrow": [170, 60],
+        "Rune Arrow": [207.5, 75]
     };
 
     const incomplete = {

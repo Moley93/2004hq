@@ -8,7 +8,6 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-
 Site by Moley, Eilert, Halogod & Collin.<br><br>
 <u><b>Change Log</b></u>
 <br><br>
@@ -164,7 +163,7 @@ function parseDate(str) {
   const parts = str.split('/');
   if (parts.length !== 3) return new Date('Invalid');
   const [day, month, year] = parts;
-  return new Date(`${year}-${month}-${day}`);
+  return new Date('\${year}-\${month}-\${day}');
 }
 
 function sortTable() {
