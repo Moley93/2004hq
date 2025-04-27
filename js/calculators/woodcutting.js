@@ -42,13 +42,13 @@ function calculateLogs() {
 
     const xpNeeded = targetXP - currentXP;
     const logs = [
-        { name: "Logs", xp: 25, level: 1 },
-        { name: "Achey Logs", xp: 25, level: 1 },
-        { name: "Oak Logs", xp: 37.5, level: 15 },
-        { name: "Willow Logs", xp: 67.5, level: 30 },
-        { name: "Maple Logs", xp: 100, level: 45 },
-        { name: "Yew Logs", xp: 175, level: 60 },
-        { name: "Magic Logs", xp: 250, level: 75 }
+        { name: "logs", xp: 25, level: 1 },
+        { name: "achey_tree_logs", xp: 25, level: 1 },
+        { name: "oak_logs", xp: 37.5, level: 15 },
+        { name: "willow_logs", xp: 67.5, level: 30 },
+        { name: "maple_logs", xp: 100, level: 45 },
+        { name: "yew_logs", xp: 175, level: 60 },
+        { name: "magic_logs", xp: 250, level: 75 }
     ];
 
     // Update progress bar

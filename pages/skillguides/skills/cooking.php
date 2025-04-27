@@ -27,8 +27,8 @@ function getSkillContent($skill) { return <<<HTML
 			<td>3</td>
 			<td>1</td>
 			<td>30</td>
-			<td><canvas data-itemname="raw_shrimps"></canvas></td>
-			<td><canvas data-itemname="shrimps"></canvas></td>
+			<td><canvas data-itemname="raw_shrimp"></canvas></td>
+			<td><canvas data-itemname="shrimp"></canvas></td>
 		</tr>
 		<tr> 
 			<td>Bread</td>
@@ -171,7 +171,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td>15</td>
 			<td>1</td>
 			<td>110</td>
-			<td><canvas data-itemname="unfermented_wine"></canvas></td>
+			<td><canvas data-itemname="jug_unfermented_wine"></canvas></td>
 			<td><canvas data-itemname="jug_wine"></canvas></td>
 		</tr>
 		<tr> 
@@ -262,17 +262,17 @@ function getSkillContent($skill) { return <<<HTML
 			<td>2</td>
 			<td>140</td>
 			<td><canvas data-itemname="uncooked_pizza"></canvas></td>
-			<td><canvas data-itemname="anchovy_pizza"></canvas></td>
+			<td><canvas data-itemname="anchovie_pizza"></canvas></td>
 		</tr>
-		<tr> 
+		<!--<tr> 
 			<td>Ugthanki Kebab</td>
 			<td>53</td>
 			<td>19</td>
 			<td>1</td>
 			<td>120</td>
-			<td><canvas data-itemname="kebab_mix"></canvas></td>
+			<td><canvas data-itemname="bowl_oniontomugthanki"></canvas></td>
 			<td><canvas data-itemname="ugthanki_kebab"></canvas></td>
-		</tr>
+		</tr>-->
 		<tr> 
 			<td>Curry</td>
 			<td>60</td>
@@ -306,8 +306,8 @@ function getSkillContent($skill) { return <<<HTML
 			<td>20</td>
 			<td>1</td>
 			<td>N/A</td>
-			<td><canvas data-itemname="raw_sea_turtle"></canvas></td>
-			<td><canvas data-itemname="sea_turtle"></canvas></td>
+			<td><canvas data-itemname="raw_seaturtle"></canvas></td>
+			<td><canvas data-itemname="seaturtle"></canvas></td>
 		</tr>
 		<tr> 
 			<td>Manta Ray</td>
@@ -315,8 +315,8 @@ function getSkillContent($skill) { return <<<HTML
 			<td>22</td>
 			<td>1</td>
 			<td>N/A</td>
-			<td><canvas data-itemname="raw_manta_ray"></canvas></td>
-			<td><canvas data-itemname="manta_ray"></canvas></td>
+			<td><canvas data-itemname="raw_mantaray"></canvas></td>
+			<td><canvas data-itemname="mantaray"></canvas></td>
 		</tr>
 	</tbody></table>
 </p>

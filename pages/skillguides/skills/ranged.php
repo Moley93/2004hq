@@ -182,7 +182,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="dragonhide_vamb"></canvas>
+                <canvas data-itemname="dragon_vambraces"></canvas>
                 <canvas data-itemname="dragonhide_chaps"></canvas><br>
                 Green Dragonhide chaps & vambraces
             </td>
@@ -190,14 +190,14 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="trail_robin_hood_hat"></canvas><br>
+                <canvas data-itemname="robinhoodhat"></canvas><br>
                 Robin Hood hat
             </td>
             <td>40</td>
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="trail_ranger_boots"></canvas><br>
+                <canvas data-itemname="boots_ranger"></canvas><br>
                 Rangers Boots
             </td>
             <td>40</td>
@@ -211,7 +211,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="blue_dragonhide_vambraces"></canvas>
+                <canvas data-itemname="blue_dragon_vambraces"></canvas>
                 <canvas data-itemname="blue_dragonhide_chaps"></canvas><br>
                 Blue Dragonhide chaps & vambraces
             </td>
@@ -226,7 +226,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="red_dragonhide_vambraces"></canvas>
+                <canvas data-itemname="red_dragon_vambraces"></canvas>
                 <canvas data-itemname="red_dragonhide_chaps"></canvas><br>
                 Red Dragonhide chaps & vambraces
             </td>
@@ -241,8 +241,8 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>
-                <canvas data-itemname="black_dragonhide_chaps"></canvas>
-                <canvas data-itemname="black_dragonhide_vambraces"></canvas><br>
+                <canvas data-itemname="black_dragon_vambraces"></canvas>
+                <canvas data-itemname="black_dragonhide_chaps"></canvas><br>
                 Black Dragonhide chaps & vambraces
             </td>
             <td>70</td>

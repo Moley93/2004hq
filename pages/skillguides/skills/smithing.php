@@ -81,7 +81,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>Wire</td>
-            <td><canvas data-itemname="bronze_wire" data-size="28px"></canvas><br>4</td>
+            <td><canvas data-itemname="bronzecraftwire" data-size="28px"></canvas><br>4</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -140,7 +140,7 @@ function getSkillContent($skill) { return <<<HTML
         <td>Studs</td>
             <td>-</td>
             <td>-</td>
-            <td><canvas data-itemname="steel_studs" data-size="28px"></canvas><br>36</td>
+            <td><canvas data-itemname="studs" data-size="28px"></canvas><br>36</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -178,7 +178,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="iron_warhammer" data-size="28px"></canvas><br>24</td>
             <td><canvas data-itemname="steel_warhammer" data-size="28px"></canvas><br>39</td>
             <td><canvas data-itemname="mithril_warhammer" data-size="28px"></canvas><br>59</td>
-            <td><canvas data-itemname="adamant_warhammer" data-size="28px"></canvas><br>79</td>
+            <td><canvas data-itemname="adamnt_warhammer" data-size="28px"></canvas><br>79</td>
             <td><canvas data-itemname="rune_warhammer" data-size="28px"></canvas><br>94</td>
         </tr>
         <tr>

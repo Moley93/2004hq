@@ -16,7 +16,7 @@ choose one, so choose carefully!<br>
     <div data-progress>59 Magic</div><br>
     <div data-progress><canvas data-itemname="ruby"></canvas><br>2 Cut Rubies</div>
     <div data-progress><canvas data-itemname="bronze_pickaxe"></canvas><br>Any Pickaxe</div><br><br>
-    <div data-progress><canvas data-itemname="shrimps" data-show-label="true"></canvas></div>
+    <div data-progress><canvas data-itemname="shrimp" data-show-label="true"></canvas></div>
     <div data-progress><canvas data-itemname="salmon" data-show-label="true"></canvas></div>
     <div data-progress><canvas data-itemname="tuna" data-show-label="true"></canvas></div>
     <div data-progress><canvas data-itemname="bass" data-show-label="true"></canvas></div>

@@ -7,20 +7,6 @@ spritesheet.src = 'img/item_spritesheet.png';
 
 const exemptItems = {
   "coins": 1004,
-  // Add more overrides here
-};
-
-const coinVariants = {
-  "coins": 1004,
-  "coins_1": 995,
-  "coins_2": 996,
-  "coins_3": 997,
-  "coins_4": 998,
-  "coins_5": 999,
-  "coins_25": 1000,
-  "coins_100": 1001,
-  "coins_500": 1002,
-  "coins_1000": 1003,
 };
 
 Promise.all([
@@ -38,13 +24,9 @@ Promise.all([
 function renderSpriteToCanvas(debugname, canvas) {
   let id;
   let name = "Unknown Item";
-  let desc = "No description available.";
+  let desc = "Please report this bug.";
 
-  if (coinVariants.hasOwnProperty(debugname)) {
-    id = coinVariants[debugname];
-    name = "Coins";
-    desc = "Lovely money!";
-  } else if (exemptItems.hasOwnProperty(debugname)) {
+  if (exemptItems.hasOwnProperty(debugname)) {
     id = exemptItems[debugname];
     name = debugname;
   } else if (debugname.startsWith("cert_")) {
@@ -55,7 +37,7 @@ function renderSpriteToCanvas(debugname, canvas) {
       name = `${baseItem.name} (Noted)`;
       desc = baseItem.desc;
     } else {
-      id = 2677;
+      id = 0;
     }
   } else {
     const item = itemData.find(i => i.debugname === debugname);
@@ -64,7 +46,7 @@ function renderSpriteToCanvas(debugname, canvas) {
       name = item.name;
       desc = item.desc;
     } else {
-      id = 2677;
+      id = 0;
     }
   }
 

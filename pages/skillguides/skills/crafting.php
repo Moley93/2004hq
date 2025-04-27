@@ -36,17 +36,17 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>1</td>
             <td>
-                <canvas data-itemname="soft_clay" data-show-label="true"></canvas>
+                <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="unfired_pot" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>1</td>
-            <td><canvas data-itemname="unfired_pot" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="pot_unfired" data-show-label="true"></canvas></td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
@@ -56,7 +56,7 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>1</td>
             <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowing_pipe" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
             <td><canvas data-itemname="beer_glass" data-show-label="true"></canvas></td>
         </tr>
         <tr>
@@ -90,17 +90,17 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>7</td>
             <td>
-                <canvas data-itemname="soft_clay" data-show-label="true"></canvas>
+                <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="unfired_piedish" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>7</td>
-            <td><canvas data-itemname="unfired_piedish" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="piedish_unfired" data-show-label="true"></canvas></td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
@@ -129,22 +129,22 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="gold_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_gold_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>8</td>
             <td>
-                <canvas data-itemname="soft_clay" data-show-label="true"></canvas>
+                <canvas data-itemname="softclay" data-show-label="true"></canvas>
             </td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20170727073604%21Potter%27s_Wheel.png" width=32px><br>
                 Potter's wheel
             </td>
-            <td><canvas data-itemname="unfired_bowl" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>8</td>
-            <td><canvas data-itemname="unfired_bowl" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="bowl_unfired" data-show-label="true"></canvas></td>
             <td>
                 <img src="https://oldschool.runescape.wiki/images/archive/20210830111523%21Pottery_Oven.png" width=32px><br>
                 Pottery Oven
@@ -205,13 +205,13 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="holy_mould" data-show-label="inline"></canvas>
+                <canvas data-itemname="holy_symbol_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="unblessed_symbol" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="stringstar" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>16</td>
@@ -226,13 +226,13 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="ball_of_wool" data-show-label="inline"></canvas>
             </td>
             <td>
-                <canvas data-itemname="unholy_mould" data-show-label="inline"></canvas>
+                <canvas data-itemname="unholy_symbol_mould" data-show-label="inline"></canvas>
                 <div style="display: flex; align-items: center; gap: 6px; flex-direction: row; justify-content: center;">
                     <img src="https://oldschool.runescape.wiki/images/thumb/Furnace.png/200px-Furnace.png" alt="Furnace" width=32px>
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="unpowered_symbol" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="stringsnake" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>18</td>
@@ -293,7 +293,7 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="sapphire_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_sapphire_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>27</td>
@@ -318,7 +318,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>28</td>
-            <td><canvas data-itemname="hardleather" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="hard_leather" data-show-label="true"></canvas></td>
             <td>
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
@@ -354,12 +354,12 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="emerald_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_emerald_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>33</td>
             <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowing_pipe" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
             <td><canvas data-itemname="vial_empty" data-show-label="true"></canvas></td>
         </tr>
         <tr>
@@ -411,7 +411,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>41</td>
             <td>
                 <canvas data-itemname="leather_body" data-show-label="inline"></canvas>
-                <canvas data-itemname="steel_studs" data-show-label="inline"></canvas>
+                <canvas data-itemname="studs" data-show-label="inline"></canvas>
             </td>
             <td>-</td>
             <td><canvas data-itemname="studded_body" data-show-label="true"></canvas></td>
@@ -441,7 +441,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>44</td>
             <td>
                 <canvas data-itemname="leather_chaps" data-show-label="inline"></canvas>
-                <canvas data-itemname="steel_studs" data-show-label="inline"></canvas>
+                <canvas data-itemname="studs" data-show-label="inline"></canvas>
             </td>
             <td>-</td>
             <td><canvas data-itemname="studded_chaps" data-show-label="true"></canvas></td>
@@ -449,7 +449,7 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td>46</td>
             <td><canvas data-itemname="molten_glass" data-show-label="true"></canvas></td>
-            <td><canvas data-itemname="glassblowing_pipe" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="glassblowingpipe" data-show-label="true"></canvas></td>
             <td><canvas data-itemname="stafforb" data-show-label="true"></canvas></td>
         </tr>
         <tr>
@@ -466,7 +466,7 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="ruby_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_ruby_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>54</td>
@@ -520,7 +520,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="dragonhide_vamb" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="dragon_vambraces" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>58</td>
@@ -581,7 +581,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="blue_dragonhide_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="blue_dragon_vambraces" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>68</td>
@@ -609,7 +609,7 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="diamond_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_diamond_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>71</td>
@@ -646,7 +646,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="red_dragonhide_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="red_dragon_vambraces" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>75</td>
@@ -680,7 +680,7 @@ function getSkillContent($skill) { return <<<HTML
                 <canvas data-itemname="needle" data-show-label="inline"></canvas>
                 <canvas data-itemname="thread" data-show-label="inline"></canvas>
             </td>
-            <td><canvas data-itemname="black_dragonhide_vambraces" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="black_dragon_vambraces" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>80</td>
@@ -696,7 +696,7 @@ function getSkillContent($skill) { return <<<HTML
                     <div class="item-label" style="color: white;">Furnace</div>
                 </div>
             </td>
-            <td><canvas data-itemname="dragonstone_amulet" data-show-label="true"></canvas></td>
+            <td><canvas data-itemname="strung_dragonstone_amulet" data-show-label="true"></canvas></td>
         </tr>
         <tr>
             <td>82</td>

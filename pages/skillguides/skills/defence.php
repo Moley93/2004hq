@@ -28,11 +28,12 @@ function getSkillContent($skill) { return <<<HTML
 <td><canvas data-itemname="bronze_sq_shield"></canvas><canvas data-itemname="iron_sq_shield"></canvas><canvas data-itemname="steel_sq_shield"></canvas><canvas data-itemname="black_sq_shield"></canvas><canvas data-itemname="mithril_sq_shield"></canvas><canvas data-itemname="adamant_sq_shield"></canvas><canvas data-itemname="rune_sq_shield"></canvas><canvas data-itemname="dragon_sq_shield"></canvas><br><canvas data-itemname="bronze_kiteshield"></canvas><canvas data-itemname="iron_kiteshield"></canvas><canvas data-itemname="steel_kiteshield"></canvas><canvas data-itemname="black_kiteshield"></canvas><canvas data-itemname="mithril_kiteshield"></canvas><canvas data-itemname="adamant_kiteshield"></canvas><canvas data-itemname="rune_kiteshield"></canvas><br>Both varieties of shield feature excellent defences against slashing attacks. However, the kite shield is weak against stabbing attacks, and, the square shield is weak against crush attacks. Using the shield while casting magic or ranging is very difficult as it restricts the user's movement.<br><br></td>
 </tr>
 <tr>
-<td><canvas data-itemname="dragonfire_shield"></canvas><br>Invaluable in the fight against all fire-breathing dragons, this shield reduces the damage from dragon fire considerably, and is strongly recommended every time you fight dragons.</td>
+<td><canvas data-itemname="antidragonbreathshield"></canvas><br>Invaluable in the fight against all fire-breathing dragons, this shield reduces the damage from dragon fire considerably, and is strongly recommended every time you fight dragons.</td>
 </tr>
 </table><br><br><b>Prayer Enhancing Armour</b><br><table style="text-align: center;" align="center">
 <tr>
-<td><canvas data-itemname="zamorak_monk_top"></canvas><canvas data-itemname="druid_robe_top"></canvas><canvas data-itemname="monk_robe_top"></canvas><br><canvas data-itemname="zamorak_monk_bottom"></canvas><canvas data-itemname="druid_robe_bottom"></canvas><canvas data-itemname="monk_robe_bottom"></canvas></td>
+<td><canvas data-itemname="zamrobetop"></canvas><canvas data-itemname="druidrobetop"></canvas><canvas data-itemname="monkrobetop"></canvas><br>
+<canvas data-itemname="zamrobebottom"></canvas><canvas data-itemname="druidrobebottom"></canvas><canvas data-itemname="monkrobebottom"></canvas></td>
 </tr>
 <tr>
 <td>There are many items of armour in game that will boost prayer. With the support of the Gods, you can wear these items to ensure your prayer will be maintained for a longer amount of time. Such items include the Priest, Monk, Shade, Druid, and Zamorak robe sets.</td>
@@ -53,7 +54,7 @@ function getSkillContent($skill) { return <<<HTML
 </tr>
 </table><br><br><h4 style="display: inline;">Mage Armour:</h4><br><br><b>Mage Robes</b><br><table style="text-align: center;" align="center">
 <tr>
-<td><canvas data-itemname="wizards_robe"></canvas><canvas data-itemname="wizards_robe_black"></canvas></td>
+<td><canvas data-itemname="wizards_robe"></canvas><canvas data-itemname="black_robe"></canvas></td>
 </tr>
 <tr>
 <td>Mage robes offer no extra defence against ranged or melee combat, but do give an advantage for spell casting and defending against magic.</td>

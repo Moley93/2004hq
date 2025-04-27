@@ -31,67 +31,67 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         <tr>
             <td>5</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_marrentill"></canvas><br>Herb</td>
             <td><canvas data-itemname="marentill"></canvas><br>Marrentill</td>
             <td>3.8</td>
         </tr>
         <tr>
             <td>11</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_tarromin"></canvas><br>Herb</td>
             <td><canvas data-itemname="tarromin"></canvas><br>Tarromin</td>
             <td>5</td>
         </tr>
         <tr>
             <td>20</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_harralander"></canvas><br>Herb</td>
             <td><canvas data-itemname="harralander"></canvas><br>Harralander</td>
             <td>6.3</td>
         </tr>
         <tr>
             <td>25</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_ranarr"></canvas><br>Herb</td>
             <td><canvas data-itemname="ranarr_weed"></canvas><br>Ranarr weed</td>
             <td>7.5</td>
         </tr>
         <tr>
             <td>40</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_irit"></canvas><br>Herb</td>
             <td><canvas data-itemname="irit_leaf"></canvas><br>Irit Leaf</td>
             <td>8.8</td>
         </tr>
         <tr>
             <td>48</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_avantoe"></canvas><br>Herb</td>
             <td><canvas data-itemname="avantoe"></canvas><br>Avantoe</td>
             <td>10</td>
         </tr>
         <tr>
             <td>54</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_kwuarm"></canvas><br>Herb</td>
             <td><canvas data-itemname="kwuarm"></canvas><br>Kwuarm</td>
             <td>11.3</td>
         </tr>
         <tr>
             <td>65</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_cadantine"></canvas><br>Herb</td>
             <td><canvas data-itemname="cadantine"></canvas><br>Cadantine</td>
             <td>12.5</td>
         </tr>
         <tr>
             <td>67</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_lantadyme"></canvas><br>Herb</td>
             <td><canvas data-itemname="lantadyme"></canvas><br>Lantadyme</td>
             <td>13.1</td>
         </tr>
         <tr>
             <td>70</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_dwarf_weed"></canvas><br>Herb</td>
             <td><canvas data-itemname="dwarf_weed"></canvas><br>Dwarf weed</td>
             <td>13.8</td>
         </tr>
         <tr>
             <td>75</td>
-            <td><canvas data-itemname="unidentified_guam"></canvas><br>Herb</td>
+            <td><canvas data-itemname="unidentified_torstol"></canvas><br>Herb</td>
             <td><canvas data-itemname="torstol"></canvas><br>Torstol</td>
             <td>15</td>
         </tr>
@@ -120,7 +120,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>3</td>
             <td>
                 <canvas data-itemname="guam_leaf"></canvas>
-                <canvas data-itemname="unf_guam_potion"></canvas><br>
+                <canvas data-itemname="guamvial"></canvas><br>
                 Guam Leaf
             </td>
             <td><canvas data-itemname="eye_of_newt"></canvas><br>Eye of Newt</td>
@@ -131,7 +131,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>5</td>
             <td>
                 <canvas data-itemname="marentill"></canvas>
-                <canvas data-itemname="unf_marrentill_potion"></canvas><br>
+                <canvas data-itemname="marrentillvial"></canvas><br>
                 Marrentill
             </td>
             <td><canvas data-itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
@@ -142,7 +142,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>12</td>
             <td>
                 <canvas data-itemname="tarromin"></canvas>
-                <canvas data-itemname="unf_tarromin_potion"></canvas><br>
+                <canvas data-itemname="tarrominvial"></canvas><br>
                 Tarromin
             </td>
             <td><canvas data-itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
@@ -153,18 +153,18 @@ function getSkillContent($skill) { return <<<HTML
             <td>22</td>
             <td>
                 <canvas data-itemname="harralander"></canvas>
-                <canvas data-itemname="unf_harralander_potion"></canvas><br>
+                <canvas data-itemname="harralandervial"></canvas><br>
                 Harralander
             </td>
             <td><canvas data-itemname="red_spiders_eggs"></canvas><br>Red spider's eggs</td>
-            <td><canvas data-itemname="3dose1restore"></canvas><br>Stat restore potion</td>
+            <td><canvas data-itemname="3dosestatrestore"></canvas><br>Stat restore potion</td>
             <td>62.5</td>
         </tr>
         <tr>
             <td>30</td>
             <td>
                 <canvas data-itemname="ranarr_weed"></canvas>
-                <canvas data-itemname="unf_ranarr_potion"></canvas><br>
+                <canvas data-itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
             <td><canvas data-itemname="white_berries"></canvas><br>White Berries</td>
@@ -175,7 +175,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>38</td>
             <td>
                 <canvas data-itemname="ranarr_weed"></canvas>
-                <canvas data-itemname="unf_ranarr_potion"></canvas><br>
+                <canvas data-itemname="ranarrvial"></canvas><br>
                 Ranarr weed
             </td>
             <td><canvas data-itemname="snape_grass"></canvas><br>Snape Grass</td>
@@ -186,7 +186,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>45</td>
             <td>
                 <canvas data-itemname="irit_leaf"></canvas>
-                <canvas data-itemname="unf_irit_potion"></canvas><br>
+                <canvas data-itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
             <td><canvas data-itemname="eye_of_newt"></canvas><br>Eye of newt</td>
@@ -197,7 +197,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>48</td>
             <td>
                 <canvas data-itemname="irit_leaf"></canvas>
-                <canvas data-itemname="unf_irit_potion"></canvas><br>
+                <canvas data-itemname="iritvial"></canvas><br>
                 Irit Leaf
             </td>
             <td><canvas data-itemname="unicorn_horn_dust"></canvas><br>Ground unicorn horn</td>
@@ -208,7 +208,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>50</td>
             <td>
                 <canvas data-itemname="avantoe"></canvas>
-                <canvas data-itemname="unf_avantoe_potion"></canvas><br>
+                <canvas data-itemname="avantoevial"></canvas><br>
                 Avantoe
             </td>
             <td><canvas data-itemname="snape_grass"></canvas><br>Snape Grass</td>
@@ -219,7 +219,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>55</td>
             <td>
                 <canvas data-itemname="kwuarm"></canvas>
-                <canvas data-itemname="unf_kwuarm_potion"></canvas><br>
+                <canvas data-itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
             <td><canvas data-itemname="limpwurt_root"></canvas><br>Limpwurt root</td>
@@ -230,7 +230,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>60</td>
             <td>
                 <canvas data-itemname="kwuarm"></canvas>
-                <canvas data-itemname="unf_kwuarm_potion"></canvas><br>
+                <canvas data-itemname="kwuarmvial"></canvas><br>
                 Kwuarm
             </td>
             <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
@@ -241,7 +241,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>66</td>
             <td>
                 <canvas data-itemname="cadantine"></canvas>
-                <canvas data-itemname="unf_cadantine_potion"></canvas><br>
+                <canvas data-itemname="cadantinevial"></canvas><br>
                 Cadantine
             </td>
             <td><canvas data-itemname="white_berries"></canvas><br>White Berries</td>
@@ -252,7 +252,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>69</td>
             <td>
                 <canvas data-itemname="lantadyme"></canvas>
-                <canvas data-itemname="unf_lantadyme_potion"></canvas><br>
+                <canvas data-itemname="lantadymevial"></canvas><br>
                 Lantadyme
             </td>
             <td><canvas data-itemname="dragon_scale_dust"></canvas><br>Ground dragon scale</td>
@@ -263,7 +263,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>72</td>
             <td>
                 <canvas data-itemname="dwarf_weed"></canvas>
-                <canvas data-itemname="unf_dwarf_weed_potion"></canvas><br>
+                <canvas data-itemname="dwarfweedvial"></canvas><br>
                 Dwarf weed
             </td>
             <td><canvas data-itemname="wine_of_zamorak"></canvas><br>Wine of Zamorak</td>
@@ -274,7 +274,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>78</td>
             <td>
                 <canvas data-itemname="torstol"></canvas>
-                <canvas data-itemname="unf_torstol_potion"></canvas><br>
+                <canvas data-itemname="torstolvial"></canvas><br>
                 Torstol
             </td>
             <td><canvas data-itemname="jangerberries"></canvas><br>Jangerberries</td>

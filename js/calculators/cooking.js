@@ -44,11 +44,11 @@ function calculateFood() {
     const foods = [
         { name: "Cooked Meat", xp: 30, level: 1 },
         { name: "Cooked Chicken", xp: 30, level: 1 },
-        { name: "Shrimps", xp: 30, level: 1 },
+        { name: "Shrimp", xp: 30, level: 1 },
         { name: "Anchovies", xp: 30, level: 1 },
         { name: "Bread", xp: 40, level: 1 },
         { name: "Sardine", xp: 40, level: 1 },
-        { name: "Ugthanki meat", xp: 40, level: 1 },
+        { name: "cooked_ugthanki_meat", xp: 40, level: 1 },
         { name: "Herring", xp: 50, level: 5 },
         { name: "Mackerel", xp: 60, level: 10 },
         { name: "Redberry Pie", xp: 78, level: 10 },
@@ -70,13 +70,13 @@ function calculateFood() {
         { name: "Meat Pizza", xp: 169, level: 45 },
         { name: "Chocolate Cake", xp: 210, level: 50 },
         { name: "Lava Eel", xp: 30, level: 53 },
-        { name: "Anchovy Pizza", xp: 182, level: 55 },
+        { name: "Anchovie Pizza", xp: 182, level: 55 },
         { name: "Pitta Bread", xp: 40, level: 58 },
         { name: "Curry", xp: 280, level: 60 },
         { name: "Pineapple Pizza", xp: 195, level: 65 },
         { name: "Shark", xp: 210, level: 80 },
-        { name: "Sea Turtle", xp: 211.3, level: 82 },
-        { name: "Manta Ray", xp: 216.2, level: 91 }
+        { name: "SeaTurtle", xp: 211.3, level: 82 },
+        { name: "MantaRay", xp: 216.2, level: 91 }
     ];
 
     // Update progress bar

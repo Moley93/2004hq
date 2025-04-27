@@ -63,7 +63,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>16</td>
             <td>20</td>
             <td>
-                <canvas data-itemname="net_big"></canvas><br>
+                <canvas data-itemname="big_net"></canvas><br>
                 Big Net<br>Fishing
             </td>
             <td><u>Net </u> / Harpoon</td>
@@ -84,7 +84,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>23</td>
             <td>45</td>
             <td>
-                <canvas data-itemname="net_big"></canvas><br>
+                <canvas data-itemname="big_net"></canvas><br>
                 Big Net<br>Fishing
             </td>
             <td><u>Net</u> / Harpoon</td>
@@ -136,7 +136,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>46</td>
             <td>100</td>
             <td>
-                <canvas data-itemname="net_big"></canvas><br>
+                <canvas data-itemname="big_net"></canvas><br>
                 Big Net<br>Fishing
             </td>
             <td><u>Net</u> / Harpoon</td>
@@ -162,13 +162,13 @@ function getSkillContent($skill) { return <<<HTML
             <td>Net / <u>Harpoon</u></td>
         </tr>
         <tr>
-            <td><canvas data-itemname="raw_sea_turtle"></canvas><br>Sea Turtle</td>
+            <td><canvas data-itemname="raw_seaturtle"></canvas><br>Sea Turtle</td>
             <td>79</td>
             <td>57</td>
             <td colspan=2>Trawler<br>Mini-Game</td>
         </tr>
         <tr>
-            <td><canvas data-itemname="raw_manta_ray"></canvas><br>Manta Ray</td>
+            <td><canvas data-itemname="raw_mantaray"></canvas><br>Manta Ray</td>
             <td>81</td>
             <td>69</td>
             <td colspan=2>Trawler<br>Mini-Game</td>

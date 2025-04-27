@@ -92,7 +92,7 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
         -->
         <tr>
-            <td><canvas data-itemname="ring_of_duel_8"></canvas><br>Ring of Dueling</td>
+            <td><canvas data-itemname="ring_of_dueling_8"></canvas><br>Ring of Dueling</td>
             <td>27</td>
             <td>Allows the player to teleport to the entrance of the Duel Arena</td>
             <td>Each ring allows 8 teleports in total</td>

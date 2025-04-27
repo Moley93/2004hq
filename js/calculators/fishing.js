@@ -42,7 +42,7 @@ function calculateFish() {
     
     const xpNeeded = targetXP - currentXP;
     const fishes = [
-        { name: "Shrimps", xp: 10, level: 1 },
+        { name: "Shrimp", xp: 10, level: 1 },
         { name: "Sardine", xp: 20, level: 5 },
         { name: "Herring", xp: 30, level: 10 },
         { name: "Anchovies", xp: 40, level: 15 },
@@ -57,8 +57,8 @@ function calculateFish() {
         { name: "Swordfish", xp: 100, level: 50 },
         { name: "Lava Eel", xp: 60, level: 53 },
         { name: "Shark", xp: 110, level: 76},
-        { name: "Sea Turtle", xp: 57, level: 79 },
-        { name: "Manta Ray", xp: 69, level: 81 }
+        { name: "SeaTurtle", xp: 57, level: 79 },
+        { name: "MantaRay", xp: 69, level: 81 }
     ];
     
     // Update progress bar
