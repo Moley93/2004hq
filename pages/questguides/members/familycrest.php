@@ -122,6 +122,8 @@ Swordfish<br>
 <img src="img/questimages/famcrest11.jpg" height="220" width="220"><img src="img/questimages/famcrest12.jpg" height="220" width="220"><br>
 <br>
 <br>
+<img src="img/questimages/edgedung.png" height="343" width="200">
+<br>
 <div data-progress>3. He is the third son. Talk to him—he has been poisoned. Give him your cure poison potion and he will be cured. He will tell you all
     about the poison spiders, and about Chronozon (121) having his piece of the crest. He will tell you that in order to kill Chronozon you will need
     to cast all of the blast spells on him.</div><br>
