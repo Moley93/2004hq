@@ -17,7 +17,7 @@ function getPageContent() {
 <hr>
 <h4>Bug Hunter's Club:</h4>
 <ul>
-  <li>No one yet!</li>
+  <li>Hidaze</li>
 </ul>
 <hr>
 <h3>Change Log</h3>
