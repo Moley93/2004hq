@@ -50,6 +50,11 @@ function renderSpriteToCanvas(debugname, canvas) {
     cost = baseItem.cost || 0;
   }
 
+  const nameAppend = canvas.getAttribute("data-name-append");
+  if (nameAppend) {
+    name += ` ${nameAppend}`;
+  }
+
   // Handle image override (looking up a different debugname)
   let imageItem = item;
   if (imageDebugnameOverrides.hasOwnProperty(debugname)) {

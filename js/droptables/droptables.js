@@ -213,7 +213,7 @@ function renderDrops(npcData, searchTerm = "") {
     const tier = rawTier.charAt(0).toUpperCase() + rawTier.slice(1);
     const isClueMatch = searchTerm.includes('clue') || tier?.toLowerCase().includes(searchTerm);
     html += `<tr${isClueMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
-      <td><canvas data-itemname="clue_scroll"></canvas>${tier} Clue Scroll</td>
+      <td><canvas data-itemname="trail_clue_easy_simple001" data-show-label="inline" data-name-append="(${tier})"></canvas></td>
       <td>1</td>
       <td>${chance}</td>
     </tr>`;
