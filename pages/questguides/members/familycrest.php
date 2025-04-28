@@ -10,26 +10,28 @@ choose one, so choose carefully!<br>
 <br>
 <b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
-    <div data-progress>40 Mining</div>
-    <div data-progress>40 Smithing</div>
-    <div data-progress>40 Crafting</div>
-    <div data-progress>59 Magic</div><br>
-    <div data-progress><canvas data-itemname="ruby"></canvas><br>2 Cut Rubies</div>
-    <div data-progress><canvas data-itemname="bronze_pickaxe"></canvas><br>Any Pickaxe</div><br><br>
-    <div data-progress><canvas data-itemname="shrimp" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="salmon" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="tuna" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="bass" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="swordfish" data-show-label="true"></canvas></div><br><br>
-    <div data-progress><canvas data-itemname="ring_mould" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="necklace_mould" data-show-label="true"></canvas></div>
-    <div data-progress><canvas data-itemname="3doseantipoison"></canvas><br>Antipoison Potion</div><br><br>
-    <div data-progress><canvas data-itemname="deathrune"></canvas><br>4 Death Runes</div>
-    <div data-progress><canvas data-itemname="airrune"></canvas><br>13 Air Runes</div>
-    <div data-progress><canvas data-itemname="waterrune"></canvas><br>3 Water Runes</div><br><br>
-    <div data-progress><canvas data-itemname="earthrune"></canvas><br>4 Earth Runes</div>
-    <div data-progress><canvas data-itemname="firerune"></canvas><br>5 Fire Runes</div><br><br>
-    <div data-progress>Recommended: Armor, Weapon, Food, Antipoison (for yourself)</div>
+<ul style="list-style-type: none;">
+<li><div data-progress>40 Mining</div></li>
+<li><div data-progress>40 Smithing</div></li>
+<li><div data-progress>40 Crafting</div></li>
+<li><div data-progress>59 Magic</div></li>
+<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>2 Cut Rubies</div></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any Pickaxe</div></li>
+<li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="tuna" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="bass" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
+<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>Any Antipoison Potion</div></li>
+<li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>x4 Death runes</div></li>
+<li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>x13 Air runes</div></li>
+<li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>x3 Water runes</div></li>
+<li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>x4 Earth runes</div></li>
+<li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>x5 Fire runes</div></li>
+<li><div data-progress>Recommended: Armor, Weapon, Food & Antipoison for yourself</div></li>
+</ul>
 <br>
 <br>
 Starting Location: Southeast of the East Varrock bank<br>
