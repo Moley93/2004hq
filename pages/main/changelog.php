@@ -8,9 +8,19 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-Site by Moley, Eilert, Halogod & Collin.<br><br>
-<u><b>Change Log</b></u>
-<br><br>
+<h3>Site by Moley, Eilert, Halogod & Collin.</h3>
+<h4>Special thanks to our additional Contributors:</h4>
+<ul>
+  <li>Sheeva</li>
+  <li>Razgals</li>
+</ul>
+<hr>
+<h4>Bug Hunter's Club:</h4>
+<ul>
+  <li>No one yet!</li>
+</ul>
+<hr>
+<h3>Change Log</h3>
 <div id="log-table-container">
 <style>
     #log-table-container {
@@ -20,7 +30,7 @@ Site by Moley, Eilert, Halogod & Collin.<br><br>
     #log-table-container #filter-input {
       margin-bottom: 10px;
       padding: 5px;
-      width: 100%;
+      width: 80%;
     }
 
     #log-table-container #pagination {
