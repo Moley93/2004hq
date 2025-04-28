@@ -18,6 +18,7 @@ function getPageContent() {
 <h4>Bug Hunter's Club:</h4>
 <ul>
   <li>Hidaze</li>
+  <li>Hydrated</li>
 </ul>
 <hr>
 <h3>Change Log</h3>
