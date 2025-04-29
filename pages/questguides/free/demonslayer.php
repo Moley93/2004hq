@@ -8,14 +8,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<!-- disabled until I figure out custom names
 <li><div data-progress><canvas data-itemname="bucket_water" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bones" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="coins" data-show-label="inline"></canvas></div><br></li>
--->
-<input type="checkbox"> Bucket of water<br>
-<input type="checkbox"> 25 Bones<br>
-<input type="checkbox"> 1 Coin<br>
+<li><div data-progress><canvas data-itemname="bones"></canvas>25 Bones</div><br></li>
+<li><div data-progress><canvas data-itemname="coins"></canvas>1 coin</div><br></li>
 </ul>
 <br>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
