@@ -1,40 +1,44 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b>Description:</b> Redbeard Frank knows where secret pirate treasure is hidden, it may require some work to persuade him to let you know where though.
+<br><br>
+<b>Difficulty Level: <font color="Green">Easy</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
+<h3>Items & Skills Needed:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress><canvas data-itemname="white_apron" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>60 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
+</ul>
 <br>
-Description: Redbeard Frank knows where some secret pirate treasure is hidden. It may require some work to persuade him to tell you where, though.<br>
+<b>Starting Location:</b> The pub in Port Sarim
+<br><br>
+<b>Reward:</b> 2 quest points, 450 coins, a cut Emerald, a Gold Ring
+<br><br>
+<hr>
+<h3>Instructions:</h3>
 <br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
-<br>
-Items/Skills Needed To Start: <input type="checkbox"> 60 coins, <input type="checkbox"> a White Apron, <input type="checkbox"> a Spade<br>
-<br>
-Starting Location: The pub in Port Sarim<br>
-<br>
-Reward: 2 Quest Points, 450 coins, a Cut Emerald, and a Gold Ring<br>
-<br>
-<b>Instructions:</b><br>
-<br>
-<input type="checkbox"> Talk to Redbeard the pirate. He will tell you about the treasure. Say that you want to get it. He will ask you to bring him some rum.<br>
-<br>
-<input type="checkbox"> Travel to Karamja and get out of the ship. Go to the wine shop and buy some rum, which costs 30 coins.<br>
-<br>
-<input type="checkbox"> Now talk to Luthas in the house northeast of this shop. Talk to him and say that you want to help. He will give you a job.<br>
-<br>
-<input type="checkbox"> Go to the banana field west of this house. Pick 10 bananas and go east. You will see a crate. Use some (not all) of the bananas in the crate, then use the rum on the crate. The rum is now inside. Put the remaining bananas in the crate until it's full. After it's full, talk to Luthas, and he will award you 30 coins.<br>
-<br>
-<input type="checkbox"> Travel back to Port Sarim and walk west. You will see a man called Wyndin who owns a food shop. If you have the white apron now, wear it. If you don't, go to the clothes shop in Varrock to buy one.<br>
-<br>
-<input type="checkbox"> Talk to Wyndin and ask him to hire you, if you are wearing the apron, he will hire you.<br>
-<br>
-<input type="checkbox"> Search all the crates in the shop. One of them contains bananas and a rum, take the rum out.<br>
-<br>
-<input type="checkbox"> Talk to Redbeard, and he will be pleased and give you a key. He will say that a chest in Varrock contains the treasure.<br>
-<br>
-<input type="checkbox"> Go to Varrock and go inside the Blue Moon Inn which is behind the general stall. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.<br>
-<br>
-<input type="checkbox"> Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.<br>
+<div data-progress>Talk to Redbeard the pirate. He will tell you about the treasure. Say that you want to get it. He will ask you to bring him some rum.</div>
+<br><br>
+<div data-progress>Travel to Karamja and get out of the ship. Go to the wine shop and buy some rum, which costs 30 coins.</div>
+<br><br>
+<div data-progress>Now talk to Luthas in the house northeast of this shop. Talk to him and say that you want to help. He will give you a job.</div>
+<br><br>
+<div data-progress>Go to the banana field west of this house. Pick 10 bananas and go east. You will see a crate. Use some (not all) of the bananas in the crate, then use the rum on the crate. The rum is now inside. Put the remaining bananas in the crate until it's full. After it's full, talk to Luthas, and he will award you 30 coins.</div>
+<br><br>
+<div data-progress>Travel back to Port Sarim and walk west. You will see a man called Wyndin who owns a food shop. If you have the white apron now, wear it. If you don't, go to the clothes shop in Varrock to buy one.</div>
+<br><br>
+<div data-progress>Talk to Wyndin and ask him to hire you, if you are wearing the apron, he will hire you.</div>
+<br><br>
+<div data-progress>Search all the crates in the shop. One of them contains bananas and a rum, take the rum out.</div>
+<br><br>
+<div data-progress>Talk to Redbeard, and he will be pleased and give you a key. He will say that a chest in Varrock contains the treasure.</div>
+<br><br>
+<div data-progress>Go to Varrock and go inside the Blue Moon Inn which is behind the general stall. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.</div>
+<br><br>
+<div data-progress>Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.</div>
 $questComplete
 This quest guide was written on RuneHQ by Henry-x. Thanks to Evadek and Weezy for corrections.<br>
 <br>
