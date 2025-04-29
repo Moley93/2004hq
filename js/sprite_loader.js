@@ -8,6 +8,7 @@ spritesheet.src = 'img/item_spritesheet.png';
 // Image override debugnames
 const imageDebugnameOverrides = {
   coins: "coins_10000",
+  coins_1: "coins",
   bronze_arrow: "bronze_arrow_5",
   iron_arrow: "iron_arrow_5",
   steel_arrow: "steel_arrow_5",

@@ -10,7 +10,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="bucket_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>25 Bones</div><br></li>
-<li><div data-progress><canvas data-itemname="coins" data-size="25"></canvas>1 coin</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_1" data-size="25"></canvas>1 coin</div><br></li>
 </ul>
 <br>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
