@@ -15,7 +15,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <b>Starting Location:</b> Reldo in the palace library of Varrock
 <br><br>
-<b>Reward:</b> 1 quest point, 2 certificates worth 600 coins
+<b>Reward:</b> 1 quest point, 2 certificates worth 600 coins each
 <br><br>
 <hr>
 <h3>Instructions:</h3>
