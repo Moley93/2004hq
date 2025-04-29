@@ -8,9 +8,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="egg" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bucket_milk" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="pot_flour" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="egg" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="bucket_milk" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="pot_flour" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
 <br>
 <b>Starting Location:</b> Lumbridge Castle
