@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> Doric the dwarf is happy to let you use his anvils but first he would like you to run an errand for him.
 <br><br>
-<b>Difficulty Level: <font color="Green">Easy</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>

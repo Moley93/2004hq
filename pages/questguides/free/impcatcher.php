@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> The Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to the Wizard Mizgog including his magic beads.
 <br><br>
-<b>Difficulty Level: <font color="Green">Easy</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>

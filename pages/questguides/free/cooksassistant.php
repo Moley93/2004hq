@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> The Lumbridge castle cook is in a mess. It is the Duke of Lumbridge's birthday and the cook is making the cake. He needs a lot of ingredients and doesn't have much time.
 <br><br>
-<b>Difficulty Level: <font color="Green">Easy</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>

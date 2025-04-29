@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> Varrockian literature tells of a valuable shield, stolen long ago from the museum of Varrock, by a gang of professional thieves. See if you can track down this shield and return it to the museum. You will need a friend to help you complete this quest.
 <br><br>
-<b>Difficulty Level: <font color="Green">Easy</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>

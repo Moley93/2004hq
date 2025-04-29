@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> Romeo & Juliet are desperately in love, but Juliet's father doesn't approve. Help them to find a way to get married and live happily ever after.
 <br><br>
-<b>Difficulty Level: <font color="Green">Easy</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>

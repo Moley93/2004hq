@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> The black knights are up to no good. You are hired by the white knights to spy on them and uncover their evil scheme.
 <br><br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
 <br><br>
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>

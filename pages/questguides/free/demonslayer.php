@@ -3,7 +3,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
 <b>Description:</b> A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him.(or at least to try)
 <br><br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b>
+<b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
