@@ -8,6 +8,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Green">Short</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
+<li><div data-progress><canvas data-itemname="clay" data-size="25"></canvas>6 clay (not soft clay)</div><br></li>
+<li><div data-progress><canvas data-itemname="copper_ore" data-size="25"></canvas>4 copper ores</div><br></li>
+<li><div data-progress><canvas data-itemname="iron_ore" data-size="25"></canvas>2 iron ores</div><br></li>
+</ul>
+<h3>Recommended:</h3>
+<ul style="list-style-type: none;">
 <li><div data-progress>15 Mining</div></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
 </ul>
