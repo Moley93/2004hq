@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b>Description:</b> Trufitus Shakaya of the Taie Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
+<b>Description:</b> Trufitus Shakaya of the Tai Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
 <br><br>
