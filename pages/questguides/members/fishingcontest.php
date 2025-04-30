@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: The Mountain Dwarves' home would be an ideal way to cross White Wolf Mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy—the prize from the annual Hemenster Fishing Competition.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> The mountain Dwarves home would be an ideal way to get across White Wolf mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> 5-10 coins, <input type="checkbox"> garlic (found in Draynor Village on the second floor of a house), <input type="checkbox"> a spade (found in Draynor Manor in the east room on the main floor), <input type="checkbox"> a regular fishing rod (purchasable at any fishing shop), <input type="checkbox"> 10 Fishing<br>
 <br>

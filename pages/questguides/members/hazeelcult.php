@@ -1,10 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Discover the truth behind the Carnillean family fortune. Decide for yourself whether to aid the Carnilleans in retrieving stolen goods, or join the Hazeel cult members in their mission to resurrect the infamous Lord Hazeel.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items Needed To Start: None<br>
 <br>

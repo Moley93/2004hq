@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: A boy has kicked his ball into an old witch's house. He wants you to go get it for him.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> A young boy who lives in Taverley has kicked his ball into the garden of a scary old lady. He asks you to get it back for him. This proves more difficult than it first sounds.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: Cheese (gloves can be obtained in the Varrock clothes store, cheese in Draynor)<br>
 <br>

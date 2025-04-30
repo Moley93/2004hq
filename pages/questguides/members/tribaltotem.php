@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange-looking totem from Karamja. The Rantuki tribe is not happy about the recent disappearance of their totem.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> Lord Handelmort of Ardougne is a collector of exotic artifacts. A recent addition to his private collection is a strange looking totem from Karamja. The Rantuki tribe are not happy about the recent disaperance of their totem.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: Level 21 Thieving, coins for traveling to Karamja<br>
 <br>

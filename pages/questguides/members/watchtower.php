@@ -1,13 +1,14 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b>Description:</b> The Wizards of the Yanille Watch Tower have been reporting increased ogre sightings recently. Use a wide variety of your skills to help the wizards recover their stolen power crystals and stop the advance of the ogre hordes!
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
-Items/Skills Needed To Start: Mining 40+, Agility 30+, Thieving 15+, Magic 14+, Herblaw 14+. A good combat level is an advantage, as you'll need to kill a monster. 20gp+ (bring more if you're not great at Agility!), 1 gold bar, 1 lit candle, 1 death rune, a pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, a guam leaf, a water-filled vial, pestle and mortar. (Food, armour, a weapon, and an anti-dragon breath shield are very useful!) This is a lot of items, but make sure to have room for around 7 or 8 extra items.<br>
-<br>
-<b>Difficulty Level: <font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
-<br>
+Items/Skills Needed To Start: Mining 40+, Agility 30+, Thieving 15+, Magic 14+, Herblaw 14+. A good combat level is an advantage, as you'll need to kill a monster. 20gp+ (bring more if you're not great at Agility!), 1 gold bar, 1 lit candle, 1 death rune, a pickaxe, dragon bones, bat bones, 1 janger berry, 2 ropes, a guam leaf, a water-filled vial, pestle and mortar. (Food, armour, a weapon, and an anti-dragon breath shield are very useful!) This is a lot of items, but make sure to have room for around 7 or 8 extra items.
+<br><br>
 Quest Start: Watchtower, which is north of Yanille (just follow yanilles north wall and you'll be there)<br>
 <br>
 Reward: 4 Quest Points, 5,000gp, 12,000 Magic XP, Watchtower Teleport (requires level 58 Magic).<br>

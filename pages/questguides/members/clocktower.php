@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Help Brother Kojo fix his clock tower by finding the missing cogs.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> Help the confused Brother Kojo find the missing cogs and fix his watch tower. Search the dungeon using brawn and brains to correctly place the four cogs.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> Bucket of water or ice gloves, <input type="checkbox"> and a good weapon and armour, since you need to get past some level 53 ogres.<br>
 <br>

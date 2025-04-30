@@ -1,13 +1,10 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Hundreds of years ago, a mineral was found that had the ability to change the properties of magic.<br>
-<br>
-The magicians, fearing the effect this may have on their profession, sealed this workshop forever — or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
+<b>Description:</b> Hundreds of years ago a mineral was found that had the ability to change the property of magic. The magicians, fearing the effect this may have on there profession, sealed this workshop forever; or so they had hoped. See if you can rediscover the lost knowledge of elemental ore.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <br>
 Requirements: 20 Mining, 20 Smithing, 20 Crafting<br>

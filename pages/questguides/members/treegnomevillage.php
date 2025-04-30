@@ -1,13 +1,13 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
-<br>
-Description: Help the Gnome Kingdom retrieve orbs of protection from the evil Khazard and his troops to save the day, and the gnomes.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
+<b>Description:</b> The tree gnomes are in trouble. General Khazard's forces are hunting them to extinction. Find you way through the hedge maze to the gnomes secret treetop village. Then help the gnomes fight Khazard and retrieve the orbs of protection.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed to Start: 6 normal logs, the ability to defeat a level 112 Khazard Warlord<br>
 <br>

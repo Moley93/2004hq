@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Investigate the death of the elven leaders of old. To find mysterious treasures in the fall.<br>
-<br>
-<b>Difficulty Level: <font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Investigate the death of elven leaders of old. Search for the elf King Baxtorian's tomb and discover the mysterious hidden treasure of the waterfall.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start: Some rope (one if you do it right, but buy a few from Ned in Draynor Village, just in case — 15 coins each), 6 air runes, 6 water runes, 6 earth runes, a good weapon, some good armor, a stat restore potion, lots of food<br>
 <br>

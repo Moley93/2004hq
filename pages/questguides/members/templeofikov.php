@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest, you are presented with a choice of how to complete it.<br>
-<br>
-<b>Difficulty Level: <font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
+<b>Description:</b> A mysterious stranger called Lucien asks you to go on a mission deep under the Temple of Ikov in central Kandarin. He wants you to retrieve an artifact known as the Staff of Armadyl. Towards the end of the quest you are presented with a choice on how to complete the quest.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start: 42 Thieving, 40 Ranged, a yew or magic bow, a candle (can be bought in Catherby), a tinderbox, 20 limpwurt roots, a knife<br>
 <br>

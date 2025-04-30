@@ -1,18 +1,19 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Starting Location: East Ardougne Speak to: King Lathas<br>
-<br>
-<b>Difficulty Level: <font color="Orange">Medium/Long</font></b><br>
-<br>
+<b>Description:</b> The Underground Pass, sealed for thousands of years, has now been reopened to reveal a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take it's toll, mental strength is what you'll need...
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
 <b>Length: <font color="Red">Long</font></b><br>
 <br>
 Minimum requirements: Level 25 Ranged, must defeat three level 91 demons, must have completed the Biohazard quest, and good Thieving and Agility are an advantage. Level 25 Agility is recommended, though.<br>
 <br>
 Items needed: Bow, arrows, spade, rope (maybe two if you want to save a tiny bit of time), armour, weapon, and food (Note: you might want to take a bow and arrows, that you do not mind dropping. After certain points you will not need them again, and inventory space can get pretty low.)<br>
-If your thieving is below level 50 you will probably have a harder time with this quest. You will need as much food that heals the most hit points as you can carry.<br>
-<br>
+If your thieving is below level 50 you will probably have a harder time with this quest. You will need as much food that heals the most hit points as you can carry.
+<br><br>
+Starting Location: East Ardougne Speak to: King Lathas
+<br><br>
 Reward: 5 Quest Points, Agility exp (amount depends on your level), Staff of Iban, 15 Death Runes, 30 Fire Runes, and the ability to use Iban Blast.<br>
 <br>
 1. Start by talking to King Lathas, who is on the <span data-floors="US">2nd floor</span> of the Paladin Tower in Ardougne, he will tell you about the quest and tells you to talk to one of his scouts.<br>

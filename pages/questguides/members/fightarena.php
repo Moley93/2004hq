@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: The Servil family has been broken up by the evil General Khazard. Reunite the family and ultimately defeat the General.<br>
-<br>
-<b>Difficulty Level: <font color="red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> The prosperous Servil family have been abducted by the infamous General Khazard. He plans to have the family battle for his entertainment in the fight arena. Can you rescue the Servil's before the tyrant has these innocent (not to mention wealthy) civillians slain.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> 5 coins, a good weapon, and armor are a MUST. You must also be able to defeat a level 132 Bouncer and level 112 General Khazard.<br>
 <br>

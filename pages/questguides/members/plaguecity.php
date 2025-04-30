@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: A shadow of disease has overcast Ardounge. Edmond's daughter Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> A shadow of disease has overcast Ardounge. Edmond's daugher Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: 4 buckets of water, a rope (can be bought from Ned in Draynor Village for 15 coins), a bucket of milk (get a bucket and use it on a cow), a bar of chocolate (can be bought from the Port Sarim food shop), a spade, a dwellberry (McGrubor's Woods—go around the back and squeeze through the railing; watch out for level 44 dogs), a pestle and mortar (can be bought at the Herblaw shop), some snape grass (spawns on the peninsula west of the Crafting Guild)<br>
 <br>

@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Prove you are worthy to enter the Hero's Guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.<br>
-<br>
-<b>Difficulty Level: <font color="Purple">Very Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<b>Description:</b> Prove you are worthy to enter the hero's guild. To prove your status as a hero you will need to obtain a number of items. There are many challenges standing between you and these items.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start: 50 Mining, 25 Herblore, 53 Fishing (or 50 and a fishing potion), 53 Cooking are required. (level 43 prayer is helpful, but not required) You must also be a member of Black Arm gang or Phoenix gang (you must have done the Shield of Arrav quest). If you are a member of Black Arm gang, then you will need a friend who belongs to Phoenix gang to help you. The same if you are in the Phoenix gang: you will need the help of a friend in the Black Arm gang. This quest cannot be completed without help from a friend in the other gang. You must also have done all the quests above the Hero's Quest on the quest list, along with Druidic Ritual and Merlin's Crystal. As a result you must have at least 55 quest points. You will also need some really good armor, a good weapon, lots of food, about 2,000 coins for expenses (possibly more depending on what gang you are in). You will also need a Harralander herb (see Herblore guide) Also, an Antifire Shield will help.<br>
 <br>

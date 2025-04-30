@@ -1,14 +1,13 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.<br>
+<b>Description:</b> Accept the challenge of the Legends Guild to map the Southern part of Karamja Island, make friends with the natives and bring back a prize to display in the Legends Guild Main Hall.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Requirements: 107 Quest Points and must have completed Hero's Quest, Family Crest Quest, Underground Pass Quest, Waterfall Quest, and Shilo Village Quest.<br>
-<br>
-<b>Difficulty Level: <font color="Purple">Very Hard</font></b><br>
-<br>
-<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Skills Needed To Start: Level 50 Strength, Level 42 Prayer, Level 56 Magic, Level 50 Agility, Level 45 Herblore, Level 50 Thieving, Level 50 Crafting, Level 52 Mining, Level 50 Smithing, Level 50 Woodcutting.<br>
 <br>

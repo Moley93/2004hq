@@ -1,11 +1,10 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Gertrude's cat is missing, and she is frantic about finding it. Track down the cat and return it.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
+<b>Description:</b> Gertrude's cat has been missing for some time now - for her piece of mind her prized pet must be rescued. Handling cats isn't an easy business. They get hungry and need plenty of attention but if you're the pet type, then this is the quest for you!
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> A Raw Sardine, <input type="checkbox"> a Doogle Leaf, <input type="checkbox"> Bucket of Milk<br>
