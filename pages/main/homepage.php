@@ -112,9 +112,8 @@ function getPageContent() { return <<<HTML
                 <a href="?p=streetprices" class="c">Click Here</a>
             </td>
             <td width="10"></td>
-            <td width="100">
-            </td>
-            <td width="120">
+            <td width="220" colspan=2><br>
+                <p style="font-size:14px;">Thanks for the great videos Mudkip, we hope you decide to stick around, even if you aren't making 2004scape vids!</p>
             </td>
         </tr>
     </tbody>

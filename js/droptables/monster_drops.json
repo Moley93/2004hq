@@ -87,45 +87,59 @@
         },
         {
           "item": [
-            "coins",
-            35
+            "~randomherb",
+            1
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            12
+            35
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            53
+            12
           ],
           "chance": "1/9"
         },
         {
           "item": [
             "coins",
-            1
+            53
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            80
+            1
           ],
           "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "coal",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/21"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -198,59 +212,73 @@
         },
         {
           "item": [
-            "coins",
-            48
+            "~randomherb",
+            1
           ],
           "chance": "1/8"
         },
         {
           "item": [
             "coins",
-            15
+            48
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            8
+            15
           ],
           "chance": "1/7"
         },
         {
           "item": [
             "coins",
-            70
+            8
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            5
+            70
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            150
+            5
           ],
           "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            150
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "silver_ore",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/11"
         },
         {
           "item": [
             "cert_swordfish",
             5
           ],
-          "chance": "1/11"
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/64"
         }
       ],
       "clue_scroll": "1/128 medium"
@@ -548,6 +576,13 @@
             1
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -655,24 +690,31 @@
         },
         {
           "item": [
-            "coins",
-            132
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            30
+            132
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            44
+            30
           ],
           "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            44
+          ],
+          "chance": "1/21"
         },
         {
           "item": [
@@ -686,28 +728,42 @@
             "coins",
             460
           ],
-          "chance": "1/21"
+          "chance": "1/128"
         },
         {
           "item": [
             "lobster",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
             "adamantite_bar",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
             "3dose1defense",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "~ultrarare_getitem",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -848,6 +904,20 @@
             1
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "~ultrarare_getitem",
+            1
+          ],
+          "chance": "1/64"
         }
       ],
       "clue_scroll": "1/128 hard"
@@ -941,17 +1011,24 @@
         },
         {
           "item": [
-            "steel_bar",
+            "~randomherb",
             1
           ],
           "chance": "1/42"
         },
         {
           "item": [
-            "tin_ore",
+            "steel_bar",
             1
           ],
           "chance": "1/21"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -965,49 +1042,56 @@
             "coins",
             35
           ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "coins",
-            1
-          ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            6
+            1
           ],
           "chance": "1/9"
         },
         {
           "item": [
             "coins",
-            58
+            6
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            12
+            58
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            80
+            12
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "bread",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -1099,17 +1183,24 @@
         },
         {
           "item": [
-            "steel_bar",
+            "~randomherb",
             1
           ],
           "chance": "1/42"
         },
         {
           "item": [
-            "tin_ore",
+            "steel_bar",
             1
           ],
           "chance": "1/21"
+        },
+        {
+          "item": [
+            "tin_ore",
+            1
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -1123,49 +1214,56 @@
             "coins",
             35
           ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "coins",
-            1
-          ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            6
+            1
           ],
           "chance": "1/9"
         },
         {
           "item": [
             "coins",
-            58
+            6
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            12
+            58
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            80
+            12
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            80
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "bread",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -1260,45 +1358,52 @@
         },
         {
           "item": [
-            "coins",
-            44
+            "~randomherb",
+            1
           ],
           "chance": "1/8"
         },
         {
           "item": [
             "coins",
-            132
+            44
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            200
+            132
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            11
+            200
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            440
+            11
           ],
           "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            440
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "bass",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -1306,6 +1411,13 @@
             1
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
         }
       ],
       "clue_scroll": "1/128 hard"
@@ -1364,38 +1476,59 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
             "coins",
             3
           ],
-          "chance": "1/3"
+          "chance": "1/25"
         },
         {
           "item": [
             "coins",
             8
           ],
-          "chance": "1/11"
+          "chance": "1/42"
         },
         {
           "item": [
             "coins",
             29
           ],
-          "chance": "1/25"
+          "chance": "1/128"
         },
         {
           "item": [
             "coins",
             35
           ],
-          "chance": "1/25"
+          "chance": "1/12"
         },
         {
           "item": [
             "vial_water",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -1409,14 +1542,7 @@
             "snape_grass",
             1
           ],
-          "chance": "1/12"
-        },
-        {
-          "item": [
-            "unholy_symbol_mould",
-            1
-          ],
-          "chance": "1/128"
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
@@ -1475,31 +1601,52 @@
         },
         {
           "item": [
-            "white_berries",
+            "~randomherb",
             1
           ],
           "chance": "1/3"
         },
         {
           "item": [
-            "unicorn_horn_dust",
+            "~randomherb",
             1
           ],
           "chance": "1/12"
         },
         {
           "item": [
-            "limpwurt_root",
+            "~randomherb",
             1
           ],
           "chance": "1/25"
         },
         {
           "item": [
+            "white_berries",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "unicorn_horn_dust",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "limpwurt_root",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
             "limpwurt_root",
             2
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -1513,14 +1660,14 @@
             "vial_water",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/8"
         },
         {
           "item": [
             "coins",
             3
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -1534,14 +1681,14 @@
             "coins",
             10
           ],
-          "chance": "1/8"
+          "chance": "1/128"
         },
         {
           "item": [
             "1dose2defense",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -1709,6 +1856,13 @@
             1
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
         }
       ],
       "clue_scroll": null
@@ -1837,7 +1991,7 @@
         },
         {
           "item": [
-            "coins",
+            "~randomherb",
             1
           ],
           "chance": "1/42"
@@ -1845,9 +1999,16 @@
         {
           "item": [
             "coins",
-            2
+            1
           ],
           "chance": "1/4"
+        },
+        {
+          "item": [
+            "coins",
+            2
+          ],
+          "chance": "1/6"
         },
         {
           "item": [
@@ -1861,28 +2022,28 @@
             "coins",
             13
           ],
-          "chance": "1/6"
+          "chance": "1/18"
         },
         {
           "item": [
             "coins",
             20
           ],
-          "chance": "1/18"
+          "chance": "1/21"
         },
         {
           "item": [
             "coins",
             30
           ],
-          "chance": "1/21"
+          "chance": "1/64"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -2365,24 +2526,31 @@
         },
         {
           "item": [
-            "coins",
-            2
+            "~randomherb",
+            1
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            4
+            2
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            1
+            4
           ],
           "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/42"
         },
         {
           "item": [
@@ -2396,21 +2564,21 @@
             "coins",
             20
           ],
-          "chance": "1/42"
+          "chance": "1/128"
         },
         {
           "item": [
             "vial_empty",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/12"
         },
         {
           "item": [
             "iron_dagger",
             1
           ],
-          "chance": "1/12"
+          "chance": "1/21"
         },
         {
           "item": [
@@ -2424,21 +2592,21 @@
             "druidrobebottom",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/25"
         },
         {
           "item": [
             "limpwurt_root",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/42"
         },
         {
           "item": [
             "3doseantipoison",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -2483,10 +2651,17 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
             "chaosrune",
             2
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
@@ -2500,49 +2675,49 @@
             "coins",
             4
           ],
-          "chance": "1/32"
+          "chance": "1/6"
         },
         {
           "item": [
             "coins",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/8"
         },
         {
           "item": [
             "coins",
             30
           ],
-          "chance": "1/8"
+          "chance": "1/64"
         },
         {
           "item": [
             "hammer",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/12"
         },
         {
           "item": [
             "bronze_bar",
             1
           ],
-          "chance": "1/12"
+          "chance": "1/18"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
             "tin_ore",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -2563,7 +2738,14 @@
             "coal",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -2606,10 +2788,17 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
             "chaosrune",
             2
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
@@ -2623,49 +2812,49 @@
             "coins",
             4
           ],
-          "chance": "1/32"
+          "chance": "1/6"
         },
         {
           "item": [
             "coins",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/8"
         },
         {
           "item": [
             "coins",
             30
           ],
-          "chance": "1/8"
+          "chance": "1/64"
         },
         {
           "item": [
             "hammer",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/12"
         },
         {
           "item": [
             "bronze_bar",
             1
           ],
-          "chance": "1/12"
+          "chance": "1/18"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
             "tin_ore",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -2686,7 +2875,14 @@
             "coal",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -2729,10 +2925,17 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/18"
+        },
+        {
+          "item": [
             "chaosrune",
             2
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
@@ -2746,49 +2949,49 @@
             "coins",
             4
           ],
-          "chance": "1/32"
+          "chance": "1/6"
         },
         {
           "item": [
             "coins",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/8"
         },
         {
           "item": [
             "coins",
             30
           ],
-          "chance": "1/8"
+          "chance": "1/64"
         },
         {
           "item": [
             "hammer",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/12"
         },
         {
           "item": [
             "bronze_bar",
             1
           ],
-          "chance": "1/12"
+          "chance": "1/18"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/18"
+          "chance": "1/32"
         },
         {
           "item": [
             "tin_ore",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -2809,7 +3012,14 @@
             "coal",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -2887,10 +3097,24 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/9"
+        },
+        {
+          "item": [
             "coins",
             12
           ],
-          "chance": "1/9"
+          "chance": "1/7"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
@@ -2968,52 +3192,59 @@
         },
         {
           "item": [
-            "coins",
-            3
+            "~randomherb",
+            1
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            10
+            3
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            5
+            10
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            15
+            5
           ],
           "chance": "1/14"
         },
         {
           "item": [
             "coins",
-            25
+            15
           ],
           "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -3027,7 +3258,7 @@
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -3114,59 +3345,80 @@
         },
         {
           "item": [
-            "coins",
-            60
+            "~randomherb",
+            1
           ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            15
+            60
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            25
+            15
           ],
           "chance": "1/18"
         },
         {
           "item": [
             "coins",
-            300
+            25
           ],
           "chance": "1/21"
         },
         {
           "item": [
             "coins",
-            50
+            300
           ],
           "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            50
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "lobster",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
             "steel_bar",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
             "2dose1strength",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/11"
+        },
+        {
+          "item": [
+            "~ultrarare_getitem",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -3281,59 +3533,73 @@
         },
         {
           "item": [
-            "coins",
-            38
+            "~randomherb",
+            1
           ],
           "chance": "1/18"
         },
         {
           "item": [
             "coins",
-            15
+            38
           ],
           "chance": "1/9"
         },
         {
           "item": [
             "coins",
-            52
+            15
           ],
           "chance": "1/16"
         },
         {
           "item": [
             "coins",
-            8
+            52
           ],
           "chance": "1/64"
         },
         {
           "item": [
             "coins",
-            88
+            8
           ],
           "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            88
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "limpwurt_root",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/11"
         },
         {
           "item": [
             "beer",
             1
           ],
-          "chance": "1/11"
+          "chance": "1/21"
         },
         {
           "item": [
             "body_talisman",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -3950,7 +4216,7 @@
         },
         {
           "item": [
-            "coins",
+            "~randomherb",
             1
           ],
           "chance": "1/9"
@@ -3958,30 +4224,37 @@
         {
           "item": [
             "coins",
-            3
+            1
           ],
           "chance": "1/16"
         },
         {
           "item": [
             "coins",
-            5
+            3
           ],
           "chance": "1/18"
         },
         {
           "item": [
             "coins",
-            16
+            5
           ],
           "chance": "1/42"
         },
         {
           "item": [
             "coins",
-            24
+            16
           ],
           "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -3993,13 +4266,6 @@
         {
           "item": [
             "grapes",
-            1
-          ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "red_cape",
             1
           ],
           "chance": "1/128"
@@ -4101,7 +4367,7 @@
         },
         {
           "item": [
-            "coins",
+            "~randomherb",
             1
           ],
           "chance": "1/9"
@@ -4109,30 +4375,37 @@
         {
           "item": [
             "coins",
-            3
+            1
           ],
           "chance": "1/16"
         },
         {
           "item": [
             "coins",
-            5
+            3
           ],
           "chance": "1/18"
         },
         {
           "item": [
             "coins",
-            16
+            5
           ],
           "chance": "1/42"
         },
         {
           "item": [
             "coins",
-            24
+            16
           ],
           "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            24
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -4144,13 +4417,6 @@
         {
           "item": [
             "grapes",
-            1
-          ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "red_cape",
             1
           ],
           "chance": "1/128"
@@ -4293,6 +4559,13 @@
             10
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
         }
       ],
       "clue_scroll": "1/128 hard"
@@ -4387,45 +4660,52 @@
         },
         {
           "item": [
-            "coins",
-            44
+            "~randomherb",
+            1
           ],
           "chance": "1/8"
         },
         {
           "item": [
             "coins",
-            132
+            44
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            200
+            132
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            11
+            200
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            440
+            11
           ],
           "chance": "1/25"
+        },
+        {
+          "item": [
+            "coins",
+            440
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "bass",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
@@ -4433,6 +4713,13 @@
             1
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
         }
       ],
       "clue_scroll": "1/128 hard"
@@ -4782,49 +5069,49 @@
         },
         {
           "item": [
-            "coins",
-            15
+            "~randomherb",
+            1
           ],
           "chance": "1/10"
         },
         {
           "item": [
             "coins",
-            28
+            15
           ],
           "chance": "1/32"
         },
         {
           "item": [
             "coins",
-            5
+            28
           ],
           "chance": "1/42"
         },
         {
           "item": [
             "coins",
-            62
+            5
           ],
           "chance": "1/128"
         },
         {
           "item": [
             "coins",
-            42
+            62
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            1
+            42
           ],
           "chance": "1/64"
         },
         {
           "item": [
-            "limpwurt_root",
+            "coins",
             1
           ],
           "chance": "1/64"
@@ -4919,24 +5206,31 @@
         },
         {
           "item": [
-            "coins",
-            15
+            "~randomherb",
+            1
           ],
           "chance": "1/18"
         },
         {
           "item": [
             "coins",
-            5
+            15
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            28
+            5
           ],
           "chance": "1/10"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/32"
         },
         {
           "item": [
@@ -4950,13 +5244,6 @@
             "coins",
             42
           ],
-          "chance": "1/32"
-        },
-        {
-          "item": [
-            "coins",
-            1
-          ],
           "chance": "1/42"
         },
         {
@@ -4968,17 +5255,31 @@
         },
         {
           "item": [
-            "limpwurt_root",
+            "coins",
             1
           ],
           "chance": "1/128"
         },
         {
           "item": [
-            "goblin_armour",
+            "limpwurt_root",
             1
           ],
           "chance": "1/6"
+        },
+        {
+          "item": [
+            "goblin_armour",
+            1
+          ],
+          "chance": "1/64"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
@@ -5253,10 +5554,24 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
             "coins",
             15
           ],
-          "chance": "1/12"
+          "chance": "1/3"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": "1/128 medium"
@@ -5564,38 +5879,45 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/21"
+        },
+        {
+          "item": [
             "pineapple",
             2
           ],
-          "chance": "1/21"
+          "chance": "1/16"
         },
         {
           "item": [
             "knife",
             1
           ],
-          "chance": "1/16"
+          "chance": "1/25"
         },
         {
           "item": [
             "bones",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/43"
         },
         {
           "item": [
             "big_bones",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/43"
         },
         {
           "item": [
             "big_bones",
             3
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -5606,17 +5928,24 @@
         },
         {
           "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/129"
+        },
+        {
+          "item": [
             "unidentified_snake_weed",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/25"
         },
         {
           "item": [
             "unidentified_rogues_purse",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/25"
         }
       ],
       "clue_scroll": "1/129 medium"
@@ -5646,10 +5975,17 @@
       "roll_table": [
         {
           "item": [
-            "rune_med_helm",
+            "~randomjewel",
             1
           ],
           "chance": "1/32"
+        },
+        {
+          "item": [
+            "rune_med_helm",
+            1
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -5677,13 +6013,6 @@
             "steel_axe",
             1
           ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "jug_wine",
-            1
-          ],
           "chance": "1/32"
         },
         {
@@ -5695,50 +6024,64 @@
         },
         {
           "item": [
-            "steel_full_helm",
+            "jug_wine",
             1
           ],
           "chance": "1/128"
         },
         {
           "item": [
+            "steel_full_helm",
+            1
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
             "coins",
             200
           ],
-          "chance": "1/32"
+          "chance": "1/12"
         },
         {
           "item": [
             "firerune",
             60
           ],
-          "chance": "1/12"
+          "chance": "1/16"
         },
         {
           "item": [
             "steel_scimitar",
             1
           ],
-          "chance": "1/16"
+          "chance": "1/42"
         },
         {
           "item": [
             "coins",
             120
           ],
-          "chance": "1/42"
+          "chance": "1/3"
         },
         {
           "item": [
             "firerune",
             30
           ],
-          "chance": "1/3"
+          "chance": "1/128"
         },
         {
           "item": [
             "coins",
             40
+          ],
+          "chance": "1/4"
+        },
+        {
+          "item": [
+            "~randomherb",
+            1
           ],
           "chance": "1/128"
         },
@@ -5747,28 +6090,21 @@
             "gold_ore",
             1
           ],
-          "chance": "1/4"
+          "chance": "1/64"
         },
         {
           "item": [
             "deathrune",
             3
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
             "chaosrune",
             12
           ],
-          "chance": "1/64"
-        },
-        {
-          "item": [
-            "coins",
-            10
-          ],
-          "chance": "1/42"
+          "chance": "1/25"
         }
       ],
       "clue_scroll": null
@@ -5799,17 +6135,24 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
             "bronze_arrow",
             7
           ],
-          "chance": "1/5"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             4
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -5830,63 +6173,70 @@
             "chaosrune",
             2
           ],
-          "chance": "1/64"
-        },
-        {
-          "item": [
-            "coins",
-            3
-          ],
           "chance": "1/128"
         },
         {
           "item": [
-            "coins",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            15
+            3
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            25
+            5
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/64"
         },
         {
           "item": [
             "earth_talisman",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -5915,17 +6265,24 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
             "bronze_arrow",
             7
           ],
-          "chance": "1/5"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             4
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -5946,63 +6303,70 @@
             "chaosrune",
             2
           ],
-          "chance": "1/64"
-        },
-        {
-          "item": [
-            "coins",
-            3
-          ],
           "chance": "1/128"
         },
         {
           "item": [
-            "coins",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            15
+            3
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            25
+            5
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/64"
         },
         {
           "item": [
             "earth_talisman",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -6031,17 +6395,24 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
             "bronze_arrow",
             7
           ],
-          "chance": "1/5"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             4
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -6062,63 +6433,70 @@
             "chaosrune",
             2
           ],
-          "chance": "1/64"
-        },
-        {
-          "item": [
-            "coins",
-            3
-          ],
           "chance": "1/128"
         },
         {
           "item": [
-            "coins",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            15
+            3
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            25
+            5
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/64"
         },
         {
           "item": [
             "earth_talisman",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -6147,17 +6525,24 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
             "bronze_arrow",
             7
           ],
-          "chance": "1/5"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             4
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -6178,63 +6563,70 @@
             "chaosrune",
             2
           ],
-          "chance": "1/64"
-        },
-        {
-          "item": [
-            "coins",
-            3
-          ],
           "chance": "1/128"
         },
         {
           "item": [
-            "coins",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            15
+            3
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            25
+            5
           ],
           "chance": "1/14"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/32"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/32"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/64"
         },
         {
           "item": [
             "earth_talisman",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -6377,31 +6769,38 @@
         },
         {
           "item": [
-            "coins",
-            37
+            "~randomherb",
+            1
           ],
           "chance": "1/16"
         },
         {
           "item": [
             "coins",
-            2
+            37
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            119
+            2
           ],
           "chance": "1/64"
         },
         {
           "item": [
             "coins",
-            300
+            119
           ],
           "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            300
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
@@ -6413,13 +6812,6 @@
         {
           "item": [
             "coal",
-            1
-          ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "spinach_roll",
             1
           ],
           "chance": "1/32"
@@ -6460,45 +6852,52 @@
         },
         {
           "item": [
-            "coins",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/9"
         },
         {
           "item": [
             "coins",
-            15
+            5
           ],
           "chance": "1/10"
         },
         {
           "item": [
             "coins",
-            25
+            15
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            25
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "rope",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/3"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/3"
+          "chance": "1/21"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -6512,7 +6911,7 @@
             "knife",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -6539,182 +6938,182 @@
             "plainstaff",
             1
           ],
-          "chance": "1/2"
+          "chance": "1/16"
         },
         {
           "item": [
             "zamrobebottom",
             1
           ],
-          "chance": "1/5"
+          "chance": "1/32"
         },
         {
           "item": [
             "zamrobetop",
             1
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "staff_of_fire",
             1
           ],
-          "chance": "1/20"
+          "chance": "1/128"
         },
         {
           "item": [
             "earthrune",
             36
           ],
-          "chance": "1/5"
+          "chance": "1/32"
         },
         {
           "item": [
             "airrune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "waterrune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "firerune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "airrune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "waterrune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "earthrune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "firerune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "naturerune",
             5
           ],
-          "chance": "1/2"
+          "chance": "1/18"
         },
         {
           "item": [
             "chaosrune",
             4
           ],
-          "chance": "1/3"
+          "chance": "1/21"
         },
         {
           "item": [
             "mindrune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "bodyrune",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         },
         {
           "item": [
             "mindrune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "bodyrune",
             18
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "bloodrune",
             2
           ],
-          "chance": "1/10"
+          "chance": "1/64"
         },
         {
           "item": [
             "cosmicrune",
             2
           ],
-          "chance": "1/20"
+          "chance": "1/128"
         },
         {
           "item": [
             "lawrune",
             3
           ],
-          "chance": "1/20"
+          "chance": "1/128"
         },
         {
           "item": [
             "coins",
             1
           ],
-          "chance": "1/1"
+          "chance": "1/7"
         },
         {
           "item": [
             "coins",
             2
           ],
-          "chance": "1/1"
+          "chance": "1/8"
         },
         {
           "item": [
             "coins",
             4
           ],
-          "chance": "1/2"
+          "chance": "1/14"
         },
         {
           "item": [
             "coins",
             29
           ],
-          "chance": "1/6"
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -6786,24 +7185,31 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
             "coins",
             15
           ],
-          "chance": "1/12"
+          "chance": "1/2"
         },
         {
           "item": [
             "ruby_ring",
             1
           ],
-          "chance": "1/2"
+          "chance": "1/64"
         },
         {
           "item": [
             "mithril_mace",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -6811,6 +7217,13 @@
             1
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/42"
         }
       ],
       "clue_scroll": null
@@ -6976,6 +7389,13 @@
             1
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -7089,45 +7509,59 @@
         },
         {
           "item": [
-            "coins",
-            196
+            "~randomherb",
+            1
           ],
           "chance": "1/64"
         },
         {
           "item": [
             "coins",
-            66
+            196
           ],
           "chance": "1/3"
         },
         {
           "item": [
             "coins",
-            330
+            66
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            690
+            330
           ],
           "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            690
+          ],
+          "chance": "1/128"
         },
         {
           "item": [
             "chocolate_cake",
             3
           ],
-          "chance": "1/128"
+          "chance": "1/42"
         },
         {
           "item": [
             "adamantite_bar",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/25"
         }
       ],
       "clue_scroll": "1/128 hard"
@@ -7158,17 +7592,24 @@
         },
         {
           "item": [
+            "bolt",
+            1
+          ],
+          "chance": "1/5"
+        },
+        {
+          "item": [
             "bronze_arrow",
             7
           ],
-          "chance": "1/5"
+          "chance": "1/42"
         },
         {
           "item": [
             "earthrune",
             4
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -7189,56 +7630,56 @@
             "chaosrune",
             2
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
             "~randomherb",
             200
           ],
-          "chance": "1/128"
+          "chance": "1/5"
         },
         {
           "item": [
             "coins",
             3
           ],
-          "chance": "1/5"
+          "chance": "1/3"
         },
         {
           "item": [
             "coins",
             5
           ],
-          "chance": "1/3"
+          "chance": "1/14"
         },
         {
           "item": [
             "coins",
             15
           ],
-          "chance": "1/14"
+          "chance": "1/32"
         },
         {
           "item": [
             "coins",
             25
           ],
-          "chance": "1/32"
+          "chance": "1/128"
         },
         {
           "item": [
             "fishing_bait",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/25"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -7252,7 +7693,7 @@
             "cabbage",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -7360,6 +7801,20 @@
             1
           ],
           "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/16"
+        },
+        {
+          "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/7"
         }
       ],
       "clue_scroll": null
@@ -7440,31 +7895,38 @@
         },
         {
           "item": [
-            "coins",
-            2
+            "~randomherb",
+            1
           ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            12
+            2
           ],
           "chance": "1/7"
         },
         {
           "item": [
             "coins",
-            4
+            12
           ],
           "chance": "1/8"
         },
         {
           "item": [
             "coins",
-            16
+            4
           ],
           "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/32"
         },
         {
           "item": [
@@ -7485,32 +7947,39 @@
             "coins",
             48
           ],
-          "chance": "1/32"
+          "chance": "1/128"
         },
         {
           "item": [
             "iron_dagger",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/21"
         },
         {
           "item": [
             "fire_talisman",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/64"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
             "grain",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
             1
           ],
           "chance": "1/128"
@@ -7591,31 +8060,38 @@
         },
         {
           "item": [
-            "coins",
-            2
+            "~randomherb",
+            1
           ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            12
+            2
           ],
           "chance": "1/7"
         },
         {
           "item": [
             "coins",
-            4
+            12
           ],
           "chance": "1/8"
         },
         {
           "item": [
             "coins",
-            16
+            4
           ],
           "chance": "1/18"
+        },
+        {
+          "item": [
+            "coins",
+            16
+          ],
+          "chance": "1/32"
         },
         {
           "item": [
@@ -7636,32 +8112,39 @@
             "coins",
             48
           ],
-          "chance": "1/32"
+          "chance": "1/128"
         },
         {
           "item": [
             "iron_dagger",
             1
           ],
-          "chance": "1/128"
+          "chance": "1/21"
         },
         {
           "item": [
             "fire_talisman",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/64"
         },
         {
           "item": [
             "iron_ore",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
             "grain",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
             1
           ],
           "chance": "1/128"
@@ -7749,10 +8232,17 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
             "coins",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/5"
         },
         {
           "item": [
@@ -7766,32 +8256,39 @@
             "coins",
             25
           ],
-          "chance": "1/5"
+          "chance": "1/16"
         },
         {
           "item": [
             "coins",
             45
           ],
-          "chance": "1/16"
+          "chance": "1/32"
         },
         {
           "item": [
             "coins",
             65
           ],
-          "chance": "1/32"
+          "chance": "1/42"
         },
         {
           "item": [
             "coins",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
             "bronze_bar",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "~randomjewel",
             1
           ],
           "chance": "1/64"
@@ -7879,10 +8376,17 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/6"
+        },
+        {
+          "item": [
             "coins",
             10
           ],
-          "chance": "1/6"
+          "chance": "1/5"
         },
         {
           "item": [
@@ -7896,32 +8400,39 @@
             "coins",
             25
           ],
-          "chance": "1/5"
+          "chance": "1/16"
         },
         {
           "item": [
             "coins",
             45
           ],
-          "chance": "1/16"
+          "chance": "1/32"
         },
         {
           "item": [
             "coins",
             65
           ],
-          "chance": "1/32"
+          "chance": "1/42"
         },
         {
           "item": [
             "coins",
             1
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
             "bronze_bar",
+            1
+          ],
+          "chance": "1/25"
+        },
+        {
+          "item": [
+            "~randomjewel",
             1
           ],
           "chance": "1/64"
@@ -7997,52 +8508,59 @@
         },
         {
           "item": [
-            "iron_ore",
+            "~randomherb",
             1
           ],
           "chance": "1/5"
         },
         {
           "item": [
-            "iron_bar",
+            "iron_ore",
             1
           ],
           "chance": "1/32"
         },
         {
           "item": [
-            "coal",
+            "iron_bar",
             1
           ],
           "chance": "1/42"
         },
         {
           "item": [
-            "coins",
-            8
+            "coal",
+            1
           ],
           "chance": "1/64"
         },
         {
           "item": [
             "coins",
-            15
+            8
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            30
+            15
           ],
           "chance": "1/10"
         },
         {
           "item": [
             "coins",
-            20
+            30
           ],
           "chance": "1/64"
+        },
+        {
+          "item": [
+            "coins",
+            20
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": "1/128 easy"
@@ -8122,24 +8640,31 @@
         },
         {
           "item": [
+            "~randomherb",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
             "coins",
             15
           ],
-          "chance": "1/12"
+          "chance": "1/5"
         },
         {
           "item": [
             "snape_grass",
             1
           ],
-          "chance": "1/5"
+          "chance": "1/6"
         },
         {
           "item": [
             "limpwurt_root",
             1
           ],
-          "chance": "1/6"
+          "chance": "1/11"
         },
         {
           "item": [
@@ -8153,14 +8678,14 @@
             "naturerune",
             3
           ],
-          "chance": "1/11"
+          "chance": "1/17"
         },
         {
           "item": [
             "coins",
             62
           ],
-          "chance": "1/17"
+          "chance": "1/27"
         },
         {
           "item": [
@@ -8174,14 +8699,14 @@
             "2dose2antipoison",
             1
           ],
-          "chance": "1/27"
+          "chance": "1/46"
         },
         {
           "item": [
             "3dose2antipoison",
             1
           ],
-          "chance": "1/46"
+          "chance": "1/138"
         },
         {
           "item": [
@@ -8203,6 +8728,13 @@
             1
           ],
           "chance": "1/138"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/69"
         }
       ],
       "clue_scroll": "1/138 medium"
@@ -8280,8 +8812,22 @@
         },
         {
           "item": [
+            "bodyrune",
+            1
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
             "chaosrune",
             2
+          ],
+          "chance": "1/42"
+        },
+        {
+          "item": [
+            "waterrune",
+            1
           ],
           "chance": "1/42"
         },
@@ -8290,21 +8836,21 @@
             "mithril_arrow",
             5
           ],
-          "chance": "1/42"
+          "chance": "1/64"
         },
         {
           "item": [
             "adamant_arrow",
             2
           ],
-          "chance": "1/42"
+          "chance": "1/128"
         },
         {
           "item": [
             "bloodrune",
             2
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -8315,45 +8861,59 @@
         },
         {
           "item": [
-            "coins",
-            5
-          ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "coins",
-            48
-          ],
-          "chance": "1/128"
-        },
-        {
-          "item": [
-            "coins",
-            15
+            "~randomherb",
+            1
           ],
           "chance": "1/25"
         },
         {
           "item": [
             "coins",
-            1
+            5
           ],
           "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            48
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            15
+          ],
+          "chance": "1/8"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/12"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/25"
         },
         {
           "item": [
             "coins",
             2
           ],
-          "chance": "1/8"
+          "chance": "1/25"
         },
         {
           "item": [
             "coins",
             120
           ],
-          "chance": "1/8"
+          "chance": "1/128"
         },
         {
           "item": [
@@ -8367,14 +8927,14 @@
             "iron_bar",
             2
           ],
-          "chance": "1/25"
+          "chance": "1/21"
         },
         {
           "item": [
             "iron_bar",
             1
           ],
-          "chance": "1/25"
+          "chance": "1/64"
         },
         {
           "item": [
@@ -8388,14 +8948,21 @@
             "iron_ore",
             1
           ],
-          "chance": "1/12"
+          "chance": "1/128"
         },
         {
           "item": [
             "pot_flour",
             1
           ],
-          "chance": "1/21"
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
+            1
+          ],
+          "chance": "1/128"
         }
       ],
       "clue_scroll": null
@@ -9125,31 +9692,38 @@
         },
         {
           "item": [
-            "coins",
-            10
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            4
+            10
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            18
+            4
           ],
           "chance": "1/32"
         },
         {
           "item": [
             "coins",
-            13
+            18
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            13
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
@@ -9163,14 +9737,14 @@
             "fishing_bait",
             5
           ],
-          "chance": "1/64"
+          "chance": "1/3"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/3"
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
@@ -9255,31 +9829,38 @@
         },
         {
           "item": [
-            "coins",
-            10
+            "~randomherb",
+            1
           ],
           "chance": "1/5"
         },
         {
           "item": [
             "coins",
-            4
+            10
           ],
           "chance": "1/11"
         },
         {
           "item": [
             "coins",
-            18
+            4
           ],
           "chance": "1/32"
         },
         {
           "item": [
             "coins",
-            13
+            18
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            13
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
@@ -9293,14 +9874,14 @@
             "fishing_bait",
             5
           ],
-          "chance": "1/64"
+          "chance": "1/3"
         },
         {
           "item": [
             "copper_ore",
             1
           ],
-          "chance": "1/3"
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
@@ -9378,63 +9959,77 @@
         },
         {
           "item": [
-            "coins",
-            10
+            "~randomherb",
+            1
           ],
           "chance": "1/4"
         },
         {
           "item": [
             "coins",
-            18
+            10
           ],
           "chance": "1/12"
         },
         {
           "item": [
             "coins",
-            26
+            18
           ],
           "chance": "1/6"
         },
         {
           "item": [
             "coins",
-            35
+            26
           ],
           "chance": "1/16"
         },
         {
           "item": [
             "coins",
-            1
+            35
           ],
           "chance": "1/21"
+        },
+        {
+          "item": [
+            "coins",
+            1
+          ],
+          "chance": "1/64"
         },
         {
           "item": [
             "fishing_bait",
             7
           ],
-          "chance": "1/64"
+          "chance": "1/4"
         },
         {
           "item": [
             "tinderbox",
             1
           ],
-          "chance": "1/4"
+          "chance": "1/64"
         },
         {
           "item": [
             "eye_of_newt",
             1
           ],
-          "chance": "1/64"
+          "chance": "1/128"
         },
         {
           "item": [
             "tin_ore",
+            1
+          ],
+          "chance": "1/128"
+        },
+        {
+          "item": [
+            "~randomjewel",
             1
           ],
           "chance": "1/128"
@@ -9501,24 +10096,31 @@
         },
         {
           "item": [
-            "fishing_bait",
-            5
+            "~randomherb",
+            1
           ],
           "chance": "1/32"
         },
         {
           "item": [
-            "coins",
-            18
+            "fishing_bait",
+            5
           ],
           "chance": "1/2"
         },
         {
           "item": [
             "coins",
-            28
+            18
           ],
           "chance": "1/42"
+        },
+        {
+          "item": [
+            "coins",
+            28
+          ],
+          "chance": "1/64"
         }
       ],
       "clue_scroll": null
