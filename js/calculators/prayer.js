@@ -43,7 +43,7 @@ function calculateBones() {
     const xpNeeded = targetXP - currentXP;
     const bones = {
         "Bones": 4.5,
-        "Burnt Bones": 4.5,
+        "bones burnt": 4.5,
         "Bat Bones": 4.5,
         "Wolf Bones": 4.5,
         "Big Bones": 15,
