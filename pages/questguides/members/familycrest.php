@@ -1,14 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: The Fitzharmon family crest has gone missing, and the family honour has been lost. Can you find
-the crest and return it to Dimintheis in Varrock? There are 3 different rewards available, but you can only
-choose one, so choose carefully!<br>
-<br>
-<b>Difficulty Level: <font color="red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<b>Description:</b> The Fitzharmon family crest has gone missing, and the family honour has been lost. Can you find the crest and return it to Dimintheis in Varrock? There are 3 different rewards available, but you can only choose one, so choose carefully!
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>40 Mining</div></li>

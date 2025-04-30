@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Help a professor fix his telescope. This proves more difficult than it sounds, as it involves yet another maze. See what the stars have in store for you as well.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> The observatory in South West Ardougne has been ransacked by a family of nearby goblins. Can you help the professors to rebuild it? Use your skills at crafting to make the various parts, and fight your way through the cavern under the observatory. Use the telescope and the stars hold a secret for you.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: A bronze bar, molten glass, 3 planks, 10 Crafting, a cure poison potion (recommended).<br>
 <br>

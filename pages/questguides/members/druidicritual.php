@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<p>
-Description: Help the druids cleanse their former altar of the evil from the dark wizards. If you are successful, you will be rewarded with the knowledge of Herblore.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font></b><br>
+<b>Description:</b> To start using the herblore skill you will need to ask for some training from the druids. However, they require some help with a ritual before they will help you.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Yellow">Medium</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> Recommended you collect the four meats before you start. These are rat, bear, chicken, and beef<br>
 <br>

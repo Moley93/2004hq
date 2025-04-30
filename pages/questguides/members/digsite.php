@@ -1,14 +1,9 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<p><span>Description:</span> Feeling uneducated?
-    Desperate for buried treasure? ..."There's gold in them there hills"
-    (well stream actually) as well as many other items that can be found at the
-    digsite. Join the students in their attempt to be a qualified archaeologist,
-    and become experienced in making the earth move! Have you got what it takes
-    to unearth the hidden altar to one of Runescape's lesser-known Gods...?</p>
-  <p><b><span>Difficulty Level:</span> <font color="Green">Easy</font></b></p>
-  <p><b>Length: <font color="Yellow">Medium</font></b></p>
+<p><span>Description:</span> Feeling uneducated? Desperate for buried treasure? ..."There's gold in them there hills" (well stream actually) as well as many other items that can be found at the digsite. Join the students in their attempt to be a qualified archaeologist, and become experienced in making the earth move! Have you got what it takes to unearth the hidden altar to one of Runescape's lesser-known Gods...?</p>
+  <p><b><span>Difficulty:</span> <font color="Green">Novice</font></b></p>
+  <p><b>Length: <font color="Red">Long</font></b></p>
   <p><span>Items/Skills Needed To Start:</span>
     Level 25 Thieving, Level 10 Agility, Level 10 Herblaw, 1 cut opal (or chisel;
     you can pan for opals, but it takes a while), Cup of Tea (or 10 gp to buy

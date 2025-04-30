@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?<br>
-<br>
-<b>Difficulty Level: <font color="Orange">Experienced</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Requirements: Level 31 Crafting<br>
 Level 36 Woodcutting<br>

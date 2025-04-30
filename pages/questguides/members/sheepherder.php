@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Four plague-infected sheep have gotten loose, and it's up to you to recapture them and rid Ardougne of them.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Some plague infected sheep have escaped into East Ardounge. They must be found and disposed off before the whole town is infected, time is of the essence.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: 100gp<br>
 <br>

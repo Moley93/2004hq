@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Second part of an ongoing adventure. Help Elena discover the truth about the infamous Ardougne plague. Smuggle test samples across Ardougne to Elena's old mentor.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Second part of an ongoing adventure. Help Elena discover the truth about the infamous ardounge plague. Smuggle test samples across ardounge to Elena's old mentor.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> 12 coins and <input type="checkbox"> Priest Sets (can be bought in the Varrock's Clothes Shop)<br>
 <br>

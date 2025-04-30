@@ -1,11 +1,10 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Brother Omad's friend's child has had their blanket stolen. Find it, then help Omad get drinks from Brother Cedric in time to prepare for a party.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
+<b>Description:</b> A monk's child has had their blanket stolen. Find the thieves' den and return the blanket, then help Brother Omad organise the drinks for the child's birthday party.
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: A hatchet (or have someone cut one pile of logs for you), a weapon to kill some thieves (level 14 and 26), a jug<br>

@@ -1,10 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-<b>Difficulty Level: <font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font></b><br>
+<b>Description:</b> South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert. Don your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Levels Required: 10 Fletching, 20 Smithing. (High-level Woodcutting helps with the cactus.)<br>
 <br>

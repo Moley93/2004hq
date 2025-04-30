@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Tai Bwo Wannai medicine man Trifitus needs five special herbs so he can make a communion potion with the gods. Naturally, he hires you.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium (Lots of running past enemies)</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Trufitus Shakaya of the Taie Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: Weapon and armor to run past Jogres (level 48)<br>
 <br>

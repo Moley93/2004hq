@@ -1,11 +1,10 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Lord Sinclair was found murdered in his mansion. Several guards are working on the case, but they're confused about the crime. You must help them find the culprit who murdered Lord Sinclair.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
+<b>Description:</b> Lord Sinclair, a highly respected Nobleman of Kandarin has been found murdered in his mansion. Despite the presence of a large number of guards all working hard to solve the crime, local law enforcement officers are totally baffled. Can you use your razor sharp analytical mind to uncover the evidence and unmask the culprit?
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
 <b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: A Pot<br>

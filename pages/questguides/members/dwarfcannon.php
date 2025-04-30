@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Run errands for the dwarf commander to repair his base and build his defenses.<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> For several years now the dwarven black guard have been developing the lastest in projectile warfare. Now with the constant attack of goblin renegades, the dwarven troops who protect the mines need to put this secret weapon into action. Only with your help can the true power of this cannon be harnessed!
+<br><br>
+<b>Difficulty: <font color="Green">Novice</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: <input type="checkbox"> Some teleports are recommended, <input type="checkbox"> and level 20 Agility is required to cross the log bridge<br>
 <br>

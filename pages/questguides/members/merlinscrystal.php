@@ -1,13 +1,13 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
-<br>
-Description: Merlin the Wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the Knights of the Round Table<br>
-<br>
-<b>Difficulty Level: <font color="Yellow">Medium</font>/<font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
+<b>Description:</b> Merlin the wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the knights of the round table.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start:Bat Bones, Black Candle, Tinderbox, Loaf of Bread<br>
 <br>

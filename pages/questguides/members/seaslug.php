@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Strange occurrences have taken over a fishing platform. Solve the mystery and save a family from the clutches of the slugs.<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Something strange is happening on the fishing platform. Missing fishermen and the presence of dozens of strange sea creatures gives cause for concern. Investigate the platform, discover the truth before it's too late.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Items/Skills Needed To Start: Level 30 Firemaking, swamp paste (you can buy some at the Khazard port store, or you can make it by getting tar from the Lumbridge swamps, using flour with it, and cooking it), a hatchet, a tinderbox<br>
 <br>

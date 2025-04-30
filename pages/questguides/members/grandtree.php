@@ -1,13 +1,13 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b><br>
-<br>
-Description: The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.<br>
-<br>
-<b>Difficulty Level: <font color="Red">Hard</font></b><br>
-<br>
-<b>Length: <font color="Yellow">Medium</font>/<font color="Red">Long</font></b><br>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
+<b>Description:</b> The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.
+<br><br>
+<b>Difficulty: <font color="Red">Experienced</font></b>
+<br><br>
+<b>Length: <font color="Red">Long</font></b><br>
 <br>
 Items/Skills Needed To Start: 25 agility, the ability to beat level 172 demon, 30gp for your trip to Ardougne from Brimhaven<br>
 <br>

@@ -1,12 +1,11 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<br>
-Description: Rantz the Ogre needs to feed his demanding children, Fycie and Bugs, so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand?<br>
-<br>
-<b>Difficulty Level: <font color="Green">Easy</font>/<font color="Yellow">Medium</font></b><br>
-<br>
-<b>Length: <font color="Green">Short</font>/<font color="Yellow">Medium</font></b><br>
+<b>Description:</b> Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.
+<br><br>
+<b>Difficulty: <font color="Yellow">Intermediate</font></b>
+<br><br>
+<b>Length: <font color="Green">Short</font></b><br>
 <br>
 Requirements: 5 Fletching, 30 Cooking, 30 Ranging<br>
 <br>
