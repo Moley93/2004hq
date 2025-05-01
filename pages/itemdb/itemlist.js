@@ -42,9 +42,20 @@
 
     matches.forEach(it => {
       const li = document.createElement('li');
-      li.textContent = `${it.name} (${it.id})`;
+      const icon = document.createElement('canvas');
+      icon.width = 20;
+      icon.height = 20;
+      icon.dataset.itemname = it.debugname;
+      icon.dataset.size = 20;
+      icon.dataset.showLabel = 'false';
+      li.appendChild(icon);
+      if (typeof renderSpriteToCanvas === 'function') {
+        renderSpriteToCanvas(it.debugname, icon);
+      }
+      const text = document.createTextNode(` ${it.name} (${it.id})`);
+      li.appendChild(text);
       li.addEventListener('mousedown', () => {
-        e.target.value = li.textContent;
+        e.target.value = `${it.name} (${it.id})`;
         box.innerHTML = '';
         updateDisplay();
       });
@@ -84,23 +95,18 @@
     table.className = 'calculators';
 
     let row = table.insertRow();
-    const iconCell = row.insertCell();
-    iconCell.colSpan = 6;
+    const iconCell = row.insertCell(); iconCell.colSpan = 6;
     const canvas = document.createElement('canvas');
     const size = 60;
-    canvas.width = size;
-    canvas.height = size;
+    canvas.width = size; canvas.height = size;
     canvas.dataset.itemname = item.debugname;
     canvas.dataset.size = size;
     canvas.dataset.showLabel = 'true';
     iconCell.appendChild(canvas);
-    if (typeof renderSpriteToCanvas === 'function') {
-      renderSpriteToCanvas(item.debugname, canvas);
-    }
+    if (typeof renderSpriteToCanvas === 'function') renderSpriteToCanvas(item.debugname, canvas);
 
     row = table.insertRow();
-    const descCell = row.insertCell();
-    descCell.colSpan = 6;
+    const descCell = row.insertCell(); descCell.colSpan = 6;
     descCell.textContent = item.desc || '-';
 
     const cost = item.cost || 0;
@@ -112,9 +118,7 @@
     row = table.insertRow();
     addPair(row, 'Weight', formatWeight(item.weight || 0), item.wearpos ? 1 : 2);
     addPair(row, 'Members-only', item.members ? 'Yes' : 'No', item.wearpos ? 1 : 2);
-    if (item.wearpos) {
-      addPair(row, 'Equip Slot', slotNames[item.wearpos] || item.wearpos);
-    }
+    if (item.wearpos) addPair(row, 'Equip Slot', slotNames[item.wearpos] || item.wearpos);
 
     const b = item.bonuses || {};
     if (Object.values(b).some(v => v)) {
@@ -153,12 +157,10 @@
   function updateDisplay() {
     container.innerHTML = '';
     container.classList.remove('compare-mode');
-
     const v1 = search1.value.trim();
     const v2 = search2.value.trim();
     const id1 = parseSelectedId(v1);
     const id2 = parseSelectedId(v2);
-
     const it1 = id1 != null ? items.find(i => i.id === id1) : null;
     const it2 = id2 != null ? items.find(i => i.id === id2) : null;
 
@@ -169,12 +171,9 @@
       container.classList.add('compare-mode');
       container.appendChild(document.createElement('hr'));
       container.appendChild(renderTable(it2));
-    } else if (v2) {
-      container.innerHTML += `<p style="color:red">Item “${v2}” not found.</p>`;
-    }
+    } else if (v2) container.innerHTML += `<p style="color:red">Item “${v2}” not found.</p>`;
   }
 
   [search1, search2].forEach(el => el.addEventListener('change', updateDisplay));
-  
   updateDisplay();
 })();
