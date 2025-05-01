@@ -8,7 +8,7 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-<h3>Site by Moley, Eilert, Halogod & Collin.</h3>
+<h3>Site by Moley, Eilert, Halogod, & Collin</h3>
 <h4>Special thanks to our additional Contributors:</h4>
 <ul>
   <li>Sheeva</li>
@@ -80,6 +80,8 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>01/05/2025</td><td>Added item database</td></tr>
+    <tr><td>26/04/2025</td><td>Updated sprite tooltip to show high alch values</td></tr>
     <tr><td>22/04/2025</td><td>Updated F2P quest guides with checkboxes</td></tr>
     <tr><td>15/04/2025</td><td>Splashing → Magic Calculator; now includes all Magic</td></tr>
     <tr><td>15/04/2025</td><td>Added Halogod's Calculators</td></tr>
