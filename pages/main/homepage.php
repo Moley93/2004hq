@@ -112,10 +112,22 @@ function getPageContent() { return <<<HTML
                 <a href="?p=streetprices" class="c">Click Here</a>
             </td>
             <td width="10"></td>
-            <td width="220" colspan=2><br>
-                <p style="font-size:14px;">Thanks for the great videos Mudkip, we hope you decide to stick around, even if you aren't making 2004scape vids!</p>
+            <td width="100">
+                <a href="?p=itemdb">
+                    <img src="img/mm2_rs2b.jpg" style="width:80px;margin-top:20px;"></a>
+            </td>
+            <td width="120">
+                <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
+                    <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
+                </div>
+                <br>
+                <br>
+                Item Database<br>
+                <a href="?p=itemdb" class="c">Click Here</a>
             </td>
         </tr>
     </tbody>
 </table>
+<hr>
+<p style="font-size:16px;">Thanks for the great videos Mudkip, we hope you decide to stick around, even if you aren't making 2004scape vids!</p>
 HTML; }

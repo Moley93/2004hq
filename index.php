@@ -16,6 +16,7 @@ switch ($p) {
     case 'calculators':
     case 'streetprices':
     case 'questguides':
+    case 'itemdb':
         include 'pages/'.$p.'/main.php';
         break;
 

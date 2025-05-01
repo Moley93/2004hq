@@ -1,0 +1,32 @@
+#item-search-container {
+    margin-bottom: 1em;
+  }
+  
+  #item-search-container input {
+    margin-right: 1em;
+  }
+  
+  #item-tables-container {
+    display: block;
+  }
+  
+  .item-table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    min-width: 200px;
+  }
+  
+  .item-table th,
+  .item-table td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+  }
+  
+  #item-tables-container.compare-mode {
+    display: flex;
+  }
+  
+  #item-tables-container.compare-mode .item-table {
+    margin-right: 2em;
+  }
+  
