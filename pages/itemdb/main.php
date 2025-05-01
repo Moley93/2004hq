@@ -8,10 +8,10 @@ function getPageContent() {
     return <<<HTML
 <h3>Item Database</h3>
 <div id="item-search-container">
-  <label for="search1">Item Search:</label>
-  <input type="text" id="search1" list="items-list" placeholder="Search item…"><br>
-  <label for="search2">Compare Second Item:</label>
-  <input type="text" id="search2" list="items-list" placeholder="(optional) compare…">
+  <label for="search1">Item Search</label>
+  <input type="text" id="search1" list="items-list" placeholder="Search term"><br><br>
+  <label for="search2">Second Item</label>
+  <input type="text" id="search2" list="items-list" placeholder="(optional) to compare">
 </div>
 <hr>
 <datalist id="items-list"></datalist>
@@ -19,6 +19,6 @@ function getPageContent() {
 <div id="item-tables-container"></div>
 
 <script src="pages/itemdb/itemlist.js"></script>
-
+<link rel="stylesheet" type="text/css" href="pages/itemdb/itemlist.css" />
 HTML;
 }
