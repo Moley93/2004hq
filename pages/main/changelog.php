@@ -12,7 +12,7 @@ function getPageContent() {
 <h4>Special thanks to our additional Contributors:</h4>
 <ul>
   <li>Sheeva</li>
-  <li>Razgals</li>
+  <li>Akg</li>
 </ul>
 <hr>
 <h4>Bug Hunter's Club:</h4>
