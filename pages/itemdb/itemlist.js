@@ -43,8 +43,7 @@
     matches.forEach(it => {
       const li = document.createElement('li');
       const icon = document.createElement('canvas');
-      icon.width = 20;
-      icon.height = 20;
+      icon.width = 20; icon.height = 20;
       icon.dataset.itemname = it.debugname;
       icon.dataset.size = 20;
       icon.dataset.showLabel = 'false';
@@ -52,8 +51,7 @@
       if (typeof renderSpriteToCanvas === 'function') {
         renderSpriteToCanvas(it.debugname, icon);
       }
-      const text = document.createTextNode(` ${it.name} (${it.id})`);
-      li.appendChild(text);
+      li.append(` ${it.name} (${it.id})`);
       li.addEventListener('mousedown', () => {
         e.target.value = `${it.name} (${it.id})`;
         box.innerHTML = '';
@@ -83,11 +81,10 @@
     front: 'Amulet', back: 'Cape'
   };
 
-  function addPair(row, label, value, colspanValue = 1) {
-    row.insertCell().textContent = label;
+  function addCombined(row, label, value, colspan = 2) {
     const cell = row.insertCell();
-    if (colspanValue > 1) cell.colSpan = colspanValue;
-    cell.textContent = value;
+    cell.colSpan = colspan;
+    cell.textContent = `${label}: ${value}`;
   }
 
   function renderTable(item) {
@@ -95,60 +92,64 @@
     table.className = 'calculators';
 
     let row = table.insertRow();
-    const iconCell = row.insertCell(); iconCell.colSpan = 6;
+    const th = document.createElement('th');
+    th.colSpan = 6;
     const canvas = document.createElement('canvas');
     const size = 60;
     canvas.width = size; canvas.height = size;
     canvas.dataset.itemname = item.debugname;
     canvas.dataset.size = size;
     canvas.dataset.showLabel = 'true';
-    iconCell.appendChild(canvas);
+    th.appendChild(canvas);
     if (typeof renderSpriteToCanvas === 'function') renderSpriteToCanvas(item.debugname, canvas);
+    row.appendChild(th);
 
     row = table.insertRow();
-    const descCell = row.insertCell(); descCell.colSpan = 6;
-    descCell.textContent = item.desc || '-';
-
-    const cost = item.cost || 0;
-    row = table.insertRow();
-    addPair(row, 'Shop Cost', cost.toLocaleString());
-    addPair(row, 'Low Alch', Math.floor(cost * 0.4).toLocaleString());
-    addPair(row, 'High Alch', Math.floor(cost * 0.6).toLocaleString());
+    const dTh = document.createElement('th');
+    dTh.colSpan = 6;
+    dTh.textContent = item.desc || '-';
+    row.appendChild(dTh);
 
     row = table.insertRow();
-    addPair(row, 'Weight', formatWeight(item.weight || 0), item.wearpos ? 1 : 2);
-    addPair(row, 'Members-only', item.members ? 'Yes' : 'No', item.wearpos ? 1 : 2);
-    if (item.wearpos) addPair(row, 'Equip Slot', slotNames[item.wearpos] || item.wearpos);
+    addCombined(row, 'Shop Cost', item.cost.toLocaleString());
+    addCombined(row, 'Low Alch', Math.floor(item.cost * 0.4).toLocaleString());
+    addCombined(row, 'High Alch', Math.floor(item.cost * 0.6).toLocaleString());
+
+    row = table.insertRow();
+    addCombined(row, 'Weight', formatWeight(item.weight || 0), item.wearpos ? 2 : 3);
+    addCombined(row, 'Members', item.members ? 'Yes' : 'No', item.wearpos ? 2 : 3);
+    if (item.wearpos) addCombined(row, 'Equip Slot', slotNames[item.wearpos] || item.wearpos);
 
     const b = item.bonuses || {};
     if (Object.values(b).some(v => v)) {
       row = table.insertRow();
-      const sep = row.insertCell(); sep.colSpan = 6;
+      /*const sep = document.createElement('td'); sep.colSpan = 6;
       sep.textContent = '--- Equip Bonuses ---';
+      row.appendChild(sep);*/
 
       row = table.insertRow();
-      addPair(row, 'Strength Bonus', b.strengthbonus || '-', 2);
-      addPair(row, 'Prayer Bonus', b.prayerbonus || '-', 2);
+      addCombined(row, 'Strength Bonus', b.strengthbonus || '-', 3);
+      addCombined(row, 'Prayer Bonus', b.prayerbonus || '-', 3);
 
       row = table.insertRow();
-      addPair(row, 'Stab Attack', b.stabattack || '-');
-      addPair(row, 'Slash Attack', b.slashattack || '-');
-      addPair(row, 'Crush Attack', b.crushattack || '-');
+      addCombined(row, 'Stab Attack', b.stabattack || '-');
+      addCombined(row, 'Slash Attack', b.slashattack || '-');
+      addCombined(row, 'Crush Attack', b.crushattack || '-');
 
       row = table.insertRow();
-      addPair(row, 'Stab Defence', b.stabdefence || '-');
-      addPair(row, 'Slash Defence', b.slashdefence || '-');
-      addPair(row, 'Crush Defence', b.crushdefence || '-');
+      addCombined(row, 'Stab Defence', b.stabdefence || '-');
+      addCombined(row, 'Slash Defence', b.slashdefence || '-');
+      addCombined(row, 'Crush Defence', b.crushdefence || '-');
 
       row = table.insertRow();
-      addPair(row, 'Magic Attack', b.magicattack || '-');
-      addPair(row, 'Magic Defence', b.magicdefence || '-');
-      addPair(row, 'Magic Bonus', b.magicbonus || '-');
+      addCombined(row, 'Magic Attack', b.magicattack || '-');
+      addCombined(row, 'Magic Defence', b.magicdefence || '-');
+      addCombined(row, 'Magic Bonus', b.magicbonus || '-');
 
       row = table.insertRow();
-      addPair(row, 'Ranged Attack', b.rangeattack || '-');
-      addPair(row, 'Ranged Defence', b.rangedefence || '-');
-      addPair(row, 'Ranged Bonus', b.rangebonus || '-');
+      addCombined(row, 'Ranged Attack', b.rangeattack || '-');
+      addCombined(row, 'Ranged Defence', b.rangedefence || '-');
+      addCombined(row, 'Ranged Bonus', b.rangebonus || '-');
     }
 
     return table;
