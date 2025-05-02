@@ -21,7 +21,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>Decent weapon and armor</div></li>
 </ul>
 <br>
-<b>Starting Location:</b> Camelot Castle
+<b>Starting Location:</b> Talk to King Arthur in Camelot Castle
 <br><br>
 <b>Reward:</b> 2 quest points, 15,300 Defence XP, 11,000 Prayer XP
 <br><br>

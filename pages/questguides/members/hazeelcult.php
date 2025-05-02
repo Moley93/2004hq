@@ -43,6 +43,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>Return to the Carnillean mansion with your symbol still equipped. Talk to the butler on the <span data-floors="US">1st floor</span>.</div>
 <br><br>
 <div data-progress>Then, climb down the ladder and search both crates for a key.</div>
+<br><br>
 <div data-progress>Afterwards go up the ladder and to another flight of steps. Talk to the butler once more and then knock on the wall he is standing by. Then, go up the ladder, use your key on the chest, and search the chest. Leave the mansion.</div>
 <br><br>
 <div data-progress>Go back into the cave and DO NOT TAMPER WITH THE SEWER VALVES. Take the raft back to Alamone with the scroll, and talk to him. He will start a ritual and summon Hazeel (level 296) back from the dead. Hazeel will thank you and reward you. Quest Complete.</div>
