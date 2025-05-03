@@ -32,3 +32,26 @@
 .search-wrapper .suggestions:empty {
     display: none;
 }
+.calculators {
+  .subtable {
+    width: auto;
+    border-collapse: collapse;
+    margin: 0.5em 0;
+  }
+  .subtable th {
+    font-size: 0.9em;
+    border: none;
+    text-align: center;
+    padding: 2px 2px;
+    color: yellow;
+    font-weight: bold;
+  }
+  .subtable td {
+    text-align: left;
+    padding: 2px 2px;
+    color: #ddd;
+  }
+  .subtable tr + tr td {
+    border: none;
+  }
+}

@@ -6,6 +6,7 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/stats.webp';
 
     return <<<HTML
+<link rel="stylesheet" type="text/css" href="pages/itemdb/itemlist.css" />
 <h3>Item Database</h3>
 <div id="item-search-container">
   <label for="search1">Item Search</label>
@@ -19,6 +20,6 @@ function getPageContent() {
 <div id="item-tables-container"></div>
 
 <script src="pages/itemdb/itemlist.js"></script>
-<link rel="stylesheet" type="text/css" href="pages/itemdb/itemlist.css" />
+
 HTML;
 }
