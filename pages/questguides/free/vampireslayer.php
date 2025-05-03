@@ -12,10 +12,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas>Beer (or 2 coins to buy during quest)</div><br></li>
 <li><div data-progress>Decent armor and weapon to defeat a combat level 34 vampyre</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Draynor Village
 <br><br>
-<b>Reward:</b> 3 quest points, 4,825 Attack XP
+<b>Reward:</b> 3 Quest points, 4,825 Attack XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

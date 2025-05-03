@@ -13,10 +13,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="logs" data-size="25"></canvas>6 logs</div><br></li>
 <li><div data-progress>The ability to defeat a level 112 Khazard Warlord</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> King Bolren, next to the huge spirit tree in the middle of the Tree Gnome Maze
 <br><br>
-<b>Reward:</b> 2 quest points, 11,500 Attack XP, a gnome amulet, the ability to use the spirit trees to travel
+<b>Reward:</b> 2 Quest points, 11,500 Attack XP, a gnome amulet, the ability to use the spirit trees to travel
 <br><br>
 <hr>
 <h3>Instructions:</h3>

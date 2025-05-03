@@ -10,10 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="cadavaberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Juliet's house, just west of Varrock on the north side of the road<br>
 <br>
-<b>Reward:</b> 5 quest points
+<b>Reward:</b> 5 Quest points
 <br><br>
 <hr>
 <h3>Instructions:</h3>

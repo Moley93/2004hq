@@ -13,10 +13,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="raw_rat_meat" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="raw_chicken" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Stone circle north of Taverley
 <br><br>
-<b>Reward:</b> 4 quest points, 250 Herblore XP, access to the Herblore skill
+<b>Reward:</b> 4 Quest points, 250 Herblore XP, access to the Herblore skill
 <br><br>
 <hr>
 <h3>Instructions:</h3>

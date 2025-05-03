@@ -14,10 +14,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>30 coins</div><br></li>
 <li><div data-progress>The ability to beat level 172 demon</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Grand Tree in the Gnome Stronghold northwest of Ardougne
 <br><br>
-<b>Reward:</b> 5 quest points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the ability to use spirit tree teleport from gnome stronghold, the ability to use the gnome gliders
+<b>Reward:</b> 5 Quest points, 11,200 Agility XP, 18,400 Attack XP, 2,150 Magic XP, the ability to use spirit tree teleport from gnome stronghold, the ability to use the gnome gliders
 <br><br>
 <hr>
 <h3>Instructions:</h3>

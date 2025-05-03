@@ -18,10 +18,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="wolf_bones" data-size="25"></canvas>About 4-5 wolf bones</div><br></li>
 <li><div data-progress>Weapons/armor to kill a level 64 wolf</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Southeast of Ogre City, which is southeast of Yanille
 <br><br>
-<b>Reward:</b> 2 quest points, 735 Ranged XP, 262 Fletching XP, 1,470 Cooking XP, Ogre Bow, the ability to make Ogre Arrows
+<b>Reward:</b> 2 Quest points, 735 Ranged XP, 262 Fletching XP, 1,470 Cooking XP, Ogre Bow, the ability to make Ogre Arrows
 <br><br>
 <hr>
 <h3>Instructions:</h3>

@@ -6,10 +6,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Red">Experienced</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
+<h3>Required Quests:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>Merlin's Crystal</div><br></li>
+</ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>20 Attack</div><br></li>
-<li><div data-progress>Merlin's Crystal</div><br></li>
 <li><div data-progress><canvas data-itemname="excalibur" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Must be able to defeat a level 120 Black Knight Titan with melee (can be flinched)</div><br></li>
 </ul>
@@ -20,10 +23,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>1-2 Antipoison Potions</div><br></li>
 <li><div data-progress>Decent weapon and armor</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk to King Arthur in Camelot Castle
 <br><br>
-<b>Reward:</b> 2 quest points, 15,300 Defence XP, 11,000 Prayer XP
+<b>Reward:</b> 2 Quest points, 15,300 Defence XP, 11,000 Prayer XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

@@ -12,10 +12,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>60 coins</div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> The pub in Port Sarim
 <br><br>
-<b>Reward:</b> 2 quest points, 450 coins, a cut Emerald, a Gold Ring
+<b>Reward:</b> 2 Quest points, 450 coins, a cut Emerald, a Gold Ring
 <br><br>
 <hr>
 <h3>Instructions:</h3>

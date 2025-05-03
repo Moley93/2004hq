@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <b>Starting Location:</b> The house just west of the sheep, northwest of Lumbridge
 <br><br>
-<b>Reward:</b> 1 quest point, 150 Crafting XP, 60 coins
+<b>Reward:</b> 1 Quest point, 150 Crafting XP, 60 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>
@@ -23,7 +23,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Once you've got 20 wool, go to Lumbridge Castle and head to the <span data-floors="US">2nd floor</span>, where you'll find a spinning wheel in the middle room. Use all your wool on it, and you should have 20 balls of wool.</div>
 <br><br>
-<div data-progress>Return to Fred with your 20 balls of wool and give them to him. He'll thank you and reward you for your help. You'll receive 1 quest point, 60 gold coins, and 150 Crafting XP.</div>
+<div data-progress>Return to Fred with your 20 balls of wool and give them to him. He'll thank you and reward you for your help. You'll receive 1 Quest point, 60 gold coins, and 150 Crafting XP.</div>
 $questComplete
 This quest guide was written on RuneHQ by Stormer. Thanks to Weezy and tj for corrections.
 <br><br>

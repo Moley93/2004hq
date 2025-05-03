@@ -12,10 +12,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="eye_of_newt" data-size="25"></canvas>Eye of newt (or 300 coins to purchase)</div><br></li>
 <li><div data-progress><canvas data-itemname="onion" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Rimmington
 <br><br>
-<b>Reward:</b> 1 quest point, 325 Magic XP
+<b>Reward:</b> 1 Quest point, 325 Magic XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

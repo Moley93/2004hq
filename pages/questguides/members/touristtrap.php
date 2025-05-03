@@ -28,10 +28,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
 <li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>100 coins</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> South of Shantay Pass
 <br><br>
-<b>Reward:</b> 2 quest points, 4,650 XP in your choice of two skills (you may pick same skill twice): Agility, Fletching, Smithing, or Thieving, the ability to smith dart tips, the wrought iron key - allows access to a special door inside the Desert Mining Camp which has several higher tier ores inside - including mithril ore and adamantite ore, full slave robes, 6 bronze darts
+<b>Reward:</b> 2 Quest points, 4,650 XP in your choice of two skills (you may pick same skill twice): Agility, Fletching, Smithing, or Thieving, the ability to smith dart tips, the wrought iron key - allows access to a special door inside the Desert Mining Camp which has several higher tier ores inside - including mithril ore and adamantite ore, full slave robes, 6 bronze darts
 <br><br>
 <hr>
 <h3>Instructions:</h3>

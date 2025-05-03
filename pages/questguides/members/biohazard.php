@@ -6,16 +6,19 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Green">Novice</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
+<h3>Required Quests:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>Plague City</div><br></li>
+</ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>12 coins</div><br></li>
 <li><div data-progress><canvas data-itemname="priest_gown" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="priest_robe" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk with Elena in Ardougne. She lives just across the street (east) of where her parents live
 <br><br>
-<b>Reward:</b> 3 quest points, 1,250 Thieving XP, the ability to use King Lathas' training field
+<b>Reward:</b> 3 Quest points, 1,250 Thieving XP, the ability to use King Lathas' training field
 <br><br>
 <hr>
 <h3>Instructions:</h3>

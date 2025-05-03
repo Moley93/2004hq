@@ -12,10 +12,9 @@ Description: There's a disturbance in the goblin village. Help the goblins solve
 <li><div data-progress><canvas data-itemname="bluedye" data-size="25"></canvas>Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)</div><br></li>
 <li><div data-progress><canvas data-itemname="orangedye" data-size="25"></canvas>Orange dye (or 3 redberries, 2 onions, and 10 coins to obtain a red and yellow dye from Aggie)</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Port Sarim Pub
 <br><br>
-<b>Reward:</b> 5 quest points, 815 Crafting XP, 1 Gold Bar
+<b>Reward:</b> 5 Quest points, 815 Crafting XP, 1 Gold Bar
 <br><br>
 <hr>
 <h3>Instructions:</h3>

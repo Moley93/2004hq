@@ -11,10 +11,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bucket_water" data-size="25"></canvas>Bucket of water or <canvas data-itemname="ice_gloves" data-size="25"></canvas>Ice gloves</div><br></li>
 <li><div data-progress>A good weapon and armour to get past some level 53 ogres</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Southwest of Ardougne Zoo
 <br><br>
-<b>Reward:</b> 1 quest point, 500 coins
+<b>Reward:</b> 1 Quest point, 500 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>

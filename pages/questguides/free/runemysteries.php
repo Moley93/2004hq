@@ -13,10 +13,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> <span data-floors="US">2nd floor</span> of Lumbridge Castle
 <br><br>
-<b>Reward:</b> 1 quest point, free teleport to the Rune Essence Mine by speaking to either Aubury or Sedridor
+<b>Reward:</b> 1 Quest point, free teleport to the Rune Essence Mine by speaking to either Aubury or Sedridor
 <br><br>
 <hr>
 <h3>Instructions:</h3>

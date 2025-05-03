@@ -6,6 +6,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Red">Experienced</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
+<h3>Required Quests:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>Shield of Arrav</div><br></li>
+<li><div data-progress>Lost City</div><br></li>
+<li><div data-progress>Merlin's Crystal</div><br></li>
+<li><div data-progress>Dragon Slayer</div><br></li>
+</ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>55 Quest points</div><br></li>
@@ -13,10 +20,6 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>25 Herblore</div><br></li>
 <li><div data-progress>53 Fishing (or 50 and a fishing potion)</div><br></li>
 <li><div data-progress>53 Cooking</div><br></li>
-<li><div data-progress>Shield of Arrav</div><br></li>
-<li><div data-progress>Lost City</div><br></li>
-<li><div data-progress>Merlin's Crystal</div><br></li>
-<li><div data-progress>Dragon Slayer</div><br></li>
 <li><div data-progress><canvas data-itemname="fishing_rod" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="fishing_bait" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="harralandervial" data-size="25"></canvas>Harralander potion (unf) (or a harralander and a vial of water)</div><br></li>
@@ -39,10 +42,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="dusty_key" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Food</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> North of Taverley, outside the Hero's guild
 <br><br>
-<b>Reward:</b> 1 quest point, 3,075 Attack XP, 3,075 Defence XP, 3,075 Strength XP, 3,075 Hitpoints XP, 2,075 Ranged XP, 2,725 Fishing XP, 2,825 Cooking XP, 1,575 Woodcutting XP, 1,575 Firemaking XP, 2,275 Smithing XP, 2,575 Mining XP, 1,325 Herblore XP, access to the Hero's Guild, ability to buy a Dragon Axe and Mace
+<b>Reward:</b> 1 Quest point, 3,075 Attack XP, 3,075 Defence XP, 3,075 Strength XP, 3,075 Hitpoints XP, 2,075 Ranged XP, 2,725 Fishing XP, 2,825 Cooking XP, 1,575 Woodcutting XP, 1,575 Firemaking XP, 2,275 Smithing XP, 2,575 Mining XP, 1,325 Herblore XP, access to the Hero's Guild, ability to buy a Dragon Axe and Mace
 <br><br>
 <hr>
 <h3>Instructions:</h3>

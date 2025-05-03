@@ -14,10 +14,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="knife" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Speak to Adventurers in the Lumbridge Swamp, south of Lumbridge/Draynor forest
 <br><br>
-<b>Reward:</b> 3 quest points, access to Zanaris, the ability to wield the Dragon Longsword and Dragon Dagger
+<b>Reward:</b> 3 Quest points, access to Zanaris, the ability to wield the Dragon Longsword and Dragon Dagger
 <br><br>
 <hr>
 <h3>Instructions:</h3>

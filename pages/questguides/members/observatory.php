@@ -17,10 +17,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> West across the river from the gnome maze, just next to the small goblin town
 <br><br>
-<b>Reward:</b> 2 quest points, 2,250 Crafting XP, an Uncut Sapphire, a random reward depending on the constellation you see
+<b>Reward:</b> 2 Quest points, 2,250 Crafting XP, an Uncut Sapphire, a random reward depending on the constellation you see
 <br><br>
 <hr>
 <h3>Instructions:</h3>

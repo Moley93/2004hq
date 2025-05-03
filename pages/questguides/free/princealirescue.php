@@ -21,10 +21,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>100 coins</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
 <br><br>
-<b>Reward:</b> 3 quest points, 700 coins, free passage through the Al Kharid gate
+<b>Reward:</b> 3 Quest points, 700 coins, free passage through the Al Kharid gate
 <br><br>
 <hr>
 <h3>Instructions:</h3>

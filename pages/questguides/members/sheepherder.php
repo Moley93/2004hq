@@ -10,10 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>100 coins</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Just south of the Ardougne chapel, east of the bridge over the west/east Ardougne river
 <br><br>
-<b>Reward:</b> 4 quest points, 3,100 coins
+<b>Reward:</b> 4 Quest points, 3,100 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>

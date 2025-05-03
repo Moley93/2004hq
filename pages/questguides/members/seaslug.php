@@ -11,10 +11,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>30 Firemaking</div></li>
 <li><div data-progress><canvas data-itemname="swamppaste" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> South of the Legends' Guild and southeast of Ardougne
 <br><br>
-<b>Reward:</b> 1 quest point, 7,175 Fishing XP, Oyster Pearls, access to the Fishing Platform
+<b>Reward:</b> 1 Quest point, 7,175 Fishing XP, Oyster Pearls, access to the Fishing Platform
 <br><br>
 <hr>
 <h3>Instructions:</h3>

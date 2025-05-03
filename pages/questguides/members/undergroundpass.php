@@ -6,11 +6,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Red">Experienced</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
+<ul style="list-style-type: none;">
+<li><div data-progress>Biohazard</div></li>
+<li><div data-progress>Plague City</div></li>
+</ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>25 Ranged</div></li>
-<li><div data-progress>Biohazard</div></li>
-<li><div data-progress>Plague City</div></li>
 <li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>2 ropes</div><br></li>
 <li><div data-progress><canvas data-itemname="shortbow" data-size="25"></canvas>Any bow</div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_arrow" data-size="25"></canvas>1-5 arrows</div><br></li>
@@ -28,10 +30,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>Teleports to Ardougne</div></li>
 <li><div data-progress>Runes for Telekinetic Grab</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> East Ardougne, speak to King Lathas
 <br><br>
-<b>Reward:</b> 5 quest points, 3,000 Agility XP, 3,000 Attack XP, Staff of Iban, the ability to use Iban Blast
+<b>Reward:</b> 5 Quest points, 3,000 Agility XP, 3,000 Attack XP, Staff of Iban, the ability to use Iban Blast
 <br><br>
 <hr>
 <h3>Instructions:</h3>

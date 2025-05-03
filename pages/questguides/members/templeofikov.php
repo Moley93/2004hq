@@ -24,10 +24,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>Varrock and Ardougne teleports</div><br></li>
 <li><div data-progress>A trustworthy friend to do the quest with</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> In the 'Flying Horse' bar west of the Ardougne River
 <br><br>
-<b>Reward:</b> 1 quest point, 10,500 Ranged XP, 8,000 Fletching XP, Boots of lightness, Pendant of Lucien which grants access to a door in the Temple of Ikov, Shiny key for a shortcut between the Temple of Ikov and McGrubor's Wood, Armadyl pendant (if you sided with Lucien)
+<b>Reward:</b> 1 Quest point, 10,500 Ranged XP, 8,000 Fletching XP, Boots of lightness, Pendant of Lucien which grants access to a door in the Temple of Ikov, Shiny key for a shortcut between the Temple of Ikov and McGrubor's Wood, Armadyl pendant (if you sided with Lucien)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

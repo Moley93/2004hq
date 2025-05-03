@@ -11,10 +11,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="cheese" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="leather_gloves" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> South of the witch's house, Taverley<br>
 <br>
-<b>Reward:</b> 4 quest points, 6,325 Hitpoints XP
+<b>Reward:</b> 4 Quest points, 6,325 Hitpoints XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

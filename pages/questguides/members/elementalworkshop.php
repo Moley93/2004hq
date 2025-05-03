@@ -19,10 +19,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="coal" data-size="25"></canvas>4 coal</div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
 <br><br>
-<b>Reward:</b> 1 quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield (+6 Magic Defence bonus), as well as the ability to make and wield them
+<b>Reward:</b> 1 Quest point, 5,000 Crafting XP, 5,000 Smithing XP, access to the Elemental Workshop, Elemental Shield (+6 Magic Defence bonus), as well as the ability to make and wield them
 <br><br>
 <hr>
 <h3>Instructions:</h3>

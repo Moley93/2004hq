@@ -8,15 +8,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress>12 Quest Points</div><br></li>
+<li><div data-progress>12 Quest points</div><br></li>
 <li><div data-progress><canvas data-itemname="cabbage" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_med_helm" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="iron_chainbody" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> <span data-floors="US">3rd floor</span> of White Knights' Castle in Falador
 <br><br>
-<b>Reward:</b> 3 quest points, 2,500 coins
+<b>Reward:</b> 3 Quest points, 2,500 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>

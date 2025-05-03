@@ -14,10 +14,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="garlic" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> East or west of White Wolf Mountain, talk to the dwarf
 <br><br>
-<b>Reward:</b> 1 quest point, 2,437 Fishing XP, access to the underground White Wolf Mountain passage
+<b>Reward:</b> 1 Quest point, 2,437 Fishing XP, access to the underground White Wolf Mountain passage
 <br><br>
 <hr>
 <h3>Instructions:</h3>

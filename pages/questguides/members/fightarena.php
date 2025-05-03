@@ -11,10 +11,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>5 coins</div><br></li>
 <li><div data-progress>The ability to defeat level 44, 63, 137, and 142 enemies (all can be safespotted)</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Lady Servil is southeast of the Gnome Battlefield, on the northwest edge of the arena camp
 <br><br>
-<b>Reward:</b> 2 quest points, 3,375 Thieving XP, 12,175 Attack XP, 1,000 coins
+<b>Reward:</b> 2 Quest points, 3,375 Thieving XP, 12,175 Attack XP, 1,000 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>

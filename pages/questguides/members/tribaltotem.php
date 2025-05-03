@@ -11,10 +11,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>21 Thieving</div></li>
 <li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>60 coins</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Brimhaven
 <br><br>
-<b>Reward:</b> 1 quest point, 1,250 Thieving XP, 5 cooked swordfish
+<b>Reward:</b> 1 Quest point, 1,250 Thieving XP, 5 cooked swordfish
 <br><br>
 <hr>
 <h3>Instructions:</h3>

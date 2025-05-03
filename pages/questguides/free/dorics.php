@@ -17,10 +17,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>15 Mining</div></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Doric's Anvil (north of Falador)
 <br><br>
-<b>Reward:</b> 1 quest point, 1,300 Mining XP, 180 coins, permission to use Doric's anvils
+<b>Reward:</b> 1 Quest point, 1,300 Mining XP, 180 coins, permission to use Doric's anvils
 <br><br>
 <hr>
 <h3>Instructions:</h3>

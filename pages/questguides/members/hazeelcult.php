@@ -10,10 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>None</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> West Ardougne, southeast of the plague gate
 <br><br>
-<b>Reward:</b> 1 quest point, 1,000 Thieving XP, 2,000 coins, a real cool armour if you side with Clivet
+<b>Reward:</b> 1 Quest point, 1,000 Thieving XP, 2,000 coins, a real cool armour if you side with Clivet
 <br><br>
 <hr>
 <h3>Instructions:</h3>

@@ -12,10 +12,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="phoenix_crossbow" data-size="25"></canvas>2 Phoenix crossbows (Black Arm Gang)</div><br></li>
 <li><div data-progress>A friend who has not done the quest</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Reldo in the palace library of Varrock
 <br><br>
-<b>Reward:</b> 1 quest point, 2 certificates worth 600 coins each
+<b>Reward:</b> 1 Quest point, 2 certificates worth 600 coins each
 <br><br>
 <hr>
 <h3>Instructions:</h3>
@@ -60,7 +59,7 @@ Phoenix Gang:
 <br><br>
 Note: Give your friend one of the reward scrolls for his part in this.
 <br><br>
-Congrats! You're 600 gold richer and have gained a quest point.
+Congrats! You're 600 gold richer and have gained a Quest point.
 $questComplete
 This quest guide was written on RuneHQ by halojunkie.
 <br><br>

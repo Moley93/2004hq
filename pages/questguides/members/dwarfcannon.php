@@ -16,10 +16,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>20 Agility is required to cross the log bridge</div><br></li>
 <li><div data-progress>Food at very low combat levels</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk to the dwarf commander across the log bridge from Seers' Village
 <br><br>
-<b>Reward:</b> 1 quest point, 750 Crafting XP, the ability to buy a multicannon for 750k (or different pieces for 200k each), the ability to make cannonballs
+<b>Reward:</b> 1 Quest point, 750 Crafting XP, the ability to buy a multicannon for 750k (or different pieces for 200k each), the ability to make cannonballs
 <br><br>
 <hr>
 <h3>Instructions:</h3>

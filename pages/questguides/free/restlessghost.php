@@ -10,10 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>The ability to kill a level 13 skeleton</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Lumbridge Chapel
 <br><br>
-<b>Reward:</b> 1 quest point, 1,125 Prayer XP
+<b>Reward:</b> 1 Quest point, 1,125 Prayer XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

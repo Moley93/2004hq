@@ -10,10 +10,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="pot_empty" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk to the guard at Lord Sinclair's Mansion
 <br><br>
-<b>Reward:</b> 3 quest points, 1,406 Crafting XP, 2,000 coins
+<b>Reward:</b> 3 Quest points, 1,406 Crafting XP, 2,000 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>

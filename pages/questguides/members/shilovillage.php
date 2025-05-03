@@ -6,9 +6,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Red">Experienced</font></b>
 <br><br>
 <b>Length: <font color="Red">Long</font></b><br>
-<h3>Items & Skills Needed:</h3>
+<h3>Required Quests:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Jungle Potion</div><br></li>
+<li><div data-progress>Druidic Ritual</div><br></li>
+</ul>
+<h3>Items & Skills Needed:</h3>
+<ul style="list-style-type: none;">
 <li><div data-progress>32 Agility</div><br></li>
 <li><div data-progress>20 Crafting</div><br></li>
 <li><div data-progress><canvas data-itemname="spade" data-size="25" data-show-label="inline"></canvas></div><br></li>
@@ -27,10 +31,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="3doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Teleports</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Deep in the Karamja Jungle. When you see a village surrounded by walls, head east and you will find a man named Mosol
 <br><br>
-<b>Reward:</b> 2 quest points, 3,875 Crafting XP, ability to get into Shilo Village, ability to quick travel to Shilo Village using the cart near the Brimhaven docks, ability to mine the gem rocks in Shilo Village mine, up to 2,000 coins if you sell every item you obtained during the quest
+<b>Reward:</b> 2 Quest points, 3,875 Crafting XP, ability to get into Shilo Village, ability to quick travel to Shilo Village using the cart near the Brimhaven docks, ability to mine the gem rocks in Shilo Village mine, up to 2,000 coins if you sell every item you obtained during the quest
 <br><br>
 <hr>
 <h3>Instructions:</h3>

@@ -21,10 +21,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="pestle_and_mortar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="snape_grass" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> North of the Paladin Tower, in northwest Ardougne
 <br><br>
-<b>Reward:</b> 1 quest point, 2,425 Mining XP, Ardougne teleport scroll, reading it unlocks the Ardougne Teleport with 51 Magic
+<b>Reward:</b> 1 Quest point, 2,425 Mining XP, Ardougne teleport scroll, reading it unlocks the Ardougne Teleport with 51 Magic
 <br><br>
 <hr>
 <h3>Instructions:</h3>

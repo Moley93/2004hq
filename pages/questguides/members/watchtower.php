@@ -35,10 +35,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="macro_triffidfruit" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Watchtower, which is north of Yanille (just follow yanilles north wall to the west and you'll be there)
 <br><br>
-<b>Reward:</b> 4 quest points, 12,000 Magic XP, 5,000 coins, Watchtower Teleport (requires level 58 Magic)
+<b>Reward:</b> 4 Quest points, 12,000 Magic XP, 5,000 coins, Watchtower Teleport (requires level 58 Magic)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

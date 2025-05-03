@@ -15,10 +15,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="tinderbox" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bread" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> Talk to King Arthur in Camelot Castle
 <br><br>
-<b>Reward:</b> 6 quest points, Excalibur
+<b>Reward:</b> 6 Quest points, Excalibur
 <br><br>
 <hr>
 <h3>Instructions:</h3>

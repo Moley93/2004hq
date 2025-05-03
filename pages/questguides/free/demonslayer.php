@@ -12,10 +12,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>25 Bones</div><br></li>
 <li><div data-progress><canvas data-itemname="coins_1" data-size="25"></canvas>1 coin</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> The Gypsy in her tent at Varrock Square
 <br><br>
-<b>Reward:</b> 3 quest points, Silverlight (which is useful for weakening any kind of demon)
+<b>Reward:</b> 3 Quest points, Silverlight (which is useful for weakening any kind of demon)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

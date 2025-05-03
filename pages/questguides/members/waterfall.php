@@ -16,7 +16,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <b>Starting Location:</b> North of Baxtorian Falls, speak to Almera
 <br><br>
-<b>Reward:</b> 1 quest point, 13,750 Attack XP, 13,750 Strength XP, 2 cut diamonds, 2 gold bars, 40 mithril seeds (allows you to grow flowers)
+<b>Reward:</b> 1 Quest point, 13,750 Attack XP, 13,750 Strength XP, 2 cut diamonds, 2 gold bars, 40 mithril seeds (allows you to grow flowers)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

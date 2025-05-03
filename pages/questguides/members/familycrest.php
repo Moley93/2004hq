@@ -37,7 +37,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <b>Starting Location:</b> Southeast of the East Varrock bank
 <br><br>
-<b>Reward:</b> 1 quest point, a pair of Steel Gauntlets
+<b>Reward:</b> 1 Quest point, a pair of Steel Gauntlets
 <br><br>
 <hr>
 <h3>Starting Out:</h3>

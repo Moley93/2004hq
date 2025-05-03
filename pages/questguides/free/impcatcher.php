@@ -13,10 +13,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="white_bead" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="yellow_bead" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> <span data-floors="US">3rd floor</span> of the Wizard's Tower south of Draynor Village
 <br><br>
-<b>Reward:</b> 1 quest point, 375 Magic XP, Amulet of Accuracy (+4 weapon accuracy)
+<b>Reward:</b> 1 Quest point, 375 Magic XP, Amulet of Accuracy (+4 weapon accuracy)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

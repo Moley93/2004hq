@@ -14,10 +14,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
 <li><div data-progress>The ability to run past level 57 ice warriors and level 53 ice giants</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> The courtyard of the White Knight's Castle
 <br><br>
-<b>Reward:</b> 1 quest point, 12,725 Smithing XP, blurite sword (if you got Thurgo to make you an extra one)
+<b>Reward:</b> 1 Quest point, 12,725 Smithing XP, blurite sword (if you got Thurgo to make you an extra one)
 <br><br>
 <hr>
 <h3>Instructions:</h3>

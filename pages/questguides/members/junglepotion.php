@@ -6,6 +6,10 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
 <br><br>
 <b>Length: <font color="Green">Short</font></b><br>
+<h3>Required Quests:</h3>
+<ul style="list-style-type: none;">
+<li><div data-progress>Druidic Ritual</div><br></li>
+</ul>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>None</div></li>
@@ -15,10 +19,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>1-2 Antipoison Potions</div><br></li>
 <li><div data-progress>Weapon and armor to run past Jogres (level 48)</div></li>
 </ul>
-<br>
 <b>Starting Location:</b> Tai Bwo Wannai's circular bamboo house
 <br><br>
-<b>Reward:</b> 1 quest point, 775 Herblore XP
+<b>Reward:</b> 1 Quest point, 775 Herblore XP
 <br><br>
 <hr>
 <h3>Instructions:</h3>

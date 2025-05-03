@@ -12,10 +12,9 @@ Description: Veronica is very worried. Her fiancee went into the big spooky mano
 <li><div data-progress><canvas data-itemname="fish_food" data-size="25"></canvas>Fish food (can be obtained during the quest)</div><br></li>
 <li><div data-progress><canvas data-itemname="poison" data-size="25"></canvas>Poison (can be obtained during the quest)</div><br></li>
 </ul>
-<br>
 <b>Starting Location:</b> South of Draynor Manor
 <br><br>
-<b>Reward:</b> 4 quest points, 300 coins
+<b>Reward:</b> 4 Quest points, 300 coins
 <br><br>
 <hr>
 <h3>Instructions:</h3>
