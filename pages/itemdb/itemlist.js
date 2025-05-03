@@ -170,8 +170,8 @@
     const ops = [];
     if (item.iops?.iop1) ops.push(item.iops.iop1);
     if (item.iops?.iop2) ops.push(item.iops.iop2);
-    ops.push('Use');
     if (item.iops?.iop3) ops.push(item.iops.iop3);
+    ops.push('Use');
     if (item.iops?.iop4) ops.push(item.iops.iop4);
     if (item.iops?.iop5) ops.push(item.iops.iop5);
     else ops.push('Drop');
