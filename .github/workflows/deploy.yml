@@ -1,18 +1,17 @@
-name: Deploy website on push
-on:
-  push:
-    branches:
-      - main
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  ftp-deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v3
-      - name: Deploy via FTP
-        uses: SamKirkland/[email protected]
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ${{ secrets.DIRECTORY}}
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ${{ secrets.DIRECTORY}}
