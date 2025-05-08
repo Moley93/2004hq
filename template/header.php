@@ -13,7 +13,7 @@ function getFullUrl(): string {
 if (substr($meta_data['og:image'], 0, 4) == "http") {
     $ogimage = $meta_data['og:image'];
 } else {
-    $ogimage = getBaseUrl() . $meta_data['og:image'];
+    $ogimage = getBaseUrl().'/'.$meta_data['og:image'];
 }
 
 ?>
