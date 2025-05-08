@@ -1,5 +1,3 @@
-function onBodyLoad() { switchCombat("melee"); calculateMaxHit(); }
-
 function switchCombat(type) {
     ["melee", "ranged", "magic"].forEach(c => {
         document.getElementById(c + "Options").classList.toggle("hidden", c !== type);

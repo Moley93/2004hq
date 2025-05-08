@@ -5,6 +5,7 @@ function getExtraHeaderContent() { return
     '<link rel="stylesheet" href="css/calculators.css">
     <script src="js/calculators.js"></script>';
 }
+function onBodyLoad() { return 'switchCombat(\'melee\'); calculateMaxHit();'; }
 function getCalcContent() { return <<<HTML
 <h2>Max Hit Calculator</h2>
 <div>

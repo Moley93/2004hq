@@ -431,3 +431,5 @@ A.pink:hover {
     vertical-align: middle;
     margin-left: 4px;
   }
+
+.hidden { display: none; }
