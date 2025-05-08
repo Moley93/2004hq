@@ -1,16 +1,21 @@
 <?php
-if (isset($_SERVER['REQUEST_SCHEME'])) {
-    $baseUrl = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/') . '/';
-    $ogurl = $baseUrl . '?'.$_SERVER['QUERY_STRING'];
-    if (substr($meta_data['og:image'], 0, 4) == "http") {
-        $ogimage = $meta_data['og:image'];
-    } else {
-        $ogimage = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER["REQUEST_URI"]) . '/' . $meta_data['og:image'];
-    }
-} else {
-    $ogurl = '';
-    $ogimage = '';
+function getBaseUrl(): string {
+    $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+    $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+    $path = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
+    return ($scheme.'://'.$host.$path);
 }
+function getFullUrl(): string {
+    $query = isset($_SERVER['QUERY_STRING']) && $_SERVER['QUERY_STRING'] !== '' ? '?' . $_SERVER['QUERY_STRING'] : '';
+    return (getBaseUrl().'/'.$query);
+}
+
+if (substr($meta_data['og:image'], 0, 4) == "http") {
+    $ogimage = $meta_data['og:image'];
+} else {
+    $ogimage = getBaseUrl() . $meta_data['og:image'];
+}
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -20,7 +25,7 @@ if (isset($_SERVER['REQUEST_SCHEME'])) {
     <meta name="color-scheme" content="light only">
     <meta property="og:title" content="2004HQ > <?php echo $meta_data['og:title']; ?>">
     <meta property="og:description" content="<?php echo $meta_data['og:description']; ?>">
-    <meta property="og:url" content="<?php echo $ogurl; ?>">
+    <meta property="og:url" content="<?php echo getFullUrl(); ?>">
     <meta property="og:image" content="<?php echo $ogimage; ?>">
     <meta property="og:type" content="article:2004scape">
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
