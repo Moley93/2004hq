@@ -42,7 +42,7 @@ function getPageContent(): string {
     if (empty($_GET['calc'])) {
         $meta_data['title'] = 'Calculators';
         $meta_data['og:title'] = $meta_data['title'];
-        $meta_data['og:image'] = 'img/stats.webp';
+        $meta_data['og:image'] = 'img/skillicons/stats.webp';
         return generateCalculatorLinks();
     } else {
         $currSkill = htmlspecialchars($_GET['calc']);

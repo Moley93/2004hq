@@ -3,7 +3,7 @@ function getPageContent() {
     global $meta_data, $siteOptStyle;
     $meta_data['title'] = 'Item Database';
     $meta_data['og:title'] = $meta_data['title'];
-    $meta_data['og:image'] = 'img/stats.webp';
+    $meta_data['og:image'] = 'img/skillicons/stats.webp';
 
     return <<<HTML
 <link rel="stylesheet" type="text/css" href="pages/itemdb/itemlist.css" />
