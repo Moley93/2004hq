@@ -13,7 +13,7 @@ if (!in_array($difficulty, $validDifficulties)) {
 }
 
 $stmt = $pdo->prepare("
-    SELECT reward_name, quantity_min, quantity_max, drop_rate
+    SELECT reward_name, quantity_min, quantity_max, drop_rate, is_rare
     FROM clue_rewards
     WHERE difficulty = ?
     ORDER BY reward_name

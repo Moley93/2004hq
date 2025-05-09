@@ -103,7 +103,7 @@ foreach ($files as $difficulty => $url) {
                                    VALUES (?, ?, ?, ?, ?, ?, ?)");
             $stmt->execute([$difficulty, $reward, $min, $max, $dropRate, $hash, $isRare]);
             if ($isRare) { $rareMsg = " (Rare)"; } else { $rareMsg = ""; }
-            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate into $difficulty ($hash)<br>".$rareMsg;
+            echo "Inserted [$reward $rareMsg ($min-$max)]  [Rate: $dropRate] [Difficulty: $difficulty] ($hash)<br>";
         }
     }
 }
