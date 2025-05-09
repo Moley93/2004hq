@@ -14,7 +14,8 @@ $pdo->exec("CREATE TABLE IF NOT EXISTS clue_rewards (
     quantity_min INT,
     quantity_max INT,
     drop_rate VARCHAR(20),
-    hash CHAR(40)
+    hash CHAR(40),
+    is_rare TINYINT(1) NOT NULL DEFAULT 0
 )");
 
 $pdo->exec("DELETE FROM clue_rewards");
@@ -68,8 +69,8 @@ foreach ($files as $difficulty => $url) {
     preg_match_all('/\[proc,trail_clue_' . $difficulty . '_(normal|rare)\](.*?)(?=\[proc,|\Z)/s', $data . "\n[proc,", $procBlocks, PREG_SET_ORDER);
 
     foreach ($procBlocks as $block) {
-        
         $type = $block[1];
+        $isRare = ($type === 'rare') ? 1 : 0;
         echo "Parsing $type rewards...<br>";
         $procContent = $block[2];
 
@@ -98,12 +99,13 @@ foreach ($files as $difficulty => $url) {
             $computedRate = max(1, round(1 / $chancePerClue));
             $dropRate = '1/' . $computedRate;
 
-            $stmt = $pdo->prepare("INSERT INTO clue_rewards (difficulty, reward_name, quantity_min, quantity_max, drop_rate, hash)
-                                   VALUES (?, ?, ?, ?, ?, ?)");
-            $stmt->execute([$difficulty, $reward, $min, $max, $dropRate, $hash]);
-
-            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate into $difficulty ($hash)<br>";
+            $stmt = $pdo->prepare("INSERT INTO clue_rewards (difficulty, reward_name, quantity_min, quantity_max, drop_rate, hash, is_rare)
+                                   VALUES (?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([$difficulty, $reward, $min, $max, $dropRate, $hash, $isRare]);
+            if ($isRare) { $rareMsg = " (Rare)"; } else { $rareMsg = ""; }
+            echo "Inserted reward: $reward ($min-$max), Drop Rate: $dropRate into $difficulty ($hash)<br>".$rareMsg;
         }
     }
 }
 echo "Fetch and store complete.<br>";
+$stopload = true;
