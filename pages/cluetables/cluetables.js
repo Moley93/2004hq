@@ -62,10 +62,14 @@ async function loadDropTable() {
         const rateCell = document.createElement("td");
         rateCell.textContent = drop.drop_rate;
 
+        if (drop.is_rare === 1) {
+            imageCell.style.border = "2px solid rgb(130, 93, 0) !important";
+            quantityCell.style.border = "2px solid rgb(130, 93, 0) !important";
+            rateCell.style.border = "2px solid rgb(130, 93, 0) !important";
+        }
         row.appendChild(imageCell);
         row.appendChild(quantityCell);
         row.appendChild(rateCell);
-        if (drop.is_rare === 1) { row.style.border = "2px solid rgb(130, 93, 0)";}
         tableBody.appendChild(row);
     });
 
