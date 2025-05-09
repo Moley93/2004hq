@@ -65,7 +65,7 @@ async function loadDropTable() {
         row.appendChild(imageCell);
         row.appendChild(quantityCell);
         row.appendChild(rateCell);
-        if (drop.is_rare === "1") { row.style.border = "2px solidrgb(130, 93, 0)"; }
+        if (drop.is_rare === 1) { row.style.border = "2px solid rgb(130, 93, 0)";}
         tableBody.appendChild(row);
     });
 
