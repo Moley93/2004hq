@@ -38,8 +38,7 @@ async function loadDropTable() {
         if (searchTerm && !itemName.includes(searchTerm)) return;
 
         const row = document.createElement("tr");
-
-        // --- Image cell with canvas ---
+        if (drop.is_rare === "1") { row.style.border = "2px solidrgb(130, 93, 0)"; }
         const imageCell = document.createElement("td");
         const wrapper = document.createElement("div");
         wrapper.style.display = "flex";
