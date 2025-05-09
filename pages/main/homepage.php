@@ -128,6 +128,4 @@ function getPageContent() { return <<<HTML
         </tr>
     </tbody>
 </table>
-<hr>
-<p style="font-size:16px;">Thanks for the great videos Mudkip, we hope you decide to stick around, even if you aren't making 2004scape vids!</p>
 HTML; }
