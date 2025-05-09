@@ -378,6 +378,9 @@ A.pink:hover {
             background-color: #222;
             color: gold;
         }
+        td.rare {
+            border: 2px solid rgb(130, 93, 0) !important;
+        }
     }
     ol, ul {
         text-align: left;
