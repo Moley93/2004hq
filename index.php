@@ -33,9 +33,9 @@ switch ($p) {
         include 'pages/main/changelog.php';
         break;
 
-    case 'updatecluetables':
+    /*case 'updatecluetables':
         include 'pages/api/updatecluetables.php';
-        break;
+        break;*/
 
     case '': // No ?p= value (homepage)
         include 'pages/main/homepage.php';
