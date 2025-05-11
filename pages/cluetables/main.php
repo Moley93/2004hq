@@ -46,19 +46,57 @@ function getPageContent() {
         </td>
     </tr>
 </table>
-<br>
-<table width="100%" class="calculators" id="dropTable">
-    <thead>
-        <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-            <th>Rate</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Drop table rows will be populated here -->
-    </tbody>
-</table>
+<div class="easyTable">
+    <br><br>
+    <table width="100%" class="calculators">
+        <thead>
+            <tr>
+                <th colspan="3">Easy Casket Rewards</th>
+            </tr>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div class="mediumTable">
+    <br><br>
+    <table width="100%" class="calculators">
+        <thead>
+            <tr>
+                <th colspan="3">Medium Casket Rewards</th>
+            </tr>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div class="hardTable">
+    <br><br>
+    <table width="100%" class="calculators">
+        <thead>
+            <tr>
+                <th colspan="3">Hard Casket Rewards</th>
+            </tr>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
 <script src="pages/cluetables/cluetables.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function () {
