@@ -1,5 +1,5 @@
 <?php
-$localTest = true;//local test mode (doesn't query DB, checks local json file)
+$localTest = false;//local test mode (doesn't query DB, checks local json file)
 
 $difficulty = $_GET['difficulty'] ?? 'all';
 $validDifficulties = ['easy', 'medium', 'hard', 'all'];
@@ -32,7 +32,7 @@ if ($localTest) {
         case 'medium':
         case 'hard':
             $stmt = $pdo->prepare("
-                SELECT reward_name, quantity_min, quantity_max, drop_rate, is_rare
+                SELECT difficulty, reward_name, quantity_min, quantity_max, drop_rate, is_rare
                 FROM clue_rewards
                 WHERE difficulty = ?
                 ORDER BY reward_name
@@ -42,7 +42,7 @@ if ($localTest) {
         case 'all':
         default:
             $stmt = $pdo->prepare("
-                SELECT reward_name, quantity_min, quantity_max, drop_rate, is_rare
+                SELECT difficulty, reward_name, quantity_min, quantity_max, drop_rate, is_rare
                 FROM clue_rewards
                 ORDER BY difficulty, reward_name
             ");
