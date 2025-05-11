@@ -1,10 +1,7 @@
 <?php
-require __DIR__ . '/../../db.php';
+$localTest = false;//local test mode (doesn't query DB, checks local json file)
 
-// Default to 'easy' if not provided
 $difficulty = $_GET['difficulty'] ?? 'easy';
-
-// Validate input
 $validDifficulties = ['easy', 'medium', 'hard'];
 if (!in_array($difficulty, $validDifficulties)) {
     http_response_code(400);
@@ -12,15 +9,19 @@ if (!in_array($difficulty, $validDifficulties)) {
     exit;
 }
 
-$stmt = $pdo->prepare("
-    SELECT reward_name, quantity_min, quantity_max, drop_rate, is_rare
-    FROM clue_rewards
-    WHERE difficulty = ?
-    ORDER BY reward_name
-");
-$stmt->execute([$difficulty]);
-$rewards = $stmt->fetchAll(PDO::FETCH_ASSOC);
+if ($localTest) {
+    $rewards = json_decode(file_get_contents(filename: $difficulty.'.json'), true);
+} else {
+    require __DIR__ . '/../../db.php';
+    $stmt = $pdo->prepare("
+        SELECT reward_name, quantity_min, quantity_max, drop_rate, is_rare
+        FROM clue_rewards
+        WHERE difficulty = ?
+        ORDER BY reward_name
+    ");
+    $stmt->execute([$difficulty]);
+    $rewards = $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
 
-// Output JSON
 header('Content-Type: application/json');
 echo json_encode($rewards);
