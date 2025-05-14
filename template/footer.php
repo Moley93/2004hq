@@ -55,8 +55,12 @@
 </td>
 </tr></tbody></table>
 <div id="scrollToTop" style="display:none; cursor:pointer;">
-    <img src="img/scroll_icon.png" width="19" height="67" alt="Scroll to top">
-    <div style="font-size:12px; color:white;">Scroll to Top</div>
+  <img src="img/scroll_icon.png" width="19" height="67" alt="Scroll to top">
+  <div style="font-size:12px; color:white;">Scroll to Top</div>
+</div>
+<div class="img-modal" id="imgModal">
+  <span class="close-btn" id="closeModal">&times;</span>
+  <img src="" alt="Preview" id="modalImage">
 </div>
 <script type="text/javascript" src="js/end.js"></script>
 </body>

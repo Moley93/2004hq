@@ -19,6 +19,7 @@ function getPageContent() {
 <ul>
   <li>Hidaze</li>
   <li>Hydrated</li>
+  <li>Ads</li>
 </ul>
 <hr>
 <h3>Change Log</h3>

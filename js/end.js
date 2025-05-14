@@ -62,3 +62,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   /* End check boxes section */
+  const modal = document.getElementById('imgModal');
+const modalImg = document.getElementById('modalImage');
+const closeBtn = document.getElementById('closeModal');
+
+document.body.addEventListener('click', e => {
+    if (!e.target.matches('.image-link')) return;
+    e.preventDefault();
+    const url = e.target.dataset.image;
+    if (!url) return;
+    modalImg.src = url;
+    modal.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    modalImg.src = '';
+});
+modal.addEventListener('click', e => {
+    if (e.target === modal) {
+    modal.style.display = 'none';
+    modalImg.src = '';
+    }
+});
