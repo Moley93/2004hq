@@ -14,337 +14,337 @@ function getGuideContent($guide) { return <<<HTML
 </a>
 <table class="calculators">
   <tr> 
-    <th width="190px">Coordinate:</th>
+    <th width="150px">Coordinate:</th>
     <th>Location:</th>
   </tr>
   <tr> 
-    <td>00 degrees 00 minutes North<br>
-      07 degrees 13 minutes West
+    <td>00 deg 00 min North<br>
+      07 deg 13 min West
     </td>
     <td>** Regicide area, Northeast of Tyras Camp (near the entrance to his camp, before the thick forest pass) past a stick trap, dig near the stone towards the back of the pond.</td>
   </tr>
   <tr> 
-    <td>00 degrees 05 minutes South<br>
-      01 degrees 13 minutes East
+    <td>00 deg 05 min South<br>
+      01 deg 13 min East
     </td>
     <td>East opposite the Observatory, West of Tree Gnome Village - Dig on the SouthEast 
       side of the Lonely Willow Tree</td>
   </tr>
   <tr>
-    <td>00 degrees 13 minutes South<br>
-      13 degrees 58 minutes East
+    <td>00 deg 13 min South<br>
+      13 deg 58 min East
     </td>
     <td>On Karamja between two small lakes, just past the mud path by the banana plantation.</td>
   </tr>
   <tr> 
-    <td>00 degrees 18 minutes South<br>
-      09 minutes 28 degrees East
+    <td>00 deg 18 min South<br>
+      09 min 28 deg East
     </td>
     <td>South-west of Brimhaven, two paces South of the Northwestern most gold rock</td>
   </tr>
   <tr> 
-    <td>00 degrees 30 mins North<br>
-      24 degrees 16 mins East
+    <td>00 deg 30 min North<br>
+      24 deg 16 min East
     </td>
     <td>Lumbridge swamps - From the shack to the Lost City, head North East until you see an open area with rocks on the ground, proceed to dig there</td>
   </tr>
   <tr> 
-    <td>00 degrees 31 mins South<br>
-      17 degrees 43 mins East
+    <td>00 deg 31 min South<br>
+      17 deg 43 min East
     </td>
     <td>South of the Church located South of Rimmington, West of Port Sarim - Near the entrance to the Ice Caves </td>
   </tr>
   <tr> 
-    <td>01 degrees 24 minutes North<br>
-      08 degrees 05 minutes West
+    <td>01 deg 24 min North<br>
+      08 deg 05 min West
     </td>
     <td>In Regicide area, go in the direction North of the tracker heading to the elves past the leaf trap, look for a path to the West of the leaf trap, there is a stick trap, South of the stick trap dig to the West of the first tree. The Saradomin wizard will appear, so be prepared!</td>
   </tr>
   <tr> 
-    <td>01 degrees 26 minutes North<br>
-      08 degrees 01 minutes East
+    <td>01 deg 26 min North<br>
+      08 deg 01 min East
     </td>
     <td>In the middle of the Moss Giant Island at its highest point, West of 
       Brimhaven - You will need agility to get there.</td>
   </tr>
   <tr> 
-    <td>01 degrees 35 mins South<br>
-      07degrees 28 mins East
+    <td>01 deg 35 min South<br>
+      07 deg 28 min East
     </td>
     <td>The Green Spider island East of Yanille </td>
   </tr>
   <tr> 
-    <td>02 degrees 46 mins North<br>
-      29 degrees 11 mins East
+    <td>02 deg 46 min North<br>
+      29 deg 11 min East
     </td>
     <td>Al Kharid obstacle Duel Arena. You must challenge a player and set it to obstacles. The place where to do could be described as, near the corner of an 'L' shaped wall with a vertical line attached to the bottom</td>
   </tr>
   <tr> 
-    <td>02 degrees 48 minutes North<br>
-      22 degrees 30 minutes East
+    <td>02 deg 48 min North<br>
+      22 deg 30 min East
     </td>
     <td>Behind Lumbridge Castle - On the path behind the spider hut</td>
   </tr>
   <tr> 
-    <td>02 degrees 50 minutes North<br>
-      06 degrees 20 minutes East
+    <td>02 deg 50 min North<br>
+      06 deg 20 min East
     </td>
     <td>South of Ardougne, North of the Necromancer - Dig by the NorthEast side 
       of the group of 3 willow trees</td>
   </tr>
   <tr> 
-    <td>03 degrees 45 minutes South<br>
-      22 degrees 45 minutes East
+    <td>03 deg 45 min South<br>
+      22 deg 45 min East
     </td>
     <td>** In the Bedabin Encampment, located in the Desert South of Al Kharid; digging spot is North of the small pond near the guarded tent. A Saradomin wizard will attack!</td>
   </tr>
   <tr> 
-    <td>04 degrees 00 minutes South<br>
-      12 degrees 46 minutes East
+    <td>04 deg 00 min South<br>
+      12 deg 46 min East
     </td>
     <td>It's the Mining area North of Shilo Village. Middle of the spot. It's 
       *NOT* the gem rocks. Look at world map. </td>
   </tr>
   <tr> 
-    <td>04 degrees 03 minutes South<br>
-      03 degrees 11 minutes East
+    <td>04 deg 03 min South<br>
+      03 deg 11 min East
     </td>
     <td>In the Ogre city of Gu'Tanoth. You must have completed the Watchtower Quest to have access to this one</td>
   </tr>
   <tr>
-    <td>04 degrees 05 minutes South<br>
-      04 degrees 24 minutes East
+    <td>04 deg 05 min South<br>
+      04 deg 24 min East
     </td>
     <td>** On the Ogre island South of Yanille.<br>To gain access to it, you must go through the tunnel South of the ogre city.<br> The clue is on the far East side of the island, inbetween a spear wall and a grouping of three roots.<br>A Saradomin Wizard (Level 108) will spawn and attack you. Kill it and dig again.</td>
   </tr>
   <tr> 
-    <td>04 degrees 13 minutes North<br>
-      12 degrees 45 minutes East
+    <td>04 deg 13 min North<br>
+      12 deg 45 min East
     </td>
     <td>Crandor island area with the King scorpions - Go to the Northernmost part, 
       East of mines</td>
   </tr>
   <tr> 
-    <td>04 degrees 16 minutes South<br>
-      16 degrees 16 minutes East
+    <td>04 deg 16 min South<br>
+      16 deg 16 min East
     </td>
     <td>** Inside the Karamja Shipyard, Southernmost house.  Dig at the window between 2 bookshelves and a Level 108 Saradomin Wizard will attack!  (See the Grand Tree Quest Guide)</td>
   </tr>
   <tr> 
-    <td>05 degrees, 37 minutes North<br>
-      31 degrees, 15 minutes East
+    <td>05 deg 37 min North<br>
+      31 deg 15 min East
     </td>
     <td>Right behind the Nature Spirit's tree in Mort Myre swamp</td>
   </tr>
   <tr> 
-    <td>05 degrees 43 minutes North<br>
-      23 degrees 05 minutes East
+    <td>05 deg 43 min North<br>
+      23 deg 05 min East
     </td>
     <td>The Lumbridge cow pen by the river - North of the Windmill between Draynor 
       and Lumbridge</td>
   </tr>
   <tr> 
-    <td>05 degrees 50 minutes South<br>
-      10 degrees 05 minutes East
+    <td>05 deg 50 min South<br>
+      10 deg 05 min East
     </td>
     <td>On Cairn Isle, by the Saradomin wizard</td>
   </tr>
   <tr>
-    <td>06 degrees 11 minutes South<br>
-      15 degrees 07 minutes East
+    <td>06 deg 11 min South<br>
+      15 deg 07 min East
     </td>
     <td>East part of Karamja just North of the stepping stones you can balance on 
 which leads to a Jungle Forester</td>
   </tr>
   <tr> 
-    <td>06 degrees 31 minutes North<br>
-      01 degrees 46 minutes West
+    <td>06 deg 31 min North<br>
+      01 deg 46 min West
     </td>
     <td>At a grouping of 3 lakes Southwest of the Tree Gnome Stronghold - dig between 
       the 2 most Eastern lakes.</td>
   </tr>
   <tr>
-    <td>07 degrees 05 minutes North<br>
-      30 degrees 56 minutes East
+    <td>07 deg 05 min North<br>
+      30 deg 56 min East
     </td>
     <td>In Mort Myre swamp, substantially Northwest of the island where the Nature Spirit is; dig near a tree</td>
   </tr>
   <tr> 
-    <td>07 degrees 33 minutes North<br>
-      15 minutes 00 degrees East
+    <td>07 deg 33 min North<br>
+      15 min 00 deg East
     </td>
     <td>Lady of the Lake, SouthWest of the gate leading to Taverley - Dig on top 
       of some leaves</td>
   </tr>
 <tr> 
-    <td>07 degrees 43 minutes South<br>
-      12 minutes 26 degrees East
+    <td>07 deg 43 min South<br>
+      12 min 26 deg East
     </td>
     <td>** In the Kharazi Jungle. You must have started the Legends Quest in order to get in.</td>
   </tr>
 <tr> 
-    <td>08 degrees 03 minutes North<br>
-      31 minutes 16 degrees East
+    <td>08 deg 03 min North<br>
+      31 min 16 deg East
     </td>
     <td>In the Mort Myre swamp. Almost directly South of the gate leading into it. Head down, it was the second lake South of the gates. 
 </td>
   </tr>
 <tr> 
-    <td>08 degrees 05 minutes South<br>
-      15 degrees 56 minutes East
+    <td>08 deg 05 min South<br>
+      15 deg 56 min East
     </td>
     <td>** The Southeastern corner of Kharazi jungle (Legends Quest area), dig at the brown spot.</td>
   </tr>
 <tr> 
-    <td>08 degrees 26 minutes South<br>
-      10 minutes 28 degrees East
+    <td>08 deg 26 min South<br>
+      10 min 28 deg East
     </td>
     <td>** In the Kharazi Jungle, all the way South from the cave you did legends in, dig near a corpse, near the shore. 
 </td>
   </tr>
 <tr> 
-    <td>08 degrees 33 minutes North<br>
-      01 minutes 39 degrees West
+    <td>08 deg 33 min North<br>
+      01 min 39 deg West
     </td>
     <td>South-west corner of the Gnome Stronghold, cross a bridge to the terrorbird pen, exit the East-northeast gate of the pen and dig near the water.</td>
   </tr>
   <tr> 
-    <td>09 degrees 33 minutes North<br>
-      02 degrees 15 mins East
+    <td>09 deg 33 min North<br>
+      02 deg 15 min East
     </td>
     <td>Baxtorian Falls, Second island on the Waterfall - You will need to bring 
       a rope, Dig right before the dead tree on the edge of the waterfall</td>
   </tr>
   <tr> 
-    <td>11 degrees 03 minutes North<br>
-      31 degrees 20 minutes East
+    <td>11 deg 03 min North<br>
+      31 deg 20 min East
     </td>
     <td>It's Northwest of Canifis (the werewolf town) in the swamps, just above the river portal (must have completed Priest in Peril quest to get there). Go North to gate to new area, proceed slightly East. The spot is on the North side of the path, South of some large roots.</td>
   </tr>
   <tr>
-    <td>11 degrees 05 minutes North<br>
-      00 degrees 45 minutes West
+    <td>11 deg 05 min North<br>
+      00 deg 45 min West
     </td>
     <td>Between two swamps Northwest of the Grand Tree</td>
   </tr>
   <tr>
-    <td>11 degrees 41 minutes North<br>
-      14 degrees 58 minutes East
+    <td>11 deg 41 min North<br>
+      14 deg 58 min East
     </td>
     <td>An area surrounded by a fence next to the pub in Burthorpe</td>
   </tr>
   <tr>
-   <td>16 degrees 03 minutes North<br>
-      14 degrees 07 minutes East
+   <td>16 deg 03 min North<br>
+      14 deg 07 min East
     </td>
     <td>Just above the entrance to Mad Eadgar's cave on Trollheim mountain</td>
   </tr>
   <tr> 
-    <td>16 degrees 07 minutes North<br>
-      22 degrees 45 minutes East
+    <td>16 deg 07 min North<br>
+      22 deg 45 min East
     </td>
     <td>* In the Graveyard of Shadows in the level 20 wilderness - Starting from 
       the East entrance, follow the curly road until you see a dead tree right 
       next to it. Dig directly North of it to find the casket. </td>
   </tr>
   <tr> 
-    <td>16 degrees 31 minutes North<br>
-      12 degrees 54 minutes East
+    <td>16 deg 31 min North<br>
+      12 deg 54 min East
     </td>
     <td>** Northern part of Troll Stronghold, 3 steps West of Mushroom the sleeping troll. A Saradomin wizard will attack!</td>
   </tr>
   <tr> 
-    <td>16 degrees 43 minutes North<br>
-      19 degrees 13 minutes East
+    <td>16 deg 43 min North<br>
+      19 deg 13 min East
     </td>
     <td>* At the Bandits Camp in the level 22 wilderness - Through the house and 
       outside with the rats, in the corner by the lake, as much East as possible, in the broken wall. </td>
   </tr>
   <tr> 
-    <td>18 degrees 50 minutes North<br>
-      20 degrees 26 minutes East
+    <td>18 deg 50 min North<br>
+      20 deg 26 min East
     </td>
     <td>* Just West of the Easternmost rocks of Hobgoblin Mine in Wilderness.</td>
   </tr>
   <tr> 
-    <td>19 degrees 00 min North<br>
-      27 degrees 13 min East
+    <td>19 deg 00 min North<br>
+      27 deg 13 min East
     </td>
     <td>* The steel dagger spawn in the Black Knight area (South from Demonic 
       Ruins). Pick up the dagger and dig. </td>
   </tr>
   <tr> 
-    <td>19 degrees 43 minutes North<br>
-      25 degrees 07 minutes East
+    <td>19 deg 43 min North<br>
+      25 deg 07 min East
     </td>
     <td>* The Chaos Dwarf area in the level 34 wilderness - Go to the Big Bone 
       respawn. From that point, go directly North until you see some chaos dwarves 
       and rocks. You have to dig exactly in the middle of the 4 large, white rocks. </td>
   </tr>
   <tr> 
-    <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2005north.png">20 degrees 05 minutes North<br>
-      21 degrees 52 minutes East</a>
+    <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2005north.png">20 deg 05 min North<br>
+      21 deg 52 min East</a>
     </td>
     <td>* Near the plant with the Moss Giants in the level 36 wilderness, West 
       of the Red Dragon island.</td>
   </tr>
   <tr> 
-    <td>20 degrees 33 minutes North<br>
-      15 degrees 48 minutes East
+    <td>20 deg 33 min North<br>
+      15 deg 48 min East
     </td>
     <td>* Just South of the Zamorak Altar in the level 38 wilderness. Dig at the West-southwest corner of the building. </td>
   </tr>
   <tr> 
-    <td>21 degrees 24 minutes North<br>
-      17 degrees 54 minutes East
+    <td>21 deg 24 min North<br>
+      17 deg 54 min East
     </td>
     <td>* The caged Lesser Demon cage in the level 41 wilderness.</td>
   </tr>
   <tr> 
-    <td>22 degrees 35 minutes North<br>
-      19 degrees 18 minutes East
+    <td>22 deg 35 min North<br>
+      19 deg 18 min East
     </td>
     <td>* Between the rune rocks in level 46 Wilderness, North of the Lava Maze.</td>
   </tr>
   <tr> 
-    <td>22 degrees 45 minutes North<br>
-      26 degrees 33 minutes East
+    <td>22 deg 45 min North<br>
+      26 deg 33 min East
     </td>
     <td>* At the Greater Demon ruins in the level 47 wilderness - You have to 
       dig on the most Northeast pentagram (the red star on the ground).</td>
   </tr>
 <tr> 
-    <td>24 degrees 24 minutes North<br>
-      26 degrees 24 minutes East
+    <td>24 deg 24 min North<br>
+      26 deg 24 min East
     </td>
     <td>Level 50 Wilderness at the Rogues Castle. On the inside, the most Northeast point.</td>
   </tr>
   <tr> 
-    <td>24 Degrees 56 Minutes North<br>
-      22 Degrees 28 Minutes East
+    <td>24 deg 56 min North<br>
+      22 deg 28 min East
     </td>
     <td>* North of the Deserted Keep in the Wilderness - Use the Ardougne lever 
       to teleport to deep Wilderness, go North and slash the web. You should see 
       3 small craters in front of you. Dig between the West and middle crater.</td>
   </tr>
   <tr> 
-    <td>24 degrees 58 minutes North<br>
-      18 degrees 43 minutes East
+    <td>24 deg 58 min North<br>
+      18 deg 43 min East
     </td>
     <td>* Behind the Pirates house in the level 56 wilderness - You have to dig 
       directly North of the Pirate's bar - the casket is near the Northwestern 
       corner.</td>
   </tr>
   <tr> 
-     <td>25 degrees 03 minutes North<br>
-      17 degrees 05 minutes East
+     <td>25 deg 03 min North<br>
+      17 deg 05 min East
     </td>
     <td>* West of Agility Camp in the Wilderness - all the way North, close to 
       agility fence. </td>
   </tr>
   <tr> 
-     <td>25 Degrees 03 Minutes North<br>
-       23 Degrees 24 Minutes East
+     <td>25 deg 03 min North<br>
+       23 deg 24 min East
       </td>
     <td>* Northeast of Mage Arena, North of the building with the magic axes 1 space West of the back door. </td>
   </tr>
