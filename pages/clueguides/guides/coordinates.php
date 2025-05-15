@@ -1,17 +1,15 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Treasure Trails Guide</h2>
-<p>
-  - In case anyone needs help where to get these items.<br>
-  - These are needed for the clues that relate to coordinates.<br>
- <br>
-  Where to get the items needed to do a Coordinate Clue:<br>
-  Sextant - Murphy the trawler sailor in Port Khazard<br>
-  Watch - Monk in the Clock Tower<br>
-  Navigation Chart - Observatory  (Speak to one of the men.)<br>
- <br>
- <br>
-</a>
+<p>When you get a co-ordinate clue, it will say something like "04 degrees, 13 minutes North, 12 degrees, 45 minutes East".
+<br><br>
+<b>Note:</b> When you follow a clue with co-ordinates, you will need to have the sextant, watch, chart and clue in your inventory to dig up the treasure.
+<br><br>
+In case anyone needs help where to get these items<br>
+Sextant - Murphy the trawler sailor in Port Khazard<br>
+Watch - Monk in the Clock Tower<br>
+Navigation Chart - Observatory  (Speak to one of the men.)<br>
+<br>
 <table class="calculators">
   <tr> 
     <th width="150px">Coordinate:</th>

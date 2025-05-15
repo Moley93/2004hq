@@ -1,7 +1,7 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Treasure Trails Guide</h2>
-<p>
+<p>Riddles are primarily to test your Runescape knowledge. If you remember most of the stuff you learned through quests and other information, you shouldn't have a problem with these. However, since there's one or two things that might have slipped your mind, here's a list of the current riddles. They are in alphabetical order after the first letter in the riddle (example: "My name is..." is under M).
 <table class="calculators">
   <tr> 
     <th>Clue / Riddle</th>

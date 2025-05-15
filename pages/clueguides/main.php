@@ -3,12 +3,12 @@ $meta_data['title'] = 'Treasure Trails';
 $meta_data['og:title'] = $meta_data['title'];
 $meta_data['og:image'] = 'img/sextant.png';
 $guideLookup = [
-  'coordinates' => 'Coordinates',
-  'speakto' => 'Speak To...',
   'anagrams' => 'Anagrams',
-  'testknowledge' => 'Test your Knowledge',
-  'cluesriddles' => 'Normal/Riddles',
+  'challenges' => 'Challenges',
+  'coordinates' => 'Coordinates',
   'maps' => 'Maps & Puzzles',
+  'cluesriddles' => 'Normal/Riddles',
+  'speakto' => 'Speak To...',
 ];
 function getGuideList($guideList) {
   $output = '';
@@ -69,7 +69,7 @@ realizing that you forgotten to bring your watch or chart? Never fear, with this
 <br>
 <h3>Things to bring</h3>
 Every time you go treasure hunting, you must<br>
-ALWAYS bring the following to save loads of time:
+<b>ALWAYS</b> bring the following to save loads of time:
 <ul>
     <li>Watch</li>
     <li>Sextant</li>

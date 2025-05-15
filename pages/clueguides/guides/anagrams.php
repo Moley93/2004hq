@@ -1,43 +1,49 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
 <h2>$guide Treasure Trails Guide</h2>
-<p>
+<p>An anagram is a word where the letters of the original word are rearranged to make a new word. If you get an anagram clue, it will say so on it. There aren't many anagrams in treasure trails, and they aren't hard to figure out. Here's the list:
 <table class="calculators">
   <tr> 
     <th>Anagram:</th>
     <th>Person:</th>
     <th>Town/Location:</th>
   </tr>
-<tr> 
-<td>A Bas</td>
+<!--
+  <tr>
+    <td>A Bas</td>
     <td>Saba</td>
     <td>A cave in Burthorpe </td>
   </tr>
-<tr> 
+  <tr> 
     <td>Aha Jar</td>
     <td> Jaraah</td>
     <td>Al Kharid duel arena hospital</td>
   </tr>
-<tr> 
-   <td>Are Col</td>
+-->
+  <tr> 
+    <td>Are Col</td>
     <td>Oracle</td>
     <td>Ice Mountain </td>
   </tr>
-<tr> 
+<!--
+  <tr> 
     <td>Bail Trims</td>
     <td> Brimstail</td>
     <td>Southwest corner of the Gnome Stronghold in a "hollowed" cave</td>
   </tr>
+-->
   <tr> 
     <td>Bar Bell Seek</td>
     <td> Kebab Seller</td>
     <td>Al Kharid</td>
   </tr>
+<!--
   <tr> 
     <td>Citric Cellar </td>
     <td>Henkel Funch </td>
     <td>Grand Tree </td>
   </tr>
+-->
   <tr> 
     <td>Eek Zero Op</td>
     <td>Zookeeper</td>
@@ -58,7 +64,8 @@ function getGuideContent($guide) { return <<<HTML
     <td>Luthas</td>
     <td>Karamja - Inside the Banana Plantation</td>
   </tr>
-<tr> 
+<!--
+  <tr> 
     <td>Icy Fe</td>
     <td>Fycie</td>
     <td>South of Yanille, Feldip Hills area, in a cave north of Rantz</td>
@@ -68,6 +75,7 @@ function getGuideContent($guide) { return <<<HTML
     <td>Femi the gnome </td>
     <td>By the big gate at the entrance to the Gnome Stronghold</td>
   </tr>
+-->
   <tr> 
     <td>Ok Co</td>
     <td>Cook</td>
