@@ -1,6 +1,6 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
-<h2>$guide Treasure Trails Guide</h2>
+<h2>Treasure Trails $guide Guide</h2>
 <h3>Maps</h3>
 <p>Sometimes you might get a clue scroll, and when you open it up to read it, all you see is a map. Your task is now to find out where that place is, and then, like the pirates always do, take the steps shown on your map, and dig where X marks the spot ;) To dig, you'll need your trusty spade. Here's a list of the different maps:
 <table class="calculators" width="100%">

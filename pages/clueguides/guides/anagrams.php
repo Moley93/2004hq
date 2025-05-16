@@ -1,6 +1,6 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
-<h2>$guide Treasure Trails Guide</h2>
+<h2>Treasure Trails $guide Guide</h2>
 <p>An anagram is a word where the letters of the original word are rearranged to make a new word. If you get an anagram clue, it will say so on it. There aren't many anagrams in treasure trails, and they aren't hard to figure out. Here's the list:
 <table class="calculators">
   <tr> 

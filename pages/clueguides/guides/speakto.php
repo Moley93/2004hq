@@ -1,6 +1,6 @@
 <?php
 function getGuideContent($guide) { return <<<HTML
-<h2>$guide Treasure Trails Guide</h2>
+<h2>Treasure Trails $guide Guide</h2>
 <p>In treasure trails you will some times get a clue saying something like "Speak to ....". This is a little list of the different NPC's that we find on treasure trails.
 <table class="calculators">
   <tr> 
