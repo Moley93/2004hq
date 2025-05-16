@@ -8,19 +8,36 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-<h3>Site by Moley, Eilert, Halogod, & Collin</h3>
-<h4>Special thanks to our additional Contributors:</h4>
-<ul>
-  <li>Sheeva</li>
-  <li>Akg</li>
-</ul>
-<hr>
-<h4>Bug Hunter's Club:</h4>
-<ul>
-  <li>Hidaze</li>
-  <li>Hydrated</li>
-  <li>Ads</li>
-</ul>
+<table class="calculators">
+  <tr>
+    <th colspan=2>2004HQ is brought to you by</th>
+  </tr>
+  <tr>
+      <td>Moley</td>
+      <td>Eilert</td>
+  </tr>
+  <tr>
+    <td>Halogod</td>
+    <td>Collin</td>
+  </tr>
+  <tr>
+    <th colspan=2>Special thanks to our additional Contributors:</th>
+  </tr>
+  <tr>
+    <td>Sheeva</td>
+    <td>Akg</td>
+  <tr>
+    <th colspan=2>Bug Hunter's Club:</th>
+  </tr>
+  <tr>
+    <td>Hidaze</td>
+    <td>Hydrated</td>
+  </tr>
+  <tr>
+    <td>Ads</td>
+    <td>Meltii</td>
+  </tr>
+</table>
 <hr>
 <h3>Change Log</h3>
 <div id="log-table-container">
