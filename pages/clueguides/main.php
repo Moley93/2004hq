@@ -7,7 +7,7 @@ $guideLookup = [
   'challenges' => 'Challenges',
   'coordinates' => 'Coordinates',
   'maps' => 'Maps & Puzzles',
-  'cluesriddles' => 'Normal/Riddles',
+  'cluesriddles' => 'Clues/Riddles',
   'speakto' => 'Speak To...',
 ];
 function getGuideList($guideList) {
