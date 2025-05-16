@@ -110,7 +110,25 @@ function getPageContent() {
             exit;
         }
     }
-    echo '<hr><h3>Required Skills for Members\' Quests</h3><img src="img/p2pquestrequirements.png"></img><br><br><br>';
+    echo '<br><hr>
+    <table class="calculators">
+        <tr>
+            <th colspan=2>Skill Requirements</th>
+        </tr>
+        <tr>
+            <th>Required for all<br>Free Quests</th>
+            <th>Required for all<br>Member\'s Quests</th>
+        </tr>
+        <tr>
+            <td>
+                <canvas data-width="220" data-questreqs="free"></canvas>
+            </td>
+            <td>
+                <canvas data-width="220" data-questreqs="members"></canvas>
+            </td>
+        </tr>
+    </table>
+    <script src="js/statcanvas.js"></script>';
     return ob_get_clean();
 }
 
