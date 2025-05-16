@@ -110,7 +110,7 @@ function getPageContent() {
             exit;
         }
     }
-
+    echo '<hr><h3>Required Skills for Members\' Quests</h3><img src="img/p2pquestrequirements.png"></img><br><br><br>';
     return ob_get_clean();
 }
 
