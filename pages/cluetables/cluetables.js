@@ -62,7 +62,7 @@ async function loadDropTables() {
         const rateTd = document.createElement("td");
         rateTd.textContent = drop.drop_rate;
 
-        if (drop.is_rare) {
+        if (drop.is_rare === 1) {
             imgTd.classList.add("rare");
             qtyTd.classList.add("rare");
             rateTd.classList.add("rare");
