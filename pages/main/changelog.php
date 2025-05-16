@@ -81,6 +81,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>09/05/2025</td><td>Updated website theme</td></tr>
     <tr><td>02/05/2025</td><td>Updated P2P quest guides with checkboxes</td></tr>
     <tr><td>01/05/2025</td><td>Added item database</td></tr>
     <tr><td>26/04/2025</td><td>Updated sprite tooltip to show high alch values</td></tr>
