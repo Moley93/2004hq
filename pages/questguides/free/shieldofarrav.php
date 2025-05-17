@@ -35,7 +35,7 @@ Blackarm Gang:
 <br><br>
 <div data-progress>If you chose Black Arm, then Katrine will tell you to steal some Phoenix crossbows. This is where your friend comes in.</div>
 <br><br>
-<div data-progress>Have your friend go to the Blue Moon Inn and kill Johnny the Beard (level 2). Retrieve the scroll and have him go to the Phoenix Gang. Talk to the gang leader, who is located in a small house marked by a dungeon icon on your map.</div>
+<div data-progress>Have your friend go to the Blue Moon Inn and kill Johnny the Beard (level 5). Retrieve the scroll and have him go to the Phoenix Gang. Talk to the gang leader, who is located in a small house marked by a dungeon icon on your map.</div>
 <br><br>
 <div data-progress>The Phoenix Gang leader will give you a key to the gang's weapon store (located right beside the entrance). Have your friend retrieve some crossbows from the armory and give them to you. Also, before you leave, make sure your friend grabs the other part of the shield for you.</div>
 <br><br>
@@ -47,7 +47,7 @@ Blackarm Gang:
 <br><br>
 Phoenix Gang:
 <br><br>
-<div data-progress>To start the Phoenix Gang path, talk to Baerek. He will tell you about the quest. Before going to the gang, go to the Blue Moon Inn and kill Johnny the Beard (level 2).</div>
+<div data-progress>To start the Phoenix Gang path, talk to Baerek. He will tell you about the quest. Before going to the gang, go to the Blue Moon Inn and kill Johnny the Beard (level 5).</div>
 <br><br>
 <div data-progress>After killing Johnny, take the scroll he drops and go to the Phoenix Gang's house. It is marked by a large dungeon icon on your map, in the back of Varrock near Aubury.</div>
 <br><br>
