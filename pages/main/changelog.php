@@ -13,7 +13,7 @@ function getPageContent() {
     <th colspan=2>2004HQ is brought to you by</th>
   </tr>
   <tr>
-      <td>Moley</td>
+      <td width="50%">Moley</td>
       <td>Eilert</td>
   </tr>
   <tr>
@@ -36,6 +36,9 @@ function getPageContent() {
   <tr>
     <td>Ads</td>
     <td>Meltii</td>
+  </tr>
+  <tr>
+    <td>Alprox666</td>
   </tr>
 </table>
 <hr>
