@@ -1,6 +1,6 @@
 // itemlist.js
 (async function() {
-  // 1) load & filter & tag items
+  // load & filter & tag items
   const raw = await fetch('js/itemlist.json').then(r => r.json());
   const items = raw
     .filter(i => i.name && !i.debugname.startsWith('cert_'))
@@ -12,12 +12,25 @@
     })
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  // 2) grab inputs & container
+  // grab inputs & container
   const search1 = document.getElementById('search1');
   const search2 = document.getElementById('search2');
   const container = document.getElementById('item-tables-container');
 
-  // 3) wrap inputs in suggestion containers
+  // get url params
+  const initParams = new URLSearchParams(window.location.search);
+  if (initParams.has('item')) {
+    const dn = initParams.get('item');
+    const found = items.find(i => i.debugname === dn);
+    if (found) search1.value = `${found.name} (${found.id})`;
+  }
+  if (initParams.has('item2')) {
+    const dn2 = initParams.get('item2');
+    const found2 = items.find(i => i.debugname === dn2);
+    if (found2) search2.value = `${found2.name} (${found2.id})`;
+  }
+
+  // wrap inputs in suggestion containers
   [search1, search2].forEach(input => {
     const wrapper = document.createElement('div');
     wrapper.className = 'search-wrapper';
@@ -33,7 +46,7 @@
     input.addEventListener('blur', () => setTimeout(() => input.suggBox.innerHTML = '', 150));
   });
 
-  // 4) handle typing & show suggestions
+  // handle typing & show suggestions
   function onType(e) {
     const val = e.target.value.toLowerCase().trim();
     const box = e.target.suggBox;
@@ -64,13 +77,13 @@
     });
   }
 
-  // 5) parse selected ID
+  // parse selected ID
   function parseSelectedId(str) {
     const m = str.match(/\((\d+)\)$/);
     return m ? parseInt(m[1], 10) : null;
   }
 
-  // 6) prettify weight
+  // prettify weight
   function formatWeight(g) {
     if (g >= 100) {
       const s = (g / 1000).toFixed(2).replace(/\.?0+$/, '');
@@ -79,7 +92,7 @@
     return `${g} grams`;
   }
 
-  // 7) slot lookup
+  // slot lookup
   const slotNames = {
     hat: 'Head', torso: 'Body', legs: 'Legs',
     hands: 'Gloves', feet: 'Boots', ring: 'Ring',
@@ -87,14 +100,14 @@
     front: 'Amulet', back: 'Cape'
   };
 
-  // 8) helper to insert combined cell
+  // helper to insert combined cell
   function addCombined(row, label, value, colspan = 2) {
     const cell = row.insertCell();
     cell.colSpan = colspan;
     cell.textContent = `${label}: ${value}`;
   }
 
-  // 9) build item detail table
+  // build item detail table
   function renderTable(item) {
     const table = document.createElement('table');
     table.className = 'calculators';
@@ -120,7 +133,10 @@
     canvasIcon.dataset.size = size;
     canvasIcon.dataset.showLabel = 'true';
     thIcon.appendChild(canvasIcon);
-    if (typeof renderSpriteToCanvas === 'function') renderSpriteToCanvas(item.debugname, canvasIcon);
+    if (window.spriteLoaderReady && typeof renderSpriteToCanvas === 'function') {
+      renderSpriteToCanvas(item.debugname, canvasIcon);
+    }
+    //if (typeof renderSpriteToCanvas === 'function') renderSpriteToCanvas(item.debugname, canvasIcon);
     row.appendChild(thIcon);
     if (item.dummyitem) { return table; }
 
@@ -221,10 +237,12 @@
       br.insertCell().textContent = `Prayer: ${equip.prayerbonus ?? '-'}`;
 
       // attack speed row
-      br = bonusTable.insertRow();
-      const speedCell = br.insertCell();
-      speedCell.colSpan = 2;
-      speedCell.textContent = `Attack speed: ${equip.attackrate+` ticks` ?? `4 ticks`}`;
+      if (typeof equip.attackrate !== 'undefined') {
+        br = bonusTable.insertRow();
+        const speedCell = br.insertCell();
+        speedCell.colSpan = 2;
+        speedCell.textContent = `Attack speed: ${equip.attackrate+` ticks` ?? `4 ticks`}`;
+      }
 
       cell.appendChild(bonusTable);
     }
@@ -232,10 +250,11 @@
     return table;
   }
 
-  // 10) display logic
+  // display logic
   function updateDisplay() {
     container.innerHTML = '';
     container.classList.remove('compare-mode');
+
     const v1 = search1.value.trim();
     const v2 = search2.value.trim();
     const id1 = parseSelectedId(v1);
@@ -244,16 +263,29 @@
     const it2 = id2 != null ? items.find(i => i.id === id2) : null;
 
     if (it1) container.appendChild(renderTable(it1));
-    else if (v1) container.innerHTML = `<p style=\"color:red\">Item “${v1}” not found.</p>`;
+    else if (v1) container.innerHTML = `<p style="color:red">Item “${v1}” not found.</p>`;
 
     if (it2) {
       container.classList.add('compare-mode');
       container.appendChild(document.createElement('hr'));
       container.appendChild(renderTable(it2));
-    } else if (v2) container.innerHTML += `<p style=\"color:red\">Item “${v2}” not found.</p>`;
+    } else if (v2) {
+      container.innerHTML += `<p style="color:red">Item “${v2}” not found.</p>`;
+    }
+
+    // update URL params
+    const newParams = new URLSearchParams(window.location.search);
+    if (it1) newParams.set('item', it1.debugname);
+    else newParams.delete('item');
+    if (it2) newParams.set('item2', it2.debugname);
+    else newParams.delete('item2');
+
+    const query = newParams.toString();
+    const newUrl = window.location.pathname + (query ? `?${query}` : '');
+    history.replaceState(null, '', newUrl);
   }
 
-  // 11) event wires & initial render
+  // event wires & initial render
   [search1, search2].forEach(el => el.addEventListener('change', updateDisplay));
   updateDisplay();
 })();
