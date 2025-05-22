@@ -47,7 +47,7 @@ function getGuideContent($guide) { return <<<HTML
   <tr> 
     <td>Eek Zero Op</td>
     <td>Zookeeper</td>
-    <td>East Ardougne - SouthWest corner on the East side of river</td>
+    <td>East Ardougne - Southwest corner on the east side of river</td>
   </tr>
   <tr> 
     <td>El Ow </td>
