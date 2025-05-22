@@ -173,7 +173,7 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0005south.png">00 deg 05 min South<br>
       01 deg 13 min East</a>
     </td>
-    <td>East opposite the Observatory, West of Tree Gnome Village - Dig on the SouthEast 
+    <td>East opposite the Observatory, West of Tree Gnome Village - Dig on the South West 
       side of the Lonely Willow Tree</td>
   </tr>
   <tr>
@@ -239,8 +239,8 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0631north.png">06 deg 31 min North<br>
       01 deg 46 min West</a>
     </td>
-    <td>At a grouping of 3 lakes Southwest of the Tree Gnome Stronghold - dig between 
-      the 2 most Eastern lakes.</td>
+    <td>At a grouping of 3 ponds Southwest of the Tree Gnome Stronghold - dig between 
+      the 2 most Eastern ponds.</td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/0733north.png">07 deg 33 min North<br>
@@ -278,22 +278,22 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/1643north.png">16 deg 43 min North<br>
       19 deg 13 min East</a>
     </td>
-    <td>* At the Bandits Camp in the level 22 wilderness - Through the house and 
+    <td>* At the Bandits Camp in the level 23 wilderness - Through the house and 
       outside with the rats, in the corner by the lake, as much East as possible, in the broken wall. </td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/1900north.png">19 deg 00 min North<br>
       27 deg 13 min East</a>
     </td>
-    <td>* The steel dagger spawn in the Black Knight area (South from Demonic Ruins). Pick up the dagger and dig. </td>
+    <td>* The steel dagger spawn in the Black Knight area (South from Demonic Ruins). To the west of the dagger. </td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/1943north.png">19 deg 43 min North<br>
       25 deg 07 min East</a>
     </td>
-    <td>* The Chaos Dwarf area in the level 34 wilderness - Go to the Big Bone 
+    <td>* The Chaos Dwarf area in the level 35 wilderness - Go to the Big Bone 
       respawn. From that point, go directly North until you see some chaos dwarves 
-      and rocks. You have to dig exactly in the middle of the 4 large, white rocks. </td>
+      and rocks. You have to dig exactly in the middle of the large, white rocks. </td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2005north.png">20 deg 05 min North<br>
@@ -333,26 +333,26 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
     </td>
     <td>* North of the Deserted Keep in the Wilderness - Use the Ardougne lever 
       to teleport to deep Wilderness, go North and slash the web. You should see 
-      3 small craters in front of you. Dig between the West and middle crater.</td>
+      3 small craters in front of you. Dig between the east and middle crater.</td>
   </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2458north.jpg">24 deg 58 min North<br>
       18 deg 43 min East</a>
     </td>
-    <td>* Behind the Pirates house in the level 56 wilderness - You have to dig 
+    <td>* Behind the Pirates hut  in the level 56 wilderness - You have to dig 
       directly North of the Pirate's bar - the casket is near the Northwestern corner.</td>
   </tr>
   <tr>
      <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2503north1.png">25 deg 03 min North<br>
       17 deg 05 min East</a>
     </td>
-    <td>* West of Agility Camp in the Wilderness - all the way North, close to agility fence. </td>
+    <td>* West of Agility Camp in the Wilderness - all the way North, close to agility course fence. </td>
   </tr>
   <tr>
      <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/2503north2.png">25 deg 03 min North<br>
        23 deg 24 min East</a>
       </td>
-    <td>* Northeast of Mage Arena, North of the building with the magic axes 1 space West of the back door. </td>
+    <td>* Northeast of Mage Arena, North of the building with the magic axes 2 spaces West of the back door. </td>
   </tr>
 </table><br>
 * For Wilderness Clues: A Zamorak wizard will appear. Kill him and then dig again to get a casket.
