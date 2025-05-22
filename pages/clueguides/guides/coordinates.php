@@ -256,6 +256,16 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
     <td>Baxtorian Falls, Second island on the Waterfall - You will need to bring 
       a rope, Dig right before the dead tree on the edge of the waterfall</td>
   </tr>
+</table>
+<hr>
+<table class="calculators">
+  <tr>
+    <th colspan="2">Hard Clues</th>
+  </tr>
+  <tr>
+    <th width="150px">Coordinate:</th>
+    <th>Location:</th>
+  </tr>
   <tr>
     <td><a href="#" class="image-link" data-image="img/clue_guides/coordinates/1607north.png">16 deg 07 min North<br>
       22 deg 45 min East</a>
@@ -344,8 +354,7 @@ Navigation Chart - Observatory  (Speak to one of the men.)<br>
       </td>
     <td>* Northeast of Mage Arena, North of the building with the magic axes 1 space West of the back door. </td>
   </tr>
-</table><br><br>
-* For Wilderness Clues: A Zamorak wizard will appear. Kill him and then dig again to get a casket<br><br>
-** For level 3 Clues: A Saradomin wizard will appear. Same as above.
+</table><br>
+* For Wilderness Clues: A Zamorak wizard will appear. Kill him and then dig again to get a casket.
 </p>
 HTML; }
