@@ -69,8 +69,8 @@ function getPageContent(): string {
 function generateCalculatorLinks(): string {
     global $siteOptStyle;
     $miscCalculators = [
-        'combat_xp',
         'combat_level',
+        'combat_xp',
         'high_alch',
         'max_hit',
         'prayer_duration',
@@ -90,11 +90,11 @@ function generateCalculatorLinks(): string {
 
     return <<<HTML
         <table width="100%" cellpadding="8" cellspacing="8" class="calculators">
-        <thead>
-                    <tr>
-                        <th>Skill Calculators</th>
-                    </tr>
-                </thead>
+            <thead>
+                <tr>
+                    <th>Skill Calculators</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr>
                     <td>
@@ -105,11 +105,19 @@ function generateCalculatorLinks(): string {
                 </tr>
             </tbody>
             <thead>
-                    <tr>
-                        <th>Misc Calculators</th>
-                    </tr>
-                </thead>
-            <tbody>$miscRows</tbody>
+                <tr>
+                    <th>Misc Calculators</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            $miscRows
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     HTML;
 }
