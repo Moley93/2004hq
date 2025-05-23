@@ -383,11 +383,8 @@ async function fetchXP() {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
 
-    const apiUrl = `https://2004.lostcity.rs/api/hiscores/player/${encodeURIComponent(username)}`;
-    const corsProxy = "https://api.allorigins.win/raw?url=";
-
     try {
-        const response = await fetch(corsProxy + apiUrl);
+        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         if (!response.ok) throw new Error("Failed to fetch data.");
         const data = await response.json();
 

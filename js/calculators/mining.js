@@ -2,12 +2,9 @@ async function fetchMiningXP() {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
 
-    const apiUrl = `https://2004.lostcity.rs/api/hiscores/player/${encodeURIComponent(username)}`;
-    const corsProxy = "https://api.allorigins.win/raw?url=";
-
     try {
-        // Fetch data from the API through the CORS proxy
-        const response = await fetch(corsProxy + apiUrl);
+        // Fetch data from the API
+        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
         // Check if the request was successful
         if (!response.ok) throw new Error("Failed to fetch data.");
@@ -20,6 +17,8 @@ async function fetchMiningXP() {
         if (miningData) {
             const miningXP = Math.floor(miningData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = miningXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(miningXP) + 1; // Set target level to next level
+            calculateOres();
         } else {
             alert("Mining XP not found."); // Show alert if no data is found
         }
@@ -61,10 +60,11 @@ function calculateOres() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
-    const tableBody = document.querySelector("#resultsTable tbody");
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
 
     // Clear previous results
+    const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = ""; 
 
     // Generate table

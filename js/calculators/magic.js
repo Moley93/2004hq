@@ -2,11 +2,9 @@ async function fetchMagicXP() {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
 
-    const apiUrl = `pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`;
-
     try {
-        // Fetch data from the API through the CORS proxy
-        const response = await fetch(apiUrl);
+        // Fetch data from the API
+        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
         // Check if the request was successful
         if (!response.ok) throw new Error("Failed to fetch data.");

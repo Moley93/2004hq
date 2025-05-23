@@ -2,12 +2,9 @@ async function fetchWoodcuttingXP() {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
 
-    const apiUrl = `https://2004.lostcity.rs/api/hiscores/player/${encodeURIComponent(username)}`;
-    const corsProxy = "https://api.allorigins.win/raw?url=";
-
     try {
         // Fetch data from the API through the CORS proxy
-        const response = await fetch(corsProxy + apiUrl);
+        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
         // Check if the request was successful
         if (!response.ok) throw new Error("Failed to fetch data.");
