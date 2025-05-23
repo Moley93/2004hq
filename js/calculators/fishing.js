@@ -3,10 +3,9 @@ async function fetchFishingXP() {
     if (!username) return alert("Please enter a username.");
 
     try {
-        // Fetch data from the API through the CORS proxy
+        // Fetch data from the API
         const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
-        
-        // Check if the request was successful
+
         if (!response.ok) throw new Error("Failed to fetch data.");
 
         const data = await response.json(); // Convert response to JSON
@@ -17,6 +16,9 @@ async function fetchFishingXP() {
         if (fishingData) {
             const fishingXP = Math.floor(fishingData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = fishingXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(fishingXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(fishingXP) + 1; // Set min level to current level + 1
+            calculateFish();
         } else {
             alert("Fishing XP not found."); // Show alert if no data is found
         }
@@ -62,10 +64,11 @@ function calculateFish() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
-    const tableBody = document.querySelector("#resultsTable tbody");
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
 
     // Clear previous results
+    const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
 
     // Generate table
