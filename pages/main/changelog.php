@@ -8,39 +8,45 @@ function getPageContent() {
     $meta_data['og:image'] = 'img/sword.png';
 
     return <<<HTML
-<table class="calculators">
-  <tr>
-    <th colspan=2>2004HQ is brought to you by</th>
-  </tr>
-  <tr>
+<div style="display: inline-block; border: 1px solid #ccc;">
+  <table width="100%" class="calculators">
+    <tr>
+      <th colspan="3">2004HQ is brought to you by</th>
+    </tr>
+    <tr>
       <td width="50%">Moley</td>
       <td>Eilert</td>
-  </tr>
-  <tr>
-    <td>Halogod</td>
-    <td>Collin</td>
-  </tr>
-  <tr>
-    <th colspan=2>Special thanks to our additional Contributors:</th>
-  </tr>
-  <tr>
-    <td>Sheeva</td>
-    <td>Akg</td>
-  <tr>
-    <th colspan=2>Bug Hunter's Club:</th>
-  </tr>
-  <tr>
-    <td>Hidaze</td>
-    <td>Hydrated</td>
-  </tr>
-  <tr>
-    <td>Ads</td>
-    <td>Meltii</td>
-  </tr>
-  <tr>
-    <td>Alprox666</td>
-  </tr>
-</table>
+    </tr>
+    <tr>
+      <td>Halogod</td>
+      <td>Collin</td>
+    </tr>
+  </table>
+  <table width="100%" class="calculators">
+    <tr>
+      <th colspan="3">Special thanks to our additional Contributors:</th>
+    </tr>
+    <tr>
+      <td width="50%">Sheeva</td>
+      <td>Akg</td>
+    </tr>
+  </table>
+  <table width="100%" class="calculators">
+    <tr>
+      <th colspan="3">Bug Hunter's Club:</th>
+    </tr>
+    <tr>
+      <td width="33.33%">Hidaze</td>
+      <td width="33.33%">Hydrated</td>
+      <td width="33.33%">Ads</td>
+    </tr>
+    <tr>
+      <td>Ads</td>
+      <td>Meltii</td>
+      <td>Alprox666</td>
+    </tr>
+  </table>
+</div>
 <hr>
 <h3>Change Log</h3>
 <div id="log-table-container">

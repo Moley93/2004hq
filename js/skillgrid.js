@@ -160,8 +160,8 @@ function renderOldSchoolTable(canvas) {
   const thMember = document.createElement("th");
   thMember.style.width = "50%";
 
-  thFree.textContent = page === "calculators" ? "F2P Skill Calculators" : "F2P Skill Guides";
-  thMember.textContent = page === "calculators" ? "Members Skill Calculators" : "Members Skill Guides";
+  thFree.textContent = page === "calculators" ? "F2P Skills" : "F2P Skill Guides";
+  thMember.textContent = page === "calculators" ? "Members Skills" : "Members Skill Guides";
 
   header.appendChild(thFree);
   header.appendChild(thMember);
