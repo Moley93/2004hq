@@ -6,7 +6,6 @@ async function fetchAgilityXP() {
         // Fetch data from the API
         const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
-        // Check if the request was successful
         if (!response.ok) throw new Error("Failed to fetch data.");
 
         const data = await response.json(); // Convert response to JSON
@@ -17,6 +16,9 @@ async function fetchAgilityXP() {
         if (agilityData) {
             const agilityXP = Math.floor(agilityData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = agilityXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(agilityXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(agilityXP) + 1; // Set min level to current level + 1
+            calculateLaps();
         } else {
             alert("Agility XP not found."); // Show alert if no data is found
         }
@@ -57,8 +59,8 @@ function calculateLaps() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
-    const tableBody = document.querySelector("#courseTable tbody");
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
 
     // Get both table bodies
     const courseTableBody = document.querySelector("#courseTable tbody");
