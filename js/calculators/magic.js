@@ -17,6 +17,9 @@ async function fetchMagicXP() {
         if (magicData) {
             const magicXP = Math.floor(magicData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = magicXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(magicXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(magicXP) + 1; // Set min level to current level + 1
+            calculateSpells();
         } else {
             alert("Magic XP not found."); // Show alert if no data is found
         }
@@ -96,14 +99,18 @@ function calculateSpells() {
     ];
     nonCombatspells.sort((a, b) => a.level - b.level);
     
+    // Update progress bar
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
+
+    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     const tableHead = document.querySelector("#resultsTable thead");
-    tableHead.innerHTML = ""; // Clear previous headers
-    tableBody.innerHTML = ""; // Clear previous rows
+    tableHead.innerHTML = "";
+    tableBody.innerHTML = "";
 
     const headerRow1 = document.createElement("tr");
     const bigHeader = document.createElement("th");
