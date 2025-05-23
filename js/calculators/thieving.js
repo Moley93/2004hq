@@ -19,6 +19,9 @@ async function fetchThievingXP() {
         if (thievingData) {
             const thievingXP = Math.floor(thievingData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = thievingXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(thievingXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(thievingXP) + 1; // Set min level to current level + 1
+            calculateThieving();
         } else {
             alert("Thieving XP not found."); // Show alert if no data is found
         }
