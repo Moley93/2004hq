@@ -281,5 +281,5 @@ function calculateSmithing() {
         }
     }
     
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

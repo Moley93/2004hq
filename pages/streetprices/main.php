@@ -22,7 +22,7 @@ function getPageContent() {
 
       fetchSheetData(sheetId, gid).then(data => {
         renderTable('sheet-table', data, 10);
-        renderAllSprites();
+        window.safeRenderAllSprites();
       });
     </script>
 HTML; }

@@ -70,5 +70,5 @@ function calculateBones() {
         `;
         tableBody.appendChild(row);
     }
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

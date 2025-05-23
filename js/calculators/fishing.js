@@ -81,5 +81,5 @@ function calculateFish() {
         `;
         tableBody.appendChild(row);
     }
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

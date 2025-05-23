@@ -89,5 +89,5 @@ function calculateOres() {
         }
         tableBody.appendChild(row);
     }
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

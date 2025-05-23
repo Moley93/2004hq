@@ -99,5 +99,5 @@ function calculateFood() {
         `;
         tableBody.appendChild(row);
     }
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

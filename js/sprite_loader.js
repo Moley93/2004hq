@@ -133,6 +133,13 @@ window.renderAllSprites = function () {
   });
 };
 
+window.safeRenderAllSprites = async function() {
+  while (!window.spriteLoaderReady) {
+    await new Promise(res => setTimeout(res, 25));
+  }
+  window.renderAllSprites();
+};
+
 document.addEventListener("DOMContentLoaded", async function () {
   while (!window.spriteLoaderReady) {
     await new Promise(resolve => setTimeout(resolve, 25));

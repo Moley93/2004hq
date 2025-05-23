@@ -134,10 +134,5 @@ export function renderTable(targetId, { cols, rows }, rowsPerPage = 10) {
 
   showPage(currentPage);
 
-  // After table renders, draw all sprites
-  setTimeout(() => {
-    if (typeof renderAllSprites === 'function') {
-      renderAllSprites();
-    }
-  }, 0);
+  window.safeRenderAllSprites();
 }

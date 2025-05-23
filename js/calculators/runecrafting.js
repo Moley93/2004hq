@@ -74,5 +74,5 @@ function calculateRunes() {
         tableBody.appendChild(row);
     }
 
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }

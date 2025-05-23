@@ -221,7 +221,7 @@ function renderDrops(npcData, searchTerm = "") {
 
   html += '</table>';
   container.innerHTML = html;
-  renderAllSprites();
+  window.safeRenderAllSprites();
 }
 
 function formatAmount(amount) {

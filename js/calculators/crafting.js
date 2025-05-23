@@ -147,5 +147,5 @@ function calculateCrafting() {
         `;
         tableBody.appendChild(row);
     }
-    renderAllSprites();
+    window.safeRenderAllSprites();
 }
