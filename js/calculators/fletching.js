@@ -5,7 +5,7 @@ async function fetchFletchingXP() {
     if (!username) return alert("Please enter a username.");
 
     try {
-        // Fetch data from the API through the CORS proxy
+        // Fetch data from the API
         const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
         // Check if the request was successful
@@ -19,6 +19,9 @@ async function fetchFletchingXP() {
         if (fletchingData) {
             const fletchingXP = Math.floor(fletchingData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = fletchingXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(fletchingXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(fletchingXP) + 1; // Set min level to current level + 1
+            calculateFletching();
         } else {
             alert("Fletching XP not found."); // Show alert if no data is found
         }
@@ -90,10 +93,11 @@ function calculateFletching() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
-    const tableBody = document.querySelector("#resultsTable tbody");
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
 
     // Clear previous results
+    const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
     
     // Generate table based on option selected
