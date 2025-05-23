@@ -17,6 +17,9 @@ async function fetchPrayerXP() {
         if (prayerData) {
             const prayerXP = Math.floor(prayerData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = prayerXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(prayerXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(prayerXP) + 1; // Set min level to current level + 1
+            calculateBones();
         } else {
             alert("Prayer XP not found."); // Show alert if no data is found
         }
@@ -52,10 +55,11 @@ function calculateBones() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
-    const tableBody = document.querySelector("#resultsTable tbody");
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
 
     // Clear previous results
+    const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = ""; 
 
     // Generate table
