@@ -1,42 +1,11 @@
 let mode = 'complete_potions';
 
-async function fetchHerbloreXP() {
-    const username = document.getElementById("username").value.trim();
-    if (!username) return alert("Please enter a username.");
-
-    try {
-        // Fetch data from the API
-        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
-        
-        // Check if the request was successful
-        if (!response.ok) throw new Error("Failed to fetch data.");
-
-        const data = await response.json(); // Convert response to JSON
-
-        // Find the Herblore XP data (Type 16 corresponds to Herblore)
-        const herbloreData = data.find(stat => stat.type === 16);
-
-        if (herbloreData) {
-            const herbloreXP = Math.floor(herbloreData.value / 10); // Convert XP format (stored as XP * 10)
-            document.getElementById("currentXP").value = herbloreXP; // Autofill the XP field
-            document.getElementById("targetLevel").value = getLevelForXP(herbloreXP) + 1; // Set target level to next level
-            document.getElementById("targetLevel").min = getLevelForXP(herbloreXP) + 1; // Set min level to current level + 1
-            calculateHerblore();
-        } else {
-            alert("Herblore XP not found."); // Show alert if no data is found
-        }
-    } catch (error) {
-        console.error(error); // Log errors for debugging
-        alert("Error fetching data."); // Alert user of an error
-    }
-}
-
 function setMode(selectedMode) {
     mode = selectedMode;
-    calculateHerblore();
+    runCalc();
 }
 
-function calculateHerblore() {
+function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
     const targetXP = getXPForLevel(targetLevel);
@@ -99,11 +68,7 @@ function calculateHerblore() {
     };
 
     // Update progress bar
-    const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
-    const progressBar = document.getElementById("progressBar");
-    progressBar.style.width = `${progressPercentage}%`;
-    const progressText = document.getElementById("progressText");
-    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
+    updateProgressBar(currentXP, targetXP);
 
     // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");

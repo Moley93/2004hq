@@ -1,42 +1,11 @@
 let mode = 'needle_thread';
 
-async function fetchCraftingXP() {
-    const username = document.getElementById("username").value.trim();
-    if (!username) return alert("Please enter a username.");
- 
-    try {
-        // Fetch data from the API through the CORS proxy
-        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
-        
-        // Check if the request was successful
-        if (!response.ok) throw new Error("Failed to fetch data.");
-
-        const data = await response.json(); // Convert response to JSON
-
-        // Find the Crafting XP data (Type 13 corresponds to Crafting)
-        const craftingData = data.find(stat => stat.type === 13);
-
-        if (craftingData) {
-            const craftingXP = Math.floor(craftingData.value / 10); // Convert XP format (stored as XP * 10)
-            document.getElementById("currentXP").value = craftingXP; // Autofill the XP field
-            document.getElementById("targetLevel").value = getLevelForXP(craftingXP) + 1; // Set target level to next level
-            document.getElementById("targetLevel").min = getLevelForXP(craftingXP) + 1; // Set min level to current level + 1
-            calculateCrafting();
-        } else {
-            alert("Crafting XP not found."); // Show alert if no data is found
-        }
-    } catch (error) {
-        console.error(error); // Log errors for debugging
-        alert("Error fetching data."); // Alert user of an error
-    }
-}
-
 function setMode(selectedMode) {
     mode = selectedMode;
-    calculateCrafting();
+    runCalc();
 }
 
-function calculateCrafting() {
+function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
     const targetXP = getXPForLevel(targetLevel);
@@ -126,11 +95,7 @@ function calculateCrafting() {
     };
 
     // Update progress bar
-    const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
-    const progressBar = document.getElementById("progressBar");
-    progressBar.style.width = `${progressPercentage}%`;
-    const progressText = document.getElementById("progressText");
-    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
+    updateProgressBar(currentXP, targetXP);
 
     // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");

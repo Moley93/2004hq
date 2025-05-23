@@ -1,36 +1,4 @@
-async function fetchCookingXP() {
-    const username = document.getElementById("username").value.trim();
-    if (!username) return alert("Please enter a username.");
-
-    try {
-        // Fetch data from the API
-        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
-        
-        // Check if the request was successful
-        if (!response.ok) throw new Error("Failed to fetch data.");
-
-        const data = await response.json(); // Convert response to JSON
-
-        // Find the Cooking XP data (Type 8 corresponds to Cooking)
-        const cookingData = data.find(stat => stat.type === 8);
-
-        if (cookingData) {
-            const cookingXP = Math.floor(cookingData.value / 10); // Convert XP format (stored as XP * 10)
-            document.getElementById("currentXP").value = cookingXP; // Autofill the XP field
-            document.getElementById("targetLevel").value = getLevelForXP(cookingXP) + 1; // Set target level to next level
-            document.getElementById("targetLevel").min = getLevelForXP(cookingXP) + 1; // Set min level to current level + 1
-            calculateFood();
-        } else {
-            alert("Cooking XP not found."); // Show alert if no data is found
-        }
-    } catch (error) {
-        console.error(error); // Log errors for debugging
-        alert("Error fetching data."); // Alert user of an error
-    }
-}
-
-// Calculate how many items need to be cooked
-function calculateFood() {
+function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
     const targetXP = getXPForLevel(targetLevel);
@@ -80,11 +48,7 @@ function calculateFood() {
     ];
 
     // Update progress bar
-    const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
-    const progressBar = document.getElementById("progressBar");
-    progressBar.style.width = `${progressPercentage}%`;
-    const progressText = document.getElementById("progressText");
-    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
+    updateProgressBar(currentXP, targetXP);
 
     // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");

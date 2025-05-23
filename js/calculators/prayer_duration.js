@@ -4,7 +4,7 @@ async function fetchPrayerLevel() {
 
     try {
         // Fetch data from the API
-        const response = await fetch(`pages/api/LSHiscoresProxy.php?username=${encodeURIComponent(username)}`);
+        const response = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         
         // Check if the request was successful
         if (!response.ok) throw new Error("Failed to fetch data.");

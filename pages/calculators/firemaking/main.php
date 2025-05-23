@@ -6,14 +6,14 @@ function getExtraHeaderContent() { return
     '<link rel="stylesheet" href="css/calculators.css">
     <script src="js/calculators.js"></script>';
 }
-function onBodyLoad() { return 'calculateLogs()'; }
+function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Firemaking Calculator</h2>
 <div class="container">
     <div class="input-group">
         <label>Username</label>
         <input type="text" id="username">
-        <button onclick="fetchFiremakingXP()">Fetch XP</button>
+        <button onclick="fetchXP(12)">Fetch XP</button>
     </div>
     <div class="input-group">
         <label>Current XP</label>
@@ -22,7 +22,7 @@ function getCalcContent() { return <<<HTML
         <input type="number" id="targetLevel" min="2" max="99" value="2">
     </div>
     <div class="input-group">
-        <button onclick="calculateLogs()">Calculate!</button>
+        <button onclick="runCalc()">Calculate!</button>
     </div>
     <div style="width:90%; margin: 0 auto;">
         <div class="progress-container">
