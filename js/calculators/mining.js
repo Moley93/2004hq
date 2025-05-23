@@ -18,6 +18,7 @@ async function fetchMiningXP() {
             const miningXP = Math.floor(miningData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = miningXP; // Autofill the XP field
             document.getElementById("targetLevel").value = getLevelForXP(miningXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(miningXP) + 1; // Set min level to current level + 1
             calculateOres();
         } else {
             alert("Mining XP not found."); // Show alert if no data is found

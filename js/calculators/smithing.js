@@ -174,6 +174,9 @@ async function fetchSmithingXP() {
         if (smithingData) {
             const smithingXP = Math.floor(smithingData.value / 10); // Convert XP format (stored as XP * 10)
             document.getElementById("currentXP").value = smithingXP; // Autofill the XP field
+            document.getElementById("targetLevel").value = getLevelForXP(smithingXP) + 1; // Set target level to next level
+            document.getElementById("targetLevel").min = getLevelForXP(smithingXP) + 1; // Set min level to current level + 1
+            calculateSmithing();
         } else {
             alert("Smithing XP not found."); // Show alert if no data is found
         }
@@ -208,7 +211,8 @@ function calculateSmithing() {
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
     const progressBar = document.getElementById("progressBar");
     progressBar.style.width = `${progressPercentage}%`;
-    progressBar.textContent = `${progressPercentage}%`;
+    const progressText = document.getElementById("progressText");
+    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
     
     // Update Table Headers
     const tableElem = document.querySelector("#resultsTable");

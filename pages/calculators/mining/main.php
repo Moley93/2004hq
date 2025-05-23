@@ -21,10 +21,9 @@ function getCalcContent() { return <<<HTML
         <input type="number" id="targetLevel" min="2" max="99" value="2">
     </div>
     <div class="input-group">
-        <button onclick="calculateOres()"> Calculate! </button>
+        <button onclick="calculateOres()">Calculate!</button>
     </div>
     <div style="width:90%; margin: 0 auto;">
-        <!-- Progress Bar -->
         <div class="progress-container">
             <div class="progress-bar" id="progressBar"></div>
             <div class="progress-text" id="progressText"></div>
