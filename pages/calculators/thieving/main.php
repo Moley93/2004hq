@@ -29,9 +29,12 @@ function getCalcContent() { return <<<HTML
             <div class="progress-text" id="progressText"></div>
         </div>
     </div><hr>
-    <button onclick="setMode('npcs')">NPCs</button>
-    <button onclick="setMode('stalls')">Stalls</button>
-    <button onclick="setMode('chests')">Chests</button>
+    <div class="input-group">
+        <button onclick="setMode('npcs')">NPCs</button>
+        <button onclick="setMode('stalls')">Stalls</button>
+        <button onclick="setMode('chests')">Chests</button>
+        <button onclick="setMode('pickabledoors')">Doors</button>
+    </div>
 
     <!-- Results Table -->
     <table id="resultsTable" class="calculators">

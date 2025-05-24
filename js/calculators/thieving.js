@@ -48,6 +48,16 @@ function runCalc() {
         "Blood Rune Chest": { xp: 250, level: 59 },
         "Ardougne Castle Chest": { xp: 500, level: 72 }
     };
+
+    const pickabledoors = {
+        "Ross House Door": { xp: 15, level: 13 },
+        "Magic Axe Hut Door": { xp: 22.5, level: 23 },
+        "Ardougne Sewer Gate": { xp: 25, level: 31 },
+        "Pirate Hideout Door": { xp: 35, level: 39, lockpick: true },
+        "Chaos Druid Tower Door": { xp: 37.5, level: 46, lockpick: true },
+        "Ardougne Castle Door": { xp: 50, level: 61 },
+        "Yanille Dungeon Door": { xp: 50, level: 46, lockpick: true },
+    };
     
     // Update progress bar
     updateProgressBar(currentXP, targetXP);
@@ -56,15 +66,44 @@ function runCalc() {
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
     
-    // Generate table based on option selected
-    const dataSet = mode === 'chests' ? chests : mode === 'stalls' ? stalls : npcs;
+    let dataSet;
+    switch (mode) {
+        default:
+        case 'chests':
+            dataSet = chests;
+            break;
+        case 'stalls':
+            dataSet = stalls;
+            break;
+        case 'npcs':
+            dataSet = npcs;
+            break;
+        case 'pickabledoors':
+            dataSet = pickabledoors;
+            break;
+    }
+
     for (let source in dataSet) {
+        var lockpick = "";
+        if (dataSet == pickabledoors) {
+            if (dataSet[source].lockpick) { var lockpick = "<br>(requires lockpick)"; }
+            if (source.endsWith("Door")) {
+                var img = `<img src="img/calculators/thieving/door.png" height=32px alt="${source}">`;
+            } else {
+                var img = `<img src="img/calculators/thieving/gate.png" height=32px alt="${source}">`;
+            }
+        } else {
+            var img = `<img src="img/calculators/thieving/${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" height=32px alt="${source}">`;
+        }
         let { xp, level } = dataSet[source];
         let count = Math.ceil(xpNeeded / xp);
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${level}</td>
-            <td><img src="img/calculators/thieving/${source.toLowerCase().replace(/\s+/g, '_').replace('/', '_')}.png" height=32px alt="${source}"><br>${source}</td>
+            <td>
+                ${img}<br>
+                ${source}${lockpick}
+            </td>
             <td>${xp}</td>
             <td>${count.toLocaleString()}</td>
         `;
