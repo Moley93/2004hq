@@ -54,3 +54,55 @@ async function fetchXP(statType) {
         alert("Error fetching data!"); // Alert user of an error
     }
 }
+
+function renderXpTable() {
+    const xpDiv = document.querySelector('.xp-table');
+    if (!xpDiv) return console.error('no .xp-table container found');
+
+    const table = document.createElement('table');
+    table.classList.add('calculators');
+    table.style.width = '90%';
+
+    const totalLevels = 99;
+    const columns     = 2;
+    const rowsPerCol  = Math.ceil(totalLevels / columns);
+
+    const titleRow  = document.createElement('tr');
+    const titleCell = document.createElement('th');
+    titleCell.setAttribute('colspan', columns * 2);
+    titleCell.textContent = 'Experience Table';
+    titleRow.appendChild(titleCell);
+    table.appendChild(titleRow);
+
+    const headerRow = document.createElement('tr');
+    for (let c = 0; c < columns; c++) {
+        const thLevel = document.createElement('th');
+        thLevel.textContent = 'Level';
+        const thXp    = document.createElement('th');
+        thXp.textContent = 'XP Required';
+        headerRow.appendChild(thLevel);
+        headerRow.appendChild(thXp);
+    }
+    table.appendChild(headerRow);
+
+    for (let r = 0; r < rowsPerCol; r++) {
+        const tr = document.createElement('tr');
+        for (let c = 0; c < columns; c++) {
+            const level = c * rowsPerCol + (r + 1);
+            if (level <= totalLevels) {
+                const xp = getXPForLevel(level);
+                const tdLevel = document.createElement('td');
+                tdLevel.textContent = level;
+                const tdXp = document.createElement('td');
+                tdXp.textContent = xp.toLocaleString();
+                tr.appendChild(tdLevel);
+                tr.appendChild(tdXp);
+            } else {
+                tr.appendChild(document.createElement('td'));
+                tr.appendChild(document.createElement('td'));
+            }
+            table.appendChild(tr);         
+        }
+        xpDiv.appendChild(table);
+    }
+}

@@ -1,5 +1,4 @@
 <?php
-
 class CalculatorType {
     private ?string $calcName = null; // Allow $calcName to be nullable
 
@@ -81,7 +80,7 @@ function generateCalculatorLinks(): string {
         $rows = '';
         foreach ($calculators as $calc) {
             $linkText = ucwords(str_replace('_', ' ', $calc)); // Capitalizes the words and replaces underscores with spaces
-            $rows .= '<tr><td><a href="?p=calculators&calc=' . $calc . '">' . $linkText . ' Calculator</a></td></tr>';
+            $rows .= '<a href="?p=calculators&calc=' . $calc . '"><button>' . $linkText . ' Calculator</button></a><br>';
         }
         return $rows;
     };
@@ -89,35 +88,31 @@ function generateCalculatorLinks(): string {
     $miscRows = $generateLinks($miscCalculators);
 
     return <<<HTML
-        <table width="100%" cellpadding="8" cellspacing="8" class="calculators">
-            <thead>
-                <tr>
-                    <th>Skill Calculators</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Select a skill below to get to the calculator for that skill.<br>
-                        <canvas data-skills="skillTree" data-width="220" data-style="$siteOptStyle"></canvas>
-                        <script src="js/skillgrid.js"></script>
-                    </td>
-                </tr>
-            </tbody>
-            <thead>
-                <tr>
-                    <th>Misc Calculators</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <table>
-                            $miscRows
-                        </table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <link rel="stylesheet" href="css/calculators.css">
+        <table width="90%" class="calculators">
+            <tr>
+                <th>Skill Calculators</th>
+            </tr>
+            <tr>
+                <td>
+                    Select a skill below to get to the calculator for that skill.<br>
+                    <canvas data-skills="skillTree" data-width="220" data-style="$siteOptStyle"></canvas>
+                    <script src="js/skillgrid.js"></script>
+                </td>
+            </tr>
+        </table><br>
+        <table width="90%" class="calculators">
+            <tr>
+                <th>Misc Calculators</th>
+            </tr>
+            <tr>
+                <td style="padding-top: 1em;">
+                    $miscRows
+                </td>
+            </tr>
+        </table><br>
+        <div class="xp-table"></div>
+        <script src="js/calculators.js"></script>
+        <script>renderXpTable();</script>
     HTML;
 }

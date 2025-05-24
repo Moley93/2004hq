@@ -1,3 +1,10 @@
+let mode = 'courses';
+
+function setMode(newMode) {
+    mode = newMode;
+    runCalc();
+}
+
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
@@ -9,57 +16,55 @@ function runCalc() {
     }
 
     const xpNeeded = targetXP - currentXP;
-    const courses = [
-        { name: "Gnome Stronghold", xp: 86.5, level: 1 },
-        { name: "Barbarian Outpost", xp: 139.5, level: 35 },
-        { name: "Wilderness", xp: 601.4, level: 52 }
-    ];
-    const shortcuts = [
-        { name: "A wooden log (Karamja)", xp: 4, level: 1 },
-        { name: "Crumbling wall (Falador)", xp: 0.5, level: 5 },
-        { name: "Climbing rocks (Yanille)", xp: 25, level: 5 },
-        { name: "Ropeswing (Brimhaven)", xp: 3, level: 10 },
-        { name: "Monkeybars (Edgeville Dungeon)", xp: 20, level: 15 },
-        { name: "Log balance (Coal Trucks)", xp: 8.5, level: 20 },
-        { name: "Stepping stones (Karamja)", xp: 3, level: 30 }
-    ];
+    const courses = {
+        "Gnome Stronghold": { xp: 86.5, level: 1 },
+        "Barbarian Outpost": { xp: 139.5, level: 35 },
+        "Wilderness": { xp: 601.4, level: 52 },
+    };
+    const shortcuts = {
+        "A wooden log (Karamja)": { xp: 4, level: 1 },
+        "Crumbling wall (Falador)": { xp: 0.5, level: 5 },
+        "Climbing rocks (Yanille)": { xp: 25, level: 5 },
+        "Ropeswing (Brimhaven)": { xp: 3, level: 10 },
+        "Monkeybars (Edgeville Dungeon)": { xp: 20, level: 15 },
+        "Log balance (Coal Trucks)": { xp: 8.5, level: 20 },
+        "Stepping stones (Karamja)": { xp: 3, level: 30 },
+        "Monkeybars (Yanille Dungeon)": { xp: 20, level: 57 },
+    };
 
     // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
-    // Get both table bodies
-    const courseTableBody = document.querySelector("#courseTable tbody");
-    const shortcutTableBody = document.querySelector("#shortcutTable tbody");
-
     // Clear previous results
-    courseTableBody.innerHTML = ""; 
-    shortcutTableBody.innerHTML = "";
+    const tableBody = document.querySelector("#resultsTable tbody");
+    tableBody.innerHTML = "";
+
+    let dataSet;
+    switch (mode) {
+        default:
+        case 'courses':
+            dataSet = courses;
+            break;
+        case 'shortcuts':
+            dataSet = shortcuts;
+            break;
+    }
 
     // Generate course table
-    for (let course of courses) {
-        let lapCount = Math.ceil(xpNeeded / course.xp);
-        
+    for (let source in dataSet) {
+        var img = `<img src="img/calculators/agility/${source.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${source}"><br>${source}`;
+        let { xp, level } = dataSet[source];
+        let count = Math.ceil(xpNeeded / xp);
         let row = document.createElement("tr");
         row.innerHTML = `
-            <td>${course.level}</td>
-            <td><img src="img/calculators/agility/${course.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${course.name}"><br>${course.name}</td>
-            <td>${course.xp}</td>
-            <td>${lapCount.toLocaleString()}</td>
+            <td>${level}</td>
+            <td>
+                ${img}
+            </td>
+            <td>${xp}</td>
+            <td>${count.toLocaleString()}</td>
         `;
-        courseTableBody.appendChild(row);
+        tableBody.appendChild(row);
     }
 
-    // Generate shortcut table
-    for (let shortcut of shortcuts) {
-        let lapCount = Math.ceil(xpNeeded / shortcut.xp);
-        
-        let row = document.createElement("tr");
-        row.innerHTML = `
-            <td>${shortcut.level}</td>
-            <td><img src="img/calculators/agility/${shortcut.name.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${shortcut.name}"><br>${shortcut.name}</td>
-            <td>${shortcut.xp}</td>
-            <td>${lapCount.toLocaleString()}</td>
-        `;
-        shortcutTableBody.appendChild(row);
-    }
 }

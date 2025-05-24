@@ -29,25 +29,15 @@ function getCalcContent() { return <<<HTML
             <div class="progress-text" id="progressText"></div>
         </div>
     </div><hr>
-
-    <table id="courseTable" class="calculators" width="100%">
+    <button onclick="setMode('courses')">Courses</button>
+    <button onclick="setMode('shortcuts')">Shortcuts</button>
+    <br><br>
+    <table id="resultsTable" class="calculators" width="100%">
         <thead>
             <tr>
                 <th>Level</th>
-                <th>Course</th>
-                <th>XP per Lap</th>
-                <th>Laps Needed</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    <br>
-    <table id="shortcutTable" class="calculators" width="100%">
-        <thead>
-            <tr>
-                <th>Level</th>
-                <th>Shortcut</th>
-                <th>XP per Action</th>
+                <th>Shortcut/Course</th>
+                <th>XP per Lap/Action</th>
                 <th>Actions Needed</th>
             </tr>
         </thead>
