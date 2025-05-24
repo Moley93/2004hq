@@ -56,7 +56,7 @@ function runCalc() {
         "Pirate Hideout Door": { xp: 35, level: 39, lockpick: true },
         "Chaos Druid Tower Door": { xp: 37.5, level: 46, lockpick: true },
         "Ardougne Castle Door": { xp: 50, level: 61 },
-        "Yanille Dungeon Door": { xp: 50, level: 46, lockpick: true },
+        "Yanille Dungeon Door": { xp: 50, level: 82, lockpick: true },
     };
     
     // Update progress bar
