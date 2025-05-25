@@ -17,10 +17,14 @@ function getCalcContent() { return <<<HTML
     <div class="input-group">
         <label>Current XP</label>
         <input type="number" id="currentXP" min="0" max="200000000" value="0">
-        <label>Desired Level</label>
-        <input type="number" id="targetLevel" min="2" max="99" value="2">
     </div>
     <div class="input-group">
+        <label>Goal Level</label>
+        <input type="number" id="targetLevel" min="2" max="99" value="2">
+        <label>Goal XP</label>
+        <input type="number" id="targetXP" min="0" max="200000000" value="83">
+    </div>
+    <div class="input-group justify-center">
         <button onclick="runCalc()">Calculate!</button>
     </div>
     <div style="width:90%; margin: 0 auto;">

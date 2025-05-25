@@ -40,11 +40,10 @@ async function fetchXP(statType) {
         const checkSkill = data.find(stat => stat.type === statType);
 
         if (checkSkill) {
-            const XP = Math.floor(checkSkill.value / 10); // Convert XP format (stored as XP * 10)
-            document.getElementById("currentXP").value = XP; // Autofill the XP field
-            const nextLevel = getLevelForXP(XP) + 1;
-            document.getElementById("targetLevel").value = nextLevel; // Set target level to next level
-            document.getElementById("targetLevel").min = nextLevel; // Set min level to next level
+            const XP = Math.floor(checkSkill.value / 10);
+            document.getElementById("currentXP").value = XP;
+            document.getElementById("targetLevel").value = getLevelForXP(XP) + 1;
+            document.getElementById("targetXP").value = getXPForLevel(getLevelForXP(XP) + 1);
             runCalc();
         } else {
             alert("Player not found or not ranked."); // Show alert if no data is found
@@ -106,3 +105,19 @@ function renderXpTable() {
         xpDiv.appendChild(table);
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const xpInput    = document.getElementById("targetXP");
+    const lvlInput   = document.getElementById("targetLevel");
+    if (!xpInput || !lvlInput) { return; }
+
+    xpInput.addEventListener("input", () => {
+        const xp    = parseInt(xpInput.value, 10) || 0;
+        lvlInput.value = getLevelForXP(xp);
+    });
+
+    lvlInput.addEventListener("input", () => {
+        const lvl   = parseInt(lvlInput.value, 10) || 2;
+        xpInput.value  = getXPForLevel(lvl);
+    });
+});

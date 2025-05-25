@@ -7,15 +7,9 @@ function setMode(newMode) {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-    
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const items = {
         "Shortbow": [5, 5, 10, 1],
         "Longbow": [10, 10, 20, 5],
@@ -59,11 +53,9 @@ function runCalc() {
     
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
-    
-    // Generate table based on option selected
+
     if (mode === 'arrows') {
         const arrowType = document.getElementById("arrowType").value;
         const arrowData = arrowType === "completeArrows" ? arrows : incomplete;

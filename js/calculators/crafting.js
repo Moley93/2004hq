@@ -6,15 +6,9 @@ function setMode(selectedMode) {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-    
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-    
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const craftingXP = {
         "needle_thread": {
             "Leather Gloves": { xp: 13.8, level: 1 },
@@ -95,11 +89,9 @@ function runCalc() {
 
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
-    
-    // Generate table based on option selected
+
     for (let item in craftingXP[mode]) {
         let xpPerItem = craftingXP[mode][item].xp;
         let levelRequired = craftingXP[mode][item].level;

@@ -6,15 +6,9 @@ function setMode(selectedMode) {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-    
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-    
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const herbloreData = {
         "complete_potions": {
             "3dose1attack": [3, 27.5],
@@ -68,11 +62,9 @@ function runCalc() {
 
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
-    
-    // Generate table based on option selected
+
     for (let item in herbloreData[mode]) {
         let [level, xpGained] = herbloreData[mode][item];
         let itemsNeeded = Math.ceil(xpNeeded / xpGained);

@@ -1,14 +1,8 @@
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const logs = [
         { name: "logs", xp: 40, level: 1 },
         { name: "achey_tree_logs", xp: 40, level: 1 },
@@ -21,11 +15,9 @@ function runCalc() {
 
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = ""; 
 
-    // Generate table
     for (let log of logs) {
         let logCount = Math.ceil(xpNeeded / log.xp); 
 

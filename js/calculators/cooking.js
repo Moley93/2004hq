@@ -1,14 +1,8 @@
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const foods = [
         { name: "Cooked Meat", xp: 30, level: 1 },
         { name: "Cooked Chicken", xp: 30, level: 1 },
@@ -49,11 +43,9 @@ function runCalc() {
 
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = ""; 
 
-    // Generate table
     for (let food of foods) {
         let foodCount = Math.ceil(xpNeeded / food.xp);
 

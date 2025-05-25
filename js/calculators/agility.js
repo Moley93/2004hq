@@ -6,15 +6,9 @@ function setMode(newMode) {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const courses = {
         "Gnome Stronghold": { xp: 86.5, level: 1 },
         "Barbarian Outpost": { xp: 139.5, level: 35 },
@@ -33,7 +27,6 @@ function runCalc() {
 
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
 
@@ -48,7 +41,6 @@ function runCalc() {
             break;
     }
 
-    // Generate course table
     for (let source in dataSet) {
         var img = `<img src="img/calculators/agility/${source.toLowerCase().replace(/\s+/g, "_")}.png" height=32px alt="${source}"><br>${source}`;
         let { xp, level } = dataSet[source];

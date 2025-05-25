@@ -6,15 +6,9 @@ function setMode(newMode) {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-    
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
     const npcs = {
         "Man/Woman": { xp: 8, level: 1 },
         "Farmer": { xp: 14.5, level: 10 },
@@ -60,7 +54,6 @@ function runCalc() {
     
     updateProgressBar(currentXP, targetXP);
 
-    // Clear previous results
     const tableBody = document.querySelector("#resultsTable tbody");
     tableBody.innerHTML = "";
     

@@ -162,22 +162,15 @@ const barXP = {
 
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
-    const targetLevel = parseInt(document.getElementById("targetLevel").value);
-    const targetXP = getXPForLevel(targetLevel);
-    const selectedMetal = document.getElementById("metalType").value;
-    
-    if (targetXP <= currentXP) {
-        alert("Target level must be higher than current XP.");
-        return;
-    }
-    
+    const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
+
+    const selectedMetal = document.getElementById("metalType").value;
     const smithingData = smithingXP[selectedMetal];
     const smeltingData = smeltingXP
     
     updateProgressBar(currentXP, targetXP);
-    
-    // Update Table Headers
+
     const tableElem = document.querySelector("#resultsTable");
     const tableBody = tableElem.querySelector("tbody");
     const tableHead = tableElem.querySelector("thead");
@@ -192,10 +185,8 @@ function runCalc() {
     
     tableHead.appendChild(headerRow);
 
-    // Clear previous results
     tableBody.innerHTML = "";
 
-    // Generate table based on option selected
     if (mode === 'smelting') {
         for (const [item, data] of Object.entries(smeltingData)) {
             // Skip items above target level
