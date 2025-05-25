@@ -27,6 +27,7 @@ async function fetchCombatLevels() {
                 document.getElementById(statName).value = statData.level; // Update input value
             }
         });
+        runCalc();
     } catch (error) {
         console.error(error); // Log errors for debugging
         alert("Error fetching data."); // Alert user of an error

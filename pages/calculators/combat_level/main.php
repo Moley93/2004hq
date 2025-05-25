@@ -16,33 +16,24 @@ function getCalcContent() { return <<<HTML
     <div class="input-group">
         <label>Attack:</label>
         <input type="number" id="attack" min="1" max="99" value="1">
-    </div>
-    <div class="input-group">
         <label>Strength:</label>
         <input type="number" id="strength" min="1" max="99" value="1">
     </div>
     <div class="input-group">
         <label>Defence:</label>
         <input type="number" id="defence" min="1" max="99" value="1">
-    </div>
-    <div class="input-group">
         <label>Hitpoints:</label>
         <input type="number" id="hitpoints" min="10" max="99" value="10">
     </div>
     <div class="input-group">
         <label>Ranged:</label>
         <input type="number" id="ranged" min="1" max="99" value="1">
-    </div>
-    <div class="input-group">
         <label>Magic:</label>
         <input type="number" id="magic" min="1" max="99" value="1">
     </div>
     <div class="input-group">
         <label>Prayer:</label>
         <input type="number" id="prayer" min="1" max="99" value="1">
-    </div>
-    <div class="input-group justify-center">
-        <button onclick="runCalc()">Calculate!</button>
     </div>
     <hr>
     <h2>Combat Level: <span id="combatLevel" class="gold-text">3</span></h2>

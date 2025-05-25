@@ -10,15 +10,10 @@ function getCalcContent() { return <<<HTML
 <h2>Run Energy Restore Calculator</h2>
 <div class="container">
     <div class="input-group">
-        <label>Current Run Energy (%):</label>
-        <input type="number" id="currentRunEnergy" min="0" max="100" value="0">
-    </div>
-    <div class="input-group">
         <label>Agility Level:</label>
         <input type="number" id="agilityLevel" min="1" max="99" value="1">
-    </div>
-    <div class="input-group justify-center">
-        <button onclick="runCalc()">Calculate!</button>
+        <label>Current Run (%):</label>
+        <input type="number" id="currentRunEnergy" min="0" max="100" value="10">
     </div>
     <hr>
     <h3>Time to Restore 1% Energy:<br><span id="restorePerPercent" class="gold-text"></span></h3>

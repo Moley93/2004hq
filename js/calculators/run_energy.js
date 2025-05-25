@@ -6,10 +6,6 @@ function runCalc() {
     const secondsPerPercent = 0.6 / recoveryPerTick * 2;
 
     document.getElementById("restorePerPercent").textContent = `${secondsPerPercent.toFixed(2)} seconds`;
-    if (currentRunEnergy >= 100) {
-        alert("Run Energy is already at 100%.");
-        return;
-    }
 
     const energyToRestore = 100 - currentRunEnergy;
     const timeToRestoreInSeconds = energyToRestore * secondsPerPercent;
@@ -25,3 +21,6 @@ function runCalc() {
 
     document.getElementById("restoreOneMinute").textContent = `${Math.min(restoreInOneMinute, 100).toFixed(0)}%`;
 }
+["agilityLevel", "currentRunEnergy"].forEach(id => {
+    document.getElementById(id).addEventListener("change", runCalc);
+});
