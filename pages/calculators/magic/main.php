@@ -29,10 +29,19 @@ function getCalcContent() { return <<<HTML
             <div class="progress-text" id="progressText"></div>
         </div>
     </div><hr>
-
+    <button onclick="setMode('combat')">Combat Spells</button>
+    <button onclick="setMode('noncombat')">Non-Combat Spells</button>
+    <br><br>
     <!-- Results Table -->
-    <table id="resultsTable" class="calculators">
-        <thead></thead>
+    <table id="resultsTable" class="calculators" width="100%">
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Spell Type</th>
+                <th>XP per Cast</th>
+                <th>Casts Needed</th>
+            </tr>
+        </thead>
         <tbody></tbody>
     </table>
 </div>
