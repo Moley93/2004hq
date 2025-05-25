@@ -1,4 +1,9 @@
 let mode = 'smelting_bars';
+function setMode(selectedMode) {
+    mode = selectedMode;
+    document.getElementById("metalSelection").style.display = (mode === 'smelting') ? 'none' : 'block';
+    runCalc();
+}
 const smithingXP = {
     "bronze": {
         "Bronze Dagger": { bars: 1, xp: 12.5, level: 1 },
@@ -155,12 +160,6 @@ const barXP = {
     "mithril": 22.5, "adamant": 37.5, "rune": 50
 };
 
-function setMode(selectedMode) {
-    mode = selectedMode;
-    document.getElementById("metalSelection").style.display = (mode === 'smelting') ? 'none' : 'block';
-    runCalc();
-}
-
 function runCalc() {
     const currentXP = parseInt(document.getElementById("currentXP").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
@@ -176,7 +175,6 @@ function runCalc() {
     const smithingData = smithingXP[selectedMetal];
     const smeltingData = smeltingXP
     
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
     
     // Update Table Headers

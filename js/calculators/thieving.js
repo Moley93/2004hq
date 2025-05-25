@@ -1,5 +1,4 @@
 let mode = 'npcs';
-
 function setMode(newMode) {
     mode = newMode;
     runCalc();
@@ -59,7 +58,6 @@ function runCalc() {
         "Yanille Dungeon Door": { xp: 50, level: 82, lockpick: true },
     };
     
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

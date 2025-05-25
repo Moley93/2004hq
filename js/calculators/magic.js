@@ -67,7 +67,6 @@ function runCalc() {
     ];
     nonCombatspells.sort((a, b) => a.level - b.level);
     
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

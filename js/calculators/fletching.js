@@ -1,5 +1,4 @@
 let mode = 'complete';
-        
 function setMode(newMode) {
     mode = newMode;
     document.getElementById("arrowSelection").style.display = (mode === 'arrows') ? 'block' : 'none';
@@ -58,7 +57,6 @@ function runCalc() {
         "Rune Arrowheads": [125, 75]
     }
     
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

@@ -29,7 +29,6 @@ function runCalc() {
         { name: "MantaRay", xp: 69, level: 81 }
     ];
     
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

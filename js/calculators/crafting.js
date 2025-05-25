@@ -1,5 +1,4 @@
 let mode = 'needle_thread';
-
 function setMode(selectedMode) {
     mode = selectedMode;
     runCalc();
@@ -94,7 +93,6 @@ function runCalc() {
         }
     };
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

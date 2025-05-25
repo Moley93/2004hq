@@ -21,7 +21,6 @@ function runCalc() {
         { name: "NatureRune", xp: 9, level: 44 }
     ];
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

@@ -25,7 +25,6 @@ function runCalc() {
         { name: "Runite Ore", xp: 125, level: 85 }
     ];
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

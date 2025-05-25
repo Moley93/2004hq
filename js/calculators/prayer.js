@@ -19,7 +19,6 @@ function runCalc() {
         "Dragon Bones": 72
     };
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

@@ -19,7 +19,6 @@ function runCalc() {
         { name: "magic_logs", xp: 303.8, level: 75 }
     ];
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results

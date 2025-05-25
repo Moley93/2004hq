@@ -1,5 +1,4 @@
 let mode = 'courses';
-
 function setMode(newMode) {
     mode = newMode;
     runCalc();
@@ -32,7 +31,6 @@ function runCalc() {
         "Monkeybars (Yanille Dungeon)": { xp: 20, level: 57 },
     };
 
-    // Update progress bar
     updateProgressBar(currentXP, targetXP);
 
     // Clear previous results
