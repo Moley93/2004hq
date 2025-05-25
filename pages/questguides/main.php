@@ -70,6 +70,25 @@ function getPageContent() {
         } else {
             echo renderQuestList($questlist);
         }
+        echo '<br><hr>
+        <table class="calculators">
+            <tr>
+                <th colspan=2>Skill Requirements</th>
+            </tr>
+            <tr>
+                <th>Required for all<br>Free Quests</th>
+                <th>Required for all<br>Member\'s Quests</th>
+            </tr>
+            <tr>
+                <td>
+                    <canvas data-width="220" data-questreqs="free"></canvas>
+                </td>
+                <td>
+                    <canvas data-width="220" data-questreqs="members"></canvas>
+                </td>
+            </tr>
+        </table>
+        <script src="js/statcanvas.js"></script>';
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;
@@ -110,25 +129,6 @@ function getPageContent() {
             exit;
         }
     }
-    echo '<br><hr>
-    <table class="calculators">
-        <tr>
-            <th colspan=2>Skill Requirements</th>
-        </tr>
-        <tr>
-            <th>Required for all<br>Free Quests</th>
-            <th>Required for all<br>Member\'s Quests</th>
-        </tr>
-        <tr>
-            <td>
-                <canvas data-width="220" data-questreqs="free"></canvas>
-            </td>
-            <td>
-                <canvas data-width="220" data-questreqs="members"></canvas>
-            </td>
-        </tr>
-    </table>
-    <script src="js/statcanvas.js"></script>';
     return ob_get_clean();
 }
 
