@@ -33,7 +33,7 @@ async function fetchCombatLevels() {
     }
 }
 
-function calculateCombatLevel() {
+function runCalc() {
     let attack = parseInt(document.getElementById("attack").value);
     let strength = parseInt(document.getElementById("strength").value);
     let defence = parseInt(document.getElementById("defence").value);
@@ -80,5 +80,5 @@ function calculateCombatLevel() {
 }
 
 ["attack", "strength", "defence", "hitpoints", "prayer", "ranged", "magic"].forEach(id => {
-    document.getElementById(id).addEventListener("change", calculateCombatLevel);
+    document.getElementById(id).addEventListener("change", runCalc);
 });

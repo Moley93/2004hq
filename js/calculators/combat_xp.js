@@ -409,7 +409,7 @@ async function fetchXP() {
     }
 }
 
-function calculateXP() {
+function runCalc() {
     let monsterName = document.getElementById("itemSearch").value.trim().toLowerCase();
     let monsterHP = parseInt(document.getElementById("monsterHP").value) || 0;
     let numMonsters = parseInt(document.getElementById("numMonsters").value) || 0;
@@ -456,5 +456,5 @@ function calculateXP() {
 }
 
 ["monsterHP", "numMonsters", "attackStyle", "buryBones"].forEach(id => {
-    document.getElementById(id).addEventListener("change", calculateXP);
+    document.getElementById(id).addEventListener("change", runCalc);
 });

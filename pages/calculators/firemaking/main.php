@@ -21,7 +21,7 @@ function getCalcContent() { return <<<HTML
         <label>Desired Level</label>
         <input type="number" id="targetLevel" min="2" max="99" value="2">
     </div>
-    <div class="input-group">
+    <div class="input-group justify-center">
         <button onclick="runCalc()">Calculate!</button>
     </div>
     <div style="width:90%; margin: 0 auto;">
