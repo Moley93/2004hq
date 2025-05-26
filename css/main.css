@@ -389,7 +389,7 @@ A.pink:hover {
         display: table;
     }
     hr {
-        margin: 15px 0 -25px;
+        margin: 15px 0 -15px;
         overflow: visible;
         height: 30px;
         border-style: solid;

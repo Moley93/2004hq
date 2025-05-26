@@ -32,25 +32,15 @@ function getCalcContent() { return <<<HTML
             <div class="progress-bar" id="progressBar"></div>
             <div class="progress-text" id="progressText"></div>
         </div>
-    </div><hr>
-
-    <div>
-        <button onclick="setMode('complete_potions')">Complete Potions</button>
-        <button onclick="setMode('cleaning_herbs')">Cleaning Herbs</button>
-        <button onclick="setMode('unfinished_potions')">Unfinished Potions</button>
     </div>
-    
-    <table id="resultsTable" class="calculators">
-        <thead>
-            <tr>
-                <th>Level</th>
-                <th>Item</th>
-                <th>XP Gained</th>
-                <th>Total Needed</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <hr>
+    <div>
+        <button onclick="setMode('potions')">Mixing Potions</button>
+        <button onclick="setMode('cleaning_herbs')">Cleaning Herbs</button>
+        <button onclick="setMode('banked')">Banked XP</button>
+    </div>
+    <br>
+    <div id="results"></div>
 </div>
 <script type="text/javascript" src="js/calculators/herblore.js"></script>
 HTML; }

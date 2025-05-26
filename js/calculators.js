@@ -5,7 +5,6 @@ function getXPForLevel(level) {
     }
     return Math.floor(total / 4);
 }
-
 function getLevelForXP(xp) {
     let total = 0;
     let level = 1;
@@ -17,7 +16,12 @@ function getLevelForXP(xp) {
     }
     return 99;
 }
-
+function sanitizeXP(xp) {
+    let targetXP = xp;
+    if (targetXP < 0) { targetXP = 0; }
+    else if (targetXP > 200000000) { targetXP = 200000000; }
+    return targetXP;
+}
 function updateProgressBar(currentXP, targetXP) {
     const xpNeeded = targetXP - currentXP;
     const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
