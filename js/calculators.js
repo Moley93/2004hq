@@ -31,12 +31,10 @@ async function fetchXP(statType) {
     const username = document.getElementById("username").value.trim();
     if (!username) return alert("Please enter a username.");
     try {
-        // Fetch data from the API
         const response = await fetch(`pages/api/LCHiscoresProxy.php?username=${encodeURIComponent(username)}`);
         if (!response.ok) throw new Error("Failed to fetch data.");
         const data = await response.json();
 
-        // Find the Woodcutting XP data (Type 9 corresponds to Woodcutting)
         const checkSkill = data.find(stat => stat.type === statType);
 
         if (checkSkill) {
@@ -46,11 +44,11 @@ async function fetchXP(statType) {
             document.getElementById("targetXP").value = getXPForLevel(getLevelForXP(XP) + 1);
             runCalc();
         } else {
-            alert("Player not found or not ranked."); // Show alert if no data is found
+            alert("Player not found or not ranked in hiscores.");
         }
     } catch (error) {
-        console.error(error); // Log errors for debugging
-        alert("Error fetching data!"); // Alert user of an error
+        console.error(error);
+        alert("Error fetching data!");
     }
 }
 
