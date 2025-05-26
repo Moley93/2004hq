@@ -116,10 +116,17 @@ async function lookupPlayer() {
                         }
                     });
                     break;
+
                 case /^Quest complete:/i.test(desc):
                     iconSrc = "img/questicon.png";
                     altText  = "Quest complete icon";
                     break;
+                
+                case /^Completed (?:a|an) (?:Easy|Medium|Hard) Clue Scroll\b/i.test(desc):
+                    iconSrc = "img/clueicon.png";
+                    altText  = "Clue Scroll";
+                    break;
+
                 default:
                     iconSrc = "";
                     break;
