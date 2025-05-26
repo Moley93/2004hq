@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> South of Al Kharid a new desert pass has opened up, leading to the dangers of the Kharid desert. Don your desert garb and make sure your waterskin is full before heading off into the trackless dunes in search of desert adventure.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -73,6 +75,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Once outside go north to Irena and talk to her.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/zg5CuGuf2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by imthecoolest and haxhi4life. Thanks to DRAVAN for corrections.
 <br><br>
 This quest guide was entered into the database on Wed, Jun 09, 2004, at 12:46:01 PM by DRAVAN and CJH and was last updated on Wed, Dec 01, 2004, at 11:20:10 PM by DRAVAN.

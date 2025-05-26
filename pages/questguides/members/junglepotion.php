@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Trufitus Shakaya of the Tai Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his Gods.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -42,6 +44,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Once you return, Trifitus will thank you, reward you, and train you in Herblore. (Congratulations)</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/SSZCkP2A3G4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by Gnat88.
 <br><br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:16:05 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:19:02 PM.

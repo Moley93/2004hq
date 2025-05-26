@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> The prosperous Servil family have been abducted by the infamous General Khazard. He plans to have the family battle for his entertainment in the fight arena. Can you rescue the Servil's before the tyrant has these innocent (not to mention wealthy) civillians slain.
 <br><br>
 <b>Difficulty: <font color="Red">Experienced</font></b>
@@ -32,6 +34,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>If you leave before you've killed the General to get food or something, and when you return it says you can't go in because it's locked, head to Lady Servil—you're done. (This happened to me.) On the other hand, if you defeat them, talk to one of the Servils, then head to Lady Servil to claim your reward. (Congratulations)</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/UjPa7n7Ymj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by Gnat88. Thanks to rs, blakmagic123, and Keystone for corrections.
 <br><br>
 This quest guide was entered into the database on Wed, Mar 03, 2004, at 02:52:53 PM by Fudge and was last updated on Mon, Apr 19, 2004, at 11:46:13 AM.

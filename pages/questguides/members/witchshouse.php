@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> A young boy who lives in Taverley has kicked his ball into the garden of a scary old lady. He asks you to get it back for him. This proves more difficult than it first sounds.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -40,10 +42,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 2nd form: Level 30 spider<br>
 3rd form: Level 42 bear<br>
 4th and final form: Level 53 wolf</div>
-<br>
-<br>
+<br><br>
 <div data-progress>After defeating the experiment (congratulations), grab the ball and open the door. For the last time, sneak toward the house, then exit and return the ball to the boy for your reward.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/rW1R9e0xDDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Gnat88. Thanks to Weezy, Deano, and Keystone for corrections.
 <br><br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 04:32:32 PM by Monkeychris and CJH and was last updated on Sat, Oct 09, 2004, at 12:12:15 AM.

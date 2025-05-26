@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Gertrude's cat has been missing for some time now - for her piece of mind her prized pet must be rescued. Handling cats isn't an easy business. They get hungry and need plenty of attention but if you're the pet type, then this is the quest for you!
 <br><br>
 <b>Difficulty: <font color="Green">Novice</font></b>
@@ -35,6 +37,8 @@ Kitten Care:
 <br><br>
 To make kittens grow into cats, you can use balls of wool with them, have them chase and kill rats, pet them, feed them sardines and other fish, and give them milk. Be careful not to feed it too much, or it will become fat. Once it has grown into a cat, you can take it to Gertrude's cousin in West Ardougne, assuming you have completed Plague City and Biohazard to get in. He'll give you 25 death runes in exchange for the cat.
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/2Xds1Qzf4iQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Gnat88. Thanks to henry-x for corrections.
 <br><br>
 This quest guide was entered into the database on Sat, Feb 28, 2004, at 06:20:27 PM by Monkeychris and was last updated on Wed, Mar 31, 2004, at 04:58:57 PM.

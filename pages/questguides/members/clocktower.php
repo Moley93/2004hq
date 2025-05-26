@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Help the confused Brother Kojo find the missing cogs and fix his watch tower. Search the dungeon using brawn and brains to correctly place the four cogs.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -76,6 +78,8 @@ Blue Cog:
 <br><br>
 <div data-progress>Now that all of the cogs have been placed, talk to Brother Kojo to receive your reward.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/nRVmyKK2NnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by Firkløver. Thanks to patgil2003, Dravan, and wacp for corrections.
 <br><br>
 This quest guide was entered into the database on Sun, Apr 25, 2004, at 12:58:11 PM by stormer and CJH and was last updated on Fri, Nov 19, 2004, at 09:34:39 PM by MrStormy.

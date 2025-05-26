@@ -120,9 +120,6 @@ Range Option:<br>
 <br><br>
 <div data-progress>Once you find it return to King and he will reward you. You will also be able to use the glider, and there is now a mine open beneath the tree, accessible by pushing some roots. To access this mine in the future, enter the Grand Tree and move the tile in the floor.</div>
 $questComplete
-<br>
-<iframe width="450" height="253" src="https://www.youtube.com/embed/QceJS4nBTSg?si=x_9tyx5xmV1zx4aj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<br><br>
 <h3>The Gnome Translation Guide</h3>
 Arpos: Rocks<br>
 Andos: Gate<br>
@@ -164,7 +161,9 @@ Sind: Big<br>
 ta: the<br>
 tuzo: open<br>
 Daconia: Daconia<br>
-<br>
+<hr>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/QceJS4nBTSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by pj. Thanks to Swaty, Koppen, Your Homey 1, Pirate Bob49, and faital03 for corrections.
 <br><br>
 This quest guide was entered into the database on Sat, May 08, 2004, at 02:19:43 PM by Freakybat, CJH, Headshot and was last updated on Thu, Aug 19, 2004, at 03:28:30 AM.

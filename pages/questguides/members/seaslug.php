@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Something strange is happening on the fishing platform. Missing fishermen and the presence of dozens of strange sea creatures gives cause for concern. Investigate the platform, discover the truth before it's too late.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -36,6 +38,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go back to Holgart and return to land. Talk to Caroline to claim your reward.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/yUiI6nQBxio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Gnat88, warfangmage, and super_dude. Thanks to Weezy and DRAVAN for corrections.
 <br><br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 09:30:16 PM by Wiz-Master and CJH and was last updated on Mon, Aug 02, 2004, at 08:37:38 AM.

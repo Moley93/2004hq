@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Rantz the Ogre needs to feed his demanding children, Fycie and Bugs so he wants to go Big Chompy Bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Could someone please give him a hand.
 <br><br>
 <b>Difficulty: <font color="Yellow">Intermediate</font></b>
@@ -98,6 +100,8 @@ The food items can be found around the Ogre city area and around the area where 
 <br><br>
 <div data-progress>When you have cooked the bird, go to Rantz and talk to him.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/5cgpi7BZgfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by MuH-K0o0o and Manana447, pictures by Xjoe and MrStormy, and table by Freakybat and Eric2203. Thanks to Freakybat, trekkie, stormer, henry-x, and DRAVAN for corrections.
 <br><br>
 This quest guide was entered into the database on Tue, May 18, 2004, at 01:37:33 PM by MrStormy and was last updated on Thu, Jun 03, 2004, at 09:06:25 PM.

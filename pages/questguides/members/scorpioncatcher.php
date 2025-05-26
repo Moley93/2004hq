@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Thormac has lost his rare lesser kharid scorpions after leaving their cage door open. These scorpions have hidden in areas that are rather difficult to get into. You will have to overcome various challenges (and drink a lot of beer) to get all the scorpions back. If you manage to help him Thormac will improve your battle staffs.
 <br><br>
 <b>Difficulty: <font color="Red">Experienced</font></b>
@@ -70,6 +72,8 @@ Third Scorpion
 <br><br>
 <div data-progress>When you have all of the Scorpions, head back to the Wizard and he will give you your reward.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/XW9g-SpMZGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by 70347, Firklover, and irish_buddha. Thanks to Funkymetal for corrections.
 <br><br>
 This quest guide was entered into the database on Sun, May 02, 2004, at 02:08:30 PM by Cav103 and CJH and was last updated on Mon, Aug 02, 2004, at 08:36:41 AM.

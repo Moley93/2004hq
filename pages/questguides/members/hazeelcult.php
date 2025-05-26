@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Discover the truth behind the Carnillean family fortune. Decide for yourself whether to aid the Carnilleans in retrieving stolen goods, or join the Hazeel cult members in their mission to resurrect the infamous Lord Hazeel.
 <br><br>
 <b>Difficulty: <font color="Green">Novice</font></b>
@@ -83,7 +85,9 @@ $questComplete
 5th Valve: Follow the Zoo fence path south until iron rocks — turn right
 <br><br>
 <img src="img\questimages\hazeelcult8.png" width="350">
-<br><br>
+<hr>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/cIp8RSt7Mqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by Firkløver, G I Jew, MarilynManson, and Mr. Stormy. Thanks to Fudge and joesmo for corrections.
 <br><br>
 This quest guide was entered into the database on Tue, Apr 27, 2004, at 05:18:50 PM by DRAVAN and was last updated on Thu, Jul 08, 2004, at 06:27:39 PM.

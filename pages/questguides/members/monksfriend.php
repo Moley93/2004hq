@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> A monk's child has had their blanket stolen. Find the thieves' den and return the blanket, then help Brother Omad organise the drinks for the child's birthday party.
 <br><br>
 <b>Difficulty: <font color="Green">Novice</font></b>
@@ -33,6 +35,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to him and he'll give you the runes. Then, you party. Unfortunately, you can't burst the party balloons, but those monks really know how to get down, party, and boogie like there's no tomorrow.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/RGtFydVFvac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written on RuneHQ by Gnat88.
 <br><br>
 This quest guide was entered into the database on Tue, Mar 02, 2004, at 10:10:53 PM by Weezy and was last updated on Wed, Mar 31, 2004, at 05:20:06 PM.

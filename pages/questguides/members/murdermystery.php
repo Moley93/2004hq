@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Lord Sinclair, a highly respected Nobleman of Kandarin has been found murdered in his mansion. Despite the presence of a large number of guards all working hard to solve the crime, local law enforcement officers are totally baffled. Can you use your razor sharp analytical mind to uncover the evidence and unmask the culprit?
 <br><br>
 <b>Difficulty: <font color="Green">Novice</font></b>
@@ -55,6 +57,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to the guard and tell him you have evidence identifying the culprit. He'll ask you about each item and collect the evidence from you. He'll say the culprit will be placed under house arrest until the trial, and thank you for your help.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/w7R_JHAXLPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by supercoolyo. Thanks to Dravan, Dracon, and Matty98 for corrections.
 <br><br>
 This quest guide was entered into the database on Sun, May 09, 2004, at 11:26:19 AM by Cav103 and was last updated on Thu, May 27, 2004, at 07:47:44 AM.

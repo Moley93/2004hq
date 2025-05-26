@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?
 <br><br>
 <b>Difficulty: <font color="Red">Experienced</font></b>
@@ -67,6 +69,8 @@ Ranged and Magic: There is one safe spot in the room.
 <br><br>
 <img src="img\questimages\lostcity6.png" height="300" width="350">
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/9tmB1Gz4y3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Gnat88, Galalad, and Alfawarlord. Thanks to Jakesterwars, Lilroo503, and Khaaveren for corrections.
 <br><br>
 This quest guide was entered into the RuneHQ database on Tue, Mar 02, 2004, at 10:24:00 PM by Wiz-Master and CJH and was last updated on Thu, Oct 25, 2007, at 08:26:39 AM by Jakesterwars.

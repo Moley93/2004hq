@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> Second part of an ongoing adventure. Help Elena discover the truth about the infamous ardounge plague. Smuggle test samples across ardounge to Elena's old mentor.
 <br><br>
 <b>Difficulty: <font color="Green">Novice</font></b>
@@ -55,6 +57,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>The king is on the <span data-floors="US">2nd floor</span> of the palace in Ardougne. The palace is located in the southwest of Ardougne. Talk to King Lathas, and he will tell you about his brother, King Tyras, and reward you.</div>
 $questComplete
-This quest guide was written on RuneHQ by henry-x. Thanks to Weezy, Shaw, stormer, bowman_1990, Eric2203, bmx 768, and Halfling_hopperston for corrections.<br><br>
+<iframe width="450" height="253" src="https://www.youtube.com/embed/pyQ_gkfuGMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
+This quest guide was written on RuneHQ by henry-x. Thanks to Weezy, Shaw, stormer, bowman_1990, Eric2203, bmx 768, and Halfling_hopperston for corrections.
+<br><br>
 This quest guide was entered into the database on Mon, Feb 09, 2004, at 05:46:58 PM by Sand Scape and was last updated on Sun, May 23, 2004, at 07:27:03 PM.
 HTML; }

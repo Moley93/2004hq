@@ -1,6 +1,8 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
+<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<br><br>
 <b>Description:</b> The Underground Pass, sealed for thousands of years, has now been reopened to reveal a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take it's toll, mental strength is what you'll need...
 <br><br>
 <b>Difficulty: <font color="Red">Experienced</font></b>
@@ -139,6 +141,8 @@ Note: When looking for the dove, remember there are two cage sections—one in t
 <br><br>
 <div data-progress>You will be flung into an underground area. Talk to the helper again and he'll take you outside.</div>
 $questComplete
+<iframe width="450" height="253" src="https://www.youtube.com/embed/JPCLqBultWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
 This quest guide was written by Swaty and quackmann. Thanks to Stormer, jimfromtx, ImaGasLT, jfta0007, u gone lol, einsteinman, Master242424, and martori for corrections.
 <br><br>
 This quest guide was entered into the database on Mon, Apr 19, 2004, at 08:03:18 PM by DRAVAN and CJH and was last updated on Sat, Aug 07, 2004, at 11:06:43 PM.
