@@ -7,6 +7,7 @@ $breadcrumbMap = [
     'Clue Tables' => '?p=clueptables',
     'Street Prices' => '?p=streetprices',
     'Treasure Trails' => '?p=clueguides',
+    'Item Database' => '?p=itemdb',
     'Player Lookup' => '?p=playerinfo',
 ];
 

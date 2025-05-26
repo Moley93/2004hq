@@ -1,4 +1,7 @@
 <?php
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">';
+}
 function getPageContent() {
     global $meta_data, $siteOptStyle;
     $meta_data['title'] = 'Item Database';
@@ -7,12 +10,14 @@ function getPageContent() {
 
     return <<<HTML
 <link rel="stylesheet" type="text/css" href="pages/itemdb/itemlist.css" />
-<h3>Item Database</h3>
-<div id="item-search-container">
-  <label for="search1">Item Search</label>
-  <input type="text" id="search1" list="items-list" placeholder="Search term"><br><br>
-  <label for="search2">Second Item</label>
-  <input type="text" id="search2" list="items-list" placeholder="(optional) to compare">
+<h2>Item Database</h2>
+<div class="input-group">
+  <div id="item-search-container">
+    <label for="search1">Item Search</label>
+    <input type="text" id="search1" list="items-list" placeholder="Search term"><br><br>
+    <label for="search2">Second Item</label>
+    <input type="text" id="search2" list="items-list" placeholder="(optional) to compare">
+  </div>
 </div>
 <hr>
 <datalist id="items-list"></datalist>

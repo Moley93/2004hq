@@ -81,15 +81,16 @@ function getPageContent() {
 <h2>Player Lookup</h2>
 <div class="container">
     <div class="input-group">
-        <label>Username</label>
+        <label>Player Search</label>
         <input type="text" id="username" name="username" required
             pattern="^[A-Za-z0-9_ ]{1,12}$" title="Username must be 1–12 letters, numbers, spaces, or underscores only."
-            minlength="1" maxlength="12">
+            minlength="1" maxlength="12"
+            placeholder="Username">
         <button onclick="lookupPlayer()">Lookup Player</button>
     </div>
 </div>
 <hr>
-<div id="playerInfo">Please use the search box to lookup a player.</div>
+<div id="playerInfo"></div>
 <script src="pages/playerinfo/playerinfo.js"></script>
 HTML;
 }

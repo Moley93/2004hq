@@ -116,7 +116,7 @@ button {
     }
     input,
     select {
-        width: 40%;
+        min-width: 20%;
         box-sizing: border-box;
         padding: 5px;
         margin-right: 25px;
