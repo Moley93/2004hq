@@ -232,7 +232,7 @@ function getStatInfo(statID, type) {
         16: ["Herblore",    "img/skillicons/herblore.webp"],
         17: ["Agility",     "img/skillicons/agility.webp"],
         18: ["Thieving",    "img/skillicons/thieving.webp"],
-        21: ["Runecrafting","img/skillicons/runecrafting.webp"],
+        21: ["Runecraft",   "img/skillicons/runecrafting.webp"],
     };
     const entry = stats[statID];
     switch (type) {
