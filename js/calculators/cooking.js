@@ -31,7 +31,7 @@ function runCalc() {
         { name: "Swordfish", xp: 140, level: 45 },
         { name: "Meat Pizza", xp: 169, level: 45 },
         { name: "Chocolate Cake", xp: 210, level: 50 },
-        { name: "Lava Eel", xp: 30, level: 53 },
+        { name: "Lava Eel", xp: 140, level: 53 },
         { name: "Anchovie Pizza", xp: 182, level: 55 },
         { name: "Pitta Bread", xp: 40, level: 58 },
         { name: "Curry", xp: 280, level: 60 },
