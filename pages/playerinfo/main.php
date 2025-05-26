@@ -74,6 +74,7 @@ function getPageContent() {
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
+  font-weight: none;
   color: #fff;
 }
 </style>

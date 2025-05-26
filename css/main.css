@@ -386,7 +386,16 @@ A.pink:hover {
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-        display: table; /* Optional: keeps it centered horizontally if parent is centered */
+        display: table;
+    }
+    hr {
+        margin: 15px 0 -25px;
+        overflow: visible;
+        height: 30px;
+        border-style: solid;
+        border-color: #393939;
+        border-width: 2px 0 0 0;
+        border-radius: 15px;
     }
     hr::before {
         display: block;
@@ -396,17 +405,8 @@ A.pink:hover {
         border-style: solid;
         border-color: #393939;
         border-width: 0 0 2px 0;
-        border-radius: 20px;
+        border-radius: 15px;
     }
-    hr {
-        overflow: visible; /* For IE */
-        height: 30px;
-        border-style: solid;
-        border-color: #393939;
-        border-width: 2px 0 0 0;
-        border-radius: 20px;
-    }
-
 }
 #scrollToTop {
     position: fixed;

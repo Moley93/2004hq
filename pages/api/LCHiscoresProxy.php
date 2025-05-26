@@ -1,9 +1,7 @@
 <?php
-// Allow your frontend to access this endpoint
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-// Get the username from the query string
 if (!isset($_GET['username']) || empty($_GET['username'])) {
     http_response_code(400);
     echo json_encode(["error" => "Missing username parameter."]);
@@ -13,7 +11,6 @@ if (!isset($_GET['username']) || empty($_GET['username'])) {
 $username = urlencode($_GET['username']);
 $remoteUrl = "https://2004.lostcity.rs/api/hiscores/player/$username";
 
-// Fetch data from the remote API
 $options = [
     "http" => [
         "method" => "GET",
