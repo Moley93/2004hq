@@ -194,25 +194,25 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
         <td>No</td>
     </tr>
     <tr>
-        <td>0</td>
+        <td>1</td>
         <td>Rope Swing</td>
         <td>20</td>
         <td><font color=orange>Yes</font></td>
     </tr>
     <tr>
-        <td>0</td>
+        <td>1</td>
         <td>Stepping Stones</td>
         <td>20</td>
         <td><font color=orange>Yes</font></td>
     </tr>
     <tr>
-        <td>0</td>
+        <td>1</td>
         <td>Log</td>
         <td>20</td>
         <td><font color=orange>Yes</font></td>
     </tr>
     <tr>
-        <td>0</td>
+        <td>1</td>
         <td>Rocks</td>
         <td>0</td>
         <td>No</td>
