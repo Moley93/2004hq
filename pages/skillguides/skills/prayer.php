@@ -1,7 +1,9 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
+<hr>
 <p>
+    <h3>Introduction</h3>
     As well as using magic spells you can also pray to the gods of RuneScape to give you an advantage. To view the available prayers, select the prayer icon from your interface. You can see what each prayer does by moving your mouse over the icon.
     <br><br>
     The list of prayers shown will light up when you are at the appropriate level to use them. If the icon for the prayer is darkened then you are not at a high enough level to use that prayer.
@@ -12,9 +14,301 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     To recharge your prayer-points you must find a church in the game, and left click on the altar to recharge. You are then ready to use the different prayers again.
     <br><br>
-    <img src="img/skillguides/prayer1.jpg" height="380" width="450">
+    <img src="img/skillguides/prayer1.jpg" width="450">
     <br><br>
     To use the prayers for longer, and to use the higher-level prayers in the game you need to increase your total prayer-points. You do this by burying bones from monsters you kill. Take the bones, and then left click on them in your inventory to bury them. You need to bury quite a lot of bones to advance a level, but luckily they are quite easy to come by.
-    <br>
+    <hr>
+    <h3>Prayer List</h3>
+    There are many different types of prayers. Below is a table of each prayer and the effect it has when you use it. When using prayers, your Prayer points will be consumed. When you run out of Prayer points you will have to visit an altar to recharge them. Members can also drink Prayer potions to restore prayer.
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody><tr>
+            <th>Level</th>
+            <th>Picture</th>
+            <th>Prayer</th>
+            <th>Prayer Effect</th>
+        </tr>
+            <td>1</td>
+            <td><img src="img/skillguides/prayericons/thickskin.gif"></td>
+			<td>Thick Skin</td>
+			<td>Increases your defense by 5%.</td>
+        <tr>
+        </tr>
+            <td>4</td>
+            <td><img src="img/skillguides/prayericons/burstofstrength.gif"></td>
+			<td>Burst of Strength</td>
+			<td>Increases your strength by 5%.</td>
+        <tr>
+        </tr>
+            <td>7</td>
+            <td><img src="img/skillguides/prayericons/clarityofthought.gif"></td>
+			<td>Clarity of Thought</td>
+			<td>Increases your attack by 5%.</td>
+        <tr>
+        </tr>
+            <td>10</td>
+            <td><img src="img/skillguides/prayericons/rockskin.gif"></td>
+			<td>Rock Skin</td>
+			<td>Increases your defense by 10%.</td>
+        <tr>
+        </tr>
+            <td>13</td>
+            <td><img src="img/skillguides/prayericons/superhumanstrength.gif"></td>
+			<td>Superhuman Strength</td>
+			<td>Increases your strength by 10%.</td>
+        <tr>
+        </tr>
+            <td>16</td>
+            <td><img src="img/skillguides/prayericons/improvedreflexes.gif"></td>
+			<td>Improved Reflexes</td>
+			<td>Increases your attack by 10%.</td>
+        <tr>
+        </tr>
+            <td>19</td>
+            <td><img src="img/skillguides/prayericons/rapidrestore.gif"></td>
+			<td>Rapid Restore</td>
+			<td>2x restore rate for stats except prayer/hp.</td>
+        <tr>
+        </tr>
+            <td>22</td>
+            <td><img src="img/skillguides/prayericons/rapidheal.gif"></td>
+			<td>Rapid Heal</td>
+			<td>2x restore rate for Hitpoints.</td>
+        <tr>
+        </tr>
+            <td>25</td>
+            <td><img src="img/skillguides/prayericons/protectitems.gif"></td>
+			<td>Protect Item</td>
+			<td>Keep 1 extra item if you die. [Note this WILL NOT protect clue scrolls!]</td>
+        <tr>
+        </tr>
+            <td>28</td>
+            <td><img src="img/skillguides/prayericons/steelskin.gif"></td>
+			<td>Steel Skin</td>
+			<td>Increases your defense by 15%.</td>
+        <tr>
+        </tr>
+            <td>31</td>
+            <td><img src="img/skillguides/prayericons/ultimatestrength.gif"></td>
+			<td>Ultimate Strength</td>
+			<td>Increases your strength by 15%.</td>
+        <tr>
+        </tr>
+            <td>34</td>
+            <td><img src="img/skillguides/prayericons/incrediblereflexes.gif"></td>
+			<td>Incredible Reflexes</td>
+			<td>Increases your attack by 15%.</td>
+        <tr>
+        </tr>
+            <td>37</td>
+            <td><img src="img/skillguides/prayericons/protectionfrommagic.gif"></td>
+			<td>Protection From Magic</td>
+			<td>Protects you from magical attacks.</td>
+        <tr>
+        </tr>
+            <td>40</td>
+            <td><img src="img/skillguides/prayericons/protectionfromranged.gif"></td>
+			<td>Protection From Missiles</td>
+			<td>Protects you from ranged attacks.</td>
+        <tr>
+        </tr>
+            <td>43</td>
+            <td><img src="img/skillguides/prayericons/protectionfrommelee.gif"></td>
+			<td>Protection From Melee</td>
+			<td>Protects you from melee attacks.</td>
+        <tr></tbody>
+    </table>
+    <hr>
+    <h3>The Experience Table</h3>
+    There are many different types of bones you can bury in the RuneScape world. Below is a table of different bones that you can bury. Different types of bones give different amounts of experience. Some bones are harder to get than others.
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody><tr>
+            <th>Picture</th>
+            <th>Bone Name</th>
+            <th>Exp</th>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=bones></canvas></td>
+            <td>Bones</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=bones_burnt></canvas></td>
+            <td>Burnt Bones</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=bat_bones></canvas></td>
+            <td>Bat Bones</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=wolf_bones></canvas></td>
+            <td>Wolf Bones</td>
+            <td>4.5</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=big_bones></canvas></td>
+            <td>Big Bones</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=babydragon_bones></canvas></td>
+            <td>Babydragon Bones</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td><canvas data-itemname=dragon_bones></canvas></td>
+            <td>Dragon Bones</td>
+            <td>72</td>
+        </tr></tbody>
+    </table>
+    <hr>
+    <h3>Where to get Bones</h3>
+    Now you know the basics or prayer, but you may be asking yourself, "where can I get some of these bones to bury?" Well, you could always buy the bones, but that could really put a hole in your bank. The cheapest way to raise prayer is to just kill monsters for the bones. <font color="red">If the text is red, it means the monster is in a members only area.</font>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=bones></canvas> Regular Bones <canvas data-itemname=bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Most of the smaller monsters in the RuneScape world drop regular bones. A great spot for raising prayer with regular bones is the Khazard battlefield (members only). There are some monsters that do not drop any bones, however. Some examples include: Spiders, Scorpions, Animated Axes, Earth Warriors, Demons, Ghosts, Otherworldly Beings, Imps, Ice Warriors and some quest monsters.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th>
+                    <div class="centered-content"><canvas data-itemname=bones_burnt></canvas> Burnt Bones <canvas data-itemname=bones_burnt></canvas></div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Burnt bones can be found at the Greater Demon hut in the wilderness. They give the same experience as normal bones, but are "burnt". Be careful of Player Killers when gathering these bones.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=bat_bones></canvas> Bat Bones <canvas data-itemname=bat_bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Bat bones are dropped by those pesky flying bats. They give a tiny bit more experience than normal bones. They are recommended for members that have low level prayer. Bats can be found at the following places:
+                    <br><br>
+                    <ul>
+                        <li><font color="red">Giant Bat (lv27) - Giant room in Taverley Dungeon</font></li>
+                        <li><font color="red">Giant Bat (lv27) - Outside Keep LeFaye</font></li>
+                        <li><font color="red">Giant Bat (lv27) - Inside Legend's Guild Dungeon</font></li>
+                        <li><font color="red">Giant Bat (lv27) - Coal truck mining area</font></li>
+                        <li><font color="red">Giant Bat (lv27) - Various other underground caverns</font></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=wolf_bones></canvas> Wolf Bones <canvas data-itemname=wolf_bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Wolf Bones are pretty much the same as normal bones. You can bury them for the same amount of experience as a normal bone, or you can use a chisel on them to make some arrow heads. Wolf bones are obtained from killing different types of wolves spread through the runescape world. Wolves can be found at the following places:
+                    <br><br>
+                    <ul>
+                        <li><font color="red">White Wolf (lv25) - Around White Mountain</font></li>
+                        <li><font color="red">Desert Wolf (lv27) - Al Kharid Desert Area</font></li>
+                        <li><font color="red">White Wolf Sentry (lv31) - Around White Mountain</font></li>
+                        <li><font color="red">Grey Wolf (lv64) - Wilderness level 50-54</font></li>
+                        <li><font color="red">Wolf (lv64) - Khazard battlefield, Rellekka, Tree Gnome Village Maze</font></li>
+                        <li><font color="red">Big Wolf (lv71) - Around White Wolf Mountain</font></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=big_bones></canvas> Big Bones <canvas data-itemname=big_bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Big Bones are the best bone on F2P. They give 15xp each and are dropped by bigger creatures. There are many monsters that drop big bones. Monsters that drop big bones can be found at the following places:
+                    <br><br>
+                    <ul>
+                        <li>Hill Giant (lv28) - Edgeville dungeon</li>
+                        <li><font color="red">Hill Giant (lv28) - Tree Gnome Village Maze</font></li>
+                        <li>Moss Giant (lv40) - Varrock Sewers</li>
+                        <li>Moss Giant (lv40) - Wilderness</li>
+                        <li><font color="red">Moss Giant (lv40) - Near Baxtorian Falls, Crandor and Brimhaven</font></li>
+                        <li><font color="red">Ogre (lv48) - Ardougne Sewers</font></li>
+                        <li><font color="red">Ogre (lv48) - Blood Rune Chest</font></li>
+                        <li><font color="red">Jogre (lv48) - Karamja Jungle</font></li>
+                        <li>Ice Giant (lv54) - Blurite Cave</li>
+                        <li>Ice Giant (lv54) - Wilderness</li>
+                        <li><font color="red">Ice Giant (lv54) - White Wolf Mountain</font></li>
+                        <li><font color="red">Fire Giant (lv93) - Wilderness</font></li>
+                        <li><font color="red">Fire Giant (lv93) - Inside Waterfall</font></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=babydragon_bones></canvas> Babydragon Bones <canvas data-itemname=babydragon_bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Babydragon Bones are dropped by Baby Blue Dragons in the Taverley dungeon. They were one of the most popular and fastest methods for raising prayer. Baby Blue Dragons do not have dragons breath so you do not need an Anti-Fire shield to train on them. Babydragon bones can be obtained at the following places:
+                    <br><br>
+                    <ul>
+                        <li><font color="red">Baby blue dragon (lv43) - Taverley Dungeon next to Blue Dragons.</font></li>
+                        <li><font color="red">Baby red dragon (lv65) - Karamja Dragon Dungeon.</font></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table cellpadding="1" cellspacing="0" class="calculators">
+        <tbody>
+            <tr>
+                <th><div class="centered-content"><canvas data-itemname=dragon_bones></canvas> Dragon Bones <canvas data-itemname=dragon_bones></canvas></div></th>
+            </tr>
+            <tr>
+                <td>
+                    Dragon Bones used to be the highest bone in Runescape. They give 72xp each and are expensive if bought from other people. They are hard to obtain if you are a low level due to Dragons being quite strong. When fighting Dragons, Anti-fire potions or an Anti-fire shield are pretty much required. Dragons can be found at the following places:
+                    <br><br>
+                    <ul>
+                        <li><font color="red">Green dragons (lv79) - Level 13 and 37 Wilderness</font></li>
+                        <li><font color="red">Blue dragons (lv111) - Taverley dungeon, Hero's Guild basement cage, Ogre cave (Watchtower Quest)</font></li>
+                        <li><font color="red">Bronze dragons (lv131) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Red dragons (lv152) - Level 39 Wilderness, Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Iron dragons (lv189) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Black dragons (lv227) - Taverley Dungeon, Wilderness Dungeon at end of Lava Maze</font></li>
+                        <li><font color="red">Steel dragons (lv246) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">King black dragon (lv279) - Level 41 wilderness</font></li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </p>
+
 HTML; }

@@ -464,3 +464,9 @@ A.pink:hover {
     cursor: pointer;
     font-family: sans-serif;
 }
+
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
