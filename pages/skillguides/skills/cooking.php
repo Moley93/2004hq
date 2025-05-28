@@ -1,7 +1,20 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
+<hr>
 <p>
+	<h3>Introduction</h3>
+	There are various types of food you can cook in RuneScape. By eating food, you regain lost hit points (HP). The amount depends on the type of food you eat. As you train your cooking, you will be able to cook more varieties of food, and you will also burn less.
+	<br><br>
+	To cook food you can use ranges which can be found throughout Runescape. You can also make fires, on which you can cook most types of food.
+	<hr>
+	<h3>Cooking Items</h3>
+	To cook meat, chicken or fish, simply use the raw item on a fire or Range.
+	<br><br>
+	Note: You can deliberately burn things if needed. After you cook them, you can cook them again, and will see the message "You deliberately burn the nicely cooked meat." No exp is gained for burning meat deliberately.
+	<br><br>
+	The table below will show you the foods you can cook, the level requirements to cook them, and how much each food heals. Clicking the item names in the table will take you to instructions for making that item, all of which are listed below the table.
+	<br><br>
 	<table width="100%" cellpadding="1" cellspacing="0" class="calculators">
 		<tbody><tr> 
 			<th>Food</th>
@@ -13,7 +26,7 @@ function getSkillContent($skill) { return <<<HTML
 			<th>Cooked</th>
 		</tr>
 		<tr> 
-			<td>Cooked Meat</td>
+			<td><a href="#meats">Cooked Meat</a></td>
 			<td>1</td>
 			<td>3</td>
 			<td>1</td>
@@ -22,7 +35,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="cooked_meat"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Shrimp</td>
+			<td><a href="#meats">Shrimp</a></td>
 			<td>1</td>
 			<td>3</td>
 			<td>1</td>
@@ -31,25 +44,25 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="shrimp"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Bread</td>
+			<td><a href="#bread">Bread</a></td>
 			<td>1</td>
 			<td>4</td>
 			<td>1</td>
 			<td>40</td>
 			<td><canvas data-itemname="bread_dough"></canvas></td>
 			<td><canvas data-itemname="bread"></canvas></td>
-	</tr>
+		</tr>
 		<tr> 
-			<td>Sardine</td>
+			<td><a href="#meats">Sardine</a></td>
 			<td>1</td>
 			<td>4</td>
 			<td>1</td>
 			<td>40</td>
 			<td><canvas data-itemname="raw_sardine"></canvas></td>
 			<td><canvas data-itemname="sardine"></canvas></td>
-	</tr>
-	<tr> 
-			<td>Herring</td>
+		</tr>
+		<tr> 
+			<td><a href="#meats">Herring</a></td>
 			<td>5</td>
 			<td>5</td>
 			<td>1</td>
@@ -58,7 +71,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="herring"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Mackerel</td>
+			<td><a href="#meats">Mackerel</a></td>
 			<td>10</td>
 			<td>6</td>
 			<td>1</td>
@@ -67,7 +80,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="mackerel"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Redberry Pie</td>
+			<td><a href="#pies">Redberry Pie</a></td>
 			<td>10</td>
 			<td>6</td>
 			<td>2</td>
@@ -76,7 +89,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="redberry_pie"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Anchovies</td>
+			<td><a href="#meats">Anchovies</a></td>
 			<td>15</td>
 			<td>3</td>
 			<td>1</td>
@@ -85,7 +98,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="anchovies"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Trout</td>
+			<td><a href="#meats">Trout</a></td>
 			<td>15</td>
 			<td>7</td>
 			<td>1</td>
@@ -94,7 +107,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="trout"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Cod</td>
+			<td><a href="#meats">Cod</a></td>
 			<td>18</td>
 			<td>7</td>
 			<td>1</td>
@@ -103,7 +116,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="cod"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Pike</td>
+			<td><a href="#meats">Pike</a></td>
 			<td>20</td>
 			<td>8</td>
 			<td>1</td>
@@ -112,7 +125,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="pike"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Meat Pie</td>
+			<td><a href="#pies">Meat Pie</a></td>
 			<td>20</td>
 			<td>8</td>
 			<td>2</td>
@@ -121,7 +134,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="meat_pie"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Salmon</td>
+			<td><a href="#meats">Salmon</a></td>
 			<td>25</td>
 			<td>9</td>
 			<td>1</td>
@@ -130,7 +143,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="salmon"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Stew</td>
+			<td><a href="#stew">Stew</a></td>
 			<td>25</td>
 			<td>9</td>
 			<td>1</td>
@@ -139,7 +152,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="stew"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Chompy Bird</td>
+			<td><a href="#meats">Chompy Bird</a></td>
 			<td>30</td>
 			<td>10</td>
 			<td>1</td>
@@ -148,7 +161,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="cooked_chompy"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Tuna</td>
+			<td><a href="#meats">Tuna</a></td>
 			<td>30</td>
 			<td>10</td>
 			<td>1</td>
@@ -157,7 +170,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="tuna"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Apple Pie</td>
+			<td><a href="#pies">Apple Pie</a></td>
 			<td>30</td>
 			<td>10</td>
 			<td>2</td>
@@ -166,7 +179,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="apple_pie"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Wine</td>
+			<td><a href="#wine">Wine</a></td>
 			<td>35</td>
 			<td>15</td>
 			<td>1</td>
@@ -175,7 +188,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="jug_wine"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Pizza</td>
+			<td><a href="#pizzas">Pizza</a></td>
 			<td>35</td>
 			<td>10</td>
 			<td>1</td>
@@ -184,7 +197,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="plain_pizza"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Lobster</td>
+			<td><a href="#meats">Lobster</a></td>
 			<td>40</td>
 			<td>12</td>
 			<td>1</td>
@@ -193,7 +206,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="lobster"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Cake</td>
+			<td><a href="#cakes">Cake</a></td>
 			<td>40</td>
 			<td>12</td>
 			<td>3</td>
@@ -202,7 +215,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="cake"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Bass</td>
+			<td><a href="#meats">Bass</a></td>
 			<td>43</td>
 			<td>13</td>
 			<td>1</td>
@@ -211,7 +224,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="bass"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Swordfish</td>
+			<td><a href="#meats">Swordfish</a></td>
 			<td>45</td>
 			<td>14</td>
 			<td>1</td>
@@ -220,7 +233,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="swordfish"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Meat Pizza</td>
+			<td><a href="#pizzas">Meat Pizza</a></td>
 			<td>45</td>
 			<td>14</td>
 			<td>2</td>
@@ -229,7 +242,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="meat_pizza"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Chocolate Cake</td>
+			<td><a href="#cakes">Chocolate Cake</a></td>
 			<td>50</td>
 			<td>15</td>
 			<td>3</td>
@@ -237,8 +250,8 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="cake"></canvas></td>
 			<td><canvas data-itemname="chocolate_cake"></canvas></td>
 		</tr>
-					<tr> 
-			<td>Oomlie Wrap</td>
+		<tr> 
+			<td><a href="#oomlie_wrap">Oomlie Wrap</a></td>
 			<td>50</td>
 			<td>14</td>
 			<td>1</td>
@@ -247,7 +260,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="wrapped_oomlie"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Lava Eel</td>
+			<td><a href="#meats">Lava Eel</a></td>
 			<td>53</td>
 			<td>14</td>
 			<td>1</td>
@@ -256,7 +269,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="lava_eel"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Anchovy Pizza</td>
+			<td><a href="#pizzas">Anchovy Pizza</a></td>
 			<td>55</td>
 			<td>16</td>
 			<td>2</td>
@@ -274,7 +287,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="ugthanki_kebab"></canvas></td>
 		</tr>-->
 		<tr> 
-			<td>Curry</td>
+			<td><a href="curry">Curry</a></td>
 			<td>60</td>
 			<td>19</td>
 			<td>1</td>
@@ -283,7 +296,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="curry"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Pineapple Pizza</td>
+			<td><a href="#pizzas">Pineapple Pizza</a></td>
 			<td>65</td>
 			<td>20</td>
 			<td>2</td>
@@ -292,7 +305,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="pineapple_pizza"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Shark</td>
+			<td><a href="#meats">Shark</a></td>
 			<td>80</td>
 			<td>20</td>
 			<td>1</td>
@@ -301,7 +314,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="shark"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Sea Turtle</td>
+			<td><a href="#meats">Sea Turtle</a></td>
 			<td>82</td>
 			<td>20</td>
 			<td>1</td>
@@ -310,7 +323,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="seaturtle"></canvas></td>
 		</tr>
 		<tr> 
-			<td>Manta Ray</td>
+			<td><a href="#meats">Manta Ray</a></td>
 			<td>91</td>
 			<td>22</td>
 			<td>1</td>
@@ -319,5 +332,90 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="mantaray"></canvas></td>
 		</tr>
 	</tbody></table>
+	<hr>
+	<h3>How to Cook</h3>
+	<h4 id="bread">Bread</h4>
+	<ol>
+		<li>Pick some grain and take it to the windmill to make flour.</li>
+		<li>You will need to use a pot to pick up the flour you have made.</li>
+		<li>Buy a bucket or jug and fill it with water from a sink or fountain.</li>
+		<li>Mix the flour and water to make some bread dough.</li>
+		<li>Cook the dough by using it with a stove.</li>
+	</ol>
+	<h4 id="meats">Meats</h4>
+	<ol>
+		<li>Obtain raw meat by killing animals or by fishing for raw fish.</li>
+		<li>Use the raw meat or fish on the fire or stove to cook it.</li>
+		<li>????</li>
+		<li>Profit!</li>
+	</ol>
+	<h4 id="pies">Pies</h4>
+	<ol>
+		<li>Mix flour and water to make some pastry dough.</li>
+		<li>Place the dough in an empty pie dish.</li>
+		<li>Use your choice of filling with the empty pie.
+			<ul>
+			<li>Redberry Pie:
+				<ol>
+				<li>Add a redberry to fill your pie.</li>
+				</ol>
+			</li>
+			<li>Apple Pie:
+				<ol>
+				<li>Add a cooking apple to fill your pie.</li>
+				</ol>
+			</li>
+			<li>Meat Pie:
+				<ol>
+				<li>Add a piece of meat to fill your pie.</li>
+				</ol>
+			</li>
+			</ul>
+		</li>
+		<li>Cook the pie by using it with a stove.</li>
+	</ol>
+	<h4 id="cakes">Cakes</h4>
+	<ol>
+		<li>Mix flour, eggs, and milk together in a cake tin.</li>
+		<li>Cook the cake by using it with a stove.</li>
+		<li>Buy some chocolate and add it to the cake, to make Chocolate Cake.</li>
+	</ol>
+	<h4 id="stew">Stew</h4>
+	<ol>
+		<li>Obtain a bowl, and fill it with water from a sink or fountain.</li>
+		<li>Pick a potato and place it in the bowl.</li>
+		<li>Cook some meat and place it in the bowl.</li>
+		<li>Cook the stew by using it with a stove or fire.</li>
+	</ol>
+	<h4 id="curry">Curry</h4>
+	<ol>
+		<li>Make some uncooked stew (see Stew description).</li>
+		<li>Before cooking the stew add 1 Spice (bought or thieved from Spice stall in Ardougne market square).</li>
+		<li>Cook the curry by using it with a stove or fire.</li>
+	</ol>
+	<h4 id="wine">Wine</h4>
+	<ol>
+		<li>Fill a jug with water.</li>
+		<li>Use grapes with the jug of water.</li>
+		<li>Wait until the wine ferments.</li>
+		<li>Wine will ferment when left in your inventory or the bank.</li>
+	</ol>
+	<h4 id="pizzas">Pizzas</h4>
+	<ol>
+		<li>Mix flour and water to make a pizza base.</li>
+		<li>Buy a tomato and add it to the pizza.</li>
+		<li>Buy some cheese and add it to the pizza.</li>
+		<li>Cook the pizza by using it with a stove.</li>
+		<li>Add your choice of topping to the pizza.</li>
+	</ol>
+	<h4 id="oomlie_wrap">Oomlie Wrap</h4>
+	<ol>
+		<li>You can find Oomlie Birds (lvl 45 - look like brown chickens) inside Kharazi Jungle. Kharazi jungle is the area you explore while doing the Legends quest (you can't enter the jungle unless you're doing or did the Legends quest). It's the most southern part of Karamja Island.</li>
+		<li>Kill an Oomlie Bird. It will drop a Raw Oomlie Meat which looks just like a raw chicken.</li>
+		<li>Go to the totem pole (if you did the Legends quest - you'll know what it is) which can be found on the western part of the jungle (not on the shore) or look near the Water Pool. You should see a big tree near it with the option to shake it.</li>
+		<li>Shake the tree. A Palm leaf will appear on the ground.</li>
+		<li>Use the leaf on the Raw oomlie meat to wrap it up.</li>
+		<li>Cook the Oomlie wrap on a fire or range. (Unwrapped Oomlie will always burn.)</li>
+	</ol>
 </p>
 HTML; }
