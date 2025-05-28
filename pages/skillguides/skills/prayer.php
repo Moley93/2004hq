@@ -206,11 +206,11 @@ function getSkillContent($skill) { return <<<HTML
                     Bat bones are dropped by those pesky flying bats. They give a tiny bit more experience than normal bones. They are recommended for members that have low level prayer. Bats can be found at the following places:
                     <br><br>
                     <ul>
-                        <li><font color="red">Giant Bat (lv27) - Giant room in Taverley Dungeon</font></li>
-                        <li><font color="red">Giant Bat (lv27) - Outside Keep LeFaye</font></li>
-                        <li><font color="red">Giant Bat (lv27) - Inside Legend's Guild Dungeon</font></li>
-                        <li><font color="red">Giant Bat (lv27) - Coal truck mining area</font></li>
-                        <li><font color="red">Giant Bat (lv27) - Various other underground caverns</font></li>
+                        <li><font color="red">Giant Bat (lvl 27) - Giant room in Taverley Dungeon</font></li>
+                        <li><font color="red">Giant Bat (lvl 27) - Outside Keep LeFaye</font></li>
+                        <li><font color="red">Giant Bat (lvl 27) - Inside Legend's Guild Dungeon</font></li>
+                        <li><font color="red">Giant Bat (lvl 27) - Coal truck mining area</font></li>
+                        <li><font color="red">Giant Bat (lvl 27) - Various other underground caverns</font></li>
                     </ul>
                 </td>
             </tr>
@@ -227,12 +227,12 @@ function getSkillContent($skill) { return <<<HTML
                     Wolf Bones are pretty much the same as normal bones. You can bury them for the same amount of experience as a normal bone, or you can use a chisel on them to make some arrow heads. Wolf bones are obtained from killing different types of wolves spread through the runescape world. Wolves can be found at the following places:
                     <br><br>
                     <ul>
-                        <li><font color="red">White Wolf (lv25) - Around White Mountain</font></li>
-                        <li><font color="red">Desert Wolf (lv27) - Al Kharid Desert Area</font></li>
-                        <li><font color="red">White Wolf Sentry (lv31) - Around White Mountain</font></li>
-                        <li><font color="red">Grey Wolf (lv64) - Wilderness level 50-54</font></li>
-                        <li><font color="red">Wolf (lv64) - Khazard battlefield, Rellekka, Tree Gnome Village Maze</font></li>
-                        <li><font color="red">Big Wolf (lv71) - Around White Wolf Mountain</font></li>
+                        <li><font color="red">White Wolf (lvl 25) - Around White Mountain</font></li>
+                        <li><font color="red">Desert Wolf (lvl 27) - Al Kharid Desert Area</font></li>
+                        <li><font color="red">White Wolf Sentry (lvl 31) - Around White Mountain</font></li>
+                        <li><font color="red">Grey Wolf (lvl 64) - Wilderness level 50-54</font></li>
+                        <li><font color="red">Wolf (lvl 64) - Khazard battlefield, Rellekka, Tree Gnome Village Maze</font></li>
+                        <li><font color="red">Big Wolf (lvl 71) - Around White Wolf Mountain</font></li>
                     </ul>
                 </td>
             </tr>
@@ -249,19 +249,19 @@ function getSkillContent($skill) { return <<<HTML
                     Big Bones are the best bone on F2P. They give 15xp each and are dropped by bigger creatures. There are many monsters that drop big bones. Monsters that drop big bones can be found at the following places:
                     <br><br>
                     <ul>
-                        <li>Hill Giant (lv28) - Edgeville dungeon</li>
-                        <li><font color="red">Hill Giant (lv28) - Tree Gnome Village Maze</font></li>
-                        <li>Moss Giant (lv40) - Varrock Sewers</li>
-                        <li>Moss Giant (lv40) - Wilderness</li>
-                        <li><font color="red">Moss Giant (lv40) - Near Baxtorian Falls, Crandor and Brimhaven</font></li>
-                        <li><font color="red">Ogre (lv48) - Ardougne Sewers</font></li>
-                        <li><font color="red">Ogre (lv48) - Blood Rune Chest</font></li>
-                        <li><font color="red">Jogre (lv48) - Karamja Jungle</font></li>
-                        <li>Ice Giant (lv54) - Blurite Cave</li>
-                        <li>Ice Giant (lv54) - Wilderness</li>
-                        <li><font color="red">Ice Giant (lv54) - White Wolf Mountain</font></li>
-                        <li><font color="red">Fire Giant (lv93) - Wilderness</font></li>
-                        <li><font color="red">Fire Giant (lv93) - Inside Waterfall</font></li>
+                        <li>Hill Giant (lvl 28) - Edgeville dungeon</li>
+                        <li><font color="red">Hill Giant (lvl 28) - Tree Gnome Village Maze</font></li>
+                        <li>Moss Giant (lvl 40) - Varrock Sewers</li>
+                        <li>Moss Giant (lvl 40) - Wilderness</li>
+                        <li><font color="red">Moss Giant (lvl 40) - Near Baxtorian Falls, Crandor and Brimhaven</font></li>
+                        <li><font color="red">Ogre (lvl 48) - Ardougne Sewers</font></li>
+                        <li><font color="red">Ogre (lvl 48) - Blood Rune Chest</font></li>
+                        <li><font color="red">Jogre (lvl 48) - Karamja Jungle</font></li>
+                        <li>Ice Giant (lvl 54) - Blurite Cave</li>
+                        <li>Ice Giant (lvl 54) - Wilderness</li>
+                        <li><font color="red">Ice Giant (lvl 54) - White Wolf Mountain</font></li>
+                        <li><font color="red">Fire Giant (lvl 93) - Wilderness</font></li>
+                        <li><font color="red">Fire Giant (lvl 93) - Inside Waterfall</font></li>
                     </ul>
                 </td>
             </tr>
@@ -278,8 +278,8 @@ function getSkillContent($skill) { return <<<HTML
                     Babydragon Bones are dropped by Baby Blue Dragons in the Taverley dungeon. They were one of the most popular and fastest methods for raising prayer. Baby Blue Dragons do not have dragons breath so you do not need an Anti-Fire shield to train on them. Babydragon bones can be obtained at the following places:
                     <br><br>
                     <ul>
-                        <li><font color="red">Baby blue dragon (lv43) - Taverley Dungeon next to Blue Dragons.</font></li>
-                        <li><font color="red">Baby red dragon (lv65) - Karamja Dragon Dungeon.</font></li>
+                        <li><font color="red">Baby blue dragon (lvl 43) - Taverley Dungeon next to Blue Dragons.</font></li>
+                        <li><font color="red">Baby red dragon (lvl 65) - Karamja Dragon Dungeon.</font></li>
                     </ul>
                 </td>
             </tr>
@@ -296,14 +296,14 @@ function getSkillContent($skill) { return <<<HTML
                     Dragon Bones used to be the highest bone in Runescape. They give 72xp each and are expensive if bought from other people. They are hard to obtain if you are a low level due to Dragons being quite strong. When fighting Dragons, Anti-fire potions or an Anti-fire shield are pretty much required. Dragons can be found at the following places:
                     <br><br>
                     <ul>
-                        <li><font color="red">Green dragons (lv79) - Level 13 and 37 Wilderness</font></li>
-                        <li><font color="red">Blue dragons (lv111) - Taverley dungeon, Hero's Guild basement cage, Ogre cave (Watchtower Quest)</font></li>
-                        <li><font color="red">Bronze dragons (lv131) - Karamja Dragon Dungeon</font></li>
-                        <li><font color="red">Red dragons (lv152) - Level 39 Wilderness, Karamja Dragon Dungeon</font></li>
-                        <li><font color="red">Iron dragons (lv189) - Karamja Dragon Dungeon</font></li>
-                        <li><font color="red">Black dragons (lv227) - Taverley Dungeon, Wilderness Dungeon at end of Lava Maze</font></li>
-                        <li><font color="red">Steel dragons (lv246) - Karamja Dragon Dungeon</font></li>
-                        <li><font color="red">King black dragon (lv279) - Level 41 wilderness</font></li>
+                        <li><font color="red">Green dragons (lvl 79) - Level 13 and 37 Wilderness</font></li>
+                        <li><font color="red">Blue dragons (lvl 111) - Taverley dungeon, Hero's Guild basement cage, Ogre cave (Watchtower Quest)</font></li>
+                        <li><font color="red">Bronze dragons (lvl 131) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Red dragons (lvl 152) - Level 39 Wilderness, Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Iron dragons (lvl 189) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">Black dragons (lvl 227) - Taverley Dungeon, Wilderness Dungeon at end of Lava Maze</font></li>
+                        <li><font color="red">Steel dragons (lvl 246) - Karamja Dragon Dungeon</font></li>
+                        <li><font color="red">King black dragon (lvl 279) - Level 41 wilderness</font></li>
                     </ul>
                 </td>
             </tr>
