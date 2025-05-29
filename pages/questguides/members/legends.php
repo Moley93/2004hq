@@ -23,7 +23,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>50 Agility</div></li>
 <li><div data-progress>45 Herblore</div></li>
 <li><div data-progress>50 Thieving</div></li>
-<li><div data-progress>15 50 Crafting</div></li>
+<li><div data-progress>50 Crafting</div></li>
 <li><div data-progress>52 Mining</div></li>
 <li><div data-progress>50 Smithing</div></li>
 <li><div data-progress>50 Woodcutting</div></li>
