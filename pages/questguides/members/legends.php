@@ -23,7 +23,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>50 Agility</div></li>
 <li><div data-progress>45 Herblore</div></li>
 <li><div data-progress>50 Thieving</div></li>
-<li><div data-progress>50 Crafting</div></li>
+<li><div data-progress>15 50 Crafting</div></li>
 <li><div data-progress>52 Mining</div></li>
 <li><div data-progress>50 Smithing</div></li>
 <li><div data-progress>50 Woodcutting</div></li>
@@ -61,14 +61,14 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <i>Carry at all times throughout quest:</i> armor, hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), food, and prayer pots
 <br><br>
-<b>Starting Location:</b> Talk to Radimus Erkle in Legends Guild
+<b>Starting Location:</b> Talk to Radimus Erkle in Legends' Guild
 <br><br>
 <b>Reward:</b> 4 Quest points, 7,650 experience each in four skills of your choice (limited to Attack, Defence, Strength, Hitpoints, Prayer, Magic, Woodcutting, Crafting, Smithing, Herblore, Agility, Thieving; it is possible to choose the same skill all four times), access to the Legends' Guild (including shop to buy the cape of legends), the ability to wield the dragon sq shield, you can now receive the Rune spear, Dragon spear, and Shield left half from the Gem drop table
 <br><br>
 <hr>
 <h3>Instructions:</h3>
 <br>
-<div data-progress>Talk to Radimus Erkle in his office at the Legends Guild. You will receive 3 tasks to accomplish: complete a Map of the Kharazi Jungle, make friends with the Natives, and bring a symbol from the Natives back to the Guild. He provides the Radimus Notes.</div>
+<div data-progress>Talk to Radimus Erkle in his office at the Legends' Guild. You will receive 3 tasks to accomplish: complete a Map of the Kharazi Jungle, make friends with the Natives, and bring a symbol from the Natives back to the Guild. He provides the Radimus Notes.</div>
 <br><br>
 <div data-progress>Search the cupboard and take the machete (can also be purchased in Shilo Village). Grab some papyrus from the table spawn or buy 3 at the general store in East Ardougne or Shilo Village.</div>
 <br><br>
@@ -108,13 +108,13 @@ This is the first level of the dungeon.
 <br><br>
 <div data-progress>Use your machete on a reed near the Water Pool (circled on map) to get a hollow reed. Use it on the water pool to fill your blessed bowl with pure sparkling water.</div>
 <br><br>
-<div data-progress>Head back into the cavern and douse the flame; search the desk and find the Shaman's Tome. Read it, but it does not help much. Now talk to Ungadulu. There's something wrong with him. He will throw you out of the octagon and reduce some of your stats.</div>
+<div data-progress>Head back into the cavern and douse the flame; search the desk and find the Shaman's Tome. Read it, but it does not help much. Now talk to Ungadulu. There's something wrong with him. He will throw you out of the octagon and reduce your Prayer stat.</div>
 <br><br>
 <img src="img\questimages\legends4.jpg" height="450" width="450">
 <br><br>
 <div data-progress>Search the northeast bookcase and enter.</div>
 <br><br>
-<div data-progress>Use your Lockpick on the Ancient Gate and go slowly — do not break your Lock pick.</div>
+<div data-progress>Use your Lockpick on the Ancient Gate and go slowly<!-- — do not break your Lock pick.--></div>
 <br><br>
 <div data-progress>Proceed to smash the three boulders (requires pickaxe). If you fail, just try again.</div>
 <br><br>
@@ -148,7 +148,7 @@ Note that the water in the blessed bowl evaporates when you leave Kharazi forest
 <br><br>
 <div data-progress>Make the Bravery Potion by using Snake Weed on a Vial of water and then using Ardrigal on it. The potion will look like murky water.</div>
 <br><br>
-<div data-progress>The next steps require the Bravery potion, Rope, Lockpick, pickaxe, Unpowered orb, and the Charge orb runes, in addition to the minimum Kharazi equipment of hatchet, Machete and map. Wield your best armor and weapon, as you will have to fight several high-level enemies. Holy water vials or Silverlight are optional when fighting the demon, but if you plan to go for the Holy Force spell (Step 29), you can postpone bringing these since you will have time for another bank run after you speak to Ungadulu (though this will cost you a second Casting of Charge Orb). Prayer potions and food are recommended. Expect to take damage from agility obstacles.</div>
+<div data-progress>The next steps require the Bravery potion, Rope, Lockpick, pickaxe, Unpowered orb, and the Charge orb runes, in addition to the minimum Kharazi equipment of hatchet, Machete and map. Wield your best armor and weapon, as you will have to fight several high-level enemies. Holy water vials or Silverlight are optional when fighting the demon, but if you plan to go for the Holy Force spell, you can postpone bringing these since you will have time for another bank run after you speak to Ungadulu (though this will cost you a second Casting of Charge Orb). Prayer potions and food are recommended. Expect to take damage from agility obstacles.</div>
 <br><br>
 <div data-progress>Make your way back to the gems spot where you got the Book of Binding. Go to the Ancient Gate on the north wall and cast a Charge Orb spell — it does not matter which one you use. Note that you must re-cast this spell each time you wish to pass this gate, so always remember to pack the necessary runes and an Unpowered orb.</div>
 <br><br>
@@ -174,7 +174,15 @@ This is the second level of the dungeon.
 <br><br>
 <div data-progress>The ghost will give you a black dagger, so equip it.</div>
 <br><br>
-<div data-progress>At this point you have two options. (1) Go back where the blue hat was and attack Viyeldi. The dagger will begin to glow so go back to the ghost and prepare to fight. Drink potions now and use the dagger on the ghost. If the ghost just disappears, push the rock it will appear again. Now you will have to kill the demon again, but this time he reduces all your prayer, so use Prayer potion(s). (2) **If you are going for the Holy Force spell, pass Viyeldi and head back up to Ungadulu and show him the dagger (Use it on him). He will give you a Holy Force Spell which will help you when you fight the second demon. While up here, you might as well bank for more food, another orb and the runes for the Cast Orb spell to re-open the third Ancient Gate; you don't need another rope, and you won't have to fight the warriors again. Holy water vials and Silverlight are optional for fighting the demon. After your bank trip, go all the way back to the springs at the end of the second level of the dungeon, push the boulder, and use the Holy Force Spell on the spirit. It will transform into the demon who must be defeated a second time (Silverlight and Protect from Melee are recommended). This way you would not have to kill Viyeldi, the demon will be weaker, and you will not have to fight the 3 warriors again when you get to the final demon battle below.**</div>
+At this point you have two options:
+<br><br>
+Option 1<br>(Shorter but Harder Boss fight)
+<div data-progress>Go back where the blue hat was and attack Viyeldi. The dagger will begin to glow so go back to the ghost and prepare to fight. Drink potions now and use the dagger on the ghost. If the ghost just disappears, push the rock it will appear again. Now you will have to kill the demon again, but this time he reduces all your prayer, so use Prayer potion(s). If choosing this option, skip the next two steps below.</div>
+<br><br>
+Option 2<br>(Longer but Easier Boss fight)
+<div data-progress> If you are going for the Holy Force spell, pass Viyeldi and head back up to Ungadulu and show him the dagger (Use it on him). He will give you a Holy Force Spell which will help you when you fight the second demon. While up here, you might as well bank for more food, another orb and the runes for the Cast Orb spell to re-open the third Ancient Gate; you don't need another rope, and you won't have to fight the warriors again. Holy water vials and Silverlight are optional for fighting the demon.</div>
+<br><br>
+<div data-progress>After your bank trip, go all the way back to the springs at the end of the second level of the dungeon, push the boulder, and use the Holy Force Spell on the spirit. It will transform into the demon who must be defeated a second time (Silverlight and Protection from Melee are recommended). This way you would not have to kill Viyeldi, the demon will be weaker, and you will not have to fight the 3 warriors again when you get to the final demon battle below.</div>
 <br><br>
 <div data-progress>Now push a boulder. It will require a couple of pushes from different angles to move it as far as possible. After you move it, use your bowl on the Holy Water spot. Use your Holy Water on Yommie Tree Seeds to germinate them and fill your bowl with Holy Water again. Now get back to the surface. [If you do not have your blessed bowl with you, you can refill it later on the surface since your movement of the boulder will refresh the Water Pool.]</div>
 <br><br>
@@ -182,11 +190,15 @@ This is the second level of the dungeon.
 <br><br>
 <div data-progress>Now do this fast: use your Rune axe (hatchet) on it a few times until you get a Totem Pole; do it fast or the tree will die. Raise your totem pole and pick it up. It is so heavy that you may lose some strength.</div>
 <br><br>
-<div data-progress>This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food. Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Before doing anything, drink your Super Set potions and then use your Totem Pole on the Dark one. The demon will appear and you will again have to fight the 3 warriors from the cave — the levels 106, 100 and 92. **If you went for the Holy Force spell in step 29, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Magic prayer is recommended for this battle.</div>
+<div data-progress>This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food. Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Before doing anything, drink your Super Set potions and then use your Totem Pole on the Dark one. The demon will appear and you will again have to fight the 3 warriors from the cave — the levels 106, 100 and 92. **If you went for the Holy Force spell, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Magic prayer is recommended for this battle.</div>
 <br><br>
 <div data-progress>Then, after vanquishing the demon for the final time, use your Totem Pole on the Dark totem pole again.</div>
+<!--<br><br> commented out incase an update fixes this
+<div data-progress>Bull Roar Gujuo for the last time he will give you a Gold Totem Pole and some words of friendliness.</div>-->
 <br><br>
-<div data-progress>Bull Roar Gujuo for the last time he will give you a Gold Totem Pole and some words of friendliness.</div>
+<div data-progress>Return to Raddimus at the Legends' Guild. He will see the Gilded Totem and be impressed and then ask to meet you in the guild.</div>
+<br><br>
+<div data-progress>Speak to Raddimus inside the Legends' Guild, who will offer you 4 lots of 7,500XP. After you received the XP, congratulations, quest complete.</div>
 $questComplete
 This quest guide was written by j1j2j3 and trekkie. Thanks to avster and blue komoto for pictures; monkeymatt for converting maps; pokemama for edits, information on enchanted vials, and maps; Kidd, Dravan, Freakybat, Mage101, DNKevin, pj, stormer, Nitr021, and dogs major for corrections.
 <br><br>
