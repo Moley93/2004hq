@@ -48,18 +48,21 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="papyrus" data-size="25"></canvas>4-5 papyrus</div><br></li>
 <li><div data-progress><canvas data-itemname="gold_bar" data-size="25"></canvas>2-6 gold bars</div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
-<li><div data-progress>Runes to Cast Charge Orb (any)</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="snake_weed" data-size="25" data-show-label="inline"data-name-append="(Obtainable during quest)"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="ardrigal" data-size="25" data-show-label="inline" data-name-append="(Obtainable during quest)"></canvas></div><br></li>
+<li><div data-progress>Runes to cast any Charge Orb</div><br></li>
 <li><div data-progress>The ability to defeat a level 187 demon</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>Your best weapons, armor, and food</div><br></li>
-<li><div data-progress><canvas data-itemname="3dosestatrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="3doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="4dosestatrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="4doseprayerrestore" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="amulet_of_glory_4" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Teleportation runes</div><br></li>
 </ul>
-<i>Carry at all times throughout quest:</i> armor, hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), food, and prayer pots
+<em>Carry at all times throughout quest:</em> Armor, Hatchet (Rune hatchet required for Yommie Tree), Machete (obtained during quest), Radimus Notes/Map (received during quest), Food, and Prayer Potions
 <br><br>
 <b>Starting Location:</b> Talk to Radimus Erkle in Legends' Guild
 <br><br>
@@ -101,8 +104,8 @@ This is the first level of the dungeon.
 <div data-progress>Gujuo will tell you that only a bowl made of the metal of the sun will hold the water. Of course the metal of the sun is gold. Gujuo will make you a sketch of the bowl.</div>
 <br><br>
 <div data-progress>Take the sketch and at least 2 gold bars with hammer to any anvil. Use gold bar with anvil and make the bowl. Failing this will consume 2 gold bars.</div>
-<br><br>
-<div data-progress>The next steps require the bull roarer, the golden bowl, lockpick, pickaxe, the SMELL runes and the 7 gems, in addition to the minimum Kharazi equipment of hatchet, machete and map. A prayer pot and a stat restore pot may be helpful, as well as some food. Armor is only needed to protect you from the random jungle enemies (listed in Step 3) and a small cave of Death Wings (level 83). Aside from these and Ungadulu, you may take small damage from agility obstacles.</div>
+<hr>
+<em>The next steps require the bull roarer, the golden bowl, lockpick, pickaxe, the SMELL runes and the 7 gems, in addition to the minimum Kharazi equipment of hatchet, machete and map. A prayer pot and a stat restore pot may be helpful, as well as some food. Armor is only needed to protect you from the random jungle enemies (listed in Step 3) and a small cave of Death Wings (level 83). Aside from these and Ungadulu, you may take small damage from agility obstacles.</em>
 <br><br>
 <div data-progress>Return to the Kharazi Jungle and Bull Roar for Gujuo. To bless the bowl, talk to Gujuo and you will do some funny singing. If you fail, you will lose some prayer; you need at least 42 prayer points to bless the bowl.</div>
 <br><br>
@@ -114,7 +117,7 @@ This is the first level of the dungeon.
 <br><br>
 <div data-progress>Search the northeast bookcase and enter.</div>
 <br><br>
-<div data-progress>Use your Lockpick on the Ancient Gate and go slowly<!-- — do not break your Lock pick.--></div>
+<div data-progress>Use your Lockpick on the Ancient Gate<!-- and go slowly — do not break your Lock pick.--></div>
 <br><br>
 <div data-progress>Proceed to smash the three boulders (requires pickaxe). If you fail, just try again.</div>
 <br><br>
@@ -124,31 +127,31 @@ This is the first level of the dungeon.
 <br><br>
 <div data-progress>Further along the west side of this corridor you will discover a Marked Wall. Search it and you will get a riddle hinting what order to insert the runes to unlock the passage. The runes to use are 1 soul rune, 1 mind rune, 1 earth rune, and 2 law runes, which spells "SMELL".</div>
 <br><br>
-<div data-progress>Now pass through the Marked Wall to an area of 7 water pools with stalagmites. Use each gem on a stalagmite to find which one is correct — if it is not, it will say "Nothing interesting happens." There are no failure penalties, just keep trying. When you walk away after a successful placement, the game text says the gem starts to fade; this is normal. [For me the gem placement went in order of value from the diamond at the south pool, clockwise around the pools to the opal at the southeast pool. Just place them until they work.] When each gem is in the right spot, the gems will appear and glow to rebuild the Book of Binding. Grab it and read it — it tells how to defeat the demon.</div>
-<br><br>
-<div data-progress>The below paragraphs explain how to enchant vials and make Holy Water. Note that this section is optional because most players fight the demon without doing this, and the few people who have done it were unimpressed with the performance of the Holy Water (it hits no better than a dragon baxe).</div>
+<div data-progress>Now pass through the Marked Wall to an area of 7 water pools with stalagmites. Use each gem on a stalagmite to find which one is correct — if it is not, it will say "Nothing interesting happens." There are no failure penalties, just keep trying. When you walk away after a successful placement, the game text says the gem starts to fade; this is normal. When each gem is in the right spot, the gems will appear and glow to rebuild the Book of Binding. Grab it and read it — it tells how to defeat the demon.</div>
+<hr>
+<em>The below paragraphs explain how to enchant vials and make Holy Water. Note that this section is optional because most players fight the demon without doing this, and the few people who have done it were unimpressed with the performance of the Holy Water (it hits no better than a dragon battleaxe).</em>
 <br><br>
 <div data-progress>The last pages of the Book of Binding concern enchanting empty vials to fight the demons. On the last page click on the bold word "Activus". It then asks how many vials you wish to enchant. Be warned: enchanting consumes 5 prayer and 4 magic for each vial!</div>
 <br><br>
 <div data-progress>To make vials of Holy water, use the blessed bowl of pure water (filled with pure sparkling water from the spring) on an Enchanted vial.</div>
 <br><br>
-Note that the water in the blessed bowl evaporates when you leave Kharazi forest, so you cannot make Holy water elsewhere (regular water doesn't work). *Also note that after you fight the demon the first time, the spring becomes contaminated. You cannot make any more vials of Holy water until you defeat the demon the second time. Plan accordingly!
+<em>Note that the water in the blessed bowl evaporates when you leave Kharazi forest, so you cannot make Holy water elsewhere (regular water doesn't work). Also note that after you fight the demon the first time, the spring becomes contaminated. You cannot make any more vials of Holy water until you defeat the demon the second time. Plan accordingly!</em>
 <br><br>
-<div data-progress>To use the Holy water vials on the demon, wield them as a weapon (evidently it is considered a Ranged weapon because it is thrown). They have been observed to hit from 0 to 15. [shrug]</div>
+<em>To use the Holy water vials on the demon, wield them as a weapon (evidently it is considered a Ranged weapon because it is thrown). They have been observed to hit from 0 to 15.</em>
 <br><br>
-<div data-progress>It is strongly recommended to bring several prayer pots when you go to kill the demons. The first thing they do is heavily drain your prayer, leaving you without your prayer protection. After the prayer drain, restore your prayer with a potion and turn on appropriate prayer protection for each demon battle.</div>
-<br><br>
+<em>It is strongly recommended to bring several prayer pots when you go to kill the demons. The first thing they do is heavily drain your prayer, leaving you without your prayer protection. After the prayer drain, restore your prayer with a potion and turn on appropriate prayer protection for each demon battle.</em>
+<hr>
 <div data-progress>Now head back to Ungadulu and prepare for battle. Equip Silverlight or your Holy Water vials, drink your Super set now, and then use the Book of Binding on Ungadulu. A level 187 demon will appear and he will attack you, draining your prayer right away. Drink Prayer potions, then turn on Protect from Melee for this battle.</div>
 <br><br>
-<div data-progress>Ungadulu will reward you with some Yommie Tree Seeds. Talk to him and ask how you could get out. He will bespell you to protect you against the fire.</div>
+<div data-progress>After you defeat the demon, Ungadulu will reward you with some Yommie Tree Seeds. Talk to him and ask how you could get out. He will cast an enchantment on you to protect you against the fire. You can now pass freely across the flames in the octagon.</div>
 <br><br>
-<div data-progress>Try to get water from the pool; you will see it is filled with murky water. (You may have to germinate your seeds with holy water before the pool becomes murky.) Bull Roar for Gujuo.</div>
+<div data-progress>Return to the surface and try to get water from the pool; you will see it is filled with murky water. (You may have to germinate your seeds with holy water before the pool becomes murky.) Bull Roar for Gujuo.</div>
 <br><br>
-<div data-progress>Gujuo will tell you that you need to go to the Holy Water source to see what happened, and for that you need to make a Bravery potion which will make you brave enough to enter the deep cave section. For that potion you will need 2 herbs which are: Snake Weed and Ardrigal. [Roughly, the Snake Weed is southwest of Tai Bwo village; search the vines near the water. Search palm trees on beach northeast of Tai Bwo village for Ardrigal. The picture below has been borrowed from the RS2 Jungle Potion quest guide.]</div>
+<div data-progress>Gujuo will tell you that you need to go to the Holy Water source to see what happened, and for that you need to make a Bravery potion which will make you brave enough to enter the deep cave section. For that potion you will need 2 herbs which are: Snake Weed and Ardrigal. [Roughly, the Snake Weed is southwest of Tai Bwo village; search the vines near the water. Search palm trees on beach northeast of Tai Bwo village for Ardrigal.]</div>
 <br><br>
 <div data-progress>Make the Bravery Potion by using Snake Weed on a Vial of water and then using Ardrigal on it. The potion will look like murky water.</div>
-<br><br>
-<div data-progress>The next steps require the Bravery potion, Rope, Lockpick, pickaxe, Unpowered orb, and the Charge orb runes, in addition to the minimum Kharazi equipment of hatchet, Machete and map. Wield your best armor and weapon, as you will have to fight several high-level enemies. Holy water vials or Silverlight are optional when fighting the demon, but if you plan to go for the Holy Force spell, you can postpone bringing these since you will have time for another bank run after you speak to Ungadulu (though this will cost you a second Casting of Charge Orb). Prayer potions and food are recommended. Expect to take damage from agility obstacles.</div>
+<hr>
+<em>The next steps require the Bravery potion, Rope, Lockpick, pickaxe, Unpowered orb, and the Charge orb runes, in addition to the minimum Kharazi equipment of hatchet, Machete and map. Wield your best armor and weapon, as you will have to fight several high-level enemies. Holy water vials or Silverlight are optional when fighting the demon, but if you plan to go for the Holy Force spell, you can postpone bringing these since you will have time for another bank run after you speak to Ungadulu (though this will cost you a second Casting of Charge Orb). Prayer potions and food are recommended. Expect to take damage from agility obstacles.</em>
 <br><br>
 <div data-progress>Make your way back to the gems spot where you got the Book of Binding. Go to the Ancient Gate on the north wall and cast a Charge Orb spell — it does not matter which one you use. Note that you must re-cast this spell each time you wish to pass this gate, so always remember to pack the necessary runes and an Unpowered orb.</div>
 <br><br>
@@ -166,39 +169,43 @@ This is the second level of the dungeon.
 <br><br>
 <div data-progress>Now go the northeast corner and use your crystal parts together on the lava furnace to make a heart-shaped crystal.</div>
 <br><br>
-<div data-progress>At the center of the cavern (on the radar map it looks like the dragon's "eye"), find a mossy rock that you can 'Search'. Search it, then use your crystal on it and the crystal will start to glow.</div>
+<div data-progress>At the center of the cavern (on the mini map it looks like the dragon's "eye"), find a mossy rock that you can 'Search'. Search it, then use your crystal on it and the crystal will start to glow.</div>
 <br><br>
 <div data-progress>Now use your crystal on a symbol in the wall in the southeast corner of the cavern. The crystal will fit perfectly and you will be able to pass through the Shimmering Wall.</div>
 <br><br>
 <div data-progress>Now run West past the three Lesser Demons (level 82) and try to push a boulder at the water's edge. A ghost will appear and ask you to help him by killing Viyeldi.</div>
 <br><br>
-<div data-progress>The ghost will give you a black dagger, so equip it.</div>
+<div data-progress>The ghost will give you a black dagger, so equip it. At this point you have 2 options:</div>
 <br><br>
-At this point you have two options:
-<br><br>
-Option 1<br>(Shorter but Harder Boss fight)
+<hr>
+<h4>Option 1 - (Shorter but Harder Boss fight)</h4>
 <div data-progress>Go back where the blue hat was and attack Viyeldi. The dagger will begin to glow so go back to the ghost and prepare to fight. Drink potions now and use the dagger on the ghost. If the ghost just disappears, push the rock it will appear again. Now you will have to kill the demon again, but this time he reduces all your prayer, so use Prayer potion(s). If choosing this option, skip the next two steps below.</div>
 <br><br>
-Option 2<br>(Longer but Easier Boss fight)
-<div data-progress> If you are going for the Holy Force spell, pass Viyeldi and head back up to Ungadulu and show him the dagger (Use it on him). He will give you a Holy Force Spell which will help you when you fight the second demon. While up here, you might as well bank for more food, another orb and the runes for the Cast Orb spell to re-open the third Ancient Gate; you don't need another rope, and you won't have to fight the warriors again. Holy water vials and Silverlight are optional for fighting the demon.</div>
+<h4>Option 2 - (Longer but Easier Boss fight)</h4>
+<div data-progress>If you are going for the Holy Force spell, pass Viyeldi and head back up to Ungadulu and show him the dagger (Use it on him). He will give you a Holy Force Spell which will help you when you fight the second demon. While up here, you might as well bank for more food, another orb and the runes for the Cast Orb spell to re-open the third Ancient Gate; you don't need another rope, and you won't have to fight the warriors again. Holy water vials and Silverlight are optional for fighting the demon.</div>
 <br><br>
 <div data-progress>After your bank trip, go all the way back to the springs at the end of the second level of the dungeon, push the boulder, and use the Holy Force Spell on the spirit. It will transform into the demon who must be defeated a second time (Silverlight and Protection from Melee are recommended). This way you would not have to kill Viyeldi, the demon will be weaker, and you will not have to fight the 3 warriors again when you get to the final demon battle below.</div>
-<br><br>
-<div data-progress>Now push a boulder. It will require a couple of pushes from different angles to move it as far as possible. After you move it, use your bowl on the Holy Water spot. Use your Holy Water on Yommie Tree Seeds to germinate them and fill your bowl with Holy Water again. Now get back to the surface. [If you do not have your blessed bowl with you, you can refill it later on the surface since your movement of the boulder will refresh the Water Pool.]</div>
-<br><br>
-<div data-progress>This step requires your rune hatchet, the Yommie Tree seeds and a Blessed bowl full of Holy Water (in addition to the normal Kharazi equipment). Bull Roar Gujuo and tell him you have germinated the Yommie Tree Seeds and he will tell you that you need to find fertile soil. Search for fertile soil (dark brown spots on the ground) and use a seed on it. A tree will grow — when it becomes a young tree and needs water, use Holy Water on it and the tree will become an adult.</div>
+<hr>
+<div data-progress>Now push a boulder. After you move it, use your bowl on the Holy Water spot. Use your Holy Water on Yommie Tree Seeds to germinate them and fill your bowl with Holy Water again. Now get back to the surface. [If you do not have your blessed bowl with you, you can refill it later on the surface since your movement of the boulder will refresh the Water Pool.]</div>
+<hr>
+<em>This step requires your rune hatchet, the Yommie Tree seeds and a Blessed bowl full of Holy Water (in addition to the normal Kharazi equipment).</em><br><br>
+<div data-progress>Bull Roar Gujuo and tell him you have germinated the Yommie Tree Seeds and he will tell you that you need to find fertile soil. Search for fertile soil (dark brown spots on the ground) and use a seed on it. A tree will grow — when it becomes a young tree and needs water, use Holy Water on it and the tree will become an adult.</div>
 <br><br>
 <div data-progress>Now do this fast: use your Rune axe (hatchet) on it a few times until you get a Totem Pole; do it fast or the tree will die. Raise your totem pole and pick it up. It is so heavy that you may lose some strength.</div>
+<hr>
+<em>This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food.</em>
 <br><br>
-<div data-progress>This step is the final battle, so in addition to having your Totem Pole, be prepared with your best armor and weapon (optionally Silverlight for the demon), optional Holy water vials, Super Set of potions, prayer potions, and/or high-level food. Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Before doing anything, drink your Super Set potions and then use your Totem Pole on the Dark one. The demon will appear and you will again have to fight the 3 warriors from the cave — the levels 106, 100 and 92. **If you went for the Holy Force spell, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Magic prayer is recommended for this battle.</div>
+<div data-progress>Search for a Dark Totem Pole [there is one east-northeast of the water pool, but they are scattered throughout the jungle]. Use your Totem Pole on the Dark one.</div>
 <br><br>
-<div data-progress>Then, after vanquishing the demon for the final time, use your Totem Pole on the Dark totem pole again.</div>
+<div data-progress>If you chose Option 1 above, the Demon will appear and you will again have to fight the 3 warriors from the cave — the levels 106, 100 and 92. **If you went for the Holy Force spell, you would not have to kill the 3 warriors, just straight to the demon.** Again, the demon will drain your prayer right away, so save your Prayer potions until that happens. Protect against Melee prayer is recommended for this battle.</div>
+<br><br>
+<div data-progress>After vanquishing the demon for the final time, use your Totem Pole on the Dark totem pole again. Gujuo will appear and thank you for your efforts. He will give you a Gilded Totem Pole.</div>
 <!--<br><br> commented out incase an update fixes this
 <div data-progress>Bull Roar Gujuo for the last time he will give you a Gold Totem Pole and some words of friendliness.</div>-->
 <br><br>
-<div data-progress>Return to Raddimus at the Legends' Guild. He will see the Gilded Totem and be impressed and then ask to meet you in the guild.</div>
+<div data-progress>Return to Radimus Erkle at the Legends' Guild. He will see the Gilded Totem and be impressed. He will then ask you to meet him inside the guild.</div>
 <br><br>
-<div data-progress>Speak to Raddimus inside the Legends' Guild, who will offer you 4 lots of 7,500XP. After you received the XP, congratulations, quest complete.</div>
+<div data-progress>Speak to Radimus Erkle inside the Legends' Guild. He will offer you 4 lots of 7,650XP. After you claimed all of the XP:</div>
 $questComplete
 This quest guide was written by j1j2j3 and trekkie. Thanks to avster and blue komoto for pictures; monkeymatt for converting maps; pokemama for edits, information on enchanted vials, and maps; Kidd, Dravan, Freakybat, Mage101, DNKevin, pj, stormer, Nitr021, and dogs major for corrections.
 <br><br>
