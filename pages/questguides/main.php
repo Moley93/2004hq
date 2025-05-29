@@ -32,7 +32,7 @@ $questlist = array(
     "gertrudescat" => array("Gertrude's Cat" => true),
     "heros" => array("Hero's Quest" => true),
     "junglepotion" => array("Jungle Potion" => true),
-    "legends" => array("Legend's Quest" => true),
+    "legends" => array("Legends Quest" => true),
     "digsite" => array("Digsite Quest" => true),
     "lostcity" => array("Lost City" => true),
     "merlinscrystal" => array("Merlin's Crystal" => true),
