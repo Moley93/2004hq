@@ -38,15 +38,15 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('unstrung')">Unstrung</button>
     <button onclick="setMode('stringing')">Stringing</button>
     <button onclick="setMode('arrows')">Arrows/Bolts</button>
-
-    <div id="arrowSelection" style="display: none"><br>
+    
+    <div class="input-group" id="arrowSelection" style="display: none"><br>
         <label for="arrowType">Complete/Incomplete:</label>
-        <select id="arrowType" onchange="calculateFletching()">
+        <select id="arrowType" onchange="runCalc()">
             <option value="completeArrows">Complete</option>
             <option value="incompleteArrows">Incomplete</option>
         </select>
     </div>
-
+    <br><br>
     <!-- Results Table -->
     <table id="resultsTable" class="calculators">
         <thead>
