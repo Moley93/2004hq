@@ -24,25 +24,18 @@ function getCalcContent() { return <<<HTML
         <label>Goal XP</label>
         <input type="number" id="targetXP" min="0" max="200000000" value="83">
     </div>
-    <div class="input-group justify-center">
-        <button onclick="runCalc()">Calculate!</button>
-    </div>
-    <div style="width:90%; margin: 0 auto;">
-        <div class="progress-container">
-            <div class="progress-bar" id="progressBar"></div>
-            <div class="progress-text" id="progressText"></div>
-        </div>
-    </div><hr>
-
+    <div class="progress-bar-root" id="progress-bar-root"></div>
+    <hr>
     <div>
         <button onclick="setMode('smelting_bars')">Smelting & Smithing</button>
         <button onclick="setMode('bars')">Smithing</button>
         <button onclick="setMode('smelting')">Smelting</button>
     </div>
+    <br>
     
-    <div id="metalSelection"><br>
+    <div class="input-group justify-center" id="metalSelection">
         <label for="metalType">Select Metal:</label>
-        <select id="metalType" onchange="calculateSmithing()">
+        <select id="metalType" onchange="runCalc()">
             <option value="bronze">Bronze</option>
             <option value="iron">Iron</option>
             <option value="steel">Steel</option>
@@ -52,7 +45,6 @@ function getCalcContent() { return <<<HTML
         </select>
     </div>
     
-    <!-- Results Table -->
     <table id="resultsTable" class="calculators">
         <thead>
             <tr>

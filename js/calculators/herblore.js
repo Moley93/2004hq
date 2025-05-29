@@ -394,6 +394,17 @@ function runCalc() {
                     selectedPotion = potionsUsing[0];
                 }
                 const prettyHerbName = herbloreData.cleaning_herbs[herb].pretty || herb.replace(/_/g, " ");
+                let cleaningXPAdded = false;
+                if (!herbsCleaned && amount > 0) {
+                    const cleaningXP = herbloreData.cleaning_herbs[herb].xp;
+                    const totalCleaning = amount * cleaningXP;
+                    totalXP += totalCleaning;
+                    xpAfter += totalCleaning;
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `<td>${prettyHerbName}</td><td>Cleaning</td><td>${amount}</td><td>${cleaningXP}</td><td>${totalCleaning.toLocaleString()}</td>`;
+                    tbody.appendChild(tr);
+                    cleaningXPAdded = true;
+                }
                 if (selectedPotion) {
                     const recipe = herbloreData.potions[selectedPotion];
                     let tempXP = xpAfter;
@@ -456,14 +467,6 @@ function runCalc() {
                         tr.innerHTML = `<td>${prettyHerbName}</td><td>${prettyPotionName}</td><td>${allowedAmount}</td><td>${xpPer}</td><td>${total.toLocaleString()}</td>`;
                         tbody.appendChild(tr);
                     });
-                } else if (!herbsCleaned && amount > 0) {
-                    const cleaningXP = herbloreData.cleaning_herbs[herb].xp;
-                    const totalCleaning = amount * cleaningXP;
-                    totalXP += totalCleaning;
-                    xpAfter += totalCleaning;
-                    const tr = document.createElement("tr");
-                    tr.innerHTML = `<td>${prettyHerbName}</td><td>Cleaning</td><td>${amount}</td><td>${cleaningXP}</td><td>${totalCleaning.toLocaleString()}</td>`;
-                    tbody.appendChild(tr);
                 }
             });
             if (vialsOfWaterCount > 0) {

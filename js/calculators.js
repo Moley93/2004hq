@@ -23,12 +23,64 @@ function sanitizeXP(xp) {
     return targetXP;
 }
 function updateProgressBar(currentXP, targetXP) {
+    const parent = document.getElementById("progress-bar-root");
+    if (!parent) return console.error("Progress bar root container not found");
+
+    let bar1width = '0%';
+    let bar2width = '0%';
+    if (parent.children.length > 1) {
+        bar1width = parent.children[0].children[0].children[0].style.width;
+        bar2width = parent.children[0].children[1].children[0].style.width;
+    }
+    parent.innerHTML = "";
+
+    const wrapper = document.createElement("div");
+    wrapper.style.display = "flex";
+    wrapper.style.gap = "8px";
+    wrapper.style.width = "100%";
+
+    const container1 = document.createElement("div");
+    container1.className = "progress-container";
+    container1.style.flex = "1 1 0";
+    container1.style.minWidth = 0;
     const xpNeeded = targetXP - currentXP;
-    const progressPercentage = ((currentXP / targetXP) * 100).toFixed(1);
-    const progressBar = document.getElementById("progressBar");
-    progressBar.style.width = `${progressPercentage}%`;
-    const progressText = document.getElementById("progressText");
-    progressText.textContent = `${progressPercentage}% - ${xpNeeded.toLocaleString()} XP to goal`;
+    const Bar1 = document.createElement("div");
+    const Bar1Text = document.createElement("div");
+    Bar1.className = "progress-bar";
+    Bar1Text.className = "progress-text";
+    Bar1.style.width = bar1width;
+    Bar1Text.textContent = `${((currentXP / targetXP) * 100).toFixed(2)}% from level 1`;
+    container1.appendChild(Bar1);
+    container1.appendChild(Bar1Text);
+
+    const container2 = document.createElement("div");
+    container2.className = "progress-container";
+    container2.style.flex = "1 1 0";
+    container2.style.minWidth = 0;
+    const Bar2 = document.createElement("div");
+    const Bar2Text = document.createElement("div");
+    Bar2.className = "progress-bar";
+    Bar2Text.className = "progress-text";
+    let prevLevel = getXPForLevel(getLevelForXP(currentXP));
+    Bar2.style.width = bar2width;
+    Bar2Text.textContent = `${((prevLevel / targetXP) * 100).toFixed(2)}% from level ${getLevelForXP(currentXP)}`;
+    container2.appendChild(Bar2);
+    container2.appendChild(Bar2Text);
+
+    wrapper.appendChild(container1);
+    wrapper.appendChild(container2);
+    parent.appendChild(wrapper);
+
+    const container3 = document.createElement("div");
+    container3.className = "progress-textonly";
+    container3.textContent = `${sanitizeXP(xpNeeded).toLocaleString()} XP needed to reach level ${getLevelForXP(targetXP)}`;
+    container3.style.flex = "1 1 0";
+    container3.style.minWidth = 0;
+    parent.appendChild(container3);
+    setTimeout(() => {
+        Bar1.style.width = `${((currentXP / targetXP) * 100).toFixed(2)}%`;
+        Bar2.style.width = `${((prevLevel / targetXP) * 100).toFixed(2)}%`;
+    }, 50);
 }
 
 async function fetchXP(statType) {
@@ -111,15 +163,22 @@ function renderXpTable() {
 document.addEventListener("DOMContentLoaded", () => {
     const xpInput    = document.getElementById("targetXP");
     const lvlInput   = document.getElementById("targetLevel");
-    if (!xpInput || !lvlInput) { return; }
+    const currentXP  = document.getElementById("currentXP");
+    if (!xpInput || !lvlInput || !currentXP) { return; }
 
     xpInput.addEventListener("input", () => {
         const xp    = parseInt(xpInput.value, 10) || 0;
         lvlInput.value = getLevelForXP(xp);
+        runCalc();
+    });
+
+    currentXP.addEventListener("input", () => {
+        runCalc();
     });
 
     lvlInput.addEventListener("input", () => {
         const lvl   = parseInt(lvlInput.value, 10) || 2;
         xpInput.value  = getXPForLevel(lvl);
+        runCalc();
     });
 });

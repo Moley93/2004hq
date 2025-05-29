@@ -51,11 +51,6 @@ function renderSpriteToCanvas(debugname, canvas) {
     cost = baseItem.cost || 0;
   }
 
-  const nameAppend = canvas.getAttribute("data-name-append");
-  if (nameAppend) {
-    name += ` ${nameAppend}`;
-  }
-
   // Handle image override (looking up a different debugname)
   let imageItem = item;
   if (imageDebugnameOverrides.hasOwnProperty(debugname)) {
@@ -92,6 +87,11 @@ function renderSpriteToCanvas(debugname, canvas) {
   }
 
   canvas.title = tooltip;
+
+  const nameAppend = canvas.getAttribute("data-name-append");
+  if (nameAppend) {
+    name += ` ${nameAppend}`;
+  }
 
   // Append item name if requested
   if ((canvas.getAttribute("data-show-label") === "true") || (canvas.getAttribute("data-show-label") === "inline")) {

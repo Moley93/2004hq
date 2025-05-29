@@ -196,21 +196,16 @@ function runCalc() {
             const amountNeeded = Math.ceil(xpNeeded / data.xp);
     
             const row = document.createElement("tr");
+            let iteminfo = `data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}"`;
             if (item == "Goldsmith Gauntlets") {
-                row.innerHTML = `
-                    <td>${data.level}</td>
-                    <td><canvas data-itemname="gold_bar"></canvas>Gold Bar (Goldsmith Gauntlets)</td>
-                    <td>${data.xp}</td>
-                    <td>${amountNeeded.toLocaleString()}</td>
-                `;
-            } else {
-                row.innerHTML = `
-                    <td>${data.level}</td>
-                    <td><canvas data-itemname="${item.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
-                    <td>${data.xp}</td>
-                    <td>${amountNeeded.toLocaleString()}</td>
-                `;
+                iteminfo = `data-itemname="gold_bar" data-name-append="(Goldsmith Gauntlets)"`;
             }
+            row.innerHTML = `
+                <td>${data.level}</td>
+                <td><canvas ${iteminfo} data-show-label="inline"></canvas></td>
+                <td>${data.xp}</td>
+                <td>${amountNeeded.toLocaleString()}</td>
+            `;
             tableBody.appendChild(row);
         }
     } else {
