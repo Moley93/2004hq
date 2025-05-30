@@ -17,15 +17,12 @@ switch ($p) {
     case 'streetprices':
     case 'questguides':
     case 'itemdb':
+    case 'playerinfo':
         include 'pages/'.$p.'/main.php';
         break;
 
     case 'droptables2':
         include 'pages/droptables/main2.php';
-        break;
-
-    case 'playerinfo':
-        include 'pages/playerinfo/main.php';
         break;
 
     case '404':
@@ -37,13 +34,13 @@ switch ($p) {
         include 'pages/main/changelog.php';
         break;
 
-    /*case 'updatecluetables':
-        include 'pages/api/updatecluetables.php';
-        break;*/
-
     case '': // No ?p= value (homepage)
         include 'pages/main/homepage.php';
         break;
+
+    /*case 'updatecluetables':
+        include 'pages/api/updatecluetables.php';
+        break;*/
 
     default: // All other unknown pages
         header('Location: ?p=404') ;

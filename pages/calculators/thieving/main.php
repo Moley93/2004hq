@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Thieving'; }
 function getPageMetaIcon() { return 'img/skillicons/thieving.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Thieving Calculator</h2>
@@ -43,5 +39,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/thieving.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/thieving.js'); }

@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Cooking'; }
 function getPageMetaIcon() { return 'img/skillicons/cooking.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Cooking Calculator</h2>
@@ -38,5 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/cooking.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/cooking.js'); }

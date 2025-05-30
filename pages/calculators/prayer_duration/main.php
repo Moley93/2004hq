@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Prayer Duration'; }
 function getPageMetaIcon() { return 'img/skillicons/prayer.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function getCalcContent() { return <<<HTML
 <h2>Prayer Duration Calculator</h2>
 <div class="container">
@@ -89,5 +85,4 @@ function getCalcContent() { return <<<HTML
         <h2>Total HP restored: <span id="totalHpRestoredText" class="gold-text"></span></h2>
     </div>
 </div>
-<script type="text/javascript" src="js/calculators/prayer_duration.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/prayer_duration.js'); }

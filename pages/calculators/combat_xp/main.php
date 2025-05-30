@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Combat XP'; }
 function getPageMetaIcon() { return 'img/skillicons/attack.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function getCalcContent() { return <<<HTML
 <h2>Combat XP Calculator</h2>
 <div class="container">
@@ -66,5 +62,4 @@ function getCalcContent() { return <<<HTML
     <h2>Updated XP:</h2>
     <p id="newXP" class="gold-text"></p>
 </div>
-<script type="text/javascript" src="js/calculators/combat_xp.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/combat_xp.js'); }

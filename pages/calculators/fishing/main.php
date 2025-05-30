@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Fishing'; }
 function getPageMetaIcon() { return 'img/skillicons/fishing.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Fishing Calculator</h2>
@@ -38,5 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/fishing.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/fishing.js'); }

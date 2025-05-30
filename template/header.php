@@ -31,9 +31,11 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png">
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/site_options.js"></script>
-    <script type="text/javascript" src="js/floor_selector.js"></script>
-    <script type="text/javascript" src="js/sprite_loader.js"></script>
-    <?php if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); } ?>
+    <?php 
+    echo getJavaScriptVersion('js/main.js');
+    echo getJavaScriptVersion('js/site_options.js');
+    echo getJavaScriptVersion('js/floor_selector.js');
+    echo getJavaScriptVersion('js/sprite_loader.js');
+    if (function_exists('getExtraHeaderContent')) { echo getExtraHeaderContent(); }
+    ?>
 </head>

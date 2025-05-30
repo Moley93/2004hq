@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Run Energy'; }
 function getPageMetaIcon() { return 'img/skillicons/agility.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Run Energy Restore Calculator</h2>
@@ -21,5 +17,4 @@ function getCalcContent() { return <<<HTML
     <h3>~% Energy Restored per Minute:<span id="restoreOneMinute" class="gold-text"></span></h3>
     <br>
 </div>
-<script type="text/javascript" src="js/calculators/run_energy.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/run_energy.js'); }

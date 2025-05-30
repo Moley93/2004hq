@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Fletching'; }
 function getPageMetaIcon() { return 'img/skillicons/fletching.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Fletching Calculator</h2>
@@ -51,5 +47,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/fletching.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/fletching.js'); }

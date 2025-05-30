@@ -34,7 +34,10 @@ class CalculatorType {
         }
     }
 }
-
+function getExtraHeaderContent() { return
+    '<link rel="stylesheet" href="css/calculators.css">'.
+    getJavaScriptVersion('js/calculators.js');
+}
 function getPageContent(): string {
     global $meta_data, $siteOptStyle;
     ob_start();

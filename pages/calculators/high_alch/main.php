@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'High Alch'; }
 function getPageMetaIcon() { return 'img/skillicons/magic.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function getCalcContent() { return <<<HTML
 <h2>High Alchemy Calculator</h2>
 <div class="container">
@@ -38,5 +34,4 @@ function getCalcContent() { return <<<HTML
     <h3>Cost of Nature Runes: <span id="costOfNatures" class="red-text"></span></h3>
     <h3>Total Magic XP: <span id="totalMagicXP" class="gold-text"></span></h3>
 </div>
-<script type="text/javascript" src="js/calculators/high_alch.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/high_alch.js'); }

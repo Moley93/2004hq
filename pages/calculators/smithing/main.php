@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Smithing'; }
 function getPageMetaIcon() { return 'img/skillicons/smithing.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Smithing Calculator</h2>
@@ -57,5 +53,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/smithing.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/smithing.js'); }

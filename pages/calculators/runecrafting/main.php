@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Runecrafting'; }
 function getPageMetaIcon() { return 'img/skillicons/runecrafting.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Runecrafting Calculator</h2>
@@ -38,5 +34,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/runecrafting.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/runecrafting.js'); }

@@ -62,6 +62,6 @@
   <span class="close-btn" id="closeModal">&times;</span>
   <img src="" alt="Preview" id="modalImage">
 </div>
-<script type="text/javascript" src="js/end.js"></script>
+<?php echo getJavaScriptVersion('js/end.js'); ?>
 </body>
 </html>

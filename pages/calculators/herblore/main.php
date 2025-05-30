@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Herblore'; }
 function getPageMetaIcon() { return 'img/skillicons/herblore.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Herblore Calculator</h2>
@@ -34,5 +30,4 @@ function getCalcContent() { return <<<HTML
     <br>
     <div id="results"></div>
 </div>
-<script type="text/javascript" src="js/calculators/herblore.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/herblore.js'); }

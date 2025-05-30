@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Magic'; }
 function getPageMetaIcon() { return 'img/skillicons/magic.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function onBodyLoad() { return 'runCalc()'; }
 function getCalcContent() { return <<<HTML
 <h2>Magic Calculator</h2>
@@ -41,5 +37,4 @@ function getCalcContent() { return <<<HTML
         <tbody></tbody>
     </table>
 </div>
-<script type="text/javascript" src="js/calculators/magic.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/magic.js'); }

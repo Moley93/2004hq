@@ -1,10 +1,6 @@
 <?php
 function getPageTitle() { return 'Combat Level'; }
 function getPageMetaIcon() { return 'img/skillicons/attack.webp'; }
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
-}
 function getCalcContent() { return <<<HTML
 <h2>Combat Level Calculator</h2>
 <div class="container">
@@ -40,5 +36,4 @@ function getCalcContent() { return <<<HTML
     <div id="levelUpInfo" class="gold-text"></div>
     <br>
 </div>
-<script type="text/javascript" src="js/calculators/combat_level.js"></script>
-HTML; }
+HTML.getJavaScriptVersion('js/calculators/combat_level.js'); }
