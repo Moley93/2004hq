@@ -67,9 +67,10 @@ function updateProgressBar(currentXP, targetXP) {
     const rightBarText = document.createElement("div");
     rightBar.className = "progress-bar";
     rightBarText.className = "progress-text";
-    let prevLevel = getXPForLevel(getLevelForXP(currentXP));
-    rightBar.style.width = rightBarWidth;
-    rightBarText.textContent = `${((prevLevel / targetXP) * 100).toFixed(2)}% from level ${getLevelForXP(currentXP)}`;
+    const prevLevelNum = getLevelForXP(currentXP);
+    const prevLevelXP = getXPForLevel(prevLevelNum);
+    const progressFromPrev = ((currentXP - prevLevelXP) / (targetXP - prevLevelXP)) * 100;
+    rightBarText.textContent = `${progressFromPrev.toFixed(2)}% from level ${prevLevelNum}`;
     container2.appendChild(rightBar);
     container2.appendChild(rightBarText);
 
@@ -85,7 +86,7 @@ function updateProgressBar(currentXP, targetXP) {
     parent.appendChild(container3);
     setTimeout(() => {
         leftBar.style.width = `${((currentXP / targetXP) * 100).toFixed(2)}%`;
-        rightBar.style.width = `${((prevLevel / targetXP) * 100).toFixed(2)}%`;
+        rightBar.style.width = `${(progressFromPrev.toFixed(2))}%`;
     }, 50);
 }
 
