@@ -35,11 +35,14 @@ function updateProgressBar(currentXP, targetXP) {
     let leftBarWidth = '0%';
     let rightBarWidth = '0%';
     if (parent.children.length > 1) {
-        leftBarWidth = parent.children[0].children[0].children[0].style.width;
-        rightBarWidth = parent.children[0].children[1].children[0].style.width;
+        leftBarWidth = parent.children[1].children[0].children[0].style.width;
+        rightBarWidth = parent.children[1].children[1].children[0].style.width;
     }
     parent.innerHTML = "";
 
+    const header = document.createElement("h3");
+    header.textContent = "Progress to Goal:";
+    parent.appendChild(header);
     const wrapper = document.createElement("div");
     wrapper.style.display = "flex";
     wrapper.style.gap = "8px";
@@ -67,6 +70,7 @@ function updateProgressBar(currentXP, targetXP) {
     const rightBarText = document.createElement("div");
     rightBar.className = "progress-bar";
     rightBarText.className = "progress-text";
+    rightBar.style.width = rightBarWidth;
     const prevLevelNum = getLevelForXP(currentXP);
     const prevLevelXP = getXPForLevel(prevLevelNum);
     const progressFromPrev = ((currentXP - prevLevelXP) / (targetXP - prevLevelXP)) * 100;
