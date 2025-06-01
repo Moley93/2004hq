@@ -28,15 +28,21 @@ function sanitizeLevel(level) {
     else if (targetLevel > 126) { targetLevel = 126; }
     return targetLevel;
 }
+function sanitizePercent(percent) {
+    let targetPercent = percent;
+    if (targetPercent < 0) { targetPercent = 0; }
+    else if (targetPercent > 100) { targetPercent = 100; }
+    return targetPercent;
+}
 function updateProgressBar(currentXP, targetXP) {
     const parent = document.getElementById("progress-bar-root");
     if (!parent) return console.error("Progress bar root container not found");
 
-    let leftBarWidth = '0%';
-    let rightBarWidth = '0%';
+    let prevLeftBarWidth = '0%';
+    let prevRightBarWidth = '0%';
     if (parent.children.length > 1) {
-        leftBarWidth = parent.children[1].children[0].children[0].style.width;
-        rightBarWidth = parent.children[1].children[1].children[0].style.width;
+        prevLeftBarWidth = parent.children[1].children[0].children[0].style.width;
+        prevRightBarWidth = parent.children[1].children[1].children[0].style.width;
     }
     parent.innerHTML = "";
 
@@ -57,8 +63,9 @@ function updateProgressBar(currentXP, targetXP) {
     const leftBarText = document.createElement("div");
     leftBar.className = "progress-bar";
     leftBarText.className = "progress-text";
-    leftBar.style.width = leftBarWidth;
-    leftBarText.textContent = `${((currentXP / targetXP) * 100).toFixed(2)}% from level 1`;
+    leftBar.style.width = prevLeftBarWidth;
+    const nextLeftBarWidth = sanitizePercent((currentXP / targetXP) * 100);
+    leftBarText.textContent = `${nextLeftBarWidth.toFixed(2)}% from level 1`;
     container1.appendChild(leftBar);
     container1.appendChild(leftBarText);
 
@@ -70,11 +77,11 @@ function updateProgressBar(currentXP, targetXP) {
     const rightBarText = document.createElement("div");
     rightBar.className = "progress-bar";
     rightBarText.className = "progress-text";
-    rightBar.style.width = rightBarWidth;
+    rightBar.style.width = prevRightBarWidth;
     const prevLevelNum = getLevelForXP(currentXP);
     const prevLevelXP = getXPForLevel(prevLevelNum);
-    const progressFromPrev = ((currentXP - prevLevelXP) / (targetXP - prevLevelXP)) * 100;
-    rightBarText.textContent = `${progressFromPrev.toFixed(2)}% from level ${prevLevelNum}`;
+    const nextRightBarWidth = sanitizePercent(((currentXP - prevLevelXP) / (targetXP - prevLevelXP)) * 100);
+    rightBarText.textContent = `${nextRightBarWidth.toFixed(2)}% from level ${prevLevelNum}`;
     container2.appendChild(rightBar);
     container2.appendChild(rightBarText);
 
@@ -89,8 +96,8 @@ function updateProgressBar(currentXP, targetXP) {
     container3.style.minWidth = 0;
     parent.appendChild(container3);
     setTimeout(() => {
-        leftBar.style.width = `${((currentXP / targetXP) * 100).toFixed(2)}%`;
-        rightBar.style.width = `${(progressFromPrev.toFixed(2))}%`;
+        leftBar.style.width = `${nextLeftBarWidth.toFixed(2)}%`;
+        rightBar.style.width = `${nextRightBarWidth.toFixed(2)}%`;
     }, 50);
 }
 
