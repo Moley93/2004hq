@@ -135,7 +135,7 @@ async function lookupPlayer() {
                 
                 case /^Failed random event and had their items noted/i.test(desc):
                     iconSrc = "img/mys_old_man.png";
-                    altText  = "Odd Old Man Icon";
+                    altText  = "Mysterious Old Man Icon";
                     break;
 
                 case /^Failed random event and got teleported/i.test(desc):
