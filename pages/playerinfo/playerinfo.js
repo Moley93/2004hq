@@ -116,7 +116,8 @@ async function lookupPlayer() {
                         }
                     });
                     break;
-
+                
+                case /^Completed tutorial island/i.test(desc):
                 case /^Quest complete:/i.test(desc):
                     iconSrc = "img/questicon.png";
                     altText  = "Quest complete icon";
@@ -125,6 +126,41 @@ async function lookupPlayer() {
                 case /^Completed (?:a|an) (?:Easy|Medium|Hard) Clue Scroll\b/i.test(desc):
                     iconSrc = "img/clueicon.png";
                     altText  = "Clue Scroll";
+                    break;
+
+                case /^Failed random event and had their items scattered/i.test(desc):
+                    iconSrc = "img/genie.png";
+                    altText  = "Genie Icon";
+                    break;
+                
+                case /^Failed random event and had their items noted/i.test(desc):
+                    iconSrc = "img/mys_old_man.png";
+                    altText  = "Odd Old Man Icon";
+                    break;
+
+                case /^Failed random event and got teleported/i.test(desc):
+                    iconSrc = "img/teleport.png";
+                    altText  = "Failed Random Teleport Icon";
+                    break;
+
+                case /^Broke their .* pickaxe/i.test(desc):
+                    iconSrc = "img/broken_pickaxe.png";
+                    altText  = "Broken Pickaxe Icon";
+                    break;
+                
+                case /^Broke their .* axe/i.test(desc):
+                    iconSrc = "img/broken_axe.png";
+                    altText  = "Broken Axe Icon";
+                    break;
+
+                case /^Lost their .* pickaxe head/i.test(desc):
+                    iconSrc = "img/lost_pickaxe_head.png";
+                    altText = "Lost Pickaxe Head Icon";
+                    break;
+
+                case /^Lost their .* axe head/i.test(desc):
+                    iconSrc = "img/lost_axe_head.png";
+                    altText = "Lost Axe Head Icon";
                     break;
 
                 default:
