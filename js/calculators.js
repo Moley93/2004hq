@@ -184,22 +184,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentXP  = document.getElementById("currentXP");
     if (!xpInput || !lvlInput || !currentXP) { return; }
 
-    xpInput.addEventListener("input", () => {
+    function handleXPUpdate() {
         xpInput.value = sanitizeXP(xpInput.value);
         const xp    = parseInt(xpInput.value, 10) || 0;
         lvlInput.value = getLevelForXP(xp);
         runCalc();
-    });
-
-    currentXP.addEventListener("input", () => {
+    }
+    function handleCurrentXPUpdate() {
         currentXP.value = sanitizeXP(currentXP.value);
         runCalc();
-    });
-
-    lvlInput.addEventListener("input", () => {
+    }
+    function handleLevelUpdate() {
         lvlInput.value = sanitizeLevel(lvlInput.value);
         const lvl   = parseInt(lvlInput.value, 10) || 2;
         xpInput.value  = getXPForLevel(lvl);
         runCalc();
-    });
+    }
+
+    xpInput.addEventListener("change", handleXPUpdate);
+    xpInput.addEventListener("blur", handleXPUpdate);
+
+    currentXP.addEventListener("change", handleCurrentXPUpdate);
+    currentXP.addEventListener("blur", handleCurrentXPUpdate);
+
+    lvlInput.addEventListener("change", handleLevelUpdate);
+    lvlInput.addEventListener("blur", handleLevelUpdate);
 });
