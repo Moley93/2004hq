@@ -147,6 +147,7 @@ function getCalcContent() { return <<<HTML
             <select id="glovesBonus">
                 <option value="0">None</option>
                 <option value="2">Cooking Gauntlets (+2)</option>
+                <option value="2">Chaos Gauntlets (+2)</option>
                 <option value="2">Goldsmith Gauntlets (+2)</option>
                 <option value="2">Klank's Gauntlets (+2)</option>
                 <option value="2">Steel Gauntlets (+2)</option>
