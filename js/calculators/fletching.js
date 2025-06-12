@@ -26,29 +26,29 @@ function runCalc() {
     };
     
     const arrows = {
-        "Arrow Shaft x15": [5, 1],
-        "Headless Arrow x15": [20, 1],
-        "Bronze Arrow x15": [39.5, 1],
+        "Arrow Shaft x15": [7.5, 1],
+        "Headless Arrow x15": [22.5, 1],
+        "Bronze Arrow x15": [42, 1],
         "Opal Bolt x10": [31, 11],
-        "Iron Arrow x15": [57.5, 15],
-        "Steel Arrow x15": [95, 30],
+        "Iron Arrow x15": [60, 15],
+        "Steel Arrow x15": [97.5, 30],
         "Pearl Bolt x10": [64, 41],
-        "Mithril Arrow x15": [132.5, 45],
+        "Mithril Arrow x15": [135, 45],
         "Barbed Bolt x10": [95, 51],
-        "Adamant Arrow x15": [170, 60],
-        "Rune Arrow x15": [207.5, 75]
+        "Adamant Arrow x15": [172.5, 60],
+        "Rune Arrow x15": [210, 75]
     };
 
     const incomplete = {
         "Headless Arrow x15": [15, 1],
-        "Bronze Arrowheads x15": [13, 1],
+        "Bronze Arrowheads x15": [19.5, 1],
         "Opal Bolttips x10": [15, 11],
-        "Iron Arrowheads x15": [25, 15],
-        "Steel Arrowheads x15": [50, 30],
+        "Iron Arrowheads x15": [37.5, 15],
+        "Steel Arrowheads x15": [75, 30],
         "Pearl Bolttips x10": [32, 41],
-        "Mithril Arrowheads x15": [75, 45],
-        "Adamant Arrowheads x15": [100, 60],
-        "Rune Arrowheads x15": [125, 75]
+        "Mithril Arrowheads x15": [112.5, 45],
+        "Adamant Arrowheads x15": [150, 60],
+        "Rune Arrowheads x15": [187.5, 75]
     }
     
     updateProgressBar(currentXP, targetXP);
