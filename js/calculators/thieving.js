@@ -11,9 +11,9 @@ function runCalc() {
 
     const npcs = {
         "Man/Woman": { xp: 8, level: 1 },
+        "Digsite Workman": { xp: 10.4, level: 10 },
         "Farmer": { xp: 14.5, level: 10 },
         "Warrior/Al Kharid warrior": { xp: 26, level: 25 },
-        "Digsite Workman": { xp: 10.4, level: 10 },
         "Rogue": { xp: 36.5, level: 32 },
         "Guard": { xp: 46.8, level: 40 },
         "Knight of Ardougne": { xp: 84.3, level: 55 },
