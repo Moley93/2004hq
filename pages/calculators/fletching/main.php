@@ -29,7 +29,14 @@ function getCalcContent() { return <<<HTML
     <button onclick="setMode('arrows')">Arrows/Bolts</button>
     <br><br>
     <div class="input-group" id="arrowSelection" style="display: none">
-        <label for="arrowType">Complete/Incomplete:</label>
+        <label for="arrowType">
+            <span class="tooltip">
+                Complete/Incomplete:
+                <span class="tooltip-text">
+                "Complete" includes all steps of fletching (e.g., cutting shafts, feathering, and adding heads).<br>"Incomplete" assumes materials are partly prepared and XP is only for the current step.
+                </span>
+            </span>
+        </label>
         <select id="arrowType" onchange="runCalc()">
             <option value="completeArrows">Complete</option>
             <option value="incompleteArrows">Incomplete</option>

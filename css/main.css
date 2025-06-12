@@ -470,3 +470,39 @@ A.pink:hover {
     align-items: center;
     justify-content: center;
 }
+
+.tooltip {
+    border-bottom: 1px dotted #999;
+    cursor: help;
+    position: relative;
+}
+
+.tooltip::after {
+    content: '?';
+    color: #ffffff;
+    font-size: 0.7em;
+    vertical-align: super;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    padding: 6px 8px;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.2s ease-in-out;
+    white-space: nowrap;
+  }
