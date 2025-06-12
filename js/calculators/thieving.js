@@ -91,10 +91,7 @@ function runCalc() {
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${level}</td>
-            <td>
-                ${img}<br>
-                ${source}${lockpick}
-            </td>
+            <td><div class="centered-content">${img}&nbsp;${source}${lockpick}</div></td>
             <td>${xp}</td>
             <td>${count.toLocaleString()}</td>
         `;

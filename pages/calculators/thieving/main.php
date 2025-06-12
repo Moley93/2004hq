@@ -32,7 +32,7 @@ function getCalcContent() { return <<<HTML
             <tr>
                 <th>Level</th>
                 <th>Source</th>
-                <th>XP per Theft</th>
+                <th>XP per Action</th>
                 <th>Actions Needed</th>
             </tr>
         </thead>
