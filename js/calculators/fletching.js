@@ -26,29 +26,29 @@ function runCalc() {
     };
     
     const arrows = {
-        "Arrow Shaft": [5, 1],
-        "Headless Arrow": [20, 1],
-        "Bronze Arrow": [39.5, 1],
-        "Opal Bolt": [31, 11],
-        "Iron Arrow": [57.5, 15],
-        "Steel Arrow": [95, 30],
-        "Pearl Bolt": [64, 41],
-        "Mithril Arrow": [132.5, 45],
-        "Barbed Bolt": [95, 51],
-        "Adamant Arrow": [170, 60],
-        "Rune Arrow": [207.5, 75]
+        "Arrow Shaft x15": [5, 1],
+        "Headless Arrow x15": [20, 1],
+        "Bronze Arrow x15": [39.5, 1],
+        "Opal Bolt x10": [31, 11],
+        "Iron Arrow x15": [57.5, 15],
+        "Steel Arrow x15": [95, 30],
+        "Pearl Bolt x10": [64, 41],
+        "Mithril Arrow x15": [132.5, 45],
+        "Barbed Bolt x10": [95, 51],
+        "Adamant Arrow x15": [170, 60],
+        "Rune Arrow x15": [207.5, 75]
     };
 
     const incomplete = {
-        "Headless Arrow": [15, 1],
-        "Bronze Arrowheads": [13, 1],
-        "Opal Bolttips": [15, 11],
-        "Iron Arrowheads": [25, 15],
-        "Steel Arrowheads": [50, 30],
-        "Pearl Bolttips": [32, 41],
-        "Mithril Arrowheads": [75, 45],
-        "Adamant Arrowheads": [100, 60],
-        "Rune Arrowheads": [125, 75]
+        "Headless Arrow x15": [15, 1],
+        "Bronze Arrowheads x15": [13, 1],
+        "Opal Bolttips x10": [15, 11],
+        "Iron Arrowheads x15": [25, 15],
+        "Steel Arrowheads x15": [50, 30],
+        "Pearl Bolttips x10": [32, 41],
+        "Mithril Arrowheads x15": [75, 45],
+        "Adamant Arrowheads x15": [100, 60],
+        "Rune Arrowheads x15": [125, 75]
     }
     
     updateProgressBar(currentXP, targetXP);
@@ -63,11 +63,18 @@ function runCalc() {
         for (let arrow in arrowData) {
             let [xpPerAction, levelReq] = arrowData[arrow];
             let count = Math.ceil(xpNeeded / xpPerAction);
+
+            // Extract 'x15' or 'x10' part
+            const match = arrow.match(/\s(x\d+)$/);
+            const quantityText = match ? ` ${match[1]}` : "";
+
+            // Clean up item name for data attribute
+            const cleanName = arrow.replace(/\s*x\d+$/, '').toLowerCase().replace(/\s+/g, "_");
             
             let row = document.createElement("tr");
             row.innerHTML = `
                 <td>${levelReq}</td>
-                <td><canvas data-itemname="${arrow.toLowerCase().replace(/\s+/g, "_")}" data-show-label="inline"></canvas></td>
+                <td><div class=centered-content><canvas data-itemname="${cleanName}" data-show-label="inline"></canvas>&nbsp;${quantityText}</div></td>
                 <td>${xpPerAction}</td>
                 <td>${count.toLocaleString()}</td>
             `;

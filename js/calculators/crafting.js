@@ -79,7 +79,11 @@ function runCalc() {
             "Bowl unfired": { xp: 18, level: 8 },
             "Bowl empty": { xp: 33, level: 8 },
             "Vial empty": { xp: 35, level: 33 },
-            "stafforb": { xp: 52.5, level: 46 }
+            "stafforb": { xp: 52.5, level: 46 },
+            "water battlestaff": { xp: 100, level: 54 },
+            "earth battlestaff": { xp: 112.5, level: 58 },
+            "fire battlestaff": { xp: 125, level: 62 },
+            "air battlestaff": { xp: 137.5, level: 66 }
         },
         "spinning": {
             "Ball of Wool": { xp: 2.5, level: 1 },
