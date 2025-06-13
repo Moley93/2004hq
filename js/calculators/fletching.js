@@ -10,9 +10,10 @@ function runCalc() {
     const targetXP = parseInt(document.getElementById("targetXP").value);
     const xpNeeded = targetXP - currentXP;
 
+    // Unstrung xp, stringing xp, complete xp, level req
     const items = {
-        "Shortbow": [5, 5, 10, 1],
-        "Longbow": [10, 10, 20, 5],
+        "Shortbow": [5, 5, 10, 5],
+        "Longbow": [10, 10, 20, 10],
         "Oak Shortbow": [16.5, 16.5, 33, 20],
         "Oak Longbow": [25, 25, 50, 25],
         "Willow Shortbow": [33.3, 33.2, 66.5, 35],
