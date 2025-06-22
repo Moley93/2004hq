@@ -113,7 +113,7 @@ function getPageContent() {
 
             if (!file_exists($fileLocation)) {
                 $stopload = true;
-                header("Location: ?p=404");
+                redirect("404");
                 exit;
             }
             $questComplete = '
@@ -125,7 +125,7 @@ function getPageContent() {
 
         } else {
             $stopload = true;
-            header("Location: ?p=404");
+            redirect("404");
             exit;
         }
     }
@@ -134,50 +134,50 @@ function getPageContent() {
 
 function renderQuestList(array $questlist): string {
     $html = <<<HTML
-    <style>
+        <style>
 
-    .quest-container {
-        background-color: #3B322B;
-        background-repeat: repeat;
-        font-family: 'RSPlain12', monospace;
-        font-size: 12px;
-        padding: 10px;
-        display: flex;
-        gap: 40px;
-        width: fit-content;
-        margin: auto;
-    }
-    .quest-column {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    .quest-header {
-        color: #FF981F;
-        margin-bottom: 5px;
-        font-weight: bold;
-        text-shadow: 2px 2px #000;
-    }
-    .quest-entry a:hover {
-        color:rgb(255, 0, 0);
-        margin: 2px 0;
-        text-shadow: 2px 2px #000;
-        text-decoration: none;
-    }
-    .quest-entry a {
-        color: #00FF80;
-        margin: 2px 0;
-        text-shadow: 2px 2px #000;
-        text-decoration: none;
-    }
-    </style>
-    <div class="quest-container">
-        <div class="quest-column">
-            <div class="quest-header">FREE QUESTS:</div>
-HTML;
+        .quest-container {
+            background-color: #3B322B;
+            background-repeat: repeat;
+            font-family: 'RSPlain12', monospace;
+            font-size: 12px;
+            padding: 10px;
+            display: flex;
+            gap: 40px;
+            width: fit-content;
+            margin: auto;
+        }
+        .quest-column {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        .quest-header {
+            color: #FF981F;
+            margin-bottom: 5px;
+            font-weight: bold;
+            text-shadow: 2px 2px #000;
+        }
+        .quest-entry a:hover {
+            color:rgb(255, 0, 0);
+            margin: 2px 0;
+            text-shadow: 2px 2px #000;
+            text-decoration: none;
+        }
+        .quest-entry a {
+            color: #00FF80;
+            margin: 2px 0;
+            text-shadow: 2px 2px #000;
+            text-decoration: none;
+        }
+        </style>
+        <div class="quest-container">
+            <div class="quest-column">
+                <div class="quest-header">FREE QUESTS:</div>
+        HTML;
 
-     // Free Quests
-     foreach ($questlist as $questKey => $quest) {
+    // Free Quests
+    foreach ($questlist as $questKey => $quest) {
         $questName = array_key_first($quest);
         $isMembers = $quest[$questName];
         if (!$isMembers) {
@@ -187,10 +187,10 @@ HTML;
     }
 
     $html .= <<<HTML
-    </div>
-    <div class="quest-column">
-        <div class="quest-header">MEMBERS QUESTS:</div>
-HTML;
+        </div>
+        <div class="quest-column">
+            <div class="quest-header">MEMBERS QUESTS:</div>
+        HTML;
 
     // Members Quests
     foreach ($questlist as $questKey => $quest) {

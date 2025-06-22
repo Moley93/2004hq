@@ -47,11 +47,11 @@ switch ($p) {
         break;
 }
 
-if (empty($stopload)) {
+if (!$stopload) {
     $pageHTML = getPageContent();
     include 'template/header.php';
     include 'template/body.php';
     echo $pageHTML;
     include 'template/footer.php';
-}
+} 
 ?>

@@ -61,7 +61,8 @@ function getPageContent(): string {
 
             echo getCalcContent();
         } else {
-            header("Location: ?p=404");
+            $stopload = true;
+            redirect("404");
             exit;
         }
     }

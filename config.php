@@ -28,3 +28,7 @@ function getJavaScriptVersion(string $filename): string {
         return '<script type="text/javascript" src="' . $filename . '"></script>';
     }
 }
+
+function redirect(string $location) {
+    header("Location: ?p=". $location);
+}

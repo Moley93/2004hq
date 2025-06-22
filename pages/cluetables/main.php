@@ -120,4 +120,4 @@ function getPageContent() {
     });
 </script>
 
-HTML;} ?>
+HTML;}

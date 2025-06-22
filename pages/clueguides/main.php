@@ -31,7 +31,8 @@ function getPageContent() {
           $meta_data['og:title'] = $meta_data['title'];
           echo getGuideContent($guideLookup[$clueGuide]);
       } else {
-          header("Location: ?p=404");
+          $stopload = true;
+          redirect("404");
           exit;
       }
   }
