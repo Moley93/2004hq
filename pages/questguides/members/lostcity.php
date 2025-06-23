@@ -33,7 +33,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Prepare yourself at Draynor bank for the fight with a level 101 spirit without armor or a weapon. Bring good food, runes, or jewellry to teleport.</div>
 <br><br>
-You can also bring crafting materials to create leather armor<!-- or snelms.--> Other supplies depend on whether you will be using melee/magic/ranged.
+You can also bring crafting materials to create leather armor<!-- or snelms-->. Other supplies depend on whether you will be using melee/magic/ranged.
 <br><br>
 Melee: Prayer potions<br>
 Magic: Runes for strike/bolt/blast/wave spell<br>
