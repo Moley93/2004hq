@@ -38,7 +38,7 @@ function getPageContent() {
     <tr>
       <td width="33.33%">Hidaze</td>
       <td width="33.33%">Hydrated</td>
-      <td width="33.33%">Ads</td>
+      <td width="33.33%">illjim</td>
     </tr>
     <tr>
       <td>Meltii</td>
@@ -46,9 +46,9 @@ function getPageContent() {
       <td>Jogizy</td>
     </tr>
     <tr>
-      <td></td>
+      <td>R3dM45k</td>
       <td>Gerrin</td>
-      <td></td>
+      <td>14k</td>
     </tr>
   </table>
 </div>
