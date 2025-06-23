@@ -156,18 +156,18 @@ function renderQuestList(array $questlist): string {
             color: #FF981F;
             margin-bottom: 5px;
             font-weight: bold;
-            text-shadow: 2px 2px #000;
+            text-shadow: 1px 1px #000;
         }
         .quest-entry a:hover {
             color:rgb(255, 0, 0);
             margin: 2px 0;
-            text-shadow: 2px 2px #000;
+            text-shadow: 1px 1px #000;
             text-decoration: none;
         }
         .quest-entry a {
             color: #00FF80;
             margin: 2px 0;
-            text-shadow: 2px 2px #000;
+            text-shadow: 1px 1px #000;
             text-decoration: none;
         }
         </style>
