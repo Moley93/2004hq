@@ -39,7 +39,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <img src="img\questimages\clocktower1.png" height="200" width="200">
 <br><br>
-<div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back up the ladder to the <span data-floors="US">1st floor</span>.</div>
+<div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder you came down to the basement with.</div>
 <br><br>
 <div data-progress>In the basement, use the <canvas data-itemname="blackcog" data-size="32"></canvas>Black Cog on the black pole.</div>
 <hr>
@@ -69,9 +69,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <img src="img\questimages\clocktower4.png" height="200" width="200">
 <br><br>
-<div data-progress>Pick up the white cog, go up the ladder, and you will appear outside the clock tower.<br>
-    Go inside and use the <canvas data-itemname="whitecog" data-size="32"></canvas>White Cog on the white pole near the ladder,
-    on the <span data-floors="US">3rd floor</span>.</div>
+<div data-progress>Pick up the white cog, go up the ladder, and you will appear outside the clock tower.</div>
+<br><br>
+<div data-progress>Go inside, go up the ladder to the <span data-floors="US">3rd floor</span> and use the <canvas data-itemname="whitecog" data-size="32"></canvas>White Cog on the white pole.</div>
 <hr>
 <h3>Blue Cog:</h3>
 <br><br>
@@ -89,7 +89,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>Go down the ladder and follow the passage to a wall. Go through the door and pick up the blue cog.</div>
 <br><br>
 <div data-progress>
-Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span>,
+Go up the ladder, go inside the clock tower, up the staircase to the <span data-floors="US">2nd floor</span>
  and use the <canvas data-itemname="bluecog" data-size="32"></canvas>Blue Cog on the blue pole.
 </div>
 <br><br>
