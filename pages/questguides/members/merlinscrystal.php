@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Merlin the wizard has carelessly become imprisoned inside a giant crystal. Take up King Arthur's quest to free Merlin and become one of the knights of the round table.
 <br><br>
@@ -46,6 +46,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Proceed to the top floor of the southeast end of the castle and use your Excalibur with the crystal and it will shatter to free Merlin, he tells you to speak with King Arthur for your reward.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/DbYQeLVeVhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written on RuneHQ by xxteargodxx. Thanks to Weezy and patgil2003 for corrections.

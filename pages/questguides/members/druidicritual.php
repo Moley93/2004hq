@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> To start using the herblore skill you will need to ask for some training from the druids. However, they require some help with a ritual before they will help you.
 <br><br>
@@ -34,6 +34,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Kaqemeex will give you your reward and then explain some things about Herblore. He also refers you to the Scribe section of the website for more info.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/ts3kJNGIpBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written on RuneHQ by Gnat88. Thanks to Weezy for corrections.<br><br>

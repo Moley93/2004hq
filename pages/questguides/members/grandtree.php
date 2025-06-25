@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The Grand Tree, which shelters the majority of RuneScape's small gnome population, is dying. Is it human sabotage or an inside job? Help King Shareem to find the true cause and save the tree gnomes from an uncertain fate.
 <br><br>
@@ -162,6 +162,7 @@ ta: the<br>
 tuzo: open<br>
 Daconia: Daconia<br>
 <hr>
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/QceJS4nBTSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by pj. Thanks to Swaty, Koppen, Your Homey 1, Pirate Bob49, and faital03 for corrections.

@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The observatory in South West Ardougne has been ransacked by a family of nearby goblins. Can you help the professors to rebuild it? Use your skills at crafting to make the various parts, and fight your way through the cavern under the observatory. Use the telescope and the stars hold a secret for you.
 <br><br>
@@ -60,6 +60,7 @@ Capricorn: 875 Strength XP<br>
 Aquarius: 25 Water Runes<br>
 Pisces: 3 Cooked Tunas
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/2UIpS9vLBNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by Gnat88 and pj. Thanks to DRAVAN and Nickseemann for corrections.

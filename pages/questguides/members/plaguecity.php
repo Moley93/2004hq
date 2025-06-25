@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> A shadow of disease has overcast Ardounge. Edmond's daugher Elena has gone missing in West Ardougne whilst trying to help the plague victims there. See if you can find out what's going on.
 <br><br>
@@ -65,6 +65,7 @@ Finally add some snape grass</i></div><br>
 <br><br>
 <div data-progress>Go back to the dungeon and talk to Edmond, he will say thank you and reward you.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/jlypvOm3zhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by Henry-X. Thanks to Weezy, Mighty Red ,Biogenecis, MrStormy, Rune Dragon018, Stormer, and storm007 for corrections.

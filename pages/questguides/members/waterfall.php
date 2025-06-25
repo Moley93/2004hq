@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Investigate the death of elven leaders of old. Search for the elf King Baxtorian's tomb and discover the mysterious hidden treasure of the waterfall.
 <br><br>
@@ -47,6 +47,7 @@ The grave is the grey circle place with a walk way to the circle.<br>
 <br><br>
 <div data-progress>This is where you use your runes. There are 6 pillars: Put 1 water rune on each pillar, then 1 air rune, then 1 earth rune, and finally use the amulet on the statue. If you did this right the floor will rise. Go up to the trophy, use the urn with the trophy and you have completed the quest! If you are unsuccessful you must put your armour and weapon back in the bank and go back to the grave and get the amulet again.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/dglG_EgXeTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by thehellkeeper and zone_ant. Thanks to Thunderdog, External, DRAVAN, and Koppen for corrections.

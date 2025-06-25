@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The mountain Dwarves home would be an ideal way to get across White Wolf mountain safely. However, the Dwarves aren't too fond of strangers. They will let you through if you can bring them a trophy. The trophy is the prize for the annual Hemenster fishing competition.
 <br><br>
@@ -37,6 +37,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Return to the dwarf and he will reward you.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/uP8JaMMnH7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p>*The video shows 21 Fishing requirement, it's actually 10.</p>
 <hr>

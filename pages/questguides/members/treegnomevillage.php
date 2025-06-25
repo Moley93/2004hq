@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> The tree gnomes are in trouble. General Khazard's forces are hunting them to extinction. Find you way through the hedge maze to the gnomes secret treetop village. Then help the gnomes fight Khazard and retrieve the orbs of protection.
 <br><br>
@@ -45,6 +45,7 @@ Height=4 X=3 Y=5</div>
 <br><br>
 <div data-progress>Once he is dead (congratulations!), you'll receive the orbs. Return once again to Elkoy, then to Bolren. He'll tell you about the Spirit Trees and give you your reward.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/ZZ3Mrs8-39Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by Gnat88.

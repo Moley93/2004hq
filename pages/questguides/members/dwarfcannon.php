@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> For several years now the dwarven black guard have been developing the lastest in projectile warfare. Now with the constant attack of goblin renegades, the dwarven troops who protect the mines need to put this secret weapon into action. Only with your help can the true power of this cannon be harnessed!
 <br><br>
@@ -41,6 +41,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Teleport to Camelot, or nearby if you have the runes. For you pures out there… you're just outta luck today. Once you get there by your chosen mode of transportation, talk once more to the commander, and at long last, you receive your reward.</div>
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/yB4V1deH2WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written on RuneHQ by Gnat88. Thanks to DNKevin and Neo 9001 for corrections.

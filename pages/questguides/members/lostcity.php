@@ -1,7 +1,7 @@
 <?php
 function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h2>$questName</h2>
-<b><font color="Yellow">ZombieMusiq Video Guide at bottom of page!</font></b>
+<a href="#zombiemusiq" style="color: yellow; text-decoration: none; font-weight: bold;">ZombieMusiq Video Guide at bottom of page!</a>
 <br><br>
 <b>Description:</b> Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?
 <br><br>
@@ -69,6 +69,7 @@ Ranged and Magic: There is one safe spot in the room.
 <br><br>
 <img src="img\questimages\lostcity6.png" height="300" width="350">
 $questComplete
+<span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/9tmB1Gz4y3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <hr>
 This quest guide was written by Gnat88, Galalad, and Alfawarlord. Thanks to Jakesterwars, Lilroo503, and Khaaveren for corrections.
