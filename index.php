@@ -17,6 +17,7 @@ switch ($p) {
     case 'streetprices':
     case 'questguides':
     case 'itemdb':
+    case 'wallpapers':
     case 'playerinfo':
         include 'pages/'.$p.'/main.php';
         break;

@@ -112,6 +112,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>26/06/2025</td><td>Added wallpapers available for download</td></tr>
     <tr><td>23/05/2025</td><td>Major QoL improvements across all calculators</td></tr>
     <tr><td>10/05/2025</td><td>Clue tables now search across all tiers at once</td></tr>
     <tr><td>10/05/2025</td><td>Clue tables now highlight rare drops</td></tr>

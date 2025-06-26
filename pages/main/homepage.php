@@ -128,4 +128,39 @@ function getPageContent() { return <<<HTML
         </tr>
     </tbody>
 </table>
+<hr>
+<table>
+    <tbody>
+        <tr valign="top">
+            <td width="100">
+                <a href="?p=wallpapers">
+                    <img src="img/picture.png" style="width:80px;margin-top:20px;"></a>
+            </td>
+            <td width="120">
+                <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
+                    <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
+                </div>
+                <br>
+                <br>
+                Wallpapers<br>
+                <a href="?p=wallpapers" class="c">Click Here</a>
+            </td>
+            <td width="10"></td>
+            <td width="100">
+                <a href="?p=">
+                    <img src="img/wip.png" style="width:80px;margin-top:20px;"></a>
+            </td>
+            <td width="120">
+                <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
+                    <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
+                </div>
+                <br>
+                <br>
+                Work In Progress<br>
+                <a href="?p=" class="c">Click Here</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
 HTML; }
