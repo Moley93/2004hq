@@ -91,8 +91,7 @@ function generateCalculatorLinks(): string {
 
     $miscRows = $generateLinks($miscCalculators);
 
-    return <<<HTML
-        <link rel="stylesheet" href="css/calculators.css">
+    return getCSSVersion('css/calculators.css') . <<<HTML
         <table width="90%" class="calculators">
             <tr>
                 <th>Skill Calculators</th>
