@@ -240,6 +240,7 @@ A.pink:hover {
     width: 100%;
     margin-bottom: 13px;
 }
+
 #site-options-container {
     * { font-family: 'RSPlain12', sans-serif; }
     font-size: 16px;
@@ -299,6 +300,7 @@ A.pink:hover {
         display: none;
     }
 }
+
 .main-content {
     flex-direction: column; /* stack children vertically */
     justify-content: center; /* vertical centering */
@@ -408,6 +410,7 @@ A.pink:hover {
         border-radius: 15px;
     }
 }
+
 #scrollToTop {
     position: fixed;
     bottom: 20px;
@@ -433,12 +436,16 @@ A.pink:hover {
 [data-progress] canvas {
     vertical-align: middle;
     margin-left: 4px;
-  }
+}
 
-.hidden { display: none; }
+.hidden { 
+    display: none; 
+}
+
 .image-link {
     color: #b2ffb1 !important;
 }
+
 .img-modal {
     display: none;
     position: fixed;
@@ -449,12 +456,14 @@ A.pink:hover {
     align-items: center;
     z-index: 1000;
 }
+
 .img-modal img {
     max-width: 90%;
     max-height: 90%;
     border: 4px solid white;
     border-radius: 4px;
 }
+
 .img-modal .close-btn {
     position: absolute;
     top: 20px;
@@ -505,4 +514,25 @@ A.pink:hover {
     transform: translateX(-50%);
     transition: opacity 0.2s ease-in-out;
     white-space: nowrap;
-  }
+}
+
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.lightbox-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+}
