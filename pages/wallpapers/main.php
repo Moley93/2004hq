@@ -15,7 +15,7 @@ function getPageContent() {
         <tbody>
             <tr>
                 <td>
-                    <div>w1<br>
+                    <div><b>Warrior and Skeleton</b><br>
                         <img src="img/rswallpapers/2004/w1_800x600.jpg" width="225"><br>
                         <a href="img/rswallpapers/2004/w1_800x600.jpg" download>800x600</a><br>
                         <a href="img/rswallpapers/2004/w1_1024x768.jpg" download>1024x768</a><br>
@@ -25,7 +25,7 @@ function getPageContent() {
                 </td>
                 <td width="5"></td>
                 <td>
-                    <div>w2<br>
+                    <div><b>Wandering Warrior</b><br>
                         <img src="img/rswallpapers/2004/w2_800x600.jpg" width="225"><br>
                         <a href="img/rswallpapers/2004/w2_800x600.jpg" download>800x600</a><br>
                         <a href="img/rswallpapers/2004/w2_1024x768.jpg" download>1024x768</a><br>
@@ -36,7 +36,7 @@ function getPageContent() {
             </tr>
             <tr>
                 <td style="padding-top: 2em;">
-                    <div>w3<br>
+                    <div><b>The Grand Tree</b><br>
                         <img src="img/rswallpapers/2004/w3_800x600.jpg" width="225"><br>
                         <a href="img/rswallpapers/2004/w3_800x600.jpg" download>800x600</a><br>
                         <a href="img/rswallpapers/2004/w3_1024x768.jpg" download>1024x768</a><br>
@@ -46,7 +46,18 @@ function getPageContent() {
                 </td>
                 <td width="5"></td>
                 <td style="padding-top: 2em;">
-                    <div>w5<br>
+                    <div><b>RuneScape Map</b><br>
+                        <img src="img/rswallpapers/2004/w4_800x600.jpg" width="225"><br>
+                        <a href="img/rswallpapers/2004/w4_800x600.jpg" download>800x600</a><br>
+                        <a href="img/rswallpapers/2004/w4_1024x768.jpg" download>1024x768</a><br>
+                        <a href="img/rswallpapers/2004/w4_1280x1024.jpg" download>1280x1024</a><br>
+                        <a href="img/rswallpapers/2004/w4_1600x1200.jpg" download>1600x1200</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding-top: 2em;">
+                    <div><b>Green Dragon</b><br>
                         <img src="img/rswallpapers/2004/w5_800x600.jpg" width="225"><br>
                         <a href="img/rswallpapers/2004/w5_800x600.jpg" download>800x600</a><br>
                         <a href="img/rswallpapers/2004/w5_1024x768.jpg" download>1024x768</a><br>
