@@ -9,6 +9,7 @@ $breadcrumbMap = [
     'Treasure Trails' => '?p=clueguides',
     'Item Database' => '?p=itemdb',
     'Player Lookup' => '?p=playerinfo',
+    'Wallpapers' => '?=wallpapers',
 ];
 
 function renderBreadcrumbs() {
