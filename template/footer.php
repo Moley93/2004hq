@@ -17,7 +17,7 @@
           <td><img src="img/edge_g2.jpg" width="100" height="82" hspace="0" vspace="0"></td>
           <td>
             <div style="text-align:center;font-family:Arial,Helvetica,sans-serif; font-size:12px;height:40px;">
-              <div id="site-options-container" data-style="<?= $siteOptStyle ?>" data-usuk="<?= $siteOptRegion ?>">
+              <div id="site-options-container" data-style="<?= $siteOptStyle ?>" data-usuk="<?= $siteOptRegion ?>" data-gamever="<?= $siteOptGameVer ?>">
                 <div style="height:7px;"></div>
                 <button class="site-footer" onclick="location.href='?p=changelog'" type="button">Credits and Changelog</button>
                 -
@@ -32,11 +32,22 @@
                         <option value="oldschool">Oldschool (RuneHQ Look)</option>
                       </select>
                     </label>
-                    <br><br><br>
+                    <br><br>
                     <label>Floor Labels:<br>
                       <select id="usuk-select">
                         <option value="US">United States (1st Floor, 2nd Floor, etc)</option>
                         <option value="UK">United Kingdom (Ground Floor, 1st Floor, etc)</option>
+                      </select>
+                    </label>
+                    <br><br>
+                    <label>Game Version:<br>
+                      <select id="gamever-select">
+                        <option value="2004">2004 (rev. 225 latest)</option>
+                        <option disabled>2005 (tbd)</option>
+                        <option disabled>2006 (tbd)</option>
+                        <option disabled>2007 (tbd)</option>
+                        <option disabled>2008 (tbd)</option>
+                        <option disabled>2009 (tbd)</option>
                       </select>
                     </label>
                     <br><br>

@@ -12,7 +12,7 @@ $stopload = false;
 /* Site Options */
 $siteOptStyle = $_COOKIE['style'] ?? 'default';
 $siteOptRegion = $_COOKIE['usuk'] ?? 'US';
-$siteOptGameRevision = $_COOKIE['revision'] ?? '225';
+$siteOptGameVer = $_COOKIE['gamever'] ?? '2004';
 
 /* Only enable Debug mode locally for PHP Error output */
 $debugMode = false;
