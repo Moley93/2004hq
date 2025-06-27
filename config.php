@@ -29,6 +29,14 @@ function getJavaScriptVersion(string $filename): string {
     }
 }
 
+function getCSSVersion(string $filename): string {
+    if (file_exists($filename)) {
+        return '<link rel="stylesheet" type="text/css" href="' . $filename . '?v=' . filemtime($filename) . '">';
+    } else {
+        return '<link rel="stylesheet" type="text/css" href="' . $filename . '">';
+    }
+}
+
 function redirect(string $location) {
     header("Location: ?p=". $location);
 }

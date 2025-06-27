@@ -1,7 +1,7 @@
 <?php
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">
-    <script src="js/calculators.js"></script>';
+function getExtraHeaderContent() {
+  return getCSSVersion('css/calculators.css') .
+    getJavaScriptVersion('js/calculators.js');
 }
 function getPageContent() {
     global $meta_data, $siteOptStyle;

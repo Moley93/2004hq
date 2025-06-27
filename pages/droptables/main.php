@@ -1,6 +1,6 @@
 <?php
-function getExtraHeaderContent() { return '<link rel="stylesheet" href="css/droptables.css">'; }
-function getPageContent() { 
+function getExtraHeaderContent() { return getCSSVersion('css/droptables.css'); }
+function getPageContent() {
     global $meta_data;
     $meta_data['title'] = 'Drop Tables';
     $meta_data['og:title'] = $meta_data['title'];

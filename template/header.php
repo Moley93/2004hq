@@ -30,8 +30,8 @@ if (substr($meta_data['og:image'], 0, 4) == "http") {
     <meta property="og:type" content="article:2004scape">
     <title>2004HQ > <?php echo $meta_data['title']; ?></title>
     <link rel="icon" type="image/x-icon" href="img/sword.png">
-    <link rel="stylesheet" href="css/main.css">
-    <?php 
+    <?php
+    echo getCSSVersion('css/main.css');
     echo getJavaScriptVersion('js/main.js');
     echo getJavaScriptVersion('js/site_options.js');
     echo getJavaScriptVersion('js/floor_selector.js');

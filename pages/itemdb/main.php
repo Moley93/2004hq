@@ -1,7 +1,5 @@
 <?php
-function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">';
-}
+function getExtraHeaderContent() { return getCSSVersion('css/calculators.css'); }
 function getPageContent() {
     global $meta_data, $siteOptStyle;
     $meta_data['title'] = 'Item Database';

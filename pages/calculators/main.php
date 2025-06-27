@@ -35,7 +35,7 @@ class CalculatorType {
     }
 }
 function getExtraHeaderContent() { return
-    '<link rel="stylesheet" href="css/calculators.css">'.
+    getCSSVersion('css/calculators.css') .
     getJavaScriptVersion('js/calculators.js');
 }
 function getPageContent(): string {
