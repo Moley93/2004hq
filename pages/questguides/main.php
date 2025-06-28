@@ -57,6 +57,8 @@ $questlist = array(
 );
 ksort($questlist);
 
+function getExtraHeaderContent() { return getJavaScriptVersion('js/fonts.js'); }
+
 function getPageContent() {
     global $questlist, $meta_data, $siteOptStyle;
     ob_start();
@@ -73,22 +75,21 @@ function getPageContent() {
         echo '<br><hr>
         <table class="calculators">
             <tr>
-                <th colspan=2>Skill Requirements</th>
-            </tr>
-            <tr>
                 <th>Required for all<br>Free Quests</th>
+            <tr>
+                <td>
+                    <canvas data-questreqs="free"></canvas>
+                </td>
+            <tr/>
+            <tr>
                 <th>Required for all<br>Member\'s Quests</th>
             </tr>
             <tr>
                 <td>
-                    <canvas data-width="220" data-questreqs="free"></canvas>
-                </td>
-                <td>
-                    <canvas data-width="220" data-questreqs="members"></canvas>
+                    <canvas data-questreqs="members"></canvas>
                 </td>
             </tr>
-        </table>
-        <script src="js/statcanvas.js"></script>';
+        </table>'.getJavaScriptVersion('js/statcanvas.js');
     } else {
         $currQuest = htmlspecialchars($_GET['quest']);
         $found = false;
