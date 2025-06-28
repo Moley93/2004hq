@@ -52,39 +52,34 @@ const questReqs = {
 
 const skillList = {
   //X,Y positions in the grid (for stats it's only top number)
-  'overall':      [183, 301],
-  'attack':       [77,  64],
-  'defence':      [77,  126],
-  'strength':     [77,  96],
-  'hitpoints':    [140, 64],
-  'ranged':       [77,  158],
-  'prayer':       [77,  188],
-  'magic':        [77,  219],
-  'cooking':      [203, 158],
-  'woodcutting':  [203, 219],
-  'fletching':    [140, 219],
-  'fishing':      [204, 126],
-  'firemaking':   [203, 188],
-  'crafting':     [140, 188],
-  'smithing':     [204, 96],
-  'mining':       [204, 64],
-  'herblore':     [140, 126],
-  'agility':      [140, 96],
-  'thieving':     [140, 158],
-  'runecrafting': [77,  251],
-  'quest_points': [78,  294],
-  'combat':       [196, 286],
+  'overall':      [195, 290],
+  'attack':       [77,  54],
+  'defence':      [77,  116],
+  'strength':     [77,  86],
+  'hitpoints':    [140, 54],
+  'ranged':       [77,  148],
+  'prayer':       [77,  178],
+  'magic':        [77,  209],
+  'cooking':      [203, 148],
+  'woodcutting':  [203, 209],
+  'fletching':    [140, 209],
+  'fishing':      [204, 116],
+  'firemaking':   [203, 178],
+  'crafting':     [140, 178],
+  'smithing':     [204, 86],
+  'mining':       [204, 54],
+  'herblore':     [140, 116],
+  'agility':      [140, 86],
+  'thieving':     [140, 148],
+  'runecrafting': [77,  241],
+  'quest_points': [83,  285],
+  'combat':       [198, 275],
 };
 
 
 async function drawStatsPanel(canvas) {
-  // Wait for statsBg to be loaded
-  if (!statsBg) {
-    console.error('statsBg not loaded yet');
-    return;
-  }
+  if (!statsBg) { return; }
 
-  // Set canvas to full size of the stats panel
   canvas.width = statsBg.width;
   canvas.height = statsBg.height;
   canvas.style.width = statsBg.width + 'px';
@@ -93,7 +88,6 @@ async function drawStatsPanel(canvas) {
   const ctx = canvas.getContext('2d');
   ctx.imageSmoothingEnabled = false;
 
-  // Draw the background image at full scale
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(statsBg, 0, 0, statsBg.width, statsBg.height);
 
@@ -109,35 +103,29 @@ async function drawStatsPanel(canvas) {
     questReqs['prayer'][tierIndex]
   );
 
-  // Loop through questReqs and draw skill requirements at original coordinates
   for (const [skillName, requirements] of Object.entries(questReqs)) {
     const skillLevel = requirements[tierIndex];
     
-    // Get the position from skillList (these are original coordinates)
     if (skillList[skillName]) {
       const [x, y] = skillList[skillName];
       
-      // Draw the skill level at the specified position
-      if (isNaN(skillLevel) || skillLevel == 0) {
-        drawP11(ctx, skillLevel.toString(), x, y - 10, '#FFFF00');
-      } else {
-        drawP11(ctx, skillLevel.toString(), x + 13, y + 3, '#FFFF00', true);
-        drawP11(ctx, skillLevel.toString(), x, y - 10, '#FFFF00', true);
+      if (!isNaN(skillLevel) || skillLevel != 0) {
+        drawP11(ctx, skillLevel.toString(), x + 13, y + 13, '#FFFF00', true);
+        drawP11(ctx, skillLevel.toString(), x, y, '#FFFF00', true);
       }
     }
   }
 
-  // Draw combat level
-  if (skillList['combat']) {
-    const [combatX, combatY] = skillList['combat'];
-    drawP11(ctx, combatLevel.toString(), combatX, combatY, '#FFFF00');
-  }
+  const [combatX, combatY] = skillList['combat'];
+  drawP11(ctx, combatLevel.toString(), combatX, combatY, '#FFFF00');
 
-  // Draw quest points
-  if (skillList['quest_points']) {
-    const [qpX, qpY] = skillList['quest_points'];
-    drawP11(ctx, '0', qpX + 13, qpY + 3, '#FFFF00', true);
-  }
+  const overallLevel = Object.values(questReqs).reduce((sum, req) => sum + req[tierIndex], 0);
+  const [overallX, overallY] = skillList['overall'];
+  drawP11(ctx, overallLevel.toString(), overallX, overallY, '#FFFF00', true);
+
+  const [questX, questY] = skillList['quest_points'];
+  drawP11(ctx, '-', questX, questY, '#FFFF00', true);
+
 }
 
 (async () => {
