@@ -51,7 +51,7 @@ const questReqs = {
 };
 
 const skillList = {
-  //X,Y positions in the grid (for stats it's only top number)
+  //X,Y positions in the grid (for stats it's only top number, lower is automatically offset)
   'overall':      [195, 290],
   'attack':       [77,  54],
   'defence':      [77,  116],
@@ -76,8 +76,16 @@ const skillList = {
   'combat':       [198, 275],
 };
 
+async function drawQuestReqsPanel(canvas) {
+  const tierIndex = canvas.dataset.questreqs === 'members' ? 1 : 0;
+  const stats = {};
+  for (const [skillName, requirements] of Object.entries(questReqs)) {
+    stats[skillName] = requirements[tierIndex];
+  }
+  drawStatsPanel(canvas, stats, stats, '-');
+}
 
-async function drawStatsPanel(canvas) {
+async function drawStatsPanel(canvas, upperStats, lowerStats, questPoints) {
   if (!statsBg) { return; }
 
   canvas.width = statsBg.width;
@@ -91,40 +99,35 @@ async function drawStatsPanel(canvas) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.drawImage(statsBg, 0, 0, statsBg.width, statsBg.height);
 
-  const tierIndex = canvas.dataset.questreqs === 'members' ? 1 : 0;
-
   const combatLevel = computeCombat(
-    questReqs['attack'][tierIndex],
-    questReqs['strength'][tierIndex],
-    questReqs['defence'][tierIndex],
-    questReqs['hitpoints'][tierIndex],
-    questReqs['ranged'][tierIndex],
-    questReqs['magic'][tierIndex],
-    questReqs['prayer'][tierIndex]
+    lowerStats['attack'],
+    lowerStats['strength'],
+    lowerStats['defence'],
+    lowerStats['hitpoints'],
+    lowerStats['ranged'],
+    lowerStats['magic'],
+    lowerStats['prayer']
   );
 
-  for (const [skillName, requirements] of Object.entries(questReqs)) {
-    const skillLevel = requirements[tierIndex];
-    
-    if (skillList[skillName]) {
-      const [x, y] = skillList[skillName];
-      
-      if (!isNaN(skillLevel) || skillLevel != 0) {
-        drawP11(ctx, skillLevel.toString(), x + 13, y + 13, '#FFFF00', true);
-        drawP11(ctx, skillLevel.toString(), x, y, '#FFFF00', true);
-      }
+  for (const skillName of Object.keys(skillList)) {
+    if (skillName === 'combat' || skillName === 'overall' || skillName === 'quest_points') {
+      continue;
     }
+    
+    const [x, y] = skillList[skillName];
+    drawP11(ctx, upperStats[skillName].toString(), x, y, '#FFFF00', true);
+    drawP11(ctx, lowerStats[skillName].toString(), x + 13, y + 13, '#FFFF00', true);
   }
 
   const [combatX, combatY] = skillList['combat'];
   drawP11(ctx, combatLevel.toString(), combatX, combatY, '#FFFF00');
 
-  const overallLevel = Object.values(questReqs).reduce((sum, req) => sum + req[tierIndex], 0);
+  const overallLevel = Object.values(lowerStats).reduce((sum, level) => sum + (level || 0), 0);
   const [overallX, overallY] = skillList['overall'];
   drawP11(ctx, overallLevel.toString(), overallX, overallY, '#FFFF00', true);
 
   const [questX, questY] = skillList['quest_points'];
-  drawP11(ctx, '-', questX, questY, '#FFFF00', true);
+  drawP11(ctx, questPoints, questX, questY, '#FFFF00', true);
 
 }
 
@@ -133,6 +136,6 @@ async function drawStatsPanel(canvas) {
   document
     .querySelectorAll('canvas[data-questreqs]')
     .forEach(c => {
-      drawStatsPanel(c).catch(err => console.error('Draw failed', c, err));
+      drawQuestReqsPanel(c);
     });
 })();
