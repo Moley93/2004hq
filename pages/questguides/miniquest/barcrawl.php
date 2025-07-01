@@ -25,7 +25,8 @@ function getQuestGuide($questName) { return <<<HTML
 <br><br>
 <hr>
 <h3>Instructions:</h3>
-<br>
+<div data-progress>Go to Barbarian Outpost and talk to the barbarian at the gate to recieve your barcrawl card.</div>
+<br><br>
 <div data-progress>Go to Seers Village and go to the bar there. Use the barcrawl card with the bartender then drink what he gives you and leave.</div>
 <br><br>
 <div data-progress>Go to Falador next. Do the same with the bar here.</div>
