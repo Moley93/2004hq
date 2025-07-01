@@ -1,4 +1,8 @@
 <?php
+$miniquestlist = array(
+    "barcrawl" => "Alfred Grimhand's Barcrawl"
+);
+
 $questlist = array(
     //String questKey => array(String questName => boolean isMembers)
     "blackknightsfortress" => array("Black Knight's Fortress" => false),
@@ -60,7 +64,7 @@ ksort($questlist);
 function getExtraHeaderContent() { return getJavaScriptVersion('js/fonts.js'); }
 
 function getPageContent() {
-    global $questlist, $meta_data, $siteOptStyle;
+    global $miniquestlist, $questlist, $meta_data, $siteOptStyle;
     ob_start();
     if (empty($_GET['quest'])) {
         $meta_data['title'] = 'Quest Guides';
@@ -71,6 +75,12 @@ function getPageContent() {
             echo renderQuestListOldschool($questlist);
         } else {
             echo renderQuestList($questlist);
+        }
+        echo '<hr><h3>Mini quests</h3>';
+        if ($siteOptStyle === 'oldschool') {
+            echo renderMiniQuestListOldschool($miniquestlist);
+        } else {
+            echo renderMiniQuestList($miniquestlist);
         }
         echo '<br><hr>
         <table class="calculators">
@@ -100,9 +110,16 @@ function getPageContent() {
                     $questName = $name;
                     $questMembers = $isMembers;
                     $found = true;
+                    $questType = 'main';
                     break 2;
                 }
             }
+        }
+
+        if (!$found && isset($miniquestlist[$currQuest])) {
+            $questName = $miniquestlist[$currQuest];
+            $found = true;
+            $questType = 'mini';
         }
 
         if ($found) {
@@ -110,17 +127,21 @@ function getPageContent() {
             $meta_data['og:title'] = $meta_data['title'];
             $meta_data['og:image'] = 'img/questIcons/' . $currQuest . '.webp';
 
-            $fileLocation = 'pages/questguides/' . ($questMembers ? 'members' : 'free') . '/' . $currQuest . '.php';
+            $fileLocation = 'pages/questguides/' .
+                ($questType === 'mini' ? 'miniquest' : ($questMembers ? 'members' : 'free')) .
+                '/' . $currQuest . '.php';
 
             if (!file_exists($fileLocation)) {
                 $stopload = true;
                 redirect("404");
                 exit;
             }
+
             $questComplete = '
-                <h2>Congratulations, Quest Complete!</h2><br>
-                <img src="img/questimages/quest_complete/'.$currQuest.'.png" alt="Quest Complete!" width="80%">
+                <h2>Congratulations, ' . ($questType === 'mini' ? 'Miniquest' : 'Quest') . ' Complete!</h2><br>
+                <img src="img/questimages/quest_complete/' . $currQuest . '.png" alt="Quest Complete!" width="80%">
                 <hr>';
+
             include $fileLocation;
             echo getQuestGuide($questName, $questComplete);
 
@@ -135,43 +156,6 @@ function getPageContent() {
 
 function renderQuestList(array $questlist): string {
     $html = <<<HTML
-        <style>
-
-        .quest-container {
-            background-color: #3B322B;
-            background-repeat: repeat;
-            font-family: 'RSPlain12', monospace;
-            font-size: 12px;
-            padding: 10px;
-            display: flex;
-            gap: 40px;
-            width: fit-content;
-            margin: auto;
-        }
-        .quest-column {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-        }
-        .quest-header {
-            color: #FF981F;
-            margin-bottom: 5px;
-            font-weight: bold;
-            text-shadow: 1px 1px #000;
-        }
-        .quest-entry a:hover {
-            color:rgb(255, 0, 0);
-            margin: 2px 0;
-            text-shadow: 1px 1px #000;
-            text-decoration: none;
-        }
-        .quest-entry a {
-            color: #00FF80;
-            margin: 2px 0;
-            text-shadow: 1px 1px #000;
-            text-decoration: none;
-        }
-        </style>
         <div class="quest-container">
             <div class="quest-column">
                 <div class="quest-header">FREE QUESTS:</div>
@@ -206,6 +190,7 @@ function renderQuestList(array $questlist): string {
     $html .= '</div></div>';
     return $html;
 }
+
 function renderQuestListOldschool(array $questlist): string {
     // Separate the quests
     $freeQuests = [];
@@ -234,6 +219,36 @@ function renderQuestListOldschool(array $questlist): string {
         $free = $freeQuests[$i] ?? '';
         $members = $membersQuests[$i] ?? '';
         $html .= '<tr><td>' . $free . '</td><td>' . $members . '</td></tr>';
+    }
+
+    $html .= '</tbody></table>';
+    return $html;
+}
+
+function renderMiniQuestList(array $miniquestlist): string {
+    $html = <<<HTML
+        <div class="quest-container">
+            <div class="quest-column">
+                <div class="quest-header">MINI QUESTS:</div>
+    HTML;
+
+    foreach ($miniquestlist as $questKey => $questName) {
+        $url = "?p=questguides&quest=" . urlencode($questKey);
+        $html .= '<div class="quest-entry"><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></div>';
+    }
+
+    $html .= '</div></div>';
+    return $html;
+}
+
+
+function renderMiniQuestListOldschool(array $miniquestlist): string {
+    $html = '<table class="calculators">';
+    $html .= '<thead><tr><th>Mini Quests</th></tr></thead><tbody>';
+
+    foreach ($miniquestlist as $questKey => $questName) {
+        $url = "?p=questguides&quest=" . urlencode($questKey);
+        $html .= '<tr><td><a href="' . $url . '">' . htmlspecialchars($questName) . '</a></td></tr>';
     }
 
     $html .= '</tbody></table>';

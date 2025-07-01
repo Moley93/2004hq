@@ -84,7 +84,7 @@ Congratulations on completing a whole lap! Heres how the xp works for this cours
 <hr>
 <b><font color="Orange">Barbarians' Course</font></b>
 <br><br>
-Located right at the top of the World, you will have to go far North from Ardougne and past Baxtorian falls to access the Barbarian Outpost where this course is at. To enter the outpost, you must have completed the Bar Crawl. To then enter the agility course you must squeeze through the Pipe which requires level 35 agility.
+Located right at the top of the World, you will have to go far North from Ardougne and past Baxtorian falls to access the Barbarian Outpost where this course is at. To enter the outpost, you must have completed the <a href="?p=questguides&quest=barcrawl">Barcrawl</a>. To then enter the agility course you must squeeze through the Pipe which requires level 35 agility.
 <br><br>
 But the crucial difference with this course is that you could get hit damage if you fail crossing the obstacle and fall in the spikes or the pond. This is usually a small amount and depends on your maximum hits so you will never get killed. However it is a good idea to bring food with you.
 <br><br>
