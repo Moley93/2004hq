@@ -1,6 +1,7 @@
 <?php
 $miniquestlist = array(
-    "barcrawl" => "Alfred Grimhand's Barcrawl"
+    "barcrawl" => "Alfred Grimhand's Barcrawl",
+    "magearena" => "Mage Arena"
 );
 
 $questlist = array(

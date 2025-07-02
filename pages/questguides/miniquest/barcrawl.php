@@ -1,7 +1,6 @@
 <?php
 function getQuestGuide($questName) { return <<<HTML
 <h2>$questName</h2>
-<br><br>
 <b>Description:</b> Complete this Fremennik 'rite of passage' to gain access to the Barbarian Outpost agility course.
 <br><br>
 <b>Difficulty: <font color="Green">Easy</font></b>
