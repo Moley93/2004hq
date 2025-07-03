@@ -67,9 +67,9 @@ Here some of the monster images for Kolodion.
     </thead>
     <tbody>
         <tr>
-            <td><img src="img/questimages/magearena3.jpg"></td>
-            <td><img src="img/questimages/guthix.png"></td>
             <td><img src="img/questimages/magearena4.jpg"></td>
+            <td><img src="img/questimages/guthix.png"></td>
+            <td><img src="img/questimages/magearena3.jpg"></td>
         </tr>
     </tbody>
 </table>
