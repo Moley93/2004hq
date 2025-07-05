@@ -10,6 +10,7 @@ $breadcrumbMap = [
     'Item Database' => '?p=itemdb',
     'Player Lookup' => '?p=playerinfo',
     'Wallpapers' => '?=wallpapers',
+    'Changelog' => '?=changelog'
 ];
 
 function renderBreadcrumbs() {

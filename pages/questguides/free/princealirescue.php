@@ -9,17 +9,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="softclay" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="ball_of_wool" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="yellowdye" data-size="25"></canvas>Yellow dye (or 2 onions and 5 coins to obtain a yellow dye from Aggie)</div><br></li>
+<li><div data-progress><canvas data-itemname="ball_of_wool" data-size="25"></canvas> 3 balls of wool</div><br></li>
+<li><div data-progress><canvas data-itemname="yellowdye" data-size="25"></canvas> Yellow dye (or<canvas data-itemname="onion" data-size="25"></canvas> 2 onions and<canvas data-itemname="coins_5" data-size="25"></canvas> 5 coins to obtain a yellow dye from Aggie)</div><br></li>
 <li><div data-progress><canvas data-itemname="redberry" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ashes" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bucket_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pot_flour" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pink_skirt" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="beer" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>100 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas> 3 beers</div><br></li>
+<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas> Rope (or<canvas data-itemname="ball_of_wool" data-size="25"></canvas> 4 balls of wool to obtain rope from Ned)</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas> 100 coins</div><br></li>
 </ul>
 <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
 <br><br>
@@ -36,15 +36,23 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Find Aggie the witch, she can make you the skin paste and yellow dye.</div>
 <br><br>
-<div data-progress>Talk to ned, bring him 4 balls of yarn and he can make a rope and with 3 balls of wool he can make you a wig for the disguise.</div>
+<div data-progress>Talk to Ned, bring him 4 balls of wool and he can make a rope and with 3 balls of wool he can make you a wig for the disguise. Use your yellow dye on the wig.</div>
 <br><br>
-<div data-progress>Talk to Lady Keli, tell her you've heard of her, she's famous all over RuneScape. Then ask her what her latest plan is, then tell her she must have been very skillful. Then ask her if she's sure they won't let the prisoner out. Make sure you have the soft clay here and ask her if you can see the key. Then ask her if you can touch it for a moment then you'll make an imprint of the key in the clay.</div>
+<div data-progress>Talk to Lady Keli, tell her you've heard of her, she's famous all over RuneScape.</div>
+<br><br>
+<div data-progress>Then ask her what her latest plan is, then tell her she must have been very skillful.</div>
+<br><br>
+<div data-progress>Then ask her if she's sure they won't let the prisoner out.</div>
+<br><br>
+<div data-progress>Make sure you have the soft clay here and ask her if you can see the key. Then ask her if you can touch it for a moment then you'll make an imprint of the key in the clay.</div>
 <br><br>
 <div data-progress>Go back to Osman in Al Kharid with the key imprint & a bronze bar, he'll tell you to pick up the key from Leela.</div>
 <br><br>
 <div data-progress>Go into the house nearby Lady Keli and talk to the guard and tell him you have a beer. “Fancy one?” You'll then ask him if he wants another and automatically hand them to him, he will drink them and get drunk.</div>
 <br><br>
-<div data-progress>Tie up lady keli, use your key on the door and talk to the prince he will take the disguise and run off..congratz! You're now a friend of Al Kharid and can pass for free.</div>
+<div data-progress>Use the rope on Lady Keli to tie her up, then use your key on the door and talk to the prince. He will take the disguise and run off.</div>
+<br><br>    
+<div data-progress>Return to Hassen in Al Kharid and talk to him... congratz! You're now a friend of Al Kharid and can pass through the gate for free.</div>
 $questComplete
 This quest guide was written on RuneHQ by xxteargodxx.
 <br><br>

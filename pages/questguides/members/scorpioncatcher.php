@@ -11,7 +11,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>31 Prayer</div></li>
-<li><div data-progress>Completion of Alfred Grimhand's Barcrawl</div><br></li>
+<li><div data-progress>Completion of <a href="?p=questguides&quest=barcrawl">Alfred Grimhand's Barcrawl</a></div><br></li>
 <li><div data-progress><canvas data-itemname="dusty_key" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>The ability to go deep in to the Taverley Dungeon</div></li>
 </ul>
@@ -46,19 +46,11 @@ First Scorpion
 <hr>
 Second Scorpion
 <br><br>
-<div data-progress>Run out of the dungeon and go to the bank and withdraw about 268 gp. The next scorpion is in the Barbarian Outpost. Go west and then north to get to the waterfall. Head north of here and you will find the Outpost. Try to open the gate and a barbarian will tell you only barbarians are allowed in. Tell him you are a barbarian and he will tell you to do the barcrawl.
-<br>
-Skip the next two steps if you already have completed the barcrawl.</div>
+<div data-progress>Run out of the dungeon and go to the bank and withdraw about 268 gp. The next scorpion is in the Barbarian Outpost. Go west and then north to get to the waterfall. Head north of here and you will find the Outpost. Try to open the gate and a barbarian will tell you only barbarians are allowed in. Tell him you are a barbarian and he will tell you to do the barcrawl.</div>
 <br><br>
 <img src="img\questimages\scorp5.png" height="200" width="200">
 <br><br>
-<div data-progress>Go back to Seers Village and go to the bar there. Use the barcrawl card with the bartender then drink what he gives you and leave. Go to Falador next. Do the same with the bar here. Next head east to Varrock. There are two bars here, one in town and one northeast of it near the wilderness. Next head south then west to Port Sarim. Get the bar here then get on a ship to Karamja. Once there get the bar from the Pirate Treasure quest and then cross over the volcano to Brimhaven. In southern Brimhaven, there is a bar. Then head to Ardougne by boat from northern Brimhaven. Get off the boat and go south to Yanille. Get the bar here then head back north on the other side of the river and get the bar in Ardougne where the Temple of Ikov start is.</div>
-<br><br>
-<img src="img\questimages\scorp6.jpg" height="200" width="200">
-<br><br>
-<div data-progress>Last is the bar in the Grand Tree. Go north to the Gnome Stronghold and up to the <span data-floors="US">2nd floor</span> of the Grand tree. Now you should be done go back to the Outpost and hand over your card.</div>
-<br><br>
-<img src="img\questimages\scorp7.bmp" height="200" width="200">
+<div data-progress>If you haven't already, complete the <a href="?p=questguides&quest=barcrawl">barcrawl</a>.</div>
 <br><br>
 <div data-progress>The barbarian will let you in and in the building just infront of the gate, the scorpion is wandering around.</div>
 <br><br>

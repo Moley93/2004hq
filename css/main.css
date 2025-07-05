@@ -536,3 +536,42 @@ A.pink:hover {
     box-shadow: 0 0 15px black;
     cursor: pointer;
 }
+
+.quest-container {
+    background-color: #3B322B;
+    background-repeat: repeat;
+    font-family: 'RSPlain12', monospace;
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    width: fit-content;
+    margin: auto;
+}
+
+.quest-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.quest-header {
+    color: #FF981F;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+
+.quest-entry a:hover {
+    color:rgb(255, 0, 0);
+    margin: 2px 0;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+}
+
+.quest-entry a {
+    color: #00FF80;
+    margin: 2px 0;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+}
