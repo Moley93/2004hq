@@ -12,7 +12,7 @@ function runCalc() {
     const courses = {
         "Gnome Stronghold": { xp: 86.5, level: 1 },
         "Barbarian Outpost": { xp: 139.5, level: 35 },
-        "Wilderness": { xp: 601.4, level: 52 },
+        "Wilderness": { xp: 571.4, level: 52 },
     };
     const shortcuts = {
         "A wooden log (Karamja)": { xp: 4, level: 1 },
