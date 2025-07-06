@@ -18,6 +18,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress>Food or armor to run past a level 42 Goblin guard</div><br></li>
 </ul>
 <b>Starting Location:</b> West across the river from the gnome maze, just next to the small goblin town
 <br><br>
@@ -30,9 +31,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>After giving him all the items, he'll say he needs a lens to craft the glass. Go find it in the dungeon down the ladder. All you have to do is take the south way, then once you see the most southeastern room, click in it and the auto pathfinding will take you to it. Open the chest upon arrival and search it for a keep key. (Any other chest contains a poison spider! There is a cure poison near the observatory ladder.)</div>
 <br><br>
-<div data-progress>Head back the way you came—it shouldn't be too difficult. Don't walk away during auto pathfinding, though, because you'll need to make another stop on the way out. When you see a little room with a bed sign in it (High resolution required to see.) Go to it and kill the level 42 goblin guard.</div>
+<div data-progress>Head back the way you came—it shouldn't be too difficult. Don't walk away during auto pathfinding, though, because you'll need to make another stop on the way out. When you see a little room with a bed sign in it (High resolution required to see.)</div>
 <br><br>
-<div data-progress>Go in quickly and search the western sacks to discover the mould. Go out of the keep and head generally east until you come back to the ladder.</div>
+<div data-progress>Use the key on the gate. Go in quickly and search the western sacks to discover the mould. Go out of the keep and head generally east until you come back to the ladder.</div>
 <br><br>
 <div data-progress>The professor will give you a lame excuse about not being able to make the lens because his Crafting level isn't high enough (pathetic wimp). Use your superior skills to make it for him. Then talk to him again.</div>
 <br><br>
