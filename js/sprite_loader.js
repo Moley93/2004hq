@@ -3,7 +3,7 @@ const spritesPerRow = 64;
 let itemData = [];
 
 const spritesheet = new Image();
-spritesheet.src = 'img/item_spritesheet.png';
+spritesheet.src = 'img/item_spritesheet.png?v244';
 
 // Image override debugnames
 const imageDebugnameOverrides = {
