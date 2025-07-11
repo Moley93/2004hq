@@ -30,7 +30,7 @@ $questlist = array(
     "clocktower" => array("Clock Tower" => true),
     "druidicritual" => array("Druidic Ritual" => true), 
     "dwarfcannon" => array("Dwarf Cannon" => true),
-//    "elementalworkshop" => array("Elemental Workshop" => true), (not released yet)
+    "elementalworkshop" => array("Elemental Workshop" => true),
     "familycrest" => array("Family Crest" => true),
     "fightarena" => array("Fight Arena" => true),
     "fishingcontest" => array("Fishing Contest" => true),
