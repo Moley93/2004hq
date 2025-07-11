@@ -27,7 +27,7 @@ Almera's house is on top.<br>
 Hadley's house is in the bottom left corner.<br>
 The grave is the grey circle place with a walk way to the circle.<br>
 <br>
-<img src="img\questimages\waterfall1.png">
+<img src="img/questimages/waterfall1.png">
 <br><br>
 <div data-progress>Talk to Almera in her house and she will tell you her son is looking for treasure at the waterfall. There is a raft behind the house. Get on it, and it will take you downstream. The raft will crash and break in half, and you will see the boy. Talk to him. Once you are done talking to him, look down the way to the waterfall (south Bottom View) and you will see a rock, now you right click on it and it will say "Swim to", go down the waterfall to the end of the island and you'll see a rock across from you, use the rope with the rock and you will go across. Now use the rope on the dead tree, and you will appear by a doorway. Get in the barrel, and you will end up by a fence. Follow it up to a house. Climbing the dead tree at the top of the waterfall deals 8 damage, and opening the door on the ledge without Glarial's amulet deals 5 damage.</div>
 <br><br>
@@ -35,7 +35,7 @@ The grave is the grey circle place with a walk way to the circle.<br>
 <br><br>
 <div data-progress>Go to Gnome Village, not Gnome Stronghold. Go through the maze and reach the cave. (Use the maze map below.) Once you get to the cave, go down. There are two ways to go, left or right. Go to the right. Search the crates and boxes and find the key, then go to the other side and use the key with the jail door. Go inside the jail and talk to the gnome, get the pebble, then climb up the ladder and get out the same way you came in.</div>
 <br><br>
-<img src="img\questimages\waterfall2.png">
+<img src="img/questimages/waterfall2.png">
 <br><br>
 <div data-progress>Put all of your armour, weapons, and your other stuff in the bank, just bring food and the pebble. Now go to the grave east of Hadley's house. (It won't let you in with armour or weapons.) Use the pebble with the grave. You appear in a cave. Go straight, open the chest, and you will get an amulet. Then go the other way, open the coffin, and it will give you an urn. Now climb the ladder and get out.</div>
 <br><br>

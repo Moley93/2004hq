@@ -42,7 +42,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <hr>
 <h3>Instructions:</h3>
 <br>
-<img src="img\questimages\watchtower1.jpg" height="350" width="350">
+<img src="img/questimages/watchtower1.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Once you see the Watchtower (location #1), look around it for “climbing rocks”. You should find them on the North outside wall of the Watchtower. This is the only way to get in at first. The Guards will attack you if you try to use the ladder. Climb up the rocks and you'll be inside on the <span data-floors="US">2nd floor</span> the watchtower. Continue up the ladder to the 3rd and speak to Watchtower Wizard.</div>
 <br><br>

@@ -37,7 +37,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Black Cog:</h3>
 <div data-progress>Use the colored block to see where to go. Go down the path to a door. Behind the door, you will see level 2 giant spiders and the black cog surrounded by fires.</div>
 <br><br>
-<img src="img\questimages\clocktower1.png" height="200" width="200">
+<img src="img/questimages/clocktower1.png" height="200" width="200">
 <br><br>
 <div data-progress>Use the bucket of water or wear your ice gloves and pick it up. Now go back to the ladder you came down to the basement with.</div>
 <br><br>
@@ -49,7 +49,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Go through the door, and you'll reach a room with three level 53 ogres and the red cog.</div>
 <br><br>
-<img src="img\questimages\clocktower2.png" height="200" width="200">
+<img src="img/questimages/clocktower2.png" height="200" width="200">
 <br><br>
 <div data-progress>Go back to the ladder, go up to the <span data-floors="US">1st floor</span>,<br>
  and use the <canvas data-itemname="redcog" data-size="32"></canvas>Red Cog on the red pole.</div>
@@ -62,12 +62,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>At the rat cage, you will see two levers to open the two doors. Pull the levers to get into the cage.</div>
 <br><br>
-<img src="img\questimages\clocktower3.png" height="200" width="200">
+<img src="img/questimages/clocktower3.png" height="200" width="200">
 <br><br>
 <div data-progress>Inside the cage, you will see the rats' food trough. Use the rat poison on it, and the rats will eat from it and die. Then the room with the white
     cog will open.</div>
 <br><br>
-<img src="img\questimages\clocktower4.png" height="200" width="200">
+<img src="img/questimages/clocktower4.png" height="200" width="200">
 <br><br>
 <div data-progress>Pick up the white cog, go up the ladder, and you will appear outside the clock tower.</div>
 <br><br>
@@ -80,11 +80,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <div data-progress>After going in, you'll reach a room with some monsters locked in cages, but unfortunately, the blue cog is locked in as well, with no doors.
     So you'll need to find another entrance to the blue cog.</div>
 <br><br>
-<img src="img\questimages\clocktower5.png" height="200" width="200">
+<img src="img/questimages/clocktower5.png" height="200" width="200">
 <br><br>
 <div data-progress>Go up the ladder in the room, and you will appear outside the clock tower. Now go northeast to where Brother Cedric is. Just west of him is a ladder.</div>
 <br><br>
-<img src="img\questimages\clocktower6.png" height="200" width="200">
+<img src="img/questimages/clocktower6.png" height="200" width="200">
 <br><br>
 <div data-progress>Go down the ladder and follow the passage to a wall. Go through the door and pick up the blue cog.</div>
 <br><br>

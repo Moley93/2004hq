@@ -80,7 +80,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Make sure you wear all your armor, your weapon, and the Beads of the Dead, and that you have full health. Search the dolmen and a level 86 zombie will attack you. Defeat it and a 65 level skleton will attack you. Kill it, and a level 88 ghost will appear. Defeat it. WARNING: DO NOT RETREAT OR YOU WILL HAVE TO START AGAIN. After defeating all the monsters, search the dolmen and take Rashiliyia's corpse.</div>
 <br><br>
-<img src="img\questimages\shilo1.png" height="400" width="400">
+<img src="img/questimages/shilo1.png" height="400" width="400">
 <br><br>
 <div data-progress>Go back to the room you came from. Use your bone key on the Tomb Exit to get out.</div>
 <br><br>

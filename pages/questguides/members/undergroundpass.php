@@ -47,7 +47,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>On the other side of the swamp, you'll meet Koftik again, talk to him and you get a damp cloth use it on the arrows you took to get a fire arrow, talk to him again to get another damp cloth and wrap it around the other arrows, repeat until you have round about 10 fire arrows. Use these arrows on the fire near by to set them alight.</div>
 <br><br>
-<img src="img\questimages\underground1.jpg" height="100" width="100"><br>
+<img src="img/questimages/underground1.jpg" height="100" width="100"><br>
 <br>
 <div data-progress>Now, go around the cliff to the north and you should be behind a fence, try shooting at the guide ropes that hold the bridge up. When you hit it you are automatically taken across it. Positioning is critical when shooting at the ropes, you should stand at the center of the fence's length.</div>
 <br><br>
@@ -69,15 +69,15 @@ Here is the grid. The right order to successfully cross is...<br>
 Once you find one of those that work, (path 3 in the example) try again path's 1, 2, or 3.<br>
 Continue this process until you find a safe path across if you fall climb back up on protruding rocks or you will continue to receive hits.
 <br><br>
-<img src="img\questimages\underground2.jpg" height="350" width="350">
+<img src="img/questimages/underground2.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Once across pull the lever and the portcullis should open, you automatically walk through. Follow the path to were the zombies are and either run through the west alley if you are not at all good at thieving, or if you are try to search the odd markings on the west alley and disarm the traps.</div>
 <br><br>
-<img src="img\questimages\underground3.jpg" height="350" width="350">
+<img src="img/questimages/underground3.jpg" height="350" width="350">
 <br><br>
 <div data-progress>When you are across all the traps there should be a well in the middle of the room. This part is quite easy, go up the north road and notice there are flat rocks on the floor, use the plank on the flat rocks to cross until you get to the the orb of light. Pick it up, then return to the well.</div>
 <br><br>
-<img src="img\questimages\underground4.jpg" height="350" width="350">
+<img src="img/questimages/underground4.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Run across the northwest path trying not to get hit by the enemies, pick up the orb of light and return to the well.</div>
 <br><br>
@@ -87,15 +87,15 @@ Continue this process until you find a safe path across if you fall climb back u
 <br><br>
 <div data-progress>Now either run across the path with the strange markings or search the odd markings and disarm the traps to return to the room with the zombies. Use all the orbs with the furnace and go back across to the room with the well, either by disarming the traps or running through.</div>
 <br><br>
-<img src="img\questimages\underground5.jpg" height="350" width="350">
+<img src="img/questimages/underground5.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Climb down the well and search the crates nearby, one will contain some food. Now run across the path to get to some cages. Pick the lock on the cage to the southeast, then use the spade on the mud to get through a tunnel.</div>
 <br><br>
-<img src="img\questimages\underground6.jpg" height="350" width="350">
+<img src="img/questimages/underground6.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Head west and cross the ledge to reach another difficult part. If you are a level 50+ thief then pick lock the gate and then the other gate or, if you're not good at Thieving like me, you'll need to cross the stone bridges to get to the other end.</div>
 <br><br>
-<img src="img\questimages\underground7.jpg" height="350" width="350">
+<img src="img/questimages/underground7.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Follow the path south and go through the obstacle pipe.</div>
 <br><br>
@@ -125,7 +125,7 @@ Continue this process until you find a safe path across if you fall climb back u
 <br><br>
 <div data-progress>Head to the northeast. To where all the spiders are. Kill the huge spider to get blood. Smear it on the doll.</div>
 <br><br>
-<img src="img\questimages\underground8.jpg" height="350" width="350">
+<img src="img/questimages/underground8.jpg" height="350" width="350">
 <br><br>
 <div data-progress>Go upstairs (stairs are to the northwest and south).</div>
 <br><br>
