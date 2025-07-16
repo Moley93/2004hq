@@ -17,7 +17,7 @@ function getSkillContent($skill) { return <<<HTML
             <th>Fishing Spot</th>
         </tr>
         <tr>
-            <td><canvas data-itemname="raw_shrimps"></canvas><br>Shrimp</td>
+            <td><canvas data-itemname="raw_shrimp"></canvas><br>Shrimp</td>
             <td>1</td>
             <td>10</td>
             <td>
