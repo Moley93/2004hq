@@ -59,11 +59,9 @@ function getSkillContent($skill) { return <<<HTML
         </tr>
     </table>
     <h3>Pickaxes</h3>
-    * A bug currently exists in-game that you can use any pickaxe at any level!<br>
-    The value noted below is what the requirement is supposed to be.<br>
     <table class="calculators">
         <tr>
-            <th>Level required*</td>
+            <th>Level required</td>
             <th>Pickaxe</td>
         </tr>
         <tr>
