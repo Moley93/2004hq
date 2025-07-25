@@ -51,9 +51,9 @@ function getPageContent() {
       <td>14k</td>
     </tr>
     <tr>
-      <td></td>
       <td>Dee</td>
       <td></td>
+      <td>Fallnight</td>
     </tr>
   </table>
 </div>
@@ -117,6 +117,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>11/07/2025</td><td>Added Elemental Workshop quest</td></tr>
     <tr><td>02/07/2025</td><td>Added Mage Arena miniquest</td></tr>
     <tr><td>30/06/2025</td><td>Added miniquest section with barcrawl guide</td></tr>
     <tr><td>26/06/2025</td><td>Added wallpapers available for download</td></tr>
