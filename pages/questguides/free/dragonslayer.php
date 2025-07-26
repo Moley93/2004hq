@@ -21,7 +21,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 </ul>
 <b>Starting Location:</b> Champion's Guild
 <br><br>
-<b>Reward:</b> 2 Quest points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
+<b>Reward:</b> 2 Quest points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy and equip Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
 <br><br>
 <hr>
 <h3>Instructions:</h3>
