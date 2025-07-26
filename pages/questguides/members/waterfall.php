@@ -29,23 +29,37 @@ The grave is the grey circle place with a walk way to the circle.<br>
 <br>
 <img src="img/questimages/waterfall1.png">
 <br><br>
-<div data-progress>Talk to Almera in her house and she will tell you her son is looking for treasure at the waterfall. There is a raft behind the house. Get on it, and it will take you downstream. The raft will crash and break in half, and you will see the boy. Talk to him. Once you are done talking to him, look down the way to the waterfall (south Bottom View) and you will see a rock, now you right click on it and it will say "Swim to", go down the waterfall to the end of the island and you'll see a rock across from you, use the rope with the rock and you will go across. Now use the rope on the dead tree, and you will appear by a doorway. Get in the barrel, and you will end up by a fence. Follow it up to a house. Climbing the dead tree at the top of the waterfall deals 8 damage, and opening the door on the ledge without Glarial's amulet deals 5 damage.</div>
+<div data-progress>Talk to Almera in her house and she will tell you her son is looking for treasure at the waterfall. There is a raft behind the house. Get on it, and it will take you downstream.</div>
+<br><br>
+<div data-progress>The raft will crash and break in half, and you will see the boy. Talk to him. Once you are done talking to him, look down the way to the waterfall (South bottom view) and you will see a rock, now you right click on it and it will say "Swim to".</div>
+<br><br>
+<div data-progress>Go down the waterfall to the end of the island and you'll see a rock across from you, use the rope with the rock and you will go across.</div>
+<br><br>
+<div data-progress>Now use the rope on the dead tree, and you will appear by a doorway. Get in the barrel, and you will end up by a fence. Follow it up to a house. Climbing the dead tree at the top of the waterfall deals 8 damage, and opening the door on the ledge without Glarial's amulet deals 5 damage.</div>
 <br><br>
 <div data-progress>Inside the house talk to Hadley, then go north and talk to Almera and then go back to Hadley's house. Go upstairs, get the book called "The book of baxster" and read it. Go back downstairs and speak to Hadley again. If you want you can go by the grave east of Hadley's house.</div>
 <br><br>
-<div data-progress>Go to Gnome Village, not Gnome Stronghold. Go through the maze and reach the cave. (Use the maze map below.) Once you get to the cave, go down. There are two ways to go, left or right. Go to the right. Search the crates and boxes and find the key, then go to the other side and use the key with the jail door. Go inside the jail and talk to the gnome, get the pebble, then climb up the ladder and get out the same way you came in.</div>
+<div data-progress>Go to Gnome Village, not Gnome Stronghold. Go through the maze and reach the cave. (Use the maze map below.)</div>
 <br><br>
 <img src="img/questimages/waterfall2.png">
 <br><br>
-<div data-progress>Put all of your armour, weapons, and your other stuff in the bank, just bring food and the pebble. Now go to the grave east of Hadley's house. (It won't let you in with armour or weapons.) Use the pebble with the grave. You appear in a cave. Go straight, open the chest, and you will get an amulet. Then go the other way, open the coffin, and it will give you an urn. Now climb the ladder and get out.</div>
+<div data-progress>Once you get to the cave, go down. There are two ways to go, left or right. Go to the right. Search the crates and boxes and find the key, then go to the other side and use the key with the jail door. Go inside the jail and talk to the gnome, get the pebble, then climb up the ladder and get out the same way you came in.</div>
+<br><br>
+<div data-progress>Put all of your armour, weapons, and your other stuff in the bank, just bring food and the pebble. Now go to the grave east of Hadley's house. (It won't let you in with armour or weapons.)</div>
+<br><br>
+<div data-progress>Use the pebble with the grave. You appear in a cave. Go straight, open the chest, and you will get an amulet. Then go the other way, open the coffin, and it will give you an urn. Now climb the ladder and get out.</div>
 <br><br>
 <div data-progress>Keep the urn and amulet on you and go get your armour and weapon, food, rope, stat restore potion, and the 18 runes (6 water, 6 air, 6 earth) that were mentioned earlier out of the bank. Go back to Almera's house and put on the amulet you got from the grave.</div>
 <br><br>
 <div data-progress>Go get on the raft and you will appear on the island again, go to the end of the island, use the rope with the rock again and go across. Use the rope with the dead tree that's on the edge of the waterfall. This time, you will appear on the waterfall in front of a door (you must have the amulet from the grave to enter). Open the door.</div>
 <br><br>
-<div data-progress>When you enter the waterfall, there will be shadow spiders, fire giants, and mage skeletons. There are three ways to go (left, straight, or right), you want to go to the right. Search the boxes and crates, one of them will have a key. Exit the right side and go to the left side. There are fire giants in this room but you can run through them to a door in the right corner of the room. Use the key on the door to go through. There will be another door that you have to use the key with, then you should be in the room.</div>
+<div data-progress>When you enter the waterfall, there will be shadow spiders, fire giants, and mage skeletons. There are three ways to go (left, straight, or right), you want to go to the right. Search the boxes and crates, one of them will have a key.</div>
 <br><br>
-<div data-progress>This is where you use your runes. There are 6 pillars: Put 1 water rune on each pillar, then 1 air rune, then 1 earth rune, and finally use the amulet on the statue. If you did this right the floor will rise. Go up to the trophy, use the urn with the trophy and you have completed the quest! If you are unsuccessful you must put your armour and weapon back in the bank and go back to the grave and get the amulet again.</div>
+<div data-progress>Exit the right side and go to the left side. There are fire giants in this room but you can run through them to a door in the right corner of the room. Use the key on the door to go through. There will be another door that you have to use the key with, then you should be in the room.</div>
+<br><br>
+<div data-progress>This is where you use your runes. There are 6 pillars: Put 1 water rune on each pillar, then 1 air rune, then 1 earth rune, and finally use the amulet on the statue. If you did this right the floor will rise.</div>
+<br><br>
+<div data-progress>Go up to the trophy, use the urn with the trophy and you have completed the quest! If you are unsuccessful you must put your armour and weapon back in the bank and go back to the grave and get the amulet again.</div>
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/dglG_EgXeTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
