@@ -19,6 +19,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (or an extra 10,000 coins if you can't cast Telekinetic Grab)</div><br></li>
 <li><div data-progress>Any items you think you need to defeat Elvarg (the green dragon)</div><br></li>
 </ul>
+<ul style="list-style-type: none;">
+<b>Telekinetic Grab:</b>
+<br><br>
+<li><div data-progress>33 Magic</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
+<li><div data-progress><canvas data-itemname="airrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
+</ul>
 <b>Starting Location:</b> Champion's Guild
 <br><br>
 <b>Reward:</b> 2 Quest points, 20,000 Strength XP, 20,000 Defence XP. Completing the quest allows you to buy and equip Rune platebody (84,500 gp) and Green Dragonhide Body (10,400 gp) from Oziach.
