@@ -9,17 +9,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="softclay" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="ball_of_wool" data-size="25"></canvas> 3 balls of wool</div><br></li>
-<li><div data-progress><canvas data-itemname="yellowdye" data-size="25"></canvas> Yellow dye (or<canvas data-itemname="onion" data-size="25"></canvas> 2 onions and<canvas data-itemname="coins_5" data-size="25"></canvas> 5 coins to obtain a yellow dye from Aggie)</div><br></li>
+<li><div data-progress><canvas data-itemname="ball_of_wool" data-size="25"></canvas>&nbsp;&nbsp;3 balls of wool</div><br></li>
+<li><div data-progress><canvas data-itemname="yellowdye" data-size="25"></canvas>&nbsp;&nbsp;Yellow dye (or<canvas data-itemname="onion" data-size="25"></canvas>&nbsp;2 onions and<canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;5 coins to obtain a yellow dye from Aggie)</div><br></li>
 <li><div data-progress><canvas data-itemname="redberry" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ashes" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bucket_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pot_flour" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pink_skirt" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas> 3 beers</div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas> Rope (or<canvas data-itemname="ball_of_wool" data-size="25"></canvas> 4 balls of wool to obtain rope from Ned)</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas> 100 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas>&nbsp;&nbsp;3 beers</div><br></li>
+<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;Rope (or<canvas data-itemname="ball_of_wool" data-size="25"></canvas>&nbsp;4 balls of wool to obtain rope from Ned)</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
 </ul>
 <b>Starting Location:</b> Talk to Hassan in the Al Kharid palace
 <br><br>

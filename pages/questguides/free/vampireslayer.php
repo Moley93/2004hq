@@ -9,7 +9,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas>Beer (or 2 coins to buy during quest)</div><br></li>
+<li><div data-progress><canvas data-itemname="beer" data-size="25"></canvas>&nbsp;&nbsp;Beer (or 2 coins to buy during quest)</div><br></li>
 <li><div data-progress>Decent armor and weapon to defeat a combat level 34 vampyre</div></li>
 </ul>
 <b>Starting Location:</b> Draynor Village

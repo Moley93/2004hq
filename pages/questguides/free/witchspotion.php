@@ -9,7 +9,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="burnt_meat" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="eye_of_newt" data-size="25"></canvas>Eye of newt (or 300 coins to purchase)</div><br></li>
+<li><div data-progress><canvas data-itemname="eye_of_newt" data-size="25"></canvas>&nbsp;&nbsp;Eye of newt (or 300 coins to purchase)</div><br></li>
 <li><div data-progress><canvas data-itemname="onion" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
 <b>Starting Location:</b> Rimmington

@@ -13,7 +13,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>10 Crafting</div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="molten_glass" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>3 planks</div><br></li>
+<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">

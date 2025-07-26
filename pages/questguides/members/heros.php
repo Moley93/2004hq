@@ -22,8 +22,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>53 Cooking</div><br></li>
 <li><div data-progress><canvas data-itemname="fishing_rod" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="fishing_bait" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="harralandervial" data-size="25"></canvas>Harralander potion (unf) (or a harralander and a vial of water)</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="harralandervial" data-size="25"></canvas>&nbsp;&nbsp;Harralander potion (unf) (or a harralander and a vial of water)</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 </ul>
 <b>Black Arm Gang members</b>
 <ul style="list-style-type: none;">

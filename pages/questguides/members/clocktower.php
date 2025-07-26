@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li>
     <div data-progress>
-        <canvas data-itemname="bucket_water" data-size="25"></canvas>Bucket of water or <canvas data-itemname="ice_gloves" data-size="25"></canvas> Ice gloves
+        <canvas data-itemname="bucket_water" data-size="25"></canvas>&nbsp;&nbsp;Bucket of water or <canvas data-itemname="ice_gloves" data-size="25"></canvas>&nbsp;Ice gloves
     </div>
 </li>
 <li>

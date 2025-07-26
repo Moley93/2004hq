@@ -21,8 +21,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="rope" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bronzecraftwire" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="chisel" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="torch_lit" data-size="25"></canvas>A lit torch or <canvas data-itemname="lit_candle" data-size="25"></canvas>a lit candle</div><br></li>
-<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>3 bones</div><br></li>
+<li><div data-progress><canvas data-itemname="torch_lit" data-size="25"></canvas>&nbsp;&nbsp;A lit torch or <canvas data-itemname="lit_candle" data-size="25"></canvas>&nbsp;a lit candle</div><br></li>
+<li><div data-progress><canvas data-itemname="bones" data-size="25"></canvas>&nbsp;&nbsp;3 bones</div><br></li>
 <li><div data-progress>The ability to kill a level 91, 68, and 93 monster in a row</div><br></li>
 </ul>
 <h3>Recommended:</h3>

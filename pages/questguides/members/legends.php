@@ -43,11 +43,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="soulrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="mindrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="earthrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>2 law runes</div><br></li>
-<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas>2-3 charcoal</div><br></li>
-<li><div data-progress><canvas data-itemname="papyrus" data-size="25"></canvas>4-5 papyrus</div><br></li>
-<li><div data-progress><canvas data-itemname="gold_bar" data-size="25"></canvas>2-6 gold bars</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="lawrune" data-size="25"></canvas>&nbsp;&nbsp;2 law runes</div><br></li>
+<li><div data-progress><canvas data-itemname="charcoal" data-size="25"></canvas>&nbsp;&nbsp;2-3 charcoal</div><br></li>
+<li><div data-progress><canvas data-itemname="papyrus" data-size="25"></canvas>&nbsp;&nbsp;4-5 papyrus</div><br></li>
+<li><div data-progress><canvas data-itemname="gold_bar" data-size="25"></canvas>&nbsp;&nbsp;2-6 gold bars</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 <li><div data-progress><canvas data-itemname="snake_weed" data-size="25" data-show-label="inline"data-name-append="(Obtainable during quest)"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="ardrigal" data-size="25" data-show-label="inline" data-name-append="(Obtainable during quest)"></canvas></div><br></li>
 <li><div data-progress>Runes to cast any Charge Orb</div><br></li>

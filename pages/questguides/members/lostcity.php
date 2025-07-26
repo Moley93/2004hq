@@ -12,7 +12,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <ul style="list-style-type: none;">
 <li><div data-progress>31 Crafting</div><br></li>
 <li><div data-progress>36 Woodcutting</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_axe" data-size="25"></canvas>Any hatchet</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_axe" data-size="25"></canvas>&nbsp;&nbsp;Any hatchet</div><br></li>
 <li><div data-progress><canvas data-itemname="knife" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress>Ability to kill a level 101 Tree spirit with limited armour and weapons</div></li>
 </ul>

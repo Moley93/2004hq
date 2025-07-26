@@ -18,17 +18,17 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="shantay_pass" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="bronze_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>10 feathers</div><br></li>
+<li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>&nbsp;&nbsp;10 feathers</div><br></li>
 <li><div data-progress>The ability to defeat a level 47 enemy</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress><canvas data-itemname="knife" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="water_skin4" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_bar" data-size="25"></canvas>3 bronze bars</div><br></li>
-<li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>50 feathers</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>100 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_bar" data-size="25"></canvas>&nbsp;&nbsp;3 bronze bars</div><br></li>
+<li><div data-progress><canvas data-itemname="feather" data-size="25"></canvas>&nbsp;&nbsp;50 feathers</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_100" data-size="25"></canvas>&nbsp;&nbsp;100 coins</div><br></li>
 </ul>
 <b>Starting Location:</b> South of Shantay Pass
 <br><br>

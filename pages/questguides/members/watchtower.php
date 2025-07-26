@@ -13,7 +13,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>15 Thieving</div></li>
 <li><div data-progress>25 Agility</div></li>
 <li><div data-progress>40 Mining</div></li>
-<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>20+ coins</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;&nbsp;20+ coins</div><br></li>
 <li><div data-progress><canvas data-itemname="gold_bar" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="tinderbox" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="deathrune" data-size="25" data-show-label="inline"></canvas></div><br></li>
@@ -24,8 +24,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="vial_water" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="jangerberries" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="pestle_and_mortar" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>2 ropes</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="rope" data-size="25"></canvas>&nbsp;&nbsp;2 ropes</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 <li><div data-progress>The ability to defeat a level 68 Ogre and run past level 111 Blue dragons</div></li>
 </ul>
 <h3>Recommended:</h3>

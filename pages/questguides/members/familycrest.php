@@ -12,8 +12,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>40 Smithing</div></li>
 <li><div data-progress>40 Crafting</div></li>
 <li><div data-progress>59 Magic</div></li>
-<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>2 Cut Rubies</div></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any Pickaxe</div></li>
+<li><div data-progress><canvas data-itemname="ruby" data-size="25"></canvas>&nbsp;&nbsp;2 Cut Rubies</div></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any Pickaxe</div></li>
 <li><div data-progress><canvas data-itemname="shrimp" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="salmon" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="tuna" data-size="25" data-show-label="inline"></canvas></div></li>
@@ -21,12 +21,12 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="swordfish" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="ring_mould" data-size="25" data-show-label="inline"></canvas></div></li>
 <li><div data-progress><canvas data-itemname="necklace_mould" data-size="25" data-show-label="inline"></canvas></div></li>
-<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>Any Antipoison Potion</div></li>
-<li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>x4 Death runes</div></li>
-<li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>x13 Air runes</div></li>
-<li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>x3 Water runes</div></li>
-<li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>x4 Earth runes</div></li>
-<li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>x5 Fire runes</div></li>
+<li><div data-progress><canvas data-itemname="3doseantipoison" data-size="25"></canvas>&nbsp;&nbsp;Any Antipoison Potion</div></li>
+<li><div data-progress><canvas data-itemname="deathrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Death runes</div></li>
+<li><div data-progress><canvas data-itemname="airrune" data-size="25"></canvas>&nbsp;&nbsp;x13 Air runes</div></li>
+<li><div data-progress><canvas data-itemname="waterrune" data-size="25"></canvas>&nbsp;&nbsp;x3 Water runes</div></li>
+<li><div data-progress><canvas data-itemname="earthrune" data-size="25"></canvas>&nbsp;&nbsp;x4 Earth runes</div></li>
+<li><div data-progress><canvas data-itemname="firerune" data-size="25"></canvas>&nbsp;&nbsp;x5 Fire runes</div></li>
 </ul>
 <h3>Recommended:</h3>
 <ul style="list-style-type: none;">

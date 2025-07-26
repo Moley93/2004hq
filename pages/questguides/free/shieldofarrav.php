@@ -8,8 +8,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <b>Length: <font color="Yellow">Medium</font></b><br>
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
-<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>20 coins (Phoenix Gang)</div><br></li>
-<li><div data-progress><canvas data-itemname="phoenix_crossbow" data-size="25"></canvas>2 Phoenix crossbows (Black Arm Gang)</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_5" data-size="25"></canvas>&nbsp;&nbsp;20 coins (Phoenix Gang)</div><br></li>
+<li><div data-progress><canvas data-itemname="phoenix_crossbow" data-size="25"></canvas>&nbsp;&nbsp;2 Phoenix crossbows (Black Arm Gang)</div><br></li>
 <li><div data-progress>A friend who has not done the quest</div></li>
 </ul>
 <b>Starting Location:</b> Reldo in the palace library of Varrock

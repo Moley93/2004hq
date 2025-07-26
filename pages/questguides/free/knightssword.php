@@ -9,9 +9,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>10 Mining</div></li>
-<li><div data-progress><canvas data-itemname="redberry_pie" data-size="25"></canvas>Redberry pie (level 10 Cooking to make)</div><br></li>
-<li><div data-progress><canvas data-itemname="iron_bar" data-size="25"></canvas>2 iron bars (level 15 Smithing to make)</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="redberry_pie" data-size="25"></canvas>&nbsp;&nbsp;Redberry pie (level 10 Cooking to make)</div><br></li>
+<li><div data-progress><canvas data-itemname="iron_bar" data-size="25"></canvas>&nbsp;&nbsp;2 iron bars (level 15 Smithing to make)</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 <li><div data-progress>The ability to run past level 57 ice warriors and level 53 ice giants</div></li>
 </ul>
 <b>Starting Location:</b> The courtyard of the White Knight's Castle

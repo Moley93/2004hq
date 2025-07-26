@@ -14,9 +14,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress><canvas data-itemname="silk" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="antidragonbreathshield" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>6 steel bars</div><br></li>
-<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>3 planks</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>2,000 coins (or an extra 10,000 coins if you can't Telekinetic Grab)</div><br></li>
+<li><div data-progress><canvas data-itemname="nails" data-size="25"></canvas>&nbsp;&nbsp;12 nails or <canvas data-itemname="steel_bar" data-size="25"></canvas>&nbsp;&nbsp;6 steel bars</div><br></li>
+<li><div data-progress><canvas data-itemname="woodplank" data-size="25"></canvas>&nbsp;&nbsp;3 planks</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_1000" data-size="25"></canvas>&nbsp;&nbsp;2,000 coins (or an extra 10,000 coins if you can't Telekinetic Grab)</div><br></li>
 <li><div data-progress>Any items you think you need to defeat Elvarg (the green dragon)</div><br></li>
 </ul>
 <b>Starting Location:</b> Champion's Guild

@@ -11,7 +11,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <h3>Items & Skills Needed:</h3>
 <ul style="list-style-type: none;">
 <li><div data-progress>25 agility</div><br></li>
-<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>30 coins</div><br></li>
+<li><div data-progress><canvas data-itemname="coins_25" data-size="25"></canvas>&nbsp;&nbsp;30 coins</div><br></li>
 <li><div data-progress>The ability to beat level 172 demon</div><br></li>
 </ul>
 <b>Starting Location:</b> Grand Tree in the Gnome Stronghold northwest of Ardougne

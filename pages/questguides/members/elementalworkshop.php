@@ -12,11 +12,11 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <li><div data-progress>20 Smithing</div><br></li>
 <li><div data-progress>20 Crafting</div><br></li>
 <li><div data-progress>A sharp object like a knife or sword</div><br></li>
-<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>Any pickaxe</div><br></li>
+<li><div data-progress><canvas data-itemname="bronze_pickaxe" data-size="25"></canvas>&nbsp;&nbsp;Any pickaxe</div><br></li>
 <li><div data-progress><canvas data-itemname="leather" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="needle" data-size="25" data-show-label="inline"></canvas></div><br></li>
 <li><div data-progress><canvas data-itemname="thread" data-size="25" data-show-label="inline"></canvas></div><br></li>
-<li><div data-progress><canvas data-itemname="coal" data-size="25"></canvas>4 coal</div><br></li>
+<li><div data-progress><canvas data-itemname="coal" data-size="25"></canvas>&nbsp;&nbsp;4 coal</div><br></li>
 <li><div data-progress><canvas data-itemname="hammer" data-size="25" data-show-label="inline"></canvas></div><br></li>
 </ul>
 <b>Starting Location:</b> Search the bookcase on the east wall in the house southwest of the bank in Seers' Village
