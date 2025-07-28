@@ -30,13 +30,13 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Start the quest by talking to Hassan in the palace, he'll tell you to speak with Osman.</div>
 <br><br>
-<div data-progress>Tell him Hassan sent you, and you need instructions, he'll tell you Lady Keli has captured the prince and you need to stage a rescue, he'll then tell you that you need to do two things. One is to make a disguise, and the other is to make an imprint of a key.</div>
+<div data-progress>Go North of the palace and talk to Osman. Tell him Hassan sent you, and you need instructions, he'll tell you Lady Keli has captured the prince and you need to stage a rescue, he'll then tell you that you need to do two things. One is to make a disguise, and the other is to make an imprint of a key.</div>
 <br><br>
-<div data-progress>Head over to Draynor Village, find Leela. You'll tell her you are there to help her free the prince, then she'll check what items you have and tell you what else you still need.</div>
+<div data-progress>Head over towards Draynor Village, find Leela. She is located east of Draynor Village just south of the wheat field. You'll tell her you are there to help her free the prince, then she'll check what items you have and tell you what else you still need.</div>
 <br><br>
 <div data-progress>Find Aggie the witch, she can make you the skin paste and yellow dye.</div>
 <br><br>
-<div data-progress>Talk to Ned, bring him 4 balls of wool and he can make a rope and with 3 balls of wool he can make you a wig for the disguise. Use your yellow dye on the wig.</div>
+<div data-progress>Talk to Ned, bring him 4 balls of wool and he can make a rope. With 3 more balls of wool he can make you a wig for the disguise. Use your yellow dye on the wig.</div>
 <br><br>
 <div data-progress>Talk to Lady Keli, tell her you've heard of her, she's famous all over RuneScape.</div>
 <br><br>
@@ -46,7 +46,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Make sure you have the soft clay here and ask her if you can see the key. Then ask her if you can touch it for a moment then you'll make an imprint of the key in the clay.</div>
 <br><br>
-<div data-progress>Go back to Osman in Al Kharid with the key imprint & a bronze bar, he'll tell you to pick up the key from Leela.</div>
+<div data-progress>Go back to Osman in Al Kharid with the key imprint, a bronze bar, and 20 gold. He will tell you to pick up the key from Leela.</div>
+<br><br>
+<div data-progress>Head back towards Draynor Village and talk to Leela to obtain the jail key.</div>
 <br><br>
 <div data-progress>Go into the house nearby Lady Keli and talk to the guard and tell him you have a beer. “Fancy one?” You'll then ask him if he wants another and automatically hand them to him, he will drink them and get drunk.</div>
 <br><br>
