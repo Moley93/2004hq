@@ -35,7 +35,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to Redbeard, and he will be pleased and give you a key. He will say that a chest in Varrock contains the treasure.</div>
 <br><br>
-<div data-progress>Go to Varrock and go inside the Blue Moon Inn which is behind the general stall. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.</div>
+<div data-progress>Go to Varrock and go inside the Blue Moon Inn which is South the general store. Go up to the <span data-floors="US">2nd floor</span> and go into the west room. Find a chest then use the key on the chest. You will get a note. Read it, and it will tell you that the treasure is in Falador Park.</div>
 <br><br>
 <div data-progress>Now it's time to dig the treasure. Go into the park and find a statue. West of it there are some sun flowers. If you have the spade, you can dig the flowers. If you don't, find one in Falador. If you dig the flowers, the gardener will attack you. Kill him and dig again. You will get 450 coins, a gold ring, and an emerald, which are the rewards for completing the quest. The quest is now finished.</div>
 $questComplete
