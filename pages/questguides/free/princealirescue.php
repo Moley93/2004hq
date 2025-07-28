@@ -48,7 +48,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Make sure you have the soft clay here and ask her if you can see the key. Then ask her if you can touch it for a moment then you'll make an imprint of the key in the clay.</div>
 <br><br>
-<div data-progress>Go back to Osman in Al Kharid with the key imprint, a bronze bar, and 20 gold. He will tell you to pick up the key from Leela.</div>
+<div data-progress>Go back to Osman in Al Kharid with the key imprint and a bronze bar. He will tell you to pick up the key from Leela.</div>
 <br><br>
 <div data-progress>Head back towards Draynor Village and talk to Leela to obtain the jail key.</div>
 <br><br>
