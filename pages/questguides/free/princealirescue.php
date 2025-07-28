@@ -36,7 +36,9 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Find Aggie the witch, she can make you the skin paste and yellow dye.</div>
 <br><br>
-<div data-progress>Talk to Ned, bring him 4 balls of wool and he can make a rope. With 3 more balls of wool he can make you a wig for the disguise. Use your yellow dye on the wig.</div>
+<div data-progress>Talk to Ned, bring him 3 balls of wool he can make you a wig for the disguise. Use your yellow dye on the wig.</div>
+<br><br>
+<div data-progress>If you do not already have a rope, Ned can make rope for 4 balls of wool.</div>
 <br><br>
 <div data-progress>Talk to Lady Keli, tell her you've heard of her, she's famous all over RuneScape.</div>
 <br><br>
