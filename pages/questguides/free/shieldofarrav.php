@@ -21,7 +21,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Walk to the palace library and ask Reldo if he's got any quests for you. He will begin talking about the Shield of Arrav and ask you to find a book on one of the shelves. (Make your friend do this quest with you—it will prove helpful in the end.)</div>
 <br><br>
-<div data-progress>Find the book and read it. It talks about the gangs: Black Arm and Phoenix. Then return to Reldo—he will tell you to go to Baraek.</div>
+<div data-progress>Find the book and read it. It talks about the gangs: Black Arm and Phoenix. Then return to Reldo — he will tell you to go to Baraek.</div>
 <br><br>
 <div data-progress>Baraek is in the marketplace. He will only tell you about the gang for 20 coins. (Cheap scum.) After that, he'll tell you about the gang.</div>
 <br><br>
@@ -29,37 +29,41 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 Choosing your gang:
 <br><br>
+<div data-progress>I chose the Black Arm gang because it was easier. Have you or your friend choose a gang — each gang has different tasks.</div>
+<hr>
 Blackarm Gang:
-<br><br>
-<div data-progress>I chose the Black Arm gang because it was easier. Have you or your friend choose a gang—each gang has different tasks.</div>
 <br><br>
 <div data-progress>If you chose Black Arm, then Katrine will tell you to steal some Phoenix crossbows. This is where your friend comes in.</div>
 <br><br>
-<div data-progress>Have your friend go to the Blue Moon Inn and kill Johnny the Beard (level 5). Retrieve the scroll and have him go to the Phoenix Gang. Talk to the gang leader, who is located in a small house marked by a dungeon icon on your map.</div>
-<br><br>
-<div data-progress>The Phoenix Gang leader will give you a key to the gang's weapon store (located right beside the entrance). Have your friend retrieve some crossbows from the armory and give them to you. Also, before you leave, make sure your friend grabs the other part of the shield for you.</div>
+<div data-progress>Have your friend retrieve some crossbows from the Phoenix Gang Weapon Store and give them to you. Also, before you leave, make sure your friend grabs the other part of the shield.</div>
 <br><br>
 <div data-progress>Now that you have the crossbows, your friend's part is done. Talk to Katrine and tell her about the crossbows, then enter the upper area of the gang house and retrieve the shield.</div>
 <br><br>
-<div data-progress>Talk to the king, and he will tell you to go to the museum to show the curator. The curator will give you two scrolls.</div>
+<div data-progress>Merge the two halves of the shield together to create a full shield. Go to the Varrock Museum and talk to the curator. The curator will give you two scrolls.</div>
 <br><br>
-<div data-progress>Take the scrolls to the king and claim your reward.</div>
-<br><br>
+<div data-progress>Trade one certificate to your friend and take your certificate to King Roald in the Varrock Palace to recieve your reward.</div>
+<hr>
 Phoenix Gang:
 <br><br>
 <div data-progress>To start the Phoenix Gang path, talk to Baerek. He will tell you about the quest. Before going to the gang, go to the Blue Moon Inn and kill Johnny the Beard (level 5).</div>
 <br><br>
-<div data-progress>After killing Johnny, take the scroll he drops and go to the Phoenix Gang's house. It is marked by a large dungeon icon on your map, in the back of Varrock near Aubury.</div>
+<div data-progress>After killing Johnny, take the scroll he drops and go to the Phoenix Gang's house to the South. It is marked by a large dungeon icon on your map, in the back alley of Varrock near Aubury.</div>
 <br><br>
-<div data-progress>Go down the ladder and talk to the gang leader. He will talk at length about the VTM Corporation. Tell him you know who they really are.</div>
+<div data-progress>Go down the ladder and talk to the gang leader. Tell him you know who he really is.</div>
 <br><br>
 <div data-progress>He will say okay and allow you to ask to join. He'll say you need to kill an agent and bring back his intelligence scroll. You already have that.</div>
 <br><br>
-<div data-progress>Give it to the gang leader, and he'll let you inside. Get the shield, and have your friend get the other part from the Black Arm Gang.</div>
+<div data-progress>Give it to the gang leader, he'll let you inside, and give you a key to the weapon store. Go to the very end to a room with a chest near the bed. Open and search the chest to grab the shield half.</div>
 <br><br>
-Note: Give your friend one of the reward scrolls for his part in this.
+<div data-progress>Leave the dungeon and return to Varrock. Walk East towards the altar to the Phoenix Gang storage and use your key on the door.</div>
 <br><br>
-Congrats! You're 600 gold richer and have gained a Quest point.
+<div data-progress>Climb the ladder and kill the Weaponsmaster, then take a crossbow (or two if your friend wants a crossbow to keep).</div>
+<br><br>
+<div data-progress>Return to your friend and trade them the Phoenix Crossbow(s) and have your friend get the other shield half from the Black Arm Gang.</div>
+<br><br>
+<div data-progress>Meet your friend at the Varrock Museum to trade your shield half.</div>
+<br><br>
+<div data-progress>Recieve your certificate from your friend and take the certificate to King Roald in the Varrock Palace to recieve your reward.</div>
 $questComplete
 This quest guide was written on RuneHQ by halojunkie.
 <br><br>
