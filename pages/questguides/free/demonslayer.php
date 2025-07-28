@@ -29,8 +29,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Use the bucket of water with the drain, then hurry down into the sewers through the manhole, head north a short distance, and you should find the key in no time.</div>
 <br><br>
-<img src="img/questimages/demonslayer1.png" height="200" width="200"><br>
-<img src="img/questimages/demonslayer2.png" height="200" width="200"><br>
+<img src="img/questimages/demonslayer1.png"><br>
+<img src="img/questimages/demonslayer2.png"><br>
 <br>
 <div data-progress>Get/collect your 25 bones and head to the Wizards' Tower. Talk to the Wizard Traiborn to get your 3rd key after some bumbling about dumb stuff.</div>
 <br><br>
