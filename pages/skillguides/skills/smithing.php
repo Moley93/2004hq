@@ -2,6 +2,169 @@
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
 <p>
+    <table>
+        <tr>
+            <td valign="top">
+                The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
+                Many players find that making equipment and selling it to shops and other players is a good way to make money.
+                <br><br>
+                Smithing has two stages: smelting and smithing.
+                Smelting converts your ores into bars. This is done at furnaces.
+                To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
+            </td>
+            <td>
+                <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Ores / Smelting Chart</h2>
+    You will need different combinations of ores and different smithing levels to make each bar.
+    Some of these requirements are shown below. There are even more bars to make at higher levels.
+    <br><br>
+    <table class="calculators">
+        <tr>
+            <th>Bar</th>
+            <th>Ores required per bar</th>
+            <th>Level<br>required</th>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="bronze_bar" data-size="28px"></canvas><br>
+            Bronze
+        </td>
+        <td>
+            <canvas data-itemname="tin_ore" data-size="28px"></canvas>
+            <canvas data-itemname="copper_ore" data-size="28px"></canvas><br>
+            1 Tin ore, 1 Copper ore
+        </td>
+        <td>1</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="iron_bar" data-size="28px"></canvas><br>
+            Iron
+        </td>
+        <td>
+            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+            1 Iron ore (50% chance of success)
+        </td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="silver_bar" data-size="28px"></canvas><br>
+            Silver
+        </td>
+        <td>
+            <canvas data-itemname="silver_ore" data-size="28px"></canvas><br>
+            1 Silver ore
+        </td>
+        <td>20</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="steel_bar" data-size="28px"></canvas><br>
+            Steel
+        </td>
+        <td>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
+            2 Coal, 1 Iron ore
+        </td>
+        <td>30</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="gold_bar" data-size="28px"></canvas><br>
+            Gold
+        </td>
+        <td>
+            <canvas data-itemname="gold_ore" data-size="28px"></canvas><br>
+            1 Gold ore
+        </td>
+        <td>40</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="mithril_bar" data-size="28px"></canvas><br>
+            Mithril
+        </td>
+        <td>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="mithril_ore" data-size="28px"></canvas><br>
+            4 Coal, 1 Mithril ore
+        </td>
+        <td>50</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="adamantite_bar" data-size="28px"></canvas><br>
+            Adamant</td>
+        <td>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="adamantite_ore" data-size="28px"></canvas><br>
+            6 Coal, 1 Adamantite ore
+        </td>
+        <td>70</td>
+        </tr>
+        <tr>
+        <td>
+            <canvas data-itemname="runite_bar" data-size="28px"></canvas><br>
+            Runite
+        </td>
+        <td>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="coal" data-size="28px"></canvas>
+            <canvas data-itemname="runite_ore" data-size="28px"></canvas><br>
+            8 Coal, 1 Runite ore
+        </td>
+        <td>85</td>
+        </tr>
+    </table>
+    <br><br>
+    <hr>
+    <h2>Smithing/Forging items</h2>
+    You will need a hammer which can be bought from any general store.
+    <br>
+    To convert your bars into armour and weapons you must forge them at an anvil.
+    <br><br>
+    Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
+    <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif">
+    <br><br>
+    The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.
+    <br>    <br>
+    Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.
+    <br><br>
+    <table>
+        <tr>
+            <td valign="top">
+                <img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23">
+            </td>
+            <td valign="top">
+                The smithing levels required to forge a metal type are the same as those required to smelt it.
+                However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
+                <br>
+                The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
+            </td>
+        </tr>
+    </table>
+    <br><br>
     The following is a table showing at what level you can forge various items. A similar table to the one below can be opened in the game by clicking the smithing skill icon in the stats menu.
     <table class="calculators">
         <tr>
@@ -252,182 +415,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="mithril_platebody" data-size="28px"></canvas><br>68</td>
             <td><canvas data-itemname="adamant_platebody" data-size="28px"></canvas><br>88</td>
             <td><canvas data-itemname="rune_platebody" data-size="28px"></canvas><br>99</td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <table>
-        <tr>
-            <td valign="top">
-                The smithing skill is used to convert ores, obtained by mining, into weapons and armour.
-                Many players find that making equipment and selling it to shops and other players is a good way to make money.
-                <br><br>
-                Smithing has two stages: smelting and smithing.
-                Smelting converts your ores into bars. This is done at furnaces.
-                To convert your ore into bars select an ore in your inventory then left click on a furnace. If you want to smelt several lots of ore at once, left clicking on the furnace will bring up a list of metals.  Right click on a metal to select the quantity you want to make.
-            </td>
-            <td>
-                <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithingfurnace.gif">
-            </td>
-        </tr>
-    </table>
-
-    <h2>Ores / Smelting Chart</h2>
-    You will need different combinations of ores and different smithing levels to make each bar.
-    Some of these requirements are shown below. There are even more bars to make at higher levels.
-    <br>
-    <br>
-
-    <table class="calculators">
-        <tr>
-            <th>Bar</th>
-            <th>Ores required per bar</th>
-            <th>Level<br>required</th>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="bronze_bar" data-size="28px"></canvas><br>
-            Bronze
-        </td>
-        <td>
-            <canvas data-itemname="tin_ore" data-size="28px"></canvas>
-            <canvas data-itemname="copper_ore" data-size="28px"></canvas><br>
-            1 Tin ore, 1 Copper ore
-        </td>
-        <td>1</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="iron_bar" data-size="28px"></canvas><br>
-            Iron
-        </td>
-        <td>
-            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
-            1 Iron ore (50% chance of success)
-        </td>
-        <td>15</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="silver_bar" data-size="28px"></canvas><br>
-            Silver
-        </td>
-        <td>
-            <canvas data-itemname="silver_ore" data-size="28px"></canvas><br>
-            1 Silver ore
-        </td>
-        <td>20</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="steel_bar" data-size="28px"></canvas><br>
-            Steel
-        </td>
-        <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="iron_ore" data-size="28px"></canvas><br>
-            2 Coal, 1 Iron ore
-        </td>
-        <td>30</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="gold_bar" data-size="28px"></canvas><br>
-            Gold
-        </td>
-        <td>
-            <canvas data-itemname="gold_ore" data-size="28px"></canvas><br>
-            1 Gold ore
-        </td>
-        <td>40</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="mithril_bar" data-size="28px"></canvas><br>
-            Mithril
-        </td>
-        <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="mithril_ore" data-size="28px"></canvas><br>
-            4 Coal, 1 Mithril ore
-        </td>
-        <td>50</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="adamantite_bar" data-size="28px"></canvas><br>
-            Adamant</td>
-        <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="adamantite_ore" data-size="28px"></canvas><br>
-            6 Coal, 1 Adamantite ore
-        </td>
-        <td>70</td>
-        </tr>
-
-        <tr>
-        <td>
-            <canvas data-itemname="runite_bar" data-size="28px"></canvas><br>
-            Runite
-        </td>
-        <td>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="coal" data-size="28px"></canvas>
-            <canvas data-itemname="runite_ore" data-size="28px"></canvas><br>
-            8 Coal, 1 Runite ore
-        </td>
-        <td>85</td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <h2>Smithing/Forging items</h2>
-
-    You will need a hammer which can be bought from any general store.<br>
-    To convert your bars into armour and weapons you must forge them at an anvil.<br>
-
-    Select a bar from your inventory, then select an anvil. You will be given a screen to decide what sort of equipment you would like to make. You will  be shown how many bars are needed to make types of object. If this is written in green then you have enough bars to make the item, if it is written in red then you do not.
-    <img src="https://web.archive.org/web/20050206173625im_/http://www.runescape.com/img/rs2/manual/smithing/smithinginterface.gif">
-    <br>
-    <br>
-    The name of the objects will be written in black or white. If the name is written in white then you have the smithing level required to make it. If it is written in black then you do not.<br>
-    <br>
-    Select what you would like to make and provided you have the required smithing levels and number of bars, your object will be made.<br><br>
-
-
-    <table>
-        <tr>
-            <td valign="top">
-                <img src="https://oldschool.runescape.wiki/images/thumb/Anvil.png/200px-Anvil.png?a1e23">
-            </td>
-            <td valign="top">
-                The smithing levels required to forge a metal type are the same as those required to smelt it.
-                However at the levels given you will only be able to forge the most basic items in that metal (mostly daggers). A few levels past these base smithing levels you will be able to make a wider variety of things. For example at smithing level 4 you will be able to make bronze short swords.
-                <br>
-                The gold and silver bars are not used to smith weapons instead they are used in the crafting skill</a>.
-            </td>
         </tr>
     </table>
 </p>

@@ -11,8 +11,7 @@ function getSkillContent($skill) { return <<<HTML
     <br><br>
     Rarer types of wood are harder to acquire, but make better bows which shoot more accurately.
     The table below lists the different types of bow you can make.
-    <br><br>
-    <b>Different types of bows</b><br>
+    <br>
     <table width="100%" cellpadding="1" cellspacing="0" class="calculators">
         <tr>
             <th colspan="4">Bow type</th>
@@ -25,7 +24,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_shortbow"></canvas></td>
             <td><canvas data-itemname="shortbow"></canvas></td>
             <td>5</td>
-            <td>1</td>
+            <td rowspan="2">1</td>
         </tr>
         <tr>
             <td>Long bow</td>
@@ -33,7 +32,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_longbow"></canvas></td>
             <td><canvas data-itemname="longbow"></canvas></td>
             <td>10</td>
-            <td>1</td>
         </tr>
         <tr>
             <td>Oak shortbow</td>
@@ -41,7 +39,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_oak_shortbow"></canvas></td>
             <td><canvas data-itemname="oak_shortbow"></canvas></td>
             <td>20</td>
-            <td>5</td>
+            <td rowspan="2">5</td>
         </tr>
         <tr>
             <td>Oak longbow</td>
@@ -49,7 +47,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_oak_longbow"></canvas></td>
             <td><canvas data-itemname="oak_longbow"></canvas></td>
             <td>25</td>
-            <td>5</td>
         </tr>
         <tr>
             <td>Willow shortbow</td>
@@ -57,7 +54,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_willow_shortbow"></canvas></td>
             <td><canvas data-itemname="willow_shortbow"></canvas></td>
             <td>35</td>
-            <td>20</td>
+            <td rowspan="2">20</td>
         </tr>
         <tr>
             <td>Willow longbow</td>
@@ -65,7 +62,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_willow_longbow"></canvas></td>
             <td><canvas data-itemname="willow_longbow"></canvas></td>
             <td>40</td>
-            <td>20</td>
         </tr>
         <tr>
             <td>Maple shortbow</td>
@@ -73,7 +69,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_maple_shortbow"></canvas></td>
             <td><canvas data-itemname="maple_shortbow"></canvas></td>
             <td>50</td>
-            <td>30</td>
+            <td rowspan="2">30</td>
         </tr>
         <tr>
             <td>Maple longbow</td>
@@ -81,7 +77,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_maple_longbow"></canvas></td>
             <td><canvas data-itemname="maple_longbow"></canvas></td>
             <td>55</td>
-            <td>30</td>
         </tr>
         <tr>
             <td>Yew shortbow</td>
@@ -89,7 +84,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_yew_shortbow"></canvas></td>
             <td><canvas data-itemname="yew_shortbow"></canvas></td>
             <td>65</td>
-            <td>40</td>
+            <td rowspan="2">40</td>
         </tr>
         <tr>
             <td>Yew longbow</td>
@@ -97,7 +92,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_yew_longbow"></canvas></td>
             <td><canvas data-itemname="yew_longbow"></canvas></td>
             <td>70</td>
-            <td>40</td>
         </tr>
         <tr>
             <td>Magic shortbow</td>
@@ -105,7 +99,7 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_magic_shortbow"></canvas></td>
             <td><canvas data-itemname="magic_shortbow"></canvas></td>
             <td>80</td>
-            <td>50</td>
+            <td rowspan="2">50</td>
         </tr>
         <tr>
             <td>Magic longbow</td>
@@ -113,7 +107,6 @@ function getSkillContent($skill) { return <<<HTML
             <td><canvas data-itemname="unstrung_magic_longbow"></canvas></td>
             <td><canvas data-itemname="magic_longbow"></canvas></td>
             <td>85</td>
-            <td>50</td>
         </tr>
     </table>
 </p>

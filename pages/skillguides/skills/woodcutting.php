@@ -54,7 +54,7 @@ function getSkillContent($skill) { return <<<HTML
     <h3>Axes</h3>
     Woodcutters need to be familiar with the tools of their trade. Below is a table that shows the types of woodcutting axes available. Axes can be obtained in either of the following ways:
     <br><br>
-    * A bug currently exists in-game that you can use any axe at any level!<br>
+    *A bug currently exists in-game that you can use any axe at any level!<br>
     The value noted below is what the requirement is supposed to be.<br>
     <table class="calculators">
         <tr class="row_a">
@@ -65,7 +65,7 @@ function getSkillContent($skill) { return <<<HTML
         <tr class="row_b">
             <td><canvas data-itemname="bronze_axe" data-show-label="true"></canvas></td>
             <td>1</td>
-            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Stuck in a tree stump in the chicken pen, south-east of the Lumbridge windmill.<li>Bought from Bob's axe shop in Lumbridge<li>You can make one using the Smithing skill.</ul></td>
+            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Stuck in a tree stump in the chicken pen, south-east of the Lumbridge windmill.<li>Bought from Bob's axe shop in Lumbridge.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr class="row_a">
             <td><canvas data-itemname="iron_axe" data-show-label="true"></canvas></td>
@@ -75,12 +75,12 @@ function getSkillContent($skill) { return <<<HTML
         <tr class="row_b">
             <td><canvas data-itemname="steel_axe" data-show-label="true"></canvas></td>
             <td>6</td>
-            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Bought from Bob's axe shop in Lumbridge.<li>You can make one using the Smithing skill.</ul></td>
+            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Bought from Bob's axe shop in Lumbridge.<li>Dropped by the Tree Spirit random event.<li>You can make one using the Smithing skill.</ul></td>
         </tr>
         <tr class="row_a">
             <td><canvas data-itemname="black_axe" data-show-label="true"></canvas></td>
             <td>6</td>
-            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by Black Demon's and the King Black Dragon.<li>Bought from other players.</ul></td>
+            <td style="text-align: left;"><ul style="margin-top: 0px; margin-bottom: 0px; "><li>Dropped by Black Demons and the King Black Dragon.<li>Bought from other players.</ul></td>
         </tr>
         <tr class="row_b">
             <td><canvas data-itemname="mithril_axe" data-show-label="true"></canvas></td>

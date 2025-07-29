@@ -1,7 +1,6 @@
 <?php
 function getSkillContent($skill) { return <<<HTML
 <h2>$skill Skill Guide</h2>
-<hr>
 <p>
 	<h3>Introduction</h3>
 	There are various types of food you can cook in RuneScape. By eating food, you regain lost hit points (HP). The amount depends on the type of food you eat. As you train your cooking, you will be able to cook more varieties of food, and you will also burn less.
@@ -277,7 +276,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td><canvas data-itemname="uncooked_pizza"></canvas></td>
 			<td><canvas data-itemname="anchovie_pizza"></canvas></td>
 		</tr>
-		<!--<tr> 
+		<tr> 
 			<td>Ugthanki Kebab</td>
 			<td>53</td>
 			<td>19</td>
@@ -285,7 +284,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td>120</td>
 			<td><canvas data-itemname="bowl_oniontomugthanki"></canvas></td>
 			<td><canvas data-itemname="ugthanki_kebab"></canvas></td>
-		</tr>-->
+		</tr>
 		<tr> 
 			<td><a href="curry">Curry</a></td>
 			<td>60</td>
@@ -318,7 +317,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td>82</td>
 			<td>20</td>
 			<td>1</td>
-			<td>N/A</td>
+			<td>211.3</td>
 			<td><canvas data-itemname="raw_seaturtle"></canvas></td>
 			<td><canvas data-itemname="seaturtle"></canvas></td>
 		</tr>
@@ -327,7 +326,7 @@ function getSkillContent($skill) { return <<<HTML
 			<td>91</td>
 			<td>22</td>
 			<td>1</td>
-			<td>N/A</td>
+			<td>216.3</td>
 			<td><canvas data-itemname="raw_mantaray"></canvas></td>
 			<td><canvas data-itemname="mantaray"></canvas></td>
 		</tr>
