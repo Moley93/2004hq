@@ -37,7 +37,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br><br>
 <div data-progress>Talk to Oziach. Ask him about Rune platebody, the Dragonfire Shield, and the map pieces. He should give you a key to Melzar's Maze.</div>
 <br><br>
-<div data-progress>Go to the Oracle (located above the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Go down into the mine and find the door on the eastern side. Inside, your items will disappear, and you'll find a chest containing a map piece.</div>
+<div data-progress>Go to the Oracle (located on Ice Mountain north of the Dwarven Mines) with your Silk, Mind Bomb, Unfired bowl, and Lobster pot. She'll tell you about a door in the mines. Go down into the mine and find the door on the eastern side. Inside, your items will disappear, and you'll find a chest containing a map piece.</div>
 <br><br>
 <div data-progress>Grab some food if needed. Head to Melzar's Maze (south of the Crafting Guild) and use your key on the door. Kill giant rats until one drops a red key. Use it on the northwest door, then go up the ladder.</div>
 <br><br>
