@@ -126,37 +126,6 @@ function getPageContent() { return <<<HTML
         </tr>
         <tr valign="top">
             <td width="100">
-                <a href="?p=streetprices">
-                    <img src="img/coinstack.png" style="width:80px;margin-top:20px;"></a>
-            </td>
-            <td width="120">
-                <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
-                    <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
-                </div>
-                <br>
-                <br>
-                Item Street Prices<br>
-                <a href="?p=streetprices" class="c">Click Here</a>
-            </td>
-            <td width="10"></td>
-            <td width="100">
-            </td>
-            <td width="120">
-                <div style="LEFT: 0px; TOP: 0px; POSITION: relative;">
-                    <div style="LEFT: 0px; TOP: 0px; POSITION: absolute;"></div>
-                </div>
-                <br>
-                <br>
-                <br>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<hr>
-<table>
-    <tbody>
-        <tr valign="top">
-            <td width="100">
                 <a href="?p=wallpapers">
                     <img src="img/picture.png" style="width:80px;margin-top:20px;"></a>
             </td>
