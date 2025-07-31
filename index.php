@@ -14,7 +14,6 @@ switch ($p) {
     case 'cluetables':
     case 'clueguides':
     case 'calculators':
-    case 'streetprices':
     case 'questguides':
     case 'itemdb':
     case 'wallpapers':
