@@ -62,7 +62,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Gloves</td>
-        <td><canvas data-itemname="steel_gauntlets" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+7 Crush Resistance</td>
     </tr>
     <tr>
@@ -126,7 +126,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Gloves</td>
-        <td><canvas data-itemname="steel_gauntlets" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+8 Stab Resistance</td>
     </tr>
     <tr>
@@ -190,7 +190,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Gloves</td>
-        <td><canvas data-itemname="steel_gauntlets" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+9 Slash Resistance</td>
     </tr>
     <tr>
@@ -379,11 +379,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Weapon</td>
-        <td><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></td>
+        <td><div class="centered-content"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas>*</div></td>
         <td>+60 Crush Attack<br>+55 Strength Bonus<br>+5 Prayer Bonus</td>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas></td>
+        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
         <td>+55 Crush Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
@@ -415,7 +415,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Gloves</td>
-        <td><canvas data-itemname="steel_gauntlets" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+2 Crush Attack<br>+2 Strength Bonus</td>
     </tr>
     <tr>
@@ -424,6 +424,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>Pick based on enemy</td>
     </tr>
 </table>
+*Both Dragon Mace and Dragon Spear have a fast tick of 4, but Dragon Mace has a +5 Prayer Bonus and can be one-handed with a shield. Dragon Spear offers the advantage of poison.
 <hr>
 <h3 id="offense-stabslash">Stab/Slash Offense</h3>
 <table>
@@ -467,11 +468,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Weapon</td>
-        <td><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas></td>
+        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
         <td>+58 Stab Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></td>
+        <td><div class="centered-content"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas>*</div></td>
         <td>+69 Slash Attack<br>+71 Strength Bonus</td>
     </tr>
     <tr>
@@ -503,7 +504,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Gloves</td>
-        <td><canvas data-itemname="steel_gauntlets" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+2 Stab/Slash Attack<br>+2 Strength Bonus</td>
     </tr>
     <tr>
@@ -512,6 +513,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>Pick based on enemy</td>
     </tr>
 </table>
+*The Dragon Spear offers a faster tick rate (4 ticks instead of 5) as well as poison damage compared to the Dragon Longsword. Use the Dragon Longsword for Slashing or more defence bonuses.
 <hr>
 <h3 id="offense-ranged">Ranged Offense</h3>
 <table>
@@ -576,7 +578,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Ammo</td>
-        <td><canvas data-itemname="rune_arrow_p_5" data-show-label="inline"></canvas></td>
+        <td><canvas data-itemname="rune_arrow_p" data-show-label="inline"></canvas></td>
         <td>+49 Ranged Strength Bonus</td>
     </tr>
 </table>

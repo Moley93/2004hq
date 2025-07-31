@@ -15,6 +15,7 @@ const imageDebugnameOverrides = {
   mithril_arrow: "mithril_arrow_5",
   adamant_arrow: "adamant_arrow_5",
   rune_arrow: "rune_arrow_5",
+  rune_arrow_p: "rune_arrow_p_5"
 };
 
 Promise.all([
