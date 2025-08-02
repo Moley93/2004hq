@@ -349,7 +349,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 67</td><td>Stab: 190</td></tr><tr><td>Slash: 67</td><td>Slash: 189</td></tr><tr><td>Crush: 67</td><td>Crush: 174</td></tr><tr><td>Magic: -44</td><td>Magic: 4</td></tr><tr><td>Range: -16</td><td>Range: 178</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 68</td><td>Prayer: 3</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 52</td><td>Stab: 235</td></tr><tr><td>Slash: 10</td><td>Slash: 236</td></tr><tr><td>Crush: 72</td><td>Crush: 217</td></tr><tr><td>Magic: -50</td><td>Magic: -1</td></tr><tr><td>Range: -16</td><td>Range: 223</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 63</td><td>Prayer: 8</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -384,12 +384,12 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Weapon</td>
-        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
-        <td>+55 Crush Attack<br>+60 Strength Bonus<br>Poison Damage</td>
-    </tr>
-    <tr>
         <td><div class="centered-content"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas>*</div></td>
         <td>+60 Crush Attack<br>+55 Strength Bonus<br>+5 Prayer Bonus</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
+        <td>+55 Crush Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
@@ -473,12 +473,12 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Weapon</td>
-        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
-        <td>+58 Stab Attack<br>+60 Strength Bonus<br>Poison Damage</td>
-    </tr>
-    <tr>
         <td><div class="centered-content"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas>*</div></td>
         <td>+69 Slash Attack<br>+71 Strength Bonus</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
+        <td>+58 Stab Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
@@ -595,7 +595,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 22</td><td>Stab: 14</td></tr><tr><td>Slash: 11</td><td>Slash: 16</td></tr><tr><td>Crush: 52</td><td>Crush: 13</td></tr><tr><td>Magic: 46</td><td>Magic: 46</td></tr><tr><td>Range: 10</td><td>Range: 3</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 58</td><td>Prayer: 6</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 22</td><td>Stab: 21</td></tr><tr><td>Slash: 11</td><td>Slash: 25</td></tr><tr><td>Crush: 52</td><td>Crush: 21</td></tr><tr><td>Magic: 46</td><td>Magic: 42</td></tr><tr><td>Range: 10</td><td>Range: 10</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 58</td><td>Prayer: 6</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -655,4 +655,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+4 Magic Attack</td>
     </tr>
 </table>
+<hr>
+This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin for corrections.
+<br><br>
+This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sat, Aug 02, 2025, at 02:16:22 AM by Halogod35.
 HTML; }
