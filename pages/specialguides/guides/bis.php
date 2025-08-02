@@ -203,7 +203,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+3 Slash Resistance</td>
     </tr>
 </table>
-*Dragonfire shield is recommended in this build for fighting dragons, as they do slash damage.
+*Dragons primarily deal slash damage in melee, making this slash-defense build ideal when combined with a Dragonfire shield.
 <hr>
 <h3 id="defence-ranged">Ranged Defence</h3>
 <table>
