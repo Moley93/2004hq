@@ -47,7 +47,7 @@ function getPageContent() {
     </tr>
     <tr>
       <td>R3dM45k</td>
-      <td>Gerrin</td>
+      <td>Geerin</td>
       <td>14k</td>
     </tr>
     <tr>
