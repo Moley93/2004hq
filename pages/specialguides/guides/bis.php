@@ -15,7 +15,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
     <table class="subtable">
-        <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 227</td></tr><tr><td>Slash: 71</td><td>Slash: 243</td></tr><tr><td>Crush: 0</td><td>Crush: 238</td></tr><tr><td>Magic: -55</td><td>Magic: 1</td></tr><tr><td>Range: -3</td><td>Range: 205</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 1</td></tr></tbody>
+        <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 227</td></tr><tr><td>Slash: 71</td><td>Slash: 243</td></tr><tr><td>Crush: 0</td><td>Crush: 238</td></tr><tr><td>Magic: -55</td><td>Magic: 1</td></tr><tr><td>Range: -3</td><td>Range: 205</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 0</td></tr></tbody>
     </table>
 </td>
 </table>
@@ -57,8 +57,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>+47 Crush Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>+47 Crush Resistance</td>
     </tr>
     <tr>
         <td>Gloves</td>
@@ -79,7 +79,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 42</td><td>Stab: 246</td></tr><tr><td>Slash: 0</td><td>Slash: 248</td></tr><tr><td>Crush: 62</td><td>Crush: 230</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 57</td><td>Prayer: 7</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 42</td><td>Stab: 246</td></tr><tr><td>Slash: 0</td><td>Slash: 248</td></tr><tr><td>Crush: 62</td><td>Crush: 230</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 57</td><td>Prayer: 5</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -111,8 +111,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_platebody_zamorak"></canvas><canvas data-itemname="rune_platebody_guthix"></canvas><canvas data-itemname="rune_platebody_saradomin"></canvas><br>God platebody</td>
-        <td>+82 Stab Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
+        <td>+82 Stab Resistance</td>
     </tr>
     <tr>
         <td>Shield</td>
@@ -121,8 +121,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>+51 Stab Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>+51 Stab Resistance</td>
     </tr>
     <tr>
         <td>Gloves</td>
@@ -143,7 +143,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 246</td></tr><tr><td>Slash: 71</td><td>Slash: 251</td></tr><tr><td>Crush: 0</td><td>Crush: 232</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 2</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 246</td></tr><tr><td>Slash: 71</td><td>Slash: 251</td></tr><tr><td>Crush: 0</td><td>Crush: 232</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 0</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -175,18 +175,22 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_platebody_zamorak"></canvas><canvas data-itemname="rune_platebody_guthix"></canvas><canvas data-itemname="rune_platebody_saradomin"></canvas><br>God platebody</td>
-        <td>+80 Slash Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
+        <td>+80 Slash Resistance</td>
     </tr>
     <tr>
-        <td>Shield</td>
+        <td rowspan="2">Shield</td>
         <td><canvas data-itemname="dragon_sq_shield" data-show-label="inline"></canvas></td>
         <td>+52 Slash Resistance</td>
     </tr>
     <tr>
+        <td><div class="centered-content"><canvas data-itemname="antidragonbreathshield" data-show-label="inline"></canvas>*</div></td>
+        <td>Anti-dragonbreath</td>
+    </tr>
+    <tr>
         <td>Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>+49 Slash Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>+49 Slash Resistance</td>
     </tr>
     <tr>
         <td>Gloves</td>
@@ -199,6 +203,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+3 Slash Resistance</td>
     </tr>
 </table>
+*Dragonfire shield is recommended in this build for fighting dragons, as they do slash damage.
 <hr>
 <h3 id="defence-ranged">Ranged Defence</h3>
 <table>
@@ -207,7 +212,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 40</td><td>Stab: 232</td></tr><tr><td>Slash: -2</td><td>Slash: 236</td></tr><tr><td>Crush: 60</td><td>Crush: 221</td></tr><tr><td>Magic: -70</td><td>Magic: 5</td></tr><tr><td>Range: -18</td><td>Range: 229</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 55</td><td>Prayer: 7</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 40</td><td>Stab: 232</td></tr><tr><td>Slash: -2</td><td>Slash: 236</td></tr><tr><td>Crush: 60</td><td>Crush: 221</td></tr><tr><td>Magic: -70</td><td>Magic: 5</td></tr><tr><td>Range: -18</td><td>Range: 229</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 55</td><td>Prayer: 5</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -239,8 +244,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="rune_platebody_zamorak"></canvas><canvas data-itemname="rune_platebody_guthix"></canvas><canvas data-itemname="rune_platebody_saradomin"></canvas><br>God platebody</td>
-        <td>+80 Ranged Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
+        <td>+80 Ranged Resistance</td>
     </tr>
     <tr>
         <td>Shield</td>
@@ -249,8 +254,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>+49 Ranged Resistance<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>+49 Ranged Resistance</td>
     </tr>
     <tr>
         <td>Gloves</td>
@@ -344,7 +349,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 67</td><td>Stab: 190</td></tr><tr><td>Slash: 67</td><td>Slash: 189</td></tr><tr><td>Crush: 67</td><td>Crush: 174</td></tr><tr><td>Magic: -44</td><td>Magic: 4</td></tr><tr><td>Range: -16</td><td>Range: 178</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 68</td><td>Prayer: 5</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 67</td><td>Stab: 190</td></tr><tr><td>Slash: 67</td><td>Slash: 189</td></tr><tr><td>Crush: 67</td><td>Crush: 174</td></tr><tr><td>Magic: -44</td><td>Magic: 4</td></tr><tr><td>Range: -16</td><td>Range: 178</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 68</td><td>Prayer: 3</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -357,11 +362,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     <tr>
         <td rowspan="2">Head</td>
         <td><canvas data-itemname="dragon_med_helm" data-show-label="inline"></canvas></td>
-        <td>More Melee Defence</td>
+        <td>More General Defence</td>
     </tr>
     <tr>
-        <td><canvas data-itemname="rune_full_helm_zamorak"></canvas><canvas data-itemname="rune_full_helm_guthix"></canvas><canvas data-itemname="rune_full_helm_saradomin"></canvas><br>God helm</td>
-        <td>+1 Prayer bonus</td>
+        <td><canvas data-itemname="robinhoodhat" data-show-label="inline"></canvas></td>
+        <td>More Magic Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Cape</td>
@@ -379,17 +384,17 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Weapon</td>
-        <td><div class="centered-content"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas>*</div></td>
-        <td>+60 Crush Attack<br>+55 Strength Bonus<br>+5 Prayer Bonus</td>
-    </tr>
-    <tr>
         <td><div class="centered-content"><canvas data-itemname="dragon_spear_p" data-show-label="inline"></canvas>*</div></td>
         <td>+55 Crush Attack<br>+60 Strength Bonus<br>Poison Damage</td>
     </tr>
     <tr>
+        <td><div class="centered-content"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas>*</div></td>
+        <td>+60 Crush Attack<br>+55 Strength Bonus<br>+5 Prayer Bonus</td>
+    </tr>
+    <tr>
         <td rowspan="2">Chest</td>
-        <td><canvas data-itemname="rune_platebody_zamorak"></canvas><canvas data-itemname="rune_platebody_guthix"></canvas><canvas data-itemname="rune_platebody_saradomin"></canvas><br>God platebody</td>
-        <td>More General Defence<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
+        <td>More General Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="black_dragonhide_body" data-show-label="inline"></canvas></td>
@@ -406,8 +411,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>More General Defence<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>More General Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="black_dragonhide_chaps" data-show-label="inline"></canvas></td>
@@ -424,7 +429,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>Pick based on enemy</td>
     </tr>
 </table>
-*Both Dragon Mace and Dragon Spear have a fast tick of 4, but Dragon Mace has a +5 Prayer Bonus and can be one-handed with a shield. Dragon Spear offers the advantage of poison.
+*Both Dragon Mace and Dragon Spear have a fast tick of 4, but Dragon Mace has a +5 Prayer Bonus and can be equipped with a shield. Dragon Spear offers the advantage of poison.
 <hr>
 <h3 id="offense-stabslash">Stab/Slash Offense</h3>
 <table>
@@ -433,7 +438,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 70</td><td>Stab: 235</td></tr><tr><td>Slash: 81</td><td>Slash: 239</td></tr><tr><td>Crush: 10</td><td>Crush: 219</td></tr><tr><td>Magic: -50</td><td>Magic: -1</td></tr><tr><td>Range: -16</td><td>Range: 223</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 79</td><td>Prayer: 5</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 70</td><td>Stab: 235</td></tr><tr><td>Slash: 81</td><td>Slash: 239</td></tr><tr><td>Crush: 10</td><td>Crush: 219</td></tr><tr><td>Magic: -50</td><td>Magic: -1</td></tr><tr><td>Range: -16</td><td>Range: 223</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 79</td><td>Prayer: 3</td></tr></tbody>
         </table>
     </td>
 </table>
@@ -449,8 +454,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>More Melee Defence</td>
     </tr>
     <tr>
-        <td><canvas data-itemname="rune_full_helm_zamorak"></canvas><canvas data-itemname="rune_full_helm_guthix"></canvas><canvas data-itemname="rune_full_helm_saradomin"></canvas><br>God helm</td>
-        <td>+1 Prayer bonus</td>
+        <td><canvas data-itemname="robinhoodhat" data-show-label="inline"></canvas></td>
+        <td>More Magic Defence</td>
     </tr>
     <tr>
         <td rowspan="2">Cape</td>
@@ -477,8 +482,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Chest</td>
-        <td><canvas data-itemname="rune_platebody_zamorak"></canvas><canvas data-itemname="rune_platebody_guthix"></canvas><canvas data-itemname="rune_platebody_saradomin"></canvas><br>God platebody</td>
-        <td>More General Defence<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platebody" data-show-label="inline"></canvas></td>
+        <td>More General Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="black_dragonhide_body" data-show-label="inline"></canvas></td>
@@ -495,8 +500,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td rowspan="2">Legs</td>
-        <td><canvas data-itemname="rune_platelegs_zamorak"></canvas><canvas data-itemname="rune_platelegs_guthix"></canvas><canvas data-itemname="rune_platelegs_saradomin"></canvas><br>God platelegs</td>
-        <td>More General Defence<br>+1 Prayer bonus</td>
+        <td><canvas data-itemname="rune_platelegs" data-show-label="inline"></canvas></td>
+        <td>More General Defence</td>
     </tr>
     <tr>
         <td><canvas data-itemname="black_dragonhide_chaps" data-show-label="inline"></canvas></td>
@@ -622,7 +627,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Chest</td>
-        <td><canvas data-itemname="wizards_robe"></canvas><canvas data-itemname="black_robe"></canvas><br>Black or Blue Wizards Robe</td>
+        <td><canvas data-itemname="wizards_robe"></canvas><canvas data-itemname="black_robe"></canvas><br>Wizards or Black Robe</td>
         <td>+3 Magic Attack</td>
     </tr>
     <tr>
