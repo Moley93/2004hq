@@ -1,6 +1,7 @@
 <?php
 $speciallist = array(
-    "bis" => "Best-in-Slot Gear"
+    "bis" => "Best-in-Slot Gear",
+    "kittencare" => "Kitten Care"
 );
 
 function getPageContent() {
