@@ -117,7 +117,9 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
-    <tr><td>30/07/2025</td><td>Added Special Guides (thanks Fallnight)</td></tr>
+    <tr><td>03/08/2025</td><td>Added Kitten Care guide</td></tr>
+    <tr><td>30/07/2025</td><td>Added Best-in-Slot guide (thanks Fallnight)</td></tr>
+    <tr><td>30/07/2025</td><td>Added Special Guides</td></tr>
     <tr><td>11/07/2025</td><td>Added Elemental Workshop quest</td></tr>
     <tr><td>02/07/2025</td><td>Added Mage Arena miniquest</td></tr>
     <tr><td>30/06/2025</td><td>Added miniquest section with barcrawl guide</td></tr>
