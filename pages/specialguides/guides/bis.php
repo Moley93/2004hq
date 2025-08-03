@@ -1,6 +1,6 @@
 <?php
 function getSpecialGuide($currSpecialGuide) { return <<<HTML
-<h2>Best in Slot Gear</h2>
+<h2>$currSpecialGuide</h2>
 <b>Quick Links</b>
 <br>
 <a href="#defence-crush">Crush Defence</a> | <a href="#defence-stab">Stab Defence</a> | <a href="#defence-slash">Slash Defence</a><br>

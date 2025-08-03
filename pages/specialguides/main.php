@@ -1,6 +1,6 @@
 <?php
 $speciallist = array(
-    "bis" => "BiS Gear"
+    "bis" => "Best-in-Slot Gear"
 );
 
 function getPageContent() {
@@ -18,12 +18,12 @@ function getPageContent() {
 
         if (file_exists($filePath)) {
             include $filePath;
-            
-            $meta_data['title'] = 'Special Guides > ' . ucfirst($currSpecialGuide);
+            $guideName = $speciallist[$currSpecialGuide];
+            $meta_data['title'] = 'Special Guides > ' . $guideName;
             $meta_data['og:title'] = $meta_data['title'];
-            $meta_data['og:image'] = 'img/genie.png';;
+            $meta_data['og:image'] = 'img/genie.png';
 
-            echo getSpecialGuide(ucfirst($currSpecialGuide));
+            echo getSpecialGuide($guideName);
         } else {
             $stopload = true;
             redirect("404");
