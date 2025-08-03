@@ -13,7 +13,7 @@ function getPageContent() {
                 <tr>
                     <td class=b bgcolor=#474747 background=img/stoneback.gif>
                         <div class="stone-box">
-                            <b>Select a monster</b><br>
+                            <b>Select an NPC</b><br>
                             <select id="npcSelect">
                                 <option value="">Select NPC...</option>
                             </select>
@@ -22,9 +22,27 @@ function getPageContent() {
                 </tr>
             </table>
         </td>
-        <td>&nbsp;&nbsp;&nbsp;</td>
         <td>
             <table width=215 height=70 cellpadding=4>
+                <tr>
+                    <td class=b bgcolor=#474747 background=img/stoneback.gif>
+                        <div class="stone-box">
+                            <b>Ring of Wealth</b><br>
+                            <label style="color: white;">
+                                <input type="checkbox" id="ringOfWealthCheckbox" style="margin-right: 5px;">
+                                Equipped
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>
+            <table width=430 height=70 cellpadding=4>
                 <tr>
                     <td class=b bgcolor=#474747 background=img/stoneback.gif>
                         <div class="stone-box">
@@ -42,8 +60,14 @@ function getPageContent() {
 <div id="dropTableContainer"></div>
 
 <style>
-.shared-table-content { display: none; margin-left: 1em; }
-.shared-table-toggle { cursor: pointer;}
+.shared-table-toggle { 
+  cursor: pointer;
+  color: #0066cc;
+  text-decoration: underline;
+}
+.shared-table-toggle:hover {
+  color: #004499;
+}
 </style>
 <script src="js/droptables/droptables.js" type="text/javascript"></script>
 HTML;

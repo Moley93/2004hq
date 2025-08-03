@@ -1,320 +1,69 @@
 {
   "randomherb": {
+    "name": "Herb Table",
     "roll_base": 128,
     "roll_table": [
-      {
-        "item": [
-          "unidentified_guam",
-          1
-        ],
-        "chance": "1/4"
-      },
-      {
-        "item": [
-          "unidentified_marrentill",
-          1
-        ],
-        "chance": "1/5"
-      },
-      {
-        "item": [
-          "unidentified_tarromin",
-          1
-        ],
-        "chance": "1/7"
-      },
-      {
-        "item": [
-          "unidentified_harralander",
-          1
-        ],
-        "chance": "1/9"
-      },
-      {
-        "item": [
-          "unidentified_ranarr",
-          1
-        ],
-        "chance": "1/11"
-      },
-      {
-        "item": [
-          "unidentified_irit",
-          1
-        ],
-        "chance": "1/16"
-      },
-      {
-        "item": [
-          "unidentified_avantoe",
-          1
-        ],
-        "chance": "1/21"
-      },
-      {
-        "item": [
-          "unidentified_kwuarm",
-          1
-        ],
-        "chance": "1/25"
-      },
-      {
-        "item": [
-          "unidentified_cadantine",
-          1
-        ],
-        "chance": "1/32"
-      },
-      {
-        "item": [
-          "unidentified_lantadyme",
-          1
-        ],
-        "chance": "1/42"
-      },
-      {
-        "item": [
-          "unidentified_dwarf_weed",
-          1
-        ],
-        "chance": "1/42"
-      }
+      {"item": ["unidentified_guam",1], "chance": "32"},
+      {"item": ["unidentified_marrentill",1], "chance": "24"},
+      {"item": ["unidentified_tarromin",1], "chance": "18"},
+      {"item": ["unidentified_harralander",1], "chance": "14"},
+      {"item": ["unidentified_ranarr",1], "chance": "11"},
+      {"item": ["unidentified_irit",1], "chance": "8"},
+      {"item": ["unidentified_avantoe",1], "chance": "6"},
+      {"item": ["unidentified_kwuarm",1], "chance": "5"},
+      {"item": ["unidentified_cadantine",1], "chance": "4"},
+      {"item": ["unidentified_lantadyme",1], "chance": "3"},
+      {"item": ["unidentified_dwarf_weed",1], "chance": "3"}
     ]
   },
   "randomjewel": {
+    "name": "Jewel Table",
     "roll_base": 128,
+    "roll_base_ring_of_wealth": 65,
     "roll_table": [
-      {
-        "item": [
-          "uncut_sapphire",
-          1
-        ],
-        "chance": "1/4"
-      },
-      {
-        "item": [
-          "uncut_emerald",
-          1
-        ],
-        "chance": "1/8"
-      },
-      {
-        "item": [
-          "uncut_ruby",
-          1
-        ],
-        "chance": "1/16"
-      },
-      {
-        "item": [
-          "uncut_diamond",
-          1
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "rune_javelin",
-          5
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "keyhalf1",
-          1
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "keyhalf2",
-          1
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "~megararetable",
-          1
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "underground = nature_talisman | above ground = chaos_talisman",
-          1
-        ],
-        "chance": "1/42"
-      }
+      {"item": ["uncut_sapphire",1], "chance": "32"},
+      {"item": ["uncut_emerald",1], "chance": "16"},
+      {"item": ["uncut_ruby",1], "chance": "8"},
+      {"item": ["uncut_diamond",1], "chance": "2"},
+      {"item": ["rune_javelin",5], "chance": "1"},
+      {"item": ["keyhalf1",1], "chance": "1"},
+      {"item": ["keyhalf2",1], "chance": "1"},
+      {"item": ["~megararetable",1], "chance": "1", "note":"Only if Legend's Quest is completed, otherwise a talisman is rolled."},
+      {"item": ["aboveground = nature_talisman | underground = chaos_talisman",1], "chance": "3", "note": "Above ground drops a Nature Talisman, underground drops a Chaos Talisman."}
     ]
   },
   "ultrarare_getitem": {
+    "name": "Rare Drop Table",
     "roll_base": 128,
     "roll_table": [
-      {
-        "item": [
-          "naturerune",
-          67
-        ],
-        "chance": "1/42"
-      },
-      {
-        "item": [
-          "adamant_javelin",
-          20
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "deathrune",
-          45
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "lawrune",
-          45
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "rune_arrow",
-          42
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "steel_arrow",
-          150
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "rune_2h_sword",
-          1
-        ],
-        "chance": "1/42"
-      },
-      {
-        "item": [
-          "rune_battleaxe",
-          1
-        ],
-        "chance": "1/42"
-      },
-      {
-        "item": [
-          "rune_sq_shield",
-          1
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "dragon_med_helm",
-          1
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "rune_kiteshield",
-          1
-        ],
-        "chance": "1/128"
-      },
-      {
-        "item": [
-          "coins",
-          3000
-        ],
-        "chance": "1/6"
-      },
-      {
-        "item": [
-          "keyhalf1",
-          1
-        ],
-        "chance": "1/6"
-      },
-      {
-        "item": [
-          "keyhalf2",
-          1
-        ],
-        "chance": "1/6"
-      },
-      {
-        "item": [
-          "runite_bar",
-          1
-        ],
-        "chance": "1/25"
-      },
-      {
-        "item": [
-          "dragonstone",
-          1
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "cert_silver_ore",
-          100
-        ],
-        "chance": "1/64"
-      },
-      {
-        "item": [
-          "~randomjewel",
-          1
-        ],
-        "chance": "1/6"
-      },
-      {
-        "item": [
-          "~megararetable",
-          1
-        ],
-        "chance": "1/8"
-      }
+      {"item": ["naturerune",67], "chance": "3"},
+      {"item": ["adamant_javelin",20], "chance": "2"},
+      {"item": ["deathrune",45], "chance": "2"},
+      {"item": ["lawrune",45], "chance": "2"},
+      {"item": ["rune_arrow",42], "chance": "2"},
+      {"item": ["steel_arrow",150], "chance": "2"},
+      {"item": ["rune_2h_sword",1], "chance": "3"},
+      {"item": ["rune_battleaxe",1], "chance": "3"},
+      {"item": ["rune_sq_shield",1], "chance": "2"},
+      {"item": ["dragon_med_helm",1], "chance": "1"},
+      {"item": ["rune_kiteshield",1], "chance": "1"},
+      {"item": ["coins",3000], "chance": "21"},
+      {"item": ["keyhalf1",1], "chance": "20"},
+      {"item": ["keyhalf2",1], "chance": "20"},
+      {"item": ["runite_bar",1], "chance": "5"},
+      {"item": ["dragonstone",1], "chance": "2"},
+      {"item": ["cert_silver_ore",100], "chance": "2"},
+      {"item": ["~randomjewel",1], "chance": "20"},
+      {"item": ["~megararetable",1], "chance": "15"}
     ]
   },
   "megararetable": {
+    "name": "Mega Rare Table",
     "roll_base": 128,
     "roll_table": [
-      {
-        "item": [
-          "rune_spear",
-          1
-        ],
-        "chance": "1/16"
-      },
-      {
-        "item": [
-          "dragonshield_a",
-          1
-        ],
-        "chance": "1/32"
-      },
-      {
-        "item": [
-          "dragon_spear",
-          1
-        ],
-        "chance": "1/42"
-      }
+      {"item": ["rune_spear",1], "chance": "8"},
+      {"item": ["dragonshield_a",1], "chance": "4"},
+      {"item": ["dragon_spear",1], "chance": "3"}
     ]
-  },
-  "randomjunk": {
-    "roll_base": 128,
-    "roll_table": []
   }
 }
