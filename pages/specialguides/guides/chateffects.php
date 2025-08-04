@@ -76,7 +76,7 @@ Note: All the effect names must be typed in lower case or they will not work.
     </tr>
 </table>
 <h3>Combinations</h3>
-You can have combinations of colors and text effects in your messages too. Colored text (cyan, green, purple, red and white) can scroll, shake, slide, or wave. Flashing and glowing text effects may also have a scroll or wave effect added to them. When combining colors and effects, always have the color before the effect and do not put a space between the color colon and the first letter of the effect.
+You can have combinations of colors and text effects in your messages too. Colored text (cyan, green, purple, red, and white) can scroll, shake, slide, or wave. Flashing and glowing text effects may also have a scroll or wave effect added to them. When combining colors and effects, always have the color before the effect and do not put a space between the color colon and the first letter of the effect.
 <table class="calculators" width="100%">
     <tr>
         <th colspan="4">Combination Codes</th>
