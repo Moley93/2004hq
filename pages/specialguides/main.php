@@ -3,7 +3,8 @@ $speciallist = array(
     "bis" => "Best-in-Slot Gear",
     "chateffects" => "Chat Colors and Effects",
     "kittencare" => "Kitten Care",
-    "music" => "Music Locations"
+    "music" => "Music Locations",
+    "specialattacks" => "Special Attacks"
 );
 
 function getPageContent() {

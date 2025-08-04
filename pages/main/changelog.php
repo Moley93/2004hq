@@ -117,6 +117,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>04/08/2025</td><td>Added Special Attacks guide</td></tr>
     <tr><td>04/08/2025</td><td>Added Chat Effects guide (thanks Handlebars)</td></tr>
     <tr><td>04/08/2025</td><td>Added Music Locations guide</td></tr>
     <tr><td>03/08/2025</td><td>Reworked drop tables</td></tr>
