@@ -61,9 +61,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+47 Crush Resistance</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+7 Crush Resistance</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
+        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -125,9 +129,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+51 Stab Resistance</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+8 Stab Resistance</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
+        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -193,9 +201,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+49 Slash Resistance</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+9 Slash Resistance</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
+        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -419,9 +431,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>More Magic Defence</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+2 Crush Attack<br>+2 Strength Bonus</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
+        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -508,9 +524,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>More Magic Defence</td>
     </tr>
     <tr>
-        <td>Gloves</td>
+        <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
         <td>+2 Stab/Slash Attack<br>+2 Strength Bonus</td>
+    </tr>
+    <tr>
+        <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
+        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
