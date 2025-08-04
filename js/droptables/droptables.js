@@ -10,10 +10,11 @@ const SHARED_TABLE_ICONS = {
   'megararetable': 'dragonshield_a'
 };
 
+const cacheBuster = Date.now();
 Promise.all([
-  fetch('js/droptables/monster_drops.json').then(res => res.json()),
-  fetch('js/droptables/shared_drops.json').then(res => res.json()),
-  fetch('js/itemlist.json').then(res => res.json())
+  fetch(`js/droptables/monster_drops.json?v=${cacheBuster}`).then(res => res.json()),
+  fetch(`js/droptables/shared_drops.json?v=${cacheBuster}`).then(res => res.json()),
+  fetch(`js/itemlist.json?v=${cacheBuster}`).then(res => res.json())
 ]).then(([monsterData, sharedData, itemData]) => {
   monsterDrops = monsterData;
   sharedDrops = sharedData;
@@ -81,11 +82,11 @@ function loadNPCFromURL() {
 
 function renderDrops(npcData, searchTerm = "") {
   const container = document.getElementById('dropTableContainer');
-  let html = '<h2>Drops for ' + (npcData.name || 'Unknown NPC') + '</h2>';
-  html += '<table class="calculators" width="100%">';
+  let html = '<h2>' + (npcData.name || 'Unknown NPC') + '</h2>';
 
   let guaranteedRows = [];
   let rollableRows = [];
+  let clueRows = [];
 
   const matchesSearch = (debugName) => {
     if (!searchTerm) return false;
@@ -95,10 +96,17 @@ function renderDrops(npcData, searchTerm = "") {
 
   if (npcData.guaranteed && npcData.guaranteed.length > 0) {
     npcData.guaranteed.forEach(item => {
-      const isMatch = matchesSearch(item);
+      const itemName = typeof item === 'object' ? item.item : item;
+      const note = typeof item === 'object' ? item.note : null;
+      const isMatch = matchesSearch(itemName);
+      const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : '';
       guaranteedRows.push({
         html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
-                 <td><canvas data-itemname="${item}" data-show-label="inline"></canvas></td>
+                 <td>
+                   <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                     <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                   </div>
+                 </td>
                  <td>1</td>
                  <td>Always</td>
                </tr>`,
@@ -108,24 +116,53 @@ function renderDrops(npcData, searchTerm = "") {
   }
 
   if (npcData.roll_table && npcData.roll_table.length > 0) {
+    const rollBase = npcData.roll_base || 128;
+    let totalUsedSlots = 0;
+    
     for (const roll of npcData.roll_table) {
       const [itemName, amount] = roll.item;
+      const chance = parseInt(roll.chance);
+      
+      if (chance < rollBase) {
+        totalUsedSlots += chance;
+      }
+      
+      if (chance === rollBase) {
+        const isMatch = matchesSearch(itemName);
+        const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : '';
+        guaranteedRows.push({
+          html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
+                   <td>
+                     <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                       <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                     </div>
+                   </td>
+                   <td>${formatAmount(amount)}</td>
+                   <td>Always</td>
+                 </tr>`,
+          match: isMatch
+        });
+        continue;
+      }
+      
       if (itemName.startsWith('~')) {
         const sharedTableName = itemName.slice(1);
         const sharedTable = sharedDrops[sharedTableName];
         if (sharedTable) {
           const iconItem = SHARED_TABLE_ICONS[sharedTableName];
           const iconHtml = iconItem ? `<canvas data-itemname="${iconItem}" data-show-label="none"></canvas>` : '';
+          const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : '';
           
           rollableRows.push({
             html: `<tr>
               <td colspan="2">
                 <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                   ${iconHtml}
-                  <span class="shared-table-toggle" onclick="openSharedTableModal('${sharedTableName}', '${searchTerm}', '${roll.chance}', '${(npcData.name || 'Unknown NPC')} (${roll.chance})')">${sharedTable.name || sharedTableName}</span>
+                  <span class="shared-table-toggle" onclick="openSharedTableModal('${sharedTableName}', '${searchTerm}', '${calculateChanceNoApprox(roll.chance, rollBase)}', '${(npcData.name || 'Unknown NPC')} (${calculateChanceNoApprox(roll.chance, rollBase)})')">${sharedTable.name || sharedTableName}</span>
+                  ${noteHtml}
                 </div>
               </td>
-              <td>${roll.chance}</td>
+              <td>${calculateChance(roll.chance, rollBase)}</td>
             </tr>`,
             match: false
           });
@@ -147,55 +184,121 @@ function renderDrops(npcData, searchTerm = "") {
           const isAboveMatch = matchesSearch(abovegroundItem);
           const isUnderMatch = matchesSearch(undergroundItem);
           const isMatch = isAboveMatch || isUnderMatch;
+          const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : '';
           
           rollableRows.push({
             html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
               <td>
-                <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
                   <canvas data-itemname="${abovegroundItem}" data-show-label="inline"></canvas> or 
-                  <canvas data-itemname="${undergroundItem}" data-show-label="inline"></canvas>
+                  <canvas data-itemname="${undergroundItem}" data-show-label="inline"></canvas>${noteHtml}
                 </div>
               </td>
               <td>${formatAmount(amount)}</td>
-              <td>${roll.chance}</td>
+              <td>${calculateChance(roll.chance, rollBase)}</td>
             </tr>`,
             match: isMatch
           });
         } else {
           const isMatch = matchesSearch(itemName);
+          const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : '';
           rollableRows.push({
             html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
-                     <td><canvas data-itemname="${itemName}" data-show-label="inline"></canvas></td>
+                     <td>
+                       <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                         <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                       </div>
+                     </td>
                      <td>${formatAmount(amount)}</td>
-                     <td>${roll.chance}</td>
+                     <td>${calculateChance(roll.chance, rollBase)}</td>
                    </tr>`,
             match: isMatch
           });
         }
       }
     }
+    
+    const nothingSlots = rollBase - totalUsedSlots;
+    if (nothingSlots > 0) {
+      const isNothingMatch = searchTerm && searchTerm.includes('nothing');
+      rollableRows.push({
+        html: `<tr${isNothingMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''} style="color: #888;">
+          <td style="font-style: italic;">Nothing</td>
+          <td>-</td>
+          <td>${calculateChance(nothingSlots, rollBase)}</td>
+        </tr>`,
+        match: isNothingMatch
+      });
+    }
   }
 
-  html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
-
-  guaranteedRows.filter(r => r.match).forEach(r => html += r.html);
-  guaranteedRows.filter(r => !r.match).forEach(r => html += r.html);
-
-  rollableRows.filter(r => r.match).forEach(r => html += r.html);
-  rollableRows.filter(r => !r.match).forEach(r => html += r.html);
-
-  if (npcData.clue_scroll) {
-    const [chance, rawTier] = npcData.clue_scroll.split(' ');
-    const tier = rawTier.charAt(0).toUpperCase() + rawTier.slice(1);
-    const isClueMatch = searchTerm.includes('clue') || tier?.toLowerCase().includes(searchTerm);
-    html += `<tr${isClueMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
-      <td><canvas data-itemname="trail_clue_easy_simple001" data-show-label="inline" data-name-append="(${tier})"></canvas></td>
-      <td>1</td>
-      <td>${chance}</td>
-    </tr>`;
+  if (npcData.clue) {
+    const clueData = Array.isArray(npcData.clue) ? npcData.clue : [npcData.clue];
+    
+    clueData.forEach(clue => {
+      const tier = clue.tier;
+      const chance = clue.chance;
+      const note = clue.note;
+      
+      let clueItemName = 'trail_clue_easy_simple001';
+      if (tier === 'medium') {
+        clueItemName = 'trail_clue_medium_sextant001';
+      } else if (tier === 'hard') {
+        clueItemName = 'trail_clue_hard_sextant001';
+      }
+      
+      const isClueMatch = searchTerm && (searchTerm.includes('clue') || tier?.toLowerCase().includes(searchTerm));
+      const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
+      const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : '';
+      
+      clueRows.push({
+        html: `<tr${isClueMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
+          <td>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+              <canvas data-itemname="${clueItemName}" data-show-label="inline" data-name-append="(${tierCapitalized})"></canvas>${noteHtml}
+            </div>
+          </td>
+          <td>1</td>
+          <td>${chance}</td>
+        </tr>`,
+        match: isClueMatch
+      });
+    });
   }
 
+  let hasContent = false;
+  html += '<table class="calculators" width="100%">';
+  if (guaranteedRows.length > 0) {
+
+    html += '<tr><th colspan="3">Always</th></tr>';
+    html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
+    guaranteedRows.filter(r => r.match).forEach(r => html += r.html);
+    guaranteedRows.filter(r => !r.match).forEach(r => html += r.html);
+    hasContent = true;
+  }
+
+  if (rollableRows.length > 0) {
+    html += '<tr><th colspan="3">Secondary Drops</th></tr>';
+    html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
+    rollableRows.filter(r => r.match).forEach(r => html += r.html);
+    rollableRows.filter(r => !r.match).forEach(r => html += r.html);
+    hasContent = true;
+  }
+
+  if (clueRows.length > 0) {
+    html += '<tr><th colspan="3">Tertiary Drops</th></tr>';
+    html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
+    clueRows.filter(r => r.match).forEach(r => html += r.html);
+    clueRows.filter(r => !r.match).forEach(r => html += r.html);
+
+    hasContent = true;
+  }
+
+  if (!hasContent) {
+    html += '<tr><td colspan="3">No drops found for this NPC.</td></tr>';
+  }
   html += '</table>';
+
   container.innerHTML = html;
   
   if (!document.getElementById('exactChanceStyles')) {
@@ -209,6 +312,19 @@ function renderDrops(npcData, searchTerm = "") {
         margin-left: 3px;
       }
       .exact-chance-indicator:hover {
+        color: #ccc;
+      }
+      .note-indicator {
+        color: #888;
+        font-size: 11px;
+        cursor: help;
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top: -2px;
+      }
+      .note-indicator:hover {
         color: #ccc;
       }
     `;
@@ -265,7 +381,7 @@ function getApproximateFraction(numerator, denominator) {
 }
 
 function calculateChance(chanceValue, rollBase) {
-  if (typeof chanceValue === 'string' && chanceValue.includes('/')) {
+  if (typeof chanceValue === 'string' && (chanceValue.includes('/') || chanceValue === 'Always')) {
     return chanceValue;
   }
   
@@ -281,6 +397,10 @@ function calculateChance(chanceValue, rollBase) {
   const divisor = gcd(chance, rollBase);
   const numerator = chance / divisor;
   const denominator = rollBase / divisor;
+  
+  if (numerator === denominator) {
+    return "Always";
+  }
   
   const exactFraction = numerator === 1 ? 
     `1/${formatNumber(denominator)}` : 
@@ -295,7 +415,7 @@ function calculateChance(chanceValue, rollBase) {
 }
 
 function calculateChanceNoApprox(chanceValue, rollBase) {
-  if (typeof chanceValue === 'string' && chanceValue.includes('/')) {
+  if (typeof chanceValue === 'string' && (chanceValue.includes('/') || chanceValue === 'Always')) {
     return chanceValue;
   }
   
@@ -311,6 +431,10 @@ function calculateChanceNoApprox(chanceValue, rollBase) {
   const divisor = gcd(chance, rollBase);
   const numerator = chance / divisor;
   const denominator = rollBase / divisor;
+  
+  if (numerator === denominator) {
+    return "Always";
+  }
   
   return numerator === 1 ? 
     `1/${formatNumber(denominator)}` : 
@@ -366,6 +490,10 @@ function calculateTotalChance(sharedTableChance, itemChance, rollBase) {
   const finalDivisor = gcd(totalNumerator, totalDenominator);
   const finalNumerator = totalNumerator / finalDivisor;
   const finalDenominator = totalDenominator / finalDivisor;
+  
+  if (finalNumerator === finalDenominator) {
+    return "Always";
+  }
   
   const exactFraction = finalNumerator === 1 ? 
     `1/${formatNumber(finalDenominator)}` : 
@@ -574,9 +702,11 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
         
         tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
           <td>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
               <canvas data-itemname="${abovegroundItem}" data-show-label="inline"></canvas>
               or
               <canvas data-itemname="${undergroundItem}" data-show-label="inline"></canvas>${noteHtml}
+            </div>
           </td>
           <td>${formatAmount(subAmount)}</td>
           <td>${calculateChance(subRoll.chance, rollBase)}</td>
@@ -591,7 +721,11 @@ function openSharedTableModal(sharedTableName, searchTerm = "", parentChance = n
         const noteHtml = subRoll.note ? ` <span class="note-indicator" title="${subRoll.note}">[?]</span>` : '';
         
         tableHtml += `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
-          <td><canvas data-itemname="${subItem}" data-show-label="inline"></canvas>${noteHtml}</td>
+          <td>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+              <canvas data-itemname="${subItem}" data-show-label="inline"></canvas>${noteHtml}
+            </div>
+          </td>
           <td>${formatAmount(subAmount)}</td>
           <td>${calculateChance(subRoll.chance, rollBase)}</td>
           ${totalChanceHtml}
@@ -669,10 +803,13 @@ document.getElementById('itemSearch').addEventListener('input', function() {
       }
     }
 
-    if (!foundReason && npc.clue_scroll) {
-      const [, tier] = npc.clue_scroll.split(' ');
-      if ((tier && tier.toLowerCase().includes(activeSearchTerm)) || activeSearchTerm.includes('clue')) {
-        foundReason = "clue";
+    if (!foundReason && npc.clue && Array.isArray(npc.clue)) {
+      for (const clueData of npc.clue) {
+        const tier = clueData.tier;
+        if ((tier && tier.toLowerCase().includes(activeSearchTerm)) || activeSearchTerm.includes('clue')) {
+          foundReason = "clue";
+          break;
+        }
       }
     }
 

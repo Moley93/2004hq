@@ -22,10 +22,6 @@ switch ($p) {
         include 'pages/'.$p.'/main.php';
         break;
 
-    case 'droptables2':
-        include 'pages/droptables/main2.php';
-        break;
-
     case '404':
     case '403':
         include 'pages/main/error/'.$p.'.php';

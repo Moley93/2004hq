@@ -3,17 +3,17 @@
     "name": "Herb Table",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["unidentified_guam",1], "chance": "32"},
-      {"item": ["unidentified_marrentill",1], "chance": "24"},
-      {"item": ["unidentified_tarromin",1], "chance": "18"},
-      {"item": ["unidentified_harralander",1], "chance": "14"},
-      {"item": ["unidentified_ranarr",1], "chance": "11"},
-      {"item": ["unidentified_irit",1], "chance": "8"},
-      {"item": ["unidentified_avantoe",1], "chance": "6"},
-      {"item": ["unidentified_kwuarm",1], "chance": "5"},
-      {"item": ["unidentified_cadantine",1], "chance": "4"},
-      {"item": ["unidentified_lantadyme",1], "chance": "3"},
-      {"item": ["unidentified_dwarf_weed",1], "chance": "3"}
+      {"item": ["unidentified_guam",1], "chance": "32", "note":"Unidentified Guam"},
+      {"item": ["unidentified_marrentill",1], "chance": "24", "note": "Unidentified Marrentill"},
+      {"item": ["unidentified_tarromin",1], "chance": "18", "note": "Unidentified Tarromin"},
+      {"item": ["unidentified_harralander",1], "chance": "14", "note": "Unidentified Harralander"},
+      {"item": ["unidentified_ranarr",1], "chance": "11", "note": "Unidentified Ranarr"},
+      {"item": ["unidentified_irit",1], "chance": "8", "note": "Unidentified Irit"},
+      {"item": ["unidentified_avantoe",1], "chance": "6", "note": "Unidentified Avantoe"},
+      {"item": ["unidentified_kwuarm",1], "chance": "5", "note": "Unidentified Kwuarm"},
+      {"item": ["unidentified_cadantine",1], "chance": "4", "note": "Unidentified Cadantine"},
+      {"item": ["unidentified_lantadyme",1], "chance": "3", "note": "Unidentified Lantadyme"},
+      {"item": ["unidentified_dwarf_weed",1], "chance": "3", "note": "Unidentified Dwarf Weed"}
     ]
   },
   "randomjewel": {
@@ -28,8 +28,10 @@
       {"item": ["rune_javelin",5], "chance": "1"},
       {"item": ["keyhalf1",1], "chance": "1"},
       {"item": ["keyhalf2",1], "chance": "1"},
-      {"item": ["~megararetable",1], "chance": "1", "note":"Only if Legend's Quest is completed, otherwise a talisman is rolled."},
-      {"item": ["aboveground = nature_talisman | underground = chaos_talisman",1], "chance": "3", "note": "Above ground drops a Nature Talisman, underground drops a Chaos Talisman."}
+      {"item": ["~megararetable",1], "chance": "1",
+        "note": "Only if Legend's Quest is completed, otherwise a talisman is rolled."},
+      {"item": ["aboveground = nature_talisman | underground = chaos_talisman",1], "chance": "3",
+        "note": "Above ground drops a Nature Talisman, underground drops a Chaos Talisman."}
     ]
   },
   "ultrarare_getitem": {
