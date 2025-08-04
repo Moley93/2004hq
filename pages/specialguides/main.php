@@ -1,6 +1,7 @@
 <?php
 $speciallist = array(
     "bis" => "Best-in-Slot Gear",
+    "chateffects" => "Chat Colors and Effects",
     "kittencare" => "Kitten Care",
     "music" => "Music Locations"
 );
