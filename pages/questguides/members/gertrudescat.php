@@ -36,6 +36,8 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 Kitten Care:
 <br><br>
 To make kittens grow into cats, you can use balls of wool with them, have them chase and kill rats, pet them, feed them sardines and other fish, and give them milk. Be careful not to feed it too much, or it will become fat. Once it has grown into a cat, you can take it to Gertrude's cousin in West Ardougne, assuming you have completed Plague City and Biohazard to get in. He'll give you 25 death runes in exchange for the cat.
+<br><br>
+For a indepth guide for kittens, see the <a href="?p=specialguides&guide=kittencare">Kitten Care Guide</a>.
 $questComplete
 <span id="zombiemusiq"></span>
 <iframe width="450" height="253" src="https://www.youtube.com/embed/2Xds1Qzf4iQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
