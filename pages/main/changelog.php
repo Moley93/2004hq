@@ -117,6 +117,7 @@ function getPageContent() {
     </tr>
   </thead>
   <tbody>
+    <tr><td>04/08/2025</td><td>Added Music Locations guide</td></tr>
     <tr><td>03/08/2025</td><td>Reworked drop tables</td></tr>
     <tr><td>03/08/2025</td><td>Added Kitten Care guide</td></tr>
     <tr><td>30/07/2025</td><td>Added Best-in-Slot guide (thanks Fallnight)</td></tr>
