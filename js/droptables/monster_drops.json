@@ -1806,7 +1806,26 @@
       {"item": ["cosmicrune",5], "chance": "16"},
       {"item": ["coins",26], "chance": "16"},
       {"item": ["big_bones",1], "chance": "40"},
-      {"item": ["big_bones",2], "chance": "32"}
+      {"item": ["big_bones",2], "chance": "32"},
+      {"items": { "count": 2,
+        "0": { "item": ["big_bones",6] },
+        "1": { "item": ["bones",3] }
+        }, "chance": "8"},
+      {"items": { "count": 2,
+        "0": { "item": ["dragon_bones",1], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones."},
+        "1": { "item": ["big_bones",1], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones." }
+        }, "chance": "5"},
+      {"items": { "count": 3,
+        "0": { "item": ["dragon_bones",2], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones."},
+        "1": { "item": ["big_bones",10], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones." },
+        "2": { "item": ["bones",10], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones." }
+        }, "chance": "1"},
+      {"item": ["dragon_bones",3], "chance": "1", "note":"Only in Member's World. Otherwise it gets replace with 6 big bones."},
+      {"items": { "count": 2,
+        "0": { "item": ["big_bones",4], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones." },
+        "1": { "item": ["big_bones",2], "note":"Only in Member's World. Otherwise it gets replace with 6 big bones." }
+        }, "chance": "8"},
+      {"item": ["~randomjewel"], "chance": "2"}
     ],
     "always": [
       {"item": ["big_bones",1] }

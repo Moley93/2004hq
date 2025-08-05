@@ -149,10 +149,47 @@ function renderDrops(npcData, searchTerm = "") {
     let totalUsedSlots = 0;
     
     for (const roll of npcData.roll_table) {
-      const [itemName, amount] = roll.item;
       const chance = parseInt(roll.chance);
-      
       totalUsedSlots += chance;
+      
+      if (roll.items && roll.items.count) {
+        const itemCount = roll.items.count;
+        let isAnyMatch = false;
+        
+        for (let i = 0; i < itemCount; i++) {
+          const itemData = roll.items[i.toString()];
+          if (itemData) {
+            const [itemName, amount] = itemData.item;
+            const isMatch = matchesSearch(itemName);
+            if (isMatch) isAnyMatch = true;
+            
+            let noteHtml = '';
+            if (itemData.note) {
+              noteHtml = ` <span class="note-indicator" title="${itemData.note}">[?]</span>`;
+            } else if (i === 0 && roll.note) {
+              noteHtml = ` <span class="note-indicator" title="${roll.note}">[?]</span>`;
+            }
+            
+            const chanceCell = i === 0 ? `<td rowspan="${itemCount}">${calculateChance(roll.chance, rollBase)}</td>` : '';
+            
+            rollableRows.push({
+              html: `<tr${isMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
+                       <td>
+                         <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                           <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                         </div>
+                       </td>
+                       <td>${formatAmount(amount)}</td>
+                       ${chanceCell}
+                     </tr>`,
+              match: isMatch
+            });
+          }
+        }
+        continue;
+      }
+      
+      const [itemName, amount] = roll.item;
       
       if (itemName.startsWith('~')) {
         const sharedTableName = itemName.slice(1);
@@ -824,9 +861,29 @@ document.getElementById('itemSearch').addEventListener('input', function() {
 
     if (!foundReason && npc.roll_table) {
       for (const roll of npc.roll_table) {
-        const [itemName] = roll.item;
-        const readable = itemList[itemName]?.toLowerCase() || "";
-        if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+        let foundInRoll = false;
+        
+        if (roll.items && roll.items.count) {
+          for (let i = 0; i < roll.items.count; i++) {
+            const itemData = roll.items[i.toString()];
+            if (itemData) {
+              const [itemName] = itemData.item;
+              const readable = itemList[itemName]?.toLowerCase() || "";
+              if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+                foundInRoll = true;
+                break;
+              }
+            }
+          }
+        } else if (roll.item) {
+          const [itemName] = roll.item;
+          const readable = itemList[itemName]?.toLowerCase() || "";
+          if (itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm)) {
+            foundInRoll = true;
+          }
+        }
+        
+        if (foundInRoll) {
           foundReason = "rollable";
           break;
         }
