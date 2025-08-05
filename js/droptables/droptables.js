@@ -29,19 +29,28 @@ Promise.all([
 function populateNPCDropdown() {
   const select = document.getElementById('npcSelect');
   select.innerHTML = '<option value="">Select NPC...</option>';
+  
+  const npcList = [];
   for (const npcKey in monsterDrops) {
     const npc = monsterDrops[npcKey];
+    npcList.push({
+      key: npcKey,
+      displayName: npc.name || npcKey,
+      hasName: !!npc.name
+    });
+  }
+  
+  npcList.sort((a, b) => a.displayName.localeCompare(b.displayName));
+  npcList.forEach(npcInfo => {
     const option = document.createElement('option');
-    option.value = npcKey;
+    option.value = npcInfo.key;
+    option.textContent = npcInfo.displayName;
     
-    if (npc.name) {
-      option.textContent = npc.name;
-    } else {
-      option.textContent = npcKey;
+    if (!npcInfo.hasName) {
       option.style.color = 'red';
     }
     select.appendChild(option);
-  }
+  });
 }
 
 function findNPC(npcName) {
@@ -86,7 +95,7 @@ function renderDrops(npcData, searchTerm = "") {
 
   let guaranteedRows = [];
   let rollableRows = [];
-  let clueRows = [];
+  let tertiaryRows = [];
 
   const matchesSearch = (debugName) => {
     if (!searchTerm) return false;
@@ -97,6 +106,7 @@ function renderDrops(npcData, searchTerm = "") {
   if (npcData.guaranteed && npcData.guaranteed.length > 0) {
     npcData.guaranteed.forEach(item => {
       const itemName = typeof item === 'object' ? item.item : item;
+      const amount = typeof item === 'object' && item.amount ? item.amount : 1;
       const note = typeof item === 'object' ? item.note : null;
       const isMatch = matchesSearch(itemName);
       const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : '';
@@ -107,8 +117,27 @@ function renderDrops(npcData, searchTerm = "") {
                      <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
                    </div>
                  </td>
-                 <td>1</td>
-                 <td>Always</td>
+                 <td colspan="2">${formatAmount(amount)}</td>
+               </tr>`,
+        match: isMatch
+      });
+    });
+  }
+
+  if (npcData.always && npcData.always.length > 0) {
+    npcData.always.forEach(item => {
+      const [itemName, amount] = item.item;
+      const note = item.note;
+      const isMatch = matchesSearch(itemName);
+      const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : '';
+      guaranteedRows.push({
+        html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
+                 <td>
+                   <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+                     <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
+                   </div>
+                 </td>
+                 <td colspan="2">${formatAmount(amount)}</td>
                </tr>`,
         match: isMatch
       });
@@ -123,27 +152,7 @@ function renderDrops(npcData, searchTerm = "") {
       const [itemName, amount] = roll.item;
       const chance = parseInt(roll.chance);
       
-      if (chance < rollBase) {
-        totalUsedSlots += chance;
-      }
-      
-      if (chance === rollBase) {
-        const isMatch = matchesSearch(itemName);
-        const noteHtml = roll.note ? ` <span class="note-indicator" title="${roll.note}">[?]</span>` : '';
-        guaranteedRows.push({
-          html: `<tr${isMatch ? ' style="background:rgba(85, 62, 5, 0.62);"' : ''}>
-                   <td>
-                     <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-                       <canvas data-itemname="${itemName}" data-show-label="inline"></canvas>${noteHtml}
-                     </div>
-                   </td>
-                   <td>${formatAmount(amount)}</td>
-                   <td>Always</td>
-                 </tr>`,
-          match: isMatch
-        });
-        continue;
-      }
+      totalUsedSlots += chance;
       
       if (itemName.startsWith('~')) {
         const sharedTableName = itemName.slice(1);
@@ -232,36 +241,48 @@ function renderDrops(npcData, searchTerm = "") {
     }
   }
 
-  if (npcData.clue) {
-    const clueData = Array.isArray(npcData.clue) ? npcData.clue : [npcData.clue];
+  if (npcData.tertiary) {
+    const tertiaryData = Array.isArray(npcData.tertiary) ? npcData.tertiary : [npcData.tertiary];
     
-    clueData.forEach(clue => {
-      const tier = clue.tier;
-      const chance = clue.chance;
-      const note = clue.note;
+    tertiaryData.forEach(tertiary => {
+      const itemName = tertiary.item;
+      const chance = tertiary.chance;
+      const note = tertiary.note;
       
-      let clueItemName = 'trail_clue_easy_simple001';
-      if (tier === 'medium') {
-        clueItemName = 'trail_clue_medium_sextant001';
-      } else if (tier === 'hard') {
-        clueItemName = 'trail_clue_hard_sextant001';
+      let displayItemName = itemName;
+      let nameAppend = '';
+      
+      if (itemName.startsWith('clue-')) {
+        const tier = itemName.replace('clue-', '');
+        if (tier === 'easy') {
+          displayItemName = 'trail_clue_easy_simple001';
+        } else if (tier === 'medium') {
+          displayItemName = 'trail_clue_medium_sextant001';
+        } else if (tier === 'hard') {
+          displayItemName = 'trail_clue_hard_sextant001';
+        }
+        const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
+        nameAppend = ` (${tierCapitalized})`;
       }
       
-      const isClueMatch = searchTerm && (searchTerm.includes('clue') || tier?.toLowerCase().includes(searchTerm));
-      const tierCapitalized = tier.charAt(0).toUpperCase() + tier.slice(1);
+      const isTertiaryMatch = searchTerm && (
+        itemName.toLowerCase().includes(searchTerm) || 
+        (itemList[displayItemName]?.toLowerCase() || "").includes(searchTerm) ||
+        (itemName.includes('clue') && searchTerm.includes('clue'))
+      );
       const noteHtml = note ? ` <span class="note-indicator" title="${note}">[?]</span>` : '';
       
-      clueRows.push({
-        html: `<tr${isClueMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
+      tertiaryRows.push({
+        html: `<tr${isTertiaryMatch ? ' style="background: rgba(85, 62, 5, 0.62);"' : ''}>
           <td>
             <div style="display: flex; align-items: center; justify-content: center; gap: 5px;">
-              <canvas data-itemname="${clueItemName}" data-show-label="inline" data-name-append="(${tierCapitalized})"></canvas>${noteHtml}
+              <canvas data-itemname="${displayItemName}" data-show-label="inline"${nameAppend ? ` data-name-append="${nameAppend}"` : ''}></canvas>${noteHtml}
             </div>
           </td>
           <td>1</td>
           <td>${chance}</td>
         </tr>`,
-        match: isClueMatch
+        match: isTertiaryMatch
       });
     });
   }
@@ -270,26 +291,26 @@ function renderDrops(npcData, searchTerm = "") {
   html += '<table class="calculators" width="100%">';
   if (guaranteedRows.length > 0) {
 
-    html += '<tr><th colspan="3">Always</th></tr>';
-    html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
+    html += '<tr><th colspan="3">Always Drops</th></tr>';
+    html += '<tr><th>Item</th><th colspan="2">Amount</th></tr>';
     guaranteedRows.filter(r => r.match).forEach(r => html += r.html);
     guaranteedRows.filter(r => !r.match).forEach(r => html += r.html);
     hasContent = true;
   }
 
   if (rollableRows.length > 0) {
-    html += '<tr><th colspan="3">Secondary Drops</th></tr>';
+    html += '<tr><th colspan="3">Primary Drops</th></tr>';
     html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
     rollableRows.filter(r => r.match).forEach(r => html += r.html);
     rollableRows.filter(r => !r.match).forEach(r => html += r.html);
     hasContent = true;
   }
 
-  if (clueRows.length > 0) {
+  if (tertiaryRows.length > 0) {
     html += '<tr><th colspan="3">Tertiary Drops</th></tr>';
     html += '<tr><th>Item</th><th>Amount</th><th>Chance</th></tr>';
-    clueRows.filter(r => r.match).forEach(r => html += r.html);
-    clueRows.filter(r => !r.match).forEach(r => html += r.html);
+    tertiaryRows.filter(r => r.match).forEach(r => html += r.html);
+    tertiaryRows.filter(r => !r.match).forEach(r => html += r.html);
 
     hasContent = true;
   }
@@ -786,8 +807,17 @@ document.getElementById('itemSearch').addEventListener('input', function() {
     let foundReason = "";
 
     if (npc.guaranteed && npc.guaranteed.some(item => {
-      const readable = itemList[item]?.toLowerCase() || "";
-      return item.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm);
+      const itemName = typeof item === 'object' ? item.item : item;
+      const readable = itemList[itemName]?.toLowerCase() || "";
+      return itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm);
+    })) {
+      foundReason = "guaranteed";
+    }
+
+    if (!foundReason && npc.always && npc.always.some(item => {
+      const [itemName] = item.item;
+      const readable = itemList[itemName]?.toLowerCase() || "";
+      return itemName.toLowerCase().includes(activeSearchTerm) || readable.includes(activeSearchTerm);
     })) {
       foundReason = "guaranteed";
     }
@@ -803,11 +833,14 @@ document.getElementById('itemSearch').addEventListener('input', function() {
       }
     }
 
-    if (!foundReason && npc.clue && Array.isArray(npc.clue)) {
-      for (const clueData of npc.clue) {
-        const tier = clueData.tier;
-        if ((tier && tier.toLowerCase().includes(activeSearchTerm)) || activeSearchTerm.includes('clue')) {
-          foundReason = "clue";
+    if (!foundReason && npc.tertiary && Array.isArray(npc.tertiary)) {
+      for (const tertiaryData of npc.tertiary) {
+        const itemName = tertiaryData.item;
+        const readable = itemList[itemName]?.toLowerCase() || "";
+        if ((itemName && itemName.toLowerCase().includes(activeSearchTerm)) || 
+            readable.includes(activeSearchTerm) ||
+            (itemName.includes('clue') && activeSearchTerm.includes('clue'))) {
+          foundReason = "tertiary";
           break;
         }
       }
@@ -836,7 +869,7 @@ document.getElementById('itemSearch').addEventListener('input', function() {
       
       option.style.fontWeight = 'bold';
       if (npcData.name) {
-        option.style.color = reason === 'clue' ? 'blue' : 'green';
+        option.style.color = reason === 'tertiary' ? 'blue' : 'green';
       } else {
         option.style.color = 'darkred';
       }

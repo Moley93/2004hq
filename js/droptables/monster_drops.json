@@ -3,7 +3,6 @@
     "name": "Bandit Camp Leader (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_longsword",1], "chance": "1"},
       {"item": ["steel_full_helm",1], "chance": "1"},
       {"item": ["lawrune",2], "chance": "4"},
@@ -23,13 +22,17 @@
       {"item": ["cert_swordfish",5], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
   },
   "brawling_bandit": {
     "name": "Bandit (Wilderness)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_scimitar",1], "chance": "4"},
       {"item": ["steel_sq_shield",1], "chance": "2"},
       {"item": ["steel_axe",1], "chance": "1"},
@@ -38,7 +41,7 @@
       {"item": ["airrune",10], "chance": "2"},
       {"item": ["deathrune",2], "chance": "2"},
       {"item": ["lawrune",3], "chance": "2"},
-      {"item": ["bloodrune",2], "chance": "1"},
+      {"item": ["bloodrune",2], "chance": "1", "note": "Only in Member's World."},
       {"item": ["mindrune",2], "chance": "1"},
       {"item": ["naturerune",2], "chance": "1"},
       {"item": ["~randomherb"], "chance": "37"},
@@ -49,13 +52,15 @@
       {"item": ["coins",80], "chance": "2"},
       {"item": ["coal",1], "chance": "6"},
       {"item": ["~randomjewel"], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_barbarian": {
     "name": "Barbarian (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_axe",1], "chance": "6"},
       {"item": ["plainstaff",1], "chance": "4"},
       {"item": ["iron_mace",1], "chance": "1"},
@@ -76,13 +81,17 @@
       {"item": ["flier",1], "chance": "1"},
       {"item": ["ring_mould",1], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "gunthor_the_brave": {
     "name": "Gunthor the Brave",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_axe",1], "chance": "6"},
       {"item": ["bronze_battleaxe",1], "chance": "4"},
       {"item": ["iron_mace",1], "chance": "1"},
@@ -105,22 +114,27 @@
       {"item": ["flier",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "bear": {
     "name": "Bear",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["bear_fur",1], "chance": "128"},
-      {"item": ["raw_bear_meat",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["bear_fur",1] },
+      {"item": ["raw_bear_meat",1] }
     ]
   },
   "black_dragon": {
     "name": "Black Dragon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["dragon_bones",1], "chance": "128"},
       {"item": ["mithril_2h_sword",1], "chance": "4"},
       {"item": ["mithril_axe",1], "chance": "3"},
       {"item": ["mithril_battleaxe",1], "chance": "3"},
@@ -142,13 +156,18 @@
       {"item": ["~randomjewel"], "chance": "3"},
       {"item": ["~ultrarare_getitem"], "chance": "2"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["dragon_bones",1] },
+      {"item": ["dragonhide_black",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "black_knight": {
     "name": "Black Knight",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_sword",1], "chance": "4"},
       {"item": ["iron_full_helm",1], "chance": "2"},
       {"item": ["steel_mace",1], "chance": "1"},
@@ -172,13 +191,15 @@
       {"item": ["coins",80], "chance": "2"},
       {"item": ["bread",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "blue_dragon": {
     "name": "Blue Dragon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["dragon_bones",1], "chance": "128"},
       {"item": ["steel_platelegs",1], "chance": "4"},
       {"item": ["steel_battleaxe",1], "chance": "3"},
       {"item": ["mithril_axe",1], "chance": "3"},
@@ -200,13 +221,18 @@
       {"item": ["adamantite_ore",1], "chance": "3"},
       {"item": ["~randomjewel"], "chance": "5"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["dragon_bones",1] },
+      {"item": ["dragonhide_blue",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "chaos_druid": {
     "name": "Chaos Druid",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["lawrune",2], "chance": "7"},
       {"item": ["airrune",36], "chance": "3"},
       {"item": ["bodyrune",9], "chance": "2"},
@@ -224,13 +250,15 @@
       {"item": ["snape_grass",1], "chance": "1"},
       {"item": ["unholy_symbol_mould",1], "chance": "1", "note": "Only if Observatory Quest is completed."},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "chaos_druid_warrior": {
     "name": "Chaos Druid Warrior",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["black_dagger",1], "chance": "1"},
       {"item": ["firerune",12], "chance": "5"},
       {"item": ["lawrune",2], "chance": "4"},
@@ -256,26 +284,28 @@
     "name": "Chicken",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["raw_chicken",1], "chance": "128"},
       {"item": ["feather",15], "chance": "32"},
       {"item": ["feather",5], "chance": "32"}
+    ],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["raw_chicken",1] }
     ]
   },
   "cow": {
     "name": "Cow",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["raw_beef",1], "chance": "128"},
-      {"item": ["cow_hide",1], "chance": "128"}
+    "roll_table": [],     
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["raw_beef",1] },
+      {"item": ["cow_hide",1] }
     ]
   },
   "dark_warrior": {
     "name": "Dark Warrior",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_med_helm",1], "chance": "3"},
       {"item": ["iron_mace",1], "chance": "1"},
       {"item": ["black_med_helm",1], "chance": "1"},
@@ -295,13 +325,15 @@
       {"item": ["coins",30], "chance": "2"},
       {"item": ["iron_ore",1], "chance": "1"},
       {"item": ["sardine",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "bearded_dark_wizard": {
     "name": "Dark Wizard (Level 20)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["blackwizhat",1], "chance": "4"},
       {"item": ["plainstaff",1], "chance": "4"},
       {"item": ["black_robe",1], "chance": "3"},
@@ -330,13 +362,15 @@
       {"item": ["coins",30], "chance": "2"},
       {"item": ["water_talisman",1], "chance": "2"},
       {"item": ["fire_talisman",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "young_dark_wizard": {
     "name": "Dark Wizard (Level 7)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["plainstaff",1], "chance": "8"},
       {"item": ["blackwizhat",1], "chance": "4"},
       {"item": ["black_robe",1], "chance": "3"},
@@ -365,13 +399,15 @@
       {"item": ["coins",30], "chance": "1"},
       {"item": ["water_talisman",1], "chance": "1"},
       {"item": ["fire_talisman",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "druid": {
     "name": "Druid",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["earthrune",27], "chance": "4"},
       {"item": ["waterrune",9], "chance": "2"},
       {"item": ["earthrune",9], "chance": "2"},
@@ -390,13 +426,15 @@
       {"item": ["druidrobebottom",1], "chance": "5"},
       {"item": ["limpwurt_root",1], "chance": "3"},
       {"item": ["3doseantipoison",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "dwarf_drop_table": {
     "name": "Dwarf (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_pickaxe",1], "chance": "14"},
       {"item": ["bronze_med_helm",1], "chance": "4"},
       {"item": ["bronze_battleaxe",1], "chance": "2"},
@@ -415,6 +453,9 @@
       {"item": ["iron_bar",1], "chance": "3"},
       {"item": ["coal",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "earthwarrior": {
@@ -438,16 +479,16 @@
   "fire_bird": {
     "name": "Entrana Fire Bird",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["fire_feather",1], "chance": "128", "note": "Only during Hero's Quest."}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["fire_feather",1], "note": "Only during Hero's Quest."}
     ]
   },
   "farmer1": {
     "name": "Farmer",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_med_helm",1], "chance": "2"},
       {"item": ["iron_dagger",1], "chance": "1"},
       {"item": ["bronze_arrow",7], "chance": "3"},
@@ -465,13 +506,15 @@
       {"item": ["copper_ore",1], "chance": "2"},
       {"item": ["earth_talisman",1], "chance": "2"},
       {"item": ["cabbage",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "firegiant": {
     "name": "Fire giant",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "128"},
       {"item": ["steel_axe",1], "chance": "3"},
       {"item": ["mithril_sq_shield",1], "chance": "2"},
       {"item": ["fire_battlestaff",1], "chance": "1"},
@@ -493,13 +536,15 @@
       {"item": ["2dose1strength",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "12"},
       {"item": ["~ultrarare_getitem"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "giant": {
     "name": "Giant",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "128"},
       {"item": ["iron_full_helm",1], "chance": "5"},
       {"item": ["iron_dagger",1], "chance": "4"},
       {"item": ["iron_kiteshield",1], "chance": "3"},
@@ -524,21 +569,24 @@
       {"item": ["beer",1], "chance": "6"},
       {"item": ["body_talisman",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "rat_droptable": {
     "name": "Giant Rat",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["raw_rat_meat",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["raw_rat_meat",1] }
     ]
   },
   "goblin_drop_table": {
     "name": "Goblin",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["coins",1], "chance": "1"},
       {"item": ["brass_necklace",1], "chance": "1"},
       {"item": ["air_talisman",1], "chance": "1"},
@@ -556,13 +604,17 @@
       {"item": ["waterrune",6], "chance": "6"},
       {"item": ["coins",5], "chance": "18"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "goblin_village_drop_table": {
     "name": "Goblin (Goblin Village)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_axe",1], "chance": "3"},
       {"item": ["bronze_scimitar",1], "chance": "1"},
       {"item": ["bronze_spear",1], "chance": "9", "note": "Only in Member's World. In F2P it gets replaced with 10 coins."},
@@ -584,13 +636,17 @@
       {"item": ["red_cape",1], "chance": "1"},
       {"item": ["tin_ore",1], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "greater_demon": {
     "name": "Greater Demon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_2h_sword",1], "chance": "4"},
       {"item": ["steel_axe",1], "chance": "3"},
       {"item": ["steel_battleaxe",1], "chance": "3"},
@@ -611,13 +667,17 @@
       {"item": ["thread",10], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "5"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["ashes",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "green_dragon": {
     "name": "Green Dragon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["dragon_bones",1], "chance": "128"},
       {"item": ["steel_platelegs",1], "chance": "4"},
       {"item": ["steel_battleaxe",1], "chance": "3"},
       {"item": ["mithril_axe",1], "chance": "3"},
@@ -639,13 +699,18 @@
       {"item": ["adamantite_ore",1], "chance": "3"},
       {"item": ["~randomjewel"], "chance": "5"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["dragon_bones",1] },
+      {"item": ["dragonhide_green",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "_guard": {
     "name": "Guard (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_dagger",1], "chance": "14"},
       {"item": ["body_talisman",1], "chance": "3"},
       {"item": ["grain",1], "chance": "1"},
@@ -669,36 +734,51 @@
       {"item": ["coins",17], "chance": "4"},
       {"item": ["coins",30], "chance": "2"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
   },
   "guarddog": {
     "name": "Guard dog",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] }
+    ]
+  },
+  "_ogre": {
+    "name": "Ogre (Category)",
+    "roll_base": 128,
+    "roll_table": [],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "hellhound": {
     "name": "Hellhound",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] }
     ],
-    "clue": [{"tier": "hard", "chance": "1/64"}]
+    "tertiary": [{"item": "clue-hard", "chance": "1/64"}]
   },
   "highwayman": {
     "name": "Highwayman",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["black_cape",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["black_cape",1] }
     ]
   },
   "icegiant": {
     "name": "Ice giant",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "128"},
       {"item": ["iron_2h_sword",1], "chance": "5"},
       {"item": ["black_kiteshield",1], "chance": "4"},
       {"item": ["steel_axe",1], "chance": "4"},
@@ -724,13 +804,15 @@
       {"item": ["mithril_ore",1], "chance": "1"},
       {"item": ["banana",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "4"}
+    ],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "_ice_warrior": {
     "name": "Ice warrior (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_battleaxe",1], "chance": "3"},
       {"item": ["mithril_mace",1], "chance": "1"},
       {"item": ["naturerune",4], "chance": "10"},
@@ -745,13 +827,17 @@
       {"item": ["coins",15], "chance": "39"},
       {"item": ["~randomjewel"], "chance": "3"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
   },
   "imp": {
     "name": "Imp",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["black_bead",1], "chance": "5"},
       {"item": ["red_bead",1], "chance": "5"},
       {"item": ["white_bead",1], "chance": "5"},
@@ -784,20 +870,23 @@
       {"item": ["chefshat",1], "chance": "2"},
       {"item": ["flier",1], "chance": "2"},
       {"item": ["acne_potion",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["ashes",1] }
     ]
   },
   "jailer": {
     "name": "Jailer",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "jogre": {
     "name": "Jogre",
     "roll_base": 129,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "129"},
       {"item": ["bronze_spear",1], "chance": "31"},
       {"item": ["iron_spear",1], "chance": "4"},
       {"item": ["naturerune",2], "chance": "11"},
@@ -815,21 +904,24 @@
       {"item": ["unidentified_snake_weed",1], "chance": "5"},
       {"item": ["unidentified_rogues_purse",1], "chance": "5"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/129"}]
+    "always": [
+      {"item": ["big_bones",1] }
+    ],
+    "tertiary": [{"item": "clue-medium", "chance": "1/129"}]
   },
   "jonny_the_beard": {
     "name": "Jonny the beard",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["intelligence_report",1], "chance": "128"},
-      {"item": ["bones",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["intelligence_report",1] },
+      {"item": ["bones",1] }
     ]
   },
   "king_dragon": {
     "name": "King black dragon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["dragon_bones",1], "chance": "128"},
       {"item": ["rune_longsword",1], "chance": "10"},
       {"item": ["adamant_platebody",1], "chance": "9"},
       {"item": ["dragon_med_helm",1], "chance": "1"},
@@ -854,13 +946,18 @@
       {"item": ["~ultrarare_getitem"], "chance": "8"},
       {"item": ["~randomjewel"], "chance": "2"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["dragon_bones",1] },
+      {"item": ["dragonhide_black",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "lesser_demon": {
     "name": "Lesser demon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["ashes",1], "chance": "128"},
       {"item": ["~randomjewel"], "chance": "4"},
       {"item": ["rune_med_helm",1], "chance": "1"},
       {"item": ["mithril_sq_shield",1], "chance": "1"},
@@ -881,13 +978,15 @@
       {"item": ["deathrune",3], "chance": "3"},
       {"item": ["chaosrune",12], "chance": "5"},
       {"item": ["coins",10], "chance": "7"}
+    ],
+    "always": [
+      {"item": ["ashes",1] }
     ]
   },
   "man_drop_table": {
     "name": "Man (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_dagger",1], "chance": "1"},
       {"item": ["bronze_med_helm",1], "chance": "2"},
       {"item": ["bolt","2-12"], "chance": "22", "note":"Only in Member's World."},
@@ -906,13 +1005,17 @@
       {"item": ["earth_talisman",1], "chance": "2"},
       {"item": ["cabbage",1], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "mossgiant": {
     "name": "Moss giant",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "128"},
       {"item": ["black_sq_shield",1], "chance": "5"},
       {"item": ["magicstaff",1], "chance": "2"},
       {"item": ["steel_med_helm",1], "chance": "2"},
@@ -938,13 +1041,15 @@
       {"item": ["coal",1], "chance": "1"},
       {"item": ["spinach_roll",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "4"}
+    ],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "mugger": {
     "name": "Mugger",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["mindrune",9], "chance": "3"},
       {"item": ["waterrune",6], "chance": "2"},
       {"item": ["earthrune",5], "chance": "2"},
@@ -959,13 +1064,17 @@
       {"item": ["knife",1], "chance": "1"},
       {"item": ["cabbage",1], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "necromancer": {
     "name": "Necromancer",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["plainstaff",1], "chance": "8"},
       {"item": ["zamrobebottom",1], "chance": "4"},
       {"item": ["zamrobetop",1], "chance": "3"},
@@ -992,21 +1101,24 @@
       {"item": ["coins",2], "chance": "16"},
       {"item": ["coins",4], "chance": "9"},
       {"item": ["coins",29], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "oomlie_bird": {
     "name": "Oomlie Bird",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["raw_oomlie",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["raw_oomlie",1] }
     ]
   },
   "otherworldly_being": {
     "name": "Otherworldly being",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["naturerune",5], "chance": "9"},
       {"item": ["chaosrune",4], "chance": "8"},
       {"item": ["lawrune",2], "chance": "7"},
@@ -1019,13 +1131,15 @@
       {"item": ["mithril_mace",1], "chance": "1"},
       {"item": ["mackerel",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "paladin_drops": {
     "name": "Paladin",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_sword",1], "chance": "2"},
       {"item": ["steel_longsword",1], "chance": "1"},
       {"item": ["steel_full_helm",1], "chance": "1"},
@@ -1042,13 +1156,17 @@
       {"item": ["coins",120], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/128"}
+    ]
   },
   "_pirate": {
     "name": "Pirate (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_dagger",1], "chance": "6"},
       {"item": ["bronze_scimitar",1], "chance": "4"},
       {"item": ["iron_platebody",1], "chance": "1"},
@@ -1070,14 +1188,15 @@
       {"item": ["chefshat",1], "chance": "1"},
       {"item": ["iron_bar",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "red_dragon": {
     "name": "Red dragon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["dragon_bones",1], "chance": "128"},
-      {"item": ["dragonhide_red",1], "chance": "128"},
       {"item": ["mithril_2h_sword",1], "chance": "4"},
       {"item": ["mithril_axe",1], "chance": "3"},
       {"item": ["mithril_battleaxe",1], "chance": "3"},
@@ -1099,13 +1218,18 @@
       {"item": ["adamantite_bar",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "5"}
     ],
-    "clue": [{"tier": "hard", "chance": "1/128"}]
+    "always": [
+      {"item": ["dragon_bones",1] },
+      {"item": ["dragonhide_red",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/128"}
+    ]
   },
   "rogue": {
     "name": "Rogue",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_med_helm",1], "chance": "2"},
       {"item": ["iron_dagger",1], "chance": "1"},
       {"item": ["bolt",1], "chance": "26"},
@@ -1124,13 +1248,17 @@
       {"item": ["earth_talisman",1], "chance": "2"},
       {"item": ["cabbage",1], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "salarin_the_twisted": {
     "name": "Salarin the twisted",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["black_dagger",1], "chance": "1"},
       {"item": ["waterrune",12], "chance": "5"},
       {"item": ["lawrune",2], "chance": "4"},
@@ -1146,13 +1274,15 @@
       {"item": ["1dose2defense",1], "chance": "11"},
       {"item": ["sinister_key",1], "chance": "10"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "shadow_warrior": {
     "name": "Shadow warrior",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["adamant_spear",1], "chance": "1"},
       {"item": ["black_dagger_p",1], "chance": "1"},
       {"item": ["black_knife",1], "chance": "1"},
@@ -1167,13 +1297,15 @@
       {"item": ["weapon_poison",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "8"},
       {"item": ["~randomherb"], "chance": "18"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "skeleton_unarmed": {
     "name": "Skeleton (unarmed)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_arrow",2], "chance": "7"},
       {"item": ["bronze_arrow",5], "chance": "4"},
       {"item": ["iron_arrow",1], "chance": "4"},
@@ -1196,13 +1328,15 @@
       {"item": ["iron_ore",1], "chance": "1"},
       {"item": ["grain",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "skeleton_armed": {
     "name": "Skeleton (armed)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_med_helm",1], "chance": "6"},
       {"item": ["iron_sword",1], "chance": "4"},
       {"item": ["iron_axe",1], "chance": "2"},
@@ -1222,13 +1356,15 @@
       {"item": ["coins",1], "chance": "2"},
       {"item": ["bronze_bar",1], "chance": "5"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "thug": {
     "name": "Thug",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_med_helm",1], "chance": "4"},
       {"item": ["iron_battleaxe",1], "chance": "2"},
       {"item": ["steel_axe",1], "chance": "1"},
@@ -1246,13 +1382,17 @@
       {"item": ["coins",30], "chance": "2"},
       {"item": ["coins",20], "chance": "1"}
     ],
-    "clue": [{"tier": "easy", "chance": "1/128"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [
+      {"item": "clue-easy", "chance": "1/128"}
+    ]
   },
   "tribesman": {
     "name": "Tribesman",
     "roll_base": 138,
     "roll_table": [
-      {"item": ["bones",1], "chance": "138"},
       {"item": ["bronze_spear",1], "chance": "7"},
       {"item": ["steel_javelin",10], "chance": "3"},
       {"item": ["poison_bolt",4], "chance": "2"},
@@ -1277,29 +1417,33 @@
       {"item": ["pot_flour",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "2"}
     ],
-    "clue": [{"tier": "medium", "chance": "1/138"}]
+    "always": [
+      {"item": ["bones",1] }
+    ],
+    "tertiary": [{"item": "clue-medium", "chance": "1/138"}]
   },
   "ugthanki": {
     "name": "Ugthanki",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["raw_ugthanki_meat",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["raw_ugthanki_meat",1] }
     ]
   },
   "_unicorn": {
     "name": "Unicorn (Category)",
     "roll_base": 128,
-    "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
-      {"item": ["unicorn_horn",1], "chance": "128"}
+    "roll_table": [],
+    "always": [
+      {"item": ["bones",1] },
+      {"item": ["unicorn_horn",1] }
     ]
   },
   "white_knight": {
     "name": "White Knight",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_longsword",1], "chance": "2"},
       {"item": ["steel_sword",1], "chance": "1"},
       {"item": ["steel_med_helm",1], "chance": "1"},
@@ -1327,13 +1471,15 @@
       {"item": ["iron_ore",1], "chance": "1"},
       {"item": ["pot_flour",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "wizard": {
     "name": "Wizard",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["plainstaff",1], "chance": "8"},
       {"item": ["wizards_robe",1], "chance": "7"},
       {"item": ["bluewizhat",1], "chance": "3"},
@@ -1359,13 +1505,15 @@
       {"item": ["coins",2], "chance": "9"},
       {"item": ["coins",18], "chance": "7"},
       {"item": ["coins",30], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_yanille_soldier_tower_guard": {
     "name": "Yanille Soldier Tower Guard (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_sword",1], "chance": "6"},
       {"item": ["steel_med_helm",1], "chance": "1"},
       {"item": ["bronze_arrow",4], "chance": "5"},
@@ -1386,13 +1534,15 @@
       {"item": ["coins",35], "chance": "2"},
       {"item": ["mind_talisman",1], "chance": "3"},
       {"item": ["iron_ore",1], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_unarmed_zombie": {
     "name": "Unarmed Zombie (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_med_helm",1], "chance": "4"},
       {"item": ["bronze_longsword",1], "chance": "1"},
       {"item": ["iron_axe",1], "chance": "1"},
@@ -1411,13 +1561,15 @@
       {"item": ["coins",28], "chance": "2"},
       {"item": ["fishing_bait",5], "chance": "43"},
       {"item": ["copper_ore",1], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_armed_zombie": {
     "name": "Armed Zombie (Category)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_mace",1], "chance": "4"},
       {"item": ["iron_dagger",1], "chance": "1"},
       {"item": ["bronze_kiteshield",1], "chance": "1"},
@@ -1437,13 +1589,15 @@
       {"item": ["eye_of_newt",5], "chance": "2"},
       {"item": ["tin_ore",6], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "zombie_entranan": {
     "name": "Zombie (Entrana)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_axe",1], "chance": "50"},
       {"item": ["bronze_med_helm",1], "chance": "4"},
       {"item": ["bronze_longsword",1], "chance": "1"},
@@ -1455,13 +1609,15 @@
       {"item": ["fishing_bait",5], "chance": "46"},
       {"item": ["coins",18], "chance": "3"},
       {"item": ["coins",28], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "black_demon": {
     "name": "Black Demon",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["black_sword",1], "chance": "4"},
       {"item": ["steel_battleaxe",1], "chance": "3"},
       {"item": ["black_axe",1], "chance": "2"},
@@ -1484,13 +1640,15 @@
       {"item": ["3dose1defense",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "5"},
       {"item": ["~ultrarare_getitem"], "chance": "1"}
+    ],
+    "always": [
+      {"item": ["ashes",1] }
     ]
   },
   "dwarf_chaos": {
     "name": "Chaos dwarf",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_full_helm",1], "chance": "2"},
       {"item": ["mithril_longsword",1], "chance": "1"},
       {"item": ["mithril_sq_shield",1], "chance": "1"},
@@ -1514,13 +1672,15 @@
       {"item": ["cheese",1], "chance": "1"},
       {"item": ["tomato",1], "chance": "1"},
       {"item": ["~randomjewel"], "chance": "5"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "hobgoblin_unarmed": {
     "name": "Hobgoblin (Unarmed lvl 28)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["bronze_spear",1], "chance": "3", "note": "Only in Member's World. In F2P it gets replaced with goblin mail."},
       {"item": ["iron_sword",1], "chance": "3"},
       {"item": ["steel_dagger",1], "chance": "3"},
@@ -1544,13 +1704,15 @@
       {"item": ["limpwurt_root",1], "chance": "22"},
       {"item": ["goblin_armour",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "hobgoblin_armed": {
     "name": "Hobgoblin (Armed lvl 42)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["iron_sword",1], "chance": "3"},
       {"item": ["steel_dagger",1], "chance": "3"},
       {"item": ["steel_longsword",1], "chance": "1"},
@@ -1573,6 +1735,9 @@
       {"item": ["limpwurt_root",1], "chance": "21"},
       {"item": ["goblin_armour",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_macro_event_river_troll_p2p": {
@@ -1627,7 +1792,6 @@
     "name": "(Random Event) Zombie",
     "roll_base": 256,
     "roll_table": [
-      {"item": ["big_bones",1], "chance": "256"},
       {"item": ["fishing_bait",50], "chance": "36"},
       {"item": ["fishing_bait",27], "chance": "24"},
       {"item": ["chaosrune",35], "chance": "32"},
@@ -1636,15 +1800,16 @@
       {"item": ["cosmicrune",5], "chance": "16"},
       {"item": ["coins",26], "chance": "16"},
       {"item": ["big_bones",1], "chance": "40"},
-      {"item": ["big_bones",2], "chance": "32"},
-      {}
+      {"item": ["big_bones",2], "chance": "32"}
+    ],
+    "always": [
+      {"item": ["big_bones",1] }
     ]
   },
   "_macro_event_watchman": {
     "name": "(Random Event) Watchman",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["steel_sword",1], "chance": "8"},
       {"item": ["mithril_med_helm",1], "chance": "6"},
       {"item": ["coal",1], "chance": "6"},
@@ -1663,6 +1828,9 @@
       {"item": ["naturerune",8], "chance": "2"},
       {"item": ["~randomherb"], "chance": "4", "note": "Only in Member's World."},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "_macro_event_dryad": {
@@ -1687,7 +1855,6 @@
     "name": "Zamorak Wizard (Treasure Trails)",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["bones",1], "chance": "128"},
       {"item": ["zamrobebottom",1], "chance": "4"},
       {"item": ["zamrobetop",1], "chance": "3"},
       {"item": ["water_battlestaff",1], "chance": "3"},
@@ -1711,6 +1878,9 @@
       {"item": ["coins",89], "chance": "25"},
       {"item": ["coins",77], "chance": "17"},
       {"item": ["coins",240], "chance": "3"}
+    ],
+    "always": [
+      {"item": ["bones",1] }
     ]
   },
   "elemental_air": {
@@ -1735,8 +1905,6 @@
     "name": "Earth elemental",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["swamprocks1",1], "chance": "128"},
-      {"item": ["elemental_workshop_ore",1], "chance": "128"},
       {"item": ["earthrune",15], "chance": "13"},
       {"item": ["naturerune",2], "chance": "9"},
       {"item": ["chaosrune",2], "chance": "7"},
@@ -1749,13 +1917,16 @@
       {"item": ["coins",42], "chance": "3"},
       {"item": ["staff_of_earth",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["swamprocks1",1] },
+      {"item": ["elemental_workshop_ore",1] }
     ]
   },
   "elemental_fire": {
     "name": "Fire elemental",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["ashes",1], "chance": "128"},
       {"item": ["firerune",15], "chance": "13"},
       {"item": ["naturerune",2], "chance": "9"},
       {"item": ["chaosrune",2], "chance": "7"},
@@ -1768,13 +1939,15 @@
       {"item": ["coins",42], "chance": "3"},
       {"item": ["staff_of_fire",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["ashes",1] }
     ]
   },
   "elemental_water": {
     "name": "Water elemental",
     "roll_base": 128,
     "roll_table": [
-      {"item": ["vial_water",1], "chance": "128"},
       {"item": ["waterrune",15], "chance": "13"},
       {"item": ["naturerune",2], "chance": "9"},
       {"item": ["chaosrune",2], "chance": "7"},
@@ -1787,6 +1960,9 @@
       {"item": ["coins",42], "chance": "3"},
       {"item": ["staff_of_water",1], "chance": "2"},
       {"item": ["~randomjewel"], "chance": "2"}
+    ],
+    "always": [
+      {"item": ["vial_water",1] }
     ]
   }
 }
