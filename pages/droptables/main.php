@@ -31,8 +31,8 @@ function getPageContent() {
             <td class=b bgcolor=#474747 background=img/stoneback.gif>
                 <div class="stone-box">
                     <b>Search for an item</b><br>
-                    <input type="text" id="itemSearch" disabled
-                        placeholder="Search coming soon...">
+                    <input type="text" id="itemSearch"
+                        placeholder="Search for an item...">
                 </div>
             </td>
         </tr>
