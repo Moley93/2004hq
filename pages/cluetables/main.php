@@ -10,16 +10,12 @@ function getPageContent() {
 <h2>Clue Tables</h2>
 <p>Please note that the rates listed here are per casket opened, not per roll.</p>
 <hr>
-<div id="loader" class="loader hidden"></div>
-<div id="loadingText" class="loading-text hidden">Loading clue tables...
-    <br>Please hold tight, good things take time!
-</div>
 <table>
     <tr>
         <td>
-            <table width=215 height=70 cellpadding=4>
+            <table width="200px" height="70px" cellpadding="4px">
                 <tr>
-                    <td class=b bgcolor=#474747>
+                    <td class="b" bgcolor="#474747">
                         <div class="stone-box">
                             <b>Select a Clue Tier</b>
                             <label><input type="radio" name="clueTier" value="easy" checked> Easy</label>
@@ -30,11 +26,10 @@ function getPageContent() {
                 </tr>
             </table>
         </td>
-        <td>&nbsp;&nbsp;</td>
         <td>
-            <table width=215 height=70 cellpadding=4>
+            <table width="280px" height="70px" cellpadding="4px">
                 <tr>
-                    <td class=b bgcolor=#474747>
+                    <td class="b" bgcolor="#474747">
                         <div class="stone-box">
                             <b>Search for an item</b><br>
                             <input type="text" id="searchInput" placeholder="Search..." autocomplete="off" disabled>
