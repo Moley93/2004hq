@@ -909,7 +909,9 @@
     "always": [
       {"item": ["big_bones",1] }
     ],
-    "tertiary": [{"item": "clue-medium", "chance": "1/129"}]
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/129"}
+    ]
   },
   "jonny_the_beard": {
     "name": "Jonny the beard",
@@ -1422,7 +1424,9 @@
     "always": [
       {"item": ["bones",1] }
     ],
-    "tertiary": [{"item": "clue-medium", "chance": "1/138"}]
+    "tertiary": [
+      {"item": "clue-medium", "chance": "1/138"}
+    ]
   },
   "ugthanki": {
     "name": "Ugthanki",
