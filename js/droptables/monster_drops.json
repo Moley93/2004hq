@@ -764,7 +764,9 @@
     "always": [
       {"item": ["bones",1] }
     ],
-    "tertiary": [{"item": "clue-hard", "chance": "1/64"}]
+    "tertiary": [
+      {"item": "clue-hard", "chance": "1/64"}
+    ]
   },
   "highwayman": {
     "name": "Highwayman",
