@@ -719,7 +719,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Weapon</td>
-        <td><canvas data-itemname="dragon_mace"></canvas></td>
+        <td><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></td>
         <td>+5 Prayer Bonus</td>
     </tr>
     <tr>
