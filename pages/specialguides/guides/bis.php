@@ -578,8 +578,12 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+8 Ranged Attack<br>+3 Prayer Bonus</td>
     </tr>
     <tr>
-        <td>Weapon</td>
+        <td rowspan="2">Weapon</td>
         <td><canvas data-itemname="magic_shortbow" data-show-label="inline"></canvas></td>
+        <td>+69 Ranged Attack</td>
+    </tr>
+    <tr>
+        <td><div class="centered-content"><canvas data-itemname="magic_longbow" data-show-label="inline"></canvas>*</div></td>
         <td>+69 Ranged Attack</td>
     </tr>
     <tr>
@@ -608,6 +612,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+49 Ranged Strength Bonus</td>
     </tr>
 </table>
+*Magic Longbows should only be used for engaging monsters at a further distances. In the case of high defence opponents, the special attack of the Longbow is more consistent than the Shortbow. Otherwise, Magic Shortbows should be used as their faster attack rates deal more DPS overall.
 <hr>
 <h3 id="offense-magic">Magic Offense</h3>
 <table>
@@ -643,7 +648,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
     <tr>
         <td>Weapon</td>
-        <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Mystic Staff</td>
+        <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Elemental Stave*</td>
         <td>+10 Magic Attack</td>
     </tr>
     <tr>
@@ -676,6 +681,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+4 Magic Attack</td>
     </tr>
 </table>
+*While all staves offer +10 magic bonus, Battle and Mystic Staves offer more melee bonuses than normal staves.
 <hr>
 <h3 id="prayer">Prayer Bonus</h3>
 <table>
@@ -730,5 +736,5 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <hr>
 This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 07:20:47 AM by Halogod35.
+This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 01:18:35 PM by Halogod35.
 HTML; }
