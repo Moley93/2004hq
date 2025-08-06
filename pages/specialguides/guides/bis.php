@@ -692,11 +692,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <table class="subtable">
             <tbody>
                 <tr><th>Attack bonus</th><th>Defence bonus</th></tr>
-                <tr><td>Stab: 40</td><td>Stab: 2</td></tr>
-                <tr><td>Slash: -2</td><td>Slash: 2</td></tr>
-                <tr><td>Crush: 60</td><td>Crush: 2</td></tr>
-                <tr><td>Magic: 0</td><td>Magic: 2</td></tr>
-                <tr><td>Range: 0</td><td>Range: 2</td></tr>
+                <tr><td>Stab: 42</td><td>Stab: 0</td></tr>
+                <tr><td>Slash: 0</td><td>Slash: 0</td></tr>
+                <tr><td>Crush: 62</td><td>Crush: 0</td></tr>
+                <tr><td>Magic: 2</td><td>Magic: 0</td></tr>
+                <tr><td>Range: 2</td><td>Range: 0</td></tr>
                 <tr><th colspan="2">Other bonuses</th></tr>
                 <tr><td>Strength: 55</td><td>Prayer: 24</td></tr>
             </tbody>
@@ -710,13 +710,13 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <th>Description</th>
     </tr>
     <tr>
-        <td>Neck</td>
-        <td><canvas data-itemname="blessedstar"></canvas><canvas data-itemname="blessedsnake"></canvas><br>Holy or Unholy Symbol<br>
-        Holy gives +2 to all Defence Bonuses<br>
-        Unholy gives +2 to all Attack Bonuses
-        </td>
-        <td>+8 Prayer Bonus</td>
+        <td rowspan="2">Neck</td>
+        <td><div class="centered-content"><canvas data-itemname="blessedsnake" data-show-label="inline"></canvas>*</div></td>
+        <td>+8 Prayer Bonus<br>+2 to all Attack Bonuses</td>
     </tr>
+    <tr>
+        <td><div class="centered-content"><canvas data-itemname="blessedstar" data-show-label="inline"></canvas>*</div></td>
+        <td>+8 Prayer Bonus<br>+2 to all Defence Bonuses</td>
     <tr>
         <td>Weapon</td>
         <td><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></td>
@@ -733,8 +733,9 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>+6 Prayer Bonus</td>
     </tr>
 </table>
+*Use the Unholy Symbol instead of the Holy Symbol when overhead prayers are active, as the former provides better offensive stats.
 <hr>
 This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 01:18:35 PM by Halogod35.
+This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 01:59:51 PM by Halogod35.
 HTML; }
