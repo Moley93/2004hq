@@ -686,11 +686,11 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <table class="subtable">
             <tbody>
                 <tr><th>Attack bonus</th><th>Defence bonus</th></tr>
-                <tr><td>Stab: 40</td><td>Stab: 0</td></tr>
-                <tr><td>Slash: -2</td><td>Slash: 0</td></tr>
-                <tr><td>Crush: 60</td><td>Crush: 0</td></tr>
-                <tr><td>Magic: 0</td><td>Magic: 0</td></tr>
-                <tr><td>Range: 0</td><td>Range: 0</td></tr>
+                <tr><td>Stab: 40</td><td>Stab: 2</td></tr>
+                <tr><td>Slash: -2</td><td>Slash: 2</td></tr>
+                <tr><td>Crush: 60</td><td>Crush: 2</td></tr>
+                <tr><td>Magic: 0</td><td>Magic: 2</td></tr>
+                <tr><td>Range: 0</td><td>Range: 2</td></tr>
                 <tr><th colspan="2">Other bonuses</th></tr>
                 <tr><td>Strength: 55</td><td>Prayer: 24</td></tr>
             </tbody>
@@ -728,7 +728,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
 </table>
 <hr>
-This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin for corrections.
+This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Sat, Aug 02, 2025, at 02:16:22 AM by Halogod35.
+This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 07:20:47 AM by Halogod35.
 HTML; }
