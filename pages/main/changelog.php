@@ -52,8 +52,8 @@ function getPageContent() {
     </tr>
     <tr>
       <td>Dee</td>
-      <td></td>
       <td>Fallnight</td>
+      <td>Fran 2004</td>
     </tr>
   </table>
 </div>
