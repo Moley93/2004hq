@@ -616,7 +616,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </td>
     <td>
         <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 22</td><td>Stab: 21</td></tr><tr><td>Slash: 11</td><td>Slash: 25</td></tr><tr><td>Crush: 52</td><td>Crush: 21</td></tr><tr><td>Magic: 46</td><td>Magic: 42</td></tr><tr><td>Range: 10</td><td>Range: 10</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 58</td><td>Prayer: 6</td></tr></tbody>
+            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 22</td><td>Stab: 21</td></tr><tr><td>Slash: 11</td><td>Slash: 25</td></tr><tr><td>Crush: 52</td><td>Crush: 21</td></tr><tr><td>Magic: 42</td><td>Magic: 42</td></tr><tr><td>Range: 10</td><td>Range: 10</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 58</td><td>Prayer: 6</td></tr></tbody>
         </table>
     </td>
 </table>
