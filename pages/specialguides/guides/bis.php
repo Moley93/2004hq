@@ -5,23 +5,60 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <br>
 <a href="#defence-crush">Crush Defence</a> | <a href="#defence-stab">Stab Defence</a> | <a href="#defence-slash">Slash Defence</a><br>
 <a href="#defence-ranged">Ranged Defence</a> | <a href="#defence-magic">Magic Defence</a><br>
-<a href="#offense-crush">Crush Offense</a> | <a href="#offense-stabslash">Stab/Slash Offense</a><br>
-<a href="#offense-ranged">Ranged Offense</a> | <a href="#offense-magic">Magic Offense</a><br>
+<a href="#offence-crush">Crush Offence</a> | <a href="#offence-stabslash">Stab/Slash Offence</a><br>
+<a href="#offence-ranged">Ranged Offence</a> | <a href="#offence-magic">Magic Offence</a><br>
 <a href="#prayer">Prayer</a><br>
 <hr>
+<h3>Equipment Builder</h3>
+<p>Use this interactive equipment interface to experiment with different gear combinations. Click on any equipment slot to search for and equip different items!</p>
+<table>
+    <tr>
+        <td>
+            <div id="equipment-interface-main"></div>
+        </td>
+        <td>
+            <div id="equipment-interface-main-stats"></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;">
+            <button onclick="clearAllEquipment()" style="margin: 5px; padding: 8px 12px; background: #222222; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                Clear All
+            </button>
+        </td>
+    </tr>
+</table>
+<script>
+function clearAllEquipment() {
+    loadEquipInterfaceWithStats('equipment-interface-main', 'equipment-interface-main-stats', true,
+        null, null, null, null, null, null, null, null, null, null, null
+    );
+}
+clearAllEquipment();
+</script>
 <b>Protip:</b> Rune plateskirts offer the same stats as platelegs but are 1kg lighter. If you're managing weight (e.g., for running or agility), consider using a plateskirt instead.
-<br><br>
+<hr>
 <h3 id="defence-crush">Crush Defence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/defensecrush.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-crushdefence"></div>
     <td>
-    <table class="subtable">
-        <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 227</td></tr><tr><td>Slash: 71</td><td>Slash: 243</td></tr><tr><td>Crush: 0</td><td>Crush: 238</td></tr><tr><td>Magic: -55</td><td>Magic: 1</td></tr><tr><td>Range: -3</td><td>Range: 205</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 0</td></tr></tbody>
-    </table>
-</td>
+        <div id="equipment-interface-crushdefence-stats"></div>
+    </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-crushdefence', 'equipment-interface-crushdefence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'gnome_amulet',
+    'dragon_longsword',
+    'rune_chainbody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'boots_ranger',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -82,14 +119,24 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h3 id="defence-stab">Stab Defence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/defensestab.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-stabdefence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 42</td><td>Stab: 246</td></tr><tr><td>Slash: 0</td><td>Slash: 248</td></tr><tr><td>Crush: 62</td><td>Crush: 230</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 57</td><td>Prayer: 5</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-stabdefence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-stabdefence', 'equipment-interface-stabdefence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'gnome_amulet',
+    'dragon_mace',
+    'rune_platebody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'boots_ranger',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -150,14 +197,24 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h3 id="defence-slash">Slash Defence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/defenseslash.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-slashdefence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 60</td><td>Stab: 246</td></tr><tr><td>Slash: 71</td><td>Slash: 251</td></tr><tr><td>Crush: 0</td><td>Crush: 232</td></tr><tr><td>Magic: -70</td><td>Magic: -2</td></tr><tr><td>Range: -18</td><td>Range: 220</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 73</td><td>Prayer: 0</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-slashdefence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-slashdefence', 'equipment-interface-slashdefence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'gnome_amulet',
+    'dragon_longsword',
+    'rune_platebody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'boots_ranger',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -223,14 +280,24 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h3 id="defence-ranged">Ranged Defence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/defenseranged.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-rangedefence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 40</td><td>Stab: 232</td></tr><tr><td>Slash: -2</td><td>Slash: 236</td></tr><tr><td>Crush: 60</td><td>Crush: 221</td></tr><tr><td>Magic: -70</td><td>Magic: 5</td></tr><tr><td>Range: -18</td><td>Range: 229</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 55</td><td>Prayer: 5</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-rangedefence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-rangedefence', 'equipment-interface-rangedefence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'amulet_of_defence',
+    'dragon_mace',
+    'rune_platebody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'ice_gloves',
+    'boots_ranger',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -287,14 +354,24 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h3 id="defence-magic">Magic Defence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/defensemagic.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-magicdefence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 0</td><td>Stab: 64</td></tr><tr><td>Slash: 0</td><td>Slash: 77</td></tr><tr><td>Crush: 0</td><td>Crush: 93</td></tr><tr><td>Magic: -31</td><td>Magic: 107</td></tr><tr><td>Range: 72</td><td>Range: 87</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Ranged<br>strength: 48</td><td>Prayer: 0</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-magicdefence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-magicdefence', 'equipment-interface-magicdefence-stats', false,
+    'robinhoodhat',
+    'zamorak_cape',
+    'amulet_of_defence',
+    'crossbow',
+    'black_dragonhide_body',
+    'elemental_shield',
+    'black_dragonhide_chaps',
+    'black_dragon_vambraces',
+    'boots_ranger',
+    null,
+    'pearl_bolt'
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -357,17 +434,27 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     </tr>
 </table>
 <hr>
-<h3 id="offense-crush">Crush Offense</h3>
+<h3 id="offence-crush">Crush Offence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/offensecrush.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-crushoffence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 52</td><td>Stab: 235</td></tr><tr><td>Slash: 10</td><td>Slash: 236</td></tr><tr><td>Crush: 72</td><td>Crush: 217</td></tr><tr><td>Magic: -50</td><td>Magic: -1</td></tr><tr><td>Range: -16</td><td>Range: 223</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 63</td><td>Prayer: 8</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-crushoffence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-crushoffence', 'equipment-interface-crushoffence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'amulet_of_glory',
+    'dragon_mace',
+    'rune_platebody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'ikov_bootsoflightness',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -450,17 +537,27 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 </table>
 *Both Dragon Mace and Dragon Spear have a fast tick of 4, but Dragon Mace has a +5 Prayer Bonus and can be equipped with a shield. Dragon Spear offers the advantage of poison.
 <hr>
-<h3 id="offense-stabslash">Stab/Slash Offense</h3>
+<h3 id="offence-stabslash">Stab/Slash Offence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/offensestabslash.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-stabslashoffence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 70</td><td>Stab: 235</td></tr><tr><td>Slash: 81</td><td>Slash: 239</td></tr><tr><td>Crush: 10</td><td>Crush: 219</td></tr><tr><td>Magic: -50</td><td>Magic: -1</td></tr><tr><td>Range: -16</td><td>Range: 223</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 79</td><td>Prayer: 3</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-stabslashoffence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-stabslashoffence', 'equipment-interface-stabslashoffence-stats', false,
+    'dragon_med_helm',
+    'cape_of_legends',
+    'amulet_of_glory',
+    'dragon_longsword',
+    'rune_platebody',
+    'dragon_sq_shield',
+    'rune_platelegs',
+    'steel_gauntlets',
+    'ikov_bootsoflightness',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -543,17 +640,27 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 </table>
 *The Dragon Spear offers a faster tick rate (4 ticks instead of 5) as well as poison damage compared to the Dragon Longsword. Use the Dragon Longsword for Slashing or more defence bonuses.
 <hr>
-<h3 id="offense-ranged">Ranged Offense</h3>
+<h3 id="offence-ranged">Ranged Offence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/offenseranged.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-rangeoffence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 10</td><td>Stab: 68</td></tr><tr><td>Slash: 10</td><td>Slash: 82</td></tr><tr><td>Crush: 10</td><td>Crush: 98</td></tr><tr><td>Magic: -45</td><td>Magic: 92</td></tr><tr><td>Range: 153</td><td>Range: 90</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Ranged<br>strength: 49</td><td>Prayer: 3</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-rangeoffence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-rangeoffence', 'equipment-interface-rangeoffence-stats', false,
+    'robinhoodhat',
+    'zamorak_cape',
+    'amulet_of_glory',
+    'magic_shortbow',
+    'black_dragonhide_body',
+    null,
+    'black_dragonhide_chaps',
+    'black_dragon_vambraces',
+    'boots_ranger',
+    null,
+    'rune_arrow_p'
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -616,17 +723,27 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 </table>
 *Magic Longbows should only be used for engaging monsters at a further distances. In the case of high defence opponents, the special attack of the Longbow is more consistent than the Shortbow. Otherwise, Magic Shortbows should be used as their faster attack rates deal more DPS overall.
 <hr>
-<h3 id="offense-magic">Magic Offense</h3>
+<h3 id="offence-magic">Magic Offence</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/offensemagic.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-magicoffence"></div>
     <td>
-        <table class="subtable">
-            <tbody><tr><th>Attack bonus</th><th>Defence bonus</th></tr><tr><td>Stab: 22</td><td>Stab: 21</td></tr><tr><td>Slash: 11</td><td>Slash: 25</td></tr><tr><td>Crush: 52</td><td>Crush: 21</td></tr><tr><td>Magic: 42</td><td>Magic: 42</td></tr><tr><td>Range: 10</td><td>Range: 10</td></tr><tr><th colspan="2">Other bonuses</th></tr><tr><td>Strength: 58</td><td>Prayer: 6</td></tr></tbody>
-        </table>
+        <div id="equipment-interface-magicoffence-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-magicoffence', 'equipment-interface-magicoffence-stats', false,
+    'gnome_hat_blue',
+    'zamorak_cape',
+    'amulet_of_glory',
+    'mystic_air_staff',
+    'wizards_robe',
+    'antidragonbreathshield',
+    'zamrobebottom',
+    'gauntlets_of_chaos',
+    'boots_wizard',
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
@@ -688,23 +805,24 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h3 id="prayer">Prayer Bonus</h3>
 <table>
     <td>
-        <img src="img/special_guides/bis/prayer.png" width="200px"/>
-    </td>
+        <div id="equipment-interface-prayer"></div>
     <td>
-        <table class="subtable">
-            <tbody>
-                <tr><th>Attack bonus</th><th>Defence bonus</th></tr>
-                <tr><td>Stab: 42</td><td>Stab: 0</td></tr>
-                <tr><td>Slash: 0</td><td>Slash: 0</td></tr>
-                <tr><td>Crush: 62</td><td>Crush: 0</td></tr>
-                <tr><td>Magic: 2</td><td>Magic: 0</td></tr>
-                <tr><td>Range: 2</td><td>Range: 0</td></tr>
-                <tr><th colspan="2">Other bonuses</th></tr>
-                <tr><td>Strength: 55</td><td>Prayer: 24</td></tr>
-            </tbody>
-        </table>
+        <div id="equipment-interface-prayer-stats"></div>
     </td>
 </table>
+<script>loadEquipInterfaceWithStats('equipment-interface-prayer', 'equipment-interface-prayer-stats', false,
+    null,
+    null,
+    'blessedsnake',
+    'dragon_mace',
+    'monkrobetop',
+    null,
+    'monkrobebottom',
+    null,
+    null,
+    null,
+    null
+);</script>
 <table class="calculators">
     <tr>
         <th>Slot</th>
