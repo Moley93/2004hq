@@ -15,18 +15,22 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <th>Ore</th>
             <th>Level required</th>
+            <th>Common Locations</th>
         </tr>
         <tr>
             <td><canvas data-itemname="blankrune" data-show-label="true"></canvas></td>
             <td>1</td>
+            <td>Rune essence mine (Varrock teleport)<br>Rune essence mine (Yanille teleport)</td>
         </tr>
         <tr>
             <td><canvas data-itemname="clay" data-show-label="true"></canvas></td>
             <td>1</td>
+            <td>Southwest Varrock Mine<br>Southeast Varrock Mine<br>Rimmington Mine</td>
         </tr>
         <tr>
             <td><canvas data-itemname="copper_ore" data-show-label="true"></canvas></td>
             <td>1</td>
+            <td rowspan="2">Southwest Varrock Mine<br>Southeast Varrock Mine<br>Dwarven Mine</td>
         </tr>
         <tr>
             <td><canvas data-itemname="tin_ore" data-show-label="true"></canvas></td>
@@ -35,38 +39,47 @@ function getSkillContent($skill) { return <<<HTML
         <tr>
             <td><canvas data-itemname="blurite_ore" data-show-label="true"></canvas></td>
             <td>10</td>
+            <td>Asgarnian Ice Dungeon</td>
         </tr>
         <tr>
             <td><canvas data-itemname="iron_ore" data-show-label="true"></canvas></td>
             <td>15</td>
+            <td>Southeast Varrock Mine<br>Fight Arena Mine<br>Al Kharid Mine<br>Mining Guild</td>
         </tr>
         <tr>
             <td><canvas data-itemname="silver_ore" data-show-label="true"></canvas></td>
             <td>20</td>
+            <td>Al Kharid Mine<br>Southwest Varrock Mine<br>Crafting Guild</td>
         </tr>
         <tr>
             <td><canvas data-itemname="coal" data-show-label="true"></canvas></td>
             <td>30</td>
+            <td>Dwarven Mine<br>Coal Trucks<br>Barbarian Village<br>Mining Guild</td>
         </tr>
         <tr>
             <td><canvas data-itemname="gold_ore" data-show-label="true"></canvas></td>
             <td>40</td>
+            <td>North Brimhaven Mine<br>Crafting Guild</td>
         </tr>
         <tr>
             <td><img src="img/skillguides/shilo_gems.gif" height="28"><br>Gem rocks</td>
             <td>40</td>
+            <td>Shilo Village</td>
         </tr>
         <tr>
             <td><canvas data-itemname="mithril_ore" data-show-label="true"></canvas></td>
             <td>55</td>
+            <td>Al Kharid Mine<br>Fight Arena Mine<br>West Lumbridge Swamp Mine<br>Mining Guild</td>
         </tr>
         <tr>
             <td><canvas data-itemname="adamantite_ore" data-show-label="true"></canvas></td>
             <td>70</td>
+            <td>Al Kharid Mine<br>West Lumbridge Swamp Mine<br>Grand Tree Mine<br>Desert Mining Camp (underground)</td>
         </tr>
         <tr>
             <td><canvas data-itemname="runite_ore" data-show-label="true"></canvas></td>
             <td>85</td>
+            <td>Lava Maze Runite Mine<br>Heroes Guild</td>
         </tr>
     </table>
     <hr>
