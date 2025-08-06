@@ -42,6 +42,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-crushdefence"></div>
+    </td>
     <td>
         <div id="equipment-interface-crushdefence-stats"></div>
     </td>
@@ -120,6 +121,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-stabdefence"></div>
+    </td>
     <td>
         <div id="equipment-interface-stabdefence-stats"></div>
     </td>
@@ -198,6 +200,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-slashdefence"></div>
+    </td>
     <td>
         <div id="equipment-interface-slashdefence-stats"></div>
     </td>
@@ -281,6 +284,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-rangedefence"></div>
+    </td>
     <td>
         <div id="equipment-interface-rangedefence-stats"></div>
     </td>
@@ -355,6 +359,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-magicdefence"></div>
+    </td>
     <td>
         <div id="equipment-interface-magicdefence-stats"></div>
     </td>
@@ -438,6 +443,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-crushoffence"></div>
+    </td>
     <td>
         <div id="equipment-interface-crushoffence-stats"></div>
     </td>
@@ -541,6 +547,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-stabslashoffence"></div>
+    </td>
     <td>
         <div id="equipment-interface-stabslashoffence-stats"></div>
     </td>
@@ -644,6 +651,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-rangeoffence"></div>
+    </td>
     <td>
         <div id="equipment-interface-rangeoffence-stats"></div>
     </td>
@@ -727,6 +735,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-magicoffence"></div>
+    </td>
     <td>
         <div id="equipment-interface-magicoffence-stats"></div>
     </td>
@@ -806,6 +815,7 @@ clearAllEquipment();
 <table>
     <td>
         <div id="equipment-interface-prayer"></div>
+    </td>
     <td>
         <div id="equipment-interface-prayer-stats"></div>
     </td>
