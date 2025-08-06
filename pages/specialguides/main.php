@@ -5,6 +5,7 @@ $speciallist = array(
     "coaltrucks" => "Coal Trucks",
     "kittencare" => "Kitten Care",
     "music" => "Music Locations",
+    "randomevents" => "Random Events",
     "specialattacks" => "Special Attacks"
 );
 
