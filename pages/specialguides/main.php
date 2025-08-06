@@ -8,6 +8,10 @@ $speciallist = array(
     "specialattacks" => "Special Attacks"
 );
 
+function getExtraHeaderContent() { 
+    return getJavaScriptVersion('js/equipment_interface.js'); 
+}
+
 function getPageContent() {
     global $meta_data, $siteOptStyle, $speciallist;
     ob_start();
