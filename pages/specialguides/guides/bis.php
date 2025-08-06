@@ -9,6 +9,8 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <a href="#offense-ranged">Ranged Offense</a> | <a href="#offense-magic">Magic Offense</a><br>
 <a href="#prayer">Prayer</a><br>
 <hr>
+<b>Protip:</b> Rune plateskirts offer the same stats as platelegs but are 1kg lighter. If you're managing weight (e.g., for running or agility), consider using a plateskirt instead.
+<br><br>
 <h3 id="defence-crush">Crush Defence</h3>
 <table>
     <td>
