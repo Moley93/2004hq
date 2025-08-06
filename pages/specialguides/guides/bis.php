@@ -7,6 +7,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <a href="#defence-ranged">Ranged Defence</a> | <a href="#defence-magic">Magic Defence</a><br>
 <a href="#offense-crush">Crush Offense</a> | <a href="#offense-stabslash">Stab/Slash Offense</a><br>
 <a href="#offense-ranged">Ranged Offense</a> | <a href="#offense-magic">Magic Offense</a><br>
+<a href="#prayer">Prayer</a><br>
 <hr>
 <h3 id="defence-crush">Crush Defence</h3>
 <table>
@@ -643,7 +644,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
     <tr>
         <td>Weapon</td>
         <td><canvas data-itemname="mystic_air_staff"></canvas><canvas data-itemname="mystic_water_staff"></canvas><canvas data-itemname="mystic_earth_staff"></canvas><canvas data-itemname="mystic_fire_staff"></canvas><br>Any Mystic Staff</td>
-        <td>+14 Magic Attack</td>
+        <td>+10 Magic Attack</td>
     </tr>
     <tr>
         <td>Chest</td>
@@ -673,6 +674,57 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
         <td>Boots</td>
         <td><canvas data-itemname="boots_wizard" data-show-label="inline"></canvas></td>
         <td>+4 Magic Attack</td>
+    </tr>
+</table>
+<hr>
+<h3 id="prayer">Prayer Bonus</h3>
+<table>
+    <td>
+        <img src="img/special_guides/bis/prayer.png" width="200px"/>
+    </td>
+    <td>
+        <table class="subtable">
+            <tbody>
+                <tr><th>Attack bonus</th><th>Defence bonus</th></tr>
+                <tr><td>Stab: 40</td><td>Stab: 0</td></tr>
+                <tr><td>Slash: -2</td><td>Slash: 0</td></tr>
+                <tr><td>Crush: 60</td><td>Crush: 0</td></tr>
+                <tr><td>Magic: 0</td><td>Magic: 0</td></tr>
+                <tr><td>Range: 0</td><td>Range: 0</td></tr>
+                <tr><th colspan="2">Other bonuses</th></tr>
+                <tr><td>Strength: 55</td><td>Prayer: 24</td></tr>
+            </tbody>
+        </table>
+    </td>
+</table>
+<table class="calculators">
+    <tr>
+        <th>Slot</th>
+        <th>Item</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Neck</td>
+        <td><canvas data-itemname="blessedstar"></canvas><canvas data-itemname="blessedsnake"></canvas><br>Holy or Unholy Symbol<br>
+        Holy gives +2 to all Defence Bonuses<br>
+        Unholy gives +2 to all Attack Bonuses
+        </td>
+        <td>+8 Prayer Bonus</td>
+    </tr>
+    <tr>
+        <td>Weapon</td>
+        <td><canvas data-itemname="dragon_mace"></canvas></td>
+        <td>+5 Prayer Bonus</td>
+    </tr>
+    <tr>
+        <td>Chest</td>
+        <td><canvas data-itemname="monkrobetop"></canvas><canvas data-itemname="blackrobetop"></canvas><br>Monk or Black Robe Top</td>
+        <td>+5 Prayer Bonus</td>
+    </tr>
+    <tr>
+        <td>Legs</td>
+        <td><canvas data-itemname="monkrobebottom" data-show-label="inline"></canvas></td>
+        <td>+6 Prayer Bonus</td>
     </tr>
 </table>
 <hr>
