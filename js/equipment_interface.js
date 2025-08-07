@@ -19,17 +19,17 @@ const EQUIPMENT_SLOTS = {
 };
 
 const SLOT_POSITIONS = {
-    'head': { x: 116, y: 52 },
-    'cape': { x: 75, y: 92 },
-    'neck': { x: 116, y: 92 },
-    'weapon': { x: 61, y: 132 },
-    'body': { x: 116, y: 132 },
-    'shield': { x: 172, y: 132 },
-    'legs': { x: 116, y: 172 },
-    'gloves': { x: 61, y: 212 },
-    'boots': { x: 116, y: 212 },
-    'ring': { x: 172, y: 212 },
-    'quiver': { x: 157, y: 92 }
+    'head': { x: 105, y: 48 },
+    'cape': { x: 63, y: 87 },
+    'neck': { x: 105, y: 87 },
+    'weapon': { x: 49, y: 127 },
+    'body': { x: 105, y: 127 },
+    'shield': { x: 161, y: 127 },
+    'legs': { x: 105, y: 167 },
+    'gloves': { x: 49, y: 206 },
+    'boots': { x: 105, y: 206 },
+    'ring': { x: 161, y: 206 },
+    'quiver': { x: 147, y: 87 }
 };
 
 function loadEquipInterface(targetDiv, allowChange, headItem, capeItem, neckItem, weaponItem, bodyItem, shieldItem, legsItem, glovesItem, bootsItem, ringItem, quiverItem) {
