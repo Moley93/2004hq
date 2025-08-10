@@ -3,7 +3,7 @@ function getSpecialGuide($currSpecialGuide) { return <<<HTML
 <h2>$currSpecialGuide</h2>
 Some weapons in RuneScape have special attacks available for them. There are many types of special attacks, from temporary boosts in stats, to strikes dealing extra damage.
 <br><br>
-<img src="img/special_guides/specialattacks/special_attack_bar.png">
+<img src="img/special_guides/specialattacks/special_attack_bar.gif">
 <br><br>
 They are activated by the player by clicking on the special attack bar under the Combat Options interface. Special attacks have an energy bar that is drained when you use the attack; this is drained of varying amounts according to which weapon is used. The special energy bar regenerates at rate of 10% every 30 seconds, requiring 5 minutes to regenerate from empty to full.
 <br><br>
