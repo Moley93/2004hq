@@ -53,7 +53,7 @@ A map of the places for some of the next steps:
 <br><br>
 <img src="img/questimages/elemental7.png" height="200" width="350">
 <br><br>
-<div data-progress>After that, go to the east passage and fix the bellows. This is where the leather, thread, and needle come in.</div>
+<div data-progress>After that, go to the east passage and fix the bellows. This is where the leather, thread, and needle come in. (Leather can be found randomly in one of the crates)</div>
 <br><br>
 <img src="img/questimages/elemental8.png" height="200" width="400">
 <br><br>
@@ -61,19 +61,19 @@ A map of the places for some of the next steps:
 <br><br>
 <div data-progress>After that, search all the crates for a Stone Bowl (you only need to search each crate once). The location is different for each player. When you find it, go down the south passage.</div>
 <br><br>
-<img src="img/questimages/elemental9.png" height="200" width="350">
-<br><br>
 <div data-progress>Use the bowl on the lava, and you will get a Stone Bowl filled with lava. Then use the bowl with lava in it on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental10.gif" height="300" width="200">
+<img src="img/questimages/elemental9.png" height="200" width="350">
 <br><br>
 <div data-progress>Go back to the bellows and pull the switch.</div>
 <br><br>
 <div data-progress>Go back to the furnace and use your Elemental Ore and 4 Coal on the furnace.</div>
 <br><br>
-<img src="img/questimages/elemental11.png" height="200" width="300">
+<img src="img/questimages/elemental10.gif" height="300" width="200">
 <br><br>
 <div data-progress>Then go back to the center and use your Elemental Metal on the workbench. You will need to have the Battered Book in your inventory to make the shield, or it will tell you that you need instructions.</div>
+<br><br>
+<img src="img/questimages/elemental11.png" height="200" width="300">
 <br><br>
 <div data-progress>When you've made the Elemental Shield, you've completed the quest.</div>
 <br><br>
