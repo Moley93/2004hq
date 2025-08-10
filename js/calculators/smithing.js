@@ -60,7 +60,7 @@ const smithingXP = {
         "Steel Dart Tip": { bars: 1, xp: 37.5, level: 34 },
         "Steel Scimitar": { bars: 2, xp: 75, level: 35 },
         "Steel Arrowheads": { bars: 1, xp: 37.5, level: 35 },
-        "mCannonball": { bars: 1, xp: 50, level: 35 },
+        "mCannonball": { bars: 1, xp: 37.5, level: 35 }, // not sure if 50xp in 225
         "Steel Longsword": { bars: 2, xp: 75, level: 36 },
         "Studs": { bars: 1, xp: 37.5, level: 36 },
         "Steel Full Helm": { bars: 2, xp: 75, level: 37 },
