@@ -89,8 +89,7 @@ The other items are best to make the trip as smooth as possible:
     <li>Some food, you may need to run past enemies</li>
     <li>Boots of Lightness (reduces your weight)</li>
     <li>Anti-poison pots (you never know)</li>
-    <li>On level 3 clues you will be attacked by a level 108 Saradomin wizard or level 75 Zamorak wizard (in wilderness) as you dig,
-        so be prepared to fight: bring an antipoison, use prayer; it is advisable to turn on magic protection!</li>
+    <li>On level 3 clues you will be attacked by a level 108 Saradomin wizard or level 75 Zamorak wizard (in wilderness) as you dig, so be prepared to fight: bring an antipoison, use prayer; it is advisable to turn on magic protection!</li>
 </ul>
 <br>
 Treasure trails is for RS Members only. It is sort of a small mini-quest in which 
@@ -106,6 +105,17 @@ a lot of people in that area. <br>
 There are a lot of solutions in this guide and you might not even find yours if 
 looking manually. Simply use the "CTRL + F" feature and search for keywords. 
 For example "halt us" or "under cook".<br>
+<br>
+<hr>
+<h3>Aquiring Sextant, Watch, and Chart</h3>
+In order to aquire a sextant, watch, and chart, you first must have a <b><a href="?p=clueguides&guide=coordinates">coordinate clue</a></b> and have either started or completed the <a href="?p=questguides&quest=observatory">Observatory Quest</a>. Once you have met these requirements, the steps are as follows:
+<ol>
+  <li>With the coordinate clue in your inventory, talk to the Observatory professor about Treasure Trails.</li>
+  <li>Head over to Port Khazard and speak to Murphy to obtain a sextant.</li>
+  <li>Speak with Brother Kojo in the Clock Tower for a watch.</li>
+  <li>Finally, go back to the Observatory and speak with the assistant for the chart.</li>
+  <li>Speak to the Observatory professor for the last and final time. Now you can do coordinate scrolls!</li>
+</ol>
 <br>
 <hr>
 <h3>Clue Droppers</h3>
