@@ -104,11 +104,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td>+7 Crush Resistance</td>
+        <td rowspan="2">+7 Crush Resistance</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
-        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -183,11 +182,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td>+8 Stab Resistance</td>
+        <td rowspan="2">+8 Stab Resistance</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
-        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -266,11 +264,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td>+9 Slash Resistance</td>
+        <td rowspan="2">+9 Slash Resistance</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
-        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -529,11 +526,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td>+2 Crush Attack<br>+2 Strength Bonus</td>
+        <td rowspan="2">+2 Crush Attack<br>+2 Strength Bonus</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
-        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -633,11 +629,10 @@ clearAllEquipment();
     <tr>
         <td rowspan="2">Gloves</td>
         <td><canvas data-itemname="steel_gauntlets"></canvas><canvas data-itemname="gauntlets_of_chaos"></canvas><canvas data-itemname="gauntlets_of_cooking"></canvas><canvas data-itemname="gauntlets_of_goldsmithing"></canvas><br>Any Family Crest Gauntlets</td>
-        <td>+2 Stab/Slash Attack<br>+2 Strength Bonus</td>
+        <td rowspan="2">+2 Stab/Slash Attack<br>+2 Strength Bonus</td>
     </tr>
     <tr>
         <td><canvas data-itemname="klanks_gauntlets" data-show-label="inline"></canvas></td>
-        <td>Identical to Family Crest Guantlets</td>
     </tr>
     <tr>
         <td>Boots</td>
@@ -865,7 +860,7 @@ clearAllEquipment();
 </table>
 *Use the Unholy Symbol instead of the Holy Symbol when overhead prayers are active, as the former provides better offensive stats.
 <hr>
-This quest guide was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
+This special report was written on 2004HQ by Fallnight. Thanks to Geerin and Fran 2004 for corrections.
 <br><br>
-This quest guide was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 01:59:51 PM by Halogod35.
+This special report was entered into the database on Wed, Jul 30, 2025, at 11:51:20 PM by Halogod35 and was last updated on Wed, Aug 06, 2025, at 01:59:51 PM by Halogod35.
 HTML; }
