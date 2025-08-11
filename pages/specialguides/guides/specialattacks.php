@@ -26,7 +26,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
-        <td colspan="4">+20% strength, -10% attack, -10% defense, -10% magic, -10% ranged</td>
+        <td colspan="4">-10% attack, defence, magic, & ranged levels. Boosts Strength by the average of these drained stats + 10.</td>
     </tr>
 </table>
 <br><br>
@@ -49,7 +49,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
-        <td colspan="4">2 Quick Strikes, Increased Accuracy and Damage</td>
+        <td colspan="4">2 Quick Strikes, Increased Accuracy and Damage.</td>
     </tr>
 </table>
 <br><br>
@@ -72,7 +72,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
-        <td colspan="4">Increased Accuracy and Damage</td>
+        <td colspan="4">Increased Accuracy and Damage.</td>
     </tr>
 </table>
 <br><br>
@@ -95,7 +95,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
-        <td colspan="4">High Power and Reduced Accuracy</td>
+        <td colspan="4">High Power and Reduced Accuracy.</td>
     </tr>
 </table>
 <br><br>
@@ -141,7 +141,7 @@ They are activated by the player by clicking on the special attack bar under the
     </tr>
     <tr><th colspan="4">Effect when used</th></tr>
     <tr>
-        <td colspan="4">+10% Defense</td>
+        <td colspan="4">+8 Defence boost</td>
     </tr>
 </table>
 <br><br>
