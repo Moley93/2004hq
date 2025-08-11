@@ -121,6 +121,31 @@ In order to aquire a sextant, watch, and chart, you first must have a <a href="?
 <h3>Clue Droppers</h3>
 For clue droppers you can check our <a href="?p=droptables">Drop Tables page</a>.<br>
 Search for "Clue Scroll"<br>
+<br><br>
+<h3>Common Farming Locations</h3>
+Here is a list of commonly farmed NPCs and their locations.
+<table class="calculators">
+  <tr>
+    <th>Scroll</th>
+    <th>NPC/Location</th>
+    <th>Notes</th>
+  </tr>
+  <tr>
+    <td>Easy</td>
+    <td>Thugs - Edgeville dungeon level 2 wilderness</td>
+    <td>In the wilderness, thugs are aggressive to all combat levels. Watch for PKers within 2 levels.</td>
+  </tr>
+  <tr>
+    <td>Medium</td>
+    <td>Guards - Falador</td>
+    <td>Guards can be safespotted from behind the fences.</td>
+  </tr>
+  <tr>
+    <td>Hard</td>
+    <td>Hellhounds - Witchhaven dungeon</td>
+    <td>A Dwarf Multicannon can be used here to greatly speed up farming.</td>
+  </tr>
+</table>
 <br>
 <hr>
 <h3>Trail Levels and Rewards</h3>
