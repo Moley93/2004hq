@@ -1,16 +1,16 @@
 
 let selectedPrayers = [];
 const prayers = [
-    { name: "Thick Skin",            drain:  5, title: "Thick Skin: +5% Defense" },
+    { name: "Thick Skin",            drain:  5, title: "Thick Skin: +5% Defence" },
     { name: "Burst of Strength",     drain:  5, title: "Burst of Strength: +5% Strength" },
     { name: "Clarity of Thought",    drain:  5, title: "Clarity of Thought: +5% Attack" },
-    { name: "Rock Skin",             drain: 10, title: "Rock Skin: +10% Defense" },
+    { name: "Rock Skin",             drain: 10, title: "Rock Skin: +10% Defence" },
     { name: "Superhuman Strength",   drain: 10, title: "Superhuman Strength: +10% Strength" },
     { name: "Improved Reflexes",     drain: 10, title: "Improved Reflexes: +10% Attack" },
     { name: "Rapid Restore",         drain: 1.6667, title: "Rapid Restore: Halves restore time" },
     { name: "Rapid Heal",            drain: 3.3333, title: "Rapid Heal: Halves HP drain rate" },
     { name: "Protect Item",          drain: 3, title: "Protect Item: Keep 1 extra item on death" },
-    { name: "Steel Skin",            drain: 20, title: "Steel Skin: +15% Defense" },
+    { name: "Steel Skin",            drain: 20, title: "Steel Skin: +15% Defence" },
     { name: "Ultimate Strength",     drain: 20, title: "Ultimate Strength: +15% Strength" },
     { name: "Incredible Reflexes",   drain: 20, title: "Incredible Reflexes: +15% Attack" },
     { name: "Protect from Magic",    drain: 20, title: "Protect from Magic: 100% magic protection" },

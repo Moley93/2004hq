@@ -53,7 +53,7 @@ Taurus: Super Strength Potion<br>
 Gemini: Black 2-Handed Sword<br>
 Cancer: Amulet of Defence<br>
 Leo: 875 Hitpoints XP<br>
-Virgo: 875 Defense XP<br>
+Virgo: 875 Defence XP<br>
 Libra: 3 Law Runes<br>
 Scorpio: Weapon Poison<br>
 Sagittarius: Maple Longbow<br>

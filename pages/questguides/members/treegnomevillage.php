@@ -22,7 +22,7 @@ function getQuestGuide($questName, $questComplete) { return <<<HTML
 <br>
 <div data-progress>Find Elkoy near the northwest corner of the maze. He invites you to try the maze. Once you conquer it, talk to King Bolren. He'll ask you to help their cause by retrieving 1 of 3 orbs of protection. Agree and you'll be led to battlefield.</div>
 <br><br>
-<div data-progress>Talk to Commander Montai to get the latest update with the battle. He'll ask for 6 loads of wood to repair defenses. Assuming you have your 6 logs with you, talk to him again. He will thank you. Speak to him once more, and he'll ask you to find the coordinates from his trackers to fire the ballista at the Khazard stronghold.</div>
+<div data-progress>Talk to Commander Montai to get the latest update with the battle. He'll ask for 6 loads of wood to repair defences. Assuming you have your 6 logs with you, talk to him again. He will thank you. Speak to him once more, and he'll ask you to find the coordinates from his trackers to fire the ballista at the Khazard stronghold.</div>
 <br><br>
 <div data-progress>Head north to find the first tracker. He's in an oblong building in the northeast part of the Khazard camp. You'll learn that the Y-coordinate is 5.</div>
 <br><br>

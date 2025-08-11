@@ -31,7 +31,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>1</td>
             <td><img src="img/skillguides/prayericons/thickskin.gif"></td>
 			<td>Thick Skin</td>
-			<td>Increases your defense by 5%.</td>
+			<td>Increases your defence by 5%.</td>
         <tr>
         </tr>
             <td>4</td>
@@ -49,7 +49,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>10</td>
             <td><img src="img/skillguides/prayericons/rockskin.gif"></td>
 			<td>Rock Skin</td>
-			<td>Increases your defense by 10%.</td>
+			<td>Increases your defence by 10%.</td>
         <tr>
         </tr>
             <td>13</td>
@@ -85,7 +85,7 @@ function getSkillContent($skill) { return <<<HTML
             <td>28</td>
             <td><img src="img/skillguides/prayericons/steelskin.gif"></td>
 			<td>Steel Skin</td>
-			<td>Increases your defense by 15%.</td>
+			<td>Increases your defence by 15%.</td>
         <tr>
         </tr>
             <td>31</td>

@@ -275,7 +275,7 @@ clearAllEquipment();
         <td>+3 Slash Resistance</td>
     </tr>
 </table>
-*Dragons primarily deal slash damage in melee, making this slash-defense build ideal when combined with a Dragonfire shield.
+*Dragons primarily deal slash damage in melee, making this slash-defence build ideal when combined with a Dragonfire shield.
 <hr>
 <h3 id="defence-ranged">Ranged Defence</h3>
 <table>

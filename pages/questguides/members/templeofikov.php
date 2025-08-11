@@ -84,7 +84,7 @@ The things you should bring on this (3rd) trip:
 <div data-progress>Lots of food</div><br>
 <div data-progress>Prayer Restore Potions (if you can use Protect from Magic, if you have 50 or higher ranged, then full prayer will be sufficient to kill him and you will not need to recharge until you are finished)</div>
 <br><br>
-For your armor, I would suggest Dragon Hide, because it gives 30+ magic defense, while rune armor gives around -10. Also, dragon hide armor gives you a ranged attack bonus which is very helpful in killing the Fire Warrior. If you have rune armor, it is better to fight him naked. Rune armor gives you a ranged attack penalty and a mage defense penalty. This guy mages you, he will not attack any other way, and you cannot hide behind a rock while you fight him.
+For your armor, I would suggest Dragon Hide, because it gives 30+ magic defence, while rune armor gives around -10. Also, dragon hide armor gives you a ranged attack bonus which is very helpful in killing the Fire Warrior. If you have rune armor, it is better to fight him naked. Rune armor gives you a ranged attack penalty and a mage defence penalty. This guy mages you, he will not attack any other way, and you cannot hide behind a rock while you fight him.
 <br><br>
 <div data-progress>Equip everything, go down the ladder, north through the skeleton room, then straight north to a lever with a trap door. DO NOT IMMEDIATELY PULL THE LEVER! Search for traps on the lever and disarm it, then you may pull the lever. If you pull the lever without disarming the traps, then the trap door will open and you will fall on spikes taking up to 20 hp in damage.</div>
 <br><br>
