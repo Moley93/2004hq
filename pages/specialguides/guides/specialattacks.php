@@ -7,83 +7,210 @@ Some weapons in RuneScape have special attacks available for them. There are man
 <br><br>
 They are activated by the player by clicking on the special attack bar under the Combat Options interface. Special attacks have an energy bar that is drained when you use the attack; this is drained of varying amounts according to which weapon is used. The special energy bar regenerates at rate of 10% every 30 seconds, requiring 5 minutes to regenerate from empty to full.
 <br><br>
-<table class="calculators">
+<table class="calculators" width="100%">
     <tr>
-        <th>Item with Special Attack</th>
-        <th>Special Attack Energy</th>
-        <th>Picture</th>
+        <th colspan="4"><canvas data-itemname="dragon_battleaxe" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_battleaxe" data-show-label="true"></canvas></td>
-        <td>100%</td>
-        <td><img src="img/special_guides/specialattacks/dragonbattleaxe.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">100%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragonbattleaxe.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="3">+20% strength, -10% attack, -10% defense, -10% magic, -10% ranged</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Rampage</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack will lower your attack, ranged, defence, and magic stats while boosting your strength stat.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">+20% strength, -10% attack, -10% defense, -10% magic, -10% ranged</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="dragon_dagger" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_dagger" data-show-label="true"></canvas></td>
-        <td>25%</td>
-        <td><img src="img/special_guides/specialattacks/dragondagger.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">25%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragondagger.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">2 Quick Strikes, Increased Accuracy and Damage</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Puncture</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack consists of two quick strikes at your opponent, with slightly increased accuracy and damage.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">2 Quick Strikes, Increased Accuracy and Damage</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="dragon_longsword" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_longsword" data-show-label="true"></canvas></td>
-        <td>25%</td>
-        <td><img src="img/special_guides/specialattacks/dragonlongsword.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">25%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragonlongsword.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">Increased Accuracy and Damage</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Cleave</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack is more powerful and so inflicts increased damage to your opponent.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">Increased Accuracy and Damage</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="dragon_mace" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_mace" data-show-label="true"></canvas></td>
-        <td>25%</td>
-        <td><img src="img/special_guides/specialattacks/dragonmace.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">25%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragonmace.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">High Power and Reduced Accuracy</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Shatter</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack is much more powerful, but it also has a reduced chance to hit.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">High Power and Reduced Accuracy</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="dragon_spear" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="dragon_spear" data-show-label="true"></canvas></td>
-        <td>25%</td>
-        <td><img src="img/special_guides/specialattacks/dragonspear.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">25%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/dragonspear.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">Stuns opponent for 4 seconds and also pushes them back a square</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Shove</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack deals no damage to your opponent, it simply forces them back away from you and stuns them for a short time.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">Stuns opponent for 4 seconds and also pushes them back a square.</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="excalibur" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="excalibur" data-show-label="true"></canvas></td>
-        <td>100%</td>
-        <td><img src="img/special_guides/specialattacks/excalibur.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">100%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/excalibur.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">+10% Defense</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Sanctuary</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack protects you from harm by increasing your defence stat.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">+10% Defense</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="magic_shortbow" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="magic_shortbow" data-show-label="true"></canvas></td>
-        <td>35%</td>
-        <td><img src="img/special_guides/specialattacks/magicshortbow.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">35%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/magicshortbow.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">2 Rapid Shots, Reduced Accuracy</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Snap-Shot</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack allows you to fire two rapid shots at your opponent, however the speed reduces your accuracy.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">2 Rapid Shots, Reduced Accuracy</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="magic_longbow" data-show-label="inline"></canvas></th>
     </tr>
     <tr>
-        <td><canvas data-itemname="magic_longbow" data-show-label="true"></canvas></td>
-        <td>35%</td>
-        <td><img src="img/special_guides/specialattacks/magiclongbow.gif"></td>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">35%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/magiclongbow.gif"></td>
     </tr>
     <tr>
-        <th>Effect</th>
-        <td colspan="2">Highly increases accuracy, but it isnt a guaranteed hit</td>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Powershot</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">This attack uses the full power of the longbow so that you are guarenteed to hit your opponent.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">100% Accuracy</td>
+    </tr>
+</table>
+<br><br>
+<table class="calculators" width="100%">
+    <tr>
+        <th colspan="4"><canvas data-itemname="rune_thrownaxe" data-show-label="inline"></canvas></th>
+    </tr>
+    <tr>
+        <th width="25%">Special Attack required</th>
+        <td width="25%">10%</td>
+        <td colspan="2" rowspan="4"><img src="img/special_guides/specialattacks/runethrownaxe.gif"></td>
+    </tr>
+    <tr>
+        <th width="25%">Attack Name</th>
+        <td width="25%">Chain-Hit</td>
+    </tr>
+    <tr><th colspan="2">Description</th></tr>
+    <tr>
+        <td colspan="2">In a multiway combat area this attack bounces the projectile between several targets, dealing damage to each of them.</td>
+    </tr>
+    <tr><th colspan="4">Effect when used</th></tr>
+    <tr>
+        <td colspan="4">Hits up to 5 enemies within 3 game squares that are within line of sight.</td>
     </tr>
 </table>
 HTML; }
