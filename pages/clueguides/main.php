@@ -120,7 +120,7 @@ In order to aquire a sextant, watch, and chart, you first must have a <a href="?
 <hr>
 <h3>Clue Droppers</h3>
 For clue droppers you can check our <a href="?p=droptables">Drop Tables page</a>.<br>
-Search for "Clue Scroll"<br>
+Search for "Clue Scroll"
 <br><br>
 <h3>Common Farming Locations</h3>
 Here is a list of commonly farmed NPCs and their locations.
