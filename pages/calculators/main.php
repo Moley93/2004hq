@@ -115,7 +115,4 @@ function generateCalculatorLinks(): string {
             </tr>
         </table><br>
         <div class="xp-table"></div>
-        <script src="js/calculators.js"></script>
-        <script>renderXpTable();</script>
-    HTML;
-}
+HTML.getJavaScriptVersion('js/calculators.js').'<script>renderXpTable();</script>'; }
