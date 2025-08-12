@@ -134,7 +134,7 @@ function renderXpTable() {
     table.classList.add('calculators');
     table.style.width = '90%';
 
-    const totalLevels = 99;
+    const totalLevels = 98;
     const columns     = 2;
     const rowsPerCol  = Math.ceil(totalLevels / columns);
 
@@ -159,8 +159,8 @@ function renderXpTable() {
     for (let r = 0; r < rowsPerCol; r++) {
         const tr = document.createElement('tr');
         for (let c = 0; c < columns; c++) {
-            const level = c * rowsPerCol + (r + 1);
-            if (level <= totalLevels) {
+            const level = c * rowsPerCol + (r + 2);
+            if (level <= 99) {
                 const xp = getXPForLevel(level);
                 const tdLevel = document.createElement('td');
                 tdLevel.textContent = level;
@@ -172,10 +172,10 @@ function renderXpTable() {
                 tr.appendChild(document.createElement('td'));
                 tr.appendChild(document.createElement('td'));
             }
-            table.appendChild(tr);         
         }
-        xpDiv.appendChild(table);
+        table.appendChild(tr);
     }
+    xpDiv.appendChild(table);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
