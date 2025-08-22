@@ -1,2 +1,2 @@
-# 2004hq
- 2004hq - runehq
+# Moving Repos
+New Repo Location: https://github.com/LostHQ/2004
